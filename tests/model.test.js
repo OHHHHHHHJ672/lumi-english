@@ -115,20 +115,45 @@ test('a question that already earned XP does not award XP in a later session', (
   assert.strictEqual(s.daily.xp, 5);
 });
 
-test('new lessons spend hearts on mistakes while review lessons do not', () => {
+test('lessons never spend hearts on mistakes and can start at zero', () => {
   const s = stateAt();
-  assert.strictEqual(s.hearts, 5);
+  s.hearts = 0;
+  s.energy = 0;
   LumiModel.start(s, 'lesson-1', ['q1']);
+  assert.ok(s.session);
   LumiModel.answer(s, 'q1', false);
-  assert.strictEqual(s.hearts, 4);
+  assert.strictEqual(s.hearts, 0);
   s.session.index = 1;
   s.session.checked = false;
   LumiModel.answer(s, 'q1', true);
   LumiModel.finish(s, 0);
-  s.mistakes = ['q2'];
-  LumiModel.start(s, 'review', ['q2'], true);
-  LumiModel.answer(s, 'q2', false);
-  assert.strictEqual(s.hearts, 4);
+  assert.strictEqual(s.energy, 0);
+});
+
+test('first mastery and lesson completion award Lumi points once', () => {
+  const s = stateAt();
+  LumiModel.start(s, 'lesson-1', ['q1']);
+  LumiModel.answer(s, 'q1', true);
+  assert.strictEqual(s.points, 2);
+  assert.strictEqual(s.coins, 2);
+  const reward = LumiModel.finish(s, 0);
+  assert.strictEqual(reward.points, 25);
+  assert.strictEqual(s.points, 27);
+  assert.strictEqual(s.coins, 27);
+  LumiModel.start(s, 'lesson-2', ['q1']);
+  LumiModel.answer(s, 'q1', true);
+  assert.strictEqual(s.points, 27);
+});
+
+test('points can be spent without touching study access', () => {
+  const s = stateAt();
+  s.points = 10;
+  s.coins = 10;
+  assert.strictEqual(LumiModel.spendPoints(s, 3), true);
+  assert.strictEqual(s.points, 7);
+  assert.strictEqual(s.coins, 7);
+  assert.strictEqual(LumiModel.spendPoints(s, 8), false);
+  assert.strictEqual(s.points, 7);
 });
 
 test('every fifth consecutive correct answer increments combo', () => {

@@ -17,7 +17,7 @@ const LumiModel = (() => {
     return {
       version: 4, onboarded: false, goal: null, currentLevel: 'a1', targetLevel: 'b1',
       dailyMinutes: 10, reminderTime: '19:30', widgetStyle: 'sunrise', placementScore: null,
-      widgetAdded: false, xp: 0, coins: 0, hearts: CAP, energy: CAP, heartsAt: now, energyAt: now,
+      widgetAdded: false, xp: 0, points: 0, coins: 0, hearts: CAP, energy: CAP, heartsAt: now, energyAt: now,
       streak: 0, lastStudy: null, completed: [], mistakes: [], answered: 0, correct: 0,
       combo: 0, comboStreak: 0,
       earnedQuestionIds: [], legacyIds: [],
@@ -69,9 +69,14 @@ const LumiModel = (() => {
     if (!Number.isFinite(s.dailyMinutes) || ![5, 10, 15, 20, 30].includes(s.dailyMinutes)) s.dailyMinutes = 10;
     if (typeof s.reminderTime !== 'string' || !/^[0-2]\d:[0-5]\d$/.test(s.reminderTime)) s.reminderTime = '19:30';
     if (!['sunrise', 'forest', 'rocket'].includes(s.widgetStyle)) s.widgetStyle = 'sunrise';
-    for (const key of ['xp', 'coins', 'answered', 'correct', 'streak', 'combo', 'comboStreak']) {
+    for (const key of ['xp', 'answered', 'correct', 'streak', 'combo', 'comboStreak']) {
       if (!Number.isFinite(s[key]) || s[key] < 0) s[key] = 0;
     }
+    const rawPoints = source && Object.prototype.hasOwnProperty.call(source, 'points')
+      ? Number(source.points)
+      : Number(source && source.coins);
+    s.points = Number.isFinite(rawPoints) && rawPoints >= 0 ? rawPoints : 0;
+    s.coins = s.points;
     s.completed = Array.isArray(s.completed) ? [...new Set(s.completed)] : [];
     s.mistakes = Array.isArray(s.mistakes) ? [...new Set(s.mistakes)] : [];
     s.earnedQuestionIds = Array.isArray(s.earnedQuestionIds) ? [...new Set(s.earnedQuestionIds)] : [];
@@ -133,7 +138,6 @@ const LumiModel = (() => {
 
   function start(s, id, qids, review = false, now = Date.now()) {
     syncHearts(s, now);
-    if (!review && s.hearts < 1) return false;
     const ids = Array.isArray(qids) ? qids.filter(Boolean).map(String) : [];
     if (!ids.length) return false;
     s.session = {
@@ -166,6 +170,7 @@ const LumiModel = (() => {
           v.xp += 5;
           s.xp += 5;
           s.daily.xp += 5;
+          awardPoints(s, 2);
         }
       }
       v.failedQids = v.failedQids.filter(item => item !== id);
@@ -180,11 +185,6 @@ const LumiModel = (() => {
       if (!s.mistakes.includes(id)) s.mistakes.push(id);
       s.comboStreak = 0;
       v.combo = 0;
-      if (!v.review) {
-        s.hearts = Math.max(0, (Number(s.hearts) || 0) - 1);
-        s.heartsAt = Date.now();
-        syncHearts(s);
-      }
     }
     return true;
   }
@@ -196,29 +196,43 @@ const LumiModel = (() => {
     if (v.index !== v.qids.length - 1 || !v.checked) return null;
     const passed = v.failedQids.length === 0;
     const firstPass = passed && !v.review && !s.completed.includes(v.lessonId);
-    const coins = firstPass ? 10 : 0;
+    const completionPoints = firstPass ? 10 : 0;
+    const perfectPoints = firstPass && passed && v.mistakeCount === 0 ? 15 : 0;
+    const pointsAwarded = completionPoints + perfectPoints;
     if (firstPass) s.completed.push(v.lessonId);
-    s.coins += coins;
+    awardPoints(s, pointsAwarded);
     s.daily.lessons += 1;
     study(s, now);
-    if (v.review && passed) {
-      s.hearts = Math.min(CAP, s.hearts + 1);
-      syncHearts(s, now);
-    }
     const accuracy = v.attempts ? Math.round(v.correctAttempts / v.attempts * 100) : 0;
     v.finished = true;
     v.reward = {
       passed, firstPass, first: firstPass, perfect: passed && v.mistakeCount === 0, mistakeCount: v.mistakeCount,
-      coins, xp: v.xp, accuracy, combo: v.combo, energy: v.review && passed ? 1 : 0,
+      coins: pointsAwarded, points: pointsAwarded, xp: v.xp, accuracy, combo: v.combo, energy: 0,
       hearts: s.hearts,
     };
     return v.reward;
   }
 
+  function awardPoints(s, amount) {
+    const value = Number(amount);
+    if (!Number.isFinite(value) || value <= 0) return Number(s.points) || 0;
+    s.points = Math.max(0, Number(s.points) || 0) + value;
+    s.coins = s.points;
+    return s.points;
+  }
+
+  function spendPoints(s, amount) {
+    const value = Number(amount);
+    if (!Number.isFinite(value) || value <= 0 || (Number(s.points) || 0) < value) return false;
+    s.points -= value;
+    s.coins = s.points;
+    return true;
+  }
+
   function claim(s) {
     if (s.daily.xp < goalXp(s) || s.daily.claimed) return false;
     s.daily.claimed = true;
-    s.coins += 15;
+    awardPoints(s, 15);
     return true;
   }
 
@@ -232,7 +246,7 @@ const LumiModel = (() => {
     return true;
   }
 
-  return { day, goalXp, fresh, normalize, start, answer, finish, claim, refill, CAP, INTERVAL };
+  return { day, goalXp, fresh, normalize, start, answer, finish, claim, refill, points: awardPoints, spendPoints, CAP, INTERVAL };
 })();
 
 if (typeof module !== 'undefined') module.exports = LumiModel;
