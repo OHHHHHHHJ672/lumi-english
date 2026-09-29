@@ -12,7 +12,7 @@
 - onboarding 增加英语背景选择；四级/六级从高级 placement 题开始，目标等级和当前等级分开保存，完成时写入存档版本 4。
 - currentLevel 会影响路线：低于当前等级的关卡视为已掌握，超过 targetLevel 的关卡锁定。
 - 每次新课建立 session 后随机题型/题目顺序，结算页区分 `perfect` 和 `firstPass`。
-- README 更新为 80 关 / 480 题 Beta 事实。
+- README 更新为 112 关 / 672 题 Beta 事实。
 
 ## 验证结果
 
@@ -21,7 +21,7 @@ node --test tests/model.test.js tests/course.test.js
 2 test files passed; 14 assertions/scenarios passed
 
 node tools/validate-course.js
-levels: 4, lessons: 80, questions: 480
+levels: 4, lessons: 112, questions: 672
 
 node --check app/src/main/assets/*.js
 passed

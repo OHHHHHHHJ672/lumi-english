@@ -2,9 +2,9 @@
 
 ## 本次范围
 
-- A1、A2、B1、B2 各 20 个独立关卡，共 80 关。
+- A1、A2、B1、B2 各 28 个独立关卡，共 112 关。
 - 每关 6 道题，题型固定覆盖 `word`、`choice`、`listen`、`order`、`fill`、`match`。
-- 共 480 道题，所有题目由独立主题种子生成，没有 `cloneLevel` 或跨等级复制。
+- 共 672 道题，所有题目由独立主题种子生成，没有 `cloneLevel` 或跨等级复制。
 - 每个等级包含 `cefr`、`difficulty`、`recommendedFor` 元数据。
 - A2/B1/B2 使用工作、健康、旅行、媒体、项目、数据隐私、研究和职业等场景，未使用 A1 首课的问候语开篇。
 - 每个等级 24 个不重复目标词（按词形统计），题目规范化 `prompt + answer` 全部唯一。
@@ -15,7 +15,7 @@
 node tests/course.test.js
 ```
 
-结果：`course tests passed: 80 lessons, 480 unique questions`
+结果：`course tests passed: 112 lessons, 672 unique questions`
 
 ```text
 node tools/validate-course.js
@@ -26,8 +26,8 @@ node tools/validate-course.js
 ```json
 {
   "levels": 4,
-  "lessons": 80,
-  "questions": 480
+  "lessons": 112,
+  "questions": 672
 }
 ```
 
