@@ -20,25 +20,48 @@ const LumiModel = (() => {
       widgetAdded: false, xp: 0, coins: 0, hearts: CAP, energy: CAP, heartsAt: now, energyAt: now,
       streak: 0, lastStudy: null, completed: [], mistakes: [], answered: 0, correct: 0,
       combo: 0, comboStreak: 0,
+      earnedQuestionIds: [], legacyIds: [],
       daily: { date: day(now), xp: 0, lessons: 0, claimed: false },
       muted: false, effects: true, session: null,
     };
   }
 
-  function migrateId(id, question = false) {
-    const value = String(id);
-    if (question) return value.replace(/^u(\d+)l(\d+)q(\d+)$/, 'a1-u$1-l$2-q$3');
-    return value.replace(/^u(\d+)l(\d+)$/, 'a1-u$1-l$2');
+  function migrateId(id, question = false, legacyIds = []) {
+    const value = String(id || '');
+    const old = question ? value.match(/^u(\d+)l(\d+)q(\d+)$/) : value.match(/^u(\d+)l(\d+)$/);
+    const current = question
+      ? value.match(/^(a1|a2|b1|b2)-u(\d+)-l(\d+)-q(\d+)$/)
+      : value.match(/^(a1|a2|b1|b2)-u(\d+)-l(\d+)$/);
+    if (!old && !current) return value;
+    const level = old ? 'a1' : current[1];
+    const unit = Math.min(8, Math.max(1, Number(old ? old[1] : current[2])));
+    const lessonNumber = Number(old ? old[2] : current[3]);
+    const lessonId = `${level}-u${unit}-l1`;
+    let result = lessonId;
+    if (question) {
+      const questionNumber = Math.min(6, Math.max(1, Number(old ? old[3] : current[4])));
+      result = `${lessonId}-q${questionNumber}`;
+    }
+    if (result !== value && value && !legacyIds.includes(value)) legacyIds.push(value);
+    // Beta has one authored lesson per unit. Keep the old identifier visible for
+    // diagnostics while pointing progress at a lesson/question that exists.
+    if (lessonNumber !== 1 && value && !legacyIds.includes(value)) legacyIds.push(value);
+    return result;
   }
 
   function normalize(raw, now = Date.now()) {
     const source = raw && Number(raw.version) >= 2 ? raw : null;
     const s = { ...fresh(now), ...(source || {}) };
-    if (source && Number(source.version) === 2) {
-      s.onboarded = true;
-      s.completed = (s.completed || []).map(id => migrateId(id));
-      s.mistakes = (s.mistakes || []).map(id => migrateId(id, true));
+    const legacyIds = Array.isArray(source && source.legacyIds) ? [...source.legacyIds] : [];
+    if (source && Number(source.version) < 4) s.onboarded = source.onboarded === undefined ? true : source.onboarded;
+    s.completed = (Array.isArray(s.completed) ? s.completed : []).map(id => migrateId(id, false, legacyIds));
+    s.mistakes = (Array.isArray(s.mistakes) ? s.mistakes : []).map(id => migrateId(id, true, legacyIds));
+    if (s.earnedQuestionIds) s.earnedQuestionIds = s.earnedQuestionIds.map(id => migrateId(id, true, legacyIds));
+    if (s.session) {
+      s.session.lessonId = migrateId(s.session.lessonId, false, legacyIds);
+      s.session.qids = (Array.isArray(s.session.qids) ? s.session.qids : []).map(id => migrateId(id, true, legacyIds));
     }
+    s.legacyIds = legacyIds;
     s.version = 4;
     if (!s.goal) s.goal = 'everyday';
     if (!LEVELS.includes(s.targetLevel)) s.targetLevel = 'b1';
@@ -49,13 +72,17 @@ const LumiModel = (() => {
     for (const key of ['xp', 'coins', 'answered', 'correct', 'streak', 'combo', 'comboStreak']) {
       if (!Number.isFinite(s[key]) || s[key] < 0) s[key] = 0;
     }
-    s.completed = Array.isArray(s.completed) ? s.completed : [];
-    s.mistakes = Array.isArray(s.mistakes) ? s.mistakes : [];
-    const oldEnergy = Number.isFinite(Number(s.hearts)) ? Number(s.hearts) : Number(s.energy);
+    s.completed = Array.isArray(s.completed) ? [...new Set(s.completed)] : [];
+    s.mistakes = Array.isArray(s.mistakes) ? [...new Set(s.mistakes)] : [];
+    s.earnedQuestionIds = Array.isArray(s.earnedQuestionIds) ? [...new Set(s.earnedQuestionIds)] : [];
+    const hasRawHearts = !!source && Object.prototype.hasOwnProperty.call(source, 'hearts');
+    const hasRawEnergy = !!source && Object.prototype.hasOwnProperty.call(source, 'energy');
+    const oldEnergy = hasRawHearts ? Number(source.hearts) : hasRawEnergy ? Number(source.energy) : Number(s.hearts);
     s.hearts = Math.min(CAP, Math.max(0, Number.isFinite(oldEnergy) ? oldEnergy : CAP));
     s.energy = s.hearts;
-    const at = Number.isFinite(s.heartsAt) ? s.heartsAt : s.energyAt;
-    s.heartsAt = Number.isFinite(at) && at <= now ? at : now;
+    const rawAt = source && Object.prototype.hasOwnProperty.call(source, 'heartsAt') ? source.heartsAt : source && source.energyAt;
+    const at = Number.isFinite(Number(rawAt)) ? Number(rawAt) : now;
+    s.heartsAt = at;
     s.energyAt = s.heartsAt;
     const ticks = Math.floor((now - s.heartsAt) / INTERVAL);
     if (ticks > 0) {
@@ -65,11 +92,18 @@ const LumiModel = (() => {
     if (s.hearts === CAP) s.heartsAt = now;
     s.energy = s.hearts;
     if (!s.daily || s.daily.date !== day(now)) s.daily = { date: day(now), xp: 0, lessons: 0, claimed: false };
+    else {
+      s.daily = { date: day(now), xp: 0, lessons: 0, claimed: false, ...s.daily };
+      if (!Number.isFinite(s.daily.xp) || s.daily.xp < 0) s.daily.xp = 0;
+      if (!Number.isFinite(s.daily.lessons) || s.daily.lessons < 0) s.daily.lessons = 0;
+      s.daily.claimed = Boolean(s.daily.claimed);
+    }
     const yesterday = new Date(now);
     yesterday.setDate(yesterday.getDate() - 1);
     if (s.lastStudy !== day(now) && s.lastStudy !== day(yesterday.getTime())) s.streak = 0;
     if (s.session) {
       s.session.qids = Array.isArray(s.session.qids) ? s.session.qids : [];
+      s.session.lessonId = s.session.lessonId || null;
       s.session.index = Number.isFinite(s.session.index) ? s.session.index : 0;
       s.session.failedQids = Array.isArray(s.session.failedQids) ? s.session.failedQids : [];
       s.session.awardedQids = Array.isArray(s.session.awardedQids) ? s.session.awardedQids : [];
@@ -126,9 +160,13 @@ const LumiModel = (() => {
       v.correctAttempts += 1;
       if (!v.awardedQids.includes(id)) {
         v.awardedQids.push(id);
-        v.xp += 5;
-        s.xp += 5;
-        s.daily.xp += 5;
+        const alreadyEarned = s.earnedQuestionIds.includes(id);
+        if (!alreadyEarned) {
+          s.earnedQuestionIds.push(id);
+          v.xp += 5;
+          s.xp += 5;
+          s.daily.xp += 5;
+        }
       }
       v.failedQids = v.failedQids.filter(item => item !== id);
       s.mistakes = s.mistakes.filter(item => item !== id);
@@ -170,7 +208,7 @@ const LumiModel = (() => {
     const accuracy = v.attempts ? Math.round(v.correctAttempts / v.attempts * 100) : 0;
     v.finished = true;
     v.reward = {
-      passed, firstPass, first: firstPass, mistakeCount: v.mistakeCount,
+      passed, firstPass, first: firstPass, perfect: passed && v.mistakeCount === 0, mistakeCount: v.mistakeCount,
       coins, xp: v.xp, accuracy, combo: v.combo, energy: v.review && passed ? 1 : 0,
       hearts: s.hearts,
     };

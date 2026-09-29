@@ -49,17 +49,32 @@ const levels = [
   {id:'b2',cefr:'B2',title:'复杂表达',subtitle:'处理抽象话题 · 工作协作 · 表达观点',color:'purple',art:'✈️',difficulty:4,questionCount:6,recommendedFor:['大学英语四级','大学英语六级','雅思托福']}
 ];
 const optionSet = (correct, extras) => [correct, ...extras.filter((item) => item !== correct).slice(0,3)];
+const fillFallbacks = ['schedule', 'meeting', 'station', 'weather', 'water', 'ticket', 'recipe', 'office', 'message', 'travel'];
+const grammarByLevel = {
+  a1: ['present-simple', 'basic-prepositions'],
+  a2: ['past-simple', 'future-plans'],
+  b1: ['present-perfect', 'conditionals'],
+  b2: ['passive-voice', 'complex-clauses']
+};
+const skillByKind = {
+  word: ['vocabulary', 'reading'], choice: ['reading', 'meaning'], listen: ['listening', 'meaning'],
+  order: ['grammar', 'writing'], fill: ['grammar', 'vocabulary'], match: ['vocabulary', 'recall']
+};
 function makeLesson(seed,index){
   const spec=levels.find((level)=>level.id===seed.level), id=`${seed.level}-u${index+1}-l1`;
+  const grammarTags = grammarByLevel[seed.level] || ['general-english'];
+  const fillWords = [...seed.words.map((word) => word[0]), ...seed.pairs.map((pair) => pair[0]), ...fillFallbacks]
+    .filter((word) => /^[A-Za-z][A-Za-z' -]*$/.test(word));
+  const fillOptions = optionSet(seed.fill[1], fillWords);
   const questions=[
     {kind:'word',prompt:seed.words[0][0],promptCn:'选择这个词最合适的中文意思',answer:seed.words[0][1],options:optionSet(seed.words[0][1],[seed.words[1][1],seed.words[2][1],...seed.distractors]),audio:seed.words[0][0],translation:seed.words[0][1]},
     {kind:'choice',prompt:seed.choice[0],promptCn:'选择这句话最自然的中文意思',answer:seed.choice[1],options:optionSet(seed.choice[1],seed.distractors),audio:seed.choice[0],translation:seed.choice[1]},
     {kind:'listen',prompt:'听到的句子是什么意思？',promptCn:'播放英语后选择对应意思',answer:seed.listen[1],options:optionSet(seed.listen[1],seed.distractors),audio:seed.listen[0],translation:seed.listen[1]},
     {kind:'order',prompt:seed.order[1],promptCn:'用词块拼出英文句子',answer:seed.order[0],tokens:seed.order[0].split(' '),audio:seed.order[0],translation:seed.order[1]},
-    {kind:'fill',prompt:seed.fill[0],promptCn:seed.fill[2],answer:seed.fill[1],options:optionSet(seed.fill[1],seed.distractors),audio:seed.fill[0].replace('_____ ',seed.fill[1]+' '),translation:seed.fill[2]},
+    {kind:'fill',prompt:seed.fill[0],promptCn:seed.fill[2],answer:seed.fill[1],options:fillOptions,audio:seed.fill[0].replace('_____ ',seed.fill[1]+' '),translation:seed.fill[2]},
     {kind:'match',prompt:`找到「${seed.title}」每个词的中文搭档`,promptCn:'先点英文，再点对应的中文',pairs:seed.pairs,answer:'matched',translation:seed.pairs.map((pair)=>pair.join(' · ')).join(' / ')}
-  ].map((question,questionIndex)=>({...question,id:`${id}-q${questionIndex+1}`,lessonId:id,levelId:seed.level,cefr:spec.cefr,difficulty:spec.difficulty}));
-  return {id,levelId:seed.level,cefr:spec.cefr,difficulty:spec.difficulty,title:seed.title,subtitle:seed.subtitle,words:seed.words,questions};
+  ].map((question,questionIndex)=>({...question,id:`${id}-q${questionIndex+1}`,lessonId:id,levelId:seed.level,cefr:spec.cefr,difficulty:spec.difficulty,grammarTags:[...grammarTags],skillTags:[...(skillByKind[question.kind] || ['general'])]}));
+  return {id,levelId:seed.level,cefr:spec.cefr,difficulty:spec.difficulty,title:seed.title,subtitle:seed.subtitle,theme:seed.title,grammarTags:[...grammarTags],skillTags:['vocabulary','grammar','listening','reading'],words:seed.words,questions};
 }
 const levelCurriculum=levels.map((spec)=>({
   ...spec,

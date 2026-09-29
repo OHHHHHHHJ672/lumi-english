@@ -30,14 +30,17 @@ test('version 2 and 3 archives migrate to version 4 without losing progress', ()
     mistakes: ['u1l2q3'],
     daily: { date: '1970-01-01', xp: 5, lessons: 1, claimed: false },
     dailyMinutes: 20,
-    session: { lessonId: 'a1-u1-l2', qids: ['a1-u1-l2-q3'], index: 0 },
+    session: { lessonId: 'u1l2', qids: ['u1l2q3'], index: 0 },
   }, 0);
   assert.strictEqual(migrated.version, 4);
-  assert.deepStrictEqual(migrated.completed, ['a1-u1-l2']);
-  assert.deepStrictEqual(migrated.mistakes, ['a1-u1-l2-q3']);
+  assert.deepStrictEqual(migrated.completed, ['a1-u1-l1']);
+  assert.deepStrictEqual(migrated.mistakes, ['a1-u1-l1-q3']);
+  assert.ok(migrated.legacyIds.includes('u1l2'));
+  assert.ok(migrated.legacyIds.includes('u1l2q3'));
   assert.strictEqual(migrated.dailyMinutes, 20);
   assert.ok(migrated.session);
-  assert.strictEqual(migrated.session.lessonId, 'a1-u1-l2');
+  assert.strictEqual(migrated.session.lessonId, 'a1-u1-l1');
+  assert.deepStrictEqual(migrated.session.qids, ['a1-u1-l1-q3']);
 
   const v3 = LumiModel.normalize({
     version: 3,
@@ -50,7 +53,26 @@ test('version 2 and 3 archives migrate to version 4 without losing progress', ()
   assert.strictEqual(v3.muted, true);
   assert.strictEqual(v3.effects, false);
   assert.strictEqual(v3.currentLevel, 'b1');
-  assert.strictEqual(v3.session.lessonId, 'b1-u2-l3');
+  assert.strictEqual(v3.session.lessonId, 'b1-u2-l1');
+  assert.deepStrictEqual(v3.session.qids, ['b1-u2-l1-q1']);
+  assert.ok(v3.legacyIds.includes('b1-u2-l3'));
+});
+
+test('migration preserves an old zero-heart balance and its original timestamp', () => {
+  const migrated = LumiModel.normalize({
+    version: 3,
+    energy: 0,
+    energyAt: 1000,
+    daily: { date: '1970-01-01' },
+    session: { lessonId: 'u8l4', qids: ['u8l4q9'] },
+  }, 1000);
+  assert.strictEqual(migrated.hearts, 0);
+  assert.strictEqual(migrated.energy, 0);
+  assert.strictEqual(migrated.heartsAt, 1000);
+  assert.strictEqual(migrated.energyAt, 1000);
+  assert.deepStrictEqual(migrated.daily, { date: '1970-01-01', xp: 0, lessons: 0, claimed: false });
+  assert.strictEqual(migrated.session.lessonId, 'a1-u8-l1');
+  assert.deepStrictEqual(migrated.session.qids, ['a1-u8-l1-q6']);
 });
 
 test('wrong answers are appended to the queue and lesson only passes after retry', () => {
@@ -77,6 +99,18 @@ test('retrying a wrong question does not award XP twice', () => {
   s.session.index = 1;
   s.session.checked = false;
   LumiModel.answer(s, 'q1', true);
+  assert.strictEqual(s.xp, 5);
+  assert.strictEqual(s.daily.xp, 5);
+});
+
+test('a question that already earned XP does not award XP in a later session', () => {
+  const s = stateAt();
+  LumiModel.start(s, 'lesson-1', ['q1']);
+  LumiModel.answer(s, 'q1', true);
+  LumiModel.finish(s, 0);
+  LumiModel.start(s, 'lesson-2', ['q1']);
+  LumiModel.answer(s, 'q1', true);
+  assert.deepStrictEqual(s.earnedQuestionIds, ['q1']);
   assert.strictEqual(s.xp, 5);
   assert.strictEqual(s.daily.xp, 5);
 });

@@ -13,11 +13,18 @@ const keys = new Set();
 for (const lesson of catalog.lessonList) {
   assert.strictEqual(lesson.questions.length, 6, `${lesson.id} should contain six questions`);
   assert.deepStrictEqual(lesson.questions.map((question) => question.kind), kinds, `${lesson.id} question kinds`);
+  assert(Array.isArray(lesson.grammarTags) && lesson.grammarTags.length > 0, `${lesson.id} grammar metadata`);
+  assert(Array.isArray(lesson.skillTags) && lesson.skillTags.length > 0, `${lesson.id} skill metadata`);
   for (const question of lesson.questions) {
     const normalize = (value) => String(value || '').toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]+/g, ' ').trim();
     const key = `${normalize(question.prompt)}|${normalize(question.answer)}`;
     assert(!keys.has(key), `duplicate prompt/answer: ${key}`);
     keys.add(key);
+    assert(Array.isArray(question.grammarTags) && question.grammarTags.length > 0, `${question.id} grammar metadata`);
+    assert(Array.isArray(question.skillTags) && question.skillTags.length > 0, `${question.id} skill metadata`);
+    if (question.kind === 'fill') {
+      for (const option of question.options) assert(/^[A-Za-z][A-Za-z' -]*$/.test(option), `${question.id} has non-English fill option: ${option}`);
+    }
   }
 }
 
