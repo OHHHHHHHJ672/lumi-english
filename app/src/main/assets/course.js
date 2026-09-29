@@ -1,4 +1,4 @@
-/* Beta course: 80 authored lessons. No level is cloned from another level. */
+/* Beta course: 112 authored lessons. No level is cloned from another level. */
 const seeds = [];
 function lesson(level,title,subtitle,words,choice,listen,order,fill,pairs,distractors,grammarTags){seeds.push({level,title,subtitle,words,choice,listen,order,fill,pairs,distractors,grammarTags});}
 
