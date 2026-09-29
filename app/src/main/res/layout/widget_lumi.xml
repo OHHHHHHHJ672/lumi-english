@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="16dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+        <TextView android:id="@+id/widget_mascot" android:layout_width="42dp" android:layout_height="42dp" android:gravity="center" android:text="🌅" android:textSize="26sp" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:paddingStart="9dp">
+            <TextView android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lumi English" android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold" />
+            <TextView android:id="@+id/widget_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="今日学习 0 / 30 XP" android:textColor="#EAE7FF" android:textSize="11sp" android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <TextView android:id="@+id/widget_streak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🔥 0" android:textColor="#FFFFFF" android:textSize="12sp" android:textStyle="bold" />
+    </LinearLayout>
+    <ProgressBar android:id="@+id/widget_progress" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="14dp" android:max="30" android:progress="0" android:progressTint="#52D7B4" android:progressBackgroundTint="#5B58C2" />
+    <TextView android:id="@+id/widget_hint" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="点击继续今天的冒险 →" android:textColor="#FFFFFF" android:textSize="11sp" android:layout_marginTop="8dp" />
+</LinearLayout>
