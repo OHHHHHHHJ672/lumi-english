@@ -1,5 +1,18 @@
 /* Lumi Beta interaction controller. One controller owns lesson rendering and input. */
+function betaFeedbackDetails(q, correct) {
+  const question = q || {};
+  const answer = question.kind === 'match'
+    ? (question.translation || '所有词语都已配对')
+    : (question.answer || question.audio || '请查看题目解析');
+  return {
+    answer,
+    translation: question.translation && !correct ? question.translation : '',
+  };
+}
+
 (function () {
+  // Keep this file loadable in Node so the feedback formatter can be regression-tested.
+  if (typeof document === 'undefined') return;
   const betaBaseRender = render;
   const betaBaseRenderHome = renderHome;
   const betaBaseProfile = renderProfile;
@@ -27,7 +40,13 @@
     return copy;
   };
   shuffle = betaShuffle;
-  const betaCurrent = () => currentQ();
+  const betaCurrent = () => {
+    const session = state && state.session;
+    const id = session && session.qids && session.qids[session.index];
+    // Resolve the question again from its id. A stale object from a previous render
+    // must never leak its answer into the feedback bar for the current question.
+    return (id && catalog.questionBank[id]) || (session ? currentQ() : null);
+  };
   const betaView = () => { state.session.view = state.session.view || {}; return state.session.view; };
   const betaHearts = () => Number.isFinite(state.hearts) ? state.hearts : state.energy;
   const betaGoal = () => typeof LumiModel.goalXp === 'function' ? LumiModel.goalXp(state) : dailyGoalXp();
@@ -64,24 +83,75 @@
   renderLesson = function () {
     if (!state.session) { state.screen = 'home'; document.body.classList.remove('playing'); return renderHome(); }
     activeLesson = lessonById(state.session.lessonId); activeReview = !!state.session.review; const q = betaCurrent(); if (!q) { state.session = null; state.screen = 'home'; return renderHome(); }
+    // Pin the question rendered into the DOM. This prevents a queue mutation or
+    // stale inline handler from displaying feedback for a different question.
+    state.session.renderedQuestionId = q.id;
     const s = state.session; const progress = Math.round((s.index / Math.max(1, s.qids.length)) * 100); const combo = Number(s.combo || state.combo || 0); const prompt = q.kind === 'word' ? `<button class="word-hint" onclick="showWordHint('${betaEscape(q.audio)}','${betaEscape(q.translation)}')">${betaEscape(q.audio)}</button>` : (q.prompt || '');
     document.body.classList.add('playing');
     $('main').innerHTML = `<div class="lesson-shell screen-enter"><div class="lesson-top"><button class="icon-btn" aria-label="退出关卡" onclick="go('home')">×</button><div class="lesson-progress"><div style="width:${Math.max(7, progress)}%"></div></div><div class="lesson-stats"><span class="heart-count">♥ ${betaHearts()}</span><span class="combo-count ${combo >= 2 ? 'combo-live' : ''}">Combo ${combo}</span></div></div><div class="lesson-mascot mascot-${s.lastCorrect === true ? 'happy' : s.lastCorrect === false ? 'oops' : 'ready'}">${mascotSvg()}</div><div class="question-card ${q.kind === 'listen' ? 'listening' : ''}"><span class="q-count">${s.index + 1} / ${s.qids.length}</span><div class="question-tag">${betaKindLabel(q)} · ${betaQuestionType(q)}</div>${q.kind === 'listen' ? `<button class="listen-orb" onclick="speak('${betaEscape(q.audio)}')" aria-label="播放听力">🔊</button>` : ''}<h2>${prompt}</h2><p>${q.promptCn || q.translation || ''}</p>${q.audio && q.kind !== 'listen' ? `<div class="audio-row"><button class="audio-btn" onclick="speak('${betaEscape(q.audio)}')">🔊 播放英语</button><button class="audio-btn slow" onclick="speakSlow('${betaEscape(q.audio)}')">🐢 慢速</button></div>` : ''}</div><div id="answer-area">${betaAnswerHtml(q)}</div><div class="lesson-footer"><div id="feedback" class="feedback" role="status"><div id="feedback-icon" class="feedback-mark">✓</div><div class="feedback-body"><strong id="feedback-title">回答正确！</strong><small id="feedback-copy">继续保持</small><span id="feedback-answer"></span></div></div><button id="continue" class="continue-btn" style="display:none" onclick="nextQuestion()">${s.index === s.qids.length - 1 ? '查看结果' : '继续'}</button></div></div>`;
+    // Bind directly as well as keeping inline handlers for Android WebView builds.
+    // This keeps answer taps reliable when a WebView isolates inline globals.
+    document.querySelectorAll('#answer-area .answer-btn').forEach((button) => {
+      button.addEventListener('click', () => chooseAnswer(button, button.dataset.option));
+    });
     if (s.checked) betaPaintFeedback(!!s.lastCorrect, q);
   };
   function betaPaintFeedback(correct, q) {
-    const feedback = $('feedback'); if (!feedback) return; feedback.className = `feedback show ${correct ? 'good' : 'bad'}`; $('feedback-icon').textContent = correct ? '✓' : '×'; $('feedback-title').textContent = correct ? (Number(state.comboStreak || 0) >= 5 ? `连击 x${state.comboStreak}！` : '回答正确！') : '再看一眼这条规律'; const answer = q.kind === 'match' ? (q.translation || '所有词语都已配对') : (q.answer || q.audio || '请查看题目解析'); $('feedback-copy').textContent = correct ? `+5 XP${q.audio ? ` · ${q.audio}` : ''}` : `正确答案：${answer}`; $('feedback-answer').textContent = q.translation && !correct ? `释义：${q.translation}` : ''; $('continue').style.display = 'block'; document.querySelectorAll('#answer-area button').forEach((button) => { button.disabled = true; }); document.querySelectorAll('.answer-btn').forEach((button) => { if (button.dataset.option === q.answer) button.classList.add('correct'); if (button.dataset.option === state.session.choice && !correct) button.classList.add('wrong'); }); const shell = document.querySelector('.lesson-shell'); if (shell) shell.classList.toggle('answer-good', correct); const mascot = document.querySelector('.lesson-mascot'); if (mascot) mascot.className = `lesson-mascot mascot-${correct ? 'happy' : 'oops'}`;
+    const feedback = $('feedback'); if (!feedback) return;
+    const details = betaFeedbackDetails(q, correct);
+    feedback.className = `feedback show ${correct ? 'good' : 'bad'}`;
+    $('feedback-icon').textContent = correct ? '✓' : '×';
+    $('feedback-title').textContent = correct ? (Number(state.comboStreak || 0) >= 5 ? `连击 x${state.comboStreak}！` : '回答正确！') : '再看一眼这条规律';
+    $('feedback-copy').textContent = correct ? `+5 XP${q.audio ? ` · ${q.audio}` : ''}` : `正确答案：${details.answer}`;
+    $('feedback-answer').textContent = details.translation ? `释义：${details.translation}` : '';
+    const continueButton = $('continue');
+    if (continueButton) {
+      // A wrong answer is appended to the queue, including when it was the
+      // original last question. The label must reflect that retry instead of
+      // misleadingly saying that the lesson is ready to finish.
+      const session = state.session;
+      continueButton.textContent = session && session.index >= session.qids.length - 1 ? '查看结果' : '继续';
+      continueButton.style.display = 'block';
+    }
+    document.querySelectorAll('#answer-area button').forEach((button) => { button.disabled = true; });
+    document.querySelectorAll('.answer-btn').forEach((button) => { if (button.dataset.option === q.answer) button.classList.add('correct'); if (button.dataset.option === state.session.choice && !correct) button.classList.add('wrong'); });
+    const shell = document.querySelector('.lesson-shell'); if (shell) shell.classList.toggle('answer-good', correct);
+    const mascot = document.querySelector('.lesson-mascot'); if (mascot) mascot.className = `lesson-mascot mascot-${correct ? 'happy' : 'oops'}`;
+  }
+  function betaTone(correct) {
+    if (state.muted) return;
+    try {
+      if (window.LumiAndroid && typeof LumiAndroid.playFeedback === 'function') { LumiAndroid.playFeedback(correct ? 'correct' : 'wrong'); return; }
+      const AudioCtor = window.AudioContext || window.webkitAudioContext;
+      if (!AudioCtor) return;
+      const ctx = new AudioCtor(); const oscillator = ctx.createOscillator(); const gain = ctx.createGain();
+      oscillator.type = 'sine'; oscillator.frequency.value = correct ? 660 : 220;
+      gain.gain.setValueAtTime(.0001, ctx.currentTime); gain.gain.exponentialRampToValueAtTime(.08, ctx.currentTime + .015); gain.gain.exponentialRampToValueAtTime(.0001, ctx.currentTime + (correct ? .16 : .22));
+      oscillator.connect(gain); gain.connect(ctx.destination); oscillator.start(); oscillator.stop(ctx.currentTime + (correct ? .18 : .24));
+    } catch (_) { /* audio is an enhancement; never block answering */ }
   }
   function betaSubmit(correct, q) {
-    const s = state.session; if (!s || s.checked) return; const answered = LumiModel.answer(state, q.id, !!correct); if (answered === false) return; s.lastCorrect = !!correct; const streak = Number(state.comboStreak || 0); s.combo = streak ? Math.floor(streak / 5) : (correct ? Number(s.combo || 0) + 1 : 0); state.combo = s.combo; if (!correct && !s.qids.slice(s.index + 1).includes(q.id)) s.qids.push(q.id); save(); betaPaintFeedback(!!correct, q); tone(!!correct); if (correct && state.effects) { buzz(); if (s.combo > 0) burst(); }
+    const s = state.session; if (!s || s.checked) return;
+    const activeId = String(s.renderedQuestionId || s.qids[s.index] || '');
+    const question = (activeId && catalog.questionBank[activeId]) || q || betaCurrent();
+    if (!question) return;
+    const answered = LumiModel.answer(state, question.id, !!correct); if (answered === false) return;
+    s.lastCorrect = !!correct; const streak = Number(state.comboStreak || 0); s.combo = streak ? Math.floor(streak / 5) : (correct ? Number(s.combo || 0) + 1 : 0); state.combo = s.combo;
+    // LumiModel.answer appends a failed id once. Keep this guard for migrated sessions.
+    if (!correct && !s.qids.slice(s.index + 1).includes(question.id)) s.qids.push(question.id);
+    save();
+    updateTop();
+    const heartCount = document.querySelector('.heart-count');
+    if (heartCount) heartCount.textContent = `♥ ${betaHearts()}`;
+    betaPaintFeedback(!!correct, question); betaTone(!!correct); if (correct && state.effects) { buzz(); if (s.combo > 0) burst(); }
   }
   submit = betaSubmit;
-  chooseAnswer = function (element, value) { if (!state.session || state.session.checked) return; const q = betaCurrent(); state.session.choice = value; betaSubmit(value === q.answer, q); };
+  chooseAnswer = function (element, value) { if (!state.session || state.session.checked) return; const id = state.session.renderedQuestionId || state.session.qids[state.session.index]; const q = (id && catalog.questionBank[id]) || betaCurrent(); if (!q) return; state.session.choice = value; betaSubmit(value === q.answer, q); };
   pickToken = function (index) { const s = state.session; if (!s || s.checked) return; const button = $(`token-${index}`); if (!button || button.classList.contains('used')) return; s.order = s.order || []; s.order.push({ i: index, token: button.dataset.token }); button.classList.add('used'); $('token-answer').innerHTML = s.order.map((x) => `<button class="token" onclick="removeToken(${x.i})">${x.token}</button>`).join(''); save(); };
   removeToken = function (index) { const s = state.session; if (!s || s.checked) return; const at = (s.order || []).findIndex((x) => x.i === index); if (at < 0) return; s.order.splice(at, 1); $(`token-${index}`).classList.remove('used'); $('token-answer').innerHTML = s.order.length ? s.order.map((x) => `<button class="token" onclick="removeToken(${x.i})">${x.token}</button>`).join('') : '<span class="summary">点击下方单词组成句子</span>'; save(); };
   checkOrder = function () { const s = state.session; if (!s || s.checked) return; const q = betaCurrent(); if (!(s.order || []).length) return toast('先把单词排好，再检查答案'); betaSubmit(s.order.map((x) => x.token).join(' ') === q.answer, q); };
-  pickPair = function (side, index) { const s = state.session; if (!s || s.checked) return; const view = betaView(); if ((view.matched || []).includes(index)) return; matchPick[side] = index; document.querySelectorAll('.pair').forEach((b) => b.classList.remove('picked')); $(`pair-${side}-${index}`).classList.add('picked'); if (matchPick.left === null || matchPick.right === null) return; const left = $(`pair-left-${matchPick.left}`); const right = $(`pair-right-${matchPick.right}`); if (matchPick.left === matchPick.right) { view.matched = view.matched || []; view.matched.push(index); left.classList.remove('picked'); right.classList.remove('picked'); left.classList.add('matched'); right.classList.add('matched'); left.disabled = true; right.disabled = true; tone(true); if (view.matched.length === betaCurrent().pairs.length) betaSubmit(true, betaCurrent()); } else { view.hadMistake = true; left.classList.add('miss'); right.classList.add('miss'); toast('还不是一对，再试一次'); setTimeout(() => { left.classList.remove('picked', 'miss'); right.classList.remove('picked', 'miss'); }, 420); } matchPick = { left: null, right: null }; save(); };
-  nextQuestion = function () { const s = state.session; if (!s || !s.checked) return; if (s.index >= s.qids.length - 1) { const reward = LumiModel.finish(state); save(); renderResult(reward); return; } s.index += 1; s.checked = false; s.lastCorrect = null; s.choice = null; s.order = []; s.view = {}; matchPick = { left: null, right: null }; save(); renderLesson(); window.scrollTo(0, 0); };
+  pickPair = function (side, index) { const s = state.session; if (!s || s.checked) return; const view = betaView(); if ((view.matched || []).includes(index)) return; matchPick[side] = index; document.querySelectorAll('.pair').forEach((b) => b.classList.remove('picked')); $(`pair-${side}-${index}`).classList.add('picked'); if (matchPick.left === null || matchPick.right === null) return; const left = $(`pair-left-${matchPick.left}`); const right = $(`pair-right-${matchPick.right}`); const question = betaCurrent(); if (matchPick.left === matchPick.right) { view.matched = view.matched || []; view.matched.push(index); left.classList.remove('picked'); right.classList.remove('picked'); left.classList.add('matched'); right.classList.add('matched'); left.disabled = true; right.disabled = true; betaTone(true); if (question && view.matched.length === question.pairs.length) betaSubmit(true, question); } else { view.hadMistake = true; left.classList.add('miss'); right.classList.add('miss'); toast('还不是一对，再试一次'); setTimeout(() => { left.classList.remove('picked', 'miss'); right.classList.remove('picked', 'miss'); }, 420); } matchPick = { left: null, right: null }; save(); };
+  nextQuestion = function () { const s = state.session; if (!s || !s.checked) return; if (s.index >= s.qids.length - 1) { const reward = LumiModel.finish(state); save(); renderResult(reward); return; } s.index += 1; s.checked = false; s.lastCorrect = null; s.choice = null; s.renderedQuestionId = null; s.order = []; s.view = {}; matchPick = { left: null, right: null }; save(); renderLesson(); window.scrollTo(0, 0); };
 
   renderHome = function () { document.body.classList.remove('playing'); betaBaseRenderHome(); const hero = document.querySelector('.hero'); if (!hero) return; const level = (typeof levelInfo !== 'undefined' && levelInfo[state.targetLevel]) || { desc: '循序渐进地提升英语能力' }; const plan = document.createElement('div'); plan.className = 'plan-strip'; plan.innerHTML = `<span class="plan-icon">${state.goal === 'travel' ? '✈️' : state.goal === 'work' ? '💼' : state.goal === 'all' ? '🌍' : '☀️'}</span><div><strong>${(typeof goalNames !== 'undefined' && goalNames[state.goal]) || '综合提升'} · 目标 ${(state.targetLevel || 'b1').toUpperCase()}</strong><small>每天 ${state.dailyMinutes || 10} 分钟 · ${level.desc}</small></div><button onclick="openPlanSettings()">调整</button>`; hero.after(plan); document.querySelectorAll('.unit-card[data-level]').forEach((unit) => { if (levelRank(unit.dataset.level) > targetRank()) unit.classList.add('future-level'); }); const goal = betaGoal(); const current = state.daily.xp || 0; const heading = document.querySelector('.section-head + .goal-card'); if (heading) { const label = heading.querySelector('strong'); if (label) label.textContent = current >= goal ? '目标完成，奖励已准备好！' : `今日目标 · ${goal} XP`; const fill = heading.querySelector('.progress-fill'); if (fill) fill.style.width = `${Math.min(100, current / goal * 100)}%`; const button = heading.querySelector('.goal-xp'); if (button) button.textContent = state.daily.claimed ? '已领取' : current >= goal ? '+15 ✦' : `+${goal - current}`; } document.querySelectorAll('.lesson-node').forEach((button, index) => { const lesson = catalog.lessonList[index]; if (!lesson) return; button.title = lesson.title; button.setAttribute('aria-label', `${index + 1}. ${lesson.title}`); if (!betaUnlocked(lesson.id) && !state.completed.includes(lesson.id)) button.onclick = () => toast(`完成前一关，就能解锁「${lesson.title}」`); }); if (state.session && !state.session.finished) { const resume = document.createElement('button'); resume.className = 'secondary-btn resume-lesson'; resume.textContent = '继续未完成的关卡 →'; resume.onclick = () => { state.screen = 'lesson'; render(); }; hero.after(resume); } };
   renderResult = function (reward) { const r = reward || {}; const passed = r.passed !== false; document.body.classList.remove('playing'); $('main').innerHTML = `<div class="screen-enter"><div class="result-card ${passed ? 'result-success' : 'result-retry'}"><div class="result-burst">${passed ? '🌟' : '🌱'}</div><h1>${passed ? '关卡完成！' : '继续加油！'}</h1><p>${passed ? '这一关已经掌握，下一颗星星正在等你。' : '错题已回到本关队列，重新答对后就能完成。'}</p><div class="result-stats"><div class="result-stat"><strong>${r.accuracy || 0}%</strong><small>正确率</small></div><div class="result-stat"><strong>+${r.xp || 0}</strong><small>XP</small></div><div class="result-stat"><strong>+${r.coins || 0}</strong><small>宝石</small></div></div>${r.perfect ? '<div class="achievement">🎁 零失误完美通关</div>' : r.firstPass ? '<div class="achievement">✨ 首次通关</div>' : ''}<button class="continue-btn" style="margin-top:19px" onclick="go('home')">回到学习地图</button><button class="secondary-btn" onclick="go('practice')">去复习小屋</button></div></div>`; state.session = null; activeLesson = null; activeReview = false; save(); if (passed) { burst(); const card = document.querySelector('.result-card'); if (card) card.classList.add('celebrate'); } };
@@ -111,6 +181,22 @@
     { en: 'The contract will remain valid provided that both parties comply with the revised terms.', answer: '只要双方遵守修订后的条款，合同就继续有效', options: ['只要双方遵守修订后的条款，合同就继续有效', '合同会因条款修订而自动失效', '只有一方需要遵守合同'] }
   ];
   const placementQuestions = () => ['cet4', 'cet6'].includes(onboardingData.background) ? advancedPlacementQuestions : basicPlacementQuestions;
+  // The declared background is a useful lower bound when a user skips the
+  // placement test (or performs poorly on a test that is too narrow for them).
+  // This prevents a CET/college learner from being sent back to A1 greetings.
+  const backgroundStartLevel = {
+    zero: 'a1',
+    middle: 'a1',
+    high: 'a2',
+    college: 'b1',
+    cet4: 'b1',
+    cet6: 'b2',
+    unknown: 'a1'
+  };
+  const levelForBackground = () => backgroundStartLevel[onboardingData.background] || 'a1';
+  const levelForPlacementScore = () => placementScore >= 5 ? 'b2' : placementScore >= 4 ? 'b1' : placementScore >= 2 ? 'a2' : 'a1';
+  const maxLevel = (first, second) => levelRank(first) >= levelRank(second) ? first : second;
+  const resetPlacement = () => { placementIndex = 0; placementScore = 0; };
   function renderOnboarding() {
     document.body.classList.remove('playing'); const root = $('main');
     if (onboardingStep === 0) { root.innerHTML = `<div class="onboarding screen-enter"><div class="onboarding-orbit"><div class="onboarding-mascot">${mascotSvg()}</div></div><div class="eyebrow">WELCOME TO LUMI ENGLISH</div><h1>把英语学习<br>变成一张冒险地图。</h1><p>告诉 Lumi 你的目标和节奏，它会从适合你的难度开始。</p><button class="continue-btn" onclick="beginOnboarding()">开始规划我的路线</button></div>`; return; }
@@ -121,13 +207,15 @@
     if (onboardingStep === 5) { root.innerHTML = `<div class="onboarding screen-enter"><div class="onboarding-progress"><i class="onboarding-dot active"></i><i class="onboarding-dot active"></i><i class="onboarding-dot active"></i><i class="onboarding-dot active"></i><i class="onboarding-dot active"></i></div><div class="eyebrow">STEP 5 · 让 Lumi 陪着你</div><h1>选一个提醒时间，<br>再开始小测试。</h1><label class="time-label">每日提醒时间<input class="time-input" id="onboarding-time" type="time" value="${onboardingData.reminderTime}" onchange="onboardingData.reminderTime=this.value"></label><button class="continue-btn" onclick="nextOnboarding()">开始等级测试</button><button class="link-btn" onclick="finishOnboarding(true)">稍后再测，直接开始</button></div>`; return; }
     const questions = placementQuestions(); const q = questions[placementIndex]; const options = betaShuffle(q.options); root.innerHTML = `<div class="onboarding screen-enter"><div class="eyebrow">LEVEL CHECK · ${placementIndex + 1} / ${questions.length}</div><h1>读一读，选出<br>最合适的意思。</h1><div class="placement-question"><strong>${q.en}</strong><small>请选择句子的意思</small><button class="audio-btn" onclick="speak('${betaEscape(q.en)}')">🔊 播放英语</button></div><div class="answer-grid">${options.map((option, i) => `<button class="answer-btn" onclick="answerPlacement('${betaEscape(option)}')"><span class="answer-number">${String.fromCharCode(65 + i)}</span>${option}</button>`).join('')}</div><button class="link-btn" onclick="finishOnboarding(true)">跳过测试</button></div>`;
   }
-  beginOnboarding = function () { onboardingStep = 1; renderOnboarding(); };
+  beginOnboarding = function () { resetPlacement(); onboardingStep = 1; renderOnboarding(); };
   pickOnboarding = function (key, value) { onboardingData[key] = value; renderOnboarding(); };
-  nextOnboarding = function () { if (onboardingStep === 1 && !onboardingData.goal) return toast('先选择一个学习目的'); if (onboardingStep === 2 && !onboardingData.background) return toast('先选择你的英语背景'); if (onboardingStep === 3 && !onboardingData.targetLevel) return toast('先选择目标等级'); if (onboardingStep === 4 && !onboardingData.dailyMinutes) return toast('选择每天的学习时间'); onboardingStep += 1; renderOnboarding(); };
+  nextOnboarding = function () { if (onboardingStep === 1 && !onboardingData.goal) return toast('先选择一个学习目的'); if (onboardingStep === 2 && !onboardingData.background) return toast('先选择你的英语背景'); if (onboardingStep === 3 && !onboardingData.targetLevel) return toast('先选择目标等级'); if (onboardingStep === 4 && !onboardingData.dailyMinutes) return toast('选择每天的学习时间'); if (onboardingStep === 5) resetPlacement(); onboardingStep += 1; renderOnboarding(); };
   answerPlacement = function (value) { const questions = placementQuestions(); const question = questions[placementIndex]; if (value === question.answer) placementScore += 1; placementIndex += 1; if (placementIndex >= questions.length) finishOnboarding(false); else renderOnboarding(); };
-  finishOnboarding = function (skipped) { const recommended = placementScore >= 5 ? 'b2' : placementScore >= 4 ? 'b1' : placementScore >= 2 ? 'a2' : 'a1'; const current = levelRank(recommended) > levelRank(onboardingData.targetLevel) ? onboardingData.targetLevel : recommended; state.onboarded = true; state.goal = onboardingData.goal; state.background = onboardingData.background; state.targetLevel = onboardingData.targetLevel; state.currentLevel = current; state.dailyMinutes = onboardingData.dailyMinutes; state.reminderTime = onboardingData.reminderTime; state.widgetStyle = onboardingData.widgetStyle; state.placementScore = skipped ? null : placementScore; state.version = 4; const mastered = catalog.lessonList.filter((lesson) => levelRank(lesson.levelId) < levelRank(current)).map((lesson) => lesson.id); state.completed = [...new Set([...(state.completed || []), ...mastered])]; save(); state.screen = 'home'; toast(skipped ? '路线已准备好，随时可以开始。' : `测试完成，推荐从 ${current.toUpperCase()} 开始。`); render(); };
-  openPlanSettings = function () { onboardingStep = 5; onboardingData = { goal: state.goal || 'everyday', background: state.background || 'unknown', targetLevel: state.targetLevel || 'b1', dailyMinutes: state.dailyMinutes || 10, reminderTime: state.reminderTime || '19:30', widgetStyle: state.widgetStyle || 'sunrise' }; state.onboarded = false; render(); };
+  finishOnboarding = function (skipped) { const scoredLevel = levelForPlacementScore(); const recommended = skipped ? levelForBackground() : maxLevel(scoredLevel, levelForBackground()); const current = levelRank(recommended) > levelRank(onboardingData.targetLevel) ? onboardingData.targetLevel : recommended; state.onboarded = true; state.goal = onboardingData.goal; state.background = onboardingData.background; state.targetLevel = onboardingData.targetLevel; state.currentLevel = current; state.dailyMinutes = onboardingData.dailyMinutes; state.reminderTime = onboardingData.reminderTime; state.widgetStyle = onboardingData.widgetStyle; state.placementScore = skipped ? null : placementScore; state.version = 4; const mastered = catalog.lessonList.filter((lesson) => levelRank(lesson.levelId) < levelRank(current)).map((lesson) => lesson.id); state.completed = [...new Set([...(state.completed || []), ...mastered])]; resetPlacement(); save(); state.screen = 'home'; toast(skipped ? `路线已准备好，将从 ${current.toUpperCase()} 难度开始。` : `测试完成，推荐从 ${current.toUpperCase()} 开始。`); render(); };
+  openPlanSettings = function () { resetPlacement(); onboardingStep = 5; onboardingData = { goal: state.goal || 'everyday', background: state.background || 'unknown', targetLevel: state.targetLevel || 'b1', dailyMinutes: state.dailyMinutes || 10, reminderTime: state.reminderTime || '19:30', widgetStyle: state.widgetStyle || 'sunrise' }; state.onboarded = false; render(); };
   const previousRender = render;
   render = function () { if (!state.onboarded) { renderOnboarding(); return; } previousRender(); };
   render();
 })();
+
+if (typeof module !== 'undefined') module.exports = { feedbackDetails: betaFeedbackDetails };
