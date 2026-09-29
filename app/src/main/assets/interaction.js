@@ -65,6 +65,10 @@ function betaFeedbackDetails(q, correct) {
         state.session.index = 0;
         state.session.view = {};
         save();
+        // The legacy starter renders once before returning. Re-render after
+        // shuffling so the visible prompt and the id used for grading stay in
+        // the same order.
+        render();
       }
     };
     if (state.session && !state.session.finished) { if (state.session.lessonId === id) { state.screen = 'lesson'; render(); return; } openModal('开启新的关卡？', '上一关的进度会保留在本机。', '开启新关', '继续上一关', () => { state.session = null; startBetaLesson(id, review); }); return; }

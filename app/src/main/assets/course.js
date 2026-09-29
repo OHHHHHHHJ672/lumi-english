@@ -48,7 +48,20 @@ const levels = [
   {id:'b1',cefr:'B1',title:'独立沟通',subtitle:'旅行、学习和工作中的自然表达',color:'coral',art:'🧭',difficulty:3,questionCount:6,recommendedFor:['高中英语','大学英语']},
   {id:'b2',cefr:'B2',title:'复杂表达',subtitle:'处理抽象话题 · 工作协作 · 表达观点',color:'purple',art:'✈️',difficulty:4,questionCount:6,recommendedFor:['大学英语四级','大学英语六级','雅思托福']}
 ];
-const optionSet = (correct, extras) => [correct, ...extras.filter((item) => item !== correct).slice(0,3)];
+// Keep answer choices deterministic and unique.  Some authored seeds reuse a
+// word in the vocabulary and pair lists, so de-duplicate before taking the
+// three distractors.  The correct answer always remains the first choice.
+const optionSet = (correct, extras = []) => {
+  const seen = new Set();
+  const choices = [];
+  for (const item of [correct, ...extras]) {
+    if (item == null || seen.has(item)) continue;
+    seen.add(item);
+    choices.push(item);
+    if (choices.length === 4) break;
+  }
+  return choices;
+};
 const fillFallbacks = ['schedule', 'meeting', 'station', 'weather', 'water', 'ticket', 'recipe', 'office', 'message', 'travel'];
 const grammarByLevel = {
   a1: ['present-simple', 'basic-prepositions'],
@@ -63,7 +76,7 @@ const skillByKind = {
 function makeLesson(seed,index){
   const spec=levels.find((level)=>level.id===seed.level), id=`${seed.level}-u${index+1}-l1`;
   const grammarTags = grammarByLevel[seed.level] || ['general-english'];
-  const fillWords = [...seed.words.map((word) => word[0]), ...seed.pairs.map((pair) => pair[0]), ...fillFallbacks]
+  const fillWords = [...new Set([...seed.words.map((word) => word[0]), ...seed.pairs.map((pair) => pair[0]), ...fillFallbacks])]
     .filter((word) => /^[A-Za-z][A-Za-z' -]*$/.test(word));
   const fillOptions = optionSet(seed.fill[1], fillWords);
   const questions=[

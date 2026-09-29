@@ -22,6 +22,11 @@ for (const lesson of catalog.lessonList) {
     keys.add(key);
     assert(Array.isArray(question.grammarTags) && question.grammarTags.length > 0, `${question.id} grammar metadata`);
     assert(Array.isArray(question.skillTags) && question.skillTags.length > 0, `${question.id} skill metadata`);
+    if (Array.isArray(question.options)) {
+      assert(question.options.length >= 4, `${question.id} should have at least four choices`);
+      assert.strictEqual(new Set(question.options).size, question.options.length, `${question.id} has duplicate choices`);
+      assert(question.options.includes(question.answer), `${question.id} choices must include the answer`);
+    }
     if (question.kind === 'fill') {
       for (const option of question.options) assert(/^[A-Za-z][A-Za-z' -]*$/.test(option), `${question.id} has non-English fill option: ${option}`);
     }
