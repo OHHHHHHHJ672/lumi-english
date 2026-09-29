@@ -107,7 +107,7 @@ function betaFeedbackDetails(q, correct) {
     $('feedback-icon').textContent = correct ? '✓' : '×';
     $('feedback-title').textContent = correct ? (Number(state.comboStreak || 0) >= 5 ? `连击 x${state.comboStreak}！` : '回答正确！') : '再看一眼这条规律';
     $('feedback-copy').textContent = correct ? `+5 XP${q.audio ? ` · ${q.audio}` : ''}` : `正确答案：${details.answer}`;
-    $('feedback-answer').textContent = details.translation ? `释义：${details.translation}` : '';
+    $('feedback-answer').textContent = details.translation && details.translation !== details.answer ? `释义：${details.translation}` : '';
     const continueButton = $('continue');
     if (continueButton) {
       // A wrong answer is appended to the queue, including when it was the
