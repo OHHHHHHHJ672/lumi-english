@@ -7,12 +7,12 @@ const errors = [];
 const keys = new Set();
 
 if (catalog.levels.length !== 4) errors.push(`levels=${catalog.levels.length}, expected 4`);
-if (catalog.lessonList.length !== 32) errors.push(`lessons=${catalog.lessonList.length}, expected 32`);
-if (Object.keys(catalog.questionBank).length !== 192) errors.push(`questions=${Object.keys(catalog.questionBank).length}, expected 192`);
+if (catalog.lessonList.length !== 80) errors.push(`lessons=${catalog.lessonList.length}, expected 80`);
+if (Object.keys(catalog.questionBank).length !== 480) errors.push(`questions=${Object.keys(catalog.questionBank).length}, expected 480`);
 
 for (const level of catalog.levels) {
   const count = catalog.lessonList.filter((lesson) => lesson.levelId === level.id).length;
-  if (count !== 8) errors.push(`${level.id} has ${count} lessons, expected 8`);
+  if (count !== 20) errors.push(`${level.id} has ${count} lessons, expected 20`);
   for (const field of ['cefr', 'difficulty', 'recommendedFor']) {
     if (level[field] === undefined || level[field] === null) errors.push(`${level.id} missing ${field}`);
   }

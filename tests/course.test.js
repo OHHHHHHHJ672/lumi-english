@@ -6,8 +6,8 @@ const kinds = ['word', 'choice', 'listen', 'order', 'fill', 'match'];
 
 assert.strictEqual(catalog.levels.length, 4, 'expected four CEFR levels');
 assert.deepStrictEqual(catalog.levels.map((level) => level.id), expectedLevels);
-assert.strictEqual(catalog.lessonList.length, 32, 'expected 32 beta lessons');
-assert.strictEqual(Object.keys(catalog.questionBank).length, 192, 'expected six questions per lesson');
+assert.strictEqual(catalog.lessonList.length, 80, 'expected 80 beta lessons');
+assert.strictEqual(Object.keys(catalog.questionBank).length, 480, 'expected six questions per lesson');
 
 const keys = new Set();
 for (const lesson of catalog.lessonList) {

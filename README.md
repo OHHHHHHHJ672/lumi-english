@@ -5,7 +5,7 @@ Lumi English 是一个原创的离线英语学习游戏 Android MVP，面向中�
 ## Beta 内容
 
 - 4 个 CEFR 阶段：A1 基础生存、A2 日常交流、B1 独立沟通、B2 工作与旅行
-- 32 个独立关卡、192 道练习（四个 CEFR 等级各 8 关）；这是后续内容扩展的首个 Beta 切片
+- 80 个独立关卡、480 道练习（四个 CEFR 等级各 20 关）；覆盖日常、学习、工作、研究、科技、公共议题等场景
 - 单词释义、中文翻译、听力选择、拼句、填空、词语配对
 - 启动规划：学习目的、英语背景、目标等级、分级测试、每日学习分钟数、提醒时间、桌面伙伴样式
 - 每日 XP 目标会随学习时间变化；支持连续天数、能量、宝石、错题复习和本地词典
@@ -25,7 +25,7 @@ Lumi English 是一个原创的离线英语学习游戏 Android MVP，面向中�
 
 ## 源码结构
 
-- `app/src/main/assets/course.js`：四个 CEFR 阶段的 32 个 Beta 关卡和题目数据
+- `app/src/main/assets/course.js`：四个 CEFR 阶段的 80 个 Beta 关卡和题目数据
 - `app/src/main/assets/model.js`：本地进度、能量、连续天数和奖励规则
 - `app/src/main/assets/app.js`：路线图、关卡和基础界面
 - `app/src/main/assets/interaction.js`：交互、复习、词典、动效和启动规划
