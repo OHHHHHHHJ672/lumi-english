@@ -1,1 +1,301 @@
-{"id":"a1-u69-l1","levelId":"a1","cefr":"A1","title":"进阶安全提醒","subtitle":"理解家庭和街道安全提示","theme":"safety-reminders","grammarFocus":"imperatives","grammarTags":["imperatives","safety"],"words":[["warning","警告"],["slippery","滑的"],["protect","保护"],["seatbelt","安全带"],["smoke","烟"],["exit","出口"]],"questions":[{"id":"a1-u69-l1-q1","kind":"word","prompt":"warning · 安全提醒","instruction":"选择意思。","answer":"警告","options":["警告","滑的","保护","出口"],"translation":"警告","grammarTags":["imperatives"],"skillTags":["vocabulary"]},{"id":"a1-u69-l1-q2","kind":"choice","prompt":"Please fasten your seatbelt before the car moves.","instruction":"选择意思。","answer":"汽车开动前请系好安全带。","options":["汽车开动前请系好安全带。","过马路前请打开出口。","下雨时请保护你的鞋。","请注意地上的烟。"],"audio":"Please fasten your seatbelt before the car moves.","translation":"汽车开动前请系好安全带。","grammarTags":["imperatives"],"skillTags":["reading"]},{"id":"a1-u69-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"小心，地板很滑。","options":["小心，地板很滑。","小心，出口被烟挡住了。","小心，安全带松开了。","小心，警告标志掉了。"],"audio":"Be careful, the floor is slippery.","translation":"小心，地板很滑。","grammarTags":["imperatives"],"skillTags":["listening"]},{"id":"a1-u69-l1-q4","kind":"order","prompt":"请沿着出口标志走。","instruction":"组成英文句子。","answer":"Please follow the exit sign.","audio":"Please follow the exit sign.","translation":"请沿着出口标志走。","grammarTags":["imperatives"],"skillTags":["word-order"]},{"id":"a1-u69-l1-q5","kind":"fill","prompt":"The sign says to _____ your hands.","instruction":"选择动词。","answer":"protect","options":["protect","warn","smoke","exit"],"audio":"The sign says to protect your hands.","translation":"标志说要保护你的手。","grammarTags":["imperatives"],"skillTags":["grammar"]},{"id":"a1-u69-l1-q6","kind":"match","prompt":"配对安全提醒词语。","instruction":"完成配对。","pairs":[["warning","警告"],["slippery","滑的"],["protect","保护"],["seatbelt","安全带"],["smoke","烟"],["exit","出口"]],"answer":"matched","translation":"警告、滑的、保护、安全带、烟、出口","grammarTags":["imperatives"],"skillTags":["matching"]},{"id":"a1-u69-l1-q7","kind":"word","prompt":"seatbelt · 安全提醒","instruction":"选择意思。","answer":"安全带","options":["安全带","出口","警告","烟"],"translation":"安全带","grammarTags":["imperatives"],"skillTags":["vocabulary"]},{"id":"a1-u69-l1-q8","kind":"choice","prompt":"The smoke alarm makes a loud sound at night.","instruction":"选择意思。","answer":"烟雾报警器晚上发出很大的声音。","options":["烟雾报警器晚上发出很大的声音。","出口标志晚上变得很亮。","安全带晚上自动打开。","滑的地板晚上变干。"],"audio":"The smoke alarm makes a loud sound at night.","translation":"烟雾报警器晚上发出很大的声音。","grammarTags":["imperatives"],"skillTags":["reading"]},{"id":"a1-u69-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"不要触摸热的锅。","options":["不要触摸热的锅。","不要走过出口。","不要解开安全带。","不要打开烟雾报警器。"],"audio":"Do not touch the hot pan.","translation":"不要触摸热的锅。","grammarTags":["imperatives"],"skillTags":["listening"]},{"id":"a1-u69-l1-q10","kind":"fill","prompt":"Always check the _____ before driving.","instruction":"选择名词。","answer":"seatbelt","options":["seatbelt","smoke","exit","warning"],"audio":"Always check the seatbelt before driving.","translation":"开车前总要检查安全带。","grammarTags":["imperatives"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u69-l1-dialogue","scene":"安全乘车提醒","characters":[{"id":"lumi","name":"Lumi"},{"id":"driver","name":"Driver"}],"turns":[{"speaker":"lumi","text":"Should I fasten my seatbelt now?","translation":"我现在应该系安全带吗？"},{"speaker":"driver","text":"Yes, please check it before we move.","translation":"是的，出发前请检查一下。"},{"speaker":"lumi","text":"I will also watch for the exit sign.","translation":"我也会留意出口标志。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u69-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶安全提醒",
+  "subtitle": "理解家庭和街道安全提示",
+  "theme": "safety-reminders",
+  "grammarFocus": "imperatives",
+  "grammarTags": [
+    "imperatives",
+    "safety"
+  ],
+  "words": [
+    [
+      "warning",
+      "警告"
+    ],
+    [
+      "slippery",
+      "滑的"
+    ],
+    [
+      "protect",
+      "保护"
+    ],
+    [
+      "seatbelt",
+      "安全带"
+    ],
+    [
+      "smoke",
+      "烟"
+    ],
+    [
+      "exit",
+      "出口"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u69-l1-q1",
+      "kind": "word",
+      "prompt": "warning · 安全提醒",
+      "instruction": "选择意思。",
+      "answer": "警告",
+      "options": [
+        "警告",
+        "滑的",
+        "保护",
+        "出口"
+      ],
+      "translation": "警告",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u69-l1-q2",
+      "kind": "choice",
+      "prompt": "Please fasten your seatbelt before the car moves.",
+      "instruction": "选择意思。",
+      "answer": "汽车开动前请系好安全带。",
+      "options": [
+        "汽车开动前请系好安全带。",
+        "过马路前请打开出口。",
+        "下雨时请保护你的鞋。",
+        "请注意地上的烟。"
+      ],
+      "audio": "Please fasten your seatbelt before the car moves.",
+      "translation": "汽车开动前请系好安全带。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u69-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "小心，地板很滑。",
+      "options": [
+        "小心，地板很滑。",
+        "小心，出口被烟挡住了。",
+        "小心，安全带松开了。",
+        "小心，警告标志掉了。"
+      ],
+      "audio": "Be careful, the floor is slippery.",
+      "translation": "小心，地板很滑。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u69-l1-q4",
+      "kind": "order",
+      "prompt": "请沿着出口标志走。",
+      "instruction": "组成英文句子。",
+      "answer": "Please follow the exit sign.",
+      "audio": "Please follow the exit sign.",
+      "translation": "请沿着出口标志走。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "Please",
+        "follow",
+        "the",
+        "exit",
+        "sign."
+      ]
+    },
+    {
+      "id": "a1-u69-l1-q5",
+      "kind": "fill",
+      "prompt": "The sign says to _____ your hands.",
+      "instruction": "选择动词。",
+      "answer": "protect",
+      "options": [
+        "protect",
+        "warn",
+        "smoke",
+        "exit"
+      ],
+      "audio": "The sign says to protect your hands.",
+      "translation": "标志说要保护你的手。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u69-l1-q6",
+      "kind": "match",
+      "prompt": "配对安全提醒词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "warning",
+          "警告"
+        ],
+        [
+          "slippery",
+          "滑的"
+        ],
+        [
+          "protect",
+          "保护"
+        ],
+        [
+          "seatbelt",
+          "安全带"
+        ],
+        [
+          "smoke",
+          "烟"
+        ],
+        [
+          "exit",
+          "出口"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "警告、滑的、保护、安全带、烟、出口",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u69-l1-q7",
+      "kind": "word",
+      "prompt": "seatbelt · 安全提醒",
+      "instruction": "选择意思。",
+      "answer": "安全带",
+      "options": [
+        "安全带",
+        "出口",
+        "警告",
+        "烟"
+      ],
+      "translation": "安全带",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u69-l1-q8",
+      "kind": "choice",
+      "prompt": "The smoke alarm makes a loud sound at night.",
+      "instruction": "选择意思。",
+      "answer": "烟雾报警器晚上发出很大的声音。",
+      "options": [
+        "烟雾报警器晚上发出很大的声音。",
+        "出口标志晚上变得很亮。",
+        "安全带晚上自动打开。",
+        "滑的地板晚上变干。"
+      ],
+      "audio": "The smoke alarm makes a loud sound at night.",
+      "translation": "烟雾报警器晚上发出很大的声音。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u69-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "不要触摸热的锅。",
+      "options": [
+        "不要触摸热的锅。",
+        "不要走过出口。",
+        "不要解开安全带。",
+        "不要打开烟雾报警器。"
+      ],
+      "audio": "Do not touch the hot pan.",
+      "translation": "不要触摸热的锅。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u69-l1-q10",
+      "kind": "fill",
+      "prompt": "Always check the _____ before driving.",
+      "instruction": "选择名词。",
+      "answer": "seatbelt",
+      "options": [
+        "seatbelt",
+        "smoke",
+        "exit",
+        "warning"
+      ],
+      "audio": "Always check the seatbelt before driving.",
+      "translation": "开车前总要检查安全带。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u69-l1-dialogue",
+    "scene": "安全乘车提醒",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "driver",
+        "name": "Driver"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Should I fasten my seatbelt now?",
+        "translation": "我现在应该系安全带吗？"
+      },
+      {
+        "speaker": "driver",
+        "text": "Yes, please check it before we move.",
+        "translation": "是的，出发前请检查一下。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will also watch for the exit sign.",
+        "translation": "我也会留意出口标志。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,1 +1,318 @@
-{"id":"a1-u19-l1","levelId":"a1","cefr":"A1","title":"银行基础","subtitle":"在银行办理简单业务","theme":"banking-basics","grammarFocus":"can-requests","grammarTags":["can-requests","numbers"],"words":[["account","账户"],["cash","现金"],["card","卡片"],["deposit","存款"],["counter","柜台"],["signature","签名"]],"questions":[{"id":"a1-u19-l1-q1","kind":"word","prompt":"account · 银行基础","instruction":"选择这个词的意思。","answer":"账户","options":["账户","现金","卡片","柜台"],"translation":"账户","grammarTags":["can-requests"],"skillTags":["vocabulary"]},{"id":"a1-u19-l1-q2","kind":"choice","prompt":"Can I open a bank account here?","instruction":"选择这句请求的意思。","answer":"我可以在这里开一个银行账户吗？","options":["我可以在这里开一个银行账户吗？","我可以在这里兑换现金吗？","我可以在柜台签名吗？","我可以把卡片带走吗？"],"audio":"Can I open a bank account here?","translation":"我可以在这里开一个银行账户吗？","grammarTags":["can-requests"],"skillTags":["reading"]},{"id":"a1-u19-l1-q3","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"先听完整句子。","answer":"请在这里签名。","options":["请在这里签名。","请在这里取现金。","请在柜台排队。","请出示你的卡。"],"audio":"Please sign here.","translation":"请在这里签名。","grammarTags":["can-requests"],"skillTags":["listening"]},{"id":"a1-u19-l1-q4","kind":"order","prompt":"我想存一百美元。","instruction":"把词块组成英文句子。","answer":"I want to deposit one hundred dollars.","options":["I want to deposit one hundred dollars."],"audio":"I want to deposit one hundred dollars.","translation":"我想存一百美元。","grammarTags":["can-requests"],"skillTags":["word-order"]},{"id":"a1-u19-l1-q5","kind":"fill","prompt":"Please take a number at the _____.","instruction":"选择正确的名词。","answer":"counter","options":["counter","cash","card","account"],"audio":"Please take a number at the counter.","translation":"请在柜台取号。","grammarTags":["can-requests"],"skillTags":["grammar"]},{"id":"a1-u19-l1-q6","kind":"match","prompt":"把银行基础词语配对。","instruction":"完成全部配对。","pairs":[["account","账户"],["cash","现金"],["card","卡片"],["deposit","存款"],["counter","柜台"],["signature","签名"]],"answer":"matched","translation":"账户、现金、卡片、存款、柜台、签名","grammarTags":["can-requests"],"skillTags":["matching"]},{"id":"a1-u19-l1-q7","kind":"word","prompt":"deposit · 银行基础","instruction":"选择这个词的意思。","answer":"存款","options":["存款","取款","签名","账户"],"translation":"存款","grammarTags":["can-requests"],"skillTags":["vocabulary"]},{"id":"a1-u19-l1-q8","kind":"choice","prompt":"Could you tell me the cash withdrawal fee?","instruction":"选择这句询问的意思。","answer":"你能告诉我取现金的手续费吗？","options":["你能告诉我取现金的手续费吗？","你能帮我开一个账户吗？","你能把卡放在柜台吗？","你能替我签名吗？"],"audio":"Could you tell me the cash withdrawal fee?","translation":"你能告诉我取现金的手续费吗？","grammarTags":["can-requests"],"skillTags":["reading"]},{"id":"a1-u19-l1-q9","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"听完再作答。","answer":"请出示你的身份证。","options":["请出示你的身份证。","请检查账户余额。","请取一张新卡。","请数一下现金。"],"audio":"Please show your identification.","translation":"请出示你的身份证。","grammarTags":["can-requests"],"skillTags":["listening"]},{"id":"a1-u19-l1-q10","kind":"fill","prompt":"I forgot my bank _____.","instruction":"选择正确的名词。","answer":"card","options":["card","cash","counter","signature"],"audio":"I forgot my bank card.","translation":"我忘记带银行卡了。","grammarTags":["can-requests"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u19-l1-dialogue","scene":"银行柜台","characters":[{"id":"lumi","name":"Lumi"},{"id":"clerk","name":"Clerk"}],"turns":[{"speaker":"lumi","text":"Can I deposit cash into this account?","translation":"我可以把现金存入这个账户吗？"},{"speaker":"clerk","text":"Yes. Please show your identification first.","translation":"可以。请先出示身份证。"},{"speaker":"lumi","text":"Here it is. Where should I sign?","translation":"给你。我应该在哪里签名？"}],"tasks":[{"mode":"intent","prompt":"What must Lumi show first?","answer":"Identification","options":["Identification","A receipt","A train ticket"]}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u19-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "银行基础",
+  "subtitle": "在银行办理简单业务",
+  "theme": "banking-basics",
+  "grammarFocus": "can-requests",
+  "grammarTags": [
+    "can-requests",
+    "numbers"
+  ],
+  "words": [
+    [
+      "account",
+      "账户"
+    ],
+    [
+      "cash",
+      "现金"
+    ],
+    [
+      "card",
+      "卡片"
+    ],
+    [
+      "deposit",
+      "存款"
+    ],
+    [
+      "counter",
+      "柜台"
+    ],
+    [
+      "signature",
+      "签名"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u19-l1-q1",
+      "kind": "word",
+      "prompt": "account · 银行基础",
+      "instruction": "选择这个词的意思。",
+      "answer": "账户",
+      "options": [
+        "账户",
+        "现金",
+        "卡片",
+        "柜台"
+      ],
+      "translation": "账户",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u19-l1-q2",
+      "kind": "choice",
+      "prompt": "Can I open a bank account here?",
+      "instruction": "选择这句请求的意思。",
+      "answer": "我可以在这里开一个银行账户吗？",
+      "options": [
+        "我可以在这里开一个银行账户吗？",
+        "我可以在这里兑换现金吗？",
+        "我可以在柜台签名吗？",
+        "我可以把卡片带走吗？"
+      ],
+      "audio": "Can I open a bank account here?",
+      "translation": "我可以在这里开一个银行账户吗？",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u19-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子。",
+      "answer": "请在这里签名。",
+      "options": [
+        "请在这里签名。",
+        "请在这里取现金。",
+        "请在柜台排队。",
+        "请出示你的卡。"
+      ],
+      "audio": "Please sign here.",
+      "translation": "请在这里签名。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u19-l1-q4",
+      "kind": "order",
+      "prompt": "我想存一百美元。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "I want to deposit one hundred dollars.",
+      "options": [
+        "I want to deposit one hundred dollars."
+      ],
+      "audio": "I want to deposit one hundred dollars.",
+      "translation": "我想存一百美元。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "I",
+        "want",
+        "to",
+        "deposit",
+        "one",
+        "hundred",
+        "dollars."
+      ]
+    },
+    {
+      "id": "a1-u19-l1-q5",
+      "kind": "fill",
+      "prompt": "Please take a number at the _____.",
+      "instruction": "选择正确的名词。",
+      "answer": "counter",
+      "options": [
+        "counter",
+        "cash",
+        "card",
+        "account"
+      ],
+      "audio": "Please take a number at the counter.",
+      "translation": "请在柜台取号。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u19-l1-q6",
+      "kind": "match",
+      "prompt": "把银行基础词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "account",
+          "账户"
+        ],
+        [
+          "cash",
+          "现金"
+        ],
+        [
+          "card",
+          "卡片"
+        ],
+        [
+          "deposit",
+          "存款"
+        ],
+        [
+          "counter",
+          "柜台"
+        ],
+        [
+          "signature",
+          "签名"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "账户、现金、卡片、存款、柜台、签名",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u19-l1-q7",
+      "kind": "word",
+      "prompt": "deposit · 银行基础",
+      "instruction": "选择这个词的意思。",
+      "answer": "存款",
+      "options": [
+        "存款",
+        "取款",
+        "签名",
+        "账户"
+      ],
+      "translation": "存款",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u19-l1-q8",
+      "kind": "choice",
+      "prompt": "Could you tell me the cash withdrawal fee?",
+      "instruction": "选择这句询问的意思。",
+      "answer": "你能告诉我取现金的手续费吗？",
+      "options": [
+        "你能告诉我取现金的手续费吗？",
+        "你能帮我开一个账户吗？",
+        "你能把卡放在柜台吗？",
+        "你能替我签名吗？"
+      ],
+      "audio": "Could you tell me the cash withdrawal fee?",
+      "translation": "你能告诉我取现金的手续费吗？",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u19-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "听完再作答。",
+      "answer": "请出示你的身份证。",
+      "options": [
+        "请出示你的身份证。",
+        "请检查账户余额。",
+        "请取一张新卡。",
+        "请数一下现金。"
+      ],
+      "audio": "Please show your identification.",
+      "translation": "请出示你的身份证。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u19-l1-q10",
+      "kind": "fill",
+      "prompt": "I forgot my bank _____.",
+      "instruction": "选择正确的名词。",
+      "answer": "card",
+      "options": [
+        "card",
+        "cash",
+        "counter",
+        "signature"
+      ],
+      "audio": "I forgot my bank card.",
+      "translation": "我忘记带银行卡了。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u19-l1-dialogue",
+    "scene": "银行柜台",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "clerk",
+        "name": "Clerk"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Can I deposit cash into this account?",
+        "translation": "我可以把现金存入这个账户吗？"
+      },
+      {
+        "speaker": "clerk",
+        "text": "Yes. Please show your identification first.",
+        "translation": "可以。请先出示身份证。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Here it is. Where should I sign?",
+        "translation": "给你。我应该在哪里签名？"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What must Lumi show first?",
+        "answer": "Identification",
+        "options": [
+          "Identification",
+          "A receipt",
+          "A train ticket"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

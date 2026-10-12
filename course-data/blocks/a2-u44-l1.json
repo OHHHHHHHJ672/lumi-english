@@ -1,1 +1,245 @@
-{"id":"a2-u44-l1","levelId":"a2","cefr":"A2","title":"进阶课程注册","subtitle":"比较课程并完成报名","theme":"course-registration","grammarFocus":"comparatives","grammarTags":["comparatives","education"],"words":[["enrol","报名"],["course","课程"],["beginner","初级的"],["advanced","高级的"],["schedule","日程"],["certificate","证书"]],"questions":[{"id":"a2-u44-l1-q1","kind":"word","prompt":"enrol · 课程注册","instruction":"选择意思。","answer":"报名","options":["报名","课程","初级的","证书"],"translation":"报名"},{"id":"a2-u44-l1-q2","kind":"choice","prompt":"The evening course is more convenient than the morning course.","instruction":"选择意思。","answer":"晚间课程比早间课程更方便。","options":["晚间课程比早间课程更方便。","晚间课程比早间课程更高级。","早间课程比晚间课程更长。","两个课程的证书不同。"],"audio":"The evening course is more convenient than the morning course.","translation":"晚间课程比早间课程更方便。"},{"id":"a2-u44-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"高级课程比初级课程难。","options":["高级课程比初级课程难。","初级课程比高级课程贵。","课程日程比证书长。","晚间课程比早间课程早。"],"audio":"The advanced course is harder than the beginner course.","translation":"高级课程比初级课程难。"},{"id":"a2-u44-l1-q4","kind":"order","prompt":"我想报名周六课程。","instruction":"组成英文句子。","answer":"I would like to enrol in the Saturday course.","audio":"I would like to enrol in the Saturday course.","translation":"我想报名周六课程。"},{"id":"a2-u44-l1-q5","kind":"fill","prompt":"This course is _____ than I expected.","instruction":"选择比较级。","answer":"shorter","options":["shorter","short","shortest","shorten"],"audio":"This course is shorter than I expected.","translation":"这门课程比我预期的短。"},{"id":"a2-u44-l1-q6","kind":"match","prompt":"配对课程注册词语。","instruction":"完成配对。","pairs":[["enrol","报名"],["course","课程"],["beginner","初级的"],["advanced","高级的"],["schedule","日程"],["certificate","证书"]],"answer":"matched","translation":"报名、课程、初级的、高级的、日程、证书"},{"id":"a2-u44-l1-q7","kind":"word","prompt":"certificate · 课程注册","instruction":"选择意思。","answer":"证书","options":["证书","日程","报名","课程"],"translation":"证书"},{"id":"a2-u44-l1-q8","kind":"choice","prompt":"The new schedule is clearer than the old one.","instruction":"选择意思。","answer":"新的日程比旧的更清楚。","options":["新的日程比旧的更清楚。","新的课程比旧的更高级。","旧的证书比新的更长。","新的报名时间比旧的更早。"],"audio":"The new schedule is clearer than the old one.","translation":"新的日程比旧的更清楚。"},{"id":"a2-u44-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"完成课程后学生会得到证书。","options":["完成课程后学生会得到证书。","报名后学生会更换日程。","初级学生会参加高级课程。","课程开始后学生会退费。"],"audio":"Students receive a certificate after completing the course.","translation":"完成课程后学生会得到证书。"},{"id":"a2-u44-l1-q10","kind":"fill","prompt":"The advanced class has _____ places left.","instruction":"选择比较数量。","answer":"fewer","options":["fewer","few","fewest","little"],"audio":"The advanced class has fewer places left.","translation":"高级班剩下的名额更少。"}],"dialogue":{"id":"a2-u44-l1-dialogue","scene":"选择英语课程","characters":[{"id":"lumi","name":"Lumi"},{"id":"advisor","name":"Advisor"}],"turns":[{"speaker":"lumi","text":"Which course is more suitable for me?","translation":"哪门课程更适合我？"},{"speaker":"advisor","text":"The evening course is more flexible.","translation":"晚间课程更灵活。"},{"speaker":"lumi","text":"Then I would like to enrol in it.","translation":"那我想报名。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a2-u44-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶课程注册",
+  "subtitle": "比较课程并完成报名",
+  "theme": "course-registration",
+  "grammarFocus": "comparatives",
+  "grammarTags": [
+    "comparatives",
+    "education"
+  ],
+  "words": [
+    [
+      "enrol",
+      "报名"
+    ],
+    [
+      "course",
+      "课程"
+    ],
+    [
+      "beginner",
+      "初级的"
+    ],
+    [
+      "advanced",
+      "高级的"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "certificate",
+      "证书"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u44-l1-q1",
+      "kind": "word",
+      "prompt": "enrol · 课程注册",
+      "instruction": "选择意思。",
+      "answer": "报名",
+      "options": [
+        "报名",
+        "课程",
+        "初级的",
+        "证书"
+      ],
+      "translation": "报名"
+    },
+    {
+      "id": "a2-u44-l1-q2",
+      "kind": "choice",
+      "prompt": "The evening course is more convenient than the morning course.",
+      "instruction": "选择意思。",
+      "answer": "晚间课程比早间课程更方便。",
+      "options": [
+        "晚间课程比早间课程更方便。",
+        "晚间课程比早间课程更高级。",
+        "早间课程比晚间课程更长。",
+        "两个课程的证书不同。"
+      ],
+      "audio": "The evening course is more convenient than the morning course.",
+      "translation": "晚间课程比早间课程更方便。"
+    },
+    {
+      "id": "a2-u44-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "高级课程比初级课程难。",
+      "options": [
+        "高级课程比初级课程难。",
+        "初级课程比高级课程贵。",
+        "课程日程比证书长。",
+        "晚间课程比早间课程早。"
+      ],
+      "audio": "The advanced course is harder than the beginner course.",
+      "translation": "高级课程比初级课程难。"
+    },
+    {
+      "id": "a2-u44-l1-q4",
+      "kind": "order",
+      "prompt": "我想报名周六课程。",
+      "instruction": "组成英文句子。",
+      "answer": "I would like to enrol in the Saturday course.",
+      "audio": "I would like to enrol in the Saturday course.",
+      "translation": "我想报名周六课程。",
+      "tokens": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "enrol",
+        "in",
+        "the",
+        "Saturday",
+        "course."
+      ]
+    },
+    {
+      "id": "a2-u44-l1-q5",
+      "kind": "fill",
+      "prompt": "This course is _____ than I expected.",
+      "instruction": "选择比较级。",
+      "answer": "shorter",
+      "options": [
+        "shorter",
+        "short",
+        "shortest",
+        "shorten"
+      ],
+      "audio": "This course is shorter than I expected.",
+      "translation": "这门课程比我预期的短。"
+    },
+    {
+      "id": "a2-u44-l1-q6",
+      "kind": "match",
+      "prompt": "配对课程注册词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "enrol",
+          "报名"
+        ],
+        [
+          "course",
+          "课程"
+        ],
+        [
+          "beginner",
+          "初级的"
+        ],
+        [
+          "advanced",
+          "高级的"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "certificate",
+          "证书"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "报名、课程、初级的、高级的、日程、证书"
+    },
+    {
+      "id": "a2-u44-l1-q7",
+      "kind": "word",
+      "prompt": "certificate · 课程注册",
+      "instruction": "选择意思。",
+      "answer": "证书",
+      "options": [
+        "证书",
+        "日程",
+        "报名",
+        "课程"
+      ],
+      "translation": "证书"
+    },
+    {
+      "id": "a2-u44-l1-q8",
+      "kind": "choice",
+      "prompt": "The new schedule is clearer than the old one.",
+      "instruction": "选择意思。",
+      "answer": "新的日程比旧的更清楚。",
+      "options": [
+        "新的日程比旧的更清楚。",
+        "新的课程比旧的更高级。",
+        "旧的证书比新的更长。",
+        "新的报名时间比旧的更早。"
+      ],
+      "audio": "The new schedule is clearer than the old one.",
+      "translation": "新的日程比旧的更清楚。"
+    },
+    {
+      "id": "a2-u44-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "完成课程后学生会得到证书。",
+      "options": [
+        "完成课程后学生会得到证书。",
+        "报名后学生会更换日程。",
+        "初级学生会参加高级课程。",
+        "课程开始后学生会退费。"
+      ],
+      "audio": "Students receive a certificate after completing the course.",
+      "translation": "完成课程后学生会得到证书。"
+    },
+    {
+      "id": "a2-u44-l1-q10",
+      "kind": "fill",
+      "prompt": "The advanced class has _____ places left.",
+      "instruction": "选择比较数量。",
+      "answer": "fewer",
+      "options": [
+        "fewer",
+        "few",
+        "fewest",
+        "little"
+      ],
+      "audio": "The advanced class has fewer places left.",
+      "translation": "高级班剩下的名额更少。"
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u44-l1-dialogue",
+    "scene": "选择英语课程",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "advisor",
+        "name": "Advisor"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Which course is more suitable for me?",
+        "translation": "哪门课程更适合我？"
+      },
+      {
+        "speaker": "advisor",
+        "text": "The evening course is more flexible.",
+        "translation": "晚间课程更灵活。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Then I would like to enrol in it.",
+        "translation": "那我想报名。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

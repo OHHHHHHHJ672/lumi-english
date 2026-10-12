@@ -1,1 +1,243 @@
-{"id":"a2-u48-l1","levelId":"a2","cefr":"A2","title":"进阶电脑设置","subtitle":"调整账户和网络设置","theme":"computer-settings","grammarFocus":"can-requests","grammarTags":["can-requests","technology"],"words":[["password","密码"],["screen","屏幕"],["update","更新"],["network","网络"],["account","账户"],["settings","设置"]],"questions":[{"id":"a2-u48-l1-q1","kind":"word","prompt":"settings · 电脑设置","instruction":"选择意思。","answer":"设置","options":["设置","密码","屏幕","网络"],"translation":"设置"},{"id":"a2-u48-l1-q2","kind":"choice","prompt":"Can you change the screen brightness?","instruction":"选择意思。","answer":"你能调整屏幕亮度吗？","options":["你能调整屏幕亮度吗？","你能更新网络密码吗？","你能打开账户设置吗？","你能关闭电脑账户吗？"],"audio":"Can you change the screen brightness?","translation":"你能调整屏幕亮度吗？"},{"id":"a2-u48-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"电脑需要安装新的更新。","options":["电脑需要安装新的更新。","网络需要换一个账户。","屏幕需要输入密码。","设置需要关闭网络。"],"audio":"The computer needs a new update.","translation":"电脑需要安装新的更新。"},{"id":"a2-u48-l1-q4","kind":"order","prompt":"请在设置里打开网络。","instruction":"组成英文句子。","answer":"Please turn on the network in settings.","audio":"Please turn on the network in settings.","translation":"请在设置里打开网络。"},{"id":"a2-u48-l1-q5","kind":"fill","prompt":"I forgot my account _____.","instruction":"选择名词。","answer":"password","options":["password","screen","network","update"],"audio":"I forgot my account password.","translation":"我忘记了账户密码。"},{"id":"a2-u48-l1-q6","kind":"match","prompt":"配对电脑设置词语。","instruction":"完成配对。","pairs":[["password","密码"],["screen","屏幕"],["update","更新"],["network","网络"],["account","账户"],["settings","设置"]],"answer":"matched","translation":"密码、屏幕、更新、网络、账户、设置"},{"id":"a2-u48-l1-q7","kind":"word","prompt":"network · 电脑设置","instruction":"选择意思。","answer":"网络","options":["网络","账户","设置","更新"],"translation":"网络"},{"id":"a2-u48-l1-q8","kind":"choice","prompt":"The new settings make the account safer.","instruction":"选择意思。","answer":"新的设置让账户更安全。","options":["新的设置让账户更安全。","新的密码让屏幕更明亮。","新的网络让更新更快。","新的账户让电脑更安静。"],"audio":"The new settings make the account safer.","translation":"新的设置让账户更安全。"},{"id":"a2-u48-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"请重新连接无线网络。","options":["请重新连接无线网络。","请重新设置账户名字。","请重新更新电脑屏幕。","请重新输入网络账户。"],"audio":"Please reconnect to the wireless network.","translation":"请重新连接无线网络。"},{"id":"a2-u48-l1-q10","kind":"fill","prompt":"The computer is installing an _____.","instruction":"选择名词。","answer":"update","options":["update","account","network","password"],"audio":"The computer is installing an update.","translation":"电脑正在安装更新。"}],"dialogue":{"id":"a2-u48-l1-dialogue","scene":"调整电脑设置","characters":[{"id":"lumi","name":"Lumi"},{"id":"technician","name":"Technician"}],"turns":[{"speaker":"lumi","text":"Can you help me connect to the network?","translation":"你能帮我连接网络吗？"},{"speaker":"technician","text":"Yes. Open settings and choose the network name.","translation":"可以。打开设置并选择网络名称。"},{"speaker":"lumi","text":"I will enter the password carefully.","translation":"我会小心输入密码。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a2-u48-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶电脑设置",
+  "subtitle": "调整账户和网络设置",
+  "theme": "computer-settings",
+  "grammarFocus": "can-requests",
+  "grammarTags": [
+    "can-requests",
+    "technology"
+  ],
+  "words": [
+    [
+      "password",
+      "密码"
+    ],
+    [
+      "screen",
+      "屏幕"
+    ],
+    [
+      "update",
+      "更新"
+    ],
+    [
+      "network",
+      "网络"
+    ],
+    [
+      "account",
+      "账户"
+    ],
+    [
+      "settings",
+      "设置"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u48-l1-q1",
+      "kind": "word",
+      "prompt": "settings · 电脑设置",
+      "instruction": "选择意思。",
+      "answer": "设置",
+      "options": [
+        "设置",
+        "密码",
+        "屏幕",
+        "网络"
+      ],
+      "translation": "设置"
+    },
+    {
+      "id": "a2-u48-l1-q2",
+      "kind": "choice",
+      "prompt": "Can you change the screen brightness?",
+      "instruction": "选择意思。",
+      "answer": "你能调整屏幕亮度吗？",
+      "options": [
+        "你能调整屏幕亮度吗？",
+        "你能更新网络密码吗？",
+        "你能打开账户设置吗？",
+        "你能关闭电脑账户吗？"
+      ],
+      "audio": "Can you change the screen brightness?",
+      "translation": "你能调整屏幕亮度吗？"
+    },
+    {
+      "id": "a2-u48-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "电脑需要安装新的更新。",
+      "options": [
+        "电脑需要安装新的更新。",
+        "网络需要换一个账户。",
+        "屏幕需要输入密码。",
+        "设置需要关闭网络。"
+      ],
+      "audio": "The computer needs a new update.",
+      "translation": "电脑需要安装新的更新。"
+    },
+    {
+      "id": "a2-u48-l1-q4",
+      "kind": "order",
+      "prompt": "请在设置里打开网络。",
+      "instruction": "组成英文句子。",
+      "answer": "Please turn on the network in settings.",
+      "audio": "Please turn on the network in settings.",
+      "translation": "请在设置里打开网络。",
+      "tokens": [
+        "Please",
+        "turn",
+        "on",
+        "the",
+        "network",
+        "in",
+        "settings."
+      ]
+    },
+    {
+      "id": "a2-u48-l1-q5",
+      "kind": "fill",
+      "prompt": "I forgot my account _____.",
+      "instruction": "选择名词。",
+      "answer": "password",
+      "options": [
+        "password",
+        "screen",
+        "network",
+        "update"
+      ],
+      "audio": "I forgot my account password.",
+      "translation": "我忘记了账户密码。"
+    },
+    {
+      "id": "a2-u48-l1-q6",
+      "kind": "match",
+      "prompt": "配对电脑设置词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "password",
+          "密码"
+        ],
+        [
+          "screen",
+          "屏幕"
+        ],
+        [
+          "update",
+          "更新"
+        ],
+        [
+          "network",
+          "网络"
+        ],
+        [
+          "account",
+          "账户"
+        ],
+        [
+          "settings",
+          "设置"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "密码、屏幕、更新、网络、账户、设置"
+    },
+    {
+      "id": "a2-u48-l1-q7",
+      "kind": "word",
+      "prompt": "network · 电脑设置",
+      "instruction": "选择意思。",
+      "answer": "网络",
+      "options": [
+        "网络",
+        "账户",
+        "设置",
+        "更新"
+      ],
+      "translation": "网络"
+    },
+    {
+      "id": "a2-u48-l1-q8",
+      "kind": "choice",
+      "prompt": "The new settings make the account safer.",
+      "instruction": "选择意思。",
+      "answer": "新的设置让账户更安全。",
+      "options": [
+        "新的设置让账户更安全。",
+        "新的密码让屏幕更明亮。",
+        "新的网络让更新更快。",
+        "新的账户让电脑更安静。"
+      ],
+      "audio": "The new settings make the account safer.",
+      "translation": "新的设置让账户更安全。"
+    },
+    {
+      "id": "a2-u48-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请重新连接无线网络。",
+      "options": [
+        "请重新连接无线网络。",
+        "请重新设置账户名字。",
+        "请重新更新电脑屏幕。",
+        "请重新输入网络账户。"
+      ],
+      "audio": "Please reconnect to the wireless network.",
+      "translation": "请重新连接无线网络。"
+    },
+    {
+      "id": "a2-u48-l1-q10",
+      "kind": "fill",
+      "prompt": "The computer is installing an _____.",
+      "instruction": "选择名词。",
+      "answer": "update",
+      "options": [
+        "update",
+        "account",
+        "network",
+        "password"
+      ],
+      "audio": "The computer is installing an update.",
+      "translation": "电脑正在安装更新。"
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u48-l1-dialogue",
+    "scene": "调整电脑设置",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "technician",
+        "name": "Technician"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Can you help me connect to the network?",
+        "translation": "你能帮我连接网络吗？"
+      },
+      {
+        "speaker": "technician",
+        "text": "Yes. Open settings and choose the network name.",
+        "translation": "可以。打开设置并选择网络名称。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will enter the password carefully.",
+        "translation": "我会小心输入密码。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

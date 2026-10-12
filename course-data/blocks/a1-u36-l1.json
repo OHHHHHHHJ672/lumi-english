@@ -76,7 +76,14 @@
       "instruction": "组成英文句子。",
       "answer": "You should get more rest.",
       "audio": "You should get more rest.",
-      "translation": "你应该多休息。"
+      "translation": "你应该多休息。",
+      "tokens": [
+        "You",
+        "should",
+        "get",
+        "more",
+        "rest."
+      ]
     },
     {
       "id": "a1-u36-l1-q5",

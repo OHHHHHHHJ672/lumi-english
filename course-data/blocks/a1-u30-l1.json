@@ -76,7 +76,16 @@
       "instruction": "组成英文句子。",
       "answer": "My library card is in my bag.",
       "audio": "My library card is in my bag.",
-      "translation": "我的借书卡在包里。"
+      "translation": "我的借书卡在包里。",
+      "tokens": [
+        "My",
+        "library",
+        "card",
+        "is",
+        "in",
+        "my",
+        "bag."
+      ]
     },
     {
       "id": "a1-u30-l1-q5",

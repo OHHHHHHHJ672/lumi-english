@@ -1,1 +1,305 @@
-{"id":"a1-u68-l1","levelId":"a1","cefr":"A1","title":"进阶家庭晚餐","subtitle":"准备食物并表达数量","theme":"family-dinner","grammarFocus":"countable-nouns","grammarTags":["countable-nouns","food"],"words":[["recipe","食谱"],["onion","洋葱"],["tomato","番茄"],["bowl","碗"],["soup","汤"],["slice","薄片"]],"questions":[{"id":"a1-u68-l1-q1","kind":"word","prompt":"recipe · 家庭晚餐","instruction":"选择意思。","answer":"食谱","options":["食谱","洋葱","番茄","碗"],"translation":"食谱","grammarTags":["countable-nouns"],"skillTags":["vocabulary"]},{"id":"a1-u68-l1-q2","kind":"choice","prompt":"We need two onions for the soup recipe.","instruction":"选择意思。","answer":"这份汤的食谱需要两个洋葱。","options":["这份汤的食谱需要两个洋葱。","这份沙拉需要两片番茄。","这两个碗需要更多汤。","这份食谱需要两把刀。"],"audio":"We need two onions for the soup recipe.","translation":"这份汤的食谱需要两个洋葱。","grammarTags":["countable-nouns"],"skillTags":["reading"]},{"id":"a1-u68-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"请把番茄切成薄片。","options":["请把番茄切成薄片。","请把洋葱放进碗里。","请把汤倒进锅里。","请把食谱放在桌上。"],"audio":"Please cut the tomato into slices.","translation":"请把番茄切成薄片。","grammarTags":["countable-nouns"],"skillTags":["listening"]},{"id":"a1-u68-l1-q4","kind":"order","prompt":"晚餐有一大碗汤。","instruction":"组成英文句子。","answer":"There is a large bowl of soup for dinner.","audio":"There is a large bowl of soup for dinner.","translation":"晚餐有一大碗汤。","grammarTags":["countable-nouns"],"skillTags":["word-order"]},{"id":"a1-u68-l1-q5","kind":"fill","prompt":"Put three _____ in the salad.","instruction":"选择名词。","answer":"tomatoes","options":["tomatoes","onions","bowls","recipes"],"audio":"Put three tomatoes in the salad.","translation":"在沙拉里放三个番茄。","grammarTags":["countable-nouns"],"skillTags":["grammar"]},{"id":"a1-u68-l1-q6","kind":"match","prompt":"配对家庭晚餐词语。","instruction":"完成配对。","pairs":[["recipe","食谱"],["onion","洋葱"],["tomato","番茄"],["bowl","碗"],["soup","汤"],["slice","薄片"]],"answer":"matched","translation":"食谱、洋葱、番茄、碗、汤、薄片","grammarTags":["countable-nouns"],"skillTags":["matching"]},{"id":"a1-u68-l1-q7","kind":"word","prompt":"slice · 家庭晚餐","instruction":"选择意思。","answer":"薄片","options":["薄片","汤","番茄","洋葱"],"translation":"薄片","grammarTags":["countable-nouns"],"skillTags":["vocabulary"]},{"id":"a1-u68-l1-q8","kind":"choice","prompt":"My father serves the soup in blue bowls.","instruction":"选择意思。","answer":"我爸爸用蓝色的碗盛汤。","options":["我爸爸用蓝色的碗盛汤。","我爸爸用蓝色的番茄做沙拉。","我爸爸把食谱放到洋葱旁。","我爸爸把薄片放进汤里。"],"audio":"My father serves the soup in blue bowls.","translation":"我爸爸用蓝色的碗盛汤。","grammarTags":["countable-nouns"],"skillTags":["reading"]},{"id":"a1-u68-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"食谱说要加入一只洋葱。","options":["食谱说要加入一只洋葱。","食谱说要切三片番茄。","食谱说要准备两个碗。","食谱说汤要煮十分钟。"],"audio":"The recipe says to add one onion.","translation":"食谱说要加入一只洋葱。","grammarTags":["countable-nouns"],"skillTags":["listening"]},{"id":"a1-u68-l1-q10","kind":"fill","prompt":"Please put the soup in a clean _____.","instruction":"选择名词。","answer":"bowl","options":["bowl","recipe","slice","onion"],"audio":"Please put the soup in a clean bowl.","translation":"请把汤放进干净的碗里。","grammarTags":["countable-nouns"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u68-l1-dialogue","scene":"准备家庭晚餐","characters":[{"id":"lumi","name":"Lumi"},{"id":"mother","name":"Mother"}],"turns":[{"speaker":"lumi","text":"How many tomatoes does the recipe need?","translation":"食谱需要多少个番茄？"},{"speaker":"mother","text":"It needs three tomatoes and one onion.","translation":"需要三个番茄和一个洋葱。"},{"speaker":"lumi","text":"I will put the soup in the blue bowls.","translation":"我会把汤放进蓝色的碗。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u68-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶家庭晚餐",
+  "subtitle": "准备食物并表达数量",
+  "theme": "family-dinner",
+  "grammarFocus": "countable-nouns",
+  "grammarTags": [
+    "countable-nouns",
+    "food"
+  ],
+  "words": [
+    [
+      "recipe",
+      "食谱"
+    ],
+    [
+      "onion",
+      "洋葱"
+    ],
+    [
+      "tomato",
+      "番茄"
+    ],
+    [
+      "bowl",
+      "碗"
+    ],
+    [
+      "soup",
+      "汤"
+    ],
+    [
+      "slice",
+      "薄片"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u68-l1-q1",
+      "kind": "word",
+      "prompt": "recipe · 家庭晚餐",
+      "instruction": "选择意思。",
+      "answer": "食谱",
+      "options": [
+        "食谱",
+        "洋葱",
+        "番茄",
+        "碗"
+      ],
+      "translation": "食谱",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u68-l1-q2",
+      "kind": "choice",
+      "prompt": "We need two onions for the soup recipe.",
+      "instruction": "选择意思。",
+      "answer": "这份汤的食谱需要两个洋葱。",
+      "options": [
+        "这份汤的食谱需要两个洋葱。",
+        "这份沙拉需要两片番茄。",
+        "这两个碗需要更多汤。",
+        "这份食谱需要两把刀。"
+      ],
+      "audio": "We need two onions for the soup recipe.",
+      "translation": "这份汤的食谱需要两个洋葱。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u68-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请把番茄切成薄片。",
+      "options": [
+        "请把番茄切成薄片。",
+        "请把洋葱放进碗里。",
+        "请把汤倒进锅里。",
+        "请把食谱放在桌上。"
+      ],
+      "audio": "Please cut the tomato into slices.",
+      "translation": "请把番茄切成薄片。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u68-l1-q4",
+      "kind": "order",
+      "prompt": "晚餐有一大碗汤。",
+      "instruction": "组成英文句子。",
+      "answer": "There is a large bowl of soup for dinner.",
+      "audio": "There is a large bowl of soup for dinner.",
+      "translation": "晚餐有一大碗汤。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "There",
+        "is",
+        "a",
+        "large",
+        "bowl",
+        "of",
+        "soup",
+        "for",
+        "dinner."
+      ]
+    },
+    {
+      "id": "a1-u68-l1-q5",
+      "kind": "fill",
+      "prompt": "Put three _____ in the salad.",
+      "instruction": "选择名词。",
+      "answer": "tomatoes",
+      "options": [
+        "tomatoes",
+        "onions",
+        "bowls",
+        "recipes"
+      ],
+      "audio": "Put three tomatoes in the salad.",
+      "translation": "在沙拉里放三个番茄。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u68-l1-q6",
+      "kind": "match",
+      "prompt": "配对家庭晚餐词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "recipe",
+          "食谱"
+        ],
+        [
+          "onion",
+          "洋葱"
+        ],
+        [
+          "tomato",
+          "番茄"
+        ],
+        [
+          "bowl",
+          "碗"
+        ],
+        [
+          "soup",
+          "汤"
+        ],
+        [
+          "slice",
+          "薄片"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "食谱、洋葱、番茄、碗、汤、薄片",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u68-l1-q7",
+      "kind": "word",
+      "prompt": "slice · 家庭晚餐",
+      "instruction": "选择意思。",
+      "answer": "薄片",
+      "options": [
+        "薄片",
+        "汤",
+        "番茄",
+        "洋葱"
+      ],
+      "translation": "薄片",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u68-l1-q8",
+      "kind": "choice",
+      "prompt": "My father serves the soup in blue bowls.",
+      "instruction": "选择意思。",
+      "answer": "我爸爸用蓝色的碗盛汤。",
+      "options": [
+        "我爸爸用蓝色的碗盛汤。",
+        "我爸爸用蓝色的番茄做沙拉。",
+        "我爸爸把食谱放到洋葱旁。",
+        "我爸爸把薄片放进汤里。"
+      ],
+      "audio": "My father serves the soup in blue bowls.",
+      "translation": "我爸爸用蓝色的碗盛汤。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u68-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "食谱说要加入一只洋葱。",
+      "options": [
+        "食谱说要加入一只洋葱。",
+        "食谱说要切三片番茄。",
+        "食谱说要准备两个碗。",
+        "食谱说汤要煮十分钟。"
+      ],
+      "audio": "The recipe says to add one onion.",
+      "translation": "食谱说要加入一只洋葱。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u68-l1-q10",
+      "kind": "fill",
+      "prompt": "Please put the soup in a clean _____.",
+      "instruction": "选择名词。",
+      "answer": "bowl",
+      "options": [
+        "bowl",
+        "recipe",
+        "slice",
+        "onion"
+      ],
+      "audio": "Please put the soup in a clean bowl.",
+      "translation": "请把汤放进干净的碗里。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u68-l1-dialogue",
+    "scene": "准备家庭晚餐",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "mother",
+        "name": "Mother"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "How many tomatoes does the recipe need?",
+        "translation": "食谱需要多少个番茄？"
+      },
+      {
+        "speaker": "mother",
+        "text": "It needs three tomatoes and one onion.",
+        "translation": "需要三个番茄和一个洋葱。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will put the soup in the blue bowls.",
+        "translation": "我会把汤放进蓝色的碗。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,1 +1,301 @@
-{"id":"a1-u49-l1","levelId":"a1","cefr":"A1","title":"进阶小诊所","subtitle":"描述小病并询问建议","theme":"clinic","grammarFocus":"have-got","grammarTags":["have-got","health"],"words":[["clinic","诊所"],["fever","发烧"],["cough","咳嗽"],["tablet","药片"],["appointment","预约"],["rest","休息"]],"questions":[{"id":"a1-u49-l1-q1","kind":"word","prompt":"clinic · 小诊所","instruction":"选择意思。","answer":"诊所","options":["诊所","发烧","药片","预约"],"translation":"诊所","grammarTags":["have-got"],"skillTags":["vocabulary"]},{"id":"a1-u49-l1-q2","kind":"choice","prompt":"I have got a cough and a sore throat.","instruction":"选择意思。","answer":"我咳嗽，喉咙也痛。","options":["我咳嗽，喉咙也痛。","我预约了明天的检查。","我需要买一盒药片。","我已经休息了一整天。"],"audio":"I have got a cough and a sore throat.","translation":"我咳嗽，喉咙也痛。","grammarTags":["have-got"],"skillTags":["reading"]},{"id":"a1-u49-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"她今天早上发烧了。","options":["她今天早上发烧了。","她昨晚预约了医生。","她正在喝温水。","她今天下午去诊所。"],"audio":"She has got a fever this morning.","translation":"她今天早上发烧了。","grammarTags":["have-got"],"skillTags":["listening"]},{"id":"a1-u49-l1-q4","kind":"order","prompt":"我需要预约医生。","instruction":"组成英文句子。","answer":"I need a doctor's appointment.","audio":"I need a doctor's appointment.","translation":"我需要预约医生。","grammarTags":["have-got"],"skillTags":["word-order"]},{"id":"a1-u49-l1-q5","kind":"fill","prompt":"Take two _____ after dinner.","instruction":"选择名词。","answer":"tablets","options":["tablets","clinics","fevers","appointments"],"audio":"Take two tablets after dinner.","translation":"晚饭后服用两片药。","grammarTags":["have-got"],"skillTags":["grammar"]},{"id":"a1-u49-l1-q6","kind":"match","prompt":"配对小诊所词语。","instruction":"完成配对。","pairs":[["clinic","诊所"],["fever","发烧"],["cough","咳嗽"],["tablet","药片"],["appointment","预约"],["rest","休息"]],"answer":"matched","translation":"诊所、发烧、咳嗽、药片、预约、休息","grammarTags":["have-got"],"skillTags":["matching"]},{"id":"a1-u49-l1-q7","kind":"word","prompt":"rest · 小诊所","instruction":"选择意思。","answer":"休息","options":["休息","咳嗽","发烧","诊所"],"translation":"休息","grammarTags":["have-got"],"skillTags":["vocabulary"]},{"id":"a1-u49-l1-q8","kind":"choice","prompt":"The nurse says I have got a mild cold.","instruction":"选择意思。","answer":"护士说我只是轻微感冒。","options":["护士说我只是轻微感冒。","护士说我需要立刻住院。","护士说我的预约被取消了。","护士说药片应该饭前吃。"],"audio":"The nurse says I have got a mild cold.","translation":"护士说我只是轻微感冒。","grammarTags":["have-got"],"skillTags":["reading"]},{"id":"a1-u49-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"请今天多休息。","options":["请今天多休息。","请明天早点出门。","请在柜台付款。","请把预约写下来。"],"audio":"Please get plenty of rest today.","translation":"请今天多休息。","grammarTags":["have-got"],"skillTags":["listening"]},{"id":"a1-u49-l1-q10","kind":"fill","prompt":"I have got an _____ at three o'clock.","instruction":"选择名词。","answer":"appointment","options":["appointment","tablet","fever","cough"],"audio":"I have got an appointment at three o'clock.","translation":"我三点有预约。","grammarTags":["have-got"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u49-l1-dialogue","scene":"诊所问诊","characters":[{"id":"lumi","name":"Lumi"},{"id":"nurse","name":"Nurse"}],"turns":[{"speaker":"lumi","text":"I have got a cough today.","translation":"我今天咳嗽。"},{"speaker":"nurse","text":"Please sit down and rest for a moment.","translation":"请坐下休息一会儿。"},{"speaker":"lumi","text":"Thank you. I have an appointment at three.","translation":"谢谢。我三点有预约。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u49-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶小诊所",
+  "subtitle": "描述小病并询问建议",
+  "theme": "clinic",
+  "grammarFocus": "have-got",
+  "grammarTags": [
+    "have-got",
+    "health"
+  ],
+  "words": [
+    [
+      "clinic",
+      "诊所"
+    ],
+    [
+      "fever",
+      "发烧"
+    ],
+    [
+      "cough",
+      "咳嗽"
+    ],
+    [
+      "tablet",
+      "药片"
+    ],
+    [
+      "appointment",
+      "预约"
+    ],
+    [
+      "rest",
+      "休息"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u49-l1-q1",
+      "kind": "word",
+      "prompt": "clinic · 小诊所",
+      "instruction": "选择意思。",
+      "answer": "诊所",
+      "options": [
+        "诊所",
+        "发烧",
+        "药片",
+        "预约"
+      ],
+      "translation": "诊所",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u49-l1-q2",
+      "kind": "choice",
+      "prompt": "I have got a cough and a sore throat.",
+      "instruction": "选择意思。",
+      "answer": "我咳嗽，喉咙也痛。",
+      "options": [
+        "我咳嗽，喉咙也痛。",
+        "我预约了明天的检查。",
+        "我需要买一盒药片。",
+        "我已经休息了一整天。"
+      ],
+      "audio": "I have got a cough and a sore throat.",
+      "translation": "我咳嗽，喉咙也痛。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u49-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "她今天早上发烧了。",
+      "options": [
+        "她今天早上发烧了。",
+        "她昨晚预约了医生。",
+        "她正在喝温水。",
+        "她今天下午去诊所。"
+      ],
+      "audio": "She has got a fever this morning.",
+      "translation": "她今天早上发烧了。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u49-l1-q4",
+      "kind": "order",
+      "prompt": "我需要预约医生。",
+      "instruction": "组成英文句子。",
+      "answer": "I need a doctor's appointment.",
+      "audio": "I need a doctor's appointment.",
+      "translation": "我需要预约医生。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "I",
+        "need",
+        "a",
+        "doctor's",
+        "appointment."
+      ]
+    },
+    {
+      "id": "a1-u49-l1-q5",
+      "kind": "fill",
+      "prompt": "Take two _____ after dinner.",
+      "instruction": "选择名词。",
+      "answer": "tablets",
+      "options": [
+        "tablets",
+        "clinics",
+        "fevers",
+        "appointments"
+      ],
+      "audio": "Take two tablets after dinner.",
+      "translation": "晚饭后服用两片药。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u49-l1-q6",
+      "kind": "match",
+      "prompt": "配对小诊所词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "clinic",
+          "诊所"
+        ],
+        [
+          "fever",
+          "发烧"
+        ],
+        [
+          "cough",
+          "咳嗽"
+        ],
+        [
+          "tablet",
+          "药片"
+        ],
+        [
+          "appointment",
+          "预约"
+        ],
+        [
+          "rest",
+          "休息"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "诊所、发烧、咳嗽、药片、预约、休息",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u49-l1-q7",
+      "kind": "word",
+      "prompt": "rest · 小诊所",
+      "instruction": "选择意思。",
+      "answer": "休息",
+      "options": [
+        "休息",
+        "咳嗽",
+        "发烧",
+        "诊所"
+      ],
+      "translation": "休息",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u49-l1-q8",
+      "kind": "choice",
+      "prompt": "The nurse says I have got a mild cold.",
+      "instruction": "选择意思。",
+      "answer": "护士说我只是轻微感冒。",
+      "options": [
+        "护士说我只是轻微感冒。",
+        "护士说我需要立刻住院。",
+        "护士说我的预约被取消了。",
+        "护士说药片应该饭前吃。"
+      ],
+      "audio": "The nurse says I have got a mild cold.",
+      "translation": "护士说我只是轻微感冒。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u49-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请今天多休息。",
+      "options": [
+        "请今天多休息。",
+        "请明天早点出门。",
+        "请在柜台付款。",
+        "请把预约写下来。"
+      ],
+      "audio": "Please get plenty of rest today.",
+      "translation": "请今天多休息。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u49-l1-q10",
+      "kind": "fill",
+      "prompt": "I have got an _____ at three o'clock.",
+      "instruction": "选择名词。",
+      "answer": "appointment",
+      "options": [
+        "appointment",
+        "tablet",
+        "fever",
+        "cough"
+      ],
+      "audio": "I have got an appointment at three o'clock.",
+      "translation": "我三点有预约。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u49-l1-dialogue",
+    "scene": "诊所问诊",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "nurse",
+        "name": "Nurse"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I have got a cough today.",
+        "translation": "我今天咳嗽。"
+      },
+      {
+        "speaker": "nurse",
+        "text": "Please sit down and rest for a moment.",
+        "translation": "请坐下休息一会儿。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thank you. I have an appointment at three.",
+        "translation": "谢谢。我三点有预约。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

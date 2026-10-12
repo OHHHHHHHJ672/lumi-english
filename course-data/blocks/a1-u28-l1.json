@@ -76,7 +76,14 @@
       "instruction": "组成英文句子。",
       "answer": "I am not hungry today.",
       "audio": "I am not hungry today.",
-      "translation": "我今天不饿。"
+      "translation": "我今天不饿。",
+      "tokens": [
+        "I",
+        "am",
+        "not",
+        "hungry",
+        "today."
+      ]
     },
     {
       "id": "a1-u28-l1-q5",

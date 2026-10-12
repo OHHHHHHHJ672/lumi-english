@@ -75,7 +75,14 @@
       "instruction": "组成英文句子。",
       "answer": "Math is the second lesson.",
       "audio": "Math is the second lesson.",
-      "translation": "数学课在第二节。"
+      "translation": "数学课在第二节。",
+      "tokens": [
+        "Math",
+        "is",
+        "the",
+        "second",
+        "lesson."
+      ]
     },
     {
       "id": "a1-u26-l1-q5",

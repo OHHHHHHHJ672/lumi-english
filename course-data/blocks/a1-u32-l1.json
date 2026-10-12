@@ -76,7 +76,16 @@
       "instruction": "组成英文句子。",
       "answer": "The laundry basket is by the door.",
       "audio": "The laundry basket is by the door.",
-      "translation": "洗衣篮在门边。"
+      "translation": "洗衣篮在门边。",
+      "tokens": [
+        "The",
+        "laundry",
+        "basket",
+        "is",
+        "by",
+        "the",
+        "door."
+      ]
     },
     {
       "id": "a1-u32-l1-q5",

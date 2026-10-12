@@ -76,7 +76,13 @@
       "instruction": "组成英文句子。",
       "answer": "This table is white.",
       "audio": "This table is white.",
-      "translation": "这张桌子是白色的。"
+      "translation": "这张桌子是白色的。",
+      "tokens": [
+        "This",
+        "table",
+        "is",
+        "white."
+      ]
     },
     {
       "id": "a1-u35-l1-q5",

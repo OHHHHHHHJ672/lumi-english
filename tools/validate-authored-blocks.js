@@ -28,6 +28,22 @@ for (const file of files) {
       if (/(this lesson|the word|本课|这个单词是什么意思)/i.test(`${question.prompt || ''} ${question.instruction || ''}`)) errors.push(`${file}#${index + 1}: meta wording is forbidden`);
     }
     if (question.kind === 'match' && (!Array.isArray(question.pairs) || question.pairs.length < 6)) errors.push(`${file}#${index + 1}: match needs at least six pairs`);
+    // A `word` question renders its options as the tappable answer buttons and
+    // grades with state.choice === q.answer, so the keyed answer must be one of
+    // them. Shipping the English headword instead makes every pick wrong.
+    if (question.kind === 'word') {
+      if (!Array.isArray(question.options) || !question.options.length) errors.push(`${file}#${index + 1}: word needs options`);
+      else if (!question.options.includes(question.answer)) errors.push(`${file}#${index + 1}: word answer ${JSON.stringify(question.answer)} is not among its options`);
+    }
+    // An `order` question is graded by tokens.join(' ') === q.answer. With no
+    // token bank betaShuffle yields [], the word bank renders empty and
+    // checkOrder() can never succeed, which strands the whole lesson.
+    // Note the invariant is the join, not answer.split(' '): b1-u1-l1-q4
+    // legitimately uses the multi-word tile "the handoff date".
+    if (question.kind === 'order') {
+      if (!Array.isArray(question.tokens) || !question.tokens.length) errors.push(`${file}#${index + 1}: order needs a token bank`);
+      else if (question.tokens.join(' ') !== question.answer) errors.push(`${file}#${index + 1}: order tokens do not reassemble into the answer`);
+    }
   }
   const sentenceQuestions = (block.questions || []).filter((question) => ['choice', 'listen', 'order', 'fill'].includes(question.kind));
   if (sentenceQuestions.length < 6) errors.push(`${file}: at least six sentence questions are required for grammar review`);

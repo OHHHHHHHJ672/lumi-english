@@ -75,7 +75,15 @@
       "instruction": "组成英文句子。",
       "answer": "We walk the dog after dinner.",
       "audio": "We walk the dog after dinner.",
-      "translation": "我们晚饭后带狗散步。"
+      "translation": "我们晚饭后带狗散步。",
+      "tokens": [
+        "We",
+        "walk",
+        "the",
+        "dog",
+        "after",
+        "dinner."
+      ]
     },
     {
       "id": "a1-u25-l1-q5",

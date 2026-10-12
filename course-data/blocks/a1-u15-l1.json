@@ -1,1 +1,315 @@
-{"id":"a1-u15-l1","levelId":"a1","cefr":"A1","title":"家务分工","subtitle":"说明家务安排和请求","theme":"household-chores","grammarFocus":"imperatives","grammarTags":["imperatives","daily-routines"],"words":[["laundry","洗衣服"],["dishes","餐具"],["sweep","扫地"],["floor","地板"],["tidy","整理"],["bin","垃圾桶"]],"questions":[{"id":"a1-u15-l1-q1","kind":"word","prompt":"laundry · 家务分工","instruction":"选择这个词的意思。","answer":"洗衣服","options":["洗衣服","餐具","扫地","地板"],"translation":"洗衣服","grammarTags":["imperatives"],"skillTags":["vocabulary"]},{"id":"a1-u15-l1-q2","kind":"choice","prompt":"Please wash the dishes after dinner.","instruction":"选择这句请求的意思。","answer":"晚饭后请洗餐具。","options":["晚饭后请洗餐具。","请把地板扫干净。","请整理你的房间。","请把垃圾拿出去。"],"audio":"Please wash the dishes after dinner.","translation":"晚饭后请洗餐具。","grammarTags":["imperatives"],"skillTags":["reading"]},{"id":"a1-u15-l1-q3","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"先听完整句子。","answer":"请把垃圾拿出去。","options":["晚饭后请洗餐具。","请把地板扫干净。","请把垃圾拿出去。","请整理你的房间。"],"audio":"Please take the bin outside before bed.","translation":"请在睡觉前把垃圾拿出去。","grammarTags":["imperatives"],"skillTags":["listening"]},{"id":"a1-u15-l1-q4","kind":"order","prompt":"请把地板扫干净。","instruction":"把词块组成英文句子。","answer":"Please sweep the floor.","options":["Please sweep the floor."],"audio":"Please sweep the floor.","translation":"请把地板扫干净。","grammarTags":["imperatives"],"skillTags":["word-order"]},{"id":"a1-u15-l1-q5","kind":"fill","prompt":"_____ your room before the guests arrive.","instruction":"选择正确的动词。","answer":"Tidy","options":["Tidy","Wash","Sweep","Carry"],"audio":"Tidy your room before the guests arrive.","translation":"客人到达前整理你的房间。","grammarTags":["imperatives"],"skillTags":["grammar"]},{"id":"a1-u15-l1-q6","kind":"match","prompt":"把家务分工词语配对。","instruction":"完成全部配对。","pairs":[["laundry","洗衣服"],["dishes","餐具"],["sweep","扫地"],["floor","地板"],["tidy","整理"],["bin","垃圾桶"]],"answer":"matched","translation":"洗衣服、餐具、扫地、地板、整理、垃圾桶","grammarTags":["imperatives"],"skillTags":["matching"]},{"id":"a1-u15-l1-q7","kind":"word","prompt":"tidy · 家务分工","instruction":"选择这个词的意思。","answer":"整理","options":["整理","洗衣服","扫地","垃圾桶"],"translation":"整理","grammarTags":["imperatives"],"skillTags":["vocabulary"]},{"id":"a1-u15-l1-q8","kind":"choice","prompt":"Can you carry the laundry upstairs?","instruction":"选择这句请求的意思。","answer":"你能把洗好的衣服拿到楼上吗？","options":["你能把洗好的衣服拿到楼上吗？","你能把餐具放进橱柜吗？","你能扫一下门口吗？","你能整理书桌吗？"],"audio":"Can you carry the laundry upstairs?","translation":"你能把洗好的衣服拿到楼上吗？","grammarTags":["imperatives"],"skillTags":["reading"]},{"id":"a1-u15-l1-q9","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"听完再作答。","answer":"餐具在水槽里。","options":["餐具在水槽里。","垃圾桶在门外。","地板很干净。","衣服在楼上。"],"audio":"The dishes are in the sink.","translation":"餐具在水槽里。","grammarTags":["imperatives"],"skillTags":["listening"]},{"id":"a1-u15-l1-q10","kind":"fill","prompt":"Please _____ the table for breakfast.","instruction":"选择正确的动词。","answer":"clean","options":["clean","carry","wash","open"],"audio":"Please clean the table for breakfast.","translation":"请把早餐用的桌子擦干净。","grammarTags":["imperatives"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u15-l1-dialogue","scene":"分配晚间家务","characters":[{"id":"lumi","name":"Lumi"},{"id":"alex","name":"Alex"}],"turns":[{"speaker":"lumi","text":"Could you wash the dishes tonight?","translation":"你今晚能洗餐具吗？"},{"speaker":"alex","text":"Sure. I will sweep the floor first.","translation":"当然。我先扫地。"},{"speaker":"lumi","text":"Thanks. I will tidy the living room.","translation":"谢谢。我来整理客厅。"}],"tasks":[{"mode":"intent","prompt":"Who will sweep the floor?","answer":"Alex","options":["Alex","Lumi","The guests"]}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u15-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "家务分工",
+  "subtitle": "说明家务安排和请求",
+  "theme": "household-chores",
+  "grammarFocus": "imperatives",
+  "grammarTags": [
+    "imperatives",
+    "daily-routines"
+  ],
+  "words": [
+    [
+      "laundry",
+      "洗衣服"
+    ],
+    [
+      "dishes",
+      "餐具"
+    ],
+    [
+      "sweep",
+      "扫地"
+    ],
+    [
+      "floor",
+      "地板"
+    ],
+    [
+      "tidy",
+      "整理"
+    ],
+    [
+      "bin",
+      "垃圾桶"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u15-l1-q1",
+      "kind": "word",
+      "prompt": "laundry · 家务分工",
+      "instruction": "选择这个词的意思。",
+      "answer": "洗衣服",
+      "options": [
+        "洗衣服",
+        "餐具",
+        "扫地",
+        "地板"
+      ],
+      "translation": "洗衣服",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u15-l1-q2",
+      "kind": "choice",
+      "prompt": "Please wash the dishes after dinner.",
+      "instruction": "选择这句请求的意思。",
+      "answer": "晚饭后请洗餐具。",
+      "options": [
+        "晚饭后请洗餐具。",
+        "请把地板扫干净。",
+        "请整理你的房间。",
+        "请把垃圾拿出去。"
+      ],
+      "audio": "Please wash the dishes after dinner.",
+      "translation": "晚饭后请洗餐具。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u15-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子。",
+      "answer": "请把垃圾拿出去。",
+      "options": [
+        "晚饭后请洗餐具。",
+        "请把地板扫干净。",
+        "请把垃圾拿出去。",
+        "请整理你的房间。"
+      ],
+      "audio": "Please take the bin outside before bed.",
+      "translation": "请在睡觉前把垃圾拿出去。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u15-l1-q4",
+      "kind": "order",
+      "prompt": "请把地板扫干净。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "Please sweep the floor.",
+      "options": [
+        "Please sweep the floor."
+      ],
+      "audio": "Please sweep the floor.",
+      "translation": "请把地板扫干净。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "Please",
+        "sweep",
+        "the",
+        "floor."
+      ]
+    },
+    {
+      "id": "a1-u15-l1-q5",
+      "kind": "fill",
+      "prompt": "_____ your room before the guests arrive.",
+      "instruction": "选择正确的动词。",
+      "answer": "Tidy",
+      "options": [
+        "Tidy",
+        "Wash",
+        "Sweep",
+        "Carry"
+      ],
+      "audio": "Tidy your room before the guests arrive.",
+      "translation": "客人到达前整理你的房间。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u15-l1-q6",
+      "kind": "match",
+      "prompt": "把家务分工词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "laundry",
+          "洗衣服"
+        ],
+        [
+          "dishes",
+          "餐具"
+        ],
+        [
+          "sweep",
+          "扫地"
+        ],
+        [
+          "floor",
+          "地板"
+        ],
+        [
+          "tidy",
+          "整理"
+        ],
+        [
+          "bin",
+          "垃圾桶"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "洗衣服、餐具、扫地、地板、整理、垃圾桶",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u15-l1-q7",
+      "kind": "word",
+      "prompt": "tidy · 家务分工",
+      "instruction": "选择这个词的意思。",
+      "answer": "整理",
+      "options": [
+        "整理",
+        "洗衣服",
+        "扫地",
+        "垃圾桶"
+      ],
+      "translation": "整理",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u15-l1-q8",
+      "kind": "choice",
+      "prompt": "Can you carry the laundry upstairs?",
+      "instruction": "选择这句请求的意思。",
+      "answer": "你能把洗好的衣服拿到楼上吗？",
+      "options": [
+        "你能把洗好的衣服拿到楼上吗？",
+        "你能把餐具放进橱柜吗？",
+        "你能扫一下门口吗？",
+        "你能整理书桌吗？"
+      ],
+      "audio": "Can you carry the laundry upstairs?",
+      "translation": "你能把洗好的衣服拿到楼上吗？",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u15-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "听完再作答。",
+      "answer": "餐具在水槽里。",
+      "options": [
+        "餐具在水槽里。",
+        "垃圾桶在门外。",
+        "地板很干净。",
+        "衣服在楼上。"
+      ],
+      "audio": "The dishes are in the sink.",
+      "translation": "餐具在水槽里。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u15-l1-q10",
+      "kind": "fill",
+      "prompt": "Please _____ the table for breakfast.",
+      "instruction": "选择正确的动词。",
+      "answer": "clean",
+      "options": [
+        "clean",
+        "carry",
+        "wash",
+        "open"
+      ],
+      "audio": "Please clean the table for breakfast.",
+      "translation": "请把早餐用的桌子擦干净。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u15-l1-dialogue",
+    "scene": "分配晚间家务",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you wash the dishes tonight?",
+        "translation": "你今晚能洗餐具吗？"
+      },
+      {
+        "speaker": "alex",
+        "text": "Sure. I will sweep the floor first.",
+        "translation": "当然。我先扫地。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thanks. I will tidy the living room.",
+        "translation": "谢谢。我来整理客厅。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Who will sweep the floor?",
+        "answer": "Alex",
+        "options": [
+          "Alex",
+          "Lumi",
+          "The guests"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

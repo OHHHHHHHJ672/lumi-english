@@ -112,6 +112,15 @@
       ],
       "skillTags": [
         "word-order"
+      ],
+      "tokens": [
+        "There",
+        "are",
+        "three",
+        "ducks",
+        "in",
+        "the",
+        "pond."
       ]
     },
     {

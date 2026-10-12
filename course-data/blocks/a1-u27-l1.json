@@ -76,7 +76,16 @@
       "instruction": "组成英文句子。",
       "answer": "Please be careful on the wet floor.",
       "audio": "Please be careful on the wet floor.",
-      "translation": "请小心湿滑的地面。"
+      "translation": "请小心湿滑的地面。",
+      "tokens": [
+        "Please",
+        "be",
+        "careful",
+        "on",
+        "the",
+        "wet",
+        "floor."
+      ]
     },
     {
       "id": "a1-u27-l1-q5",

@@ -1,1 +1,318 @@
-{"id":"a1-u21-l1","levelId":"a1","cefr":"A1","title":"课堂用品","subtitle":"借用和辨认学习用品","theme":"classroom-supplies","grammarFocus":"classroom-language","grammarTags":["classroom-language","can-requests"],"words":[["pencil","铅笔"],["ruler","尺子"],["eraser","橡皮"],["notebook","笔记本"],["folder","文件夹"],["desk","书桌"]],"questions":[{"id":"a1-u21-l1-q1","kind":"word","prompt":"ruler · 课堂用品","instruction":"选择这个词的意思。","answer":"尺子","options":["尺子","铅笔","橡皮","笔记本"],"translation":"尺子","grammarTags":["classroom-language"],"skillTags":["vocabulary"]},{"id":"a1-u21-l1-q2","kind":"choice","prompt":"May I borrow your blue pencil?","instruction":"选择这句请求的意思。","answer":"我可以借你的蓝色铅笔吗？","options":["我可以借你的蓝色铅笔吗？","我可以拿走你的笔记本吗？","我可以使用你的尺子吗？","我可以把文件夹放在桌上吗？"],"audio":"May I borrow your blue pencil?","translation":"我可以借你的蓝色铅笔吗？","grammarTags":["classroom-language"],"skillTags":["reading"]},{"id":"a1-u21-l1-q3","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"先听完整句子。","answer":"橡皮在书桌上。","options":["橡皮在书桌上。","尺子在书包里。","铅笔在文件夹里。","笔记本在椅子上。"],"audio":"The eraser is on the desk.","translation":"橡皮在书桌上。","grammarTags":["classroom-language"],"skillTags":["listening"]},{"id":"a1-u21-l1-q4","kind":"order","prompt":"请把笔记本放进文件夹。","instruction":"把词块组成英文句子。","answer":"Please put the notebook in the folder.","options":["Please put the notebook in the folder."],"audio":"Please put the notebook in the folder.","translation":"请把笔记本放进文件夹。","grammarTags":["classroom-language"],"skillTags":["word-order"]},{"id":"a1-u21-l1-q5","kind":"fill","prompt":"Draw a straight line with your _____.","instruction":"选择合适的学习用品。","answer":"ruler","options":["ruler","eraser","folder","pencil"],"audio":"Draw a straight line with your ruler.","translation":"用尺子画一条直线。","grammarTags":["classroom-language"],"skillTags":["grammar"]},{"id":"a1-u21-l1-q6","kind":"match","prompt":"把课堂用品词语配对。","instruction":"完成全部配对。","pairs":[["pencil","铅笔"],["ruler","尺子"],["eraser","橡皮"],["notebook","笔记本"],["folder","文件夹"],["desk","书桌"]],"answer":"matched","translation":"铅笔、尺子、橡皮、笔记本、文件夹、书桌","grammarTags":["classroom-language"],"skillTags":["matching"]},{"id":"a1-u21-l1-q7","kind":"word","prompt":"folder · 课堂用品","instruction":"选择这个词的意思。","answer":"文件夹","options":["文件夹","笔记本","橡皮","书桌"],"translation":"文件夹","grammarTags":["classroom-language"],"skillTags":["vocabulary"]},{"id":"a1-u21-l1-q8","kind":"choice","prompt":"The teacher left a note on my desk.","instruction":"选择这句课堂表达的意思。","answer":"老师在我的书桌上留了一张便条。","options":["老师在我的书桌上留了一张便条。","老师把尺子放进文件夹。","老师借走了我的橡皮。","老师把铅笔放在门口。"],"audio":"The teacher left a note on my desk.","translation":"老师在我的书桌上留了一张便条。","grammarTags":["classroom-language"],"skillTags":["reading"]},{"id":"a1-u21-l1-q9","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"听完再作答。","answer":"请把练习写在笔记本上。","options":["请把练习写在笔记本上。","请用尺子画一个正方形。","请把文件夹交给老师。","请把橡皮放进书包。"],"audio":"Please write the exercise in your notebook.","translation":"请把练习写在笔记本上。","grammarTags":["classroom-language"],"skillTags":["listening"]},{"id":"a1-u21-l1-q10","kind":"fill","prompt":"Can I use your _____ to correct this word?","instruction":"选择合适的学习用品。","answer":"eraser","options":["eraser","ruler","desk","folder"],"audio":"Can I use your eraser to correct this word?","translation":"我可以用你的橡皮擦掉这个词吗？","grammarTags":["classroom-language"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u21-l1-dialogue","scene":"课堂上借文具","characters":[{"id":"lumi","name":"Lumi"},{"id":"mia","name":"Mia"}],"turns":[{"speaker":"lumi","text":"May I borrow your ruler?","translation":"我可以借你的尺子吗？"},{"speaker":"mia","text":"Of course. It is in my folder.","translation":"当然。它在我的文件夹里。"},{"speaker":"lumi","text":"Thank you. I will return it after class.","translation":"谢谢。下课后我会还给你。"}],"tasks":[{"mode":"intent","prompt":"Where is Mia's ruler?","answer":"In her folder","options":["In her folder","On the floor","By the door"]}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u21-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "课堂用品",
+  "subtitle": "借用和辨认学习用品",
+  "theme": "classroom-supplies",
+  "grammarFocus": "classroom-language",
+  "grammarTags": [
+    "classroom-language",
+    "can-requests"
+  ],
+  "words": [
+    [
+      "pencil",
+      "铅笔"
+    ],
+    [
+      "ruler",
+      "尺子"
+    ],
+    [
+      "eraser",
+      "橡皮"
+    ],
+    [
+      "notebook",
+      "笔记本"
+    ],
+    [
+      "folder",
+      "文件夹"
+    ],
+    [
+      "desk",
+      "书桌"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u21-l1-q1",
+      "kind": "word",
+      "prompt": "ruler · 课堂用品",
+      "instruction": "选择这个词的意思。",
+      "answer": "尺子",
+      "options": [
+        "尺子",
+        "铅笔",
+        "橡皮",
+        "笔记本"
+      ],
+      "translation": "尺子",
+      "grammarTags": [
+        "classroom-language"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u21-l1-q2",
+      "kind": "choice",
+      "prompt": "May I borrow your blue pencil?",
+      "instruction": "选择这句请求的意思。",
+      "answer": "我可以借你的蓝色铅笔吗？",
+      "options": [
+        "我可以借你的蓝色铅笔吗？",
+        "我可以拿走你的笔记本吗？",
+        "我可以使用你的尺子吗？",
+        "我可以把文件夹放在桌上吗？"
+      ],
+      "audio": "May I borrow your blue pencil?",
+      "translation": "我可以借你的蓝色铅笔吗？",
+      "grammarTags": [
+        "classroom-language"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u21-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子。",
+      "answer": "橡皮在书桌上。",
+      "options": [
+        "橡皮在书桌上。",
+        "尺子在书包里。",
+        "铅笔在文件夹里。",
+        "笔记本在椅子上。"
+      ],
+      "audio": "The eraser is on the desk.",
+      "translation": "橡皮在书桌上。",
+      "grammarTags": [
+        "classroom-language"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u21-l1-q4",
+      "kind": "order",
+      "prompt": "请把笔记本放进文件夹。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "Please put the notebook in the folder.",
+      "options": [
+        "Please put the notebook in the folder."
+      ],
+      "audio": "Please put the notebook in the folder.",
+      "translation": "请把笔记本放进文件夹。",
+      "grammarTags": [
+        "classroom-language"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "Please",
+        "put",
+        "the",
+        "notebook",
+        "in",
+        "the",
+        "folder."
+      ]
+    },
+    {
+      "id": "a1-u21-l1-q5",
+      "kind": "fill",
+      "prompt": "Draw a straight line with your _____.",
+      "instruction": "选择合适的学习用品。",
+      "answer": "ruler",
+      "options": [
+        "ruler",
+        "eraser",
+        "folder",
+        "pencil"
+      ],
+      "audio": "Draw a straight line with your ruler.",
+      "translation": "用尺子画一条直线。",
+      "grammarTags": [
+        "classroom-language"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u21-l1-q6",
+      "kind": "match",
+      "prompt": "把课堂用品词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "pencil",
+          "铅笔"
+        ],
+        [
+          "ruler",
+          "尺子"
+        ],
+        [
+          "eraser",
+          "橡皮"
+        ],
+        [
+          "notebook",
+          "笔记本"
+        ],
+        [
+          "folder",
+          "文件夹"
+        ],
+        [
+          "desk",
+          "书桌"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "铅笔、尺子、橡皮、笔记本、文件夹、书桌",
+      "grammarTags": [
+        "classroom-language"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u21-l1-q7",
+      "kind": "word",
+      "prompt": "folder · 课堂用品",
+      "instruction": "选择这个词的意思。",
+      "answer": "文件夹",
+      "options": [
+        "文件夹",
+        "笔记本",
+        "橡皮",
+        "书桌"
+      ],
+      "translation": "文件夹",
+      "grammarTags": [
+        "classroom-language"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u21-l1-q8",
+      "kind": "choice",
+      "prompt": "The teacher left a note on my desk.",
+      "instruction": "选择这句课堂表达的意思。",
+      "answer": "老师在我的书桌上留了一张便条。",
+      "options": [
+        "老师在我的书桌上留了一张便条。",
+        "老师把尺子放进文件夹。",
+        "老师借走了我的橡皮。",
+        "老师把铅笔放在门口。"
+      ],
+      "audio": "The teacher left a note on my desk.",
+      "translation": "老师在我的书桌上留了一张便条。",
+      "grammarTags": [
+        "classroom-language"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u21-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "听完再作答。",
+      "answer": "请把练习写在笔记本上。",
+      "options": [
+        "请把练习写在笔记本上。",
+        "请用尺子画一个正方形。",
+        "请把文件夹交给老师。",
+        "请把橡皮放进书包。"
+      ],
+      "audio": "Please write the exercise in your notebook.",
+      "translation": "请把练习写在笔记本上。",
+      "grammarTags": [
+        "classroom-language"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u21-l1-q10",
+      "kind": "fill",
+      "prompt": "Can I use your _____ to correct this word?",
+      "instruction": "选择合适的学习用品。",
+      "answer": "eraser",
+      "options": [
+        "eraser",
+        "ruler",
+        "desk",
+        "folder"
+      ],
+      "audio": "Can I use your eraser to correct this word?",
+      "translation": "我可以用你的橡皮擦掉这个词吗？",
+      "grammarTags": [
+        "classroom-language"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u21-l1-dialogue",
+    "scene": "课堂上借文具",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "mia",
+        "name": "Mia"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "May I borrow your ruler?",
+        "translation": "我可以借你的尺子吗？"
+      },
+      {
+        "speaker": "mia",
+        "text": "Of course. It is in my folder.",
+        "translation": "当然。它在我的文件夹里。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thank you. I will return it after class.",
+        "translation": "谢谢。下课后我会还给你。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Where is Mia's ruler?",
+        "answer": "In her folder",
+        "options": [
+          "In her folder",
+          "On the floor",
+          "By the door"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

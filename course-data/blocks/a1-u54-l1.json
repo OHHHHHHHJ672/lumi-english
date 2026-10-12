@@ -1,1 +1,302 @@
-{"id":"a1-u54-l1","levelId":"a1","cefr":"A1","title":"进阶球场规则","subtitle":"听懂运动场上的提醒","theme":"sports-rules","grammarFocus":"imperatives","grammarTags":["imperatives","sports"],"words":[["court","球场"],["score","得分"],["team","队伍"],["referee","裁判"],["pass","传球"],["rule","规则"]],"questions":[{"id":"a1-u54-l1-q1","kind":"word","prompt":"referee · 球场规则","instruction":"选择意思。","answer":"裁判","options":["裁判","球场","队伍","得分"],"translation":"裁判","grammarTags":["imperatives"],"skillTags":["vocabulary"]},{"id":"a1-u54-l1-q2","kind":"choice","prompt":"Please pass the ball to your teammate.","instruction":"选择意思。","answer":"请把球传给你的队友。","options":["请把球传给你的队友。","请把球放到场外。","请记录裁判的得分。","请遵守队伍的时间。"],"audio":"Please pass the ball to your teammate.","translation":"请把球传给你的队友。","grammarTags":["imperatives"],"skillTags":["reading"]},{"id":"a1-u54-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"裁判吹哨后比赛停止。","options":["裁判吹哨后比赛停止。","队伍得分后交换球场。","请在场外等待裁判。","传球前先记录规则。"],"audio":"Stop when the referee blows the whistle.","translation":"裁判吹哨后比赛停止。","grammarTags":["imperatives"],"skillTags":["listening"]},{"id":"a1-u54-l1-q4","kind":"order","prompt":"请站在白线后面。","instruction":"组成英文句子。","answer":"Please stand behind the white line.","audio":"Please stand behind the white line.","translation":"请站在白线后面。","grammarTags":["imperatives"],"skillTags":["word-order"]},{"id":"a1-u54-l1-q5","kind":"fill","prompt":"Our _____ scored the first goal.","instruction":"选择名词。","answer":"team","options":["team","court","rule","referee"],"audio":"Our team scored the first goal.","translation":"我们的队伍进了第一个球。","grammarTags":["imperatives"],"skillTags":["grammar"]},{"id":"a1-u54-l1-q6","kind":"match","prompt":"配对球场规则词语。","instruction":"完成配对。","pairs":[["court","球场"],["score","得分"],["team","队伍"],["referee","裁判"],["pass","传球"],["rule","规则"]],"answer":"matched","translation":"球场、得分、队伍、裁判、传球、规则","grammarTags":["imperatives"],"skillTags":["matching"]},{"id":"a1-u54-l1-q7","kind":"word","prompt":"score · 球场规则","instruction":"选择意思。","answer":"得分","options":["得分","规则","裁判","传球"],"translation":"得分","grammarTags":["imperatives"],"skillTags":["vocabulary"]},{"id":"a1-u54-l1-q8","kind":"choice","prompt":"The referee says that this move is against the rules.","instruction":"选择意思。","answer":"裁判说这个动作违反规则。","options":["裁判说这个动作违反规则。","裁判说队伍已经得分。","裁判说比赛在球场外进行。","裁判说球应该传回后场。"],"audio":"The referee says that this move is against the rules.","translation":"裁判说这个动作违反规则。","grammarTags":["imperatives"],"skillTags":["reading"]},{"id":"a1-u54-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"请把球传给左边的队友。","options":["请把球传给左边的队友。","请让裁判站在左边。","请把队伍移到左边。","请在左边写下得分。"],"audio":"Pass the ball to the teammate on your left.","translation":"请把球传给左边的队友。","grammarTags":["imperatives"],"skillTags":["listening"]},{"id":"a1-u54-l1-q10","kind":"fill","prompt":"The players must follow the _____.","instruction":"选择名词。","answer":"rules","options":["rules","scores","courts","passes"],"audio":"The players must follow the rules.","translation":"球员必须遵守规则。","grammarTags":["imperatives"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u54-l1-dialogue","scene":"球场训练","characters":[{"id":"lumi","name":"Lumi"},{"id":"coach","name":"Coach"}],"turns":[{"speaker":"lumi","text":"Where should I stand?","translation":"我应该站在哪里？"},{"speaker":"coach","text":"Stand behind the white line and watch the referee.","translation":"站在白线后面，留意裁判。"},{"speaker":"lumi","text":"I will pass the ball to my teammate.","translation":"我会把球传给队友。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u54-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶球场规则",
+  "subtitle": "听懂运动场上的提醒",
+  "theme": "sports-rules",
+  "grammarFocus": "imperatives",
+  "grammarTags": [
+    "imperatives",
+    "sports"
+  ],
+  "words": [
+    [
+      "court",
+      "球场"
+    ],
+    [
+      "score",
+      "得分"
+    ],
+    [
+      "team",
+      "队伍"
+    ],
+    [
+      "referee",
+      "裁判"
+    ],
+    [
+      "pass",
+      "传球"
+    ],
+    [
+      "rule",
+      "规则"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u54-l1-q1",
+      "kind": "word",
+      "prompt": "referee · 球场规则",
+      "instruction": "选择意思。",
+      "answer": "裁判",
+      "options": [
+        "裁判",
+        "球场",
+        "队伍",
+        "得分"
+      ],
+      "translation": "裁判",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u54-l1-q2",
+      "kind": "choice",
+      "prompt": "Please pass the ball to your teammate.",
+      "instruction": "选择意思。",
+      "answer": "请把球传给你的队友。",
+      "options": [
+        "请把球传给你的队友。",
+        "请把球放到场外。",
+        "请记录裁判的得分。",
+        "请遵守队伍的时间。"
+      ],
+      "audio": "Please pass the ball to your teammate.",
+      "translation": "请把球传给你的队友。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u54-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "裁判吹哨后比赛停止。",
+      "options": [
+        "裁判吹哨后比赛停止。",
+        "队伍得分后交换球场。",
+        "请在场外等待裁判。",
+        "传球前先记录规则。"
+      ],
+      "audio": "Stop when the referee blows the whistle.",
+      "translation": "裁判吹哨后比赛停止。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u54-l1-q4",
+      "kind": "order",
+      "prompt": "请站在白线后面。",
+      "instruction": "组成英文句子。",
+      "answer": "Please stand behind the white line.",
+      "audio": "Please stand behind the white line.",
+      "translation": "请站在白线后面。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "Please",
+        "stand",
+        "behind",
+        "the",
+        "white",
+        "line."
+      ]
+    },
+    {
+      "id": "a1-u54-l1-q5",
+      "kind": "fill",
+      "prompt": "Our _____ scored the first goal.",
+      "instruction": "选择名词。",
+      "answer": "team",
+      "options": [
+        "team",
+        "court",
+        "rule",
+        "referee"
+      ],
+      "audio": "Our team scored the first goal.",
+      "translation": "我们的队伍进了第一个球。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u54-l1-q6",
+      "kind": "match",
+      "prompt": "配对球场规则词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "court",
+          "球场"
+        ],
+        [
+          "score",
+          "得分"
+        ],
+        [
+          "team",
+          "队伍"
+        ],
+        [
+          "referee",
+          "裁判"
+        ],
+        [
+          "pass",
+          "传球"
+        ],
+        [
+          "rule",
+          "规则"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "球场、得分、队伍、裁判、传球、规则",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u54-l1-q7",
+      "kind": "word",
+      "prompt": "score · 球场规则",
+      "instruction": "选择意思。",
+      "answer": "得分",
+      "options": [
+        "得分",
+        "规则",
+        "裁判",
+        "传球"
+      ],
+      "translation": "得分",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u54-l1-q8",
+      "kind": "choice",
+      "prompt": "The referee says that this move is against the rules.",
+      "instruction": "选择意思。",
+      "answer": "裁判说这个动作违反规则。",
+      "options": [
+        "裁判说这个动作违反规则。",
+        "裁判说队伍已经得分。",
+        "裁判说比赛在球场外进行。",
+        "裁判说球应该传回后场。"
+      ],
+      "audio": "The referee says that this move is against the rules.",
+      "translation": "裁判说这个动作违反规则。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u54-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请把球传给左边的队友。",
+      "options": [
+        "请把球传给左边的队友。",
+        "请让裁判站在左边。",
+        "请把队伍移到左边。",
+        "请在左边写下得分。"
+      ],
+      "audio": "Pass the ball to the teammate on your left.",
+      "translation": "请把球传给左边的队友。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u54-l1-q10",
+      "kind": "fill",
+      "prompt": "The players must follow the _____.",
+      "instruction": "选择名词。",
+      "answer": "rules",
+      "options": [
+        "rules",
+        "scores",
+        "courts",
+        "passes"
+      ],
+      "audio": "The players must follow the rules.",
+      "translation": "球员必须遵守规则。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u54-l1-dialogue",
+    "scene": "球场训练",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "coach",
+        "name": "Coach"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Where should I stand?",
+        "translation": "我应该站在哪里？"
+      },
+      {
+        "speaker": "coach",
+        "text": "Stand behind the white line and watch the referee.",
+        "translation": "站在白线后面，留意裁判。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will pass the ball to my teammate.",
+        "translation": "我会把球传给队友。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

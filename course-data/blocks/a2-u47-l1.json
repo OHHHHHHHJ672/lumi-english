@@ -1,1 +1,243 @@
-{"id":"a2-u47-l1","levelId":"a2","cefr":"A2","title":"进阶运动训练","subtitle":"谈论训练计划和建议","theme":"sports-training","grammarFocus":"should","grammarTags":["should","sports"],"words":[["stretch","拉伸"],["muscle","肌肉"],["warm-up","热身"],["coach","教练"],["practice","练习"],["injury","受伤"]],"questions":[{"id":"a2-u47-l1-q1","kind":"word","prompt":"stretch · 运动训练","instruction":"选择意思。","answer":"拉伸","options":["拉伸","肌肉","热身","教练"],"translation":"拉伸"},{"id":"a2-u47-l1-q2","kind":"choice","prompt":"You should stretch before every training session.","instruction":"选择意思。","answer":"每次训练前你都应该拉伸。","options":["每次训练前你都应该拉伸。","每次训练后你都应该停止喝水。","训练时你应该忽略肌肉疼痛。","比赛前你应该更换教练。"],"audio":"You should stretch before every training session.","translation":"每次训练前你都应该拉伸。"},{"id":"a2-u47-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"教练说我们应该休息。","options":["教练说我们应该休息。","教练说我们应该加快比赛。","教练说肌肉已经受伤。","教练说热身结束了。"],"audio":"The coach says we should take a break.","translation":"教练说我们应该休息。"},{"id":"a2-u47-l1-q4","kind":"order","prompt":"你不应该忽略疼痛。","instruction":"组成英文句子。","answer":"You should not ignore the pain.","audio":"You should not ignore the pain.","translation":"你不应该忽略疼痛。"},{"id":"a2-u47-l1-q5","kind":"fill","prompt":"A good _____ protects your muscles.","instruction":"选择名词。","answer":"warm-up","options":["warm-up","injury","coach","practice"],"audio":"A good warm-up protects your muscles.","translation":"良好的热身能保护肌肉。"},{"id":"a2-u47-l1-q6","kind":"match","prompt":"配对运动训练词语。","instruction":"完成配对。","pairs":[["stretch","拉伸"],["muscle","肌肉"],["warm-up","热身"],["coach","教练"],["practice","练习"],["injury","受伤"]],"answer":"matched","translation":"拉伸、肌肉、热身、教练、练习、受伤"},{"id":"a2-u47-l1-q7","kind":"word","prompt":"injury · 运动训练","instruction":"选择意思。","answer":"受伤","options":["受伤","拉伸","练习","热身"],"translation":"受伤"},{"id":"a2-u47-l1-q8","kind":"choice","prompt":"The coach said I should practice my balance.","instruction":"选择意思。","answer":"教练说我应该练习平衡。","options":["教练说我应该练习平衡。","教练说我应该停止热身。","教练说我的肌肉已经恢复。","教练说我的受伤不严重。"],"audio":"The coach said I should practice my balance.","translation":"教练说我应该练习平衡。"},{"id":"a2-u47-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"如果肌肉疼，你应该停下来。","options":["如果肌肉疼，你应该停下来。","如果教练来了，你应该跑快。","如果热身结束，你应该喝咖啡。","如果受伤好了，你应该忽略练习。"],"audio":"You should stop if your muscles hurt.","translation":"如果肌肉疼，你应该停下来。"},{"id":"a2-u47-l1-q10","kind":"fill","prompt":"You _____ drink water during practice.","instruction":"选择情态动词。","answer":"should","options":["should","can","would","did"],"audio":"You should drink water during practice.","translation":"训练期间你应该喝水。"}],"dialogue":{"id":"a2-u47-l1-dialogue","scene":"讨论训练计划","characters":[{"id":"lumi","name":"Lumi"},{"id":"coach","name":"Coach"}],"turns":[{"speaker":"lumi","text":"Should I stretch before we run?","translation":"跑步前我应该拉伸吗？"},{"speaker":"coach","text":"Yes, and you should drink water.","translation":"是的，你还应该喝水。"},{"speaker":"lumi","name":"Lumi","text":"I will practice slowly today.","translation":"我今天会慢慢练习。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a2-u47-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶运动训练",
+  "subtitle": "谈论训练计划和建议",
+  "theme": "sports-training",
+  "grammarFocus": "should",
+  "grammarTags": [
+    "should",
+    "sports"
+  ],
+  "words": [
+    [
+      "stretch",
+      "拉伸"
+    ],
+    [
+      "muscle",
+      "肌肉"
+    ],
+    [
+      "warm-up",
+      "热身"
+    ],
+    [
+      "coach",
+      "教练"
+    ],
+    [
+      "practice",
+      "练习"
+    ],
+    [
+      "injury",
+      "受伤"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u47-l1-q1",
+      "kind": "word",
+      "prompt": "stretch · 运动训练",
+      "instruction": "选择意思。",
+      "answer": "拉伸",
+      "options": [
+        "拉伸",
+        "肌肉",
+        "热身",
+        "教练"
+      ],
+      "translation": "拉伸"
+    },
+    {
+      "id": "a2-u47-l1-q2",
+      "kind": "choice",
+      "prompt": "You should stretch before every training session.",
+      "instruction": "选择意思。",
+      "answer": "每次训练前你都应该拉伸。",
+      "options": [
+        "每次训练前你都应该拉伸。",
+        "每次训练后你都应该停止喝水。",
+        "训练时你应该忽略肌肉疼痛。",
+        "比赛前你应该更换教练。"
+      ],
+      "audio": "You should stretch before every training session.",
+      "translation": "每次训练前你都应该拉伸。"
+    },
+    {
+      "id": "a2-u47-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "教练说我们应该休息。",
+      "options": [
+        "教练说我们应该休息。",
+        "教练说我们应该加快比赛。",
+        "教练说肌肉已经受伤。",
+        "教练说热身结束了。"
+      ],
+      "audio": "The coach says we should take a break.",
+      "translation": "教练说我们应该休息。"
+    },
+    {
+      "id": "a2-u47-l1-q4",
+      "kind": "order",
+      "prompt": "你不应该忽略疼痛。",
+      "instruction": "组成英文句子。",
+      "answer": "You should not ignore the pain.",
+      "audio": "You should not ignore the pain.",
+      "translation": "你不应该忽略疼痛。",
+      "tokens": [
+        "You",
+        "should",
+        "not",
+        "ignore",
+        "the",
+        "pain."
+      ]
+    },
+    {
+      "id": "a2-u47-l1-q5",
+      "kind": "fill",
+      "prompt": "A good _____ protects your muscles.",
+      "instruction": "选择名词。",
+      "answer": "warm-up",
+      "options": [
+        "warm-up",
+        "injury",
+        "coach",
+        "practice"
+      ],
+      "audio": "A good warm-up protects your muscles.",
+      "translation": "良好的热身能保护肌肉。"
+    },
+    {
+      "id": "a2-u47-l1-q6",
+      "kind": "match",
+      "prompt": "配对运动训练词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "stretch",
+          "拉伸"
+        ],
+        [
+          "muscle",
+          "肌肉"
+        ],
+        [
+          "warm-up",
+          "热身"
+        ],
+        [
+          "coach",
+          "教练"
+        ],
+        [
+          "practice",
+          "练习"
+        ],
+        [
+          "injury",
+          "受伤"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "拉伸、肌肉、热身、教练、练习、受伤"
+    },
+    {
+      "id": "a2-u47-l1-q7",
+      "kind": "word",
+      "prompt": "injury · 运动训练",
+      "instruction": "选择意思。",
+      "answer": "受伤",
+      "options": [
+        "受伤",
+        "拉伸",
+        "练习",
+        "热身"
+      ],
+      "translation": "受伤"
+    },
+    {
+      "id": "a2-u47-l1-q8",
+      "kind": "choice",
+      "prompt": "The coach said I should practice my balance.",
+      "instruction": "选择意思。",
+      "answer": "教练说我应该练习平衡。",
+      "options": [
+        "教练说我应该练习平衡。",
+        "教练说我应该停止热身。",
+        "教练说我的肌肉已经恢复。",
+        "教练说我的受伤不严重。"
+      ],
+      "audio": "The coach said I should practice my balance.",
+      "translation": "教练说我应该练习平衡。"
+    },
+    {
+      "id": "a2-u47-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "如果肌肉疼，你应该停下来。",
+      "options": [
+        "如果肌肉疼，你应该停下来。",
+        "如果教练来了，你应该跑快。",
+        "如果热身结束，你应该喝咖啡。",
+        "如果受伤好了，你应该忽略练习。"
+      ],
+      "audio": "You should stop if your muscles hurt.",
+      "translation": "如果肌肉疼，你应该停下来。"
+    },
+    {
+      "id": "a2-u47-l1-q10",
+      "kind": "fill",
+      "prompt": "You _____ drink water during practice.",
+      "instruction": "选择情态动词。",
+      "answer": "should",
+      "options": [
+        "should",
+        "can",
+        "would",
+        "did"
+      ],
+      "audio": "You should drink water during practice.",
+      "translation": "训练期间你应该喝水。"
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u47-l1-dialogue",
+    "scene": "讨论训练计划",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "coach",
+        "name": "Coach"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Should I stretch before we run?",
+        "translation": "跑步前我应该拉伸吗？"
+      },
+      {
+        "speaker": "coach",
+        "text": "Yes, and you should drink water.",
+        "translation": "是的，你还应该喝水。"
+      },
+      {
+        "speaker": "lumi",
+        "name": "Lumi",
+        "text": "I will practice slowly today.",
+        "translation": "我今天会慢慢练习。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

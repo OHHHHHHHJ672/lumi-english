@@ -76,7 +76,17 @@
       "instruction": "组成英文句子。",
       "answer": "We are going to the beach this weekend.",
       "audio": "We are going to the beach this weekend.",
-      "translation": "我们周末要去海边。"
+      "translation": "我们周末要去海边。",
+      "tokens": [
+        "We",
+        "are",
+        "going",
+        "to",
+        "the",
+        "beach",
+        "this",
+        "weekend."
+      ]
     },
     {
       "id": "a1-u33-l1-q5",

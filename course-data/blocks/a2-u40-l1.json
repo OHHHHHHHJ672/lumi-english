@@ -1,1 +1,242 @@
-{"id":"a2-u40-l1","levelId":"a2","cefr":"A2","title":"进阶银行业务","subtitle":"处理转账和余额","theme":"banking-services","grammarFocus":"past-simple","grammarTags":["past-simple","banking"],"words":[["transfer","转账"],["balance","余额"],["fee","手续费"],["statement","账单"],["account","账户"],["withdraw","取款"]],"questions":[{"id":"a2-u40-l1-q1","kind":"word","prompt":"balance · 银行业务","instruction":"选择意思。","answer":"余额","options":["余额","转账","手续费","账单"],"translation":"余额"},{"id":"a2-u40-l1-q2","kind":"choice","prompt":"I checked my account balance after the transfer.","instruction":"选择意思。","answer":"转账后我查看了账户余额。","options":["转账后我查看了账户余额。","我在账单上填写了手续费。","我昨晚从账户取了现金。","我申请了新的银行账户。"],"audio":"I checked my account balance after the transfer.","translation":"转账后我查看了账户余额。"},{"id":"a2-u40-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"银行收取了一笔小手续费。","options":["银行收取了一笔小手续费。","银行打印了一张新账单。","银行提高了账户余额。","银行取消了现金取款。"],"audio":"The bank charged a small transfer fee.","translation":"银行收取了一笔小手续费。"},{"id":"a2-u40-l1-q4","kind":"order","prompt":"她昨天取了两百美元。","instruction":"组成英文句子。","answer":"She withdrew two hundred dollars yesterday.","audio":"She withdrew two hundred dollars yesterday.","translation":"她昨天取了两百美元。"},{"id":"a2-u40-l1-q5","kind":"fill","prompt":"The bank sent my monthly _____.","instruction":"选择名词。","answer":"statement","options":["statement","balance","fee","transfer"],"audio":"The bank sent my monthly statement.","translation":"银行寄来了我的月度账单。"},{"id":"a2-u40-l1-q6","kind":"match","prompt":"配对银行业务词语。","instruction":"完成配对。","pairs":[["transfer","转账"],["balance","余额"],["fee","手续费"],["statement","账单"],["account","账户"],["withdraw","取款"]],"answer":"matched","translation":"转账、余额、手续费、账单、账户、取款"},{"id":"a2-u40-l1-q7","kind":"word","prompt":"withdraw · 银行业务","instruction":"选择意思。","answer":"取款","options":["取款","转账","余额","账户"],"translation":"取款"},{"id":"a2-u40-l1-q8","kind":"choice","prompt":"The online transfer arrived this morning.","instruction":"选择意思。","answer":"网上转账今天早上到账了。","options":["网上转账今天早上到账了。","网上账单今天早上被修改。","账户余额今天早上归零。","手续费今天早上退回。"],"audio":"The online transfer arrived this morning.","translation":"网上转账今天早上到账了。"},{"id":"a2-u40-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"你的账户余额不足以付款。","options":["你的账户余额不足以付款。","你的转账已经成功完成。","你的账单将在周五寄出。","你的手续费今天已经退还。"],"audio":"Your account balance was not enough for the payment.","translation":"你的账户余额不足以付款。"},{"id":"a2-u40-l1-q10","kind":"fill","prompt":"I paid the service _____ online.","instruction":"选择名词。","answer":"fee","options":["fee","balance","account","statement"],"audio":"I paid the service fee online.","translation":"我在线支付了服务费。"}],"dialogue":{"id":"a2-u40-l1-dialogue","scene":"查询银行余额","characters":[{"id":"lumi","name":"Lumi"},{"id":"clerk","name":"Clerk"}],"turns":[{"speaker":"lumi","text":"Why is my balance lower than expected?","translation":"为什么我的余额比预期少？"},{"speaker":"clerk","text":"A transfer fee was taken from the account.","translation":"账户扣除了一笔转账手续费。"},{"speaker":"lumi","text":"I see it on the statement now.","translation":"我现在在账单上看到了。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a2-u40-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶银行业务",
+  "subtitle": "处理转账和余额",
+  "theme": "banking-services",
+  "grammarFocus": "past-simple",
+  "grammarTags": [
+    "past-simple",
+    "banking"
+  ],
+  "words": [
+    [
+      "transfer",
+      "转账"
+    ],
+    [
+      "balance",
+      "余额"
+    ],
+    [
+      "fee",
+      "手续费"
+    ],
+    [
+      "statement",
+      "账单"
+    ],
+    [
+      "account",
+      "账户"
+    ],
+    [
+      "withdraw",
+      "取款"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u40-l1-q1",
+      "kind": "word",
+      "prompt": "balance · 银行业务",
+      "instruction": "选择意思。",
+      "answer": "余额",
+      "options": [
+        "余额",
+        "转账",
+        "手续费",
+        "账单"
+      ],
+      "translation": "余额"
+    },
+    {
+      "id": "a2-u40-l1-q2",
+      "kind": "choice",
+      "prompt": "I checked my account balance after the transfer.",
+      "instruction": "选择意思。",
+      "answer": "转账后我查看了账户余额。",
+      "options": [
+        "转账后我查看了账户余额。",
+        "我在账单上填写了手续费。",
+        "我昨晚从账户取了现金。",
+        "我申请了新的银行账户。"
+      ],
+      "audio": "I checked my account balance after the transfer.",
+      "translation": "转账后我查看了账户余额。"
+    },
+    {
+      "id": "a2-u40-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "银行收取了一笔小手续费。",
+      "options": [
+        "银行收取了一笔小手续费。",
+        "银行打印了一张新账单。",
+        "银行提高了账户余额。",
+        "银行取消了现金取款。"
+      ],
+      "audio": "The bank charged a small transfer fee.",
+      "translation": "银行收取了一笔小手续费。"
+    },
+    {
+      "id": "a2-u40-l1-q4",
+      "kind": "order",
+      "prompt": "她昨天取了两百美元。",
+      "instruction": "组成英文句子。",
+      "answer": "She withdrew two hundred dollars yesterday.",
+      "audio": "She withdrew two hundred dollars yesterday.",
+      "translation": "她昨天取了两百美元。",
+      "tokens": [
+        "She",
+        "withdrew",
+        "two",
+        "hundred",
+        "dollars",
+        "yesterday."
+      ]
+    },
+    {
+      "id": "a2-u40-l1-q5",
+      "kind": "fill",
+      "prompt": "The bank sent my monthly _____.",
+      "instruction": "选择名词。",
+      "answer": "statement",
+      "options": [
+        "statement",
+        "balance",
+        "fee",
+        "transfer"
+      ],
+      "audio": "The bank sent my monthly statement.",
+      "translation": "银行寄来了我的月度账单。"
+    },
+    {
+      "id": "a2-u40-l1-q6",
+      "kind": "match",
+      "prompt": "配对银行业务词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "transfer",
+          "转账"
+        ],
+        [
+          "balance",
+          "余额"
+        ],
+        [
+          "fee",
+          "手续费"
+        ],
+        [
+          "statement",
+          "账单"
+        ],
+        [
+          "account",
+          "账户"
+        ],
+        [
+          "withdraw",
+          "取款"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "转账、余额、手续费、账单、账户、取款"
+    },
+    {
+      "id": "a2-u40-l1-q7",
+      "kind": "word",
+      "prompt": "withdraw · 银行业务",
+      "instruction": "选择意思。",
+      "answer": "取款",
+      "options": [
+        "取款",
+        "转账",
+        "余额",
+        "账户"
+      ],
+      "translation": "取款"
+    },
+    {
+      "id": "a2-u40-l1-q8",
+      "kind": "choice",
+      "prompt": "The online transfer arrived this morning.",
+      "instruction": "选择意思。",
+      "answer": "网上转账今天早上到账了。",
+      "options": [
+        "网上转账今天早上到账了。",
+        "网上账单今天早上被修改。",
+        "账户余额今天早上归零。",
+        "手续费今天早上退回。"
+      ],
+      "audio": "The online transfer arrived this morning.",
+      "translation": "网上转账今天早上到账了。"
+    },
+    {
+      "id": "a2-u40-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "你的账户余额不足以付款。",
+      "options": [
+        "你的账户余额不足以付款。",
+        "你的转账已经成功完成。",
+        "你的账单将在周五寄出。",
+        "你的手续费今天已经退还。"
+      ],
+      "audio": "Your account balance was not enough for the payment.",
+      "translation": "你的账户余额不足以付款。"
+    },
+    {
+      "id": "a2-u40-l1-q10",
+      "kind": "fill",
+      "prompt": "I paid the service _____ online.",
+      "instruction": "选择名词。",
+      "answer": "fee",
+      "options": [
+        "fee",
+        "balance",
+        "account",
+        "statement"
+      ],
+      "audio": "I paid the service fee online.",
+      "translation": "我在线支付了服务费。"
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u40-l1-dialogue",
+    "scene": "查询银行余额",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "clerk",
+        "name": "Clerk"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Why is my balance lower than expected?",
+        "translation": "为什么我的余额比预期少？"
+      },
+      {
+        "speaker": "clerk",
+        "text": "A transfer fee was taken from the account.",
+        "translation": "账户扣除了一笔转账手续费。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I see it on the statement now.",
+        "translation": "我现在在账单上看到了。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

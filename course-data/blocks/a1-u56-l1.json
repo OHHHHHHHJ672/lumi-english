@@ -1,1 +1,302 @@
-{"id":"a1-u56-l1","levelId":"a1","cefr":"A1","title":"进阶天气声音","subtitle":"描述正在发生的天气","theme":"weather-sounds","grammarFocus":"present-continuous","grammarTags":["present-continuous","weather"],"words":[["thunder","雷声"],["lightning","闪电"],["rainfall","降雨"],["wind","风"],["window","窗户"],["storm","暴风雨"]],"questions":[{"id":"a1-u56-l1-q1","kind":"word","prompt":"thunder · 天气声音","instruction":"选择意思。","answer":"雷声","options":["雷声","闪电","降雨","暴风雨"],"translation":"雷声","grammarTags":["present-continuous"],"skillTags":["vocabulary"]},{"id":"a1-u56-l1-q2","kind":"choice","prompt":"Lightning is flashing behind the clouds.","instruction":"选择意思。","answer":"闪电正在云层后面闪烁。","options":["闪电正在云层后面闪烁。","雷声正在窗边响起。","降雨正在屋顶上停止。","暴风雨正在海边结束。"],"audio":"Lightning is flashing behind the clouds.","translation":"闪电正在云层后面闪烁。","grammarTags":["present-continuous"],"skillTags":["reading"]},{"id":"a1-u56-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"雨水正在敲打窗户。","options":["雨水正在敲打窗户。","风正在吹走屋顶。","雷声正在山后消失。","闪电正在照亮花园。"],"audio":"Rainfall is tapping against the window.","translation":"雨水正在敲打窗户。","grammarTags":["present-continuous"],"skillTags":["listening"]},{"id":"a1-u56-l1-q4","kind":"order","prompt":"外面的风正在变强。","instruction":"组成英文句子。","answer":"The wind is getting stronger outside.","audio":"The wind is getting stronger outside.","translation":"外面的风正在变强。","grammarTags":["present-continuous"],"skillTags":["word-order"]},{"id":"a1-u56-l1-q5","kind":"fill","prompt":"The storm is _____ toward the coast.","instruction":"选择动词。","answer":"moving","options":["moving","move","moved","moves"],"audio":"The storm is moving toward the coast.","translation":"暴风雨正在向海岸移动。","grammarTags":["present-continuous"],"skillTags":["grammar"]},{"id":"a1-u56-l1-q6","kind":"match","prompt":"配对天气声音词语。","instruction":"完成配对。","pairs":[["thunder","雷声"],["lightning","闪电"],["rainfall","降雨"],["wind","风"],["window","窗户"],["storm","暴风雨"]],"answer":"matched","translation":"雷声、闪电、降雨、风、窗户、暴风雨","grammarTags":["present-continuous"],"skillTags":["matching"]},{"id":"a1-u56-l1-q7","kind":"word","prompt":"storm · 天气声音","instruction":"选择意思。","answer":"暴风雨","options":["暴风雨","雷声","闪电","窗户"],"translation":"暴风雨","grammarTags":["present-continuous"],"skillTags":["vocabulary"]},{"id":"a1-u56-l1-q8","kind":"choice","prompt":"The children are listening to the thunder from inside.","instruction":"选择意思。","answer":"孩子们正在屋里听雷声。","options":["孩子们正在屋里听雷声。","孩子们正在窗边数闪电。","孩子们正在屋外观察暴风雨。","孩子们正在雨中打开窗户。"],"audio":"The children are listening to the thunder from inside.","translation":"孩子们正在屋里听雷声。","grammarTags":["present-continuous"],"skillTags":["reading"]},{"id":"a1-u56-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"雨正在慢慢停止。","options":["雨正在慢慢停止。","风正在迅速变强。","闪电正在照亮街道。","雷声正在靠近房间。"],"audio":"The rain is slowly stopping.","translation":"雨正在慢慢停止。","grammarTags":["present-continuous"],"skillTags":["listening"]},{"id":"a1-u56-l1-q10","kind":"fill","prompt":"Someone is closing the _____ because of the storm.","instruction":"选择名词。","answer":"window","options":["window","thunder","wind","rainfall"],"audio":"Someone is closing the window because of the storm.","translation":"有人因为暴风雨正在关窗。","grammarTags":["present-continuous"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u56-l1-dialogue","scene":"屋里听暴雨","characters":[{"id":"lumi","name":"Lumi"},{"id":"brother","name":"Brother"}],"turns":[{"speaker":"lumi","text":"What is that loud sound?","translation":"那是什么响声？"},{"speaker":"brother","text":"Thunder is shaking the windows.","translation":"雷声震得窗户都在响。"},{"speaker":"lumi","text":"The storm is moving away now.","translation":"暴风雨现在正在远离。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u56-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶天气声音",
+  "subtitle": "描述正在发生的天气",
+  "theme": "weather-sounds",
+  "grammarFocus": "present-continuous",
+  "grammarTags": [
+    "present-continuous",
+    "weather"
+  ],
+  "words": [
+    [
+      "thunder",
+      "雷声"
+    ],
+    [
+      "lightning",
+      "闪电"
+    ],
+    [
+      "rainfall",
+      "降雨"
+    ],
+    [
+      "wind",
+      "风"
+    ],
+    [
+      "window",
+      "窗户"
+    ],
+    [
+      "storm",
+      "暴风雨"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u56-l1-q1",
+      "kind": "word",
+      "prompt": "thunder · 天气声音",
+      "instruction": "选择意思。",
+      "answer": "雷声",
+      "options": [
+        "雷声",
+        "闪电",
+        "降雨",
+        "暴风雨"
+      ],
+      "translation": "雷声",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u56-l1-q2",
+      "kind": "choice",
+      "prompt": "Lightning is flashing behind the clouds.",
+      "instruction": "选择意思。",
+      "answer": "闪电正在云层后面闪烁。",
+      "options": [
+        "闪电正在云层后面闪烁。",
+        "雷声正在窗边响起。",
+        "降雨正在屋顶上停止。",
+        "暴风雨正在海边结束。"
+      ],
+      "audio": "Lightning is flashing behind the clouds.",
+      "translation": "闪电正在云层后面闪烁。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u56-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "雨水正在敲打窗户。",
+      "options": [
+        "雨水正在敲打窗户。",
+        "风正在吹走屋顶。",
+        "雷声正在山后消失。",
+        "闪电正在照亮花园。"
+      ],
+      "audio": "Rainfall is tapping against the window.",
+      "translation": "雨水正在敲打窗户。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u56-l1-q4",
+      "kind": "order",
+      "prompt": "外面的风正在变强。",
+      "instruction": "组成英文句子。",
+      "answer": "The wind is getting stronger outside.",
+      "audio": "The wind is getting stronger outside.",
+      "translation": "外面的风正在变强。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "The",
+        "wind",
+        "is",
+        "getting",
+        "stronger",
+        "outside."
+      ]
+    },
+    {
+      "id": "a1-u56-l1-q5",
+      "kind": "fill",
+      "prompt": "The storm is _____ toward the coast.",
+      "instruction": "选择动词。",
+      "answer": "moving",
+      "options": [
+        "moving",
+        "move",
+        "moved",
+        "moves"
+      ],
+      "audio": "The storm is moving toward the coast.",
+      "translation": "暴风雨正在向海岸移动。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u56-l1-q6",
+      "kind": "match",
+      "prompt": "配对天气声音词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "thunder",
+          "雷声"
+        ],
+        [
+          "lightning",
+          "闪电"
+        ],
+        [
+          "rainfall",
+          "降雨"
+        ],
+        [
+          "wind",
+          "风"
+        ],
+        [
+          "window",
+          "窗户"
+        ],
+        [
+          "storm",
+          "暴风雨"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "雷声、闪电、降雨、风、窗户、暴风雨",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u56-l1-q7",
+      "kind": "word",
+      "prompt": "storm · 天气声音",
+      "instruction": "选择意思。",
+      "answer": "暴风雨",
+      "options": [
+        "暴风雨",
+        "雷声",
+        "闪电",
+        "窗户"
+      ],
+      "translation": "暴风雨",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u56-l1-q8",
+      "kind": "choice",
+      "prompt": "The children are listening to the thunder from inside.",
+      "instruction": "选择意思。",
+      "answer": "孩子们正在屋里听雷声。",
+      "options": [
+        "孩子们正在屋里听雷声。",
+        "孩子们正在窗边数闪电。",
+        "孩子们正在屋外观察暴风雨。",
+        "孩子们正在雨中打开窗户。"
+      ],
+      "audio": "The children are listening to the thunder from inside.",
+      "translation": "孩子们正在屋里听雷声。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u56-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "雨正在慢慢停止。",
+      "options": [
+        "雨正在慢慢停止。",
+        "风正在迅速变强。",
+        "闪电正在照亮街道。",
+        "雷声正在靠近房间。"
+      ],
+      "audio": "The rain is slowly stopping.",
+      "translation": "雨正在慢慢停止。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u56-l1-q10",
+      "kind": "fill",
+      "prompt": "Someone is closing the _____ because of the storm.",
+      "instruction": "选择名词。",
+      "answer": "window",
+      "options": [
+        "window",
+        "thunder",
+        "wind",
+        "rainfall"
+      ],
+      "audio": "Someone is closing the window because of the storm.",
+      "translation": "有人因为暴风雨正在关窗。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u56-l1-dialogue",
+    "scene": "屋里听暴雨",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "brother",
+        "name": "Brother"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "What is that loud sound?",
+        "translation": "那是什么响声？"
+      },
+      {
+        "speaker": "brother",
+        "text": "Thunder is shaking the windows.",
+        "translation": "雷声震得窗户都在响。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "The storm is moving away now.",
+        "translation": "暴风雨现在正在远离。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

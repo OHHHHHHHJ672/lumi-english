@@ -1,1 +1,301 @@
-{"id":"a1-u72-l1","levelId":"a1","cefr":"A1","title":"进阶小小花园","subtitle":"描述正在进行的园艺活动","theme":"small-garden","grammarFocus":"present-continuous","grammarTags":["present-continuous","plants"],"words":[["seed","种子"],["plant","植物"],["water","浇水"],["soil","土壤"],["flower","花"],["grow","生长"]],"questions":[{"id":"a1-u72-l1-q1","kind":"word","prompt":"soil · 小小花园","instruction":"选择意思。","answer":"土壤","options":["土壤","种子","植物","浇水"],"translation":"土壤","grammarTags":["present-continuous"],"skillTags":["vocabulary"]},{"id":"a1-u72-l1-q2","kind":"choice","prompt":"I am planting seeds in the garden this morning.","instruction":"选择意思。","answer":"我今天早上正在花园里种种子。","options":["我今天早上正在花园里种种子。","我每天早上给植物浇水。","我昨天在花园里摘花。","我下午要翻土。"],"audio":"I am planting seeds in the garden this morning.","translation":"我今天早上正在花园里种种子。","grammarTags":["present-continuous"],"skillTags":["reading"]},{"id":"a1-u72-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"花朵正在慢慢生长。","options":["花朵正在慢慢生长。","种子正在被鸟吃掉。","植物正在花园里枯萎。","土壤正在变得干燥。"],"audio":"The flowers are growing slowly.","translation":"花朵正在慢慢生长。","grammarTags":["present-continuous"],"skillTags":["listening"]},{"id":"a1-u72-l1-q4","kind":"order","prompt":"他正在给植物浇水。","instruction":"组成英文句子。","answer":"He is watering the plants.","audio":"He is watering the plants.","translation":"他正在给植物浇水。","grammarTags":["present-continuous"],"skillTags":["word-order"]},{"id":"a1-u72-l1-q5","kind":"fill","prompt":"We are putting seeds into the _____.","instruction":"选择名词。","answer":"soil","options":["soil","flower","plant","water"],"audio":"We are putting seeds into the soil.","translation":"我们正在把种子放进土壤。","grammarTags":["present-continuous"],"skillTags":["grammar"]},{"id":"a1-u72-l1-q6","kind":"match","prompt":"配对小小花园词语。","instruction":"完成配对。","pairs":[["seed","种子"],["plant","植物"],["water","浇水"],["soil","土壤"],["flower","花"],["grow","生长"]],"answer":"matched","translation":"种子、植物、浇水、土壤、花、生长","grammarTags":["present-continuous"],"skillTags":["matching"]},{"id":"a1-u72-l1-q7","kind":"word","prompt":"seed · 小小花园","instruction":"选择意思。","answer":"种子","options":["种子","植物","土壤","花"],"translation":"种子","grammarTags":["present-continuous"],"skillTags":["vocabulary"]},{"id":"a1-u72-l1-q8","kind":"choice","prompt":"The children are watering the new plants together.","instruction":"选择意思。","answer":"孩子们正在一起给新植物浇水。","options":["孩子们正在一起给新植物浇水。","孩子们正在土壤里挖种子。","孩子们正在摘花放进水里。","孩子们正在看植物生长。"],"audio":"The children are watering the new plants together.","translation":"孩子们正在一起给新植物浇水。","grammarTags":["present-continuous"],"skillTags":["reading"]},{"id":"a1-u72-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"园丁正在给黄色的花拍照。","options":["园丁正在给黄色的花拍照。","园丁正在给土壤施肥。","园丁正在移植新的种子。","园丁正在清洗花盆。"],"audio":"The gardener is taking a photo of the yellow flowers.","translation":"园丁正在给黄色的花拍照。","grammarTags":["present-continuous"],"skillTags":["listening"]},{"id":"a1-u72-l1-q10","kind":"fill","prompt":"The plant is _____ new leaves.","instruction":"选择动词。","answer":"growing","options":["growing","grow","grew","grows"],"audio":"The plant is growing new leaves.","translation":"植物正在长出新叶子。","grammarTags":["present-continuous"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u72-l1-dialogue","scene":"照料小花园","characters":[{"id":"lumi","name":"Lumi"},{"id":"grandma","name":"Grandma"}],"turns":[{"speaker":"lumi","text":"What are you doing in the garden?","translation":"你在花园里做什么？"},{"speaker":"grandma","text":"I am planting seeds in the soft soil.","translation":"我正在松软的土壤里种种子。"},{"speaker":"lumi","text":"I am watering the flowers beside you.","translation":"我正在给你旁边的花浇水。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u72-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶小小花园",
+  "subtitle": "描述正在进行的园艺活动",
+  "theme": "small-garden",
+  "grammarFocus": "present-continuous",
+  "grammarTags": [
+    "present-continuous",
+    "plants"
+  ],
+  "words": [
+    [
+      "seed",
+      "种子"
+    ],
+    [
+      "plant",
+      "植物"
+    ],
+    [
+      "water",
+      "浇水"
+    ],
+    [
+      "soil",
+      "土壤"
+    ],
+    [
+      "flower",
+      "花"
+    ],
+    [
+      "grow",
+      "生长"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u72-l1-q1",
+      "kind": "word",
+      "prompt": "soil · 小小花园",
+      "instruction": "选择意思。",
+      "answer": "土壤",
+      "options": [
+        "土壤",
+        "种子",
+        "植物",
+        "浇水"
+      ],
+      "translation": "土壤",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u72-l1-q2",
+      "kind": "choice",
+      "prompt": "I am planting seeds in the garden this morning.",
+      "instruction": "选择意思。",
+      "answer": "我今天早上正在花园里种种子。",
+      "options": [
+        "我今天早上正在花园里种种子。",
+        "我每天早上给植物浇水。",
+        "我昨天在花园里摘花。",
+        "我下午要翻土。"
+      ],
+      "audio": "I am planting seeds in the garden this morning.",
+      "translation": "我今天早上正在花园里种种子。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u72-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "花朵正在慢慢生长。",
+      "options": [
+        "花朵正在慢慢生长。",
+        "种子正在被鸟吃掉。",
+        "植物正在花园里枯萎。",
+        "土壤正在变得干燥。"
+      ],
+      "audio": "The flowers are growing slowly.",
+      "translation": "花朵正在慢慢生长。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u72-l1-q4",
+      "kind": "order",
+      "prompt": "他正在给植物浇水。",
+      "instruction": "组成英文句子。",
+      "answer": "He is watering the plants.",
+      "audio": "He is watering the plants.",
+      "translation": "他正在给植物浇水。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "He",
+        "is",
+        "watering",
+        "the",
+        "plants."
+      ]
+    },
+    {
+      "id": "a1-u72-l1-q5",
+      "kind": "fill",
+      "prompt": "We are putting seeds into the _____.",
+      "instruction": "选择名词。",
+      "answer": "soil",
+      "options": [
+        "soil",
+        "flower",
+        "plant",
+        "water"
+      ],
+      "audio": "We are putting seeds into the soil.",
+      "translation": "我们正在把种子放进土壤。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u72-l1-q6",
+      "kind": "match",
+      "prompt": "配对小小花园词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "seed",
+          "种子"
+        ],
+        [
+          "plant",
+          "植物"
+        ],
+        [
+          "water",
+          "浇水"
+        ],
+        [
+          "soil",
+          "土壤"
+        ],
+        [
+          "flower",
+          "花"
+        ],
+        [
+          "grow",
+          "生长"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "种子、植物、浇水、土壤、花、生长",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u72-l1-q7",
+      "kind": "word",
+      "prompt": "seed · 小小花园",
+      "instruction": "选择意思。",
+      "answer": "种子",
+      "options": [
+        "种子",
+        "植物",
+        "土壤",
+        "花"
+      ],
+      "translation": "种子",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u72-l1-q8",
+      "kind": "choice",
+      "prompt": "The children are watering the new plants together.",
+      "instruction": "选择意思。",
+      "answer": "孩子们正在一起给新植物浇水。",
+      "options": [
+        "孩子们正在一起给新植物浇水。",
+        "孩子们正在土壤里挖种子。",
+        "孩子们正在摘花放进水里。",
+        "孩子们正在看植物生长。"
+      ],
+      "audio": "The children are watering the new plants together.",
+      "translation": "孩子们正在一起给新植物浇水。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u72-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "园丁正在给黄色的花拍照。",
+      "options": [
+        "园丁正在给黄色的花拍照。",
+        "园丁正在给土壤施肥。",
+        "园丁正在移植新的种子。",
+        "园丁正在清洗花盆。"
+      ],
+      "audio": "The gardener is taking a photo of the yellow flowers.",
+      "translation": "园丁正在给黄色的花拍照。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u72-l1-q10",
+      "kind": "fill",
+      "prompt": "The plant is _____ new leaves.",
+      "instruction": "选择动词。",
+      "answer": "growing",
+      "options": [
+        "growing",
+        "grow",
+        "grew",
+        "grows"
+      ],
+      "audio": "The plant is growing new leaves.",
+      "translation": "植物正在长出新叶子。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u72-l1-dialogue",
+    "scene": "照料小花园",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "grandma",
+        "name": "Grandma"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "What are you doing in the garden?",
+        "translation": "你在花园里做什么？"
+      },
+      {
+        "speaker": "grandma",
+        "text": "I am planting seeds in the soft soil.",
+        "translation": "我正在松软的土壤里种种子。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I am watering the flowers beside you.",
+        "translation": "我正在给你旁边的花浇水。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

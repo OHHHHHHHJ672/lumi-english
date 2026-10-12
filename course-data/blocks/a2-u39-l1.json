@@ -1,1 +1,245 @@
-{"id":"a2-u39-l1","levelId":"a2","cefr":"A2","title":"进阶预约确认","subtitle":"确认时间和变更","theme":"appointment-confirmation","grammarFocus":"future-plans","grammarTags":["future-plans","appointments"],"words":[["confirm","确认"],["reschedule","改期"],["slot","时段"],["reminder","提醒"],["clinic","诊所"],["available","有空的"]],"questions":[{"id":"a2-u39-l1-q1","kind":"word","prompt":"reschedule · 预约确认","instruction":"选择意思。","answer":"改期","options":["改期","确认","时段","提醒"],"translation":"改期"},{"id":"a2-u39-l1-q2","kind":"choice","prompt":"I am going to confirm my appointment by email.","instruction":"选择意思。","answer":"我打算通过邮件确认预约。","options":["我打算通过邮件确认预约。","我昨天通过电话取消了预约。","我需要在诊所等待两个小时。","我已经找到了新的时段。"],"audio":"I am going to confirm my appointment by email.","translation":"我打算通过邮件确认预约。"},{"id":"a2-u39-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"医生下周三有空。","options":["医生下周三有空。","医生今天改了时间。","诊所明天没有提醒。","患者下周三要改期。"],"audio":"The doctor is available next Wednesday.","translation":"医生下周三有空。"},{"id":"a2-u39-l1-q4","kind":"order","prompt":"我们下午两点有预约。","instruction":"组成英文句子。","answer":"We have an appointment at two in the afternoon.","audio":"We have an appointment at two in the afternoon.","translation":"我们下午两点有预约。"},{"id":"a2-u39-l1-q5","kind":"fill","prompt":"The clinic sent a text _____.","instruction":"选择名词。","answer":"reminder","options":["reminder","slot","clinic","confirm"],"audio":"The clinic sent a text reminder.","translation":"诊所发来了一条短信提醒。"},{"id":"a2-u39-l1-q6","kind":"match","prompt":"配对预约确认词语。","instruction":"完成配对。","pairs":[["confirm","确认"],["reschedule","改期"],["slot","时段"],["reminder","提醒"],["clinic","诊所"],["available","有空的"]],"answer":"matched","translation":"确认、改期、时段、提醒、诊所、有空的"},{"id":"a2-u39-l1-q7","kind":"word","prompt":"slot · 预约确认","instruction":"选择意思。","answer":"时段","options":["时段","提醒","改期","诊所"],"translation":"时段"},{"id":"a2-u39-l1-q8","kind":"choice","prompt":"Could we reschedule the appointment for Friday morning?","instruction":"选择意思。","answer":"我们可以把预约改到周五上午吗？","options":["我们可以把预约改到周五上午吗？","我们可以确认诊所的位置吗？","我们可以预约下周的提醒吗？","我们可以在空闲时段付款吗？"],"audio":"Could we reschedule the appointment for Friday morning?","translation":"我们可以把预约改到周五上午吗？"},{"id":"a2-u39-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"请回复短信确认时段。","options":["请回复短信确认时段。","请在诊所前等待医生。","请把提醒转发给朋友。","请在星期五更换号码。"],"audio":"Please reply to confirm the time slot.","translation":"请回复短信确认时段。"},{"id":"a2-u39-l1-q10","kind":"fill","prompt":"I am _____ next Tuesday afternoon.","instruction":"选择形容词。","answer":"available","options":["available","confirm","reschedule","reminder"],"audio":"I am available next Tuesday afternoon.","translation":"我下周二下午有空。"}],"dialogue":{"id":"a2-u39-l1-dialogue","scene":"确认诊所预约","characters":[{"id":"lumi","name":"Lumi"},{"id":"receptionist","name":"Receptionist"}],"turns":[{"speaker":"lumi","text":"Could you confirm my appointment for Friday?","translation":"你能确认我周五的预约吗？"},{"speaker":"receptionist","text":"Yes, your slot is at ten in the morning.","translation":"可以，你的时段是上午十点。"},{"speaker":"lumi","text":"Thank you. I will wait for the reminder.","translation":"谢谢。我会等提醒。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a2-u39-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶预约确认",
+  "subtitle": "确认时间和变更",
+  "theme": "appointment-confirmation",
+  "grammarFocus": "future-plans",
+  "grammarTags": [
+    "future-plans",
+    "appointments"
+  ],
+  "words": [
+    [
+      "confirm",
+      "确认"
+    ],
+    [
+      "reschedule",
+      "改期"
+    ],
+    [
+      "slot",
+      "时段"
+    ],
+    [
+      "reminder",
+      "提醒"
+    ],
+    [
+      "clinic",
+      "诊所"
+    ],
+    [
+      "available",
+      "有空的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u39-l1-q1",
+      "kind": "word",
+      "prompt": "reschedule · 预约确认",
+      "instruction": "选择意思。",
+      "answer": "改期",
+      "options": [
+        "改期",
+        "确认",
+        "时段",
+        "提醒"
+      ],
+      "translation": "改期"
+    },
+    {
+      "id": "a2-u39-l1-q2",
+      "kind": "choice",
+      "prompt": "I am going to confirm my appointment by email.",
+      "instruction": "选择意思。",
+      "answer": "我打算通过邮件确认预约。",
+      "options": [
+        "我打算通过邮件确认预约。",
+        "我昨天通过电话取消了预约。",
+        "我需要在诊所等待两个小时。",
+        "我已经找到了新的时段。"
+      ],
+      "audio": "I am going to confirm my appointment by email.",
+      "translation": "我打算通过邮件确认预约。"
+    },
+    {
+      "id": "a2-u39-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "医生下周三有空。",
+      "options": [
+        "医生下周三有空。",
+        "医生今天改了时间。",
+        "诊所明天没有提醒。",
+        "患者下周三要改期。"
+      ],
+      "audio": "The doctor is available next Wednesday.",
+      "translation": "医生下周三有空。"
+    },
+    {
+      "id": "a2-u39-l1-q4",
+      "kind": "order",
+      "prompt": "我们下午两点有预约。",
+      "instruction": "组成英文句子。",
+      "answer": "We have an appointment at two in the afternoon.",
+      "audio": "We have an appointment at two in the afternoon.",
+      "translation": "我们下午两点有预约。",
+      "tokens": [
+        "We",
+        "have",
+        "an",
+        "appointment",
+        "at",
+        "two",
+        "in",
+        "the",
+        "afternoon."
+      ]
+    },
+    {
+      "id": "a2-u39-l1-q5",
+      "kind": "fill",
+      "prompt": "The clinic sent a text _____.",
+      "instruction": "选择名词。",
+      "answer": "reminder",
+      "options": [
+        "reminder",
+        "slot",
+        "clinic",
+        "confirm"
+      ],
+      "audio": "The clinic sent a text reminder.",
+      "translation": "诊所发来了一条短信提醒。"
+    },
+    {
+      "id": "a2-u39-l1-q6",
+      "kind": "match",
+      "prompt": "配对预约确认词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "confirm",
+          "确认"
+        ],
+        [
+          "reschedule",
+          "改期"
+        ],
+        [
+          "slot",
+          "时段"
+        ],
+        [
+          "reminder",
+          "提醒"
+        ],
+        [
+          "clinic",
+          "诊所"
+        ],
+        [
+          "available",
+          "有空的"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "确认、改期、时段、提醒、诊所、有空的"
+    },
+    {
+      "id": "a2-u39-l1-q7",
+      "kind": "word",
+      "prompt": "slot · 预约确认",
+      "instruction": "选择意思。",
+      "answer": "时段",
+      "options": [
+        "时段",
+        "提醒",
+        "改期",
+        "诊所"
+      ],
+      "translation": "时段"
+    },
+    {
+      "id": "a2-u39-l1-q8",
+      "kind": "choice",
+      "prompt": "Could we reschedule the appointment for Friday morning?",
+      "instruction": "选择意思。",
+      "answer": "我们可以把预约改到周五上午吗？",
+      "options": [
+        "我们可以把预约改到周五上午吗？",
+        "我们可以确认诊所的位置吗？",
+        "我们可以预约下周的提醒吗？",
+        "我们可以在空闲时段付款吗？"
+      ],
+      "audio": "Could we reschedule the appointment for Friday morning?",
+      "translation": "我们可以把预约改到周五上午吗？"
+    },
+    {
+      "id": "a2-u39-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请回复短信确认时段。",
+      "options": [
+        "请回复短信确认时段。",
+        "请在诊所前等待医生。",
+        "请把提醒转发给朋友。",
+        "请在星期五更换号码。"
+      ],
+      "audio": "Please reply to confirm the time slot.",
+      "translation": "请回复短信确认时段。"
+    },
+    {
+      "id": "a2-u39-l1-q10",
+      "kind": "fill",
+      "prompt": "I am _____ next Tuesday afternoon.",
+      "instruction": "选择形容词。",
+      "answer": "available",
+      "options": [
+        "available",
+        "confirm",
+        "reschedule",
+        "reminder"
+      ],
+      "audio": "I am available next Tuesday afternoon.",
+      "translation": "我下周二下午有空。"
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u39-l1-dialogue",
+    "scene": "确认诊所预约",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "receptionist",
+        "name": "Receptionist"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you confirm my appointment for Friday?",
+        "translation": "你能确认我周五的预约吗？"
+      },
+      {
+        "speaker": "receptionist",
+        "text": "Yes, your slot is at ten in the morning.",
+        "translation": "可以，你的时段是上午十点。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thank you. I will wait for the reminder.",
+        "translation": "谢谢。我会等提醒。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

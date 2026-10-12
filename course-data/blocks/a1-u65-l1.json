@@ -1,1 +1,305 @@
-{"id":"a1-u65-l1","levelId":"a1","cefr":"A1","title":"进阶照顾宠物","subtitle":"安排宠物喂食和散步","theme":"pet-sitting","grammarFocus":"have-got","grammarTags":["have-got","pets"],"words":[["kitten","小猫"],["puppy","小狗"],["food","食物"],["collar","项圈"],["cage","笼子"],["water","水"]],"questions":[{"id":"a1-u65-l1-q1","kind":"word","prompt":"collar · 照顾宠物","instruction":"选择意思。","answer":"项圈","options":["项圈","小猫","小狗","笼子"],"translation":"项圈","grammarTags":["have-got"],"skillTags":["vocabulary"]},{"id":"a1-u65-l1-q2","kind":"choice","prompt":"The puppy has got a new red collar.","instruction":"选择意思。","answer":"小狗有一个新的红色项圈。","options":["小狗有一个新的红色项圈。","小猫有一碗新食物。","笼子里有一只红鸟。","小狗需要一条长牵引绳。"],"audio":"The puppy has got a new red collar.","translation":"小狗有一个新的红色项圈。","grammarTags":["have-got"],"skillTags":["reading"]},{"id":"a1-u65-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"小猫的水碗是空的。","options":["小猫的水碗是空的。","小狗的笼子是干净的。","小猫的食物在桌下。","小狗的项圈在门旁。"],"audio":"The kitten has got an empty water bowl.","translation":"小猫的水碗是空的。","grammarTags":["have-got"],"skillTags":["listening"]},{"id":"a1-u65-l1-q4","kind":"order","prompt":"我有一只需要散步的小狗。","instruction":"组成英文句子。","answer":"I have got a puppy that needs a walk.","audio":"I have got a puppy that needs a walk.","translation":"我有一只需要散步的小狗。","grammarTags":["have-got"],"skillTags":["word-order"]},{"id":"a1-u65-l1-q5","kind":"fill","prompt":"The kitten has got fresh _____.","instruction":"选择名词。","answer":"food","options":["food","water","collar","cage"],"audio":"The kitten has got fresh food.","translation":"小猫有新鲜食物。","grammarTags":["have-got"],"skillTags":["grammar"]},{"id":"a1-u65-l1-q6","kind":"match","prompt":"配对照顾宠物词语。","instruction":"完成配对。","pairs":[["kitten","小猫"],["puppy","小狗"],["food","食物"],["collar","项圈"],["cage","笼子"],["water","水"]],"answer":"matched","translation":"小猫、小狗、食物、项圈、笼子、水","grammarTags":["have-got"],"skillTags":["matching"]},{"id":"a1-u65-l1-q7","kind":"word","prompt":"cage · 照顾宠物","instruction":"选择意思。","answer":"笼子","options":["笼子","项圈","食物","小猫"],"translation":"笼子","grammarTags":["have-got"],"skillTags":["vocabulary"]},{"id":"a1-u65-l1-q8","kind":"choice","prompt":"Our puppy has got enough water for the afternoon.","instruction":"选择意思。","answer":"我们的​​小狗有足够的水喝到下午。","options":["我们的​​小狗有足够的水喝到下午。","我们的小猫需要清洗笼子。","我们的项圈在水碗旁边。","我们的食物下午才送到。"],"audio":"Our puppy has got enough water for the afternoon.","translation":"我们的​​小狗有足够的水喝到下午。","grammarTags":["have-got"],"skillTags":["reading"]},{"id":"a1-u65-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"小猫有一张柔软的毯子。","options":["小猫有一张柔软的毯子。","小狗有一只新的碗。","笼子里有足够的食物。","项圈上有一个名字牌。"],"audio":"The kitten has got a soft blanket.","translation":"小猫有一张柔软的毯子。","grammarTags":["have-got"],"skillTags":["listening"]},{"id":"a1-u65-l1-q10","kind":"fill","prompt":"Has the puppy got a clean _____?","instruction":"选择名词。","answer":"cage","options":["cage","collar","food","water"],"audio":"Has the puppy got a clean cage?","translation":"小狗有干净的笼子吗？","grammarTags":["have-got"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u65-l1-dialogue","scene":"照看小狗","characters":[{"id":"lumi","name":"Lumi"},{"id":"owner","name":"Owner"}],"turns":[{"speaker":"lumi","text":"Has the puppy got enough food?","translation":"小狗有足够的食物吗？"},{"speaker":"owner","text":"Yes, and the water bowl is beside the cage.","translation":"有，水碗在笼子旁边。"},{"speaker":"lumi","text":"I will put on the red collar before the walk.","translation":"散步前我会戴上红色项圈。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u65-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶照顾宠物",
+  "subtitle": "安排宠物喂食和散步",
+  "theme": "pet-sitting",
+  "grammarFocus": "have-got",
+  "grammarTags": [
+    "have-got",
+    "pets"
+  ],
+  "words": [
+    [
+      "kitten",
+      "小猫"
+    ],
+    [
+      "puppy",
+      "小狗"
+    ],
+    [
+      "food",
+      "食物"
+    ],
+    [
+      "collar",
+      "项圈"
+    ],
+    [
+      "cage",
+      "笼子"
+    ],
+    [
+      "water",
+      "水"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u65-l1-q1",
+      "kind": "word",
+      "prompt": "collar · 照顾宠物",
+      "instruction": "选择意思。",
+      "answer": "项圈",
+      "options": [
+        "项圈",
+        "小猫",
+        "小狗",
+        "笼子"
+      ],
+      "translation": "项圈",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u65-l1-q2",
+      "kind": "choice",
+      "prompt": "The puppy has got a new red collar.",
+      "instruction": "选择意思。",
+      "answer": "小狗有一个新的红色项圈。",
+      "options": [
+        "小狗有一个新的红色项圈。",
+        "小猫有一碗新食物。",
+        "笼子里有一只红鸟。",
+        "小狗需要一条长牵引绳。"
+      ],
+      "audio": "The puppy has got a new red collar.",
+      "translation": "小狗有一个新的红色项圈。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u65-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "小猫的水碗是空的。",
+      "options": [
+        "小猫的水碗是空的。",
+        "小狗的笼子是干净的。",
+        "小猫的食物在桌下。",
+        "小狗的项圈在门旁。"
+      ],
+      "audio": "The kitten has got an empty water bowl.",
+      "translation": "小猫的水碗是空的。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u65-l1-q4",
+      "kind": "order",
+      "prompt": "我有一只需要散步的小狗。",
+      "instruction": "组成英文句子。",
+      "answer": "I have got a puppy that needs a walk.",
+      "audio": "I have got a puppy that needs a walk.",
+      "translation": "我有一只需要散步的小狗。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "I",
+        "have",
+        "got",
+        "a",
+        "puppy",
+        "that",
+        "needs",
+        "a",
+        "walk."
+      ]
+    },
+    {
+      "id": "a1-u65-l1-q5",
+      "kind": "fill",
+      "prompt": "The kitten has got fresh _____.",
+      "instruction": "选择名词。",
+      "answer": "food",
+      "options": [
+        "food",
+        "water",
+        "collar",
+        "cage"
+      ],
+      "audio": "The kitten has got fresh food.",
+      "translation": "小猫有新鲜食物。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u65-l1-q6",
+      "kind": "match",
+      "prompt": "配对照顾宠物词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "kitten",
+          "小猫"
+        ],
+        [
+          "puppy",
+          "小狗"
+        ],
+        [
+          "food",
+          "食物"
+        ],
+        [
+          "collar",
+          "项圈"
+        ],
+        [
+          "cage",
+          "笼子"
+        ],
+        [
+          "water",
+          "水"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "小猫、小狗、食物、项圈、笼子、水",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u65-l1-q7",
+      "kind": "word",
+      "prompt": "cage · 照顾宠物",
+      "instruction": "选择意思。",
+      "answer": "笼子",
+      "options": [
+        "笼子",
+        "项圈",
+        "食物",
+        "小猫"
+      ],
+      "translation": "笼子",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u65-l1-q8",
+      "kind": "choice",
+      "prompt": "Our puppy has got enough water for the afternoon.",
+      "instruction": "选择意思。",
+      "answer": "我们的​​小狗有足够的水喝到下午。",
+      "options": [
+        "我们的​​小狗有足够的水喝到下午。",
+        "我们的小猫需要清洗笼子。",
+        "我们的项圈在水碗旁边。",
+        "我们的食物下午才送到。"
+      ],
+      "audio": "Our puppy has got enough water for the afternoon.",
+      "translation": "我们的​​小狗有足够的水喝到下午。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u65-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "小猫有一张柔软的毯子。",
+      "options": [
+        "小猫有一张柔软的毯子。",
+        "小狗有一只新的碗。",
+        "笼子里有足够的食物。",
+        "项圈上有一个名字牌。"
+      ],
+      "audio": "The kitten has got a soft blanket.",
+      "translation": "小猫有一张柔软的毯子。",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u65-l1-q10",
+      "kind": "fill",
+      "prompt": "Has the puppy got a clean _____?",
+      "instruction": "选择名词。",
+      "answer": "cage",
+      "options": [
+        "cage",
+        "collar",
+        "food",
+        "water"
+      ],
+      "audio": "Has the puppy got a clean cage?",
+      "translation": "小狗有干净的笼子吗？",
+      "grammarTags": [
+        "have-got"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u65-l1-dialogue",
+    "scene": "照看小狗",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "owner",
+        "name": "Owner"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Has the puppy got enough food?",
+        "translation": "小狗有足够的食物吗？"
+      },
+      {
+        "speaker": "owner",
+        "text": "Yes, and the water bowl is beside the cage.",
+        "translation": "有，水碗在笼子旁边。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will put on the red collar before the walk.",
+        "translation": "散步前我会戴上红色项圈。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1694,6 +1694,12 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "sweep",
+          "the",
+          "floor."
         ]
       },
       {
@@ -2003,6 +2009,13 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "reply",
+          "to",
+          "my",
+          "message."
         ]
       },
       {
@@ -2312,6 +2325,16 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "There",
+          "is",
+          "a",
+          "long",
+          "path",
+          "in",
+          "the",
+          "park."
         ]
       },
       {
@@ -2621,6 +2644,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "The",
+          "train",
+          "leaves",
+          "at",
+          "eight",
+          "sharp."
         ]
       },
       {
@@ -2930,6 +2961,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "want",
+          "to",
+          "deposit",
+          "one",
+          "hundred",
+          "dollars."
         ]
       },
       {
@@ -3480,6 +3520,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Mum",
+          "mops",
+          "the",
+          "kitchen",
+          "floor",
+          "every",
+          "day."
         ]
       },
       {
@@ -3789,6 +3838,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "put",
+          "the",
+          "notebook",
+          "in",
+          "the",
+          "folder."
         ]
       },
       {
@@ -4098,6 +4156,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "need",
+          "two",
+          "pieces",
+          "of",
+          "cheese."
         ]
       },
       {
@@ -4407,6 +4473,13 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Where",
+          "is",
+          "the",
+          "reception",
+          "desk?"
         ]
       },
       {
@@ -4716,6 +4789,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "bring",
+          "an",
+          "umbrella",
+          "if",
+          "it",
+          "rains."
         ]
       },
       {
@@ -4985,7 +5067,15 @@
         "instruction": "组成英文句子。",
         "answer": "We walk the dog after dinner.",
         "audio": "We walk the dog after dinner.",
-        "translation": "我们晚饭后带狗散步。"
+        "translation": "我们晚饭后带狗散步。",
+        "tokens": [
+          "We",
+          "walk",
+          "the",
+          "dog",
+          "after",
+          "dinner."
+        ]
       },
       {
         "id": "a1-u25-l1-q5",
@@ -5182,7 +5272,14 @@
         "instruction": "组成英文句子。",
         "answer": "Math is the second lesson.",
         "audio": "Math is the second lesson.",
-        "translation": "数学课在第二节。"
+        "translation": "数学课在第二节。",
+        "tokens": [
+          "Math",
+          "is",
+          "the",
+          "second",
+          "lesson."
+        ]
       },
       {
         "id": "a1-u26-l1-q5",
@@ -5380,7 +5477,16 @@
         "instruction": "组成英文句子。",
         "answer": "Please be careful on the wet floor.",
         "audio": "Please be careful on the wet floor.",
-        "translation": "请小心湿滑的地面。"
+        "translation": "请小心湿滑的地面。",
+        "tokens": [
+          "Please",
+          "be",
+          "careful",
+          "on",
+          "the",
+          "wet",
+          "floor."
+        ]
       },
       {
         "id": "a1-u27-l1-q5",
@@ -5578,7 +5684,14 @@
         "instruction": "组成英文句子。",
         "answer": "I am not hungry today.",
         "audio": "I am not hungry today.",
-        "translation": "我今天不饿。"
+        "translation": "我今天不饿。",
+        "tokens": [
+          "I",
+          "am",
+          "not",
+          "hungry",
+          "today."
+        ]
       },
       {
         "id": "a1-u28-l1-q5",
@@ -5776,7 +5889,17 @@
         "instruction": "组成英文句子。",
         "answer": "I would like to send a small parcel.",
         "audio": "I would like to send a small parcel.",
-        "translation": "我想寄一个小包裹。"
+        "translation": "我想寄一个小包裹。",
+        "tokens": [
+          "I",
+          "would",
+          "like",
+          "to",
+          "send",
+          "a",
+          "small",
+          "parcel."
+        ]
       },
       {
         "id": "a1-u29-l1-q5",
@@ -6217,7 +6340,16 @@
         "instruction": "组成英文句子。",
         "answer": "My library card is in my bag.",
         "audio": "My library card is in my bag.",
-        "translation": "我的借书卡在包里。"
+        "translation": "我的借书卡在包里。",
+        "tokens": [
+          "My",
+          "library",
+          "card",
+          "is",
+          "in",
+          "my",
+          "bag."
+        ]
       },
       {
         "id": "a1-u30-l1-q5",
@@ -6415,7 +6547,14 @@
         "instruction": "组成英文句子。",
         "answer": "I need a return ticket.",
         "audio": "I need a return ticket.",
-        "translation": "我需要一张往返车票。"
+        "translation": "我需要一张往返车票。",
+        "tokens": [
+          "I",
+          "need",
+          "a",
+          "return",
+          "ticket."
+        ]
       },
       {
         "id": "a1-u31-l1-q5",
@@ -6613,7 +6752,16 @@
         "instruction": "组成英文句子。",
         "answer": "The laundry basket is by the door.",
         "audio": "The laundry basket is by the door.",
-        "translation": "洗衣篮在门边。"
+        "translation": "洗衣篮在门边。",
+        "tokens": [
+          "The",
+          "laundry",
+          "basket",
+          "is",
+          "by",
+          "the",
+          "door."
+        ]
       },
       {
         "id": "a1-u32-l1-q5",
@@ -6811,7 +6959,17 @@
         "instruction": "组成英文句子。",
         "answer": "We are going to the beach this weekend.",
         "audio": "We are going to the beach this weekend.",
-        "translation": "我们周末要去海边。"
+        "translation": "我们周末要去海边。",
+        "tokens": [
+          "We",
+          "are",
+          "going",
+          "to",
+          "the",
+          "beach",
+          "this",
+          "weekend."
+        ]
       },
       {
         "id": "a1-u33-l1-q5",
@@ -7009,7 +7167,16 @@
         "instruction": "组成英文句子。",
         "answer": "I would like apple juice for lunch.",
         "audio": "I would like apple juice for lunch.",
-        "translation": "我午餐想喝苹果汁。"
+        "translation": "我午餐想喝苹果汁。",
+        "tokens": [
+          "I",
+          "would",
+          "like",
+          "apple",
+          "juice",
+          "for",
+          "lunch."
+        ]
       },
       {
         "id": "a1-u34-l1-q5",
@@ -7207,7 +7374,13 @@
         "instruction": "组成英文句子。",
         "answer": "This table is white.",
         "audio": "This table is white.",
-        "translation": "这张桌子是白色的。"
+        "translation": "这张桌子是白色的。",
+        "tokens": [
+          "This",
+          "table",
+          "is",
+          "white."
+        ]
       },
       {
         "id": "a1-u35-l1-q5",
@@ -7405,7 +7578,14 @@
         "instruction": "组成英文句子。",
         "answer": "You should get more rest.",
         "audio": "You should get more rest.",
-        "translation": "你应该多休息。"
+        "translation": "你应该多休息。",
+        "tokens": [
+          "You",
+          "should",
+          "get",
+          "more",
+          "rest."
+        ]
       },
       {
         "id": "a1-u36-l1-q5",
@@ -7638,6 +7818,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "usually",
+          "leave",
+          "home",
+          "before",
+          "eight."
         ]
       },
       {
@@ -7931,6 +8119,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "put",
+          "the",
+          "poster",
+          "on",
+          "the",
+          "wall."
         ]
       },
       {
@@ -8225,6 +8422,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "There",
+          "are",
+          "three",
+          "trees",
+          "on",
+          "our",
+          "street."
         ]
       },
       {
@@ -8762,6 +8968,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Can",
+          "I",
+          "try",
+          "on",
+          "this",
+          "blue",
+          "jacket?"
         ]
       },
       {
@@ -9055,6 +9270,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "would",
+          "like",
+          "an",
+          "apple",
+          "pastry."
         ]
       },
       {
@@ -9349,6 +9572,16 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "would",
+          "like",
+          "half",
+          "a",
+          "kilo",
+          "of",
+          "peaches."
         ]
       },
       {
@@ -9643,6 +9876,16 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "tell",
+          "the",
+          "driver",
+          "I",
+          "need",
+          "the",
+          "library."
         ]
       },
       {
@@ -9937,6 +10180,13 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "The",
+          "passengers",
+          "are",
+          "carrying",
+          "luggage."
         ]
       },
       {
@@ -10231,6 +10481,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "The",
+          "sender",
+          "fills",
+          "in",
+          "this",
+          "form."
         ]
       },
       {
@@ -10525,6 +10783,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "There",
+          "are",
+          "three",
+          "ducks",
+          "in",
+          "the",
+          "pond."
         ]
       },
       {
@@ -10819,6 +11086,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Could",
+          "I",
+          "have",
+          "a",
+          "large",
+          "mug,",
+          "please?"
         ]
       },
       {
@@ -11113,6 +11389,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Checkout",
+          "is",
+          "at",
+          "eleven",
+          "in",
+          "the",
+          "morning."
         ]
       },
       {
@@ -11407,6 +11692,13 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "need",
+          "a",
+          "doctor's",
+          "appointment."
         ]
       },
       {
@@ -11944,6 +12236,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "will",
+          "reply",
+          "to",
+          "your",
+          "message",
+          "later."
         ]
       },
       {
@@ -12237,6 +12538,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "She",
+          "is",
+          "writing",
+          "the",
+          "birthday",
+          "invitations."
         ]
       },
       {
@@ -12530,6 +12839,13 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "finish",
+          "work",
+          "at",
+          "five."
         ]
       },
       {
@@ -12823,6 +13139,13 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "He",
+          "enjoys",
+          "collecting",
+          "old",
+          "maps."
         ]
       },
       {
@@ -13117,6 +13440,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "stand",
+          "behind",
+          "the",
+          "white",
+          "line."
         ]
       },
       {
@@ -13411,6 +13742,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "put",
+          "on",
+          "sunscreen",
+          "before",
+          "I",
+          "leave."
         ]
       },
       {
@@ -13705,6 +14045,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "The",
+          "wind",
+          "is",
+          "getting",
+          "stronger",
+          "outside."
         ]
       },
       {
@@ -13999,6 +14347,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "turn",
+          "the",
+          "door",
+          "handle",
+          "gently."
         ]
       },
       {
@@ -14293,6 +14649,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "put",
+          "the",
+          "spoon",
+          "beside",
+          "the",
+          "plate."
         ]
       },
       {
@@ -14587,6 +14952,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "The",
+          "pillow",
+          "is",
+          "on",
+          "the",
+          "bed."
         ]
       },
       {
@@ -15125,6 +15498,13 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "hang",
+          "up",
+          "the",
+          "towel."
         ]
       },
       {
@@ -15418,6 +15798,16 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "look",
+          "for",
+          "this",
+          "book",
+          "in",
+          "the",
+          "catalogue."
         ]
       },
       {
@@ -15712,6 +16102,12 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "We",
+          "returned",
+          "home",
+          "yesterday."
         ]
       },
       {
@@ -16006,6 +16402,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "The",
+          "station",
+          "is",
+          "around",
+          "the",
+          "corner."
         ]
       },
       {
@@ -16300,6 +16704,16 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "wait",
+          "at",
+          "the",
+          "end",
+          "of",
+          "the",
+          "queue."
         ]
       },
       {
@@ -16594,6 +17008,17 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "have",
+          "got",
+          "a",
+          "puppy",
+          "that",
+          "needs",
+          "a",
+          "walk."
         ]
       },
       {
@@ -16888,6 +17313,13 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "The",
+          "children",
+          "like",
+          "watching",
+          "fireworks."
         ]
       },
       {
@@ -17182,6 +17614,14 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "give",
+          "each",
+          "person",
+          "a",
+          "task."
         ]
       },
       {
@@ -17476,6 +17916,17 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "There",
+          "is",
+          "a",
+          "large",
+          "bowl",
+          "of",
+          "soup",
+          "for",
+          "dinner."
         ]
       },
       {
@@ -17770,6 +18221,13 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "follow",
+          "the",
+          "exit",
+          "sign."
         ]
       },
       {
@@ -18310,6 +18768,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "Please",
+          "tidy",
+          "the",
+          "books",
+          "on",
+          "the",
+          "shelf."
         ]
       },
       {
@@ -18604,6 +19071,15 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "I",
+          "am",
+          "going",
+          "to",
+          "bring",
+          "a",
+          "torch."
         ]
       },
       {
@@ -18898,6 +19374,13 @@
         ],
         "skillTags": [
           "word-order"
+        ],
+        "tokens": [
+          "He",
+          "is",
+          "watering",
+          "the",
+          "plants."
         ]
       },
       {
@@ -27526,7 +28009,17 @@
         "instruction": "组成英文句子。",
         "answer": "I worked ten hours of overtime last month.",
         "audio": "I worked ten hours of overtime last month.",
-        "translation": "我上个月做了十小时加班。"
+        "translation": "我上个月做了十小时加班。",
+        "tokens": [
+          "I",
+          "worked",
+          "ten",
+          "hours",
+          "of",
+          "overtime",
+          "last",
+          "month."
+        ]
       },
       {
         "id": "a2-u37-l1-q5",
@@ -27760,7 +28253,17 @@
         "instruction": "组成英文句子。",
         "answer": "Please reply to the email before the deadline.",
         "audio": "Please reply to the email before the deadline.",
-        "translation": "请在截止日期前回复邮件。"
+        "translation": "请在截止日期前回复邮件。",
+        "tokens": [
+          "Please",
+          "reply",
+          "to",
+          "the",
+          "email",
+          "before",
+          "the",
+          "deadline."
+        ]
       },
       {
         "id": "a2-u38-l1-q5",
@@ -27994,7 +28497,18 @@
         "instruction": "组成英文句子。",
         "answer": "We have an appointment at two in the afternoon.",
         "audio": "We have an appointment at two in the afternoon.",
-        "translation": "我们下午两点有预约。"
+        "translation": "我们下午两点有预约。",
+        "tokens": [
+          "We",
+          "have",
+          "an",
+          "appointment",
+          "at",
+          "two",
+          "in",
+          "the",
+          "afternoon."
+        ]
       },
       {
         "id": "a2-u39-l1-q5",
@@ -28558,7 +29072,15 @@
         "instruction": "组成英文句子。",
         "answer": "She withdrew two hundred dollars yesterday.",
         "audio": "She withdrew two hundred dollars yesterday.",
-        "translation": "她昨天取了两百美元。"
+        "translation": "她昨天取了两百美元。",
+        "tokens": [
+          "She",
+          "withdrew",
+          "two",
+          "hundred",
+          "dollars",
+          "yesterday."
+        ]
       },
       {
         "id": "a2-u40-l1-q5",
@@ -28792,7 +29314,18 @@
         "instruction": "组成英文句子。",
         "answer": "The tenant should keep a copy of the lease.",
         "audio": "The tenant should keep a copy of the lease.",
-        "translation": "租客应该保留租约副本。"
+        "translation": "租客应该保留租约副本。",
+        "tokens": [
+          "The",
+          "tenant",
+          "should",
+          "keep",
+          "a",
+          "copy",
+          "of",
+          "the",
+          "lease."
+        ]
       },
       {
         "id": "a2-u41-l1-q5",
@@ -29026,7 +29559,18 @@
         "instruction": "组成英文句子。",
         "answer": "I will wait at the gate for my connection.",
         "audio": "I will wait at the gate for my connection.",
-        "translation": "我会在登机口等待转机。"
+        "translation": "我会在登机口等待转机。",
+        "tokens": [
+          "I",
+          "will",
+          "wait",
+          "at",
+          "the",
+          "gate",
+          "for",
+          "my",
+          "connection."
+        ]
       },
       {
         "id": "a2-u42-l1-q5",
@@ -29260,7 +29804,18 @@
         "instruction": "组成英文句子。",
         "answer": "I would like to complain about the delayed service.",
         "audio": "I would like to complain about the delayed service.",
-        "translation": "我想投诉延迟的服务。"
+        "translation": "我想投诉延迟的服务。",
+        "tokens": [
+          "I",
+          "would",
+          "like",
+          "to",
+          "complain",
+          "about",
+          "the",
+          "delayed",
+          "service."
+        ]
       },
       {
         "id": "a2-u43-l1-q5",
@@ -29494,7 +30049,18 @@
         "instruction": "组成英文句子。",
         "answer": "I would like to enrol in the Saturday course.",
         "audio": "I would like to enrol in the Saturday course.",
-        "translation": "我想报名周六课程。"
+        "translation": "我想报名周六课程。",
+        "tokens": [
+          "I",
+          "would",
+          "like",
+          "to",
+          "enrol",
+          "in",
+          "the",
+          "Saturday",
+          "course."
+        ]
       },
       {
         "id": "a2-u44-l1-q5",
@@ -29728,7 +30294,14 @@
         "instruction": "组成英文句子。",
         "answer": "Finally, add the chopped herbs.",
         "audio": "Finally, add the chopped herbs.",
-        "translation": "最后加入切碎的香草。"
+        "translation": "最后加入切碎的香草。",
+        "tokens": [
+          "Finally,",
+          "add",
+          "the",
+          "chopped",
+          "herbs."
+        ]
       },
       {
         "id": "a2-u45-l1-q5",
@@ -29962,7 +30535,16 @@
         "instruction": "组成英文句子。",
         "answer": "The doctor has checked my blood pressure.",
         "audio": "The doctor has checked my blood pressure.",
-        "translation": "医生已经检查了我的血压。"
+        "translation": "医生已经检查了我的血压。",
+        "tokens": [
+          "The",
+          "doctor",
+          "has",
+          "checked",
+          "my",
+          "blood",
+          "pressure."
+        ]
       },
       {
         "id": "a2-u46-l1-q5",
@@ -30196,7 +30778,15 @@
         "instruction": "组成英文句子。",
         "answer": "You should not ignore the pain.",
         "audio": "You should not ignore the pain.",
-        "translation": "你不应该忽略疼痛。"
+        "translation": "你不应该忽略疼痛。",
+        "tokens": [
+          "You",
+          "should",
+          "not",
+          "ignore",
+          "the",
+          "pain."
+        ]
       },
       {
         "id": "a2-u47-l1-q5",
@@ -30431,7 +31021,16 @@
         "instruction": "组成英文句子。",
         "answer": "Please turn on the network in settings.",
         "audio": "Please turn on the network in settings.",
-        "translation": "请在设置里打开网络。"
+        "translation": "请在设置里打开网络。",
+        "tokens": [
+          "Please",
+          "turn",
+          "on",
+          "the",
+          "network",
+          "in",
+          "settings."
+        ]
       },
       {
         "id": "a2-u48-l1-q5",
@@ -46042,7 +46641,7 @@
         "prompt": "qualification · 求职面试",
         "audio": "qualification",
         "instruction": "选择适合语境的表达。",
-        "answer": "qualification",
+        "answer": "资格",
         "translation": "资格",
         "lessonId": "b1-u10-l1",
         "levelId": "b1",
@@ -46229,7 +46828,7 @@
         "prompt": "position · 求职面试",
         "audio": "position",
         "instruction": "选择适合语境的表达。",
-        "answer": "position",
+        "answer": "职位",
         "translation": "职位",
         "lessonId": "b1-u10-l1",
         "levelId": "b1",
@@ -46411,7 +47010,7 @@
         "prompt": "estimate · 项目时间",
         "audio": "estimate",
         "instruction": "选择适合语境的表达。",
-        "answer": "estimate",
+        "answer": "估算",
         "translation": "估算",
         "lessonId": "b1-u11-l1",
         "levelId": "b1",
@@ -46595,7 +47194,7 @@
         "prompt": "delay · 项目时间",
         "audio": "delay",
         "instruction": "选择适合语境的表达。",
-        "answer": "delay",
+        "answer": "延迟",
         "translation": "延迟",
         "lessonId": "b1-u11-l1",
         "levelId": "b1",
@@ -46777,7 +47376,7 @@
         "prompt": "constructive · 反馈改进",
         "audio": "constructive",
         "instruction": "选择适合语境的表达。",
-        "answer": "constructive",
+        "answer": "建设性的",
         "translation": "建设性的",
         "lessonId": "b1-u12-l1",
         "levelId": "b1",
@@ -46961,7 +47560,7 @@
         "prompt": "strength · 反馈改进",
         "audio": "strength",
         "instruction": "选择适合语境的表达。",
-        "answer": "strength",
+        "answer": "优势",
         "translation": "优势",
         "lessonId": "b1-u12-l1",
         "levelId": "b1",
@@ -51784,7 +52383,7 @@
         "id": "b1-u25-l1-q1",
         "kind": "word",
         "prompt": "clarify · 演讲问答",
-        "answer": "clarify",
+        "answer": "澄清",
         "translation": "澄清",
         "instruction": "选择适合语境的表达。",
         "audio": "clarify",
@@ -51969,7 +52568,7 @@
         "id": "b1-u25-l1-q7",
         "kind": "word",
         "prompt": "follow-up · 演讲问答",
-        "answer": "follow-up",
+        "answer": "追问",
         "translation": "追问",
         "instruction": "选择适合语境的表达。",
         "audio": "follow-up",
@@ -52151,7 +52750,7 @@
         "id": "b1-u26-l1-q1",
         "kind": "word",
         "prompt": "privacy · 数字素养",
-        "answer": "privacy",
+        "answer": "隐私",
         "translation": "隐私",
         "instruction": "选择适合语境的表达。",
         "audio": "privacy",
@@ -52337,7 +52936,7 @@
         "id": "b1-u26-l1-q7",
         "kind": "word",
         "prompt": "credible · 数字素养",
-        "answer": "credible",
+        "answer": "可信的",
         "translation": "可信的",
         "instruction": "选择适合语境的表达。",
         "audio": "credible",
@@ -52519,7 +53118,7 @@
         "id": "b1-u27-l1-q1",
         "kind": "word",
         "prompt": "evidence · 政策辩论",
-        "answer": "evidence",
+        "answer": "证据",
         "translation": "证据",
         "instruction": "选择适合语境的表达。",
         "audio": "evidence",
@@ -52706,7 +53305,7 @@
         "id": "b1-u27-l1-q7",
         "kind": "word",
         "prompt": "trade-off · 政策辩论",
-        "answer": "trade-off",
+        "answer": "权衡",
         "translation": "权衡",
         "instruction": "选择适合语境的表达。",
         "audio": "trade-off",
@@ -52888,7 +53487,7 @@
         "id": "b1-u28-l1-q1",
         "kind": "word",
         "prompt": "grant · 公益项目",
-        "answer": "grant",
+        "answer": "资助",
         "translation": "资助",
         "instruction": "选择适合语境的表达。",
         "audio": "grant",
@@ -53074,7 +53673,7 @@
         "id": "b1-u28-l1-q7",
         "kind": "word",
         "prompt": "impact · 公益项目",
-        "answer": "impact",
+        "answer": "影响",
         "translation": "影响",
         "instruction": "选择适合语境的表达。",
         "audio": "impact",
@@ -53256,7 +53855,7 @@
         "id": "b1-u29-l1-q1",
         "kind": "word",
         "prompt": "assign · 领导授权",
-        "answer": "assign",
+        "answer": "分配",
         "translation": "分配",
         "instruction": "选择适合语境的表达。",
         "audio": "assign",
@@ -53443,7 +54042,7 @@
         "id": "b1-u29-l1-q7",
         "kind": "word",
         "prompt": "mentor · 领导授权",
-        "answer": "mentor",
+        "answer": "导师",
         "translation": "导师",
         "instruction": "选择适合语境的表达。",
         "audio": "mentor",
@@ -53868,7 +54467,7 @@
         "id": "b1-u30-l1-q1",
         "kind": "word",
         "prompt": "dashboard · 数据可视化",
-        "answer": "dashboard",
+        "answer": "仪表盘",
         "translation": "仪表盘",
         "instruction": "选择适合语境的表达。",
         "audio": "dashboard",
@@ -54053,7 +54652,7 @@
         "id": "b1-u30-l1-q7",
         "kind": "word",
         "prompt": "chart · 数据可视化",
-        "answer": "chart",
+        "answer": "图表",
         "translation": "图表",
         "instruction": "选择适合语境的表达。",
         "audio": "chart",
@@ -54235,7 +54834,7 @@
         "id": "b1-u31-l1-q1",
         "kind": "word",
         "prompt": "defect · 质量控制",
-        "answer": "defect",
+        "answer": "缺陷",
         "translation": "缺陷",
         "instruction": "选择适合语境的表达。",
         "audio": "defect",
@@ -54421,7 +55020,7 @@
         "id": "b1-u31-l1-q7",
         "kind": "word",
         "prompt": "inspect · 质量控制",
-        "answer": "inspect",
+        "answer": "检查",
         "translation": "检查",
         "instruction": "选择适合语境的表达。",
         "audio": "inspect",
@@ -54603,7 +55202,7 @@
         "id": "b1-u32-l1-q1",
         "kind": "word",
         "prompt": "ambition · 职业目标",
-        "answer": "ambition",
+        "answer": "抱负",
         "translation": "抱负",
         "instruction": "选择适合语境的表达。",
         "audio": "ambition",
@@ -54790,7 +55389,7 @@
         "id": "b1-u32-l1-q7",
         "kind": "word",
         "prompt": "skill · 职业目标",
-        "answer": "skill",
+        "answer": "技能",
         "translation": "技能",
         "instruction": "选择适合语境的表达。",
         "audio": "skill",
@@ -54972,7 +55571,7 @@
         "id": "b1-u33-l1-q1",
         "kind": "word",
         "prompt": "facilitate · 会议引导",
-        "answer": "facilitate",
+        "answer": "促进",
         "translation": "促进",
         "instruction": "选择适合语境的表达。",
         "audio": "facilitate",
@@ -55158,7 +55757,7 @@
         "id": "b1-u33-l1-q7",
         "kind": "word",
         "prompt": "agenda · 会议引导",
-        "answer": "agenda",
+        "answer": "议程",
         "translation": "议程",
         "instruction": "选择适合语境的表达。",
         "audio": "agenda",
@@ -55340,7 +55939,7 @@
         "id": "b1-u34-l1-q1",
         "kind": "word",
         "prompt": "forecast · 预算预测",
-        "answer": "forecast",
+        "answer": "预测",
         "translation": "预测",
         "instruction": "选择适合语境的表达。",
         "audio": "forecast",
@@ -55526,7 +56125,7 @@
         "id": "b1-u34-l1-q7",
         "kind": "word",
         "prompt": "revenue · 预算预测",
-        "answer": "revenue",
+        "answer": "收入",
         "translation": "收入",
         "instruction": "选择适合语境的表达。",
         "audio": "revenue",
@@ -55708,7 +56307,7 @@
         "id": "b1-u35-l1-q1",
         "kind": "word",
         "prompt": "resident · 社区调查",
-        "answer": "resident",
+        "answer": "居民",
         "translation": "居民",
         "instruction": "选择适合语境的表达。",
         "audio": "resident",
@@ -55893,7 +56492,7 @@
         "id": "b1-u35-l1-q7",
         "kind": "word",
         "prompt": "respond · 社区调查",
-        "answer": "respond",
+        "answer": "回应",
         "translation": "回应",
         "instruction": "选择适合语境的表达。",
         "audio": "respond",
@@ -56075,7 +56674,7 @@
         "id": "b1-u36-l1-q1",
         "kind": "word",
         "prompt": "literal · 翻译细微差别",
-        "answer": "literal",
+        "answer": "字面上的",
         "translation": "字面上的",
         "instruction": "选择适合语境的表达。",
         "audio": "literal",
@@ -56261,7 +56860,7 @@
         "id": "b1-u36-l1-q7",
         "kind": "word",
         "prompt": "context · 翻译细微差别",
-        "answer": "context",
+        "answer": "语境",
         "translation": "语境",
         "instruction": "选择适合语境的表达。",
         "audio": "context",
@@ -58141,7 +58740,7 @@
         "prompt": "budget · 理性消费",
         "audio": "budget",
         "instruction": "选择适合语境的表达。",
-        "answer": "budget",
+        "answer": "预算",
         "translation": "预算",
         "lessonId": "b1-u4-l1",
         "levelId": "b1",
@@ -58326,7 +58925,7 @@
         "prompt": "installment · 理性消费",
         "audio": "installment",
         "instruction": "选择适合语境的表达。",
-        "answer": "installment",
+        "answer": "分期付款",
         "translation": "分期付款",
         "lessonId": "b1-u4-l1",
         "levelId": "b1",
@@ -64158,7 +64757,7 @@
         "prompt": "custom · 文化礼仪",
         "audio": "custom",
         "instruction": "选择适合语境的表达。",
-        "answer": "custom",
+        "answer": "习俗",
         "translation": "习俗",
         "lessonId": "b1-u5-l1",
         "levelId": "b1",
@@ -64343,7 +64942,7 @@
         "prompt": "gesture · 文化礼仪",
         "audio": "gesture",
         "instruction": "选择适合语境的表达。",
-        "answer": "gesture",
+        "answer": "手势",
         "translation": "手势",
         "lessonId": "b1-u5-l1",
         "levelId": "b1",
@@ -70167,7 +70766,7 @@
         "prompt": "source · 媒体素养",
         "audio": "source",
         "instruction": "选择适合语境的表达。",
-        "answer": "source",
+        "answer": "来源",
         "translation": "来源",
         "lessonId": "b1-u6-l1",
         "levelId": "b1",
@@ -70351,7 +70950,7 @@
         "prompt": "claim · 媒体素养",
         "audio": "claim",
         "instruction": "选择适合语境的表达。",
-        "answer": "claim",
+        "answer": "说法",
         "translation": "说法",
         "lessonId": "b1-u6-l1",
         "levelId": "b1",
@@ -76184,7 +76783,7 @@
         "prompt": "obstacle · 解决问题",
         "audio": "obstacle",
         "instruction": "选择适合语境的表达。",
-        "answer": "obstacle",
+        "answer": "障碍",
         "translation": "障碍",
         "lessonId": "b1-u7-l1",
         "levelId": "b1",
@@ -76366,7 +76965,7 @@
         "prompt": "alternative · 解决问题",
         "audio": "alternative",
         "instruction": "选择适合语境的表达。",
-        "answer": "alternative",
+        "answer": "替代方案",
         "translation": "替代方案",
         "lessonId": "b1-u7-l1",
         "levelId": "b1",
@@ -78243,7 +78842,7 @@
         "prompt": "boundary · 边界与关系",
         "audio": "boundary",
         "instruction": "选择适合语境的表达。",
-        "answer": "boundary",
+        "answer": "界限",
         "translation": "界限",
         "lessonId": "b1-u8-l1",
         "levelId": "b1",
@@ -78428,7 +79027,7 @@
         "prompt": "misunderstanding · 边界与关系",
         "audio": "misunderstanding",
         "instruction": "选择适合语境的表达。",
-        "answer": "misunderstanding",
+        "answer": "误解",
         "translation": "误解",
         "lessonId": "b1-u8-l1",
         "levelId": "b1",
@@ -78610,7 +79209,7 @@
         "prompt": "audience · 演讲表达",
         "audio": "audience",
         "instruction": "选择适合语境的表达。",
-        "answer": "audience",
+        "answer": "听众",
         "translation": "听众",
         "lessonId": "b1-u9-l1",
         "levelId": "b1",
@@ -78796,7 +79395,7 @@
         "prompt": "emphasize · 演讲表达",
         "audio": "emphasize",
         "instruction": "选择适合语境的表达。",
-        "answer": "emphasize",
+        "answer": "强调",
         "translation": "强调",
         "lessonId": "b1-u9-l1",
         "levelId": "b1",
@@ -79231,7 +79830,7 @@
         "id": "b2-u10-l1-q1",
         "kind": "word",
         "prompt": "resilience · 气候适应",
-        "answer": "resilience",
+        "answer": "韧性",
         "translation": "韧性",
         "instruction": "选择适合语境的表达。",
         "audio": "resilience",
@@ -79420,7 +80019,7 @@
         "id": "b2-u10-l1-q7",
         "kind": "word",
         "prompt": "adaptation · 气候适应",
-        "answer": "adaptation",
+        "answer": "适应",
         "translation": "适应",
         "instruction": "选择适合语境的表达。",
         "audio": "adaptation",
@@ -79602,7 +80201,7 @@
         "id": "b2-u11-l1-q1",
         "kind": "word",
         "prompt": "encrypt · 网络安全",
-        "answer": "encrypt",
+        "answer": "加密",
         "translation": "加密",
         "instruction": "选择适合语境的表达。",
         "audio": "encrypt",
@@ -79788,7 +80387,7 @@
         "id": "b2-u11-l1-q7",
         "kind": "word",
         "prompt": "breach · 网络安全",
-        "answer": "breach",
+        "answer": "漏洞事件",
         "translation": "漏洞事件",
         "instruction": "选择适合语境的表达。",
         "audio": "breach",
@@ -79970,7 +80569,7 @@
         "id": "b2-u12-l1-q1",
         "kind": "word",
         "prompt": "jurisdiction · 法律合同",
-        "answer": "jurisdiction",
+        "answer": "管辖权",
         "translation": "管辖权",
         "instruction": "选择适合语境的表达。",
         "audio": "jurisdiction",
@@ -80156,7 +80755,7 @@
         "id": "b2-u12-l1-q7",
         "kind": "word",
         "prompt": "liable · 法律合同",
-        "answer": "liable",
+        "answer": "负有责任的",
         "translation": "负有责任的",
         "instruction": "选择适合语境的表达。",
         "audio": "liable",
@@ -80338,7 +80937,7 @@
         "id": "b2-u13-l1-q1",
         "kind": "word",
         "prompt": "clinical · 医学研究",
-        "answer": "clinical",
+        "answer": "临床的",
         "translation": "临床的",
         "instruction": "选择适合语境的表达。",
         "audio": "clinical",
@@ -80524,7 +81123,7 @@
         "id": "b2-u13-l1-q7",
         "kind": "word",
         "prompt": "placebo · 医学研究",
-        "answer": "placebo",
+        "answer": "安慰剂",
         "translation": "安慰剂",
         "instruction": "选择适合语境的表达。",
         "audio": "placebo",
@@ -80706,7 +81305,7 @@
         "id": "b2-u14-l1-q1",
         "kind": "word",
         "prompt": "pedestrian · 城市设计",
-        "answer": "pedestrian",
+        "answer": "行人的",
         "translation": "行人的",
         "instruction": "选择适合语境的表达。",
         "audio": "pedestrian",
@@ -80891,7 +81490,7 @@
         "id": "b2-u14-l1-q7",
         "kind": "word",
         "prompt": "density · 城市设计",
-        "answer": "density",
+        "answer": "密度",
         "translation": "密度",
         "instruction": "选择适合语境的表达。",
         "audio": "density",
@@ -81073,7 +81672,7 @@
         "id": "b2-u15-l1-q1",
         "kind": "word",
         "prompt": "procurement · 供应链",
-        "answer": "procurement",
+        "answer": "采购",
         "translation": "采购",
         "instruction": "选择适合语境的表达。",
         "audio": "procurement",
@@ -81259,7 +81858,7 @@
         "id": "b2-u15-l1-q7",
         "kind": "word",
         "prompt": "logistics · 供应链",
-        "answer": "logistics",
+        "answer": "物流",
         "translation": "物流",
         "instruction": "选择适合语境的表达。",
         "audio": "logistics",
@@ -81441,7 +82040,7 @@
         "id": "b2-u16-l1-q1",
         "kind": "word",
         "prompt": "outbreak · 公共卫生",
-        "answer": "outbreak",
+        "answer": "疫情暴发",
         "translation": "疫情暴发",
         "instruction": "选择适合语境的表达。",
         "audio": "outbreak",
@@ -81627,7 +82226,7 @@
         "id": "b2-u16-l1-q7",
         "kind": "word",
         "prompt": "vaccination · 公共卫生",
-        "answer": "vaccination",
+        "answer": "疫苗接种",
         "translation": "疫苗接种",
         "instruction": "选择适合语境的表达。",
         "audio": "vaccination",
@@ -81809,7 +82408,7 @@
         "id": "b2-u17-l1-q1",
         "kind": "word",
         "prompt": "narrative · 媒体叙事",
-        "answer": "narrative",
+        "answer": "叙事",
         "translation": "叙事",
         "instruction": "选择适合语境的表达。",
         "audio": "narrative",
@@ -81994,7 +82593,7 @@
         "id": "b2-u17-l1-q7",
         "kind": "word",
         "prompt": "framing · 媒体叙事",
-        "answer": "framing",
+        "answer": "框架",
         "translation": "框架",
         "instruction": "选择适合语境的表达。",
         "audio": "framing",
@@ -82176,7 +82775,7 @@
         "id": "b2-u18-l1-q1",
         "kind": "word",
         "prompt": "peer-review · 学术发表",
-        "answer": "peer-review",
+        "answer": "同行评审",
         "translation": "同行评审",
         "instruction": "选择适合语境的表达。",
         "audio": "peer-review",
@@ -82362,7 +82961,7 @@
         "id": "b2-u18-l1-q7",
         "kind": "word",
         "prompt": "revise · 学术发表",
-        "answer": "revise",
+        "answer": "修改",
         "translation": "修改",
         "instruction": "选择适合语境的表达。",
         "audio": "revise",
@@ -112587,7 +113186,7 @@
         "id": "b2-u7-l1-q1",
         "kind": "word",
         "prompt": "hypothesis · 研究论证",
-        "answer": "hypothesis",
+        "answer": "假设",
         "translation": "假设",
         "instruction": "选择适合语境的表达。",
         "audio": "hypothesis",
@@ -112773,7 +113372,7 @@
         "id": "b2-u7-l1-q7",
         "kind": "word",
         "prompt": "methodology · 研究论证",
-        "answer": "methodology",
+        "answer": "方法论",
         "translation": "方法论",
         "instruction": "选择适合语境的表达。",
         "audio": "methodology",
@@ -114649,7 +115248,7 @@
         "id": "b2-u8-l1-q1",
         "kind": "word",
         "prompt": "transition · 职业转型",
-        "answer": "transition",
+        "answer": "转型",
         "translation": "转型",
         "instruction": "选择适合语境的表达。",
         "audio": "transition",
@@ -114836,7 +115435,7 @@
         "id": "b2-u8-l1-q7",
         "kind": "word",
         "prompt": "transferable · 职业转型",
-        "answer": "transferable",
+        "answer": "可迁移的",
         "translation": "可迁移的",
         "instruction": "选择适合语境的表达。",
         "audio": "transferable",
@@ -115018,7 +115617,7 @@
         "id": "b2-u9-l1-q1",
         "kind": "word",
         "prompt": "inflation · 宏观经济",
-        "answer": "inflation",
+        "answer": "通货膨胀",
         "translation": "通货膨胀",
         "instruction": "选择适合语境的表达。",
         "audio": "inflation",
@@ -115205,7 +115804,7 @@
         "id": "b2-u9-l1-q7",
         "kind": "word",
         "prompt": "recession · 宏观经济",
-        "answer": "recession",
+        "answer": "经济衰退",
         "translation": "经济衰退",
         "instruction": "选择适合语境的表达。",
         "audio": "recession",

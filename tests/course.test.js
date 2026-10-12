@@ -30,10 +30,18 @@ for (const lesson of catalog.lessonList) {
     }
     assert(Array.isArray(question.grammarTags) && question.grammarTags.length > 0, `${question.id} grammar metadata`);
     assert(Array.isArray(question.skillTags) && question.skillTags.length > 0, `${question.id} skill metadata`);
-    if (Array.isArray(question.options) && ['choice', 'listen', 'fill'].includes(question.kind)) {
+    if (Array.isArray(question.options) && ['choice', 'listen', 'fill', 'word'].includes(question.kind)) {
       assert(question.options.length >= 4, `${question.id} should have at least four choices`);
       assert.strictEqual(new Set(question.options).size, question.options.length, `${question.id} has duplicate choices`);
       assert(question.options.includes(question.answer), `${question.id} choices must include the answer`);
+    }
+    // checkOrder() grades with tokens.join(' ') === answer. Without a token
+    // bank betaShuffle yields [], the word bank renders empty, and the lesson
+    // can never be completed. Note the invariant is the join, not a plain
+    // answer.split(' '): one question legitimately uses a multi-word tile.
+    if (question.kind === 'order') {
+      assert(Array.isArray(question.tokens) && question.tokens.length, `${question.id} needs a token bank`);
+      assert.strictEqual(question.tokens.join(' '), question.answer, `${question.id} tokens must reassemble into the answer`);
     }
     if (question.kind === 'fill') {
       assert.notStrictEqual(question.instruction, question.translation, `${question.id} must hide its translation before answering`);

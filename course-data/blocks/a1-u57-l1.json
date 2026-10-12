@@ -1,1 +1,302 @@
-{"id":"a1-u57-l1","levelId":"a1","cefr":"A1","title":"进阶修理家门","subtitle":"描述门锁和简单修理","theme":"door-repair","grammarFocus":"can-requests","grammarTags":["can-requests","home"],"words":[["lock","锁"],["handle","把手"],["key","钥匙"],["hinge","合页"],["repair","修理"],["stuck","卡住的"]],"questions":[{"id":"a1-u57-l1-q1","kind":"word","prompt":"hinge · 修理家门","instruction":"选择意思。","answer":"合页","options":["合页","锁","把手","钥匙"],"translation":"合页","grammarTags":["can-requests"],"skillTags":["vocabulary"]},{"id":"a1-u57-l1-q2","kind":"choice","prompt":"Can you repair the door handle this afternoon?","instruction":"选择意思。","answer":"你今天下午能修门把手吗？","options":["你今天下午能修门把手吗？","你今天下午能换门锁吗？","你今天下午能找到钥匙吗？","你今天下午能擦合页吗？"],"audio":"Can you repair the door handle this afternoon?","translation":"你今天下午能修门把手吗？","grammarTags":["can-requests"],"skillTags":["reading"]},{"id":"a1-u57-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"钥匙卡在锁里了。","options":["钥匙卡在锁里了。","把手掉到地上了。","合页需要上油了。","门已经完全打开了。"],"audio":"The key is stuck in the lock.","translation":"钥匙卡在锁里了。","grammarTags":["can-requests"],"skillTags":["listening"]},{"id":"a1-u57-l1-q4","kind":"order","prompt":"请轻轻转动门把手。","instruction":"组成英文句子。","answer":"Please turn the door handle gently.","audio":"Please turn the door handle gently.","translation":"请轻轻转动门把手。","grammarTags":["can-requests"],"skillTags":["word-order"]},{"id":"a1-u57-l1-q5","kind":"fill","prompt":"The old _____ makes a loud noise.","instruction":"选择名词。","answer":"hinge","options":["hinge","lock","key","handle"],"audio":"The old hinge makes a loud noise.","translation":"旧合页发出很大的声音。","grammarTags":["can-requests"],"skillTags":["grammar"]},{"id":"a1-u57-l1-q6","kind":"match","prompt":"配对修理家门词语。","instruction":"完成配对。","pairs":[["lock","锁"],["handle","把手"],["key","钥匙"],["hinge","合页"],["repair","修理"],["stuck","卡住的"]],"answer":"matched","translation":"锁、把手、钥匙、合页、修理、卡住的","grammarTags":["can-requests"],"skillTags":["matching"]},{"id":"a1-u57-l1-q7","kind":"word","prompt":"stuck · 修理家门","instruction":"选择意思。","answer":"卡住的","options":["卡住的","修理","合页","钥匙"],"translation":"卡住的","grammarTags":["can-requests"],"skillTags":["vocabulary"]},{"id":"a1-u57-l1-q8","kind":"choice","prompt":"The new lock is easier to use than the old one.","instruction":"选择意思。","answer":"新锁比旧锁更容易使用。","options":["新锁比旧锁更容易使用。","新钥匙比旧钥匙更短。","新门把手比旧合页更响。","新门比旧门更难打开。"],"audio":"The new lock is easier to use than the old one.","translation":"新锁比旧锁更容易使用。","grammarTags":["can-requests"],"skillTags":["reading"]},{"id":"a1-u57-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"修理工明天上午会来。","options":["修理工明天上午会来。","锁匠今天下午已经走了。","邻居正在换门把手。","钥匙今晚会送到。"],"audio":"The repair worker will come tomorrow morning.","translation":"修理工明天上午会来。","grammarTags":["can-requests"],"skillTags":["listening"]},{"id":"a1-u57-l1-q10","kind":"fill","prompt":"I cannot turn the _____ with this key.","instruction":"选择名词。","answer":"lock","options":["lock","handle","hinge","repair"],"audio":"I cannot turn the lock with this key.","translation":"我用这把钥匙打不开锁。","grammarTags":["can-requests"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u57-l1-dialogue","scene":"门锁故障","characters":[{"id":"lumi","name":"Lumi"},{"id":"repairer","name":"Repairer"}],"turns":[{"speaker":"lumi","text":"The key is stuck in the lock.","translation":"钥匙卡在锁里了。"},{"speaker":"repairer","text":"I can repair it after lunch.","translation":"我午饭后可以修理它。"},{"speaker":"lumi","text":"Thank you. Please check the handle too.","translation":"谢谢。也请检查一下门把手。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u57-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶修理家门",
+  "subtitle": "描述门锁和简单修理",
+  "theme": "door-repair",
+  "grammarFocus": "can-requests",
+  "grammarTags": [
+    "can-requests",
+    "home"
+  ],
+  "words": [
+    [
+      "lock",
+      "锁"
+    ],
+    [
+      "handle",
+      "把手"
+    ],
+    [
+      "key",
+      "钥匙"
+    ],
+    [
+      "hinge",
+      "合页"
+    ],
+    [
+      "repair",
+      "修理"
+    ],
+    [
+      "stuck",
+      "卡住的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u57-l1-q1",
+      "kind": "word",
+      "prompt": "hinge · 修理家门",
+      "instruction": "选择意思。",
+      "answer": "合页",
+      "options": [
+        "合页",
+        "锁",
+        "把手",
+        "钥匙"
+      ],
+      "translation": "合页",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u57-l1-q2",
+      "kind": "choice",
+      "prompt": "Can you repair the door handle this afternoon?",
+      "instruction": "选择意思。",
+      "answer": "你今天下午能修门把手吗？",
+      "options": [
+        "你今天下午能修门把手吗？",
+        "你今天下午能换门锁吗？",
+        "你今天下午能找到钥匙吗？",
+        "你今天下午能擦合页吗？"
+      ],
+      "audio": "Can you repair the door handle this afternoon?",
+      "translation": "你今天下午能修门把手吗？",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u57-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "钥匙卡在锁里了。",
+      "options": [
+        "钥匙卡在锁里了。",
+        "把手掉到地上了。",
+        "合页需要上油了。",
+        "门已经完全打开了。"
+      ],
+      "audio": "The key is stuck in the lock.",
+      "translation": "钥匙卡在锁里了。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u57-l1-q4",
+      "kind": "order",
+      "prompt": "请轻轻转动门把手。",
+      "instruction": "组成英文句子。",
+      "answer": "Please turn the door handle gently.",
+      "audio": "Please turn the door handle gently.",
+      "translation": "请轻轻转动门把手。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "Please",
+        "turn",
+        "the",
+        "door",
+        "handle",
+        "gently."
+      ]
+    },
+    {
+      "id": "a1-u57-l1-q5",
+      "kind": "fill",
+      "prompt": "The old _____ makes a loud noise.",
+      "instruction": "选择名词。",
+      "answer": "hinge",
+      "options": [
+        "hinge",
+        "lock",
+        "key",
+        "handle"
+      ],
+      "audio": "The old hinge makes a loud noise.",
+      "translation": "旧合页发出很大的声音。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u57-l1-q6",
+      "kind": "match",
+      "prompt": "配对修理家门词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "lock",
+          "锁"
+        ],
+        [
+          "handle",
+          "把手"
+        ],
+        [
+          "key",
+          "钥匙"
+        ],
+        [
+          "hinge",
+          "合页"
+        ],
+        [
+          "repair",
+          "修理"
+        ],
+        [
+          "stuck",
+          "卡住的"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "锁、把手、钥匙、合页、修理、卡住的",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u57-l1-q7",
+      "kind": "word",
+      "prompt": "stuck · 修理家门",
+      "instruction": "选择意思。",
+      "answer": "卡住的",
+      "options": [
+        "卡住的",
+        "修理",
+        "合页",
+        "钥匙"
+      ],
+      "translation": "卡住的",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u57-l1-q8",
+      "kind": "choice",
+      "prompt": "The new lock is easier to use than the old one.",
+      "instruction": "选择意思。",
+      "answer": "新锁比旧锁更容易使用。",
+      "options": [
+        "新锁比旧锁更容易使用。",
+        "新钥匙比旧钥匙更短。",
+        "新门把手比旧合页更响。",
+        "新门比旧门更难打开。"
+      ],
+      "audio": "The new lock is easier to use than the old one.",
+      "translation": "新锁比旧锁更容易使用。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u57-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "修理工明天上午会来。",
+      "options": [
+        "修理工明天上午会来。",
+        "锁匠今天下午已经走了。",
+        "邻居正在换门把手。",
+        "钥匙今晚会送到。"
+      ],
+      "audio": "The repair worker will come tomorrow morning.",
+      "translation": "修理工明天上午会来。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u57-l1-q10",
+      "kind": "fill",
+      "prompt": "I cannot turn the _____ with this key.",
+      "instruction": "选择名词。",
+      "answer": "lock",
+      "options": [
+        "lock",
+        "handle",
+        "hinge",
+        "repair"
+      ],
+      "audio": "I cannot turn the lock with this key.",
+      "translation": "我用这把钥匙打不开锁。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u57-l1-dialogue",
+    "scene": "门锁故障",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "repairer",
+        "name": "Repairer"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The key is stuck in the lock.",
+        "translation": "钥匙卡在锁里了。"
+      },
+      {
+        "speaker": "repairer",
+        "text": "I can repair it after lunch.",
+        "translation": "我午饭后可以修理它。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thank you. Please check the handle too.",
+        "translation": "谢谢。也请检查一下门把手。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

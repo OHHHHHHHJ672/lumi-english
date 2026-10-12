@@ -1,1 +1,303 @@
-{"id":"a1-u55-l1","levelId":"a1","cefr":"A1","title":"进阶海边一天","subtitle":"谈论海边活动和物品","theme":"beach-day","grammarFocus":"present-simple","grammarTags":["present-simple","travel"],"words":[["shore","海岸"],["towel","毛巾"],["shell","贝壳"],["wave","海浪"],["sunscreen","防晒霜"],["swim","游泳"]],"questions":[{"id":"a1-u55-l1-q1","kind":"word","prompt":"shore · 海边一天","instruction":"选择意思。","answer":"海岸","options":["海岸","毛巾","贝壳","海浪"],"translation":"海岸","grammarTags":["present-simple"],"skillTags":["vocabulary"]},{"id":"a1-u55-l1-q2","kind":"choice","prompt":"We swim near the shore before lunch.","instruction":"选择意思。","answer":"我们午餐前在海岸附近游泳。","options":["我们午餐前在海岸附近游泳。","我们晚餐后收集贝壳。","我们早上在毛巾上晒太阳。","我们在海浪里寻找防晒霜。"],"audio":"We swim near the shore before lunch.","translation":"我们午餐前在海岸附近游泳。","grammarTags":["present-simple"],"skillTags":["reading"]},{"id":"a1-u55-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"海浪今天很平静。","options":["海浪今天很平静。","海岸今天没有人。","毛巾今天已经湿了。","贝壳今天在袋子里。"],"audio":"The waves are calm today.","translation":"海浪今天很平静。","grammarTags":["present-simple"],"skillTags":["listening"]},{"id":"a1-u55-l1-q4","kind":"order","prompt":"我出门前涂防晒霜。","instruction":"组成英文句子。","answer":"I put on sunscreen before I leave.","audio":"I put on sunscreen before I leave.","translation":"我出门前涂防晒霜。","grammarTags":["present-simple"],"skillTags":["word-order"]},{"id":"a1-u55-l1-q5","kind":"fill","prompt":"She dries her feet with a _____.","instruction":"选择名词。","answer":"towel","options":["towel","shell","shore","wave"],"audio":"She dries her feet with a towel.","translation":"她用毛巾擦干脚。","grammarTags":["present-simple"],"skillTags":["grammar"]},{"id":"a1-u55-l1-q6","kind":"match","prompt":"配对海边一天词语。","instruction":"完成配对。","pairs":[["shore","海岸"],["towel","毛巾"],["shell","贝壳"],["wave","海浪"],["sunscreen","防晒霜"],["swim","游泳"]],"answer":"matched","translation":"海岸、毛巾、贝壳、海浪、防晒霜、游泳","grammarTags":["present-simple"],"skillTags":["matching"]},{"id":"a1-u55-l1-q7","kind":"word","prompt":"sunscreen · 海边一天","instruction":"选择意思。","answer":"防晒霜","options":["防晒霜","海浪","贝壳","毛巾"],"translation":"防晒霜","grammarTags":["present-simple"],"skillTags":["vocabulary"]},{"id":"a1-u55-l1-q8","kind":"choice","prompt":"The children collect shells along the beach.","instruction":"选择意思。","answer":"孩子们沿着海滩收集贝壳。","options":["孩子们沿着海滩收集贝壳。","孩子们在海岸擦防晒霜。","孩子们在毛巾上数海浪。","孩子们在海里寻找太阳镜。"],"audio":"The children collect shells along the beach.","translation":"孩子们沿着海滩收集贝壳。","grammarTags":["present-simple"],"skillTags":["reading"]},{"id":"a1-u55-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"请把湿毛巾放在椅子上。","options":["请把湿毛巾放在椅子上。","请把贝壳放回海里。","请把防晒霜带到海岸。","请把海浪画在纸上。"],"audio":"Please put the wet towel on the chair.","translation":"请把湿毛巾放在椅子上。","grammarTags":["present-simple"],"skillTags":["listening"]},{"id":"a1-u55-l1-q10","kind":"fill","prompt":"The children _____ in the shallow water.","instruction":"选择动词。","answer":"swim","options":["swim","swims","swimming","swam"],"audio":"The children swim in the shallow water.","translation":"孩子们在浅水里游泳。","grammarTags":["present-simple"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u55-l1-dialogue","scene":"海边安排","characters":[{"id":"lumi","name":"Lumi"},{"id":"kai","name":"Kai"}],"turns":[{"speaker":"lumi","text":"Did you bring sunscreen and towels?","translation":"你带防晒霜和毛巾了吗？"},{"speaker":"kai","text":"Yes. I also brought a bag for shells.","translation":"带了。我还带了装贝壳的袋子。"},{"speaker":"lumi","text":"Great. We can swim near the shore.","translation":"太好了。我们可以在海岸附近游泳。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u55-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶海边一天",
+  "subtitle": "谈论海边活动和物品",
+  "theme": "beach-day",
+  "grammarFocus": "present-simple",
+  "grammarTags": [
+    "present-simple",
+    "travel"
+  ],
+  "words": [
+    [
+      "shore",
+      "海岸"
+    ],
+    [
+      "towel",
+      "毛巾"
+    ],
+    [
+      "shell",
+      "贝壳"
+    ],
+    [
+      "wave",
+      "海浪"
+    ],
+    [
+      "sunscreen",
+      "防晒霜"
+    ],
+    [
+      "swim",
+      "游泳"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u55-l1-q1",
+      "kind": "word",
+      "prompt": "shore · 海边一天",
+      "instruction": "选择意思。",
+      "answer": "海岸",
+      "options": [
+        "海岸",
+        "毛巾",
+        "贝壳",
+        "海浪"
+      ],
+      "translation": "海岸",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u55-l1-q2",
+      "kind": "choice",
+      "prompt": "We swim near the shore before lunch.",
+      "instruction": "选择意思。",
+      "answer": "我们午餐前在海岸附近游泳。",
+      "options": [
+        "我们午餐前在海岸附近游泳。",
+        "我们晚餐后收集贝壳。",
+        "我们早上在毛巾上晒太阳。",
+        "我们在海浪里寻找防晒霜。"
+      ],
+      "audio": "We swim near the shore before lunch.",
+      "translation": "我们午餐前在海岸附近游泳。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u55-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "海浪今天很平静。",
+      "options": [
+        "海浪今天很平静。",
+        "海岸今天没有人。",
+        "毛巾今天已经湿了。",
+        "贝壳今天在袋子里。"
+      ],
+      "audio": "The waves are calm today.",
+      "translation": "海浪今天很平静。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u55-l1-q4",
+      "kind": "order",
+      "prompt": "我出门前涂防晒霜。",
+      "instruction": "组成英文句子。",
+      "answer": "I put on sunscreen before I leave.",
+      "audio": "I put on sunscreen before I leave.",
+      "translation": "我出门前涂防晒霜。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "I",
+        "put",
+        "on",
+        "sunscreen",
+        "before",
+        "I",
+        "leave."
+      ]
+    },
+    {
+      "id": "a1-u55-l1-q5",
+      "kind": "fill",
+      "prompt": "She dries her feet with a _____.",
+      "instruction": "选择名词。",
+      "answer": "towel",
+      "options": [
+        "towel",
+        "shell",
+        "shore",
+        "wave"
+      ],
+      "audio": "She dries her feet with a towel.",
+      "translation": "她用毛巾擦干脚。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u55-l1-q6",
+      "kind": "match",
+      "prompt": "配对海边一天词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "shore",
+          "海岸"
+        ],
+        [
+          "towel",
+          "毛巾"
+        ],
+        [
+          "shell",
+          "贝壳"
+        ],
+        [
+          "wave",
+          "海浪"
+        ],
+        [
+          "sunscreen",
+          "防晒霜"
+        ],
+        [
+          "swim",
+          "游泳"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "海岸、毛巾、贝壳、海浪、防晒霜、游泳",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u55-l1-q7",
+      "kind": "word",
+      "prompt": "sunscreen · 海边一天",
+      "instruction": "选择意思。",
+      "answer": "防晒霜",
+      "options": [
+        "防晒霜",
+        "海浪",
+        "贝壳",
+        "毛巾"
+      ],
+      "translation": "防晒霜",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u55-l1-q8",
+      "kind": "choice",
+      "prompt": "The children collect shells along the beach.",
+      "instruction": "选择意思。",
+      "answer": "孩子们沿着海滩收集贝壳。",
+      "options": [
+        "孩子们沿着海滩收集贝壳。",
+        "孩子们在海岸擦防晒霜。",
+        "孩子们在毛巾上数海浪。",
+        "孩子们在海里寻找太阳镜。"
+      ],
+      "audio": "The children collect shells along the beach.",
+      "translation": "孩子们沿着海滩收集贝壳。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u55-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请把湿毛巾放在椅子上。",
+      "options": [
+        "请把湿毛巾放在椅子上。",
+        "请把贝壳放回海里。",
+        "请把防晒霜带到海岸。",
+        "请把海浪画在纸上。"
+      ],
+      "audio": "Please put the wet towel on the chair.",
+      "translation": "请把湿毛巾放在椅子上。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u55-l1-q10",
+      "kind": "fill",
+      "prompt": "The children _____ in the shallow water.",
+      "instruction": "选择动词。",
+      "answer": "swim",
+      "options": [
+        "swim",
+        "swims",
+        "swimming",
+        "swam"
+      ],
+      "audio": "The children swim in the shallow water.",
+      "translation": "孩子们在浅水里游泳。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u55-l1-dialogue",
+    "scene": "海边安排",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "kai",
+        "name": "Kai"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Did you bring sunscreen and towels?",
+        "translation": "你带防晒霜和毛巾了吗？"
+      },
+      {
+        "speaker": "kai",
+        "text": "Yes. I also brought a bag for shells.",
+        "translation": "带了。我还带了装贝壳的袋子。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Great. We can swim near the shore.",
+        "translation": "太好了。我们可以在海岸附近游泳。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,1 +1,301 @@
-{"id":"a1-u51-l1","levelId":"a1","cefr":"A1","title":"进阶生日准备","subtitle":"描述正在进行的准备","theme":"birthday-prep","grammarFocus":"present-continuous","grammarTags":["present-continuous"],"words":[["decorate","装饰"],["balloon","气球"],["invite","邀请"],["candle","蜡烛"],["present","礼物"],["party","聚会"]],"questions":[{"id":"a1-u51-l1-q1","kind":"word","prompt":"decorate · 生日准备","instruction":"选择意思。","answer":"装饰","options":["装饰","气球","邀请","蜡烛"],"translation":"装饰","grammarTags":["present-continuous"],"skillTags":["vocabulary"]},{"id":"a1-u51-l1-q2","kind":"choice","prompt":"We are decorating the room for Mia's birthday.","instruction":"选择意思。","answer":"我们正在为米娅的生日装饰房间。","options":["我们正在为米娅的生日装饰房间。","我们已经把礼物送到聚会。","我们明天要邀请邻居。","我们在厨房点燃蜡烛。"],"audio":"We are decorating the room for Mia's birthday.","translation":"我们正在为米娅的生日装饰房间。","grammarTags":["present-continuous"],"skillTags":["reading"]},{"id":"a1-u51-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"孩子们正在吹气球。","options":["孩子们正在吹气球。","孩子们正在打开礼物。","孩子们正在写邀请函。","孩子们正在点蜡烛。"],"audio":"The children are blowing up balloons.","translation":"孩子们正在吹气球。","grammarTags":["present-continuous"],"skillTags":["listening"]},{"id":"a1-u51-l1-q4","kind":"order","prompt":"她正在写生日邀请函。","instruction":"组成英文句子。","answer":"She is writing the birthday invitations.","audio":"She is writing the birthday invitations.","translation":"她正在写生日邀请函。","grammarTags":["present-continuous"],"skillTags":["word-order"]},{"id":"a1-u51-l1-q5","kind":"fill","prompt":"Dad is _____ the candles on the cake.","instruction":"选择动词。","answer":"placing","options":["placing","place","placed","places"],"audio":"Dad is placing the candles on the cake.","translation":"爸爸正在把蜡烛放到蛋糕上。","grammarTags":["present-continuous"],"skillTags":["grammar"]},{"id":"a1-u51-l1-q6","kind":"match","prompt":"配对生日准备词语。","instruction":"完成配对。","pairs":[["decorate","装饰"],["balloon","气球"],["invite","邀请"],["candle","蜡烛"],["present","礼物"],["party","聚会"]],"answer":"matched","translation":"装饰、气球、邀请、蜡烛、礼物、聚会","grammarTags":["present-continuous"],"skillTags":["matching"]},{"id":"a1-u51-l1-q7","kind":"word","prompt":"candle · 生日准备","instruction":"选择意思。","answer":"蜡烛","options":["蜡烛","礼物","气球","聚会"],"translation":"蜡烛","grammarTags":["present-continuous"],"skillTags":["vocabulary"]},{"id":"a1-u51-l1-q8","kind":"choice","prompt":"My friends are bringing presents to the party.","instruction":"选择意思。","answer":"我的朋友们正在把礼物带到聚会上。","options":["我的朋友们正在把礼物带到聚会上。","我的朋友们正在制作生日蛋糕。","我的朋友们正在吹房间里的气球。","我的朋友们正在发送邀请。"],"audio":"My friends are bringing presents to the party.","translation":"我的朋友们正在把礼物带到聚会上。","grammarTags":["present-continuous"],"skillTags":["reading"]},{"id":"a1-u51-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"我们正在等待客人到来。","options":["我们正在等待客人到来。","我们正在打开派对礼物。","我们正在收拾生日房间。","我们正在切蛋糕。"],"audio":"We are waiting for the guests to arrive.","translation":"我们正在等待客人到来。","grammarTags":["present-continuous"],"skillTags":["listening"]},{"id":"a1-u51-l1-q10","kind":"fill","prompt":"They are _____ the cake now.","instruction":"选择动词。","answer":"cutting","options":["cutting","cut","cuts","cutted"],"audio":"They are cutting the cake now.","translation":"他们现在正在切蛋糕。","grammarTags":["present-continuous"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u51-l1-dialogue","scene":"准备生日聚会","characters":[{"id":"lumi","name":"Lumi"},{"id":"maya","name":"Maya"}],"turns":[{"speaker":"lumi","text":"What are you doing with the balloons?","translation":"你在用气球做什么？"},{"speaker":"maya","text":"I am decorating the window for the party.","translation":"我正在为聚会装饰窗户。"},{"speaker":"lumi","text":"I am placing the candles on the cake.","translation":"我正在把蜡烛放到蛋糕上。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u51-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶生日准备",
+  "subtitle": "描述正在进行的准备",
+  "theme": "birthday-prep",
+  "grammarFocus": "present-continuous",
+  "grammarTags": [
+    "present-continuous"
+  ],
+  "words": [
+    [
+      "decorate",
+      "装饰"
+    ],
+    [
+      "balloon",
+      "气球"
+    ],
+    [
+      "invite",
+      "邀请"
+    ],
+    [
+      "candle",
+      "蜡烛"
+    ],
+    [
+      "present",
+      "礼物"
+    ],
+    [
+      "party",
+      "聚会"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u51-l1-q1",
+      "kind": "word",
+      "prompt": "decorate · 生日准备",
+      "instruction": "选择意思。",
+      "answer": "装饰",
+      "options": [
+        "装饰",
+        "气球",
+        "邀请",
+        "蜡烛"
+      ],
+      "translation": "装饰",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u51-l1-q2",
+      "kind": "choice",
+      "prompt": "We are decorating the room for Mia's birthday.",
+      "instruction": "选择意思。",
+      "answer": "我们正在为米娅的生日装饰房间。",
+      "options": [
+        "我们正在为米娅的生日装饰房间。",
+        "我们已经把礼物送到聚会。",
+        "我们明天要邀请邻居。",
+        "我们在厨房点燃蜡烛。"
+      ],
+      "audio": "We are decorating the room for Mia's birthday.",
+      "translation": "我们正在为米娅的生日装饰房间。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u51-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "孩子们正在吹气球。",
+      "options": [
+        "孩子们正在吹气球。",
+        "孩子们正在打开礼物。",
+        "孩子们正在写邀请函。",
+        "孩子们正在点蜡烛。"
+      ],
+      "audio": "The children are blowing up balloons.",
+      "translation": "孩子们正在吹气球。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u51-l1-q4",
+      "kind": "order",
+      "prompt": "她正在写生日邀请函。",
+      "instruction": "组成英文句子。",
+      "answer": "She is writing the birthday invitations.",
+      "audio": "She is writing the birthday invitations.",
+      "translation": "她正在写生日邀请函。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "She",
+        "is",
+        "writing",
+        "the",
+        "birthday",
+        "invitations."
+      ]
+    },
+    {
+      "id": "a1-u51-l1-q5",
+      "kind": "fill",
+      "prompt": "Dad is _____ the candles on the cake.",
+      "instruction": "选择动词。",
+      "answer": "placing",
+      "options": [
+        "placing",
+        "place",
+        "placed",
+        "places"
+      ],
+      "audio": "Dad is placing the candles on the cake.",
+      "translation": "爸爸正在把蜡烛放到蛋糕上。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u51-l1-q6",
+      "kind": "match",
+      "prompt": "配对生日准备词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "decorate",
+          "装饰"
+        ],
+        [
+          "balloon",
+          "气球"
+        ],
+        [
+          "invite",
+          "邀请"
+        ],
+        [
+          "candle",
+          "蜡烛"
+        ],
+        [
+          "present",
+          "礼物"
+        ],
+        [
+          "party",
+          "聚会"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "装饰、气球、邀请、蜡烛、礼物、聚会",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u51-l1-q7",
+      "kind": "word",
+      "prompt": "candle · 生日准备",
+      "instruction": "选择意思。",
+      "answer": "蜡烛",
+      "options": [
+        "蜡烛",
+        "礼物",
+        "气球",
+        "聚会"
+      ],
+      "translation": "蜡烛",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u51-l1-q8",
+      "kind": "choice",
+      "prompt": "My friends are bringing presents to the party.",
+      "instruction": "选择意思。",
+      "answer": "我的朋友们正在把礼物带到聚会上。",
+      "options": [
+        "我的朋友们正在把礼物带到聚会上。",
+        "我的朋友们正在制作生日蛋糕。",
+        "我的朋友们正在吹房间里的气球。",
+        "我的朋友们正在发送邀请。"
+      ],
+      "audio": "My friends are bringing presents to the party.",
+      "translation": "我的朋友们正在把礼物带到聚会上。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u51-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "我们正在等待客人到来。",
+      "options": [
+        "我们正在等待客人到来。",
+        "我们正在打开派对礼物。",
+        "我们正在收拾生日房间。",
+        "我们正在切蛋糕。"
+      ],
+      "audio": "We are waiting for the guests to arrive.",
+      "translation": "我们正在等待客人到来。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u51-l1-q10",
+      "kind": "fill",
+      "prompt": "They are _____ the cake now.",
+      "instruction": "选择动词。",
+      "answer": "cutting",
+      "options": [
+        "cutting",
+        "cut",
+        "cuts",
+        "cutted"
+      ],
+      "audio": "They are cutting the cake now.",
+      "translation": "他们现在正在切蛋糕。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u51-l1-dialogue",
+    "scene": "准备生日聚会",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "maya",
+        "name": "Maya"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "What are you doing with the balloons?",
+        "translation": "你在用气球做什么？"
+      },
+      {
+        "speaker": "maya",
+        "text": "I am decorating the window for the party.",
+        "translation": "我正在为聚会装饰窗户。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I am placing the candles on the cake.",
+        "translation": "我正在把蜡烛放到蛋糕上。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

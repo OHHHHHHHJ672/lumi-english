@@ -1,1 +1,245 @@
-{"id":"a2-u41-l1","levelId":"a2","cefr":"A2","title":"进阶租约检查","subtitle":"理解租房责任和维修","theme":"rental-inspection","grammarFocus":"modals","grammarTags":["modals","housing"],"words":[["lease","租约"],["landlord","房东"],["tenant","租客"],["repair","维修"],["deposit","押金"],["notice","通知"]],"questions":[{"id":"a2-u41-l1-q1","kind":"word","prompt":"lease · 租约检查","instruction":"选择意思。","answer":"租约","options":["租约","房东","租客","押金"],"translation":"租约"},{"id":"a2-u41-l1-q2","kind":"choice","prompt":"The tenant must report any repair problem quickly.","instruction":"选择意思。","answer":"租客必须尽快报告任何维修问题。","options":["租客必须尽快报告任何维修问题。","房东必须马上退还押金。","租客可以修改租约条款。","房东可以取消通知时间。"],"audio":"The tenant must report any repair problem quickly.","translation":"租客必须尽快报告任何维修问题。"},{"id":"a2-u41-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"房东可以在周五检查房子。","options":["房东可以在周五检查房子。","租客必须周五搬家。","押金可以在周五支付。","租约在周五自动结束。"],"audio":"The landlord can inspect the house on Friday.","translation":"房东可以在周五检查房子。"},{"id":"a2-u41-l1-q4","kind":"order","prompt":"租客应该保留租约副本。","instruction":"组成英文句子。","answer":"The tenant should keep a copy of the lease.","audio":"The tenant should keep a copy of the lease.","translation":"租客应该保留租约副本。"},{"id":"a2-u41-l1-q5","kind":"fill","prompt":"The landlord returned my _____ after I moved out.","instruction":"选择名词。","answer":"deposit","options":["deposit","lease","notice","repair"],"audio":"The landlord returned my deposit after I moved out.","translation":"我搬出后房东退还了押金。"},{"id":"a2-u41-l1-q6","kind":"match","prompt":"配对租约检查词语。","instruction":"完成配对。","pairs":[["lease","租约"],["landlord","房东"],["tenant","租客"],["repair","维修"],["deposit","押金"],["notice","通知"]],"answer":"matched","translation":"租约、房东、租客、维修、押金、通知"},{"id":"a2-u41-l1-q7","kind":"word","prompt":"tenant · 租约检查","instruction":"选择意思。","answer":"租客","options":["租客","房东","押金","租约"],"translation":"租客"},{"id":"a2-u41-l1-q8","kind":"choice","prompt":"You should read the notice before signing the lease.","instruction":"选择意思。","answer":"签租约前你应该阅读通知。","options":["签租约前你应该阅读通知。","搬家后你应该申请押金。","维修后你应该通知房东。","入住前你应该退回租约。"],"audio":"You should read the notice before signing the lease.","translation":"签租约前你应该阅读通知。"},{"id":"a2-u41-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"厨房水龙头需要维修。","options":["厨房水龙头需要维修。","浴室租约需要签名。","房东需要一份押金通知。","租客要检查所有窗户。"],"audio":"The kitchen tap needs a repair.","translation":"厨房水龙头需要维修。"},{"id":"a2-u41-l1-q10","kind":"fill","prompt":"Tenants _____ give notice before leaving.","instruction":"选择情态动词。","answer":"must","options":["must","can","might","would"],"audio":"Tenants must give notice before leaving.","translation":"租客搬走前必须提前通知。"}],"dialogue":{"id":"a2-u41-l1-dialogue","scene":"检查租约","characters":[{"id":"lumi","name":"Lumi"},{"id":"landlord","name":"Landlord"}],"turns":[{"speaker":"lumi","text":"Can we inspect the kitchen tap?","translation":"我们可以检查厨房水龙头吗？"},{"speaker":"landlord","text":"Yes, I can arrange a repair tomorrow.","translation":"可以，我明天可以安排维修。"},{"speaker":"lumi","text":"I will read the lease while we wait.","translation":"等待时我会阅读租约。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a2-u41-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶租约检查",
+  "subtitle": "理解租房责任和维修",
+  "theme": "rental-inspection",
+  "grammarFocus": "modals",
+  "grammarTags": [
+    "modals",
+    "housing"
+  ],
+  "words": [
+    [
+      "lease",
+      "租约"
+    ],
+    [
+      "landlord",
+      "房东"
+    ],
+    [
+      "tenant",
+      "租客"
+    ],
+    [
+      "repair",
+      "维修"
+    ],
+    [
+      "deposit",
+      "押金"
+    ],
+    [
+      "notice",
+      "通知"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u41-l1-q1",
+      "kind": "word",
+      "prompt": "lease · 租约检查",
+      "instruction": "选择意思。",
+      "answer": "租约",
+      "options": [
+        "租约",
+        "房东",
+        "租客",
+        "押金"
+      ],
+      "translation": "租约"
+    },
+    {
+      "id": "a2-u41-l1-q2",
+      "kind": "choice",
+      "prompt": "The tenant must report any repair problem quickly.",
+      "instruction": "选择意思。",
+      "answer": "租客必须尽快报告任何维修问题。",
+      "options": [
+        "租客必须尽快报告任何维修问题。",
+        "房东必须马上退还押金。",
+        "租客可以修改租约条款。",
+        "房东可以取消通知时间。"
+      ],
+      "audio": "The tenant must report any repair problem quickly.",
+      "translation": "租客必须尽快报告任何维修问题。"
+    },
+    {
+      "id": "a2-u41-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "房东可以在周五检查房子。",
+      "options": [
+        "房东可以在周五检查房子。",
+        "租客必须周五搬家。",
+        "押金可以在周五支付。",
+        "租约在周五自动结束。"
+      ],
+      "audio": "The landlord can inspect the house on Friday.",
+      "translation": "房东可以在周五检查房子。"
+    },
+    {
+      "id": "a2-u41-l1-q4",
+      "kind": "order",
+      "prompt": "租客应该保留租约副本。",
+      "instruction": "组成英文句子。",
+      "answer": "The tenant should keep a copy of the lease.",
+      "audio": "The tenant should keep a copy of the lease.",
+      "translation": "租客应该保留租约副本。",
+      "tokens": [
+        "The",
+        "tenant",
+        "should",
+        "keep",
+        "a",
+        "copy",
+        "of",
+        "the",
+        "lease."
+      ]
+    },
+    {
+      "id": "a2-u41-l1-q5",
+      "kind": "fill",
+      "prompt": "The landlord returned my _____ after I moved out.",
+      "instruction": "选择名词。",
+      "answer": "deposit",
+      "options": [
+        "deposit",
+        "lease",
+        "notice",
+        "repair"
+      ],
+      "audio": "The landlord returned my deposit after I moved out.",
+      "translation": "我搬出后房东退还了押金。"
+    },
+    {
+      "id": "a2-u41-l1-q6",
+      "kind": "match",
+      "prompt": "配对租约检查词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "lease",
+          "租约"
+        ],
+        [
+          "landlord",
+          "房东"
+        ],
+        [
+          "tenant",
+          "租客"
+        ],
+        [
+          "repair",
+          "维修"
+        ],
+        [
+          "deposit",
+          "押金"
+        ],
+        [
+          "notice",
+          "通知"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "租约、房东、租客、维修、押金、通知"
+    },
+    {
+      "id": "a2-u41-l1-q7",
+      "kind": "word",
+      "prompt": "tenant · 租约检查",
+      "instruction": "选择意思。",
+      "answer": "租客",
+      "options": [
+        "租客",
+        "房东",
+        "押金",
+        "租约"
+      ],
+      "translation": "租客"
+    },
+    {
+      "id": "a2-u41-l1-q8",
+      "kind": "choice",
+      "prompt": "You should read the notice before signing the lease.",
+      "instruction": "选择意思。",
+      "answer": "签租约前你应该阅读通知。",
+      "options": [
+        "签租约前你应该阅读通知。",
+        "搬家后你应该申请押金。",
+        "维修后你应该通知房东。",
+        "入住前你应该退回租约。"
+      ],
+      "audio": "You should read the notice before signing the lease.",
+      "translation": "签租约前你应该阅读通知。"
+    },
+    {
+      "id": "a2-u41-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "厨房水龙头需要维修。",
+      "options": [
+        "厨房水龙头需要维修。",
+        "浴室租约需要签名。",
+        "房东需要一份押金通知。",
+        "租客要检查所有窗户。"
+      ],
+      "audio": "The kitchen tap needs a repair.",
+      "translation": "厨房水龙头需要维修。"
+    },
+    {
+      "id": "a2-u41-l1-q10",
+      "kind": "fill",
+      "prompt": "Tenants _____ give notice before leaving.",
+      "instruction": "选择情态动词。",
+      "answer": "must",
+      "options": [
+        "must",
+        "can",
+        "might",
+        "would"
+      ],
+      "audio": "Tenants must give notice before leaving.",
+      "translation": "租客搬走前必须提前通知。"
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u41-l1-dialogue",
+    "scene": "检查租约",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "landlord",
+        "name": "Landlord"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Can we inspect the kitchen tap?",
+        "translation": "我们可以检查厨房水龙头吗？"
+      },
+      {
+        "speaker": "landlord",
+        "text": "Yes, I can arrange a repair tomorrow.",
+        "translation": "可以，我明天可以安排维修。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will read the lease while we wait.",
+        "translation": "等待时我会阅读租约。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

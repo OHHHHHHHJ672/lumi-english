@@ -76,7 +76,14 @@
       "instruction": "组成英文句子。",
       "answer": "I need a return ticket.",
       "audio": "I need a return ticket.",
-      "translation": "我需要一张往返车票。"
+      "translation": "我需要一张往返车票。",
+      "tokens": [
+        "I",
+        "need",
+        "a",
+        "return",
+        "ticket."
+      ]
     },
     {
       "id": "a1-u31-l1-q5",

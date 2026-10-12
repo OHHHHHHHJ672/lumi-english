@@ -76,7 +76,16 @@
       "instruction": "组成英文句子。",
       "answer": "I would like apple juice for lunch.",
       "audio": "I would like apple juice for lunch.",
-      "translation": "我午餐想喝苹果汁。"
+      "translation": "我午餐想喝苹果汁。",
+      "tokens": [
+        "I",
+        "would",
+        "like",
+        "apple",
+        "juice",
+        "for",
+        "lunch."
+      ]
     },
     {
       "id": "a1-u34-l1-q5",

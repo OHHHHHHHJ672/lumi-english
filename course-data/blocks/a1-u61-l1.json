@@ -1,1 +1,303 @@
-{"id":"a1-u61-l1","levelId":"a1","cefr":"A1","title":"进阶图书馆借阅","subtitle":"询问借书规则","theme":"library-loans","grammarFocus":"can-requests","grammarTags":["can-requests"],"words":[["catalogue","目录"],["borrower","借阅者"],["renew","续借"],["due-date","到期日"],["fiction","小说类"],["quiet","安静的"]],"questions":[{"id":"a1-u61-l1-q1","kind":"word","prompt":"catalogue · 图书馆借阅","instruction":"选择意思。","answer":"目录","options":["目录","借阅者","续借","到期日"],"translation":"目录","grammarTags":["can-requests"],"skillTags":["vocabulary"]},{"id":"a1-u61-l1-q2","kind":"choice","prompt":"Can I renew this book online?","instruction":"选择意思。","answer":"我可以在线续借这本书吗？","options":["我可以在线续借这本书吗？","我可以在目录里写字吗？","我可以把小说带到安静室吗？","我可以今天归还借阅卡吗？"],"audio":"Can I renew this book online?","translation":"我可以在线续借这本书吗？","grammarTags":["can-requests"],"skillTags":["reading"]},{"id":"a1-u61-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"这本小说周五到期。","options":["这本小说周五到期。","目录周五更新。","借阅者周五回来。","安静室周五关闭。"],"audio":"This fiction book is due on Friday.","translation":"这本小说周五到期。","grammarTags":["can-requests"],"skillTags":["listening"]},{"id":"a1-u61-l1-q4","kind":"order","prompt":"请在目录中查找这本书。","instruction":"组成英文句子。","answer":"Please look for this book in the catalogue.","audio":"Please look for this book in the catalogue.","translation":"请在目录中查找这本书。","grammarTags":["can-requests"],"skillTags":["word-order"]},{"id":"a1-u61-l1-q5","kind":"fill","prompt":"The _____ area is near the window.","instruction":"选择形容词。","answer":"quiet","options":["quiet","fiction","renew","borrower"],"audio":"The quiet area is near the window.","translation":"安静区在窗户附近。","grammarTags":["can-requests"],"skillTags":["grammar"]},{"id":"a1-u61-l1-q6","kind":"match","prompt":"配对图书馆借阅词语。","instruction":"完成配对。","pairs":[["catalogue","目录"],["borrower","借阅者"],["renew","续借"],["due-date","到期日"],["fiction","小说类"],["quiet","安静的"]],"answer":"matched","translation":"目录、借阅者、续借、到期日、小说类、安静的","grammarTags":["can-requests"],"skillTags":["matching"]},{"id":"a1-u61-l1-q7","kind":"word","prompt":"renew · 图书馆借阅","instruction":"选择意思。","answer":"续借","options":["续借","目录","到期日","安静的"],"translation":"续借","grammarTags":["can-requests"],"skillTags":["vocabulary"]},{"id":"a1-u61-l1-q8","kind":"choice","prompt":"The borrower returned two books this morning.","instruction":"选择意思。","answer":"借阅者今天早上归还了两本书。","options":["借阅者今天早上归还了两本书。","借阅者今天早上续借了目录。","借阅者把小说放进安静区。","借阅者周五才会借书。"],"audio":"The borrower returned two books this morning.","translation":"借阅者今天早上归还了两本书。","grammarTags":["can-requests"],"skillTags":["reading"]},{"id":"a1-u61-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"请在到期日前归还杂志。","options":["请在到期日前归还杂志。","请在目录里寻找杂志。","请把杂志续借三周。","请在安静区阅读杂志。"],"audio":"Please return the magazine before the due date.","translation":"请在到期日前归还杂志。","grammarTags":["can-requests"],"skillTags":["listening"]},{"id":"a1-u61-l1-q10","kind":"fill","prompt":"Can I _____ this book for another week?","instruction":"选择动词。","answer":"renew","options":["renew","return","read","borrow"],"audio":"Can I renew this book for another week?","translation":"我可以把这本书再续借一周吗？","grammarTags":["can-requests"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u61-l1-dialogue","scene":"询问续借","characters":[{"id":"lumi","name":"Lumi"},{"id":"librarian","name":"Librarian"}],"turns":[{"speaker":"lumi","text":"Can I renew this novel?","translation":"我可以续借这本小说吗？"},{"speaker":"librarian","text":"Yes, it is due next Friday.","translation":"可以，它下周五到期。"},{"speaker":"lumi","text":"I will renew it online tonight.","translation":"我今晚会在线续借。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u61-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶图书馆借阅",
+  "subtitle": "询问借书规则",
+  "theme": "library-loans",
+  "grammarFocus": "can-requests",
+  "grammarTags": [
+    "can-requests"
+  ],
+  "words": [
+    [
+      "catalogue",
+      "目录"
+    ],
+    [
+      "borrower",
+      "借阅者"
+    ],
+    [
+      "renew",
+      "续借"
+    ],
+    [
+      "due-date",
+      "到期日"
+    ],
+    [
+      "fiction",
+      "小说类"
+    ],
+    [
+      "quiet",
+      "安静的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u61-l1-q1",
+      "kind": "word",
+      "prompt": "catalogue · 图书馆借阅",
+      "instruction": "选择意思。",
+      "answer": "目录",
+      "options": [
+        "目录",
+        "借阅者",
+        "续借",
+        "到期日"
+      ],
+      "translation": "目录",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u61-l1-q2",
+      "kind": "choice",
+      "prompt": "Can I renew this book online?",
+      "instruction": "选择意思。",
+      "answer": "我可以在线续借这本书吗？",
+      "options": [
+        "我可以在线续借这本书吗？",
+        "我可以在目录里写字吗？",
+        "我可以把小说带到安静室吗？",
+        "我可以今天归还借阅卡吗？"
+      ],
+      "audio": "Can I renew this book online?",
+      "translation": "我可以在线续借这本书吗？",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u61-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "这本小说周五到期。",
+      "options": [
+        "这本小说周五到期。",
+        "目录周五更新。",
+        "借阅者周五回来。",
+        "安静室周五关闭。"
+      ],
+      "audio": "This fiction book is due on Friday.",
+      "translation": "这本小说周五到期。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u61-l1-q4",
+      "kind": "order",
+      "prompt": "请在目录中查找这本书。",
+      "instruction": "组成英文句子。",
+      "answer": "Please look for this book in the catalogue.",
+      "audio": "Please look for this book in the catalogue.",
+      "translation": "请在目录中查找这本书。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "Please",
+        "look",
+        "for",
+        "this",
+        "book",
+        "in",
+        "the",
+        "catalogue."
+      ]
+    },
+    {
+      "id": "a1-u61-l1-q5",
+      "kind": "fill",
+      "prompt": "The _____ area is near the window.",
+      "instruction": "选择形容词。",
+      "answer": "quiet",
+      "options": [
+        "quiet",
+        "fiction",
+        "renew",
+        "borrower"
+      ],
+      "audio": "The quiet area is near the window.",
+      "translation": "安静区在窗户附近。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u61-l1-q6",
+      "kind": "match",
+      "prompt": "配对图书馆借阅词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "catalogue",
+          "目录"
+        ],
+        [
+          "borrower",
+          "借阅者"
+        ],
+        [
+          "renew",
+          "续借"
+        ],
+        [
+          "due-date",
+          "到期日"
+        ],
+        [
+          "fiction",
+          "小说类"
+        ],
+        [
+          "quiet",
+          "安静的"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "目录、借阅者、续借、到期日、小说类、安静的",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u61-l1-q7",
+      "kind": "word",
+      "prompt": "renew · 图书馆借阅",
+      "instruction": "选择意思。",
+      "answer": "续借",
+      "options": [
+        "续借",
+        "目录",
+        "到期日",
+        "安静的"
+      ],
+      "translation": "续借",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u61-l1-q8",
+      "kind": "choice",
+      "prompt": "The borrower returned two books this morning.",
+      "instruction": "选择意思。",
+      "answer": "借阅者今天早上归还了两本书。",
+      "options": [
+        "借阅者今天早上归还了两本书。",
+        "借阅者今天早上续借了目录。",
+        "借阅者把小说放进安静区。",
+        "借阅者周五才会借书。"
+      ],
+      "audio": "The borrower returned two books this morning.",
+      "translation": "借阅者今天早上归还了两本书。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u61-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请在到期日前归还杂志。",
+      "options": [
+        "请在到期日前归还杂志。",
+        "请在目录里寻找杂志。",
+        "请把杂志续借三周。",
+        "请在安静区阅读杂志。"
+      ],
+      "audio": "Please return the magazine before the due date.",
+      "translation": "请在到期日前归还杂志。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u61-l1-q10",
+      "kind": "fill",
+      "prompt": "Can I _____ this book for another week?",
+      "instruction": "选择动词。",
+      "answer": "renew",
+      "options": [
+        "renew",
+        "return",
+        "read",
+        "borrow"
+      ],
+      "audio": "Can I renew this book for another week?",
+      "translation": "我可以把这本书再续借一周吗？",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u61-l1-dialogue",
+    "scene": "询问续借",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "librarian",
+        "name": "Librarian"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Can I renew this novel?",
+        "translation": "我可以续借这本小说吗？"
+      },
+      {
+        "speaker": "librarian",
+        "text": "Yes, it is due next Friday.",
+        "translation": "可以，它下周五到期。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will renew it online tonight.",
+        "translation": "我今晚会在线续借。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

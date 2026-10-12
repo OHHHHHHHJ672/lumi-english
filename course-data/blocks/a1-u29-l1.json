@@ -76,7 +76,17 @@
       "instruction": "组成英文句子。",
       "answer": "I would like to send a small parcel.",
       "audio": "I would like to send a small parcel.",
-      "translation": "我想寄一个小包裹。"
+      "translation": "我想寄一个小包裹。",
+      "tokens": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "send",
+        "a",
+        "small",
+        "parcel."
+      ]
     },
     {
       "id": "a1-u29-l1-q5",

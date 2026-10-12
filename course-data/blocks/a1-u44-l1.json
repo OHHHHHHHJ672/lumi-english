@@ -112,6 +112,13 @@
       ],
       "skillTags": [
         "word-order"
+      ],
+      "tokens": [
+        "The",
+        "passengers",
+        "are",
+        "carrying",
+        "luggage."
       ]
     },
     {

@@ -1,1 +1,245 @@
-{"id":"a2-u43-l1","levelId":"a2","cefr":"A2","title":"进阶客户热线","subtitle":"说明问题并请求帮助","theme":"customer-hotline","grammarFocus":"polite-requests","grammarTags":["polite-requests","service"],"words":[["operator","接线员"],["complaint","投诉"],["refund","退款"],["order-number","订单号"],["service","服务"],["replace","更换"]],"questions":[{"id":"a2-u43-l1-q1","kind":"word","prompt":"operator · 客户热线","instruction":"选择意思。","answer":"接线员","options":["接线员","投诉","退款","订单号"],"translation":"接线员"},{"id":"a2-u43-l1-q2","kind":"choice","prompt":"Could you check the status of my order?","instruction":"选择意思。","answer":"你能查一下我的订单状态吗？","options":["你能查一下我的订单状态吗？","你能替我填写投诉吗？","你能把退款寄到公司吗？","你能更换热线接线员吗？"],"audio":"Could you check the status of my order?","translation":"你能查一下我的订单状态吗？"},{"id":"a2-u43-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"接线员会发送退款确认。","options":["接线员会发送退款确认。","接线员会更换订单号码。","接线员会取消客户投诉。","接线员会关闭服务窗口。"],"audio":"The operator will send a refund confirmation.","translation":"接线员会发送退款确认。"},{"id":"a2-u43-l1-q4","kind":"order","prompt":"我想投诉延迟的服务。","instruction":"组成英文句子。","answer":"I would like to complain about the delayed service.","audio":"I would like to complain about the delayed service.","translation":"我想投诉延迟的服务。"},{"id":"a2-u43-l1-q5","kind":"fill","prompt":"Please give me your order _____.","instruction":"选择名词。","answer":"number","options":["number","operator","refund","service"],"audio":"Please give me your order number.","translation":"请告诉我你的订单号。"},{"id":"a2-u43-l1-q6","kind":"match","prompt":"配对客户热线词语。","instruction":"完成配对。","pairs":[["operator","接线员"],["complaint","投诉"],["refund","退款"],["order-number","订单号"],["service","服务"],["replace","更换"]],"answer":"matched","translation":"接线员、投诉、退款、订单号、服务、更换"},{"id":"a2-u43-l1-q7","kind":"word","prompt":"complaint · 客户热线","instruction":"选择意思。","answer":"投诉","options":["投诉","退款","服务","更换"],"translation":"投诉"},{"id":"a2-u43-l1-q8","kind":"choice","prompt":"The company agreed to replace the damaged item.","instruction":"选择意思。","answer":"公司同意更换损坏的商品。","options":["公司同意更换损坏的商品。","公司同意取消我的订单。","公司同意提高服务费用。","公司同意把投诉交给接线员。"],"audio":"The company agreed to replace the damaged item.","translation":"公司同意更换损坏的商品。"},{"id":"a2-u43-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"请把退款退回原来的银行卡。","options":["请把退款退回原来的银行卡。","请把订单号写在投诉上。","请把损坏商品交给接线员。","请把服务时间改到明天。"],"audio":"Please return the refund to the original bank card.","translation":"请把退款退回原来的银行卡。"},{"id":"a2-u43-l1-q10","kind":"fill","prompt":"The operator apologized for the poor _____.","instruction":"选择名词。","answer":"service","options":["service","refund","complaint","number"],"audio":"The operator apologized for the poor service.","translation":"接线员为糟糕的服务道歉。"}],"dialogue":{"id":"a2-u43-l1-dialogue","scene":"联系客服","characters":[{"id":"lumi","name":"Lumi"},{"id":"operator","name":"Operator"}],"turns":[{"speaker":"lumi","text":"Could you check my order number?","translation":"你能查一下我的订单号吗？"},{"speaker":"operator","text":"Yes. The item will arrive tomorrow.","translation":"可以。商品明天到。"},{"speaker":"lumi","text":"Thank you for solving the problem.","translation":"谢谢你解决这个问题。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a2-u43-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶客户热线",
+  "subtitle": "说明问题并请求帮助",
+  "theme": "customer-hotline",
+  "grammarFocus": "polite-requests",
+  "grammarTags": [
+    "polite-requests",
+    "service"
+  ],
+  "words": [
+    [
+      "operator",
+      "接线员"
+    ],
+    [
+      "complaint",
+      "投诉"
+    ],
+    [
+      "refund",
+      "退款"
+    ],
+    [
+      "order-number",
+      "订单号"
+    ],
+    [
+      "service",
+      "服务"
+    ],
+    [
+      "replace",
+      "更换"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u43-l1-q1",
+      "kind": "word",
+      "prompt": "operator · 客户热线",
+      "instruction": "选择意思。",
+      "answer": "接线员",
+      "options": [
+        "接线员",
+        "投诉",
+        "退款",
+        "订单号"
+      ],
+      "translation": "接线员"
+    },
+    {
+      "id": "a2-u43-l1-q2",
+      "kind": "choice",
+      "prompt": "Could you check the status of my order?",
+      "instruction": "选择意思。",
+      "answer": "你能查一下我的订单状态吗？",
+      "options": [
+        "你能查一下我的订单状态吗？",
+        "你能替我填写投诉吗？",
+        "你能把退款寄到公司吗？",
+        "你能更换热线接线员吗？"
+      ],
+      "audio": "Could you check the status of my order?",
+      "translation": "你能查一下我的订单状态吗？"
+    },
+    {
+      "id": "a2-u43-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "接线员会发送退款确认。",
+      "options": [
+        "接线员会发送退款确认。",
+        "接线员会更换订单号码。",
+        "接线员会取消客户投诉。",
+        "接线员会关闭服务窗口。"
+      ],
+      "audio": "The operator will send a refund confirmation.",
+      "translation": "接线员会发送退款确认。"
+    },
+    {
+      "id": "a2-u43-l1-q4",
+      "kind": "order",
+      "prompt": "我想投诉延迟的服务。",
+      "instruction": "组成英文句子。",
+      "answer": "I would like to complain about the delayed service.",
+      "audio": "I would like to complain about the delayed service.",
+      "translation": "我想投诉延迟的服务。",
+      "tokens": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "complain",
+        "about",
+        "the",
+        "delayed",
+        "service."
+      ]
+    },
+    {
+      "id": "a2-u43-l1-q5",
+      "kind": "fill",
+      "prompt": "Please give me your order _____.",
+      "instruction": "选择名词。",
+      "answer": "number",
+      "options": [
+        "number",
+        "operator",
+        "refund",
+        "service"
+      ],
+      "audio": "Please give me your order number.",
+      "translation": "请告诉我你的订单号。"
+    },
+    {
+      "id": "a2-u43-l1-q6",
+      "kind": "match",
+      "prompt": "配对客户热线词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "operator",
+          "接线员"
+        ],
+        [
+          "complaint",
+          "投诉"
+        ],
+        [
+          "refund",
+          "退款"
+        ],
+        [
+          "order-number",
+          "订单号"
+        ],
+        [
+          "service",
+          "服务"
+        ],
+        [
+          "replace",
+          "更换"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "接线员、投诉、退款、订单号、服务、更换"
+    },
+    {
+      "id": "a2-u43-l1-q7",
+      "kind": "word",
+      "prompt": "complaint · 客户热线",
+      "instruction": "选择意思。",
+      "answer": "投诉",
+      "options": [
+        "投诉",
+        "退款",
+        "服务",
+        "更换"
+      ],
+      "translation": "投诉"
+    },
+    {
+      "id": "a2-u43-l1-q8",
+      "kind": "choice",
+      "prompt": "The company agreed to replace the damaged item.",
+      "instruction": "选择意思。",
+      "answer": "公司同意更换损坏的商品。",
+      "options": [
+        "公司同意更换损坏的商品。",
+        "公司同意取消我的订单。",
+        "公司同意提高服务费用。",
+        "公司同意把投诉交给接线员。"
+      ],
+      "audio": "The company agreed to replace the damaged item.",
+      "translation": "公司同意更换损坏的商品。"
+    },
+    {
+      "id": "a2-u43-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请把退款退回原来的银行卡。",
+      "options": [
+        "请把退款退回原来的银行卡。",
+        "请把订单号写在投诉上。",
+        "请把损坏商品交给接线员。",
+        "请把服务时间改到明天。"
+      ],
+      "audio": "Please return the refund to the original bank card.",
+      "translation": "请把退款退回原来的银行卡。"
+    },
+    {
+      "id": "a2-u43-l1-q10",
+      "kind": "fill",
+      "prompt": "The operator apologized for the poor _____.",
+      "instruction": "选择名词。",
+      "answer": "service",
+      "options": [
+        "service",
+        "refund",
+        "complaint",
+        "number"
+      ],
+      "audio": "The operator apologized for the poor service.",
+      "translation": "接线员为糟糕的服务道歉。"
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u43-l1-dialogue",
+    "scene": "联系客服",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "operator",
+        "name": "Operator"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you check my order number?",
+        "translation": "你能查一下我的订单号吗？"
+      },
+      {
+        "speaker": "operator",
+        "text": "Yes. The item will arrive tomorrow.",
+        "translation": "可以。商品明天到。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thank you for solving the problem.",
+        "translation": "谢谢你解决这个问题。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

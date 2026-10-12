@@ -1,1 +1,302 @@
-{"id":"a1-u59-l1","levelId":"a1","cefr":"A1","title":"进阶卧室整理","subtitle":"描述物品位置和收纳","theme":"bedroom-tidy","grammarFocus":"there-is","grammarTags":["there-is","prepositions"],"words":[["pillow","枕头"],["drawer","抽屉"],["closet","衣柜"],["shelf","架子"],["under","在下面"],["between","在中间"]],"questions":[{"id":"a1-u59-l1-q1","kind":"word","prompt":"closet · 卧室整理","instruction":"选择意思。","answer":"衣柜","options":["衣柜","枕头","抽屉","架子"],"translation":"衣柜","grammarTags":["there-is"],"skillTags":["vocabulary"]},{"id":"a1-u59-l1-q2","kind":"choice","prompt":"There is a small lamp between the bed and the shelf.","instruction":"选择意思。","answer":"床和架子之间有一盏小灯。","options":["床和架子之间有一盏小灯。","衣柜下面有一双鞋。","枕头旁边有一个抽屉。","架子上有一条毯子。"],"audio":"There is a small lamp between the bed and the shelf.","translation":"床和架子之间有一盏小灯。","grammarTags":["there-is"],"skillTags":["reading"]},{"id":"a1-u59-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"抽屉里有一条蓝围巾。","options":["抽屉里有一条蓝围巾。","衣柜里有一盏蓝灯。","架子上有一个蓝枕头。","床下面有一双蓝鞋。"],"audio":"There is a blue scarf in the drawer.","translation":"抽屉里有一条蓝围巾。","grammarTags":["there-is"],"skillTags":["listening"]},{"id":"a1-u59-l1-q4","kind":"order","prompt":"枕头在床上。","instruction":"组成英文句子。","answer":"The pillow is on the bed.","audio":"The pillow is on the bed.","translation":"枕头在床上。","grammarTags":["there-is"],"skillTags":["word-order"]},{"id":"a1-u59-l1-q5","kind":"fill","prompt":"There _____ two shirts in the closet.","instruction":"选择正确形式。","answer":"are","options":["are","is","am","be"],"audio":"There are two shirts in the closet.","translation":"衣柜里有两件衬衫。","grammarTags":["there-is"],"skillTags":["grammar"]},{"id":"a1-u59-l1-q6","kind":"match","prompt":"配对卧室整理词语。","instruction":"完成配对。","pairs":[["pillow","枕头"],["drawer","抽屉"],["closet","衣柜"],["shelf","架子"],["under","在下面"],["between","在中间"]],"answer":"matched","translation":"枕头、抽屉、衣柜、架子、在下面、在中间","grammarTags":["there-is"],"skillTags":["matching"]},{"id":"a1-u59-l1-q7","kind":"word","prompt":"drawer · 卧室整理","instruction":"选择意思。","answer":"抽屉","options":["抽屉","架子","衣柜","枕头"],"translation":"抽屉","grammarTags":["there-is"],"skillTags":["vocabulary"]},{"id":"a1-u59-l1-q8","kind":"choice","prompt":"There are shoes under the small table.","instruction":"选择意思。","answer":"小桌子下面有鞋。","options":["小桌子下面有鞋。","衣柜里面有两张桌子。","床和架子之间有鞋。","枕头后面有一个抽屉。"],"audio":"There are shoes under the small table.","translation":"小桌子下面有鞋。","grammarTags":["there-is"],"skillTags":["reading"]},{"id":"a1-u59-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"架子上有三本书。","options":["架子上有三本书。","衣柜里有三件外套。","抽屉里有三条围巾。","床下有三双鞋。"],"audio":"There are three books on the shelf.","translation":"架子上有三本书。","grammarTags":["there-is"],"skillTags":["listening"]},{"id":"a1-u59-l1-q10","kind":"fill","prompt":"There _____ a blanket under the chair.","instruction":"选择正确形式。","answer":"is","options":["is","are","am","be"],"audio":"There is a blanket under the chair.","translation":"椅子下面有一条毯子。","grammarTags":["there-is"],"skillTags":["grammar"]}],"dialogue":{"id":"a1-u59-l1-dialogue","scene":"整理卧室","characters":[{"id":"lumi","name":"Lumi"},{"id":"sister","name":"Sister"}],"turns":[{"speaker":"lumi","text":"Where is my blue scarf?","translation":"我的蓝围巾在哪里？"},{"speaker":"sister","text":"There is one in the top drawer.","translation":"最上面的抽屉里有一条。"},{"speaker":"lumi","text":"Thanks. I will tidy the closet next.","translation":"谢谢。我接下来整理衣柜。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u59-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶卧室整理",
+  "subtitle": "描述物品位置和收纳",
+  "theme": "bedroom-tidy",
+  "grammarFocus": "there-is",
+  "grammarTags": [
+    "there-is",
+    "prepositions"
+  ],
+  "words": [
+    [
+      "pillow",
+      "枕头"
+    ],
+    [
+      "drawer",
+      "抽屉"
+    ],
+    [
+      "closet",
+      "衣柜"
+    ],
+    [
+      "shelf",
+      "架子"
+    ],
+    [
+      "under",
+      "在下面"
+    ],
+    [
+      "between",
+      "在中间"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u59-l1-q1",
+      "kind": "word",
+      "prompt": "closet · 卧室整理",
+      "instruction": "选择意思。",
+      "answer": "衣柜",
+      "options": [
+        "衣柜",
+        "枕头",
+        "抽屉",
+        "架子"
+      ],
+      "translation": "衣柜",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u59-l1-q2",
+      "kind": "choice",
+      "prompt": "There is a small lamp between the bed and the shelf.",
+      "instruction": "选择意思。",
+      "answer": "床和架子之间有一盏小灯。",
+      "options": [
+        "床和架子之间有一盏小灯。",
+        "衣柜下面有一双鞋。",
+        "枕头旁边有一个抽屉。",
+        "架子上有一条毯子。"
+      ],
+      "audio": "There is a small lamp between the bed and the shelf.",
+      "translation": "床和架子之间有一盏小灯。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u59-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "抽屉里有一条蓝围巾。",
+      "options": [
+        "抽屉里有一条蓝围巾。",
+        "衣柜里有一盏蓝灯。",
+        "架子上有一个蓝枕头。",
+        "床下面有一双蓝鞋。"
+      ],
+      "audio": "There is a blue scarf in the drawer.",
+      "translation": "抽屉里有一条蓝围巾。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u59-l1-q4",
+      "kind": "order",
+      "prompt": "枕头在床上。",
+      "instruction": "组成英文句子。",
+      "answer": "The pillow is on the bed.",
+      "audio": "The pillow is on the bed.",
+      "translation": "枕头在床上。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "word-order"
+      ],
+      "tokens": [
+        "The",
+        "pillow",
+        "is",
+        "on",
+        "the",
+        "bed."
+      ]
+    },
+    {
+      "id": "a1-u59-l1-q5",
+      "kind": "fill",
+      "prompt": "There _____ two shirts in the closet.",
+      "instruction": "选择正确形式。",
+      "answer": "are",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "audio": "There are two shirts in the closet.",
+      "translation": "衣柜里有两件衬衫。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u59-l1-q6",
+      "kind": "match",
+      "prompt": "配对卧室整理词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "pillow",
+          "枕头"
+        ],
+        [
+          "drawer",
+          "抽屉"
+        ],
+        [
+          "closet",
+          "衣柜"
+        ],
+        [
+          "shelf",
+          "架子"
+        ],
+        [
+          "under",
+          "在下面"
+        ],
+        [
+          "between",
+          "在中间"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "枕头、抽屉、衣柜、架子、在下面、在中间",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u59-l1-q7",
+      "kind": "word",
+      "prompt": "drawer · 卧室整理",
+      "instruction": "选择意思。",
+      "answer": "抽屉",
+      "options": [
+        "抽屉",
+        "架子",
+        "衣柜",
+        "枕头"
+      ],
+      "translation": "抽屉",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u59-l1-q8",
+      "kind": "choice",
+      "prompt": "There are shoes under the small table.",
+      "instruction": "选择意思。",
+      "answer": "小桌子下面有鞋。",
+      "options": [
+        "小桌子下面有鞋。",
+        "衣柜里面有两张桌子。",
+        "床和架子之间有鞋。",
+        "枕头后面有一个抽屉。"
+      ],
+      "audio": "There are shoes under the small table.",
+      "translation": "小桌子下面有鞋。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u59-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "架子上有三本书。",
+      "options": [
+        "架子上有三本书。",
+        "衣柜里有三件外套。",
+        "抽屉里有三条围巾。",
+        "床下有三双鞋。"
+      ],
+      "audio": "There are three books on the shelf.",
+      "translation": "架子上有三本书。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u59-l1-q10",
+      "kind": "fill",
+      "prompt": "There _____ a blanket under the chair.",
+      "instruction": "选择正确形式。",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "audio": "There is a blanket under the chair.",
+      "translation": "椅子下面有一条毯子。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u59-l1-dialogue",
+    "scene": "整理卧室",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "sister",
+        "name": "Sister"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Where is my blue scarf?",
+        "translation": "我的蓝围巾在哪里？"
+      },
+      {
+        "speaker": "sister",
+        "text": "There is one in the top drawer.",
+        "translation": "最上面的抽屉里有一条。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thanks. I will tidy the closet next.",
+        "translation": "谢谢。我接下来整理衣柜。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}
