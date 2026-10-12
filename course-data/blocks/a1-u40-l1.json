@@ -1,0 +1,294 @@
+{
+  "id": "a1-u40-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶衣服试穿",
+  "subtitle": "描述衣服大小和感觉",
+  "theme": "clothing-fitting",
+  "grammarFocus": "adjectives",
+  "grammarTags": [
+    "adjectives",
+    "shopping-language"
+  ],
+  "words": [
+    [
+      "loose",
+      "宽松的"
+    ],
+    [
+      "tight",
+      "紧的"
+    ],
+    [
+      "comfortable",
+      "舒适的"
+    ],
+    [
+      "sleeve",
+      "袖子"
+    ],
+    [
+      "fitting-room",
+      "试衣间"
+    ],
+    [
+      "jacket",
+      "夹克"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u40-l1-q1",
+      "kind": "word",
+      "prompt": "comfortable · 衣服试穿",
+      "instruction": "选择意思。",
+      "answer": "舒适的",
+      "options": [
+        "舒适的",
+        "宽松的",
+        "紧的",
+        "袖子"
+      ],
+      "translation": "舒适的",
+      "grammarTags": [
+        "adjectives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u40-l1-q2",
+      "kind": "choice",
+      "prompt": "These trousers are too tight around my knees.",
+      "instruction": "选择意思。",
+      "answer": "这条裤子膝盖处太紧了。",
+      "options": [
+        "这条裤子膝盖处太紧了。",
+        "这件夹克袖子太长了。",
+        "这件衬衫穿起来很舒适。",
+        "这条裙子在试衣间里。"
+      ],
+      "audio": "These trousers are too tight around my knees.",
+      "translation": "这条裤子膝盖处太紧了。",
+      "grammarTags": [
+        "adjectives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u40-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "这件夹克穿起来很宽松。",
+      "options": [
+        "这件夹克穿起来很宽松。",
+        "这件夹克的袖子很紧。",
+        "这件夹克在收银台旁边。",
+        "这件夹克没有合适的颜色。"
+      ],
+      "audio": "This jacket feels loose on me.",
+      "translation": "这件夹克穿起来很宽松。",
+      "grammarTags": [
+        "adjectives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u40-l1-q4",
+      "kind": "order",
+      "prompt": "我可以试穿这件蓝夹克吗？",
+      "instruction": "组成英文句子。",
+      "answer": "Can I try on this blue jacket?",
+      "audio": "Can I try on this blue jacket?",
+      "translation": "我可以试穿这件蓝夹克吗？",
+      "grammarTags": [
+        "adjectives"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u40-l1-q5",
+      "kind": "fill",
+      "prompt": "The _____ on this shirt are short.",
+      "instruction": "选择服装部位。",
+      "answer": "sleeves",
+      "options": [
+        "sleeves",
+        "jackets",
+        "fitting",
+        "trousers"
+      ],
+      "audio": "The sleeves on this shirt are short.",
+      "translation": "这件衬衫的袖子很短。",
+      "grammarTags": [
+        "adjectives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u40-l1-q6",
+      "kind": "match",
+      "prompt": "配对衣服试穿词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "loose",
+          "宽松的"
+        ],
+        [
+          "tight",
+          "紧的"
+        ],
+        [
+          "comfortable",
+          "舒适的"
+        ],
+        [
+          "sleeve",
+          "袖子"
+        ],
+        [
+          "fitting-room",
+          "试衣间"
+        ],
+        [
+          "jacket",
+          "夹克"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "宽松的、紧的、舒适的、袖子、试衣间、夹克",
+      "grammarTags": [
+        "adjectives"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u40-l1-q7",
+      "kind": "word",
+      "prompt": "fitting-room · 衣服试穿",
+      "instruction": "选择意思。",
+      "answer": "试衣间",
+      "options": [
+        "试衣间",
+        "夹克",
+        "袖子",
+        "舒适的"
+      ],
+      "translation": "试衣间",
+      "grammarTags": [
+        "adjectives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u40-l1-q8",
+      "kind": "choice",
+      "prompt": "The red sweater is softer than the black one.",
+      "instruction": "选择意思。",
+      "answer": "红色毛衣比黑色的那件更柔软。",
+      "options": [
+        "红色毛衣比黑色的那件更柔软。",
+        "红色夹克比黑色的那件更紧。",
+        "红色衬衫的袖子更短。",
+        "红色裙子在试衣间里。"
+      ],
+      "audio": "The red sweater is softer than the black one.",
+      "translation": "红色毛衣比黑色的那件更柔软。",
+      "grammarTags": [
+        "adjectives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u40-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "这双鞋走路很舒服。",
+      "options": [
+        "这双鞋走路很舒服。",
+        "这双鞋鞋带太紧。",
+        "这双鞋在试衣间。",
+        "这双鞋比夹克更便宜。"
+      ],
+      "audio": "These shoes are comfortable for walking.",
+      "translation": "这双鞋走路很舒服。",
+      "grammarTags": [
+        "adjectives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u40-l1-q10",
+      "kind": "fill",
+      "prompt": "This coat is too _____ for spring.",
+      "instruction": "选择形容词。",
+      "answer": "heavy",
+      "options": [
+        "heavy",
+        "loose",
+        "tight",
+        "soft"
+      ],
+      "audio": "This coat is too heavy for spring.",
+      "translation": "这件外套对春天来说太厚重了。",
+      "grammarTags": [
+        "adjectives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u40-l1-dialogue",
+    "scene": "试穿夹克",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "assistant",
+        "name": "Assistant"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "May I try on this jacket?",
+        "translation": "我可以试穿这件夹克吗？"
+      },
+      {
+        "speaker": "assistant",
+        "text": "Of course. The fitting room is over there.",
+        "translation": "当然。试衣间在那边。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "The sleeves are a little long.",
+        "translation": "袖子有一点长。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

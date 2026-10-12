@@ -1,0 +1,17 @@
+{
+  "id":"a1-u12-l1","levelId":"a1","cefr":"A1","title":"兴趣爱好","subtitle":"谈论休闲活动和练习习惯","theme":"hobbies","grammarFocus":"frequency-adverbs","grammarTags":["frequency-adverbs","gerunds"],"sourceStatus":"hand-authored",
+  "words":[["hobby","爱好"],["collect","收集"],["practice","练习"]],
+  "dialogue":{"id":"a1-u12-l1-dialogue","scene":"周末兴趣","characters":[{"id":"nina","name":"Nina"},{"id":"tom","name":"Tom"}],"turns":[{"speaker":"nina","text":"What is your favorite hobby after work?","translation":"你下班后最喜欢的爱好是什么？"},{"speaker":"tom","text":"I usually practice the guitar for twenty minutes.","translation":"我通常练习吉他二十分钟。"},{"speaker":"nina","text":"I collect postcards, but I rarely watch television.","translation":"我收集明信片，但很少看电视。"}],"tasks":[{"mode":"intent","prompt":"What does Tom usually do after work?","answer":"He practices the guitar","options":["He practices the guitar","He collects postcards","He watches television"]}]},
+  "questions":[
+    {"id":"a1-u12-l1-q1","kind":"word","prompt":"hobby · 兴趣爱好","audio":"hobby","instruction":"选择这个词的直译","answer":"爱好","options":["爱好","习惯","比赛","礼物"],"translation":"爱好"},
+    {"id":"a1-u12-l1-q2","kind":"choice","prompt":"I usually practice the guitar after dinner.","instruction":"选择这句频率表达的意思。","answer":"我通常晚饭后练习吉他。","options":["我通常晚饭后练习吉他。","她很少在周末看电视。","我姐姐有时在花园里画画。","我们总是在周五一起练习。"],"audio":"I usually practice the guitar after dinner.","translation":"我通常晚饭后练习吉他。"},
+    {"id":"a1-u12-l1-q3","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"先听完整句子，再选择意思。","answer":"她很少在周末看电视。","options":["她很少在周末看电视。","我通常晚饭后练习吉他。","我姐姐有时在花园里画画。","我们总是在周五一起练习。"],"audio":"She rarely watches television at the weekend.","translation":"她很少在周末看电视。"},
+    {"id":"a1-u12-l1-q4","kind":"order","prompt":"我喜欢收集旅行明信片。","instruction":"把词块组成英文句子。","answer":"I enjoy collecting travel postcards.","tokens":["I","enjoy","collecting","travel","postcards."],"audio":"I enjoy collecting travel postcards.","translation":"我喜欢收集旅行明信片。"},
+    {"id":"a1-u12-l1-q5","kind":"fill","prompt":"He _____ practices drawing after school.","instruction":"选择表示频率的副词。","answer":"often","options":["often","never","yesterday","tomorrow"],"audio":"He often practices drawing after school.","translation":"他经常放学后练习画画。"},
+    {"id":"a1-u12-l1-q6","kind":"match","prompt":"把兴趣爱好场景中的词语配对。","instruction":"完成全部配对后提交。","pairs":[["hobby","爱好"],["collect","收集"],["practice","练习"],["guitar","吉他"],["postcard","明信片"],["drawing","画画"]],"answer":"matched","translation":"爱好、收集、练习、吉他、明信片、画画"},
+    {"id":"a1-u12-l1-q7","kind":"word","prompt":"collect · 兴趣爱好","audio":"collect","instruction":"选择这个词的直译","answer":"收集","options":["收集","练习","观看","出售"],"translation":"收集"},
+    {"id":"a1-u12-l1-q8","kind":"choice","prompt":"My sister sometimes paints in the garden.","instruction":"选择这句频率表达的意思。","answer":"我姐姐有时在花园里画画。","options":["我姐姐有时在花园里画画。","我通常晚饭后练习吉他。","她很少在周末看电视。","我们总是在周五一起练习。"],"audio":"My sister sometimes paints in the garden.","translation":"我姐姐有时在花园里画画。"},
+    {"id":"a1-u12-l1-q9","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"先听完整句子，再选择意思。","answer":"我们总是在周五一起练习。","options":["我们总是在周五一起练习。","我通常晚饭后练习吉他。","她很少在周末看电视。","我姐姐有时在花园里画画。"],"audio":"We always practice together on Fridays.","translation":"我们总是在周五一起练习。"},
+    {"id":"a1-u12-l1-q10","kind":"fill","prompt":"She enjoys _____ short stories.","instruction":"选择动名词形式。","answer":"reading","options":["reading","read","reads","readed"],"audio":"She enjoys reading short stories.","translation":"她喜欢阅读短篇故事。"}
+  ]
+}

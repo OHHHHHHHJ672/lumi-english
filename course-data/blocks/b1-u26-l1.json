@@ -1,0 +1,368 @@
+{
+  "id": "b1-u26-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "数字素养",
+  "subtitle": "验证信息、来源和隐私设置",
+  "theme": "数字素养",
+  "grammarFocus": "digital-literacy",
+  "grammarTags": [
+    "digital-literacy"
+  ],
+  "words": [
+    [
+      "privacy",
+      "隐私"
+    ],
+    [
+      "credible",
+      "可信的"
+    ],
+    [
+      "verify",
+      "核实"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u26-l1-q1",
+      "kind": "word",
+      "prompt": "privacy · 数字素养",
+      "answer": "privacy",
+      "translation": "隐私",
+      "instruction": "选择适合语境的表达。",
+      "audio": "privacy",
+      "lessonId": "b1-u26-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "digital-literacy"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "隐私",
+        "可信的",
+        "核实",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u26-l1-q2",
+      "kind": "choice",
+      "prompt": "You should verify the sender before opening the link.",
+      "answer": "打开链接前应该先核实发件人。",
+      "translation": "打开链接前应该先核实发件人。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "You should verify the sender before opening the link.",
+      "lessonId": "b1-u26-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "digital-literacy"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "打开链接前应该先核实发件人。",
+        "不要打开；先通过官方网站核实发件人。",
+        "可信的来源会说明数据是如何收集的。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u26-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "不要打开；先通过官方网站核实发件人。",
+      "translation": "不要打开；先通过官方网站核实发件人。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Do not open it; verify the sender through the official website first.",
+      "lessonId": "b1-u26-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "digital-literacy"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "不要打开；先通过官方网站核实发件人。",
+        "打开链接前应该先核实发件人。",
+        "可信的来源会说明数据是如何收集的。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u26-l1-q4",
+      "kind": "order",
+      "prompt": "可信的来源会说明数据是如何收集的。",
+      "answer": "A credible source explains how data was collected.",
+      "translation": "可信的来源会说明数据是如何收集的。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "A credible source explains how data was collected.",
+      "lessonId": "b1-u26-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "digital-literacy"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "A",
+        "credible",
+        "source",
+        "explains",
+        "how",
+        "data",
+        "was",
+        "collected."
+      ]
+    },
+    {
+      "id": "b1-u26-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the privacy policy before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了隐私政策。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the privacy policy before the meeting.",
+      "lessonId": "b1-u26-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "digital-literacy"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u26-l1-q6",
+      "kind": "match",
+      "prompt": "配对「数字素养」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u26-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "digital-literacy"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "privacy",
+          "隐私"
+        ],
+        [
+          "credible",
+          "可信的"
+        ],
+        [
+          "verify",
+          "核实"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u26-l1-q7",
+      "kind": "word",
+      "prompt": "credible · 数字素养",
+      "answer": "credible",
+      "translation": "可信的",
+      "instruction": "选择适合语境的表达。",
+      "audio": "credible",
+      "lessonId": "b1-u26-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "digital-literacy"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "可信的",
+        "隐私",
+        "核实",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u26-l1-q8",
+      "kind": "choice",
+      "prompt": "I will report it and change my password.",
+      "answer": "我会举报它并修改密码。",
+      "translation": "我会举报它并修改密码。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will report it and change my password.",
+      "lessonId": "b1-u26-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "digital-literacy"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会举报它并修改密码。",
+        "团队在会议前已经审阅了可信的。",
+        "打开链接前应该核实发件人。",
+        "可信来源会解释数据如何收集。"
+      ]
+    },
+    {
+      "id": "b1-u26-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我们可以通过删除姓名来保护隐私。",
+      "translation": "我们可以通过删除姓名来保护隐私。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We can protect privacy by removing names.",
+      "lessonId": "b1-u26-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "digital-literacy"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们可以通过删除姓名来保护隐私。",
+        "打开链接前应该先核实发件人。",
+        "不要打开；先通过官方网站核实发件人。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u26-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the verification results before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅验证结果。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the verification results before Friday.",
+      "lessonId": "b1-u26-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "digital-literacy"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u26-l1-dialogue",
+    "scene": "数字素养",
+    "characters": [
+      {
+        "id": "zoe",
+        "name": "Zoe",
+        "role": "colleague"
+      },
+      {
+        "id": "adam",
+        "name": "Adam",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "zoe",
+        "text": "This message asks for my password and links to an unfamiliar page.",
+        "translation": "这条消息要我的密码，还链接到一个陌生页面。"
+      },
+      {
+        "speaker": "adam",
+        "text": "Do not open it; verify the sender through the official website first.",
+        "translation": "不要打开；先通过官方网站核实发件人。"
+      },
+      {
+        "speaker": "zoe",
+        "text": "I will report it and change my password.",
+        "translation": "我会举报它并修改密码。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Adam提出了什么建议？",
+        "answer": "Do not open it; verify the sender through the official website first.",
+        "options": [
+          "Do not open it; verify the sender through the official website first.",
+          "This message asks for my password and links to an unfamiliar page.",
+          "I will report it and change my password."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

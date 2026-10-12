@@ -1,0 +1,257 @@
+{
+  "id": "a2-u16-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "文化活动",
+  "subtitle": "介绍展览、门票和表演",
+  "theme": "文化活动",
+  "grammarFocus": "present-continuous",
+  "grammarTags": [
+    "present-continuous"
+  ],
+  "words": [
+    [
+      "exhibition",
+      "展览"
+    ],
+    [
+      "ticket",
+      "门票"
+    ],
+    [
+      "perform",
+      "表演"
+    ]
+  ],
+  "pairs": [
+    [
+      "exhibition",
+      "展览"
+    ],
+    [
+      "ticket",
+      "门票"
+    ],
+    [
+      "perform",
+      "表演"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u16-l1-q1",
+      "kind": "word",
+      "prompt": "exhibition",
+      "answer": "展览",
+      "translation": "展览",
+      "options": [
+        "展览",
+        "门票",
+        "表演",
+        "问题"
+      ]
+    },
+    {
+      "id": "a2-u16-l1-q2",
+      "kind": "choice",
+      "prompt": "The museum is hosting a photography exhibition.",
+      "audio": "The museum is hosting a photography exhibition.",
+      "answer": "博物馆正在举办摄影展。",
+      "translation": "博物馆正在举办摄影展。",
+      "options": [
+        "博物馆正在举办摄影展。",
+        "你在买晚场演出的票吗？",
+        "展览周日闭幕。",
+        "我们看了舞者在广场表演。"
+      ]
+    },
+    {
+      "id": "a2-u16-l1-q3",
+      "kind": "listen",
+      "prompt": "Tickets are available online.",
+      "audio": "Tickets are available online.",
+      "answer": "门票可以在线购买。",
+      "translation": "门票可以在线购买。",
+      "options": [
+        "门票可以在线购买。",
+        "展览周日闭幕。",
+        "我们看了舞者在广场表演。",
+        "画廊正在展出本地艺术家的作品。"
+      ]
+    },
+    {
+      "id": "a2-u16-l1-q4",
+      "kind": "order",
+      "prompt": "本地乐队今晚会表演。",
+      "audio": "The local band will perform tonight.",
+      "answer": "The local band will perform tonight.",
+      "translation": "本地乐队今晚会表演。",
+      "tokens": [
+        "The",
+        "local",
+        "band",
+        "will",
+        "perform",
+        "tonight."
+      ]
+    },
+    {
+      "id": "a2-u16-l1-q5",
+      "kind": "fill",
+      "prompt": "Are you buying tickets for the evening _____.",
+      "answer": "exhibition",
+      "audio": "Are you buying tickets for the evening exhibition?",
+      "translation": "你在买晚场展览的票吗？",
+      "options": [
+        "exhibition",
+        "ticket",
+        "perform",
+        "message"
+      ]
+    },
+    {
+      "id": "a2-u16-l1-q6",
+      "kind": "match",
+      "prompt": "把「文化活动」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "exhibition",
+          "展览"
+        ],
+        [
+          "ticket",
+          "门票"
+        ],
+        [
+          "perform",
+          "表演"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u16-l1-q7",
+      "kind": "word",
+      "prompt": "ticket",
+      "answer": "门票",
+      "translation": "门票",
+      "audio": "ticket",
+      "options": [
+        "门票",
+        "展览",
+        "表演",
+        "安排"
+      ]
+    },
+    {
+      "id": "a2-u16-l1-q8",
+      "kind": "choice",
+      "prompt": "The exhibition closes on Sunday.",
+      "audio": "The exhibition closes on Sunday.",
+      "answer": "展览周日闭幕。",
+      "translation": "展览周日闭幕。",
+      "options": [
+        "展览周日闭幕。",
+        "画廊正在展出本地艺术家的作品。",
+        "演出结束前请保留门票。",
+        "孩子们表演了一部短剧。"
+      ]
+    },
+    {
+      "id": "a2-u16-l1-q9",
+      "kind": "listen",
+      "prompt": "We watched the dancers perform in the square.",
+      "audio": "We watched the dancers perform in the square.",
+      "answer": "我们看了舞者在广场表演。",
+      "translation": "我们看了舞者在广场表演。",
+      "options": [
+        "我们看了舞者在广场表演。",
+        "画廊正在展出本地艺术家的作品。",
+        "演出结束前请保留门票。",
+        "孩子们表演了一部短剧。"
+      ]
+    },
+    {
+      "id": "a2-u16-l1-q10",
+      "kind": "fill",
+      "prompt": "Please keep your _____ until the show ends.",
+      "answer": "ticket",
+      "audio": "Please keep your ticket until the show ends.",
+      "translation": "演出结束前请保留门票。",
+      "options": [
+        "ticket",
+        "exhibition",
+        "perform",
+        "plan"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u16-l1-dialogue",
+    "scene": "文化活动",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The museum is hosting a photography exhibition.",
+        "translation": "博物馆正在举办摄影展。"
+      },
+      {
+        "speaker": "partner",
+        "text": "Tickets are available online.",
+        "translation": "门票可以在线购买。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "The local band will perform tonight.",
+        "translation": "本地乐队今晚会表演。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is this conversation mainly about?",
+        "answer": "博物馆正在举办摄影展。",
+        "options": [
+          "博物馆正在举办摄影展。",
+          "你在买晚场演出的票吗？",
+          "画廊正在展出本地艺术家的作品。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

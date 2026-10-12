@@ -1,1 +1,198 @@
-{"id":"a1-u36-l1","levelId":"a1","cefr":"A1","title":"常见症状","subtitle":"描述轻微不适并寻求帮助","theme":"health-symptoms","grammarFocus":"health-symptoms","grammarTags":["health-symptoms","have-got"],"words":[["headache","头痛"],["cough","咳嗽"],["fever","发烧"],["sore","疼痛的"],["rest","休息"],["medicine","药"]],"questions":[{"id":"a1-u36-l1-q1","kind":"word","prompt":"headache · 常见症状","instruction":"选择意思。","answer":"头痛","options":["头痛","咳嗽","发烧","药"],"translation":"头痛"},{"id":"a1-u36-l1-q2","kind":"choice","prompt":"I have got a sore throat and a small cough.","instruction":"选择意思。","answer":"我喉咙痛，还有一点咳嗽。","audio":"I have got a sore throat and a small cough.","translation":"我喉咙痛，还有一点咳嗽。"},{"id":"a1-u36-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"她昨晚发烧了。","audio":"She had a fever last night.","translation":"她昨晚发烧了。"},{"id":"a1-u36-l1-q4","kind":"order","prompt":"你应该多休息。","instruction":"组成英文句子。","answer":"You should get more rest.","audio":"You should get more rest.","translation":"你应该多休息。"},{"id":"a1-u36-l1-q5","kind":"fill","prompt":"Take this _____ with warm water.","instruction":"选择名词。","answer":"medicine","audio":"Take this medicine with warm water.","translation":"用温水服用这种药。"},{"id":"a1-u36-l1-q6","kind":"match","prompt":"配对常见症状词语。","instruction":"完成配对。","pairs":[["headache","头痛"],["cough","咳嗽"],["fever","发烧"],["sore","疼痛的"],["rest","休息"],["medicine","药"]],"answer":"matched","translation":"头痛、咳嗽、发烧、疼痛的、休息、药"},{"id":"a1-u36-l1-q7","kind":"word","prompt":"medicine · 常见症状","instruction":"选择意思。","answer":"药","options":["药","休息","发烧","头痛"],"translation":"药"},{"id":"a1-u36-l1-q8","kind":"choice","prompt":"The nurse told him to drink water and rest.","instruction":"选择意思。","answer":"护士告诉他喝水并休息。","audio":"The nurse told him to drink water and rest.","translation":"护士告诉他喝水并休息。"},{"id":"a1-u36-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"如果咳嗽继续，请联系医生。","audio":"Call the doctor if the cough continues.","translation":"如果咳嗽继续，请联系医生。"},{"id":"a1-u36-l1-q10","kind":"fill","prompt":"My back is _____ after the long trip.","instruction":"选择形容词。","answer":"sore","audio":"My back is sore after the long trip.","translation":"长途旅行后我的背很疼。"}],"dialogue":{"id":"a1-u36-l1-dialogue","scene":"描述不适","characters":[{"id":"lumi","name":"Lumi"},{"id":"doctor","name":"Doctor"}],"turns":[{"speaker":"lumi","text":"I have got a headache and a cough.","translation":"我头痛还咳嗽。"},{"speaker":"doctor","text":"Please rest and drink plenty of water.","translation":"请休息并多喝水。"},{"speaker":"lumi","text":"Should I take this medicine twice a day?","translation":"我应该每天吃两次这种药吗？"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u36-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "常见症状",
+  "subtitle": "描述轻微不适并寻求帮助",
+  "theme": "health-symptoms",
+  "grammarFocus": "health-symptoms",
+  "grammarTags": [
+    "health-symptoms",
+    "have-got"
+  ],
+  "words": [
+    [
+      "headache",
+      "头痛"
+    ],
+    [
+      "cough",
+      "咳嗽"
+    ],
+    [
+      "fever",
+      "发烧"
+    ],
+    [
+      "sore",
+      "疼痛的"
+    ],
+    [
+      "rest",
+      "休息"
+    ],
+    [
+      "medicine",
+      "药"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u36-l1-q1",
+      "kind": "word",
+      "prompt": "headache · 常见症状",
+      "instruction": "选择意思。",
+      "answer": "头痛",
+      "options": [
+        "头痛",
+        "咳嗽",
+        "发烧",
+        "药"
+      ],
+      "translation": "头痛"
+    },
+    {
+      "id": "a1-u36-l1-q2",
+      "kind": "choice",
+      "prompt": "I have got a sore throat and a small cough.",
+      "instruction": "选择意思。",
+      "answer": "我喉咙痛，还有一点咳嗽。",
+      "audio": "I have got a sore throat and a small cough.",
+      "translation": "我喉咙痛，还有一点咳嗽。"
+    },
+    {
+      "id": "a1-u36-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "她昨晚发烧了。",
+      "audio": "She had a fever last night.",
+      "translation": "她昨晚发烧了。"
+    },
+    {
+      "id": "a1-u36-l1-q4",
+      "kind": "order",
+      "prompt": "你应该多休息。",
+      "instruction": "组成英文句子。",
+      "answer": "You should get more rest.",
+      "audio": "You should get more rest.",
+      "translation": "你应该多休息。"
+    },
+    {
+      "id": "a1-u36-l1-q5",
+      "kind": "fill",
+      "prompt": "Take this _____ with warm water.",
+      "instruction": "选择名词。",
+      "answer": "medicine",
+      "audio": "Take this medicine with warm water.",
+      "translation": "用温水服用这种药。"
+    },
+    {
+      "id": "a1-u36-l1-q6",
+      "kind": "match",
+      "prompt": "配对常见症状词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "headache",
+          "头痛"
+        ],
+        [
+          "cough",
+          "咳嗽"
+        ],
+        [
+          "fever",
+          "发烧"
+        ],
+        [
+          "sore",
+          "疼痛的"
+        ],
+        [
+          "rest",
+          "休息"
+        ],
+        [
+          "medicine",
+          "药"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "头痛、咳嗽、发烧、疼痛的、休息、药"
+    },
+    {
+      "id": "a1-u36-l1-q7",
+      "kind": "word",
+      "prompt": "medicine · 常见症状",
+      "instruction": "选择意思。",
+      "answer": "药",
+      "options": [
+        "药",
+        "休息",
+        "发烧",
+        "头痛"
+      ],
+      "translation": "药"
+    },
+    {
+      "id": "a1-u36-l1-q8",
+      "kind": "choice",
+      "prompt": "The nurse told him to drink water and rest.",
+      "instruction": "选择意思。",
+      "answer": "护士告诉他喝水并休息。",
+      "audio": "The nurse told him to drink water and rest.",
+      "translation": "护士告诉他喝水并休息。"
+    },
+    {
+      "id": "a1-u36-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "如果咳嗽继续，请联系医生。",
+      "audio": "Call the doctor if the cough continues.",
+      "translation": "如果咳嗽继续，请联系医生。"
+    },
+    {
+      "id": "a1-u36-l1-q10",
+      "kind": "fill",
+      "prompt": "My back is _____ after the long trip.",
+      "instruction": "选择形容词。",
+      "answer": "sore",
+      "audio": "My back is sore after the long trip.",
+      "translation": "长途旅行后我的背很疼。"
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u36-l1-dialogue",
+    "scene": "描述不适",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "doctor",
+        "name": "Doctor"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I have got a headache and a cough.",
+        "translation": "我头痛还咳嗽。"
+      },
+      {
+        "speaker": "doctor",
+        "text": "Please rest and drink plenty of water.",
+        "translation": "请休息并多喝水。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Should I take this medicine twice a day?",
+        "translation": "我应该每天吃两次这种药吗？"
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,232 @@
+{
+  "id": "a2-u29-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "旅行保险",
+  "subtitle": "了解保障、行李和理赔",
+  "theme": "travel-insurance",
+  "grammarFocus": "travel-insurance",
+  "grammarTags": [
+    "travel-insurance"
+  ],
+  "words": [
+    [
+      "coverage",
+      "保障范围"
+    ],
+    [
+      "claim",
+      "理赔"
+    ],
+    [
+      "luggage",
+      "行李"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u29-l1-q1",
+      "kind": "word",
+      "prompt": "coverage",
+      "answer": "保障范围",
+      "translation": "保障范围",
+      "options": [
+        "保障范围",
+        "理赔",
+        "行李",
+        "保单"
+      ]
+    },
+    {
+      "id": "a2-u29-l1-q2",
+      "kind": "choice",
+      "prompt": "The policy includes medical coverage abroad.",
+      "audio": "The policy includes medical coverage abroad.",
+      "answer": "这份保单包括海外医疗保障。",
+      "translation": "这份保单包括海外医疗保障。",
+      "options": [
+        "这份保单包括海外医疗保障。",
+        "这份保单只包括行李保障。",
+        "这份保单不包括国外旅行。",
+        "这份保单需要海外医疗证明。"
+      ]
+    },
+    {
+      "id": "a2-u29-l1-q3",
+      "kind": "listen",
+      "prompt": "听清申请了什么。",
+      "audio": "I filed a claim for my lost luggage.",
+      "answer": "我为丢失的行李提出了理赔。",
+      "translation": "我为丢失的行李提出了理赔。",
+      "options": [
+        "我为丢失的行李提出了理赔。",
+        "我为延误的航班申请了退款。",
+        "我找到了丢失的行李。",
+        "我为行李购买了新的保单。"
+      ]
+    },
+    {
+      "id": "a2-u29-l1-q4",
+      "kind": "order",
+      "prompt": "请保留行李箱的收据。",
+      "audio": "Please keep the receipt for the suitcase.",
+      "answer": "Please keep the receipt for the suitcase.",
+      "translation": "请保留行李箱的收据。",
+      "tokens": [
+        "Please",
+        "keep",
+        "the",
+        "receipt",
+        "for",
+        "the",
+        "suitcase."
+      ]
+    },
+    {
+      "id": "a2-u29-l1-q5",
+      "kind": "fill",
+      "prompt": "Does the _____ include flight delays?",
+      "answer": "coverage",
+      "audio": "Does the coverage include flight delays?",
+      "translation": "保障范围包括航班延误吗？",
+      "options": [
+        "coverage",
+        "claim",
+        "luggage",
+        "policy"
+      ]
+    },
+    {
+      "id": "a2-u29-l1-q6",
+      "kind": "match",
+      "prompt": "配对旅行保险词语。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "coverage",
+          "保障范围"
+        ],
+        [
+          "claim",
+          "理赔"
+        ],
+        [
+          "luggage",
+          "行李"
+        ],
+        [
+          "policy",
+          "保单"
+        ],
+        [
+          "delay",
+          "延误"
+        ],
+        [
+          "receipt",
+          "收据"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u29-l1-q7",
+      "kind": "word",
+      "prompt": "claim",
+      "answer": "理赔",
+      "translation": "理赔",
+      "options": [
+        "理赔",
+        "保障范围",
+        "行李",
+        "延误"
+      ]
+    },
+    {
+      "id": "a2-u29-l1-q8",
+      "kind": "choice",
+      "prompt": "The company asked for photos with the claim.",
+      "audio": "The company asked for photos with the claim.",
+      "answer": "公司要求理赔时提供照片。",
+      "translation": "公司要求理赔时提供照片。",
+      "options": [
+        "公司要求理赔时提供照片。",
+        "公司为理赔提供了新的照片。",
+        "公司要求把行李拍照后寄回。",
+        "公司拒绝了照片中的理赔。"
+      ]
+    },
+    {
+      "id": "a2-u29-l1-q9",
+      "kind": "listen",
+      "prompt": "听清行李晚到了多久。",
+      "audio": "My luggage arrived two days late.",
+      "answer": "我的行李晚到了两天。",
+      "translation": "我的行李晚到了两天。",
+      "options": [
+        "我的行李晚到了两天。",
+        "我的行李提前到了两天。",
+        "我的行李丢了两天。",
+        "我的行李在两天后被理赔。"
+      ]
+    },
+    {
+      "id": "a2-u29-l1-q10",
+      "kind": "fill",
+      "prompt": "Read the _____ before you travel.",
+      "answer": "policy",
+      "audio": "Read the policy before you travel.",
+      "translation": "旅行前请阅读保单。",
+      "options": [
+        "policy",
+        "claim",
+        "coverage",
+        "luggage"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u29-l1-dialogue",
+    "scene": "行李延误后的理赔",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "My suitcase arrived two days late and one wheel is broken.",
+        "translation": "我的行李箱晚到了两天，而且一个轮子坏了。"
+      },
+      {
+        "speaker": "alex",
+        "text": "Keep the receipt and file a claim with photos.",
+        "translation": "保留收据，并附照片提出理赔。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will check whether my coverage includes the repair.",
+        "translation": "我会确认保障范围是否包括维修。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What should Lumi keep?",
+        "answer": "The receipt",
+        "options": [
+          "The receipt",
+          "The boarding pass only",
+          "A new suitcase",
+          "The hotel key"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

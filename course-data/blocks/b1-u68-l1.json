@@ -1,0 +1,565 @@
+{
+  "id": "b1-u68-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "进阶会议主持",
+  "subtitle": "促进协调并整理记录",
+  "theme": "进阶会议主持",
+  "grammarFocus": "gerunds",
+  "grammarTags": [
+    "gerunds"
+  ],
+  "words": [
+    [
+      "facilitation",
+      "促进"
+    ],
+    [
+      "coordination",
+      "协调"
+    ],
+    [
+      "minutes",
+      "会议记录"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "facilitation · 进阶会议主持",
+      "audio": "facilitation",
+      "instruction": "选择这个词的直译",
+      "answer": "促进",
+      "options": [
+        "促进",
+        "协调",
+        "会议记录",
+        "问题"
+      ],
+      "translation": "促进",
+      "id": "b1-u68-l1-q1",
+      "lessonId": "b1-u68-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "gerunds"
+      ],
+      "glossary": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "Checking the facilitation helps the team stay organized.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "检查促进有助于团队保持井然有序。",
+      "options": [
+        "检查促进有助于团队保持井然有序。",
+        "检查协调有助于团队保持井然有序。",
+        "检查协调有助于团队保持井然有序。，本月。",
+        "检查会议记录有助于团队保持井然有序。，下班后。"
+      ],
+      "audio": "Checking the facilitation helps the team stay organized.",
+      "translation": "检查促进有助于团队保持井然有序。",
+      "id": "b1-u68-l1-q2",
+      "lessonId": "b1-u68-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "gerunds"
+      ],
+      "glossary": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "检查协调有助于团队保持井然有序。",
+      "options": [
+        "检查促进有助于团队保持井然有序。",
+        "检查协调有助于团队保持井然有序。",
+        "检查协调有助于团队保持井然有序。，本月。",
+        "检查会议记录有助于团队保持井然有序。，下班后。"
+      ],
+      "audio": "Checking the coordination helps the team stay organized.",
+      "translation": "检查协调有助于团队保持井然有序。",
+      "id": "b1-u68-l1-q3",
+      "lessonId": "b1-u68-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "gerunds"
+      ],
+      "glossary": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "检查会议记录有助于团队保持井然有序。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "Checking the minutes helps the team stay organized.",
+      "tokens": [
+        "Checking",
+        "the",
+        "minutes",
+        "helps",
+        "the",
+        "team",
+        "stay",
+        "organized."
+      ],
+      "audio": "Checking the minutes helps the team stay organized.",
+      "translation": "检查会议记录有助于团队保持井然有序。",
+      "id": "b1-u68-l1-q4",
+      "lessonId": "b1-u68-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "gerunds"
+      ],
+      "glossary": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this month.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "facilitation",
+      "options": [
+        "facilitation",
+        "coordination",
+        "minutes",
+        "message"
+      ],
+      "audio": "Please check the facilitation this month.",
+      "translation": "请本月检查促进。",
+      "id": "b1-u68-l1-q5",
+      "lessonId": "b1-u68-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "gerunds"
+      ],
+      "glossary": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶会议主持」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "facilitation、促进；coordination、协调；minutes、会议记录；message、消息；schedule、日程；meeting、会议",
+      "id": "b1-u68-l1-q6",
+      "lessonId": "b1-u68-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "gerunds"
+      ],
+      "glossary": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "coordination · 进阶会议主持",
+      "audio": "coordination",
+      "instruction": "选择这个词的直译",
+      "answer": "协调",
+      "options": [
+        "协调",
+        "促进",
+        "会议记录",
+        "安排"
+      ],
+      "translation": "协调",
+      "id": "b1-u68-l1-q7",
+      "lessonId": "b1-u68-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "gerunds"
+      ],
+      "glossary": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "Checking the coordination helps the team stay organized. this month.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "检查协调有助于团队保持井然有序。，本月。",
+      "options": [
+        "检查促进有助于团队保持井然有序。",
+        "检查协调有助于团队保持井然有序。",
+        "检查协调有助于团队保持井然有序。，本月。",
+        "检查会议记录有助于团队保持井然有序。，下班后。"
+      ],
+      "audio": "Checking the coordination helps the team stay organized. this month.",
+      "translation": "检查协调有助于团队保持井然有序。，本月。",
+      "id": "b1-u68-l1-q8",
+      "lessonId": "b1-u68-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "gerunds"
+      ],
+      "glossary": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "检查会议记录有助于团队保持井然有序。，下班后。",
+      "options": [
+        "检查促进有助于团队保持井然有序。",
+        "检查协调有助于团队保持井然有序。",
+        "检查协调有助于团队保持井然有序。，本月。",
+        "检查会议记录有助于团队保持井然有序。，下班后。"
+      ],
+      "audio": "Checking the minutes helps the team stay organized. after work.",
+      "translation": "检查会议记录有助于团队保持井然有序。，下班后。",
+      "id": "b1-u68-l1-q9",
+      "lessonId": "b1-u68-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "gerunds"
+      ],
+      "glossary": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the coordination after work.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the coordination after work.",
+      "translation": "我们需要下班后检查协调。",
+      "id": "b1-u68-l1-q10",
+      "lessonId": "b1-u68-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "gerunds"
+      ],
+      "glossary": [
+        [
+          "facilitation",
+          "促进"
+        ],
+        [
+          "coordination",
+          "协调"
+        ],
+        [
+          "minutes",
+          "会议记录"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u68-l1-dialogue",
+    "scene": "进阶会议主持",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about facilitation?",
+        "translation": "你能再告诉我一些关于促进的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use facilitation when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到促进。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use facilitation in a daily plan",
+        "options": [
+          "How to use facilitation in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

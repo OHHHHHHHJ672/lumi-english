@@ -1,0 +1,365 @@
+{
+  "id": "b1-u18-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "创业基础",
+  "subtitle": "讨论产品、收入和竞争者",
+  "theme": "创业基础",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "revenue",
+      "收入"
+    ],
+    [
+      "launch",
+      "发布"
+    ],
+    [
+      "competitor",
+      "竞争者"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "revenue · 创业基础",
+      "audio": "revenue",
+      "instruction": "选择中文意思。",
+      "answer": "收入",
+      "translation": "收入",
+      "options": [
+        "收入",
+        "发布",
+        "竞争者",
+        "计划"
+      ],
+      "id": "b1-u18-l1-q1",
+      "lessonId": "b1-u18-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The startup has launched a test version.",
+      "audio": "The startup has launched a test version.",
+      "instruction": "选择这句话的意思。",
+      "answer": "这家初创公司已经发布了测试版本。",
+      "translation": "这家初创公司已经发布了测试版本。",
+      "options": [
+        "这家初创公司已经发布了测试版本。",
+        "自从第一次合作以来，它的收入一直在增长。",
+        "我们已经研究了一家强劲的竞争对手。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u18-l1-q2",
+      "lessonId": "b1-u18-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "Its revenue has grown since the first partnership.",
+      "instruction": "听完整句子。",
+      "answer": "自从第一次合作以来，它的收入一直在增长。",
+      "translation": "自从第一次合作以来，它的收入一直在增长。",
+      "options": [
+        "自从第一次合作以来，它的收入一直在增长。",
+        "这家初创公司已经发布了测试版本。",
+        "我们已经研究了一家强劲的竞争对手。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u18-l1-q3",
+      "lessonId": "b1-u18-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们已经研究了一家强劲的竞争对手。",
+      "audio": "We have studied one serious competitor.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "We have studied one serious competitor.",
+      "translation": "我们已经研究了一家强劲的竞争对手。",
+      "tokens": [
+        "We",
+        "have",
+        "studied",
+        "one",
+        "serious",
+        "competitor."
+      ],
+      "id": "b1-u18-l1-q4",
+      "lessonId": "b1-u18-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the launch before the meeting.",
+      "audio": "The team has reviewed the launch before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了发布。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u18-l1-q5",
+      "lessonId": "b1-u18-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「创业基础」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "revenue",
+          "收入"
+        ],
+        [
+          "launch",
+          "发布"
+        ],
+        [
+          "competitor",
+          "竞争者"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u18-l1-q6",
+      "lessonId": "b1-u18-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "launch · 创业基础",
+      "audio": "launch",
+      "instruction": "选择中文意思。",
+      "answer": "发布",
+      "translation": "发布",
+      "options": [
+        "发布",
+        "收入",
+        "竞争者",
+        "问题"
+      ],
+      "id": "b1-u18-l1-q7",
+      "lessonId": "b1-u18-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The founder changed the price after user interviews.",
+      "audio": "The founder changed the price after user interviews.",
+      "instruction": "选择这句话的意思。",
+      "answer": "创始人在用户访谈之后调整了价格。",
+      "translation": "创始人在用户访谈之后调整了价格。",
+      "options": [
+        "创始人在用户访谈之后调整了价格。",
+        "这家初创公司已经发布了测试版本。",
+        "自从第一次合作以来，它的收入一直在增长。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u18-l1-q8",
+      "lessonId": "b1-u18-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The team planned a small launch event.",
+      "instruction": "听完整句子。",
+      "answer": "团队策划了一场小型发布会。",
+      "translation": "团队策划了一场小型发布会。",
+      "options": [
+        "团队策划了一场小型发布会。",
+        "这家初创公司已经发布了测试版本。",
+        "自从第一次合作以来，它的收入一直在增长。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u18-l1-q9",
+      "lessonId": "b1-u18-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the competitor before Friday.",
+      "audio": "We should clarify the competitor before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清竞争者。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u18-l1-q10",
+      "lessonId": "b1-u18-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u18-l1-dialogue",
+    "scene": "创业基础",
+    "characters": [
+      {
+        "id": "sofia",
+        "name": "Sofia",
+        "role": "colleague"
+      },
+      {
+        "id": "ethan",
+        "name": "Ethan",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "sofia",
+        "text": "Our test users like the service, but the launch budget is small.",
+        "translation": "我们的测试用户喜欢这项服务，但发布预算很小。"
+      },
+      {
+        "speaker": "ethan",
+        "text": "We have found a partner who can share the event space.",
+        "translation": "我们找到了一个可以共享活动场地的合作伙伴。"
+      },
+      {
+        "speaker": "sofia",
+        "text": "That should reduce the cost before revenue is stable.",
+        "translation": "在收入稳定前，这能降低成本。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Ethan提出了什么建议？",
+        "answer": "We have found a partner who can share the event space.",
+        "options": [
+          "We have found a partner who can share the event space.",
+          "Our test users like the service, but the launch budget is small.",
+          "That should reduce the cost before revenue is stable."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

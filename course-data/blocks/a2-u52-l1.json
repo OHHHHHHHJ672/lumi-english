@@ -1,0 +1,563 @@
+{
+  "id": "a2-u52-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶新闻节目",
+  "subtitle": "听懂记者和订阅",
+  "theme": "进阶新闻节目",
+  "grammarFocus": "past-simple",
+  "grammarTags": [
+    "past-simple"
+  ],
+  "words": [
+    [
+      "broadcast",
+      "广播"
+    ],
+    [
+      "reporter",
+      "记者"
+    ],
+    [
+      "subscribe",
+      "订阅"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "broadcast · 进阶新闻节目",
+      "audio": "broadcast",
+      "instruction": "选择这个词的直译",
+      "answer": "广播",
+      "options": [
+        "广播",
+        "记者",
+        "订阅",
+        "问题"
+      ],
+      "translation": "广播",
+      "id": "a2-u52-l1-q1",
+      "lessonId": "a2-u52-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We discussed the broadcast during the meeting.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们会议期间讨论了广播。",
+      "options": [
+        "我们会议期间讨论了广播。",
+        "我们晚饭后讨论了记者。",
+        "我们晚饭后讨论了记者。，这个周末。",
+        "我们本月讨论了订阅。，为我们的团队。"
+      ],
+      "audio": "We discussed the broadcast during the meeting.",
+      "translation": "我们会议期间讨论了广播。",
+      "id": "a2-u52-l1-q2",
+      "lessonId": "a2-u52-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们晚饭后讨论了记者。",
+      "options": [
+        "我们会议期间讨论了广播。",
+        "我们晚饭后讨论了记者。",
+        "我们晚饭后讨论了记者。，这个周末。",
+        "我们本月讨论了订阅。，为我们的团队。"
+      ],
+      "audio": "We discussed the reporter after dinner.",
+      "translation": "我们晚饭后讨论了记者。",
+      "id": "a2-u52-l1-q3",
+      "lessonId": "a2-u52-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们本月讨论了订阅。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We discussed the subscribe this month.",
+      "tokens": [
+        "We",
+        "discussed",
+        "the",
+        "subscribe",
+        "this",
+        "month."
+      ],
+      "audio": "We discussed the subscribe this month.",
+      "translation": "我们本月讨论了订阅。",
+      "id": "a2-u52-l1-q4",
+      "lessonId": "a2-u52-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this weekend.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "broadcast",
+      "options": [
+        "broadcast",
+        "reporter",
+        "subscribe",
+        "message"
+      ],
+      "audio": "Please check the broadcast this weekend.",
+      "translation": "请这个周末检查广播。",
+      "id": "a2-u52-l1-q5",
+      "lessonId": "a2-u52-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶新闻节目」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "broadcast、广播；reporter、记者；subscribe、订阅；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u52-l1-q6",
+      "lessonId": "a2-u52-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "reporter · 进阶新闻节目",
+      "audio": "reporter",
+      "instruction": "选择这个词的直译",
+      "answer": "记者",
+      "options": [
+        "记者",
+        "广播",
+        "订阅",
+        "安排"
+      ],
+      "translation": "记者",
+      "id": "a2-u52-l1-q7",
+      "lessonId": "a2-u52-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We discussed the reporter after dinner. this weekend.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们晚饭后讨论了记者。，这个周末。",
+      "options": [
+        "我们会议期间讨论了广播。",
+        "我们晚饭后讨论了记者。",
+        "我们晚饭后讨论了记者。，这个周末。",
+        "我们本月讨论了订阅。，为我们的团队。"
+      ],
+      "audio": "We discussed the reporter after dinner. this weekend.",
+      "translation": "我们晚饭后讨论了记者。，这个周末。",
+      "id": "a2-u52-l1-q8",
+      "lessonId": "a2-u52-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们本月讨论了订阅。，为我们的团队。",
+      "options": [
+        "我们会议期间讨论了广播。",
+        "我们晚饭后讨论了记者。",
+        "我们晚饭后讨论了记者。，这个周末。",
+        "我们本月讨论了订阅。，为我们的团队。"
+      ],
+      "audio": "We discussed the subscribe this month. for our team.",
+      "translation": "我们本月讨论了订阅。，为我们的团队。",
+      "id": "a2-u52-l1-q9",
+      "lessonId": "a2-u52-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the reporter for our team.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the reporter for our team.",
+      "translation": "我们需要为我们的团队检查记者。",
+      "id": "a2-u52-l1-q10",
+      "lessonId": "a2-u52-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "broadcast",
+          "广播"
+        ],
+        [
+          "reporter",
+          "记者"
+        ],
+        [
+          "subscribe",
+          "订阅"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u52-l1-dialogue",
+    "scene": "进阶新闻节目",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about broadcast?",
+        "translation": "你能再告诉我一些关于广播的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use broadcast when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到广播。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use broadcast in a daily plan",
+        "options": [
+          "How to use broadcast in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,367 @@
+{
+  "id": "b1-u14-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "团队冲突",
+  "subtitle": "处理紧张关系并达成共识",
+  "theme": "团队冲突",
+  "grammarFocus": "past-simple",
+  "grammarTags": [
+    "past-simple"
+  ],
+  "words": [
+    [
+      "mediate",
+      "调解"
+    ],
+    [
+      "tension",
+      "紧张"
+    ],
+    [
+      "consensus",
+      "共识"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "mediate · 团队冲突",
+      "audio": "mediate",
+      "instruction": "选择中文意思。",
+      "answer": "调解",
+      "translation": "调解",
+      "options": [
+        "调解",
+        "紧张",
+        "共识",
+        "计划"
+      ],
+      "id": "b1-u14-l1-q1",
+      "lessonId": "b1-u14-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The manager mediated the disagreement yesterday.",
+      "audio": "The manager mediated the disagreement yesterday.",
+      "instruction": "选择这句话的意思。",
+      "answer": "经理昨天调解了这场分歧。",
+      "translation": "经理昨天调解了这场分歧。",
+      "options": [
+        "经理昨天调解了这场分歧。",
+        "截止日期一改，紧张气氛就加剧了。",
+        "两个团队在第二次会议后达成了共识。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u14-l1-q2",
+      "lessonId": "b1-u14-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "Tension grew when the deadline changed.",
+      "instruction": "听完整句子。",
+      "answer": "截止日期一改，紧张气氛就加剧了。",
+      "translation": "截止日期一改，紧张气氛就加剧了。",
+      "options": [
+        "截止日期一改，紧张气氛就加剧了。",
+        "经理昨天调解了这场分歧。",
+        "两个团队在第二次会议后达成了共识。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u14-l1-q3",
+      "lessonId": "b1-u14-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "两个团队在第二次会议后达成了共识。",
+      "audio": "Both teams reached consensus after the second meeting.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "Both teams reached consensus after the second meeting.",
+      "translation": "两个团队在第二次会议后达成了共识。",
+      "tokens": [
+        "Both",
+        "teams",
+        "reached",
+        "consensus",
+        "after",
+        "the",
+        "second",
+        "meeting."
+      ],
+      "id": "b1-u14-l1-q4",
+      "lessonId": "b1-u14-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the tension before the meeting.",
+      "audio": "The team has reviewed the tension before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了紧张。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u14-l1-q5",
+      "lessonId": "b1-u14-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「团队冲突」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "mediate",
+          "调解"
+        ],
+        [
+          "tension",
+          "紧张"
+        ],
+        [
+          "consensus",
+          "共识"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u14-l1-q6",
+      "lessonId": "b1-u14-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "tension · 团队冲突",
+      "audio": "tension",
+      "instruction": "选择中文意思。",
+      "answer": "紧张",
+      "translation": "紧张",
+      "options": [
+        "紧张",
+        "调解",
+        "共识",
+        "问题"
+      ],
+      "id": "b1-u14-l1-q7",
+      "lessonId": "b1-u14-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "She listened to each side before suggesting a compromise.",
+      "audio": "She listened to each side before suggesting a compromise.",
+      "instruction": "选择这句话的意思。",
+      "answer": "她先听取了双方的意见，然后提出折中方案。",
+      "translation": "她先听取了双方的意见，然后提出折中方案。",
+      "options": [
+        "她先听取了双方的意见，然后提出折中方案。",
+        "经理昨天调解了这场分歧。",
+        "截止日期一改，紧张气氛就加剧了。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u14-l1-q8",
+      "lessonId": "b1-u14-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The project lead recorded the agreed decision.",
+      "instruction": "听完整句子。",
+      "answer": "项目负责人记录了商定的决定。",
+      "translation": "项目负责人记录了商定的决定。",
+      "options": [
+        "项目负责人记录了商定的决定。",
+        "经理昨天调解了这场分歧。",
+        "截止日期一改，紧张气氛就加剧了。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u14-l1-q9",
+      "lessonId": "b1-u14-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the consensus before Friday.",
+      "audio": "We should clarify the consensus before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清共识。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u14-l1-q10",
+      "lessonId": "b1-u14-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u14-l1-dialogue",
+    "scene": "团队冲突",
+    "characters": [
+      {
+        "id": "lara",
+        "name": "Lara",
+        "role": "colleague"
+      },
+      {
+        "id": "ben",
+        "name": "Ben",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lara",
+        "text": "The design and sales teams argued about the launch date.",
+        "translation": "设计和销售团队为发布日期争论起来。"
+      },
+      {
+        "speaker": "ben",
+        "text": "I mediated the discussion and asked each side to name one priority.",
+        "translation": "我调解了讨论，请双方各说出一个优先事项。"
+      },
+      {
+        "speaker": "lara",
+        "text": "We found consensus when the client’s deadline was clear.",
+        "translation": "当客户的截止日期明确后，我们达成了共识。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Ben提出了什么建议？",
+        "answer": "I mediated the discussion and asked each side to name one priority.",
+        "options": [
+          "I mediated the discussion and asked each side to name one priority.",
+          "The design and sales teams argued about the launch date.",
+          "We found consensus when the client’s deadline was clear."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,0 +1,366 @@
+{
+  "id": "b1-u12-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "反馈改进",
+  "subtitle": "理解建设性反馈和薄弱点",
+  "theme": "反馈改进",
+  "grammarFocus": "comparatives",
+  "grammarTags": [
+    "comparatives"
+  ],
+  "words": [
+    [
+      "constructive",
+      "建设性的"
+    ],
+    [
+      "strength",
+      "优势"
+    ],
+    [
+      "weakness",
+      "弱点"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u12-l1-q1",
+      "kind": "word",
+      "prompt": "constructive · 反馈改进",
+      "audio": "constructive",
+      "instruction": "选择适合语境的表达。",
+      "answer": "constructive",
+      "translation": "建设性的",
+      "lessonId": "b1-u12-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "建设性的",
+        "优势",
+        "弱点",
+        "报告"
+      ]
+    },
+    {
+      "id": "b1-u12-l1-q2",
+      "kind": "choice",
+      "prompt": "Which feedback was more constructive?",
+      "audio": "Which feedback was more constructive?",
+      "instruction": "选择适合语境的表达。",
+      "answer": "哪条反馈更有建设性？",
+      "translation": "哪条反馈更有建设性？",
+      "lessonId": "b1-u12-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "哪条反馈更有建设性？",
+        "第二次评审给了一个清晰例子。",
+        "她的开场比以前更有力。",
+        "这句话没有说明原因。"
+      ]
+    },
+    {
+      "id": "b1-u12-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The second review gave one clear example.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "第二次评审给了一个清晰例子。",
+      "translation": "第二次评审给了一个清晰例子。",
+      "lessonId": "b1-u12-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "第二次评审给了一个清晰例子。",
+        "哪条反馈更有建设性？",
+        "她的开场比以前更有力。",
+        "说话人没有做决定。"
+      ]
+    },
+    {
+      "id": "b1-u12-l1-q4",
+      "kind": "order",
+      "prompt": "她的开场比以前更有力。",
+      "audio": "Her opening is stronger than before.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "Her opening is stronger than before.",
+      "translation": "她的开场比以前更有力。",
+      "lessonId": "b1-u12-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "Her",
+        "opening",
+        "is",
+        "stronger",
+        "than",
+        "before."
+      ]
+    },
+    {
+      "id": "b1-u12-l1-q5",
+      "kind": "fill",
+      "prompt": "We have _____ the strength before Friday.",
+      "audio": "We have reviewed the strength before Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "reviewed",
+      "translation": "reviewed",
+      "lessonId": "b1-u12-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u12-l1-q6",
+      "kind": "match",
+      "prompt": "配对「反馈改进」中的重点词。",
+      "audio": "",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "matched",
+      "lessonId": "b1-u12-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "constructive",
+          "建设性的"
+        ],
+        [
+          "strength",
+          "优势"
+        ],
+        [
+          "weakness",
+          "弱点"
+        ],
+        [
+          "flight",
+          "航班"
+        ],
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u12-l1-q7",
+      "kind": "word",
+      "prompt": "strength · 反馈改进",
+      "audio": "strength",
+      "instruction": "选择适合语境的表达。",
+      "answer": "strength",
+      "translation": "优势",
+      "lessonId": "b1-u12-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "优势",
+        "建设性的",
+        "弱点",
+        "会议"
+      ]
+    },
+    {
+      "id": "b1-u12-l1-q8",
+      "kind": "choice",
+      "prompt": "The conclusion is still a weakness.",
+      "audio": "The conclusion is still a weakness.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "结论仍然是弱点。",
+      "translation": "结论仍然是弱点。",
+      "lessonId": "b1-u12-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "结论仍然是弱点。",
+        "哪条反馈更有建设性？",
+        "第二次评审给了一个清晰例子。",
+        "这句话谈的是天气。"
+      ]
+    },
+    {
+      "id": "b1-u12-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，判断下一步。",
+      "audio": "Her opening is stronger than before. During the review.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "她的开场比以前更有力。",
+      "translation": "她的开场比以前更有力。（会议复盘时）",
+      "lessonId": "b1-u12-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "她的开场比以前更有力。",
+        "哪条反馈更有建设性？",
+        "结论仍然是弱点。",
+        "说话人取消了安排。"
+      ]
+    },
+    {
+      "id": "b1-u12-l1-q10",
+      "kind": "fill",
+      "prompt": "The team must _____ the weakness today.",
+      "audio": "The team must clarify the weakness today.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "clarify",
+      "translation": "clarify",
+      "lessonId": "b1-u12-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u12-l1-dialogue",
+    "scene": "反馈改进",
+    "characters": [
+      {
+        "id": "alexis",
+        "name": "Alexis",
+        "role": "colleague"
+      },
+      {
+        "id": "morgan",
+        "name": "Morgan",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "alexis",
+        "text": "The review says my examples are strong but my conclusion is weak.",
+        "translation": "评审说我的例子很有优势，但结论很弱。"
+      },
+      {
+        "speaker": "morgan",
+        "text": "That is constructive feedback; make the final point shorter and sharper.",
+        "translation": "这是建设性的反馈；把最后一点写得更短更有力。"
+      },
+      {
+        "speaker": "alexis",
+        "text": "I can revise that before the next meeting.",
+        "translation": "我可以在下次会议前修改。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Morgan提出了什么建议？",
+        "answer": "That is constructive feedback; make the final point shorter and sharper.",
+        "options": [
+          "That is constructive feedback; make the final point shorter and sharper.",
+          "The review says my examples are strong but my conclusion is weak.",
+          "I can revise that before the next meeting."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

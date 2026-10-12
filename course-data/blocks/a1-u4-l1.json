@@ -1,0 +1,243 @@
+{
+  "id": "a1-u4-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "厨房菜单",
+  "subtitle": "买菜、点餐和表达口味",
+  "theme": "restaurant-kitchen",
+  "grammarFocus": "would-like",
+  "grammarTags": [
+    "would-like",
+    "countable-nouns"
+  ],
+  "sourceStatus": "hand-authored",
+  "words": [
+    [
+      "ingredient",
+      "食材"
+    ],
+    [
+      "spicy",
+      "辣的"
+    ],
+    [
+      "recipe",
+      "食谱"
+    ]
+  ],
+  "dialogue": {
+    "id": "a1-u4-l1-dialogue",
+    "scene": "餐厅点餐",
+    "characters": [
+      {
+        "id": "mia",
+        "name": "Mia"
+      },
+      {
+        "id": "server",
+        "name": "Sam"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "mia",
+        "text": "I would like the vegetable soup, please.",
+        "translation": "请给我一份蔬菜汤。"
+      },
+      {
+        "speaker": "server",
+        "text": "Would you like bread with it?",
+        "translation": "你想配面包吗？"
+      },
+      {
+        "speaker": "mia",
+        "text": "Yes, please, but no butter.",
+        "translation": "好的，但不要黄油。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What does Mia want with her soup?",
+        "answer": "Bread without butter",
+        "options": [
+          "Bread without butter",
+          "Rice with extra cheese",
+          "A glass of milk"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "a1-u4-l1-q1",
+      "kind": "word",
+      "prompt": "ingredient",
+      "instruction": "选择这个词的直译",
+      "answer": "食材",
+      "options": [
+        "食材",
+        "菜单",
+        "厨房",
+        "餐桌"
+      ],
+      "translation": "食材"
+    },
+    {
+      "id": "a1-u4-l1-q2",
+      "kind": "choice",
+      "prompt": "I would like the vegetable soup, please.",
+      "instruction": "选择这句点餐表达的意思。",
+      "answer": "我想要一份蔬菜汤。",
+      "options": [
+        "我想要一份蔬菜汤。",
+        "这份酱料对我来说太辣了。",
+        "请给我们两份菜单，好吗？",
+        "这道菜需要三个鸡蛋。"
+      ],
+      "audio": "I would like the vegetable soup, please.",
+      "translation": "我想要一份蔬菜汤。"
+    },
+    {
+      "id": "a1-u4-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "这份酱料对我来说太辣了。",
+      "options": [
+        "这份酱料对我来说太辣了。",
+        "我想要一份蔬菜汤。",
+        "请给我们两份菜单，好吗？",
+        "这道菜需要三个鸡蛋。"
+      ],
+      "audio": "This sauce is too spicy for me.",
+      "translation": "这份酱料对我来说太辣了。"
+    },
+    {
+      "id": "a1-u4-l1-q4",
+      "kind": "order",
+      "prompt": "我们需要新鲜番茄来做这道菜。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We need fresh tomatoes for the recipe.",
+      "tokens": [
+        "We",
+        "need",
+        "fresh",
+        "tomatoes",
+        "for",
+        "the",
+        "recipe."
+      ],
+      "audio": "We need fresh tomatoes for the recipe.",
+      "translation": "我们需要新鲜番茄来做这道菜。"
+    },
+    {
+      "id": "a1-u4-l1-q5",
+      "kind": "fill",
+      "prompt": "Could you pass me the olive _____, please?",
+      "instruction": "选择厨房里合适的英文词。",
+      "answer": "oil",
+      "options": [
+        "oil",
+        "menu",
+        "soup",
+        "plate"
+      ],
+      "audio": "Could you pass me the olive oil, please?",
+      "translation": "请把橄榄油递给我，好吗？"
+    },
+    {
+      "id": "a1-u4-l1-q6",
+      "kind": "match",
+      "prompt": "把厨房和餐厅词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "ingredient",
+          "食材"
+        ],
+        [
+          "spicy",
+          "辣的"
+        ],
+        [
+          "recipe",
+          "食谱"
+        ],
+        [
+          "soup",
+          "汤"
+        ],
+        [
+          "sauce",
+          "酱料"
+        ],
+        [
+          "menu",
+          "菜单"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "食材、辣的、食谱、汤、酱料、菜单"
+    },
+    {
+      "id": "a1-u4-l1-q7",
+      "kind": "word",
+      "prompt": "spicy",
+      "instruction": "选择这个词的直译",
+      "answer": "辣的",
+      "options": [
+        "辣的",
+        "甜的",
+        "冷的",
+        "新鲜的"
+      ],
+      "translation": "辣的"
+    },
+    {
+      "id": "a1-u4-l1-q8",
+      "kind": "choice",
+      "prompt": "Could we have two menus, please?",
+      "instruction": "客人想要什么？",
+      "answer": "两份菜单。",
+      "options": [
+        "两份菜单。",
+        "我想要一份蔬菜汤。",
+        "这份酱料对我来说太辣了。",
+        "这道菜需要三个鸡蛋。"
+      ],
+      "audio": "Could we have two menus, please?",
+      "translation": "请给我们两份菜单，好吗？"
+    },
+    {
+      "id": "a1-u4-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "这道菜需要三个鸡蛋。",
+      "options": [
+        "这道菜需要三个鸡蛋。",
+        "我想要一份蔬菜汤。",
+        "这份酱料对我来说太辣了。",
+        "请给我们两份菜单，好吗？"
+      ],
+      "audio": "This dish needs three eggs.",
+      "translation": "这道菜需要三个鸡蛋。"
+    },
+    {
+      "id": "a1-u4-l1-q10",
+      "kind": "fill",
+      "prompt": "The soup _____ fresh herbs.",
+      "instruction": "选择一般现在时的正确形式。",
+      "answer": "needs",
+      "options": [
+        "needs",
+        "need",
+        "needing",
+        "needed"
+      ],
+      "audio": "The soup needs fresh herbs.",
+      "translation": "这道汤需要新鲜香草。"
+    }
+  ]
+}

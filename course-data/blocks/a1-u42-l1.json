@@ -1,0 +1,294 @@
+{
+  "id": "a1-u42-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶菜市场",
+  "subtitle": "询问重量和价格",
+  "theme": "market-stall",
+  "grammarFocus": "how-much",
+  "grammarTags": [
+    "how-much",
+    "shopping-language"
+  ],
+  "words": [
+    [
+      "kilo",
+      "公斤"
+    ],
+    [
+      "ripe",
+      "成熟的"
+    ],
+    [
+      "peach",
+      "桃子"
+    ],
+    [
+      "carrot",
+      "胡萝卜"
+    ],
+    [
+      "weigh",
+      "称重"
+    ],
+    [
+      "stall",
+      "摊位"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u42-l1-q1",
+      "kind": "word",
+      "prompt": "ripe · 菜市场",
+      "instruction": "选择意思。",
+      "answer": "成熟的",
+      "options": [
+        "成熟的",
+        "公斤",
+        "桃子",
+        "摊位"
+      ],
+      "translation": "成熟的",
+      "grammarTags": [
+        "how-much"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u42-l1-q2",
+      "kind": "choice",
+      "prompt": "How much are these ripe peaches?",
+      "instruction": "选择意思。",
+      "answer": "这些成熟的桃子多少钱？",
+      "options": [
+        "这些成熟的桃子多少钱？",
+        "这些胡萝卜有多重？",
+        "这个摊位几点关门？",
+        "一公斤桃子在哪里？"
+      ],
+      "audio": "How much are these ripe peaches?",
+      "translation": "这些成熟的桃子多少钱？",
+      "grammarTags": [
+        "how-much"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u42-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请称两公斤胡萝卜。",
+      "options": [
+        "请称两公斤胡萝卜。",
+        "请把桃子放进篮子。",
+        "请问摊位在哪里。",
+        "请把成熟水果摆好。"
+      ],
+      "audio": "Please weigh two kilos of carrots.",
+      "translation": "请称两公斤胡萝卜。",
+      "grammarTags": [
+        "how-much"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u42-l1-q4",
+      "kind": "order",
+      "prompt": "我想买半公斤桃子。",
+      "instruction": "组成英文句子。",
+      "answer": "I would like half a kilo of peaches.",
+      "audio": "I would like half a kilo of peaches.",
+      "translation": "我想买半公斤桃子。",
+      "grammarTags": [
+        "how-much"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u42-l1-q5",
+      "kind": "fill",
+      "prompt": "The fruit _____ is beside the bakery.",
+      "instruction": "选择名词。",
+      "answer": "stall",
+      "options": [
+        "stall",
+        "kilo",
+        "peach",
+        "carrot"
+      ],
+      "audio": "The fruit stall is beside the bakery.",
+      "translation": "水果摊在面包店旁边。",
+      "grammarTags": [
+        "how-much"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u42-l1-q6",
+      "kind": "match",
+      "prompt": "配对菜市场词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "kilo",
+          "公斤"
+        ],
+        [
+          "ripe",
+          "成熟的"
+        ],
+        [
+          "peach",
+          "桃子"
+        ],
+        [
+          "carrot",
+          "胡萝卜"
+        ],
+        [
+          "weigh",
+          "称重"
+        ],
+        [
+          "stall",
+          "摊位"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "公斤、成熟的、桃子、胡萝卜、称重、摊位",
+      "grammarTags": [
+        "how-much"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u42-l1-q7",
+      "kind": "word",
+      "prompt": "stall · 菜市场",
+      "instruction": "选择意思。",
+      "answer": "摊位",
+      "options": [
+        "摊位",
+        "公斤",
+        "胡萝卜",
+        "桃子"
+      ],
+      "translation": "摊位",
+      "grammarTags": [
+        "how-much"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u42-l1-q8",
+      "kind": "choice",
+      "prompt": "These carrots cost two dollars a kilo.",
+      "instruction": "选择意思。",
+      "answer": "这些胡萝卜每公斤两美元。",
+      "options": [
+        "这些胡萝卜每公斤两美元。",
+        "这些桃子两公斤一美元。",
+        "这个摊位两点关门。",
+        "这些胡萝卜已经成熟了。"
+      ],
+      "audio": "These carrots cost two dollars a kilo.",
+      "translation": "这些胡萝卜每公斤两美元。",
+      "grammarTags": [
+        "how-much"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u42-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "卖家给了我一只熟桃子。",
+      "options": [
+        "卖家给了我一只熟桃子。",
+        "卖家称了两公斤胡萝卜。",
+        "卖家把摊位搬到门口。",
+        "卖家正在清洗篮子。"
+      ],
+      "audio": "The seller gave me a ripe peach.",
+      "translation": "卖家给了我一只熟桃子。",
+      "grammarTags": [
+        "how-much"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u42-l1-q10",
+      "kind": "fill",
+      "prompt": "How _____ carrots do you need?",
+      "instruction": "选择数量词。",
+      "answer": "many",
+      "options": [
+        "many",
+        "much",
+        "ripe",
+        "kilo"
+      ],
+      "audio": "How many carrots do you need?",
+      "translation": "你需要多少根胡萝卜？",
+      "grammarTags": [
+        "how-much"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u42-l1-dialogue",
+    "scene": "市场买水果",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "seller",
+        "name": "Seller"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "How much are the peaches today?",
+        "translation": "今天桃子多少钱？"
+      },
+      {
+        "speaker": "seller",
+        "text": "They are three dollars a kilo.",
+        "translation": "每公斤三美元。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Please weigh half a kilo for me.",
+        "translation": "请帮我称半公斤。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

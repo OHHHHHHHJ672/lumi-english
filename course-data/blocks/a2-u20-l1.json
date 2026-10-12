@@ -1,0 +1,257 @@
+{
+  "id": "a2-u20-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "团队会议",
+  "subtitle": "准备议程、决定和行动",
+  "theme": "团队会议",
+  "grammarFocus": "modal-verbs",
+  "grammarTags": [
+    "modal-verbs"
+  ],
+  "words": [
+    [
+      "agenda",
+      "议程"
+    ],
+    [
+      "decision",
+      "决定"
+    ],
+    [
+      "action",
+      "行动"
+    ]
+  ],
+  "pairs": [
+    [
+      "agenda",
+      "议程"
+    ],
+    [
+      "decision",
+      "决定"
+    ],
+    [
+      "action",
+      "行动"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u20-l1-q1",
+      "kind": "word",
+      "prompt": "agenda",
+      "answer": "议程",
+      "translation": "议程",
+      "options": [
+        "议程",
+        "决定",
+        "行动",
+        "问题"
+      ]
+    },
+    {
+      "id": "a2-u20-l1-q2",
+      "kind": "choice",
+      "prompt": "The agenda includes three items.",
+      "audio": "The agenda includes three items.",
+      "answer": "议程包括三项内容。",
+      "translation": "议程包括三项内容。",
+      "options": [
+        "议程包括三项内容。",
+        "请把这个话题加进议程。",
+        "我们应该把决定记录在会议纪要里。",
+        "每项行动都需要明确负责人。"
+      ]
+    },
+    {
+      "id": "a2-u20-l1-q3",
+      "kind": "listen",
+      "prompt": "We reached a decision after a long discussion.",
+      "audio": "We reached a decision after a long discussion.",
+      "answer": "长时间讨论后我们做出了决定。",
+      "translation": "长时间讨论后我们做出了决定。",
+      "options": [
+        "长时间讨论后我们做出了决定。",
+        "我们应该把决定记录在会议纪要里。",
+        "每项行动都需要明确负责人。",
+        "你能在午饭前发送议程吗？"
+      ]
+    },
+    {
+      "id": "a2-u20-l1-q4",
+      "kind": "order",
+      "prompt": "谁来采取下一步行动？",
+      "audio": "Who will take the next action?",
+      "answer": "Who will take the next action?",
+      "translation": "谁来采取下一步行动？",
+      "tokens": [
+        "Who",
+        "will",
+        "take",
+        "the",
+        "next",
+        "action?"
+      ]
+    },
+    {
+      "id": "a2-u20-l1-q5",
+      "kind": "fill",
+      "prompt": "Please add this topic to the _____.",
+      "answer": "agenda",
+      "audio": "Please add this topic to the agenda.",
+      "translation": "请把这个话题加进议程。",
+      "options": [
+        "agenda",
+        "decision",
+        "action",
+        "message"
+      ]
+    },
+    {
+      "id": "a2-u20-l1-q6",
+      "kind": "match",
+      "prompt": "把「团队会议」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "agenda",
+          "议程"
+        ],
+        [
+          "decision",
+          "决定"
+        ],
+        [
+          "action",
+          "行动"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u20-l1-q7",
+      "kind": "word",
+      "prompt": "decision",
+      "answer": "决定",
+      "translation": "决定",
+      "audio": "decision",
+      "options": [
+        "决定",
+        "议程",
+        "行动",
+        "安排"
+      ]
+    },
+    {
+      "id": "a2-u20-l1-q8",
+      "kind": "choice",
+      "prompt": "We should record the decision in the minutes.",
+      "audio": "We should record the decision in the minutes.",
+      "answer": "我们应该把决定记录在会议纪要里。",
+      "translation": "我们应该把决定记录在会议纪要里。",
+      "options": [
+        "我们应该把决定记录在会议纪要里。",
+        "你能在午饭前发送议程吗？",
+        "团队必须同意下一步。",
+        "我明天会跟进那项行动。"
+      ]
+    },
+    {
+      "id": "a2-u20-l1-q9",
+      "kind": "listen",
+      "prompt": "Every action needs a clear owner.",
+      "audio": "Every action needs a clear owner.",
+      "answer": "每项行动都需要明确负责人。",
+      "translation": "每项行动都需要明确负责人。",
+      "options": [
+        "每项行动都需要明确负责人。",
+        "你能在午饭前发送议程吗？",
+        "团队必须同意下一步。",
+        "我明天会跟进那项行动。"
+      ]
+    },
+    {
+      "id": "a2-u20-l1-q10",
+      "kind": "fill",
+      "prompt": "The team must make a _____ today.",
+      "answer": "decision",
+      "audio": "The team must make a decision today.",
+      "translation": "团队今天必须做出决定。",
+      "options": [
+        "decision",
+        "agenda",
+        "action",
+        "plan"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u20-l1-dialogue",
+    "scene": "团队会议",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The agenda includes three items.",
+        "translation": "议程包括三项内容。"
+      },
+      {
+        "speaker": "partner",
+        "text": "We reached a decision after a long discussion.",
+        "translation": "长时间讨论后我们做出了决定。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Who will take the next action?",
+        "translation": "谁来采取下一步行动？"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is this conversation mainly about?",
+        "answer": "议程包括三项内容。",
+        "options": [
+          "议程包括三项内容。",
+          "请把这个话题加进议程。",
+          "你能在午饭前发送议程吗？"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

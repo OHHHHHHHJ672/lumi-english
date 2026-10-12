@@ -1,1 +1,198 @@
-{"id":"a1-u35-l1","levelId":"a1","cefr":"A1","title":"颜色形状","subtitle":"描述物品的颜色和形状","theme":"colours-shapes","grammarFocus":"colours-shapes","grammarTags":["colours-shapes","descriptions"],"words":[["round","圆的"],["square","方的"],["bright","明亮的"],["dark","深色的"],["purple","紫色的"],["triangle","三角形"]],"questions":[{"id":"a1-u35-l1-q1","kind":"word","prompt":"triangle · 颜色形状","instruction":"选择意思。","answer":"三角形","options":["三角形","圆的","方的","紫色的"],"translation":"三角形"},{"id":"a1-u35-l1-q2","kind":"choice","prompt":"The bright yellow ball is round.","instruction":"选择意思。","answer":"那个明亮的黄色球是圆的。","audio":"The bright yellow ball is round.","translation":"那个明亮的黄色球是圆的。"},{"id":"a1-u35-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"墙上有一幅深色的方画。","audio":"There is a dark square picture on the wall.","translation":"墙上有一幅深色的方画。"},{"id":"a1-u35-l1-q4","kind":"order","prompt":"这张桌子是白色的。","instruction":"组成英文句子。","answer":"This table is white.","audio":"This table is white.","translation":"这张桌子是白色的。"},{"id":"a1-u35-l1-q5","kind":"fill","prompt":"Draw a _____ with three equal sides.","instruction":"选择形状。","answer":"triangle","audio":"Draw a triangle with three equal sides.","translation":"画一个有三条等边的三角形。"},{"id":"a1-u35-l1-q6","kind":"match","prompt":"配对颜色形状词语。","instruction":"完成配对。","pairs":[["round","圆的"],["square","方的"],["bright","明亮的"],["dark","深色的"],["purple","紫色的"],["triangle","三角形"]],"answer":"matched","translation":"圆的、方的、明亮的、深色的、紫色的、三角形"},{"id":"a1-u35-l1-q7","kind":"word","prompt":"purple · 颜色形状","instruction":"选择意思。","answer":"紫色的","options":["紫色的","深色的","明亮的","圆的"],"translation":"紫色的"},{"id":"a1-u35-l1-q8","kind":"choice","prompt":"She chose a square blue box for the gift.","instruction":"选择意思。","answer":"她为礼物选了一个方形蓝盒子。","audio":"She chose a square blue box for the gift.","translation":"她为礼物选了一个方形蓝盒子。"},{"id":"a1-u35-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"红色的圆盘在架子上。","audio":"The red circle is on the shelf.","translation":"红色的圆盘在架子上。"},{"id":"a1-u35-l1-q10","kind":"fill","prompt":"The room looks _____ with these lamps.","instruction":"选择形容词。","answer":"bright","audio":"The room looks bright with these lamps.","translation":"有了这些灯，房间看起来很明亮。"}],"dialogue":{"id":"a1-u35-l1-dialogue","scene":"描述画作","characters":[{"id":"lumi","name":"Lumi"},{"id":"iris","name":"Iris"}],"turns":[{"speaker":"lumi","text":"What shape is the picture in the corner?","translation":"角落里的画是什么形状？"},{"speaker":"iris","text":"It is a dark purple triangle.","translation":"它是深紫色的三角形。"},{"speaker":"lumi","text":"The bright yellow circle is my favorite.","translation":"明亮的黄色圆形是我最喜欢的。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u35-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "颜色形状",
+  "subtitle": "描述物品的颜色和形状",
+  "theme": "colours-shapes",
+  "grammarFocus": "colours-shapes",
+  "grammarTags": [
+    "colours-shapes",
+    "descriptions"
+  ],
+  "words": [
+    [
+      "round",
+      "圆的"
+    ],
+    [
+      "square",
+      "方的"
+    ],
+    [
+      "bright",
+      "明亮的"
+    ],
+    [
+      "dark",
+      "深色的"
+    ],
+    [
+      "purple",
+      "紫色的"
+    ],
+    [
+      "triangle",
+      "三角形"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u35-l1-q1",
+      "kind": "word",
+      "prompt": "triangle · 颜色形状",
+      "instruction": "选择意思。",
+      "answer": "三角形",
+      "options": [
+        "三角形",
+        "圆的",
+        "方的",
+        "紫色的"
+      ],
+      "translation": "三角形"
+    },
+    {
+      "id": "a1-u35-l1-q2",
+      "kind": "choice",
+      "prompt": "The bright yellow ball is round.",
+      "instruction": "选择意思。",
+      "answer": "那个明亮的黄色球是圆的。",
+      "audio": "The bright yellow ball is round.",
+      "translation": "那个明亮的黄色球是圆的。"
+    },
+    {
+      "id": "a1-u35-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "墙上有一幅深色的方画。",
+      "audio": "There is a dark square picture on the wall.",
+      "translation": "墙上有一幅深色的方画。"
+    },
+    {
+      "id": "a1-u35-l1-q4",
+      "kind": "order",
+      "prompt": "这张桌子是白色的。",
+      "instruction": "组成英文句子。",
+      "answer": "This table is white.",
+      "audio": "This table is white.",
+      "translation": "这张桌子是白色的。"
+    },
+    {
+      "id": "a1-u35-l1-q5",
+      "kind": "fill",
+      "prompt": "Draw a _____ with three equal sides.",
+      "instruction": "选择形状。",
+      "answer": "triangle",
+      "audio": "Draw a triangle with three equal sides.",
+      "translation": "画一个有三条等边的三角形。"
+    },
+    {
+      "id": "a1-u35-l1-q6",
+      "kind": "match",
+      "prompt": "配对颜色形状词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "round",
+          "圆的"
+        ],
+        [
+          "square",
+          "方的"
+        ],
+        [
+          "bright",
+          "明亮的"
+        ],
+        [
+          "dark",
+          "深色的"
+        ],
+        [
+          "purple",
+          "紫色的"
+        ],
+        [
+          "triangle",
+          "三角形"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "圆的、方的、明亮的、深色的、紫色的、三角形"
+    },
+    {
+      "id": "a1-u35-l1-q7",
+      "kind": "word",
+      "prompt": "purple · 颜色形状",
+      "instruction": "选择意思。",
+      "answer": "紫色的",
+      "options": [
+        "紫色的",
+        "深色的",
+        "明亮的",
+        "圆的"
+      ],
+      "translation": "紫色的"
+    },
+    {
+      "id": "a1-u35-l1-q8",
+      "kind": "choice",
+      "prompt": "She chose a square blue box for the gift.",
+      "instruction": "选择意思。",
+      "answer": "她为礼物选了一个方形蓝盒子。",
+      "audio": "She chose a square blue box for the gift.",
+      "translation": "她为礼物选了一个方形蓝盒子。"
+    },
+    {
+      "id": "a1-u35-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "红色的圆盘在架子上。",
+      "audio": "The red circle is on the shelf.",
+      "translation": "红色的圆盘在架子上。"
+    },
+    {
+      "id": "a1-u35-l1-q10",
+      "kind": "fill",
+      "prompt": "The room looks _____ with these lamps.",
+      "instruction": "选择形容词。",
+      "answer": "bright",
+      "audio": "The room looks bright with these lamps.",
+      "translation": "有了这些灯，房间看起来很明亮。"
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u35-l1-dialogue",
+    "scene": "描述画作",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "iris",
+        "name": "Iris"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "What shape is the picture in the corner?",
+        "translation": "角落里的画是什么形状？"
+      },
+      {
+        "speaker": "iris",
+        "text": "It is a dark purple triangle.",
+        "translation": "它是深紫色的三角形。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "The bright yellow circle is my favorite.",
+        "translation": "明亮的黄色圆形是我最喜欢的。"
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

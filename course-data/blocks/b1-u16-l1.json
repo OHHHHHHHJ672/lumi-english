@@ -1,0 +1,366 @@
+{
+  "id": "b1-u16-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "公众沟通",
+  "subtitle": "发布声明并澄清误会",
+  "theme": "公众沟通",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "statement",
+      "声明"
+    ],
+    [
+      "clarify",
+      "澄清"
+    ],
+    [
+      "rumor",
+      "传闻"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "statement · 公众沟通",
+      "audio": "statement",
+      "instruction": "选择中文意思。",
+      "answer": "声明",
+      "translation": "声明",
+      "options": [
+        "声明",
+        "澄清",
+        "传闻",
+        "计划"
+      ],
+      "id": "b1-u16-l1-q1",
+      "lessonId": "b1-u16-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The company has published a short statement.",
+      "audio": "The company has published a short statement.",
+      "instruction": "选择这句话的意思。",
+      "answer": "公司已经发布了一份简短的声明。",
+      "translation": "公司已经发布了一份简短的声明。",
+      "options": [
+        "公司已经发布了一份简短的声明。",
+        "主管澄清了传闻中说错的地方。",
+        "我们已经回应了公众最关心的问题。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u16-l1-q2",
+      "lessonId": "b1-u16-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The director clarified what the rumor got wrong.",
+      "instruction": "听完整句子。",
+      "answer": "主管澄清了传闻中说错的地方。",
+      "translation": "主管澄清了传闻中说错的地方。",
+      "options": [
+        "主管澄清了传闻中说错的地方。",
+        "公司已经发布了一份简短的声明。",
+        "我们已经回应了公众最关心的问题。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u16-l1-q3",
+      "lessonId": "b1-u16-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们已经回应了公众最关心的问题。",
+      "audio": "We have answered the public’s main question.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "We have answered the public’s main question.",
+      "translation": "我们已经回应了公众最关心的问题。",
+      "tokens": [
+        "We",
+        "have",
+        "answered",
+        "the",
+        "public’s",
+        "main",
+        "question."
+      ],
+      "id": "b1-u16-l1-q4",
+      "lessonId": "b1-u16-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the statement before the meeting.",
+      "audio": "The team has reviewed the statement before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了声明。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u16-l1-q5",
+      "lessonId": "b1-u16-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「公众沟通」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "statement",
+          "声明"
+        ],
+        [
+          "clarify",
+          "澄清"
+        ],
+        [
+          "rumor",
+          "传闻"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u16-l1-q6",
+      "lessonId": "b1-u16-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "clarify · 公众沟通",
+      "audio": "clarify",
+      "instruction": "选择中文意思。",
+      "answer": "澄清",
+      "translation": "澄清",
+      "options": [
+        "澄清",
+        "声明",
+        "传闻",
+        "问题"
+      ],
+      "id": "b1-u16-l1-q7",
+      "lessonId": "b1-u16-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The statement avoids blaming one person.",
+      "audio": "The statement avoids blaming one person.",
+      "instruction": "选择这句话的意思。",
+      "answer": "这份声明避免把责任归到某一个人身上。",
+      "translation": "这份声明避免把责任归到某一个人身上。",
+      "options": [
+        "这份声明避免把责任归到某一个人身上。",
+        "公司已经发布了一份简短的声明。",
+        "主管澄清了传闻中说错的地方。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u16-l1-q8",
+      "lessonId": "b1-u16-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "A reporter asked for the original figures.",
+      "instruction": "听完整句子。",
+      "answer": "一位记者索要了原始数据。",
+      "translation": "一位记者索要了原始数据。",
+      "options": [
+        "一位记者索要了原始数据。",
+        "公司已经发布了一份简短的声明。",
+        "主管澄清了传闻中说错的地方。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u16-l1-q9",
+      "lessonId": "b1-u16-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the rumor before Friday.",
+      "audio": "We should clarify the rumor before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清传闻。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u16-l1-q10",
+      "lessonId": "b1-u16-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u16-l1-dialogue",
+    "scene": "公众沟通",
+    "characters": [
+      {
+        "id": "ava",
+        "name": "Ava",
+        "role": "colleague"
+      },
+      {
+        "id": "noah",
+        "name": "Noah",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "ava",
+        "text": "The rumor says the service will close, but our figures say otherwise.",
+        "translation": "传闻说服务会关闭，但我们的数据并非如此。"
+      },
+      {
+        "speaker": "noah",
+        "text": "Let us publish a statement that clarifies the opening date.",
+        "translation": "那我们发布一份澄清开放日期的声明。"
+      },
+      {
+        "speaker": "ava",
+        "text": "I have checked the wording for a calm tone.",
+        "translation": "我已经检查过措辞，确保语气平静。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Noah提出了什么建议？",
+        "answer": "Let us publish a statement that clarifies the opening date.",
+        "options": [
+          "Let us publish a statement that clarifies the opening date.",
+          "The rumor says the service will close, but our figures say otherwise.",
+          "I have checked the wording for a calm tone."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

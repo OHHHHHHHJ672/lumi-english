@@ -1,0 +1,564 @@
+{
+  "id": "b2-u20-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "地缘政治",
+  "subtitle": "理解外交、制裁和主权",
+  "theme": "地缘政治",
+  "grammarFocus": "reported-speech",
+  "grammarTags": [
+    "reported-speech"
+  ],
+  "words": [
+    [
+      "diplomacy",
+      "外交"
+    ],
+    [
+      "sanction",
+      "制裁"
+    ],
+    [
+      "sovereignty",
+      "主权"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "diplomacy · 地缘政治",
+      "audio": "diplomacy",
+      "instruction": "选择这个词的直译",
+      "answer": "外交",
+      "options": [
+        "外交",
+        "制裁",
+        "主权",
+        "问题"
+      ],
+      "translation": "外交",
+      "id": "b2-u20-l1-q1",
+      "lessonId": "b2-u20-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "reported-speech"
+      ],
+      "glossary": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "She said that the diplomacy was ready.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "她说外交已经准备好了。",
+      "options": [
+        "她说外交已经准备好了。",
+        "她说制裁已经准备好了。",
+        "她说制裁已经准备好了。，本月。",
+        "她说主权已经准备好了。，下班后。"
+      ],
+      "audio": "She said that the diplomacy was ready.",
+      "translation": "她说外交已经准备好了。",
+      "id": "b2-u20-l1-q2",
+      "lessonId": "b2-u20-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "reported-speech"
+      ],
+      "glossary": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "她说制裁已经准备好了。",
+      "options": [
+        "她说外交已经准备好了。",
+        "她说制裁已经准备好了。",
+        "她说制裁已经准备好了。，本月。",
+        "她说主权已经准备好了。，下班后。"
+      ],
+      "audio": "She said that the sanction was ready.",
+      "translation": "她说制裁已经准备好了。",
+      "id": "b2-u20-l1-q3",
+      "lessonId": "b2-u20-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "reported-speech"
+      ],
+      "glossary": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "她说主权已经准备好了。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "She said that the sovereignty was ready.",
+      "tokens": [
+        "She",
+        "said",
+        "that",
+        "the",
+        "sovereignty",
+        "was",
+        "ready."
+      ],
+      "audio": "She said that the sovereignty was ready.",
+      "translation": "她说主权已经准备好了。",
+      "id": "b2-u20-l1-q4",
+      "lessonId": "b2-u20-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "reported-speech"
+      ],
+      "glossary": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this month.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "diplomacy",
+      "options": [
+        "diplomacy",
+        "sanction",
+        "sovereignty",
+        "message"
+      ],
+      "audio": "Please check the diplomacy this month.",
+      "translation": "请本月检查外交。",
+      "id": "b2-u20-l1-q5",
+      "lessonId": "b2-u20-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "reported-speech"
+      ],
+      "glossary": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「地缘政治」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "diplomacy、外交；sanction、制裁；sovereignty、主权；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u20-l1-q6",
+      "lessonId": "b2-u20-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "reported-speech"
+      ],
+      "glossary": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "sanction · 地缘政治",
+      "audio": "sanction",
+      "instruction": "选择这个词的直译",
+      "answer": "制裁",
+      "options": [
+        "制裁",
+        "外交",
+        "主权",
+        "安排"
+      ],
+      "translation": "制裁",
+      "id": "b2-u20-l1-q7",
+      "lessonId": "b2-u20-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "reported-speech"
+      ],
+      "glossary": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "She said that the sanction was ready. this month.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "她说制裁已经准备好了。，本月。",
+      "options": [
+        "她说外交已经准备好了。",
+        "她说制裁已经准备好了。",
+        "她说制裁已经准备好了。，本月。",
+        "她说主权已经准备好了。，下班后。"
+      ],
+      "audio": "She said that the sanction was ready. this month.",
+      "translation": "她说制裁已经准备好了。，本月。",
+      "id": "b2-u20-l1-q8",
+      "lessonId": "b2-u20-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "reported-speech"
+      ],
+      "glossary": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "她说主权已经准备好了。，下班后。",
+      "options": [
+        "她说外交已经准备好了。",
+        "她说制裁已经准备好了。",
+        "她说制裁已经准备好了。，本月。",
+        "她说主权已经准备好了。，下班后。"
+      ],
+      "audio": "She said that the sovereignty was ready. after work.",
+      "translation": "她说主权已经准备好了。，下班后。",
+      "id": "b2-u20-l1-q9",
+      "lessonId": "b2-u20-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "reported-speech"
+      ],
+      "glossary": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the sanction after work.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the sanction after work.",
+      "translation": "我们需要下班后检查制裁。",
+      "id": "b2-u20-l1-q10",
+      "lessonId": "b2-u20-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "reported-speech"
+      ],
+      "glossary": [
+        [
+          "diplomacy",
+          "外交"
+        ],
+        [
+          "sanction",
+          "制裁"
+        ],
+        [
+          "sovereignty",
+          "主权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u20-l1-dialogue",
+    "scene": "地缘政治",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about diplomacy?",
+        "translation": "你能再告诉我一些关于外交的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use diplomacy when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到外交。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use diplomacy in a daily plan",
+        "options": [
+          "How to use diplomacy in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,365 @@
+{
+  "id": "b1-u15-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "远程工作",
+  "subtitle": "描述灵活工作和效率",
+  "theme": "远程工作",
+  "grammarFocus": "modals",
+  "grammarTags": [
+    "modals"
+  ],
+  "words": [
+    [
+      "bandwidth",
+      "带宽"
+    ],
+    [
+      "flexible",
+      "灵活的"
+    ],
+    [
+      "productivity",
+      "生产力"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "bandwidth · 远程工作",
+      "audio": "bandwidth",
+      "instruction": "选择中文意思。",
+      "answer": "带宽",
+      "translation": "带宽",
+      "options": [
+        "带宽",
+        "灵活的",
+        "生产力",
+        "计划"
+      ],
+      "id": "b1-u15-l1-q1",
+      "lessonId": "b1-u15-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "Our team can work flexibly when the meeting is recorded.",
+      "audio": "Our team can work flexibly when the meeting is recorded.",
+      "instruction": "选择这句话的意思。",
+      "answer": "会议有录制时，我们的团队可以灵活安排工作。",
+      "translation": "会议有录制时，我们的团队可以灵活安排工作。",
+      "options": [
+        "会议有录制时，我们的团队可以灵活安排工作。",
+        "分享视频前应该先检查带宽。",
+        "安静的日程安排可能提升工作效率。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u15-l1-q2",
+      "lessonId": "b1-u15-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "You should check the bandwidth before sharing video.",
+      "instruction": "听完整句子。",
+      "answer": "分享视频前应该先检查带宽。",
+      "translation": "分享视频前应该先检查带宽。",
+      "options": [
+        "分享视频前应该先检查带宽。",
+        "会议有录制时，我们的团队可以灵活安排工作。",
+        "安静的日程安排可能提升工作效率。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u15-l1-q3",
+      "lessonId": "b1-u15-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "安静的日程安排可能提升工作效率。",
+      "audio": "A quiet schedule may improve productivity.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "A quiet schedule may improve productivity.",
+      "translation": "安静的日程安排可能提升工作效率。",
+      "tokens": [
+        "A",
+        "quiet",
+        "schedule",
+        "may",
+        "improve",
+        "productivity."
+      ],
+      "id": "b1-u15-l1-q4",
+      "lessonId": "b1-u15-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the summary before the meeting.",
+      "audio": "The team has reviewed the summary before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了摘要。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u15-l1-q5",
+      "lessonId": "b1-u15-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「远程工作」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "bandwidth",
+          "带宽"
+        ],
+        [
+          "flexible",
+          "灵活的"
+        ],
+        [
+          "productivity",
+          "生产力"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u15-l1-q6",
+      "lessonId": "b1-u15-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "flexible · 远程工作",
+      "audio": "flexible",
+      "instruction": "选择中文意思。",
+      "answer": "灵活的",
+      "translation": "灵活的",
+      "options": [
+        "灵活的",
+        "带宽",
+        "生产力",
+        "问题"
+      ],
+      "id": "b1-u15-l1-q7",
+      "lessonId": "b1-u15-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We could move the workshop to an asynchronous format.",
+      "audio": "We could move the workshop to an asynchronous format.",
+      "instruction": "选择这句话的意思。",
+      "answer": "我们可以把工作坊改成异步形式。",
+      "translation": "我们可以把工作坊改成异步形式。",
+      "options": [
+        "我们可以把工作坊改成异步形式。",
+        "会议有录制时，我们的团队可以灵活安排工作。",
+        "分享视频前应该先检查带宽。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u15-l1-q8",
+      "lessonId": "b1-u15-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "Managers must respect different home routines.",
+      "instruction": "听完整句子。",
+      "answer": "管理者必须尊重不同的家庭作息。",
+      "translation": "管理者必须尊重不同的家庭作息。",
+      "options": [
+        "管理者必须尊重不同的家庭作息。",
+        "会议有录制时，我们的团队可以灵活安排工作。",
+        "分享视频前应该先检查带宽。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u15-l1-q9",
+      "lessonId": "b1-u15-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the productivity before Friday.",
+      "audio": "We should clarify the productivity before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清生产力。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u15-l1-q10",
+      "lessonId": "b1-u15-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u15-l1-dialogue",
+    "scene": "远程工作",
+    "characters": [
+      {
+        "id": "luca",
+        "name": "Luca",
+        "role": "colleague"
+      },
+      {
+        "id": "nadia",
+        "name": "Nadia",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "luca",
+        "text": "My connection drops whenever I share a large video file.",
+        "translation": "我分享大视频文件时连接总会中断。"
+      },
+      {
+        "speaker": "nadia",
+        "text": "You could upload it overnight and keep the meeting audio-only.",
+        "translation": "你可以夜间上传，并让会议只保留音频。"
+      },
+      {
+        "speaker": "luca",
+        "text": "That would protect bandwidth without reducing participation.",
+        "translation": "这样既能保护带宽，也不会减少参与。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Nadia提出了什么建议？",
+        "answer": "You could upload it overnight and keep the meeting audio-only.",
+        "options": [
+          "You could upload it overnight and keep the meeting audio-only.",
+          "My connection drops whenever I share a large video file.",
+          "That would protect bandwidth without reducing participation."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

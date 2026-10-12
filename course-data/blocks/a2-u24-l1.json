@@ -1,0 +1,256 @@
+{
+  "id": "a2-u24-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "工作班次",
+  "subtitle": "谈论排班、加班和时间安排",
+  "theme": "工作班次",
+  "grammarFocus": "time-expressions",
+  "grammarTags": [
+    "time-expressions"
+  ],
+  "words": [
+    [
+      "roster",
+      "排班表"
+    ],
+    [
+      "overtime",
+      "加班"
+    ],
+    [
+      "weekday",
+      "工作日"
+    ]
+  ],
+  "pairs": [
+    [
+      "roster",
+      "排班表"
+    ],
+    [
+      "overtime",
+      "加班"
+    ],
+    [
+      "weekday",
+      "工作日"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u24-l1-q1",
+      "kind": "word",
+      "prompt": "roster",
+      "answer": "排班表",
+      "translation": "排班表",
+      "options": [
+        "排班表",
+        "加班",
+        "工作日",
+        "问题"
+      ]
+    },
+    {
+      "id": "a2-u24-l1-q2",
+      "kind": "choice",
+      "prompt": "The roster changes every Monday.",
+      "audio": "The roster changes every Monday.",
+      "answer": "排班表每周一更新。",
+      "translation": "排班表每周一更新。",
+      "options": [
+        "排班表每周一更新。",
+        "你能查看下周的排班表吗？",
+        "我的加班费今天到账了。",
+        "我更喜欢工作日的早班。"
+      ]
+    },
+    {
+      "id": "a2-u24-l1-q3",
+      "kind": "listen",
+      "prompt": "I worked overtime last Saturday.",
+      "audio": "I worked overtime last Saturday.",
+      "answer": "我上周六加了班。",
+      "translation": "我上周六加了班。",
+      "options": [
+        "我上周六加了班。",
+        "我的加班费今天到账了。",
+        "我更喜欢工作日的早班。",
+        "经理午饭前公布了排班表。"
+      ]
+    },
+    {
+      "id": "a2-u24-l1-q4",
+      "kind": "order",
+      "prompt": "这里工作日通常更安静。",
+      "audio": "Weekdays are usually quieter here.",
+      "answer": "Weekdays are usually quieter here.",
+      "translation": "这里工作日通常更安静。",
+      "tokens": [
+        "Weekdays",
+        "are",
+        "usually",
+        "quieter",
+        "here."
+      ]
+    },
+    {
+      "id": "a2-u24-l1-q5",
+      "kind": "fill",
+      "prompt": "Could you check the _____ for next week?",
+      "answer": "roster",
+      "audio": "Could you check the roster for next week?",
+      "translation": "你能查看下周的排班表吗？",
+      "options": [
+        "roster",
+        "overtime",
+        "weekday",
+        "message"
+      ]
+    },
+    {
+      "id": "a2-u24-l1-q6",
+      "kind": "match",
+      "prompt": "把「工作班次」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "roster",
+          "排班表"
+        ],
+        [
+          "overtime",
+          "加班"
+        ],
+        [
+          "weekday",
+          "工作日"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u24-l1-q7",
+      "kind": "word",
+      "prompt": "overtime",
+      "answer": "加班",
+      "translation": "加班",
+      "audio": "overtime",
+      "options": [
+        "加班",
+        "排班表",
+        "工作日",
+        "安排"
+      ]
+    },
+    {
+      "id": "a2-u24-l1-q8",
+      "kind": "choice",
+      "prompt": "My overtime pay arrived today.",
+      "audio": "My overtime pay arrived today.",
+      "answer": "我的加班费今天到账了。",
+      "translation": "我的加班费今天到账了。",
+      "options": [
+        "我的加班费今天到账了。",
+        "经理午饭前公布了排班表。",
+        "我们周一九点开会。",
+        "如有排班变化请告诉我。"
+      ]
+    },
+    {
+      "id": "a2-u24-l1-q9",
+      "kind": "listen",
+      "prompt": "I prefer an early shift on weekdays.",
+      "audio": "I prefer an early shift on weekdays.",
+      "answer": "我更喜欢工作日的早班。",
+      "translation": "我更喜欢工作日的早班。",
+      "options": [
+        "我更喜欢工作日的早班。",
+        "经理午饭前公布了排班表。",
+        "我们周一九点开会。",
+        "如有排班变化请告诉我。"
+      ]
+    },
+    {
+      "id": "a2-u24-l1-q10",
+      "kind": "fill",
+      "prompt": "He works _____ on Monday.",
+      "answer": "overtime",
+      "audio": "He works overtime on Monday.",
+      "translation": "他周一加班。",
+      "options": [
+        "overtime",
+        "roster",
+        "weekday",
+        "plan"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u24-l1-dialogue",
+    "scene": "工作班次",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The roster changes every Monday.",
+        "translation": "排班表每周一更新。"
+      },
+      {
+        "speaker": "partner",
+        "text": "I worked overtime last Saturday.",
+        "translation": "我上周六加了班。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Weekdays are usually quieter here.",
+        "translation": "这里工作日通常更安静。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is this conversation mainly about?",
+        "answer": "排班表每周一更新。",
+        "options": [
+          "排班表每周一更新。",
+          "你能查看下周的排班表吗？",
+          "经理午饭前公布了排班表。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

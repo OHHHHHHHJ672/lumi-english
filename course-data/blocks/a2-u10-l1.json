@@ -1,0 +1,329 @@
+{
+  "id": "a2-u10-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "工作邮件",
+  "subtitle": "写邮件、附件和转发",
+  "theme": "工作邮件",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "subject",
+      "主题"
+    ],
+    [
+      "attach",
+      "附上"
+    ],
+    [
+      "forward",
+      "转发"
+    ]
+  ],
+  "pairs": [
+    [
+      "subject",
+      "主题"
+    ],
+    [
+      "attach",
+      "附上"
+    ],
+    [
+      "forward",
+      "转发"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u10-l1-q1",
+      "kind": "word",
+      "prompt": "subject · 工作邮件",
+      "instruction": "选择这个词的直译",
+      "answer": "主题",
+      "options": [
+        "主题",
+        "附上",
+        "转发",
+        "问题"
+      ],
+      "translation": "主题",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u10-l1-q2",
+      "kind": "choice",
+      "prompt": "I have attached the updated document.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我已经附上更新后的文件。",
+      "translation": "我已经附上更新后的文件。",
+      "audio": "I have attached the updated document.",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "choice"
+      ],
+      "options": [
+        "我已经附上更新后的文件。",
+        "主题行应该清楚。",
+        "我忘了附上会议记录。",
+        "她把邮件转发给了经理。"
+      ]
+    },
+    {
+      "id": "a2-u10-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "请在回复中附上发票。",
+      "translation": "请在回复中附上发票。",
+      "audio": "Please include the invoice in your reply.",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "listen"
+      ],
+      "options": [
+        "请在回复中附上发票。",
+        "我忘了附上会议记录。",
+        "她把邮件转发给了经理。",
+        "你看过我的邮件主题了吗？"
+      ]
+    },
+    {
+      "id": "a2-u10-l1-q4",
+      "kind": "order",
+      "prompt": "你能把这条消息转发给蒂娜吗？",
+      "instruction": "把词块组成英文句子。",
+      "answer": "Could you forward this message to Tina?",
+      "translation": "你能把这条消息转发给蒂娜吗？",
+      "audio": "Could you forward this message to Tina?",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "order"
+      ],
+      "tokens": [
+        "Could",
+        "you",
+        "forward",
+        "this",
+        "message",
+        "to",
+        "Tina?"
+      ]
+    },
+    {
+      "id": "a2-u10-l1-q5",
+      "kind": "fill",
+      "prompt": "The _____ line should be clear.",
+      "instruction": "选择英文词完成句子。",
+      "answer": "subject",
+      "options": [
+        "subject",
+        "attach",
+        "forward",
+        "message"
+      ],
+      "audio": "The subject line should be clear.",
+      "translation": "主题行应该清楚。",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a2-u10-l1-q6",
+      "kind": "match",
+      "prompt": "把「工作邮件」的重点词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "subject",
+          "主题"
+        ],
+        [
+          "attach",
+          "附上"
+        ],
+        [
+          "forward",
+          "转发"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "subject、主题；attach、附上；forward、转发；message、消息；schedule、日程；meeting、会议",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a2-u10-l1-q7",
+      "kind": "word",
+      "prompt": "attach · 工作邮件",
+      "instruction": "选择这个词的直译",
+      "answer": "附上",
+      "options": [
+        "附上",
+        "主题",
+        "转发",
+        "安排"
+      ],
+      "translation": "附上",
+      "audio": "attach",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u10-l1-q8",
+      "kind": "choice",
+      "prompt": "Have you read the subject of my email?",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "你看过我的邮件主题了吗？",
+      "options": [
+        "你看过我的邮件主题了吗？",
+        "我已经附上更新后的文件。",
+        "请在回复中附上发票。",
+        "你能把这条消息转发给蒂娜吗？"
+      ],
+      "audio": "Have you read the subject of my email?",
+      "translation": "你看过我的邮件主题了吗？",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "a2-u10-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "发送前请附上文件。",
+      "options": [
+        "发送前请附上文件。",
+        "我已经附上更新后的文件。",
+        "请在回复中附上发票。",
+        "你能把这条消息转发给蒂娜吗？"
+      ],
+      "audio": "Please attach the file before sending before dinner.",
+      "translation": "发送前请附上文件，晚饭前。",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a2-u10-l1-q10",
+      "kind": "fill",
+      "prompt": "Please _____ the file before sending.",
+      "instruction": "选择正确的词完成句子。",
+      "answer": "attach",
+      "options": [
+        "attach",
+        "subject",
+        "forward",
+        "plan"
+      ],
+      "audio": "Please attach the file before sending.",
+      "translation": "发送前请附上文件。",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u10-l1-dialogue",
+    "scene": "工作邮件",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I have attached the updated document.",
+        "translation": "我已经附上更新后的文件。"
+      },
+      {
+        "speaker": "partner",
+        "text": "Please include the invoice in your reply.",
+        "translation": "请在回复中附上发票。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Could you forward this message to Tina?",
+        "translation": "你能把这条消息转发给蒂娜吗？"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is the conversation mainly about?",
+        "answer": "我已经附上更新后的文件。",
+        "options": [
+          "我已经附上更新后的文件。",
+          "主题行应该清楚。",
+          "你看过我的邮件主题了吗？"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

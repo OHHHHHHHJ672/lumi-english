@@ -1,0 +1,232 @@
+{
+  "id": "a2-u26-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "健康饮食",
+  "subtitle": "谈论营养、分量和习惯",
+  "theme": "health-advice",
+  "grammarFocus": "health-advice",
+  "grammarTags": [
+    "health-advice"
+  ],
+  "words": [
+    [
+      "portion",
+      "分量"
+    ],
+    [
+      "nutrition",
+      "营养"
+    ],
+    [
+      "balanced",
+      "均衡的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u26-l1-q1",
+      "kind": "word",
+      "prompt": "portion",
+      "answer": "分量",
+      "translation": "分量",
+      "options": [
+        "分量",
+        "营养",
+        "均衡的",
+        "食谱"
+      ]
+    },
+    {
+      "id": "a2-u26-l1-q2",
+      "kind": "choice",
+      "prompt": "A balanced breakfast gives me energy.",
+      "audio": "A balanced breakfast gives me energy.",
+      "answer": "均衡的早餐给我能量。",
+      "translation": "均衡的早餐给我能量。",
+      "options": [
+        "均衡的早餐给我能量。",
+        "丰盛的晚餐让我困倦。",
+        "少量的早餐让我口渴。",
+        "营养标签告诉我时间。"
+      ]
+    },
+    {
+      "id": "a2-u26-l1-q3",
+      "kind": "listen",
+      "prompt": "听清医生谈到什么。",
+      "audio": "The doctor explained the importance of nutrition.",
+      "answer": "医生解释了营养的重要性。",
+      "translation": "医生解释了营养的重要性。",
+      "options": [
+        "医生解释了营养的重要性。",
+        "医生改变了我的预约时间。",
+        "医生建议我增加运动量。",
+        "医生询问了我的药物剂量。"
+      ]
+    },
+    {
+      "id": "a2-u26-l1-q4",
+      "kind": "order",
+      "prompt": "我通常选择小份。",
+      "audio": "I usually choose a smaller portion.",
+      "answer": "I usually choose a smaller portion.",
+      "translation": "我通常选择小份。",
+      "tokens": [
+        "I",
+        "usually",
+        "choose",
+        "a",
+        "smaller",
+        "portion."
+      ]
+    },
+    {
+      "id": "a2-u26-l1-q5",
+      "kind": "fill",
+      "prompt": "Try to add more vegetables to your _____.",
+      "audio": "Try to add more vegetables to your lunch.",
+      "answer": "lunch",
+      "translation": "午餐尽量多加蔬菜。",
+      "options": [
+        "lunch",
+        "breakfast",
+        "portion",
+        "nutrition"
+      ]
+    },
+    {
+      "id": "a2-u26-l1-q6",
+      "kind": "match",
+      "prompt": "配对健康饮食词语。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "portion",
+          "分量"
+        ],
+        [
+          "nutrition",
+          "营养"
+        ],
+        [
+          "balanced",
+          "均衡的"
+        ],
+        [
+          "vegetable",
+          "蔬菜"
+        ],
+        [
+          "protein",
+          "蛋白质"
+        ],
+        [
+          "sugar",
+          "糖"
+        ]
+      ],
+      "translation": "分量、营养、均衡的、蔬菜、蛋白质、糖"
+    },
+    {
+      "id": "a2-u26-l1-q7",
+      "kind": "word",
+      "prompt": "nutrition",
+      "answer": "营养",
+      "translation": "营养",
+      "options": [
+        "营养",
+        "分量",
+        "饮料",
+        "早餐"
+      ]
+    },
+    {
+      "id": "a2-u26-l1-q8",
+      "kind": "choice",
+      "prompt": "She drinks water instead of soda.",
+      "audio": "She drinks water instead of soda.",
+      "answer": "她用水代替汽水。",
+      "translation": "她用水代替汽水。",
+      "options": [
+        "她用水代替汽水。",
+        "她在水里加了汽水。",
+        "她用果汁代替早餐。",
+        "她减少了午餐的分量。"
+      ]
+    },
+    {
+      "id": "a2-u26-l1-q9",
+      "kind": "listen",
+      "prompt": "听清需要阅读什么。",
+      "audio": "Please read the nutrition label.",
+      "answer": "请阅读营养标签。",
+      "translation": "请阅读营养标签。",
+      "options": [
+        "请阅读营养标签。",
+        "请记录今天的分量。",
+        "请准备均衡的早餐。",
+        "请把糖放进饮料。"
+      ]
+    },
+    {
+      "id": "a2-u26-l1-q10",
+      "kind": "fill",
+      "prompt": "A healthy _____ can still taste good.",
+      "audio": "A healthy portion can still taste good.",
+      "answer": "portion",
+      "translation": "健康的分量也可以很好吃。",
+      "options": [
+        "portion",
+        "portions",
+        "portioning",
+        "portioned"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u26-l1-dialogue",
+    "scene": "午餐怎么吃得均衡",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The portions at this cafe are huge. Shall we share one meal?",
+        "translation": "这家咖啡馆的分量很大。我们要不要分一份？"
+      },
+      {
+        "speaker": "alex",
+        "text": "Good idea. We can add a salad for better nutrition.",
+        "translation": "好主意。我们可以加一份沙拉，让营养更好。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "And water instead of soda will keep it balanced.",
+        "translation": "用水代替汽水会更均衡。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What do they decide to share?",
+        "answer": "One meal",
+        "options": [
+          "One meal",
+          "A bottle of soda",
+          "A dessert",
+          "A nutrition label"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

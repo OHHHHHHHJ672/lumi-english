@@ -1,0 +1,565 @@
+{
+  "id": "b2-u24-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "水资源",
+  "subtitle": "分析短缺、含水层和分配",
+  "theme": "水资源",
+  "grammarFocus": "water-policy",
+  "grammarTags": [
+    "water-policy"
+  ],
+  "words": [
+    [
+      "scarcity",
+      "短缺"
+    ],
+    [
+      "aquifer",
+      "含水层"
+    ],
+    [
+      "allocation",
+      "分配"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "scarcity · 水资源",
+      "audio": "scarcity",
+      "instruction": "选择这个词的直译",
+      "answer": "短缺",
+      "options": [
+        "短缺",
+        "含水层",
+        "分配",
+        "问题"
+      ],
+      "translation": "短缺",
+      "id": "b2-u24-l1-q1",
+      "lessonId": "b2-u24-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "water-policy"
+      ],
+      "glossary": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to discuss the scarcity before lunch.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们午饭前需要讨论短缺。",
+      "options": [
+        "我们午饭前需要讨论短缺。",
+        "我们周五需要讨论含水层。",
+        "我们周五需要讨论含水层。，今天早上。",
+        "我们这个周末需要讨论分配。，预约前。"
+      ],
+      "audio": "We need to discuss the scarcity before lunch.",
+      "translation": "我们午饭前需要讨论短缺。",
+      "id": "b2-u24-l1-q2",
+      "lessonId": "b2-u24-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "water-policy"
+      ],
+      "glossary": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们周五需要讨论含水层。",
+      "options": [
+        "我们午饭前需要讨论短缺。",
+        "我们周五需要讨论含水层。",
+        "我们周五需要讨论含水层。，今天早上。",
+        "我们这个周末需要讨论分配。，预约前。"
+      ],
+      "audio": "We need to discuss the aquifer on Friday.",
+      "translation": "我们周五需要讨论含水层。",
+      "id": "b2-u24-l1-q3",
+      "lessonId": "b2-u24-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "water-policy"
+      ],
+      "glossary": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们这个周末需要讨论分配。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We need to discuss the allocation this weekend.",
+      "tokens": [
+        "We",
+        "need",
+        "to",
+        "discuss",
+        "the",
+        "allocation",
+        "this",
+        "weekend."
+      ],
+      "audio": "We need to discuss the allocation this weekend.",
+      "translation": "我们这个周末需要讨论分配。",
+      "id": "b2-u24-l1-q4",
+      "lessonId": "b2-u24-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "water-policy"
+      ],
+      "glossary": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this morning.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "scarcity",
+      "options": [
+        "scarcity",
+        "aquifer",
+        "allocation",
+        "message"
+      ],
+      "audio": "Please check the scarcity this morning.",
+      "translation": "请今天早上检查短缺。",
+      "id": "b2-u24-l1-q5",
+      "lessonId": "b2-u24-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "water-policy"
+      ],
+      "glossary": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「水资源」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "scarcity、短缺；aquifer、含水层；allocation、分配；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u24-l1-q6",
+      "lessonId": "b2-u24-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "water-policy"
+      ],
+      "glossary": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "aquifer · 水资源",
+      "audio": "aquifer",
+      "instruction": "选择这个词的直译",
+      "answer": "含水层",
+      "options": [
+        "含水层",
+        "短缺",
+        "分配",
+        "安排"
+      ],
+      "translation": "含水层",
+      "id": "b2-u24-l1-q7",
+      "lessonId": "b2-u24-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "water-policy"
+      ],
+      "glossary": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to discuss the aquifer on Friday. this morning.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们周五需要讨论含水层。，今天早上。",
+      "options": [
+        "我们午饭前需要讨论短缺。",
+        "我们周五需要讨论含水层。",
+        "我们周五需要讨论含水层。，今天早上。",
+        "我们这个周末需要讨论分配。，预约前。"
+      ],
+      "audio": "We need to discuss the aquifer on Friday. this morning.",
+      "translation": "我们周五需要讨论含水层。，今天早上。",
+      "id": "b2-u24-l1-q8",
+      "lessonId": "b2-u24-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "water-policy"
+      ],
+      "glossary": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们这个周末需要讨论分配。，预约前。",
+      "options": [
+        "我们午饭前需要讨论短缺。",
+        "我们周五需要讨论含水层。",
+        "我们周五需要讨论含水层。，今天早上。",
+        "我们这个周末需要讨论分配。，预约前。"
+      ],
+      "audio": "We need to discuss the allocation this weekend. before the appointment.",
+      "translation": "我们这个周末需要讨论分配。，预约前。",
+      "id": "b2-u24-l1-q9",
+      "lessonId": "b2-u24-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "water-policy"
+      ],
+      "glossary": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the aquifer before the appointment.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the aquifer before the appointment.",
+      "translation": "我们需要预约前检查含水层。",
+      "id": "b2-u24-l1-q10",
+      "lessonId": "b2-u24-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "water-policy"
+      ],
+      "glossary": [
+        [
+          "scarcity",
+          "短缺"
+        ],
+        [
+          "aquifer",
+          "含水层"
+        ],
+        [
+          "allocation",
+          "分配"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u24-l1-dialogue",
+    "scene": "水资源",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about scarcity?",
+        "translation": "你能再告诉我一些关于短缺的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use scarcity when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到短缺。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use scarcity in a daily plan",
+        "options": [
+          "How to use scarcity in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

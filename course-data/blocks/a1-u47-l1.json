@@ -1,0 +1,294 @@
+{
+  "id": "a1-u47-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶咖啡小憩",
+  "subtitle": "礼貌点单并选择口味",
+  "theme": "coffee-break",
+  "grammarFocus": "polite-requests",
+  "grammarTags": [
+    "polite-requests",
+    "countable-nouns"
+  ],
+  "words": [
+    [
+      "latte",
+      "拿铁"
+    ],
+    [
+      "sugar",
+      "糖"
+    ],
+    [
+      "foam",
+      "奶泡"
+    ],
+    [
+      "mug",
+      "马克杯"
+    ],
+    [
+      "counter",
+      "柜台"
+    ],
+    [
+      "decaf",
+      "无咖啡因的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u47-l1-q1",
+      "kind": "word",
+      "prompt": "foam · 咖啡小憩",
+      "instruction": "选择意思。",
+      "answer": "奶泡",
+      "options": [
+        "奶泡",
+        "糖",
+        "马克杯",
+        "柜台"
+      ],
+      "translation": "奶泡",
+      "grammarTags": [
+        "polite-requests"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u47-l1-q2",
+      "kind": "choice",
+      "prompt": "Could I have a decaf latte with less sugar?",
+      "instruction": "选择意思。",
+      "answer": "我可以要一杯少糖的无咖啡因拿铁吗？",
+      "options": [
+        "我可以要一杯少糖的无咖啡因拿铁吗？",
+        "我可以要一杯加奶泡的热茶吗？",
+        "我可以把马克杯放在柜台吗？",
+        "我可以在柜台买一袋糖吗？"
+      ],
+      "audio": "Could I have a decaf latte with less sugar?",
+      "translation": "我可以要一杯少糖的无咖啡因拿铁吗？",
+      "grammarTags": [
+        "polite-requests"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u47-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请在柜台取您的咖啡。",
+      "options": [
+        "请在柜台取您的咖啡。",
+        "请把糖放进马克杯。",
+        "请把奶泡加热。",
+        "请到门口点一杯拿铁。"
+      ],
+      "audio": "Please collect your coffee at the counter.",
+      "translation": "请在柜台取您的咖啡。",
+      "grammarTags": [
+        "polite-requests"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u47-l1-q4",
+      "kind": "order",
+      "prompt": "请给我一个大马克杯。",
+      "instruction": "组成英文句子。",
+      "answer": "Could I have a large mug, please?",
+      "audio": "Could I have a large mug, please?",
+      "translation": "请给我一个大马克杯。",
+      "grammarTags": [
+        "polite-requests"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u47-l1-q5",
+      "kind": "fill",
+      "prompt": "Would you like extra _____ on top?",
+      "instruction": "选择饮品配料。",
+      "answer": "foam",
+      "options": [
+        "foam",
+        "sugar",
+        "mug",
+        "counter"
+      ],
+      "audio": "Would you like extra foam on top?",
+      "translation": "你想在上面加奶泡吗？",
+      "grammarTags": [
+        "polite-requests"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u47-l1-q6",
+      "kind": "match",
+      "prompt": "配对咖啡小憩词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "latte",
+          "拿铁"
+        ],
+        [
+          "sugar",
+          "糖"
+        ],
+        [
+          "foam",
+          "奶泡"
+        ],
+        [
+          "mug",
+          "马克杯"
+        ],
+        [
+          "counter",
+          "柜台"
+        ],
+        [
+          "decaf",
+          "无咖啡因的"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "拿铁、糖、奶泡、马克杯、柜台、无咖啡因的",
+      "grammarTags": [
+        "polite-requests"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u47-l1-q7",
+      "kind": "word",
+      "prompt": "decaf · 咖啡小憩",
+      "instruction": "选择意思。",
+      "answer": "无咖啡因的",
+      "options": [
+        "无咖啡因的",
+        "奶泡",
+        "糖",
+        "拿铁"
+      ],
+      "translation": "无咖啡因的",
+      "grammarTags": [
+        "polite-requests"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u47-l1-q8",
+      "kind": "choice",
+      "prompt": "The barista added warm foam to my latte.",
+      "instruction": "选择意思。",
+      "answer": "咖啡师给我的拿铁加了温奶泡。",
+      "options": [
+        "咖啡师给我的拿铁加了温奶泡。",
+        "咖啡师把糖放进了马克杯。",
+        "咖啡师在柜台准备无咖啡因咖啡。",
+        "咖啡师把拿铁换成了茶。"
+      ],
+      "audio": "The barista added warm foam to my latte.",
+      "translation": "咖啡师给我的拿铁加了温奶泡。",
+      "grammarTags": [
+        "polite-requests"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u47-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "这杯咖啡不加糖。",
+      "options": [
+        "这杯咖啡不加糖。",
+        "这杯咖啡有很多奶泡。",
+        "这杯咖啡是无咖啡因的。",
+        "这杯咖啡在柜台旁边。"
+      ],
+      "audio": "This coffee comes without sugar.",
+      "translation": "这杯咖啡不加糖。",
+      "grammarTags": [
+        "polite-requests"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u47-l1-q10",
+      "kind": "fill",
+      "prompt": "I will wait by the _____ for my drink.",
+      "instruction": "选择地点。",
+      "answer": "counter",
+      "options": [
+        "counter",
+        "mug",
+        "foam",
+        "latte"
+      ],
+      "audio": "I will wait by the counter for my drink.",
+      "translation": "我会在柜台旁等饮料。",
+      "grammarTags": [
+        "polite-requests"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u47-l1-dialogue",
+    "scene": "咖啡店点单",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "barista",
+        "name": "Barista"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could I have a decaf latte, please?",
+        "translation": "请给我一杯无咖啡因拿铁。"
+      },
+      {
+        "speaker": "barista",
+        "text": "Certainly. Would you like sugar?",
+        "translation": "当然。您要糖吗？"
+      },
+      {
+        "speaker": "lumi",
+        "text": "No sugar, but extra foam, please.",
+        "translation": "不要糖，但请多加奶泡。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

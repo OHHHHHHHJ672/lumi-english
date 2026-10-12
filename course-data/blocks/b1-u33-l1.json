@@ -1,0 +1,368 @@
+{
+  "id": "b1-u33-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "会议引导",
+  "subtitle": "主持讨论、议程和行动点",
+  "theme": "会议引导",
+  "grammarFocus": "meeting-facilitation",
+  "grammarTags": [
+    "meeting-facilitation"
+  ],
+  "words": [
+    [
+      "facilitate",
+      "促进"
+    ],
+    [
+      "agenda",
+      "议程"
+    ],
+    [
+      "action",
+      "行动"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u33-l1-q1",
+      "kind": "word",
+      "prompt": "facilitate · 会议引导",
+      "answer": "facilitate",
+      "translation": "促进",
+      "instruction": "选择适合语境的表达。",
+      "audio": "facilitate",
+      "lessonId": "b1-u33-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "meeting-facilitation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "促进",
+        "议程",
+        "行动",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u33-l1-q2",
+      "kind": "choice",
+      "prompt": "The facilitator opened the meeting by reviewing the agenda.",
+      "answer": "主持人以回顾议程开始了会议。",
+      "translation": "主持人以回顾议程开始了会议。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The facilitator opened the meeting by reviewing the agenda.",
+      "lessonId": "b1-u33-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "meeting-facilitation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "主持人以回顾议程开始了会议。",
+        "我来主持第一个议题，并记录每项行动。",
+        "每个决定之后都需要一个明确的行动。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u33-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我来主持第一个议题，并记录每项行动。",
+      "translation": "我来主持第一个议题，并记录每项行动。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will facilitate the first item and record each action.",
+      "lessonId": "b1-u33-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "meeting-facilitation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我来主持第一个议题，并记录每项行动。",
+        "主持人以回顾议程开始了会议。",
+        "每个决定之后都需要一个明确的行动。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u33-l1-q4",
+      "kind": "order",
+      "prompt": "每个决定之后都需要一个明确的行动。",
+      "answer": "We need one clear action after each decision.",
+      "translation": "每个决定之后都需要一个明确的行动。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "We need one clear action after each decision.",
+      "lessonId": "b1-u33-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "meeting-facilitation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "We",
+        "need",
+        "one",
+        "clear",
+        "action",
+        "after",
+        "each",
+        "decision."
+      ]
+    },
+    {
+      "id": "b1-u33-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the agenda before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了议程。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the agenda before the meeting.",
+      "lessonId": "b1-u33-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "meeting-facilitation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u33-l1-q6",
+      "kind": "match",
+      "prompt": "配对「会议引导」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u33-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "meeting-facilitation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "facilitate",
+          "促进"
+        ],
+        [
+          "agenda",
+          "议程"
+        ],
+        [
+          "action",
+          "行动"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u33-l1-q7",
+      "kind": "word",
+      "prompt": "agenda · 会议引导",
+      "answer": "agenda",
+      "translation": "议程",
+      "instruction": "选择适合语境的表达。",
+      "audio": "agenda",
+      "lessonId": "b1-u33-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "meeting-facilitation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "议程",
+        "促进",
+        "行动",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u33-l1-q8",
+      "kind": "choice",
+      "prompt": "Then we can end with owners and dates.",
+      "answer": "这样我们就能在明确负责人和日期后结束。",
+      "translation": "这样我们就能在明确负责人和日期后结束。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Then we can end with owners and dates.",
+      "lessonId": "b1-u33-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "meeting-facilitation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这样我们就能在明确负责人和日期后结束。",
+        "团队在会议前已经审阅了议程。",
+        "主持人通过审阅议程开始会议。",
+        "每个决定后都需要一个明确行动。"
+      ]
+    },
+    {
+      "id": "b1-u33-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "她邀请比较安静的成员加入讨论。",
+      "translation": "她邀请比较安静的成员加入讨论。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "She invited quieter members into the discussion.",
+      "lessonId": "b1-u33-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "meeting-facilitation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "她邀请比较安静的成员加入讨论。",
+        "主持人以回顾议程开始了会议。",
+        "我来主持第一个议题，并记录每项行动。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u33-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the action before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅行动。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the action before Friday.",
+      "lessonId": "b1-u33-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "meeting-facilitation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u33-l1-dialogue",
+    "scene": "会议引导",
+    "characters": [
+      {
+        "id": "owen",
+        "name": "Owen",
+        "role": "colleague"
+      },
+      {
+        "id": "hana",
+        "name": "Hana",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "owen",
+        "text": "We have only thirty minutes, so the agenda must stay focused.",
+        "translation": "我们只有三十分钟，所以议程必须保持重点。"
+      },
+      {
+        "speaker": "hana",
+        "text": "I will facilitate the first item and record each action.",
+        "translation": "我来主持第一个议题，并记录每项行动。"
+      },
+      {
+        "speaker": "owen",
+        "text": "Then we can end with owners and dates.",
+        "translation": "这样我们可以用负责人和日期收尾。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Hana提出了什么建议？",
+        "answer": "I will facilitate the first item and record each action.",
+        "options": [
+          "I will facilitate the first item and record each action.",
+          "We have only thirty minutes, so the agenda must stay focused.",
+          "Then we can end with owners and dates."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

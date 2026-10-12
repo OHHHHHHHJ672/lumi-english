@@ -1,0 +1,565 @@
+{
+  "id": "b2-u32-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "宪法法律",
+  "subtitle": "讨论修正案、法院和公民权利",
+  "theme": "宪法法律",
+  "grammarFocus": "constitutional-law",
+  "grammarTags": [
+    "constitutional-law"
+  ],
+  "words": [
+    [
+      "amendment",
+      "修正案"
+    ],
+    [
+      "court",
+      "法院"
+    ],
+    [
+      "civil",
+      "公民的"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "amendment · 宪法法律",
+      "audio": "amendment",
+      "instruction": "选择这个词的直译",
+      "answer": "修正案",
+      "options": [
+        "修正案",
+        "法院",
+        "公民的",
+        "问题"
+      ],
+      "translation": "修正案",
+      "id": "b2-u32-l1-q1",
+      "lessonId": "b2-u32-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "constitutional-law"
+      ],
+      "glossary": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to discuss the amendment at the station.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们在车站需要讨论修正案。",
+      "options": [
+        "我们在车站需要讨论修正案。",
+        "我们截止日期前需要讨论法院。",
+        "我们截止日期前需要讨论法院。，本月。",
+        "我们今天早上需要讨论公民的。，下班后。"
+      ],
+      "audio": "We need to discuss the amendment at the station.",
+      "translation": "我们在车站需要讨论修正案。",
+      "id": "b2-u32-l1-q2",
+      "lessonId": "b2-u32-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "constitutional-law"
+      ],
+      "glossary": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们截止日期前需要讨论法院。",
+      "options": [
+        "我们在车站需要讨论修正案。",
+        "我们截止日期前需要讨论法院。",
+        "我们截止日期前需要讨论法院。，本月。",
+        "我们今天早上需要讨论公民的。，下班后。"
+      ],
+      "audio": "We need to discuss the court before the deadline.",
+      "translation": "我们截止日期前需要讨论法院。",
+      "id": "b2-u32-l1-q3",
+      "lessonId": "b2-u32-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "constitutional-law"
+      ],
+      "glossary": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们今天早上需要讨论公民的。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We need to discuss the civil this morning.",
+      "tokens": [
+        "We",
+        "need",
+        "to",
+        "discuss",
+        "the",
+        "civil",
+        "this",
+        "morning."
+      ],
+      "audio": "We need to discuss the civil this morning.",
+      "translation": "我们今天早上需要讨论公民的。",
+      "id": "b2-u32-l1-q4",
+      "lessonId": "b2-u32-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "constitutional-law"
+      ],
+      "glossary": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this month.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "amendment",
+      "options": [
+        "amendment",
+        "court",
+        "civil",
+        "message"
+      ],
+      "audio": "Please check the amendment this month.",
+      "translation": "请本月检查修正案。",
+      "id": "b2-u32-l1-q5",
+      "lessonId": "b2-u32-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "constitutional-law"
+      ],
+      "glossary": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「宪法法律」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "amendment、修正案；court、法院；civil、公民的；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u32-l1-q6",
+      "lessonId": "b2-u32-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "constitutional-law"
+      ],
+      "glossary": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "court · 宪法法律",
+      "audio": "court",
+      "instruction": "选择这个词的直译",
+      "answer": "法院",
+      "options": [
+        "法院",
+        "修正案",
+        "公民的",
+        "安排"
+      ],
+      "translation": "法院",
+      "id": "b2-u32-l1-q7",
+      "lessonId": "b2-u32-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "constitutional-law"
+      ],
+      "glossary": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to discuss the court before the deadline. this month.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们截止日期前需要讨论法院。，本月。",
+      "options": [
+        "我们在车站需要讨论修正案。",
+        "我们截止日期前需要讨论法院。",
+        "我们截止日期前需要讨论法院。，本月。",
+        "我们今天早上需要讨论公民的。，下班后。"
+      ],
+      "audio": "We need to discuss the court before the deadline. this month.",
+      "translation": "我们截止日期前需要讨论法院。，本月。",
+      "id": "b2-u32-l1-q8",
+      "lessonId": "b2-u32-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "constitutional-law"
+      ],
+      "glossary": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们今天早上需要讨论公民的。，下班后。",
+      "options": [
+        "我们在车站需要讨论修正案。",
+        "我们截止日期前需要讨论法院。",
+        "我们截止日期前需要讨论法院。，本月。",
+        "我们今天早上需要讨论公民的。，下班后。"
+      ],
+      "audio": "We need to discuss the civil this morning. after work.",
+      "translation": "我们今天早上需要讨论公民的。，下班后。",
+      "id": "b2-u32-l1-q9",
+      "lessonId": "b2-u32-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "constitutional-law"
+      ],
+      "glossary": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the court after work.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the court after work.",
+      "translation": "我们需要下班后检查法院。",
+      "id": "b2-u32-l1-q10",
+      "lessonId": "b2-u32-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "constitutional-law"
+      ],
+      "glossary": [
+        [
+          "amendment",
+          "修正案"
+        ],
+        [
+          "court",
+          "法院"
+        ],
+        [
+          "civil",
+          "公民的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u32-l1-dialogue",
+    "scene": "宪法法律",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about amendment?",
+        "translation": "你能再告诉我一些关于修正案的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use amendment when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到修正案。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use amendment in a daily plan",
+        "options": [
+          "How to use amendment in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

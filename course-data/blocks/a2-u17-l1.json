@@ -1,0 +1,257 @@
+{
+  "id": "a2-u17-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "出行规划",
+  "subtitle": "阅读行程并确认旅行安排",
+  "theme": "出行规划",
+  "grammarFocus": "past-simple",
+  "grammarTags": [
+    "past-simple"
+  ],
+  "words": [
+    [
+      "booking",
+      "预订"
+    ],
+    [
+      "itinerary",
+      "行程"
+    ],
+    [
+      "confirm",
+      "确认"
+    ]
+  ],
+  "pairs": [
+    [
+      "booking",
+      "预订"
+    ],
+    [
+      "itinerary",
+      "行程"
+    ],
+    [
+      "confirm",
+      "确认"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u17-l1-q1",
+      "kind": "word",
+      "prompt": "booking",
+      "answer": "预订",
+      "translation": "预订",
+      "options": [
+        "预订",
+        "行程",
+        "确认",
+        "问题"
+      ]
+    },
+    {
+      "id": "a2-u17-l1-q2",
+      "kind": "choice",
+      "prompt": "I checked the itinerary before booking.",
+      "audio": "I checked the itinerary before booking.",
+      "answer": "预订前我查看了行程。",
+      "translation": "预订前我查看了行程。",
+      "options": [
+        "预订前我查看了行程。",
+        "我们的行程包括三个不同的城市。",
+        "我昨天确认了酒店预订。",
+        "旅行代理改了我们的行程。"
+      ]
+    },
+    {
+      "id": "a2-u17-l1-q3",
+      "kind": "listen",
+      "prompt": "Please confirm your seat by Friday.",
+      "audio": "Please confirm your seat by Friday.",
+      "answer": "请在周五前确认座位。",
+      "translation": "请在周五前确认座位。",
+      "options": [
+        "请在周五前确认座位。",
+        "我昨天确认了酒店预订。",
+        "旅行代理改了我们的行程。",
+        "你检查返程预订了吗？"
+      ]
+    },
+    {
+      "id": "a2-u17-l1-q4",
+      "kind": "order",
+      "prompt": "我们为周末轻装出行。",
+      "audio": "We packed light for the weekend.",
+      "answer": "We packed light for the weekend.",
+      "translation": "我们为周末轻装出行。",
+      "tokens": [
+        "We",
+        "packed",
+        "light",
+        "for",
+        "the",
+        "weekend."
+      ]
+    },
+    {
+      "id": "a2-u17-l1-q5",
+      "kind": "fill",
+      "prompt": "Our _____ included three different cities.",
+      "answer": "itinerary",
+      "audio": "Our itinerary included three different cities.",
+      "translation": "我们的行程包括三个不同的城市。",
+      "options": [
+        "booking",
+        "itinerary",
+        "confirm",
+        "message"
+      ]
+    },
+    {
+      "id": "a2-u17-l1-q6",
+      "kind": "match",
+      "prompt": "把「出行规划」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "booking",
+          "预订"
+        ],
+        [
+          "itinerary",
+          "行程"
+        ],
+        [
+          "confirm",
+          "确认"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u17-l1-q7",
+      "kind": "word",
+      "prompt": "itinerary",
+      "answer": "行程",
+      "translation": "行程",
+      "audio": "itinerary",
+      "options": [
+        "行程",
+        "预订",
+        "确认",
+        "安排"
+      ]
+    },
+    {
+      "id": "a2-u17-l1-q8",
+      "kind": "choice",
+      "prompt": "I confirmed the hotel booking yesterday.",
+      "audio": "I confirmed the hotel booking yesterday.",
+      "answer": "我昨天确认了酒店预订。",
+      "translation": "我昨天确认了酒店预订。",
+      "options": [
+        "我昨天确认了酒店预订。",
+        "你检查返程预订了吗？",
+        "我们按行程走，但跳过了一家博物馆。",
+        "请确认出发时间。"
+      ]
+    },
+    {
+      "id": "a2-u17-l1-q9",
+      "kind": "listen",
+      "prompt": "The travel agent changed our itinerary.",
+      "audio": "The travel agent changed our itinerary.",
+      "answer": "旅行代理改了我们的行程。",
+      "translation": "旅行代理改了我们的行程。",
+      "options": [
+        "旅行代理改了我们的行程。",
+        "你检查返程预订了吗？",
+        "我们按行程走，但跳过了一家博物馆。",
+        "请确认出发时间。"
+      ]
+    },
+    {
+      "id": "a2-u17-l1-q10",
+      "kind": "fill",
+      "prompt": "We followed the _____ but skipped one museum.",
+      "answer": "itinerary",
+      "audio": "We followed the itinerary but skipped one museum.",
+      "translation": "我们按行程走，但跳过了一家博物馆。",
+      "options": [
+        "itinerary",
+        "booking",
+        "confirm",
+        "plan"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u17-l1-dialogue",
+    "scene": "出行规划",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I checked the itinerary before booking.",
+        "translation": "预订前我查看了行程。"
+      },
+      {
+        "speaker": "partner",
+        "text": "Please confirm your seat by Friday.",
+        "translation": "请在周五前确认座位。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "We packed light for the weekend.",
+        "translation": "我们为周末轻装出行。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is this conversation mainly about?",
+        "answer": "预订前我查看了行程。",
+        "options": [
+          "预订前我查看了行程。",
+          "我们的行程包括三个不同的城市。",
+          "你检查返程预订了吗？"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

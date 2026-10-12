@@ -1,0 +1,244 @@
+{
+  "id": "a1-u6-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "家人和朋友",
+  "subtitle": "谈论关系、性格和周末",
+  "theme": "family-friends",
+  "grammarFocus": "present-simple",
+  "grammarTags": [
+    "present-simple",
+    "frequency-adverbs"
+  ],
+  "sourceStatus": "hand-authored",
+  "words": [
+    [
+      "neighbor",
+      "邻居"
+    ],
+    [
+      "generous",
+      "慷慨的"
+    ],
+    [
+      "invite",
+      "邀请"
+    ]
+  ],
+  "dialogue": {
+    "id": "a1-u6-l1-dialogue",
+    "scene": "邀请朋友吃晚饭",
+    "characters": [
+      {
+        "id": "maya",
+        "name": "Maya"
+      },
+      {
+        "id": "june",
+        "name": "June"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "maya",
+        "text": "My neighbor often shares vegetables from her garden.",
+        "translation": "我的邻居经常分享她花园里的蔬菜。"
+      },
+      {
+        "speaker": "june",
+        "text": "That is generous. Are you inviting her to dinner?",
+        "translation": "她真慷慨。你要邀请她吃晚饭吗？"
+      },
+      {
+        "speaker": "maya",
+        "text": "Yes, she always helps our family.",
+        "translation": "是的，她总是帮助我们家。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Why does Maya invite her neighbor?",
+        "answer": "Because the neighbor often helps her family",
+        "options": [
+          "Because the neighbor often helps her family",
+          "Because the neighbor sells train tickets",
+          "Because the neighbor teaches French"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "a1-u6-l1-q1",
+      "kind": "word",
+      "prompt": "neighbor · 家人和朋友",
+      "audio": "neighbor",
+      "instruction": "选择这个词的直译",
+      "answer": "邻居",
+      "options": [
+        "邻居",
+        "同事",
+        "表亲",
+        "老师"
+      ],
+      "translation": "邻居"
+    },
+    {
+      "id": "a1-u6-l1-q2",
+      "kind": "choice",
+      "prompt": "My neighbor often shares vegetables from her garden.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我的邻居经常分享她花园里的蔬菜。",
+      "options": [
+        "我的邻居经常分享她花园里的蔬菜。",
+        "我们的朋友住在公园附近。",
+        "我哥哥通常在周六做晚饭。",
+        "她每周日邀请她的表亲。"
+      ],
+      "audio": "My neighbor often shares vegetables from her garden.",
+      "translation": "我的邻居经常分享她花园里的蔬菜。"
+    },
+    {
+      "id": "a1-u6-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们的表亲周日来吃晚饭。",
+      "options": [
+        "我们的表亲周日来吃晚饭。",
+        "我们的朋友住在公园附近。",
+        "我哥哥通常在周六做晚饭。",
+        "我的邻居经常分享她花园里的蔬菜。"
+      ],
+      "audio": "Our cousins visit us for dinner on Sunday.",
+      "translation": "我们的表亲周日来吃晚饭。"
+    },
+    {
+      "id": "a1-u6-l1-q4",
+      "kind": "order",
+      "prompt": "我哥哥正在学做饭。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "My brother is learning to cook.",
+      "tokens": [
+        "My",
+        "brother",
+        "is",
+        "learning",
+        "to",
+        "cook."
+      ],
+      "audio": "My brother is learning to cook.",
+      "translation": "我哥哥正在学做饭。"
+    },
+    {
+      "id": "a1-u6-l1-q5",
+      "kind": "fill",
+      "prompt": "Everyone says that Maya is very _____.",
+      "instruction": "选择描述性格的英文词。",
+      "answer": "generous",
+      "options": [
+        "generous",
+        "quiet",
+        "late",
+        "opposite"
+      ],
+      "audio": "Everyone says that Maya is very generous.",
+      "translation": "大家都说玛雅非常慷慨。"
+    },
+    {
+      "id": "a1-u6-l1-q6",
+      "kind": "match",
+      "prompt": "把家人和朋友场景中的词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "neighbor",
+          "邻居"
+        ],
+        [
+          "generous",
+          "慷慨的"
+        ],
+        [
+          "invite",
+          "邀请"
+        ],
+        [
+          "cousin",
+          "表亲"
+        ],
+        [
+          "garden",
+          "花园"
+        ],
+        [
+          "dinner",
+          "晚饭"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "邻居、慷慨的、邀请、表亲、花园、晚饭"
+    },
+    {
+      "id": "a1-u6-l1-q7",
+      "kind": "word",
+      "prompt": "invite · 家人和朋友",
+      "audio": "invite",
+      "instruction": "选择这个词的直译",
+      "answer": "邀请",
+      "options": [
+        "邀请",
+        "分享",
+        "照顾",
+        "等待"
+      ],
+      "translation": "邀请"
+    },
+    {
+      "id": "a1-u6-l1-q8",
+      "kind": "choice",
+      "prompt": "My brother usually cooks dinner on Saturday.",
+      "instruction": "选择这句习惯表达的意思。",
+      "answer": "我哥哥通常在周六做晚饭。",
+      "options": [
+        "我哥哥通常在周六做晚饭。",
+        "我们的表亲周日来吃晚饭。",
+        "我们的朋友住在公园附近。",
+        "我的邻居经常分享她花园里的蔬菜。"
+      ],
+      "audio": "My brother usually cooks dinner on Saturday.",
+      "translation": "我哥哥通常在周六做晚饭。"
+    },
+    {
+      "id": "a1-u6-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们的朋友住在公园附近。",
+      "options": [
+        "我们的朋友住在公园附近。",
+        "我们的表亲周日来吃晚饭。",
+        "我哥哥通常在周六做晚饭。",
+        "我的邻居经常分享她花园里的蔬菜。"
+      ],
+      "audio": "Our friends live near the park.",
+      "translation": "我们的朋友住在公园附近。"
+    },
+    {
+      "id": "a1-u6-l1-q10",
+      "kind": "fill",
+      "prompt": "She _____ her cousins every Sunday.",
+      "instruction": "选择一般现在时的正确形式。",
+      "answer": "invites",
+      "options": [
+        "invites",
+        "invite",
+        "inviting",
+        "invited"
+      ],
+      "audio": "She invites her cousins every Sunday.",
+      "translation": "她每周日邀请她的表亲。"
+    }
+  ]
+}

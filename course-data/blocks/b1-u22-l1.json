@@ -1,0 +1,367 @@
+{
+  "id": "b1-u22-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "商务谈判",
+  "subtitle": "提出方案、协商和合同条款",
+  "theme": "商务谈判",
+  "grammarFocus": "business-negotiation",
+  "grammarTags": [
+    "business-negotiation"
+  ],
+  "words": [
+    [
+      "proposal",
+      "提案"
+    ],
+    [
+      "negotiate",
+      "协商"
+    ],
+    [
+      "term",
+      "条款"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "proposal · 商务谈判",
+      "audio": "proposal",
+      "instruction": "选择中文意思。",
+      "answer": "提案",
+      "translation": "提案",
+      "options": [
+        "提案",
+        "协商",
+        "条款",
+        "计划"
+      ],
+      "id": "b1-u22-l1-q1",
+      "lessonId": "b1-u22-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "business-negotiation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The supplier has accepted our revised proposal.",
+      "audio": "The supplier has accepted our revised proposal.",
+      "instruction": "选择这句话的意思。",
+      "answer": "供应商已经接受了我们修改后的提案。",
+      "translation": "供应商已经接受了我们修改后的提案。",
+      "options": [
+        "供应商已经接受了我们修改后的提案。",
+        "我们需要仔细谈判交付条款。",
+        "双方就更清晰的付款时间表达成了一致。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u22-l1-q2",
+      "lessonId": "b1-u22-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "business-negotiation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "We need to negotiate the delivery term carefully.",
+      "instruction": "听完整句子。",
+      "answer": "我们需要仔细谈判交付条款。",
+      "translation": "我们需要仔细谈判交付条款。",
+      "options": [
+        "我们需要仔细谈判交付条款。",
+        "供应商已经接受了我们修改后的提案。",
+        "双方就更清晰的付款时间表达成了一致。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u22-l1-q3",
+      "lessonId": "b1-u22-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "business-negotiation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "双方就更清晰的付款时间表达成了一致。",
+      "audio": "Both sides agreed on a clearer payment schedule.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "Both sides agreed on a clearer payment schedule.",
+      "translation": "双方就更清晰的付款时间表达成了一致。",
+      "tokens": [
+        "Both",
+        "sides",
+        "agreed",
+        "on",
+        "a",
+        "clearer",
+        "payment",
+        "schedule."
+      ],
+      "id": "b1-u22-l1-q4",
+      "lessonId": "b1-u22-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "business-negotiation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the proposal before the meeting.",
+      "audio": "The team has reviewed the proposal before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了提案。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u22-l1-q5",
+      "lessonId": "b1-u22-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "business-negotiation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「商务谈判」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "proposal",
+          "提案"
+        ],
+        [
+          "negotiate",
+          "协商"
+        ],
+        [
+          "term",
+          "条款"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u22-l1-q6",
+      "lessonId": "b1-u22-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "business-negotiation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "negotiate · 商务谈判",
+      "audio": "negotiate",
+      "instruction": "选择中文意思。",
+      "answer": "协商",
+      "translation": "协商",
+      "options": [
+        "协商",
+        "提案",
+        "条款",
+        "问题"
+      ],
+      "id": "b1-u22-l1-q7",
+      "lessonId": "b1-u22-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "business-negotiation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The proposal includes support for the first year.",
+      "audio": "The proposal includes support for the first year.",
+      "instruction": "选择这句话的意思。",
+      "answer": "这份提案包含了第一年的支持服务。",
+      "translation": "这份提案包含了第一年的支持服务。",
+      "options": [
+        "这份提案包含了第一年的支持服务。",
+        "供应商已经接受了我们修改后的提案。",
+        "我们需要仔细谈判交付条款。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u22-l1-q8",
+      "lessonId": "b1-u22-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "business-negotiation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "She asked whether the term could be extended.",
+      "instruction": "听完整句子。",
+      "answer": "她询问期限是否可以延长。",
+      "translation": "她询问期限是否可以延长。",
+      "options": [
+        "她询问期限是否可以延长。",
+        "供应商已经接受了我们修改后的提案。",
+        "我们需要仔细谈判交付条款。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u22-l1-q9",
+      "lessonId": "b1-u22-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "business-negotiation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the term before Friday.",
+      "audio": "We should clarify the term before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清条款。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u22-l1-q10",
+      "lessonId": "b1-u22-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "business-negotiation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u22-l1-dialogue",
+    "scene": "商务谈判",
+    "characters": [
+      {
+        "id": "lena",
+        "name": "Lena",
+        "role": "colleague"
+      },
+      {
+        "id": "chris",
+        "name": "Chris",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lena",
+        "text": "We can deliver the first draft on Monday if the images arrive today.",
+        "translation": "如果图片今天到，我周一可以交初稿。"
+      },
+      {
+        "speaker": "chris",
+        "text": "I can send them by noon, but I need the draft in two formats.",
+        "translation": "我中午前可以发，但我需要两种格式的初稿。"
+      },
+      {
+        "speaker": "lena",
+        "text": "That works. I will include a web file and a print file.",
+        "translation": "可以。我会包含网页文件和打印文件。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Chris提出了什么建议？",
+        "answer": "I can send them by noon, but I need the draft in two formats.",
+        "options": [
+          "I can send them by noon, but I need the draft in two formats.",
+          "We can deliver the first draft on Monday if the images arrive today.",
+          "That works. I will include a web file and a print file."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,1 +1,198 @@
-{"id":"a1-u34-l1","levelId":"a1","cefr":"A1","title":"学校午餐","subtitle":"选择食物和饮料","theme":"school-food","grammarFocus":"school-food","grammarTags":["school-food","countable-nouns"],"words":[["lunch","午餐"],["sandwich","三明治"],["juice","果汁"],["salad","沙拉"],["cafeteria","食堂"],["snack","零食"]],"questions":[{"id":"a1-u34-l1-q1","kind":"word","prompt":"cafeteria · 学校午餐","instruction":"选择意思。","answer":"食堂","options":["食堂","午餐","果汁","沙拉"],"translation":"食堂"},{"id":"a1-u34-l1-q2","kind":"choice","prompt":"I brought a cheese sandwich for lunch.","instruction":"选择意思。","answer":"我带了一个奶酪三明治当午餐。","audio":"I brought a cheese sandwich for lunch.","translation":"我带了一个奶酪三明治当午餐。"},{"id":"a1-u34-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"食堂今天供应新鲜沙拉。","audio":"The cafeteria serves fresh salad today.","translation":"食堂今天供应新鲜沙拉。"},{"id":"a1-u34-l1-q4","kind":"order","prompt":"我午餐想喝苹果汁。","instruction":"组成英文句子。","answer":"I would like apple juice for lunch.","audio":"I would like apple juice for lunch.","translation":"我午餐想喝苹果汁。"},{"id":"a1-u34-l1-q5","kind":"fill","prompt":"I keep a small _____ in my bag.","instruction":"选择名词。","answer":"snack","audio":"I keep a small snack in my bag.","translation":"我在包里放一份小零食。"},{"id":"a1-u34-l1-q6","kind":"match","prompt":"配对学校午餐词语。","instruction":"完成配对。","pairs":[["lunch","午餐"],["sandwich","三明治"],["juice","果汁"],["salad","沙拉"],["cafeteria","食堂"],["snack","零食"]],"answer":"matched","translation":"午餐、三明治、果汁、沙拉、食堂、零食"},{"id":"a1-u34-l1-q7","kind":"word","prompt":"sandwich · 学校午餐","instruction":"选择意思。","answer":"三明治","options":["三明治","沙拉","零食","午餐"],"translation":"三明治"},{"id":"a1-u34-l1-q8","kind":"choice","prompt":"There is no juice left in the cafeteria fridge.","instruction":"选择意思。","answer":"食堂冰箱里没有果汁了。","audio":"There is no juice left in the cafeteria fridge.","translation":"食堂冰箱里没有果汁了。"},{"id":"a1-u34-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"午餐后请把桌子擦干净。","audio":"Please wipe the table after lunch.","translation":"午餐后请把桌子擦干净。"},{"id":"a1-u34-l1-q10","kind":"fill","prompt":"The _____ starts at twelve thirty.","instruction":"选择名词。","answer":"lunch","audio":"The lunch starts at twelve thirty.","translation":"午餐十二点半开始。"}],"dialogue":{"id":"a1-u34-l1-dialogue","scene":"食堂点午餐","characters":[{"id":"lumi","name":"Lumi"},{"id":"cook","name":"Cook"}],"turns":[{"speaker":"lumi","text":"What is available for lunch today?","translation":"今天午餐有什么？"},{"speaker":"cook","text":"We have salad, sandwiches, and apple juice.","translation":"有沙拉、三明治和苹果汁。"},{"speaker":"lumi","text":"I will take a sandwich and juice, please.","translation":"请给我一个三明治和果汁。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u34-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "学校午餐",
+  "subtitle": "选择食物和饮料",
+  "theme": "school-food",
+  "grammarFocus": "school-food",
+  "grammarTags": [
+    "school-food",
+    "countable-nouns"
+  ],
+  "words": [
+    [
+      "lunch",
+      "午餐"
+    ],
+    [
+      "sandwich",
+      "三明治"
+    ],
+    [
+      "juice",
+      "果汁"
+    ],
+    [
+      "salad",
+      "沙拉"
+    ],
+    [
+      "cafeteria",
+      "食堂"
+    ],
+    [
+      "snack",
+      "零食"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u34-l1-q1",
+      "kind": "word",
+      "prompt": "cafeteria · 学校午餐",
+      "instruction": "选择意思。",
+      "answer": "食堂",
+      "options": [
+        "食堂",
+        "午餐",
+        "果汁",
+        "沙拉"
+      ],
+      "translation": "食堂"
+    },
+    {
+      "id": "a1-u34-l1-q2",
+      "kind": "choice",
+      "prompt": "I brought a cheese sandwich for lunch.",
+      "instruction": "选择意思。",
+      "answer": "我带了一个奶酪三明治当午餐。",
+      "audio": "I brought a cheese sandwich for lunch.",
+      "translation": "我带了一个奶酪三明治当午餐。"
+    },
+    {
+      "id": "a1-u34-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "食堂今天供应新鲜沙拉。",
+      "audio": "The cafeteria serves fresh salad today.",
+      "translation": "食堂今天供应新鲜沙拉。"
+    },
+    {
+      "id": "a1-u34-l1-q4",
+      "kind": "order",
+      "prompt": "我午餐想喝苹果汁。",
+      "instruction": "组成英文句子。",
+      "answer": "I would like apple juice for lunch.",
+      "audio": "I would like apple juice for lunch.",
+      "translation": "我午餐想喝苹果汁。"
+    },
+    {
+      "id": "a1-u34-l1-q5",
+      "kind": "fill",
+      "prompt": "I keep a small _____ in my bag.",
+      "instruction": "选择名词。",
+      "answer": "snack",
+      "audio": "I keep a small snack in my bag.",
+      "translation": "我在包里放一份小零食。"
+    },
+    {
+      "id": "a1-u34-l1-q6",
+      "kind": "match",
+      "prompt": "配对学校午餐词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "lunch",
+          "午餐"
+        ],
+        [
+          "sandwich",
+          "三明治"
+        ],
+        [
+          "juice",
+          "果汁"
+        ],
+        [
+          "salad",
+          "沙拉"
+        ],
+        [
+          "cafeteria",
+          "食堂"
+        ],
+        [
+          "snack",
+          "零食"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "午餐、三明治、果汁、沙拉、食堂、零食"
+    },
+    {
+      "id": "a1-u34-l1-q7",
+      "kind": "word",
+      "prompt": "sandwich · 学校午餐",
+      "instruction": "选择意思。",
+      "answer": "三明治",
+      "options": [
+        "三明治",
+        "沙拉",
+        "零食",
+        "午餐"
+      ],
+      "translation": "三明治"
+    },
+    {
+      "id": "a1-u34-l1-q8",
+      "kind": "choice",
+      "prompt": "There is no juice left in the cafeteria fridge.",
+      "instruction": "选择意思。",
+      "answer": "食堂冰箱里没有果汁了。",
+      "audio": "There is no juice left in the cafeteria fridge.",
+      "translation": "食堂冰箱里没有果汁了。"
+    },
+    {
+      "id": "a1-u34-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "午餐后请把桌子擦干净。",
+      "audio": "Please wipe the table after lunch.",
+      "translation": "午餐后请把桌子擦干净。"
+    },
+    {
+      "id": "a1-u34-l1-q10",
+      "kind": "fill",
+      "prompt": "The _____ starts at twelve thirty.",
+      "instruction": "选择名词。",
+      "answer": "lunch",
+      "audio": "The lunch starts at twelve thirty.",
+      "translation": "午餐十二点半开始。"
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u34-l1-dialogue",
+    "scene": "食堂点午餐",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "cook",
+        "name": "Cook"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "What is available for lunch today?",
+        "translation": "今天午餐有什么？"
+      },
+      {
+        "speaker": "cook",
+        "text": "We have salad, sandwiches, and apple juice.",
+        "translation": "有沙拉、三明治和苹果汁。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will take a sandwich and juice, please.",
+        "translation": "请给我一个三明治和果汁。"
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

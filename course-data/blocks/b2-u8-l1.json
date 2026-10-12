@@ -1,0 +1,369 @@
+{
+  "id": "b2-u8-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "职业转型",
+  "subtitle": "表达动机、技能和长期规划",
+  "theme": "职业转型",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "transition",
+      "转型"
+    ],
+    [
+      "transferable",
+      "可迁移的"
+    ],
+    [
+      "portfolio",
+      "作品集"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u8-l1-q1",
+      "kind": "word",
+      "prompt": "transition · 职业转型",
+      "answer": "transition",
+      "translation": "转型",
+      "instruction": "选择适合语境的表达。",
+      "audio": "transition",
+      "lessonId": "b2-u8-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "转型",
+        "可迁移的",
+        "作品集",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u8-l1-q2",
+      "kind": "choice",
+      "prompt": "A career transition takes time and honest planning.",
+      "answer": "职业转型需要时间和诚实的规划。",
+      "translation": "职业转型需要时间和诚实的规划。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "A career transition takes time and honest planning.",
+      "lessonId": "b2-u8-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "职业转型需要时间和诚实的规划。",
+        "不如先上一门晚间课程，试试这个领域？",
+        "她可迁移的技能是细致的项目协调。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u8-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "不如先上一门晚间课程，试试这个领域？",
+      "translation": "不如先上一门晚间课程，试试这个领域？",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Why not take one evening course first and test the field?",
+      "lessonId": "b2-u8-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "不如先上一门晚间课程，试试这个领域？",
+        "职业转型需要时间和诚实的规划。",
+        "她可迁移的技能是细致的项目协调。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u8-l1-q4",
+      "kind": "order",
+      "prompt": "她转行前，最终工作机会被审阅了。",
+      "answer": "The final offer was reviewed before she changed careers.",
+      "translation": "她转行前，最终工作机会被审阅了。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "The final offer was reviewed before she changed careers.",
+      "lessonId": "b2-u8-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "final",
+        "offer",
+        "was",
+        "reviewed",
+        "before",
+        "she",
+        "changed",
+        "careers."
+      ]
+    },
+    {
+      "id": "b2-u8-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the transition plan before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅过渡计划。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the transition plan before Friday.",
+      "lessonId": "b2-u8-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u8-l1-q6",
+      "kind": "match",
+      "prompt": "配对「职业转型」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u8-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "transition",
+          "转型"
+        ],
+        [
+          "transferable",
+          "可迁移的"
+        ],
+        [
+          "portfolio",
+          "作品集"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u8-l1-q7",
+      "kind": "word",
+      "prompt": "transferable · 职业转型",
+      "answer": "transferable",
+      "translation": "可迁移的",
+      "instruction": "选择适合语境的表达。",
+      "audio": "transferable",
+      "lessonId": "b2-u8-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "可迁移的",
+        "转型",
+        "作品集",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u8-l1-q8",
+      "kind": "choice",
+      "prompt": "That gives me evidence before I make a risky move.",
+      "answer": "这在我做出有风险的决定前给了我证据。",
+      "translation": "这在我做出有风险的决定前给了我证据。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That gives me evidence before I make a risky move.",
+      "lessonId": "b2-u8-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这在我做出有风险的决定前给了我证据。",
+        "团队必须在周五前审阅可迁移的。",
+        "职业转型需要时间和诚实的规划。",
+        "她可迁移的技能是细致的项目协调。"
+      ]
+    },
+    {
+      "id": "b2-u8-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "他用两个近期项目更新了自己的作品集。",
+      "translation": "他用两个近期项目更新了自己的作品集。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "He updated his portfolio with two recent projects.",
+      "lessonId": "b2-u8-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "他用两个近期项目更新了自己的作品集。",
+        "职业转型需要时间和诚实的规划。",
+        "不如先上一门晚间课程，试试这个领域？",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u8-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the portfolio carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅作品集。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the portfolio carefully.",
+      "lessonId": "b2-u8-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u8-l1-dialogue",
+    "scene": "职业转型",
+    "characters": [
+      {
+        "id": "jin",
+        "name": "Jin",
+        "role": "colleague"
+      },
+      {
+        "id": "rhea",
+        "name": "Rhea",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "jin",
+        "text": "I want to change careers, but I cannot leave my current job yet.",
+        "translation": "我想转行，但现在还不能辞掉工作。"
+      },
+      {
+        "speaker": "rhea",
+        "text": "Why not take one evening course first and test the field?",
+        "translation": "不如先上一门晚间课程，试试这个领域？"
+      },
+      {
+        "speaker": "jin",
+        "text": "That gives me evidence before I make a risky move.",
+        "translation": "这样我在冒险行动前就有了依据。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Rhea提出了什么建议？",
+        "answer": "Why not take one evening course first and test the field?",
+        "options": [
+          "Why not take one evening course first and test the field?",
+          "I want to change careers, but I cannot leave my current job yet.",
+          "That gives me evidence before I make a risky move."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

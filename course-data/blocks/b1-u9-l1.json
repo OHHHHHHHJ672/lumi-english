@@ -1,0 +1,368 @@
+{
+  "id": "b1-u9-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "演讲表达",
+  "subtitle": "准备演讲、重点和幻灯片",
+  "theme": "演讲表达",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "audience",
+      "听众"
+    ],
+    [
+      "emphasize",
+      "强调"
+    ],
+    [
+      "slides",
+      "幻灯片"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u9-l1-q1",
+      "kind": "word",
+      "prompt": "audience · 演讲表达",
+      "audio": "audience",
+      "instruction": "选择适合语境的表达。",
+      "answer": "audience",
+      "translation": "听众",
+      "lessonId": "b1-u9-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "听众",
+        "强调",
+        "幻灯片",
+        "报告"
+      ]
+    },
+    {
+      "id": "b1-u9-l1-q2",
+      "kind": "choice",
+      "prompt": "What has the speaker changed?",
+      "audio": "What has the speaker changed?",
+      "instruction": "选择适合语境的表达。",
+      "answer": "演讲者改了什么？",
+      "translation": "演讲者改了什么？",
+      "lessonId": "b1-u9-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "演讲者改了什么？",
+        "她在第一张幻灯片强调了主要结果。",
+        "听众要求一个实用例子。",
+        "这句话没有说明原因。"
+      ]
+    },
+    {
+      "id": "b1-u9-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "She has emphasized the main result on the first slide.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "她在第一张幻灯片强调了主要结果。",
+      "translation": "她在第一张幻灯片强调了主要结果。",
+      "lessonId": "b1-u9-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "她在第一张幻灯片强调了主要结果。",
+        "演讲者改了什么？",
+        "听众要求一个实用例子。",
+        "说话人没有做决定。"
+      ]
+    },
+    {
+      "id": "b1-u9-l1-q4",
+      "kind": "order",
+      "prompt": "听众要求一个实用例子。",
+      "audio": "The audience has asked for one practical example.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "The audience has asked for one practical example.",
+      "translation": "听众要求一个实用例子。",
+      "lessonId": "b1-u9-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "audience",
+        "has",
+        "asked",
+        "for",
+        "one",
+        "practical",
+        "example."
+      ]
+    },
+    {
+      "id": "b1-u9-l1-q5",
+      "kind": "fill",
+      "prompt": "We have _____ the emphasize before Friday.",
+      "audio": "We have reviewed the emphasize before Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "reviewed",
+      "translation": "reviewed",
+      "lessonId": "b1-u9-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u9-l1-q6",
+      "kind": "match",
+      "prompt": "配对「演讲表达」中的重点词。",
+      "audio": "",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "matched",
+      "lessonId": "b1-u9-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "audience",
+          "听众"
+        ],
+        [
+          "emphasize",
+          "强调"
+        ],
+        [
+          "slides",
+          "幻灯片"
+        ],
+        [
+          "flight",
+          "航班"
+        ],
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u9-l1-q7",
+      "kind": "word",
+      "prompt": "emphasize · 演讲表达",
+      "audio": "emphasize",
+      "instruction": "选择适合语境的表达。",
+      "answer": "emphasize",
+      "translation": "强调",
+      "lessonId": "b1-u9-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "强调",
+        "听众",
+        "幻灯片",
+        "会议"
+      ]
+    },
+    {
+      "id": "b1-u9-l1-q8",
+      "kind": "choice",
+      "prompt": "We have shortened the opening for a clearer talk.",
+      "audio": "We have shortened the opening for a clearer talk.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我们缩短了开场，让演讲更清楚。",
+      "translation": "我们缩短了开场，让演讲更清楚。",
+      "lessonId": "b1-u9-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们缩短了开场，让演讲更清楚。",
+        "演讲者改了什么？",
+        "她在第一张幻灯片强调了主要结果。",
+        "这句话谈的是天气。"
+      ]
+    },
+    {
+      "id": "b1-u9-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，判断下一步。",
+      "audio": "The audience has asked for one practical example. During the review.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "听众要求一个实用例子。",
+      "translation": "听众要求一个实用例子。（会议复盘时）",
+      "lessonId": "b1-u9-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "听众要求一个实用例子。",
+        "演讲者改了什么？",
+        "我们缩短了开场，让演讲更清楚。",
+        "说话人取消了安排。"
+      ]
+    },
+    {
+      "id": "b1-u9-l1-q10",
+      "kind": "fill",
+      "prompt": "The team must _____ the slides today.",
+      "audio": "The team must clarify the slides today.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "clarify",
+      "translation": "clarify",
+      "lessonId": "b1-u9-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u9-l1-dialogue",
+    "scene": "演讲表达",
+    "characters": [
+      {
+        "id": "maya",
+        "name": "Maya",
+        "role": "colleague"
+      },
+      {
+        "id": "evan",
+        "name": "Evan",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "maya",
+        "text": "The data are useful, but the first three slides feel crowded.",
+        "translation": "这些数据很有用，但前三张幻灯片有些拥挤。"
+      },
+      {
+        "speaker": "evan",
+        "text": "I have removed two details and emphasized the result instead.",
+        "translation": "我删掉了两个细节，改为强调结果。"
+      },
+      {
+        "speaker": "maya",
+        "text": "Good. The audience can follow the story now.",
+        "translation": "很好。现在听众能跟上这个故事了。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Evan提出了什么建议？",
+        "answer": "I have removed two details and emphasized the result instead.",
+        "options": [
+          "I have removed two details and emphasized the result instead.",
+          "The data are useful, but the first three slides feel crowded.",
+          "Good. The audience can follow the story now."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

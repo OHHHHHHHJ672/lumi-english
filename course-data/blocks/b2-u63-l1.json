@@ -1,0 +1,565 @@
+{
+  "id": "b2-u63-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "进阶双边谈判",
+  "subtitle": "准备条约和特使会谈",
+  "theme": "进阶双边谈判",
+  "grammarFocus": "future-perfect",
+  "grammarTags": [
+    "future-perfect"
+  ],
+  "words": [
+    [
+      "bilateral",
+      "双边的"
+    ],
+    [
+      "treaty",
+      "条约"
+    ],
+    [
+      "envoy",
+      "特使"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "bilateral · 进阶双边谈判",
+      "audio": "bilateral",
+      "instruction": "选择这个词的直译",
+      "answer": "双边的",
+      "options": [
+        "双边的",
+        "条约",
+        "特使",
+        "问题"
+      ],
+      "translation": "双边的",
+      "id": "b2-u63-l1-q1",
+      "lessonId": "b2-u63-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "future-perfect"
+      ],
+      "glossary": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The option is bilateral on Friday.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "这个选项周五很双边的。",
+      "options": [
+        "这个选项周五很双边的。",
+        "到周五我们将完成条约。",
+        "到周五我们将完成条约。，预约前。",
+        "到周五我们将完成特使。，在车站。"
+      ],
+      "audio": "The option is bilateral on Friday.",
+      "translation": "这个选项周五很双边的。",
+      "id": "b2-u63-l1-q2",
+      "lessonId": "b2-u63-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "future-perfect"
+      ],
+      "glossary": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "到周五我们将完成条约。",
+      "options": [
+        "这个选项周五很双边的。",
+        "到周五我们将完成条约。",
+        "到周五我们将完成条约。，预约前。",
+        "到周五我们将完成特使。，在车站。"
+      ],
+      "audio": "We will have completed the treaty by Friday.",
+      "translation": "到周五我们将完成条约。",
+      "id": "b2-u63-l1-q3",
+      "lessonId": "b2-u63-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "future-perfect"
+      ],
+      "glossary": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "到周五我们将完成特使。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We will have completed the envoy by Friday.",
+      "tokens": [
+        "We",
+        "will",
+        "have",
+        "completed",
+        "the",
+        "envoy",
+        "by",
+        "Friday."
+      ],
+      "audio": "We will have completed the envoy by Friday.",
+      "translation": "到周五我们将完成特使。",
+      "id": "b2-u63-l1-q4",
+      "lessonId": "b2-u63-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "future-perfect"
+      ],
+      "glossary": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ before the appointment.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "bilateral",
+      "options": [
+        "bilateral",
+        "treaty",
+        "envoy",
+        "message"
+      ],
+      "audio": "Please check the bilateral before the appointment.",
+      "translation": "请预约前检查双边的。",
+      "id": "b2-u63-l1-q5",
+      "lessonId": "b2-u63-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "future-perfect"
+      ],
+      "glossary": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶双边谈判」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "bilateral、双边的；treaty、条约；envoy、特使；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u63-l1-q6",
+      "lessonId": "b2-u63-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "future-perfect"
+      ],
+      "glossary": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "treaty · 进阶双边谈判",
+      "audio": "treaty",
+      "instruction": "选择这个词的直译",
+      "answer": "条约",
+      "options": [
+        "条约",
+        "双边的",
+        "特使",
+        "安排"
+      ],
+      "translation": "条约",
+      "id": "b2-u63-l1-q7",
+      "lessonId": "b2-u63-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "future-perfect"
+      ],
+      "glossary": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We will have completed the treaty by Friday. before the appointment.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "到周五我们将完成条约。，预约前。",
+      "options": [
+        "这个选项周五很双边的。",
+        "到周五我们将完成条约。",
+        "到周五我们将完成条约。，预约前。",
+        "到周五我们将完成特使。，在车站。"
+      ],
+      "audio": "We will have completed the treaty by Friday. before the appointment.",
+      "translation": "到周五我们将完成条约。，预约前。",
+      "id": "b2-u63-l1-q8",
+      "lessonId": "b2-u63-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "future-perfect"
+      ],
+      "glossary": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "到周五我们将完成特使。，在车站。",
+      "options": [
+        "这个选项周五很双边的。",
+        "到周五我们将完成条约。",
+        "到周五我们将完成条约。，预约前。",
+        "到周五我们将完成特使。，在车站。"
+      ],
+      "audio": "We will have completed the envoy by Friday. at the station.",
+      "translation": "到周五我们将完成特使。，在车站。",
+      "id": "b2-u63-l1-q9",
+      "lessonId": "b2-u63-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "future-perfect"
+      ],
+      "glossary": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the treaty at the station.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the treaty at the station.",
+      "translation": "我们需要在车站检查条约。",
+      "id": "b2-u63-l1-q10",
+      "lessonId": "b2-u63-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "future-perfect"
+      ],
+      "glossary": [
+        [
+          "bilateral",
+          "双边的"
+        ],
+        [
+          "treaty",
+          "条约"
+        ],
+        [
+          "envoy",
+          "特使"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u63-l1-dialogue",
+    "scene": "进阶双边谈判",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about bilateral?",
+        "translation": "你能再告诉我一些关于双边的的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use bilateral when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到双边的。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use bilateral in a daily plan",
+        "options": [
+          "How to use bilateral in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

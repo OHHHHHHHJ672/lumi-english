@@ -1,0 +1,367 @@
+{
+  "id": "b2-u14-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "城市设计",
+  "subtitle": "讨论步行空间、密度和分区",
+  "theme": "城市设计",
+  "grammarFocus": "relative-clauses",
+  "grammarTags": [
+    "relative-clauses"
+  ],
+  "words": [
+    [
+      "pedestrian",
+      "行人的"
+    ],
+    [
+      "density",
+      "密度"
+    ],
+    [
+      "zoning",
+      "分区规划"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u14-l1-q1",
+      "kind": "word",
+      "prompt": "pedestrian · 城市设计",
+      "answer": "pedestrian",
+      "translation": "行人的",
+      "instruction": "选择适合语境的表达。",
+      "audio": "pedestrian",
+      "lessonId": "b2-u14-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "行人的",
+        "密度",
+        "分区规划",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u14-l1-q2",
+      "kind": "choice",
+      "prompt": "The new crossing gives pedestrians more time.",
+      "answer": "这处新的过街设施给了行人更多通行时间。",
+      "translation": "这处新的过街设施给了行人更多通行时间。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The new crossing gives pedestrians more time.",
+      "lessonId": "b2-u14-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这处新的过街设施给了行人更多通行时间。",
+        "我们可以先增加行人过街处，再改变分区规划。",
+        "更高的密度可以支持高频公共交通。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u14-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我们可以先增加行人过街处，再改变分区规划。",
+      "translation": "我们可以先增加行人过街处，再改变分区规划。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We can add a pedestrian crossing before changing the zoning.",
+      "lessonId": "b2-u14-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们可以先增加行人过街处，再改变分区规划。",
+        "这处新的过街设施给了行人更多通行时间。",
+        "更高的密度可以支持高频公共交通。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u14-l1-q4",
+      "kind": "order",
+      "prompt": "更高的密度可以支撑高频次的公共交通。",
+      "answer": "Higher density can support frequent public transport.",
+      "translation": "更高的密度可以支撑高频次的公共交通。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "Higher density can support frequent public transport.",
+      "lessonId": "b2-u14-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "Higher",
+        "density",
+        "can",
+        "support",
+        "frequent",
+        "public",
+        "transport."
+      ]
+    },
+    {
+      "id": "b2-u14-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the density before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅密度。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the density before Friday.",
+      "lessonId": "b2-u14-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u14-l1-q6",
+      "kind": "match",
+      "prompt": "配对「城市设计」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u14-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "pedestrian",
+          "行人的"
+        ],
+        [
+          "density",
+          "密度"
+        ],
+        [
+          "zoning",
+          "分区规划"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u14-l1-q7",
+      "kind": "word",
+      "prompt": "density · 城市设计",
+      "answer": "density",
+      "translation": "密度",
+      "instruction": "选择适合语境的表达。",
+      "audio": "density",
+      "lessonId": "b2-u14-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "密度",
+        "行人的",
+        "分区规划",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u14-l1-q8",
+      "kind": "choice",
+      "prompt": "That would solve the urgent problem first.",
+      "answer": "这会先解决最紧迫的问题。",
+      "translation": "这会先解决最紧迫的问题。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That would solve the urgent problem first.",
+      "lessonId": "b2-u14-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这会先解决最紧迫的问题。",
+        "团队必须在周五前审阅密度。",
+        "新的过街处给行人更多时间。",
+        "更高的密度可以支持高频公共交通。"
+      ]
+    },
+    {
+      "id": "b2-u14-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "分区规则把住宅与重工业分开。",
+      "translation": "分区规则把住宅与重工业分开。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Zoning rules separate homes from heavy industry.",
+      "lessonId": "b2-u14-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "分区规则把住宅与重工业分开。",
+        "这处新的过街设施给了行人更多通行时间。",
+        "我们可以先增加行人过街处，再改变分区规划。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u14-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the zoning carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅分区规划。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the zoning carefully.",
+      "lessonId": "b2-u14-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u14-l1-dialogue",
+    "scene": "城市设计",
+    "characters": [
+      {
+        "id": "niko",
+        "name": "Niko",
+        "role": "colleague"
+      },
+      {
+        "id": "sara",
+        "name": "Sara",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "niko",
+        "text": "The street is busy, but children have no safe place to cross.",
+        "translation": "这条街很繁忙，但孩子们没有安全的过街处。"
+      },
+      {
+        "speaker": "sara",
+        "text": "We can add a pedestrian crossing before changing the zoning.",
+        "translation": "我们可以先增加行人过街处，再改变分区规划。"
+      },
+      {
+        "speaker": "niko",
+        "text": "That would solve the urgent problem first.",
+        "translation": "这样可以先解决紧急问题。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Sara提出了什么建议？",
+        "answer": "We can add a pedestrian crossing before changing the zoning.",
+        "options": [
+          "We can add a pedestrian crossing before changing the zoning.",
+          "The street is busy, but children have no safe place to cross.",
+          "That would solve the urgent problem first."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

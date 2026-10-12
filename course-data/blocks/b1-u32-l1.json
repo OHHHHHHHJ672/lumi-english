@@ -1,0 +1,369 @@
+{
+  "id": "b1-u32-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "职业目标",
+  "subtitle": "表达抱负、技能和导师帮助",
+  "theme": "职业目标",
+  "grammarFocus": "career-goals",
+  "grammarTags": [
+    "career-goals"
+  ],
+  "words": [
+    [
+      "ambition",
+      "抱负"
+    ],
+    [
+      "skill",
+      "技能"
+    ],
+    [
+      "mentor",
+      "导师"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u32-l1-q1",
+      "kind": "word",
+      "prompt": "ambition · 职业目标",
+      "answer": "ambition",
+      "translation": "抱负",
+      "instruction": "选择适合语境的表达。",
+      "audio": "ambition",
+      "lessonId": "b1-u32-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "career-goals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "抱负",
+        "技能",
+        "导师",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u32-l1-q2",
+      "kind": "choice",
+      "prompt": "Her ambition is to lead a research team one day.",
+      "answer": "她的志向是有一天带领一支研究团队。",
+      "translation": "她的志向是有一天带领一支研究团队。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Her ambition is to lead a research team one day.",
+      "lessonId": "b1-u32-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "career-goals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "她的志向是有一天带领一支研究团队。",
+        "你的导师可以帮你比较这个职位和现有经历。",
+        "他通过志愿工作培养了有用技能。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u32-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "你的导师可以帮你比较这个职位和现有经历。",
+      "translation": "你的导师可以帮你比较这个职位和现有经历。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Your mentor can help you compare the role with your current experience.",
+      "lessonId": "b1-u32-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "career-goals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "你的导师可以帮你比较这个职位和现有经历。",
+        "她的志向是有一天带领一支研究团队。",
+        "他通过志愿工作培养了有用技能。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u32-l1-q4",
+      "kind": "order",
+      "prompt": "他通过志愿工作培养出一项有用的技能。",
+      "answer": "He has developed a useful skill through volunteer work.",
+      "translation": "他通过志愿工作培养出一项有用的技能。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "He has developed a useful skill through volunteer work.",
+      "lessonId": "b1-u32-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "career-goals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "He",
+        "has",
+        "developed",
+        "a",
+        "useful",
+        "skill",
+        "through",
+        "volunteer",
+        "work."
+      ]
+    },
+    {
+      "id": "b1-u32-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the skill before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了技能。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the skill before the meeting.",
+      "lessonId": "b1-u32-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "career-goals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u32-l1-q6",
+      "kind": "match",
+      "prompt": "配对「职业目标」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u32-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "career-goals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "ambition",
+          "抱负"
+        ],
+        [
+          "skill",
+          "技能"
+        ],
+        [
+          "mentor",
+          "导师"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u32-l1-q7",
+      "kind": "word",
+      "prompt": "skill · 职业目标",
+      "answer": "skill",
+      "translation": "技能",
+      "instruction": "选择适合语境的表达。",
+      "audio": "skill",
+      "lessonId": "b1-u32-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "career-goals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "技能",
+        "抱负",
+        "导师",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u32-l1-q8",
+      "kind": "choice",
+      "prompt": "I will ask for a meeting and bring my career plan.",
+      "answer": "我会要求一次会面并带上我的职业规划。",
+      "translation": "我会要求一次会面并带上我的职业规划。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will ask for a meeting and bring my career plan.",
+      "lessonId": "b1-u32-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "career-goals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会要求一次会面并带上我的职业规划。",
+        "团队在会议前已经审阅了技能。",
+        "她的抱负是有一天带领研究团队。",
+        "他通过志愿工作培养了有用技能。"
+      ]
+    },
+    {
+      "id": "b1-u32-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "一位导师帮我选出了切实可行的下一步。",
+      "translation": "一位导师帮我选出了切实可行的下一步。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "A mentor helped me choose a realistic next step.",
+      "lessonId": "b1-u32-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "career-goals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "一位导师帮我选出了切实可行的下一步。",
+        "她的志向是有一天带领一支研究团队。",
+        "你的导师可以帮你比较这个职位和现有经历。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u32-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the mentor before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅导师。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the mentor before Friday.",
+      "lessonId": "b1-u32-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "career-goals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u32-l1-dialogue",
+    "scene": "职业目标",
+    "characters": [
+      {
+        "id": "lily",
+        "name": "Lily",
+        "role": "colleague"
+      },
+      {
+        "id": "marcus",
+        "name": "Marcus",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lily",
+        "text": "I want to move into research, but I am not sure which skill to strengthen first.",
+        "translation": "我想进入研究领域，但不确定先加强哪项技能。"
+      },
+      {
+        "speaker": "marcus",
+        "text": "Your mentor can help you compare the role with your current experience.",
+        "translation": "你的导师可以帮你比较这个职位和现有经历。"
+      },
+      {
+        "speaker": "lily",
+        "text": "I will ask for a meeting and bring my career plan.",
+        "translation": "我会约一次会，并带上职业计划。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Marcus提出了什么建议？",
+        "answer": "Your mentor can help you compare the role with your current experience.",
+        "options": [
+          "Your mentor can help you compare the role with your current experience.",
+          "I want to move into research, but I am not sure which skill to strengthen first.",
+          "I will ask for a meeting and bring my career plan."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

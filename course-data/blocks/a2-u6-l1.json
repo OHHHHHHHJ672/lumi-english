@@ -1,0 +1,330 @@
+{
+  "id": "a2-u6-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "旅途变更",
+  "subtitle": "处理延误、改签和行程变化",
+  "theme": "旅途变更",
+  "grammarFocus": "past-simple",
+  "grammarTags": [
+    "past-simple"
+  ],
+  "words": [
+    [
+      "delay",
+      "延误"
+    ],
+    [
+      "platform",
+      "站台"
+    ],
+    [
+      "luggage",
+      "行李"
+    ]
+  ],
+  "pairs": [
+    [
+      "delay",
+      "延误"
+    ],
+    [
+      "platform",
+      "站台"
+    ],
+    [
+      "luggage",
+      "行李"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u6-l1-q1",
+      "kind": "word",
+      "prompt": "delay · 旅途变更",
+      "instruction": "选择这个词的直译",
+      "answer": "延误",
+      "options": [
+        "延误",
+        "站台",
+        "行李",
+        "问题"
+      ],
+      "translation": "延误",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u6-l1-q2",
+      "kind": "choice",
+      "prompt": "The train was delayed because of heavy rain.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "火车因为大雨而延误了。",
+      "translation": "火车因为大雨而延误了。",
+      "audio": "The train was delayed because of heavy rain.",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "choice"
+      ],
+      "options": [
+        "火车因为大雨而延误了。",
+        "航空公司把我们改到了晚一点的航班。",
+        "你找到正确的站台了吗？",
+        "延误让我们错过了接驳车。"
+      ]
+    },
+    {
+      "id": "a2-u6-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我们在四号站台等了一个小时。",
+      "translation": "我们在四号站台等了一个小时。",
+      "audio": "We waited on platform four for an hour.",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "listen"
+      ],
+      "options": [
+        "我们在四号站台等了一个小时。",
+        "你找到正确的站台了吗？",
+        "延误让我们错过了接驳车。",
+        "请随身保管行李。"
+      ]
+    },
+    {
+      "id": "a2-u6-l1-q4",
+      "kind": "order",
+      "prompt": "我把行李落在机场巴士上了。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "I left my luggage on the airport bus.",
+      "translation": "我把行李落在机场巴士上了。",
+      "audio": "I left my luggage on the airport bus.",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "order"
+      ],
+      "tokens": [
+        "I",
+        "left",
+        "my",
+        "luggage",
+        "on",
+        "the",
+        "airport",
+        "bus."
+      ]
+    },
+    {
+      "id": "a2-u6-l1-q5",
+      "kind": "fill",
+      "prompt": "The airline said the _____ was short.",
+      "instruction": "选择英文词完成句子。",
+      "answer": "delay",
+      "options": [
+        "delay",
+        "platform",
+        "luggage",
+        "message"
+      ],
+      "audio": "The airline said the delay was short.",
+      "translation": "航空公司说延误很短。",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a2-u6-l1-q6",
+      "kind": "match",
+      "prompt": "把「旅途变更」的重点词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "delay",
+          "延误"
+        ],
+        [
+          "platform",
+          "站台"
+        ],
+        [
+          "luggage",
+          "行李"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "delay、延误；platform、站台；luggage、行李；message、消息；schedule、日程；meeting、会议",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a2-u6-l1-q7",
+      "kind": "word",
+      "prompt": "platform · 旅途变更",
+      "instruction": "选择这个词的直译",
+      "answer": "站台",
+      "options": [
+        "站台",
+        "延误",
+        "行李",
+        "安排"
+      ],
+      "translation": "站台",
+      "audio": "platform",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u6-l1-q8",
+      "kind": "choice",
+      "prompt": "Please keep your luggage with you during the afternoon.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "请随身保管行李。",
+      "options": [
+        "请随身保管行李。",
+        "火车因为大雨而延误了。",
+        "我们在四号站台等了一个小时。",
+        "我把行李落在机场巴士上了。"
+      ],
+      "audio": "Please keep your luggage with you during the afternoon.",
+      "translation": "请随身保管行李，在下午。",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "a2-u6-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我们出发前查了时刻表。",
+      "options": [
+        "我们出发前查了时刻表。",
+        "火车因为大雨而延误了。",
+        "我们在四号站台等了一个小时。",
+        "我把行李落在机场巴士上了。"
+      ],
+      "audio": "We checked the timetable before leaving before dinner.",
+      "translation": "我们出发前查了时刻表，晚饭前。",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a2-u6-l1-q10",
+      "kind": "fill",
+      "prompt": "The train leaves from _____ three.",
+      "instruction": "选择正确的词完成句子。",
+      "answer": "platform",
+      "options": [
+        "platform",
+        "delay",
+        "luggage",
+        "plan"
+      ],
+      "audio": "The train leaves from platform three.",
+      "translation": "火车从三号站台发车。",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u6-l1-dialogue",
+    "scene": "旅途变更",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The train was delayed because of heavy rain.",
+        "translation": "火车因为大雨而延误了。"
+      },
+      {
+        "speaker": "partner",
+        "text": "We waited on platform four for an hour.",
+        "translation": "我们在四号站台等了一个小时。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I left my luggage on the airport bus.",
+        "translation": "我把行李落在机场巴士上了。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is the conversation mainly about?",
+        "answer": "火车因为大雨而延误了。",
+        "options": [
+          "火车因为大雨而延误了。",
+          "航空公司把我们改到了晚一点的航班。",
+          "请随身保管行李。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

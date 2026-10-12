@@ -1,0 +1,563 @@
+{
+  "id": "a2-u56-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶餐厅预订",
+  "subtitle": "选择前菜和菜系",
+  "theme": "进阶餐厅预订",
+  "grammarFocus": "would-like",
+  "grammarTags": [
+    "would-like"
+  ],
+  "words": [
+    [
+      "reservation",
+      "预订"
+    ],
+    [
+      "appetizer",
+      "前菜"
+    ],
+    [
+      "cuisine",
+      "菜系"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "reservation · 进阶餐厅预订",
+      "audio": "reservation",
+      "instruction": "选择这个词的直译",
+      "answer": "预订",
+      "options": [
+        "预订",
+        "前菜",
+        "菜系",
+        "问题"
+      ],
+      "translation": "预订",
+      "id": "a2-u56-l1-q1",
+      "lessonId": "a2-u56-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "would-like"
+      ],
+      "glossary": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "I would like the reservation, please.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "请给我一份预订。",
+      "options": [
+        "请给我一份预订。",
+        "请给我一份前菜。",
+        "请给我一份前菜。，本月。",
+        "请给我一份菜系。，下班后。"
+      ],
+      "audio": "I would like the reservation, please.",
+      "translation": "请给我一份预订。",
+      "id": "a2-u56-l1-q2",
+      "lessonId": "a2-u56-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "would-like"
+      ],
+      "glossary": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "请给我一份前菜。",
+      "options": [
+        "请给我一份预订。",
+        "请给我一份前菜。",
+        "请给我一份前菜。，本月。",
+        "请给我一份菜系。，下班后。"
+      ],
+      "audio": "I would like the appetizer, please.",
+      "translation": "请给我一份前菜。",
+      "id": "a2-u56-l1-q3",
+      "lessonId": "a2-u56-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "would-like"
+      ],
+      "glossary": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "请给我一份菜系。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "I would like the cuisine, please.",
+      "tokens": [
+        "I",
+        "would",
+        "like",
+        "the",
+        "cuisine,",
+        "please."
+      ],
+      "audio": "I would like the cuisine, please.",
+      "translation": "请给我一份菜系。",
+      "id": "a2-u56-l1-q4",
+      "lessonId": "a2-u56-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "would-like"
+      ],
+      "glossary": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this month.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "reservation",
+      "options": [
+        "reservation",
+        "appetizer",
+        "cuisine",
+        "message"
+      ],
+      "audio": "Please check the reservation this month.",
+      "translation": "请本月检查预订。",
+      "id": "a2-u56-l1-q5",
+      "lessonId": "a2-u56-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "would-like"
+      ],
+      "glossary": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶餐厅预订」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "reservation、预订；appetizer、前菜；cuisine、菜系；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u56-l1-q6",
+      "lessonId": "a2-u56-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "would-like"
+      ],
+      "glossary": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "appetizer · 进阶餐厅预订",
+      "audio": "appetizer",
+      "instruction": "选择这个词的直译",
+      "answer": "前菜",
+      "options": [
+        "前菜",
+        "预订",
+        "菜系",
+        "安排"
+      ],
+      "translation": "前菜",
+      "id": "a2-u56-l1-q7",
+      "lessonId": "a2-u56-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "would-like"
+      ],
+      "glossary": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "I would like the appetizer, please. this month.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "请给我一份前菜。，本月。",
+      "options": [
+        "请给我一份预订。",
+        "请给我一份前菜。",
+        "请给我一份前菜。，本月。",
+        "请给我一份菜系。，下班后。"
+      ],
+      "audio": "I would like the appetizer, please. this month.",
+      "translation": "请给我一份前菜。，本月。",
+      "id": "a2-u56-l1-q8",
+      "lessonId": "a2-u56-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "would-like"
+      ],
+      "glossary": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "请给我一份菜系。，下班后。",
+      "options": [
+        "请给我一份预订。",
+        "请给我一份前菜。",
+        "请给我一份前菜。，本月。",
+        "请给我一份菜系。，下班后。"
+      ],
+      "audio": "I would like the cuisine, please. after work.",
+      "translation": "请给我一份菜系。，下班后。",
+      "id": "a2-u56-l1-q9",
+      "lessonId": "a2-u56-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "would-like"
+      ],
+      "glossary": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the appetizer after work.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the appetizer after work.",
+      "translation": "我们需要下班后检查前菜。",
+      "id": "a2-u56-l1-q10",
+      "lessonId": "a2-u56-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "would-like"
+      ],
+      "glossary": [
+        [
+          "reservation",
+          "预订"
+        ],
+        [
+          "appetizer",
+          "前菜"
+        ],
+        [
+          "cuisine",
+          "菜系"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u56-l1-dialogue",
+    "scene": "进阶餐厅预订",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about reservation?",
+        "translation": "你能再告诉我一些关于预订的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use reservation when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到预订。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use reservation in a daily plan",
+        "options": [
+          "How to use reservation in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

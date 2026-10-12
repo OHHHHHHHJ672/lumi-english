@@ -1,0 +1,563 @@
+{
+  "id": "a2-u57-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶城市文化",
+  "subtitle": "参观遗产和画廊",
+  "theme": "进阶城市文化",
+  "grammarFocus": "past-simple",
+  "grammarTags": [
+    "past-simple"
+  ],
+  "words": [
+    [
+      "heritage",
+      "遗产"
+    ],
+    [
+      "sculpture",
+      "雕塑"
+    ],
+    [
+      "gallery",
+      "画廊"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "heritage · 进阶城市文化",
+      "audio": "heritage",
+      "instruction": "选择这个词的直译",
+      "answer": "遗产",
+      "options": [
+        "遗产",
+        "雕塑",
+        "画廊",
+        "问题"
+      ],
+      "translation": "遗产",
+      "id": "a2-u57-l1-q1",
+      "lessonId": "a2-u57-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We discussed the heritage for our team.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们为我们的团队讨论了遗产。",
+      "options": [
+        "我们为我们的团队讨论了遗产。",
+        "我们午饭前讨论了雕塑。",
+        "我们午饭前讨论了雕塑。，截止日期前。",
+        "我们周五讨论了画廊。，今天早上。"
+      ],
+      "audio": "We discussed the heritage for our team.",
+      "translation": "我们为我们的团队讨论了遗产。",
+      "id": "a2-u57-l1-q2",
+      "lessonId": "a2-u57-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们午饭前讨论了雕塑。",
+      "options": [
+        "我们为我们的团队讨论了遗产。",
+        "我们午饭前讨论了雕塑。",
+        "我们午饭前讨论了雕塑。，截止日期前。",
+        "我们周五讨论了画廊。，今天早上。"
+      ],
+      "audio": "We discussed the sculpture before lunch.",
+      "translation": "我们午饭前讨论了雕塑。",
+      "id": "a2-u57-l1-q3",
+      "lessonId": "a2-u57-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们周五讨论了画廊。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We discussed the gallery on Friday.",
+      "tokens": [
+        "We",
+        "discussed",
+        "the",
+        "gallery",
+        "on",
+        "Friday."
+      ],
+      "audio": "We discussed the gallery on Friday.",
+      "translation": "我们周五讨论了画廊。",
+      "id": "a2-u57-l1-q4",
+      "lessonId": "a2-u57-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ before the deadline.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "heritage",
+      "options": [
+        "heritage",
+        "sculpture",
+        "gallery",
+        "message"
+      ],
+      "audio": "Please check the heritage before the deadline.",
+      "translation": "请截止日期前检查遗产。",
+      "id": "a2-u57-l1-q5",
+      "lessonId": "a2-u57-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶城市文化」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "heritage、遗产；sculpture、雕塑；gallery、画廊；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u57-l1-q6",
+      "lessonId": "a2-u57-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "sculpture · 进阶城市文化",
+      "audio": "sculpture",
+      "instruction": "选择这个词的直译",
+      "answer": "雕塑",
+      "options": [
+        "雕塑",
+        "遗产",
+        "画廊",
+        "安排"
+      ],
+      "translation": "雕塑",
+      "id": "a2-u57-l1-q7",
+      "lessonId": "a2-u57-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We discussed the sculpture before lunch. before the deadline.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们午饭前讨论了雕塑。，截止日期前。",
+      "options": [
+        "我们为我们的团队讨论了遗产。",
+        "我们午饭前讨论了雕塑。",
+        "我们午饭前讨论了雕塑。，截止日期前。",
+        "我们周五讨论了画廊。，今天早上。"
+      ],
+      "audio": "We discussed the sculpture before lunch. before the deadline.",
+      "translation": "我们午饭前讨论了雕塑。，截止日期前。",
+      "id": "a2-u57-l1-q8",
+      "lessonId": "a2-u57-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们周五讨论了画廊。，今天早上。",
+      "options": [
+        "我们为我们的团队讨论了遗产。",
+        "我们午饭前讨论了雕塑。",
+        "我们午饭前讨论了雕塑。，截止日期前。",
+        "我们周五讨论了画廊。，今天早上。"
+      ],
+      "audio": "We discussed the gallery on Friday. this morning.",
+      "translation": "我们周五讨论了画廊。，今天早上。",
+      "id": "a2-u57-l1-q9",
+      "lessonId": "a2-u57-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the sculpture this morning.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the sculpture this morning.",
+      "translation": "我们需要今天早上检查雕塑。",
+      "id": "a2-u57-l1-q10",
+      "lessonId": "a2-u57-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "heritage",
+          "遗产"
+        ],
+        [
+          "sculpture",
+          "雕塑"
+        ],
+        [
+          "gallery",
+          "画廊"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u57-l1-dialogue",
+    "scene": "进阶城市文化",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about heritage?",
+        "translation": "你能再告诉我一些关于遗产的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use heritage when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到遗产。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use heritage in a daily plan",
+        "options": [
+          "How to use heritage in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

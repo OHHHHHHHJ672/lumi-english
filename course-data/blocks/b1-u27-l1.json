@@ -1,0 +1,369 @@
+{
+  "id": "b1-u27-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "政策辩论",
+  "subtitle": "讨论证据、权衡和执行",
+  "theme": "政策辩论",
+  "grammarFocus": "policy-debate",
+  "grammarTags": [
+    "policy-debate"
+  ],
+  "words": [
+    [
+      "evidence",
+      "证据"
+    ],
+    [
+      "trade-off",
+      "权衡"
+    ],
+    [
+      "implement",
+      "执行"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u27-l1-q1",
+      "kind": "word",
+      "prompt": "evidence · 政策辩论",
+      "answer": "evidence",
+      "translation": "证据",
+      "instruction": "选择适合语境的表达。",
+      "audio": "evidence",
+      "lessonId": "b1-u27-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "policy-debate"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "证据",
+        "权衡",
+        "执行",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u27-l1-q2",
+      "kind": "choice",
+      "prompt": "The committee reviewed evidence from two pilot cities.",
+      "answer": "委员会审阅了来自两个试点城市的证据。",
+      "translation": "委员会审阅了来自两个试点城市的证据。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The committee reviewed evidence from two pilot cities.",
+      "lessonId": "b1-u27-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "policy-debate"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "委员会审阅了来自两个试点城市的证据。",
+        "这个权衡确实存在；扩大之前我们应收集更多证据。",
+        "每项政策都要在速度和成本之间权衡。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u27-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "这个权衡确实存在；扩大之前我们应收集更多证据。",
+      "translation": "这个权衡确实存在；扩大之前我们应收集更多证据。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That trade-off is real; we should collect more evidence before expanding it.",
+      "lessonId": "b1-u27-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "policy-debate"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这个权衡确实存在；扩大之前我们应收集更多证据。",
+        "委员会审阅了来自两个试点城市的证据。",
+        "每项政策都要在速度和成本之间权衡。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u27-l1-q4",
+      "kind": "order",
+      "prompt": "每项政策都要在速度和成本之间权衡。",
+      "answer": "Every policy has a trade-off between speed and cost.",
+      "translation": "每项政策都要在速度和成本之间权衡。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "Every policy has a trade-off between speed and cost.",
+      "lessonId": "b1-u27-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "policy-debate"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "Every",
+        "policy",
+        "has",
+        "a",
+        "trade-off",
+        "between",
+        "speed",
+        "and",
+        "cost."
+      ]
+    },
+    {
+      "id": "b1-u27-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the trade-off before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了权衡。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the trade-off before the meeting.",
+      "lessonId": "b1-u27-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "policy-debate"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u27-l1-q6",
+      "kind": "match",
+      "prompt": "配对「政策辩论」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u27-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "policy-debate"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "evidence",
+          "证据"
+        ],
+        [
+          "trade-off",
+          "权衡"
+        ],
+        [
+          "implement",
+          "执行"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u27-l1-q7",
+      "kind": "word",
+      "prompt": "trade-off · 政策辩论",
+      "answer": "trade-off",
+      "translation": "权衡",
+      "instruction": "选择适合语境的表达。",
+      "audio": "trade-off",
+      "lessonId": "b1-u27-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "policy-debate"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "权衡",
+        "证据",
+        "执行",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u27-l1-q8",
+      "kind": "choice",
+      "prompt": "I will add the bus data to the recommendation.",
+      "answer": "我会把公交数据加入建议中。",
+      "translation": "我会把公交数据加入建议中。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will add the bus data to the recommendation.",
+      "lessonId": "b1-u27-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "policy-debate"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会把公交数据加入建议中。",
+        "团队在会议前已经审阅了权衡。",
+        "委员会审阅了两个试点城市的证据。",
+        "每项政策都要权衡速度和成本。"
+      ]
+    },
+    {
+      "id": "b1-u27-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "这座城市计划增设一处更安全的过街设施。",
+      "translation": "这座城市计划增设一处更安全的过街设施。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The city plans to implement a safer crossing.",
+      "lessonId": "b1-u27-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "policy-debate"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这座城市计划增设一处更安全的过街设施。",
+        "委员会审阅了来自两个试点城市的证据。",
+        "这个权衡确实存在；扩大之前我们应收集更多证据。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u27-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the implementation plan before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅实施计划。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the implementation plan before Friday.",
+      "lessonId": "b1-u27-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "policy-debate"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u27-l1-dialogue",
+    "scene": "政策辩论",
+    "characters": [
+      {
+        "id": "liu",
+        "name": "Liu",
+        "role": "colleague"
+      },
+      {
+        "id": "mara",
+        "name": "Mara",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "liu",
+        "text": "The pilot improved safety, but it also slowed buses at rush hour.",
+        "translation": "试点提高了安全性，但高峰期也让公交变慢。"
+      },
+      {
+        "speaker": "mara",
+        "text": "That trade-off is real; we should collect more evidence before expanding it.",
+        "translation": "这个权衡确实存在；扩大之前我们应收集更多证据。"
+      },
+      {
+        "speaker": "liu",
+        "text": "I will add the bus data to the recommendation.",
+        "translation": "我会把公交数据加进建议。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Mara提出了什么建议？",
+        "answer": "That trade-off is real; we should collect more evidence before expanding it.",
+        "options": [
+          "That trade-off is real; we should collect more evidence before expanding it.",
+          "The pilot improved safety, but it also slowed buses at rush hour.",
+          "I will add the bus data to the recommendation."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

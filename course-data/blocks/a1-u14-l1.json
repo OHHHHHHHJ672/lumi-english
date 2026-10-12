@@ -1,0 +1,17 @@
+{
+  "id":"a1-u14-l1","levelId":"a1","cefr":"A1","title":"看牙预约","subtitle":"描述牙痛并安排检查","theme":"dentist","grammarFocus":"have-got","grammarTags":["have-got","appointments"],"sourceStatus":"hand-authored",
+  "words":[["dentist","牙医"],["toothache","牙痛"],["checkup","检查"]],
+  "dialogue":{"id":"a1-u14-l1-dialogue","scene":"预约看牙","characters":[{"id":"ella","name":"Ella"},{"id":"receptionist","name":"Receptionist"}],"turns":[{"speaker":"ella","text":"I have got a toothache on the left side.","translation":"我左边的牙疼。"},{"speaker":"receptionist","text":"We have got an opening on Friday morning.","translation":"我们周五早上有一个空档。"},{"speaker":"ella","text":"That works for me. I need a checkup.","translation":"这个时间适合我。我需要做检查。"}],"tasks":[{"mode":"intent","prompt":"When can Ella see the dentist?","answer":"Friday morning","options":["Friday morning","Saturday evening","Monday afternoon"]}]},
+  "questions":[
+    {"id":"a1-u14-l1-q1","kind":"word","prompt":"dentist · 看牙预约","audio":"dentist","instruction":"选择这个词的直译","answer":"牙医","options":["牙医","护士","病人","前台"],"translation":"牙医"},
+    {"id":"a1-u14-l1-q2","kind":"choice","prompt":"I have got a toothache on the left side.","instruction":"选择这句看诊表达的意思。","answer":"我左边的牙疼。","options":["我左边的牙疼。","你周五早上可以来。","诊所三点有一个预约时段。","我没有发烧，但喉咙很痛。"],"audio":"I have got a toothache on the left side.","translation":"我左边的牙疼。"},
+    {"id":"a1-u14-l1-q3","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"先听完整句子，再选择意思。","answer":"你周五早上可以来。","options":["你周五早上可以来。","我左边的牙疼。","诊所三点有一个预约时段。","我没有发烧，但喉咙很痛。"],"audio":"You can come in on Friday morning.","translation":"你周五早上可以来。"},
+    {"id":"a1-u14-l1-q4","kind":"order","prompt":"我需要做一次检查。","instruction":"把词块组成英文句子。","answer":"I need a checkup.","tokens":["I","need","a","checkup."],"audio":"I need a checkup.","translation":"我需要做一次检查。"},
+    {"id":"a1-u14-l1-q5","kind":"fill","prompt":"She has got a bad _____.","instruction":"选择描述牙齿问题的英文词。","answer":"toothache","options":["toothache","dentist","checkup","appointment"],"audio":"She has got a bad toothache.","translation":"她牙痛得厉害。"},
+    {"id":"a1-u14-l1-q6","kind":"match","prompt":"把看牙预约场景中的词语配对。","instruction":"完成全部配对后提交。","pairs":[["dentist","牙医"],["toothache","牙痛"],["checkup","检查"],["appointment","预约"],["tooth","牙齿"],["morning","早上"]],"answer":"matched","translation":"牙医、牙痛、检查、预约、牙齿、早上"},
+    {"id":"a1-u14-l1-q7","kind":"word","prompt":"checkup · 看牙预约","audio":"checkup","instruction":"选择这个词的直译","answer":"检查","options":["检查","治疗","药物","休息"],"translation":"检查"},
+    {"id":"a1-u14-l1-q8","kind":"choice","prompt":"The clinic has got an appointment at three.","instruction":"选择这句预约表达的意思。","answer":"诊所三点有一个预约时段。","options":["诊所三点有一个预约时段。","我左边的牙疼。","你周五早上可以来。","我没有发烧，但喉咙很痛。"],"audio":"The clinic has got an appointment at three.","translation":"诊所三点有一个预约时段。"},
+    {"id":"a1-u14-l1-q9","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"先听完整句子，再选择意思。","answer":"我没有发烧，但喉咙很痛。","options":["我没有发烧，但喉咙很痛。","我左边的牙疼。","你周五早上可以来。","诊所三点有一个预约时段。"],"audio":"I have not got a fever, but my throat hurts.","translation":"我没有发烧，但喉咙很痛。"},
+    {"id":"a1-u14-l1-q10","kind":"fill","prompt":"We have got an _____ at ten.","instruction":"选择预约场景中的正确名词。","answer":"appointment","options":["appointment","toothache","dentist","checkup"],"audio":"We have got an appointment at ten.","translation":"我们十点有一个预约。"}
+  ]
+}

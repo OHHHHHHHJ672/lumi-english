@@ -1,1 +1,198 @@
-{"id":"a1-u32-l1","levelId":"a1","cefr":"A1","title":"洗衣房","subtitle":"使用洗衣机和整理衣服","theme":"laundry","grammarFocus":"laundry","grammarTags":["laundry","imperatives"],"words":[["washing-machine","洗衣机"],["detergent","洗涤剂"],["sock","袜子"],["towel","毛巾"],["dry","晾干"],["basket","篮子"]],"questions":[{"id":"a1-u32-l1-q1","kind":"word","prompt":"detergent · 洗衣房","instruction":"选择意思。","answer":"洗涤剂","options":["洗涤剂","毛巾","袜子","篮子"],"translation":"洗涤剂"},{"id":"a1-u32-l1-q2","kind":"choice","prompt":"Please put the white towels in the washing machine.","instruction":"选择意思。","answer":"请把白色毛巾放进洗衣机。","audio":"Please put the white towels in the washing machine.","translation":"请把白色毛巾放进洗衣机。"},{"id":"a1-u32-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"这双袜子还没有晾干。","audio":"These socks are not dry yet.","translation":"这双袜子还没有晾干。"},{"id":"a1-u32-l1-q4","kind":"order","prompt":"洗衣篮在门边。","instruction":"组成英文句子。","answer":"The laundry basket is by the door.","audio":"The laundry basket is by the door.","translation":"洗衣篮在门边。"},{"id":"a1-u32-l1-q5","kind":"fill","prompt":"Add one spoon of _____.","instruction":"选择名词。","answer":"detergent","audio":"Add one spoon of detergent.","translation":"加一勺洗涤剂。"},{"id":"a1-u32-l1-q6","kind":"match","prompt":"配对洗衣房词语。","instruction":"完成配对。","pairs":[["washing-machine","洗衣机"],["detergent","洗涤剂"],["sock","袜子"],["towel","毛巾"],["dry","晾干"],["basket","篮子"]],"answer":"matched","translation":"洗衣机、洗涤剂、袜子、毛巾、晾干、篮子"},{"id":"a1-u32-l1-q7","kind":"word","prompt":"towel · 洗衣房","instruction":"选择意思。","answer":"毛巾","options":["毛巾","袜子","洗涤剂","篮子"],"translation":"毛巾"},{"id":"a1-u32-l1-q8","kind":"choice","prompt":"The washing machine needs a smaller load.","instruction":"选择意思。","answer":"洗衣机需要少放一些衣物。","audio":"The washing machine needs a smaller load.","translation":"洗衣机需要少放一些衣物。"},{"id":"a1-u32-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"请把干衣服叠好。","audio":"Please fold the dry clothes.","translation":"请把干衣服叠好。"},{"id":"a1-u32-l1-q10","kind":"fill","prompt":"I found a red _____ under the bed.","instruction":"选择名词。","answer":"sock","audio":"I found a red sock under the bed.","translation":"我在床下找到一只红袜子。"}],"dialogue":{"id":"a1-u32-l1-dialogue","scene":"洗衣房取衣服","characters":[{"id":"lumi","name":"Lumi"},{"id":"nina","name":"Nina"}],"turns":[{"speaker":"lumi","text":"Is the washing machine free now?","translation":"洗衣机现在空着吗？"},{"speaker":"nina","text":"Yes, but please bring your own detergent.","translation":"是的，但请带自己的洗涤剂。"},{"speaker":"lumi","text":"I have it in my basket.","translation":"我把它放在篮子里了。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u32-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "洗衣房",
+  "subtitle": "使用洗衣机和整理衣服",
+  "theme": "laundry",
+  "grammarFocus": "laundry",
+  "grammarTags": [
+    "laundry",
+    "imperatives"
+  ],
+  "words": [
+    [
+      "washing-machine",
+      "洗衣机"
+    ],
+    [
+      "detergent",
+      "洗涤剂"
+    ],
+    [
+      "sock",
+      "袜子"
+    ],
+    [
+      "towel",
+      "毛巾"
+    ],
+    [
+      "dry",
+      "晾干"
+    ],
+    [
+      "basket",
+      "篮子"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u32-l1-q1",
+      "kind": "word",
+      "prompt": "detergent · 洗衣房",
+      "instruction": "选择意思。",
+      "answer": "洗涤剂",
+      "options": [
+        "洗涤剂",
+        "毛巾",
+        "袜子",
+        "篮子"
+      ],
+      "translation": "洗涤剂"
+    },
+    {
+      "id": "a1-u32-l1-q2",
+      "kind": "choice",
+      "prompt": "Please put the white towels in the washing machine.",
+      "instruction": "选择意思。",
+      "answer": "请把白色毛巾放进洗衣机。",
+      "audio": "Please put the white towels in the washing machine.",
+      "translation": "请把白色毛巾放进洗衣机。"
+    },
+    {
+      "id": "a1-u32-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "这双袜子还没有晾干。",
+      "audio": "These socks are not dry yet.",
+      "translation": "这双袜子还没有晾干。"
+    },
+    {
+      "id": "a1-u32-l1-q4",
+      "kind": "order",
+      "prompt": "洗衣篮在门边。",
+      "instruction": "组成英文句子。",
+      "answer": "The laundry basket is by the door.",
+      "audio": "The laundry basket is by the door.",
+      "translation": "洗衣篮在门边。"
+    },
+    {
+      "id": "a1-u32-l1-q5",
+      "kind": "fill",
+      "prompt": "Add one spoon of _____.",
+      "instruction": "选择名词。",
+      "answer": "detergent",
+      "audio": "Add one spoon of detergent.",
+      "translation": "加一勺洗涤剂。"
+    },
+    {
+      "id": "a1-u32-l1-q6",
+      "kind": "match",
+      "prompt": "配对洗衣房词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "washing-machine",
+          "洗衣机"
+        ],
+        [
+          "detergent",
+          "洗涤剂"
+        ],
+        [
+          "sock",
+          "袜子"
+        ],
+        [
+          "towel",
+          "毛巾"
+        ],
+        [
+          "dry",
+          "晾干"
+        ],
+        [
+          "basket",
+          "篮子"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "洗衣机、洗涤剂、袜子、毛巾、晾干、篮子"
+    },
+    {
+      "id": "a1-u32-l1-q7",
+      "kind": "word",
+      "prompt": "towel · 洗衣房",
+      "instruction": "选择意思。",
+      "answer": "毛巾",
+      "options": [
+        "毛巾",
+        "袜子",
+        "洗涤剂",
+        "篮子"
+      ],
+      "translation": "毛巾"
+    },
+    {
+      "id": "a1-u32-l1-q8",
+      "kind": "choice",
+      "prompt": "The washing machine needs a smaller load.",
+      "instruction": "选择意思。",
+      "answer": "洗衣机需要少放一些衣物。",
+      "audio": "The washing machine needs a smaller load.",
+      "translation": "洗衣机需要少放一些衣物。"
+    },
+    {
+      "id": "a1-u32-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请把干衣服叠好。",
+      "audio": "Please fold the dry clothes.",
+      "translation": "请把干衣服叠好。"
+    },
+    {
+      "id": "a1-u32-l1-q10",
+      "kind": "fill",
+      "prompt": "I found a red _____ under the bed.",
+      "instruction": "选择名词。",
+      "answer": "sock",
+      "audio": "I found a red sock under the bed.",
+      "translation": "我在床下找到一只红袜子。"
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u32-l1-dialogue",
+    "scene": "洗衣房取衣服",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "nina",
+        "name": "Nina"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Is the washing machine free now?",
+        "translation": "洗衣机现在空着吗？"
+      },
+      {
+        "speaker": "nina",
+        "text": "Yes, but please bring your own detergent.",
+        "translation": "是的，但请带自己的洗涤剂。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I have it in my basket.",
+        "translation": "我把它放在篮子里了。"
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

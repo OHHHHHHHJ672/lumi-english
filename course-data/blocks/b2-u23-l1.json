@@ -1,0 +1,566 @@
+{
+  "id": "b2-u23-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "算法问责",
+  "subtitle": "评估审计、可解释性和监督",
+  "theme": "算法问责",
+  "grammarFocus": "algorithmic-accountability",
+  "grammarTags": [
+    "algorithmic-accountability"
+  ],
+  "words": [
+    [
+      "audit",
+      "审计"
+    ],
+    [
+      "explainability",
+      "可解释性"
+    ],
+    [
+      "oversight",
+      "监督"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "audit · 算法问责",
+      "audio": "audit",
+      "instruction": "选择这个词的直译",
+      "answer": "审计",
+      "options": [
+        "审计",
+        "可解释性",
+        "监督",
+        "问题"
+      ],
+      "translation": "审计",
+      "id": "b2-u23-l1-q1",
+      "lessonId": "b2-u23-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "algorithmic-accountability"
+      ],
+      "glossary": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to audit the plan before the deadline.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们截止日期前需要audit这个计划。",
+      "options": [
+        "我们截止日期前需要audit这个计划。",
+        "我们今天早上需要explainability这个计划。",
+        "我们今天早上需要explainability这个计划。，下班后。",
+        "我们预约前需要讨论监督。，会议期间。"
+      ],
+      "audio": "We need to audit the plan before the deadline.",
+      "translation": "我们截止日期前需要audit这个计划。",
+      "id": "b2-u23-l1-q2",
+      "lessonId": "b2-u23-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "algorithmic-accountability"
+      ],
+      "glossary": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们今天早上需要explainability这个计划。",
+      "options": [
+        "我们截止日期前需要audit这个计划。",
+        "我们今天早上需要explainability这个计划。",
+        "我们今天早上需要explainability这个计划。，下班后。",
+        "我们预约前需要讨论监督。，会议期间。"
+      ],
+      "audio": "We need to explainability the plan this morning.",
+      "translation": "我们今天早上需要explainability这个计划。",
+      "id": "b2-u23-l1-q3",
+      "lessonId": "b2-u23-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "algorithmic-accountability"
+      ],
+      "glossary": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们预约前需要讨论监督。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We need to discuss the oversight before the appointment.",
+      "tokens": [
+        "We",
+        "need",
+        "to",
+        "discuss",
+        "the",
+        "oversight",
+        "before",
+        "the",
+        "appointment."
+      ],
+      "audio": "We need to discuss the oversight before the appointment.",
+      "translation": "我们预约前需要讨论监督。",
+      "id": "b2-u23-l1-q4",
+      "lessonId": "b2-u23-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "algorithmic-accountability"
+      ],
+      "glossary": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ after work.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "audit",
+      "options": [
+        "audit",
+        "explainability",
+        "oversight",
+        "message"
+      ],
+      "audio": "Please check the audit after work.",
+      "translation": "请下班后检查审计。",
+      "id": "b2-u23-l1-q5",
+      "lessonId": "b2-u23-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "algorithmic-accountability"
+      ],
+      "glossary": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「算法问责」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "audit、审计；explainability、可解释性；oversight、监督；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u23-l1-q6",
+      "lessonId": "b2-u23-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "algorithmic-accountability"
+      ],
+      "glossary": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "explainability · 算法问责",
+      "audio": "explainability",
+      "instruction": "选择这个词的直译",
+      "answer": "可解释性",
+      "options": [
+        "可解释性",
+        "审计",
+        "监督",
+        "安排"
+      ],
+      "translation": "可解释性",
+      "id": "b2-u23-l1-q7",
+      "lessonId": "b2-u23-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "algorithmic-accountability"
+      ],
+      "glossary": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to explainability the plan this morning. after work.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们今天早上需要explainability这个计划。，下班后。",
+      "options": [
+        "我们截止日期前需要audit这个计划。",
+        "我们今天早上需要explainability这个计划。",
+        "我们今天早上需要explainability这个计划。，下班后。",
+        "我们预约前需要讨论监督。，会议期间。"
+      ],
+      "audio": "We need to explainability the plan this morning. after work.",
+      "translation": "我们今天早上需要explainability这个计划。，下班后。",
+      "id": "b2-u23-l1-q8",
+      "lessonId": "b2-u23-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "algorithmic-accountability"
+      ],
+      "glossary": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们预约前需要讨论监督。，会议期间。",
+      "options": [
+        "我们截止日期前需要audit这个计划。",
+        "我们今天早上需要explainability这个计划。",
+        "我们今天早上需要explainability这个计划。，下班后。",
+        "我们预约前需要讨论监督。，会议期间。"
+      ],
+      "audio": "We need to discuss the oversight before the appointment. during the meeting.",
+      "translation": "我们预约前需要讨论监督。，会议期间。",
+      "id": "b2-u23-l1-q9",
+      "lessonId": "b2-u23-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "algorithmic-accountability"
+      ],
+      "glossary": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the explainability during the meeting.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the explainability during the meeting.",
+      "translation": "我们需要会议期间检查可解释性。",
+      "id": "b2-u23-l1-q10",
+      "lessonId": "b2-u23-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "algorithmic-accountability"
+      ],
+      "glossary": [
+        [
+          "audit",
+          "审计"
+        ],
+        [
+          "explainability",
+          "可解释性"
+        ],
+        [
+          "oversight",
+          "监督"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u23-l1-dialogue",
+    "scene": "算法问责",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about audit?",
+        "translation": "你能再告诉我一些关于审计的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use audit when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到审计。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use audit in a daily plan",
+        "options": [
+          "How to use audit in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

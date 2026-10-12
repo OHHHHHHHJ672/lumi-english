@@ -1,0 +1,567 @@
+{
+  "id": "b2-u71-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "进阶公共行政",
+  "subtitle": "分析官僚体系和裁量",
+  "theme": "进阶公共行政",
+  "grammarFocus": "conditionals",
+  "grammarTags": [
+    "conditionals"
+  ],
+  "words": [
+    [
+      "bureaucracy",
+      "官僚体系"
+    ],
+    [
+      "implementation",
+      "执行"
+    ],
+    [
+      "discretion",
+      "裁量权"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "bureaucracy · 进阶公共行政",
+      "audio": "bureaucracy",
+      "instruction": "选择这个词的直译",
+      "answer": "官僚体系",
+      "options": [
+        "官僚体系",
+        "执行",
+        "裁量权",
+        "问题"
+      ],
+      "translation": "官僚体系",
+      "id": "b2-u71-l1-q1",
+      "lessonId": "b2-u71-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "If we check the bureaucracy, we can avoid a delay.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "如果我们检查官僚体系，就能避免延误。",
+      "options": [
+        "如果我们检查官僚体系，就能避免延误。",
+        "如果我们检查执行，就能避免延误。",
+        "如果我们检查执行，就能避免延误。，下班后。",
+        "如果我们检查裁量权，就能避免延误。，会议期间。"
+      ],
+      "audio": "If we check the bureaucracy, we can avoid a delay.",
+      "translation": "如果我们检查官僚体系，就能避免延误。",
+      "id": "b2-u71-l1-q2",
+      "lessonId": "b2-u71-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "如果我们检查执行，就能避免延误。",
+      "options": [
+        "如果我们检查官僚体系，就能避免延误。",
+        "如果我们检查执行，就能避免延误。",
+        "如果我们检查执行，就能避免延误。，下班后。",
+        "如果我们检查裁量权，就能避免延误。，会议期间。"
+      ],
+      "audio": "If we check the implementation, we can avoid a delay.",
+      "translation": "如果我们检查执行，就能避免延误。",
+      "id": "b2-u71-l1-q3",
+      "lessonId": "b2-u71-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "如果我们检查裁量权，就能避免延误。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "If we check the discretion, we can avoid a delay.",
+      "tokens": [
+        "If",
+        "we",
+        "check",
+        "the",
+        "discretion,",
+        "we",
+        "can",
+        "avoid",
+        "a",
+        "delay."
+      ],
+      "audio": "If we check the discretion, we can avoid a delay.",
+      "translation": "如果我们检查裁量权，就能避免延误。",
+      "id": "b2-u71-l1-q4",
+      "lessonId": "b2-u71-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ after work.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "bureaucracy",
+      "options": [
+        "bureaucracy",
+        "implementation",
+        "discretion",
+        "message"
+      ],
+      "audio": "Please check the bureaucracy after work.",
+      "translation": "请下班后检查官僚体系。",
+      "id": "b2-u71-l1-q5",
+      "lessonId": "b2-u71-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶公共行政」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "bureaucracy、官僚体系；implementation、执行；discretion、裁量权；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u71-l1-q6",
+      "lessonId": "b2-u71-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "implementation · 进阶公共行政",
+      "audio": "implementation",
+      "instruction": "选择这个词的直译",
+      "answer": "执行",
+      "options": [
+        "执行",
+        "官僚体系",
+        "裁量权",
+        "安排"
+      ],
+      "translation": "执行",
+      "id": "b2-u71-l1-q7",
+      "lessonId": "b2-u71-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "If we check the implementation, we can avoid a delay. after work.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "如果我们检查执行，就能避免延误。，下班后。",
+      "options": [
+        "如果我们检查官僚体系，就能避免延误。",
+        "如果我们检查执行，就能避免延误。",
+        "如果我们检查执行，就能避免延误。，下班后。",
+        "如果我们检查裁量权，就能避免延误。，会议期间。"
+      ],
+      "audio": "If we check the implementation, we can avoid a delay. after work.",
+      "translation": "如果我们检查执行，就能避免延误。，下班后。",
+      "id": "b2-u71-l1-q8",
+      "lessonId": "b2-u71-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "如果我们检查裁量权，就能避免延误。，会议期间。",
+      "options": [
+        "如果我们检查官僚体系，就能避免延误。",
+        "如果我们检查执行，就能避免延误。",
+        "如果我们检查执行，就能避免延误。，下班后。",
+        "如果我们检查裁量权，就能避免延误。，会议期间。"
+      ],
+      "audio": "If we check the discretion, we can avoid a delay. during the meeting.",
+      "translation": "如果我们检查裁量权，就能避免延误。，会议期间。",
+      "id": "b2-u71-l1-q9",
+      "lessonId": "b2-u71-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the implementation during the meeting.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the implementation during the meeting.",
+      "translation": "我们需要会议期间检查执行。",
+      "id": "b2-u71-l1-q10",
+      "lessonId": "b2-u71-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "bureaucracy",
+          "官僚体系"
+        ],
+        [
+          "implementation",
+          "执行"
+        ],
+        [
+          "discretion",
+          "裁量权"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u71-l1-dialogue",
+    "scene": "进阶公共行政",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about bureaucracy?",
+        "translation": "你能再告诉我一些关于官僚体系的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use bureaucracy when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到官僚体系。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use bureaucracy in a daily plan",
+        "options": [
+          "How to use bureaucracy in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

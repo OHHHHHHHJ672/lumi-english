@@ -1,0 +1,369 @@
+{
+  "id": "b1-u10-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "求职面试",
+  "subtitle": "说明职位、资格和推荐人",
+  "theme": "求职面试",
+  "grammarFocus": "past-simple",
+  "grammarTags": [
+    "past-simple"
+  ],
+  "words": [
+    [
+      "qualification",
+      "资格"
+    ],
+    [
+      "position",
+      "职位"
+    ],
+    [
+      "reference",
+      "推荐人"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u10-l1-q1",
+      "kind": "word",
+      "prompt": "qualification · 求职面试",
+      "audio": "qualification",
+      "instruction": "选择适合语境的表达。",
+      "answer": "qualification",
+      "translation": "资格",
+      "lessonId": "b1-u10-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "资格",
+        "职位",
+        "推荐人",
+        "报告"
+      ]
+    },
+    {
+      "id": "b1-u10-l1-q2",
+      "kind": "choice",
+      "prompt": "What qualification did Jin describe?",
+      "audio": "What qualification did Jin describe?",
+      "instruction": "选择适合语境的表达。",
+      "answer": "金介绍了什么资格？",
+      "translation": "金介绍了什么资格？",
+      "lessonId": "b1-u10-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "金介绍了什么资格？",
+        "公司给了她一个初级职位。",
+        "他请前任经理做推荐人。",
+        "这句话没有说明原因。"
+      ]
+    },
+    {
+      "id": "b1-u10-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The company offered her a junior position.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "公司给了她一个初级职位。",
+      "translation": "公司给了她一个初级职位。",
+      "lessonId": "b1-u10-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "公司给了她一个初级职位。",
+        "金介绍了什么资格？",
+        "他请前任经理做推荐人。",
+        "说话人没有做决定。"
+      ]
+    },
+    {
+      "id": "b1-u10-l1-q4",
+      "kind": "order",
+      "prompt": "他请前任经理做推荐人。",
+      "audio": "He asked a former manager to be his reference.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "He asked a former manager to be his reference.",
+      "translation": "他请前任经理做推荐人。",
+      "lessonId": "b1-u10-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "He",
+        "asked",
+        "a",
+        "former",
+        "manager",
+        "to",
+        "be",
+        "his",
+        "reference."
+      ]
+    },
+    {
+      "id": "b1-u10-l1-q5",
+      "kind": "fill",
+      "prompt": "We have _____ the position before Friday.",
+      "audio": "We have reviewed the position before Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "reviewed",
+      "translation": "reviewed",
+      "lessonId": "b1-u10-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u10-l1-q6",
+      "kind": "match",
+      "prompt": "配对「求职面试」中的重点词。",
+      "audio": "",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "matched",
+      "lessonId": "b1-u10-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "qualification",
+          "资格"
+        ],
+        [
+          "position",
+          "职位"
+        ],
+        [
+          "reference",
+          "推荐人"
+        ],
+        [
+          "flight",
+          "航班"
+        ],
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u10-l1-q7",
+      "kind": "word",
+      "prompt": "position · 求职面试",
+      "audio": "position",
+      "instruction": "选择适合语境的表达。",
+      "answer": "position",
+      "translation": "职位",
+      "lessonId": "b1-u10-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "职位",
+        "资格",
+        "推荐人",
+        "会议"
+      ]
+    },
+    {
+      "id": "b1-u10-l1-q8",
+      "kind": "choice",
+      "prompt": "She explained how her training matched the role.",
+      "audio": "She explained how her training matched the role.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "她解释了培训如何符合职位。",
+      "translation": "她解释了培训如何符合职位。",
+      "lessonId": "b1-u10-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "她解释了培训如何符合职位。",
+        "金介绍了什么资格？",
+        "公司给了她一个初级职位。",
+        "这句话谈的是天气。"
+      ]
+    },
+    {
+      "id": "b1-u10-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，判断下一步。",
+      "audio": "He asked a former manager to be his reference. During the review.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "他请前任经理做推荐人。",
+      "translation": "他请前任经理做推荐人。（会议复盘时）",
+      "lessonId": "b1-u10-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "他请前任经理做推荐人。",
+        "金介绍了什么资格？",
+        "她解释了培训如何符合职位。",
+        "说话人取消了安排。"
+      ]
+    },
+    {
+      "id": "b1-u10-l1-q10",
+      "kind": "fill",
+      "prompt": "The team must _____ the reference today.",
+      "audio": "The team must clarify the reference today.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "clarify",
+      "translation": "clarify",
+      "lessonId": "b1-u10-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u10-l1-dialogue",
+    "scene": "求职面试",
+    "characters": [
+      {
+        "id": "jin",
+        "name": "Jin",
+        "role": "colleague"
+      },
+      {
+        "id": "leah",
+        "name": "Leah",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "jin",
+        "text": "I enjoyed the interview, but I am unsure whether my experience fits the position.",
+        "translation": "我很享受这次面试，但不确定经历是否符合职位。"
+      },
+      {
+        "speaker": "leah",
+        "text": "Your qualification in customer research matched the team’s needs.",
+        "translation": "你在用户研究方面的资格符合团队需要。"
+      },
+      {
+        "speaker": "jin",
+        "text": "I will send the reference details this afternoon.",
+        "translation": "我今天下午会发送推荐人的信息。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Leah提出了什么建议？",
+        "answer": "Your qualification in customer research matched the team’s needs.",
+        "options": [
+          "Your qualification in customer research matched the team’s needs.",
+          "I enjoyed the interview, but I am unsure whether my experience fits the position.",
+          "I will send the reference details this afternoon."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

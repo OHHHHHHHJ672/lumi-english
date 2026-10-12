@@ -1,0 +1,367 @@
+{
+  "id": "b1-u8-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "边界与关系",
+  "subtitle": "表达需求并处理分歧",
+  "theme": "边界与关系",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "boundary",
+      "界限"
+    ],
+    [
+      "misunderstanding",
+      "误解"
+    ],
+    [
+      "negotiate",
+      "协商"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u8-l1-q1",
+      "kind": "word",
+      "prompt": "boundary · 边界与关系",
+      "audio": "boundary",
+      "instruction": "选择适合语境的表达。",
+      "answer": "boundary",
+      "translation": "界限",
+      "lessonId": "b1-u8-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "界限",
+        "误解",
+        "协商",
+        "报告"
+      ]
+    },
+    {
+      "id": "b1-u8-l1-q2",
+      "kind": "choice",
+      "prompt": "Have you explained your work boundary?",
+      "audio": "Have you explained your work boundary?",
+      "instruction": "选择适合语境的表达。",
+      "answer": "你说明工作界限了吗？",
+      "translation": "你说明工作界限了吗？",
+      "lessonId": "b1-u8-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "你说明工作界限了吗？",
+        "因为没有人询问，误解加深了。",
+        "我们协商出了公平的周末计划。",
+        "这句话没有说明原因。"
+      ]
+    },
+    {
+      "id": "b1-u8-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The misunderstanding has grown because nobody asked.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "因为没有人询问，误解加深了。",
+      "translation": "因为没有人询问，误解加深了。",
+      "lessonId": "b1-u8-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "因为没有人询问，误解加深了。",
+        "你说明工作界限了吗？",
+        "我们协商出了公平的周末计划。",
+        "说话人没有做决定。"
+      ]
+    },
+    {
+      "id": "b1-u8-l1-q4",
+      "kind": "order",
+      "prompt": "我们协商出了公平的周末计划。",
+      "audio": "We have negotiated a fair weekend plan.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "We have negotiated a fair weekend plan.",
+      "translation": "我们协商出了公平的周末计划。",
+      "lessonId": "b1-u8-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "We",
+        "have",
+        "negotiated",
+        "a",
+        "fair",
+        "weekend",
+        "plan."
+      ]
+    },
+    {
+      "id": "b1-u8-l1-q5",
+      "kind": "fill",
+      "prompt": "We have _____ the misunderstanding before Friday.",
+      "audio": "We have reviewed the misunderstanding before Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "reviewed",
+      "translation": "reviewed",
+      "lessonId": "b1-u8-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u8-l1-q6",
+      "kind": "match",
+      "prompt": "配对「边界与关系」中的重点词。",
+      "audio": "",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "matched",
+      "lessonId": "b1-u8-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "boundary",
+          "界限"
+        ],
+        [
+          "misunderstanding",
+          "误解"
+        ],
+        [
+          "negotiate",
+          "协商"
+        ],
+        [
+          "flight",
+          "航班"
+        ],
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u8-l1-q7",
+      "kind": "word",
+      "prompt": "misunderstanding · 边界与关系",
+      "audio": "misunderstanding",
+      "instruction": "选择适合语境的表达。",
+      "answer": "misunderstanding",
+      "translation": "误解",
+      "lessonId": "b1-u8-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "误解",
+        "界限",
+        "协商",
+        "会议"
+      ]
+    },
+    {
+      "id": "b1-u8-l1-q8",
+      "kind": "choice",
+      "prompt": "I cannot answer messages after eight.",
+      "audio": "I cannot answer messages after eight.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我八点后不能回复消息。",
+      "translation": "我八点后不能回复消息。",
+      "lessonId": "b1-u8-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我八点后不能回复消息。",
+        "你说明工作界限了吗？",
+        "因为没有人询问，误解加深了。",
+        "这句话谈的是天气。"
+      ]
+    },
+    {
+      "id": "b1-u8-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，判断下一步。",
+      "audio": "We have negotiated a fair weekend plan. During the review.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我们协商出了公平的周末计划。",
+      "translation": "我们协商出了公平的周末计划。（会议复盘时）",
+      "lessonId": "b1-u8-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们协商出了公平的周末计划。",
+        "你说明工作界限了吗？",
+        "我八点后不能回复消息。",
+        "说话人取消了安排。"
+      ]
+    },
+    {
+      "id": "b1-u8-l1-q10",
+      "kind": "fill",
+      "prompt": "The team must _____ the negotiate today.",
+      "audio": "The team must clarify the negotiate today.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "clarify",
+      "translation": "clarify",
+      "lessonId": "b1-u8-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u8-l1-dialogue",
+    "scene": "边界与关系",
+    "characters": [
+      {
+        "id": "tara",
+        "name": "Tara",
+        "role": "colleague"
+      },
+      {
+        "id": "jon",
+        "name": "Jon",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "tara",
+        "text": "I want to help, but I cannot answer work messages after eight.",
+        "translation": "我想帮忙，但八点后不能回复工作消息。"
+      },
+      {
+        "speaker": "jon",
+        "text": "That boundary is clear; we can plan the urgent calls earlier.",
+        "translation": "这个界限很清楚；我们可以把紧急电话安排得更早。"
+      },
+      {
+        "speaker": "tara",
+        "text": "Thanks. I have felt less pressure since we agreed.",
+        "translation": "谢谢。我们达成一致后我感觉压力小多了。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Jon提出了什么建议？",
+        "answer": "That boundary is clear; we can plan the urgent calls earlier.",
+        "options": [
+          "That boundary is clear; we can plan the urgent calls earlier.",
+          "I want to help, but I cannot answer work messages after eight.",
+          "Thanks. I have felt less pressure since we agreed."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

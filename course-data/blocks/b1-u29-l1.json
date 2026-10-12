@@ -1,0 +1,369 @@
+{
+  "id": "b1-u29-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "领导授权",
+  "subtitle": "讨论分工、导师和责任感",
+  "theme": "领导授权",
+  "grammarFocus": "leadership",
+  "grammarTags": [
+    "leadership"
+  ],
+  "words": [
+    [
+      "assign",
+      "分配"
+    ],
+    [
+      "mentor",
+      "导师"
+    ],
+    [
+      "ownership",
+      "责任感"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u29-l1-q1",
+      "kind": "word",
+      "prompt": "assign · 领导授权",
+      "answer": "assign",
+      "translation": "分配",
+      "instruction": "选择适合语境的表达。",
+      "audio": "assign",
+      "lessonId": "b1-u29-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "leadership"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "分配",
+        "导师",
+        "责任感",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u29-l1-q2",
+      "kind": "choice",
+      "prompt": "The lead assigned each task after hearing the team’s strengths.",
+      "answer": "负责人在了解团队成员的优势后分配了每项任务。",
+      "translation": "负责人在了解团队成员的优势后分配了每项任务。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The lead assigned each task after hearing the team’s strengths.",
+      "lessonId": "b1-u29-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "leadership"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "负责人在了解团队成员的优势后分配了每项任务。",
+        "我会把责任交给你，并和你一起审阅第一版。",
+        "导师可以帮助新任经理建立信心。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u29-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我会把责任交给你，并和你一起审阅第一版。",
+      "translation": "我会把责任交给你，并和你一起审阅第一版。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will assign you ownership and review the first version with you.",
+      "lessonId": "b1-u29-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "leadership"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会把责任交给你，并和你一起审阅第一版。",
+        "负责人在了解团队成员的优势后分配了每项任务。",
+        "导师可以帮助新任经理建立信心。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u29-l1-q4",
+      "kind": "order",
+      "prompt": "导师可以帮助新任经理建立信心。",
+      "answer": "A mentor can help a new manager build confidence.",
+      "translation": "导师可以帮助新任经理建立信心。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "A mentor can help a new manager build confidence.",
+      "lessonId": "b1-u29-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "leadership"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "A",
+        "mentor",
+        "can",
+        "help",
+        "a",
+        "new",
+        "manager",
+        "build",
+        "confidence."
+      ]
+    },
+    {
+      "id": "b1-u29-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the mentor before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了导师。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the mentor before the meeting.",
+      "lessonId": "b1-u29-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "leadership"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u29-l1-q6",
+      "kind": "match",
+      "prompt": "配对「领导授权」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u29-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "leadership"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "assign",
+          "分配"
+        ],
+        [
+          "mentor",
+          "导师"
+        ],
+        [
+          "ownership",
+          "责任感"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u29-l1-q7",
+      "kind": "word",
+      "prompt": "mentor · 领导授权",
+      "answer": "mentor",
+      "translation": "导师",
+      "instruction": "选择适合语境的表达。",
+      "audio": "mentor",
+      "lessonId": "b1-u29-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "leadership"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "导师",
+        "分配",
+        "责任感",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u29-l1-q8",
+      "kind": "choice",
+      "prompt": "That support will help me decide confidently.",
+      "answer": "这种支持会帮助我自信地做决定。",
+      "translation": "这种支持会帮助我自信地做决定。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That support will help me decide confidently.",
+      "lessonId": "b1-u29-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "leadership"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这种支持会帮助我自信地做决定。",
+        "团队在会议前已经审阅了导师。",
+        "负责人听取团队优势后分配了每项任务。",
+        "导师可以帮助新经理建立信心。"
+      ]
+    },
+    {
+      "id": "b1-u29-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "她主动接手了这次客户更新。",
+      "translation": "她主动接手了这次客户更新。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "She has taken ownership of the client update.",
+      "lessonId": "b1-u29-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "leadership"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "她主动接手了这次客户更新。",
+        "负责人在了解团队成员的优势后分配了每项任务。",
+        "我会把责任交给你，并和你一起审阅第一版。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u29-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the ownership before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅责任感。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the ownership before Friday.",
+      "lessonId": "b1-u29-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "leadership"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u29-l1-dialogue",
+    "scene": "领导授权",
+    "characters": [
+      {
+        "id": "sara",
+        "name": "Sara",
+        "role": "colleague"
+      },
+      {
+        "id": "eli",
+        "name": "Eli",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "sara",
+        "text": "I can prepare the client update, but I need authority to approve the wording.",
+        "translation": "我可以准备客户更新，但需要批准措辞的权限。"
+      },
+      {
+        "speaker": "eli",
+        "text": "I will assign you ownership and review the first version with you.",
+        "translation": "我会把责任交给你，并和你一起审阅第一版。"
+      },
+      {
+        "speaker": "sara",
+        "text": "That support will help me decide confidently.",
+        "translation": "这样的支持会帮助我更有信心地决定。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Eli提出了什么建议？",
+        "answer": "I will assign you ownership and review the first version with you.",
+        "options": [
+          "I will assign you ownership and review the first version with you.",
+          "I can prepare the client update, but I need authority to approve the wording.",
+          "That support will help me decide confidently."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

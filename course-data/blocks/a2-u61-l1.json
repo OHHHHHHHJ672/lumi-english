@@ -1,0 +1,565 @@
+{
+  "id": "a2-u61-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶沟通语气",
+  "subtitle": "表达道歉和误读",
+  "theme": "进阶沟通语气",
+  "grammarFocus": "past-perfect",
+  "grammarTags": [
+    "past-perfect"
+  ],
+  "words": [
+    [
+      "apology",
+      "道歉"
+    ],
+    [
+      "tone",
+      "语气"
+    ],
+    [
+      "misread",
+      "误读"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "apology · 进阶沟通语气",
+      "audio": "apology",
+      "instruction": "选择这个词的直译",
+      "answer": "道歉",
+      "options": [
+        "道歉",
+        "语气",
+        "误读",
+        "问题"
+      ],
+      "translation": "道歉",
+      "id": "a2-u61-l1-q1",
+      "lessonId": "a2-u61-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-perfect"
+      ],
+      "glossary": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We had checked the apology before the meeting.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "会议前我们已经检查过道歉。",
+      "options": [
+        "会议前我们已经检查过道歉。",
+        "会议前我们已经检查过语气。",
+        "会议前我们已经检查过语气。，周五。",
+        "会议前我们已经检查过误读。，这个周末。"
+      ],
+      "audio": "We had checked the apology before the meeting.",
+      "translation": "会议前我们已经检查过道歉。",
+      "id": "a2-u61-l1-q2",
+      "lessonId": "a2-u61-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-perfect"
+      ],
+      "glossary": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "会议前我们已经检查过语气。",
+      "options": [
+        "会议前我们已经检查过道歉。",
+        "会议前我们已经检查过语气。",
+        "会议前我们已经检查过语气。，周五。",
+        "会议前我们已经检查过误读。，这个周末。"
+      ],
+      "audio": "We had checked the tone before the meeting.",
+      "translation": "会议前我们已经检查过语气。",
+      "id": "a2-u61-l1-q3",
+      "lessonId": "a2-u61-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-perfect"
+      ],
+      "glossary": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "会议前我们已经检查过误读。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We had checked the misread before the meeting.",
+      "tokens": [
+        "We",
+        "had",
+        "checked",
+        "the",
+        "misread",
+        "before",
+        "the",
+        "meeting."
+      ],
+      "audio": "We had checked the misread before the meeting.",
+      "translation": "会议前我们已经检查过误读。",
+      "id": "a2-u61-l1-q4",
+      "lessonId": "a2-u61-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-perfect"
+      ],
+      "glossary": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ on Friday.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "apology",
+      "options": [
+        "apology",
+        "tone",
+        "misread",
+        "message"
+      ],
+      "audio": "Please check the apology on Friday.",
+      "translation": "请周五检查道歉。",
+      "id": "a2-u61-l1-q5",
+      "lessonId": "a2-u61-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-perfect"
+      ],
+      "glossary": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶沟通语气」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "apology、道歉；tone、语气；misread、误读；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u61-l1-q6",
+      "lessonId": "a2-u61-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-perfect"
+      ],
+      "glossary": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "tone · 进阶沟通语气",
+      "audio": "tone",
+      "instruction": "选择这个词的直译",
+      "answer": "语气",
+      "options": [
+        "语气",
+        "道歉",
+        "误读",
+        "安排"
+      ],
+      "translation": "语气",
+      "id": "a2-u61-l1-q7",
+      "lessonId": "a2-u61-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-perfect"
+      ],
+      "glossary": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We had checked the tone before the meeting. on Friday.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "会议前我们已经检查过语气。，周五。",
+      "options": [
+        "会议前我们已经检查过道歉。",
+        "会议前我们已经检查过语气。",
+        "会议前我们已经检查过语气。，周五。",
+        "会议前我们已经检查过误读。，这个周末。"
+      ],
+      "audio": "We had checked the tone before the meeting. on Friday.",
+      "translation": "会议前我们已经检查过语气。，周五。",
+      "id": "a2-u61-l1-q8",
+      "lessonId": "a2-u61-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-perfect"
+      ],
+      "glossary": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "会议前我们已经检查过误读。，这个周末。",
+      "options": [
+        "会议前我们已经检查过道歉。",
+        "会议前我们已经检查过语气。",
+        "会议前我们已经检查过语气。，周五。",
+        "会议前我们已经检查过误读。，这个周末。"
+      ],
+      "audio": "We had checked the misread before the meeting. this weekend.",
+      "translation": "会议前我们已经检查过误读。，这个周末。",
+      "id": "a2-u61-l1-q9",
+      "lessonId": "a2-u61-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-perfect"
+      ],
+      "glossary": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the tone this weekend.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the tone this weekend.",
+      "translation": "我们需要这个周末检查语气。",
+      "id": "a2-u61-l1-q10",
+      "lessonId": "a2-u61-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-perfect"
+      ],
+      "glossary": [
+        [
+          "apology",
+          "道歉"
+        ],
+        [
+          "tone",
+          "语气"
+        ],
+        [
+          "misread",
+          "误读"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u61-l1-dialogue",
+    "scene": "进阶沟通语气",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about apology?",
+        "translation": "你能再告诉我一些关于道歉的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use apology when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到道歉。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use apology in a daily plan",
+        "options": [
+          "How to use apology in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,244 @@
+{
+  "id": "b1-u2-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "可持续旅行",
+  "subtitle": "比较交通方式并说明影响",
+  "theme": "sustainable-travel",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "sourceStatus": "pending-manual-rewrite",
+  "words": [
+    [
+      "carbon",
+      "碳排放"
+    ],
+    [
+      "railway",
+      "铁路"
+    ],
+    [
+      "sustainable",
+      "可持续的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u2-l1-q1",
+      "kind": "word",
+      "prompt": "carbon · 可持续旅行",
+      "audio": "carbon",
+      "instruction": "选择这个词在旅行语境中的意思。",
+      "answer": "碳排放",
+      "translation": "碳排放",
+      "options": [
+        "碳排放",
+        "铁路",
+        "可持续的",
+        "行李"
+      ]
+    },
+    {
+      "id": "b1-u2-l1-q2",
+      "kind": "choice",
+      "prompt": "The railway has produced less carbon than the flight.",
+      "audio": "The railway has produced less carbon than the flight.",
+      "instruction": "选择这句话的意思。",
+      "answer": "铁路产生的碳排放比航班少。",
+      "translation": "铁路产生的碳排放比航班少。",
+      "options": [
+        "铁路产生的碳排放比航班少。",
+        "铁路比航班更快到达。",
+        "航班没有经过机场检查。",
+        "这趟旅行完全没有费用。"
+      ]
+    },
+    {
+      "id": "b1-u2-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，判断旅行者选了什么。",
+      "audio": "We have chosen the more sustainable route.",
+      "instruction": "听完整句子，选择准确意思。",
+      "answer": "我们选择了更可持续的路线。",
+      "translation": "我们选择了更可持续的路线。",
+      "options": [
+        "我们选择了更可持续的路线。",
+        "我们取消了全部住宿。",
+        "我们把铁路换成了出租车。",
+        "我们还没有查过路线。"
+      ]
+    },
+    {
+      "id": "b1-u2-l1-q4",
+      "kind": "order",
+      "prompt": "你比较过夜车和航班了吗？",
+      "audio": "Have you compared the night train with the flight?",
+      "instruction": "排列词块组成自然问句。",
+      "answer": "Have you compared the night train with the flight?",
+      "translation": "你比较过夜车和航班了吗？",
+      "tokens": [
+        "Have",
+        "you",
+        "compared",
+        "the night train",
+        "with the flight?"
+      ]
+    },
+    {
+      "id": "b1-u2-l1-q5",
+      "kind": "fill",
+      "prompt": "The group has _____ the railway timetable twice.",
+      "audio": "The group has checked the railway timetable twice.",
+      "instruction": "选择现在完成时的正确形式。",
+      "answer": "checked",
+      "translation": "小组已经核对过铁路时刻表两次。",
+      "options": [
+        "checked",
+        "check",
+        "checking",
+        "checks"
+      ]
+    },
+    {
+      "id": "b1-u2-l1-q6",
+      "kind": "match",
+      "prompt": "配对可持续旅行中的重点词。",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "碳排放；铁路；可持续的；航班；路线；燃料",
+      "pairs": [
+        [
+          "carbon",
+          "碳排放"
+        ],
+        [
+          "railway",
+          "铁路"
+        ],
+        [
+          "sustainable",
+          "可持续的"
+        ],
+        [
+          "flight",
+          "航班"
+        ],
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "fuel",
+          "燃料"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u2-l1-q7",
+      "kind": "word",
+      "prompt": "railway · 交通选择",
+      "audio": "railway",
+      "instruction": "选择这个词的中文意思。",
+      "answer": "铁路",
+      "translation": "铁路",
+      "options": [
+        "铁路",
+        "燃料",
+        "航班",
+        "车站"
+      ]
+    },
+    {
+      "id": "b1-u2-l1-q8",
+      "kind": "choice",
+      "prompt": "A shared bus can lower emissions on this route.",
+      "audio": "A shared bus can lower emissions on this route.",
+      "instruction": "选择这句话的意思。",
+      "answer": "共乘公交可以减少这条路线上的排放。",
+      "translation": "共乘公交可以减少这条路线上的排放。",
+      "options": [
+        "共乘公交可以减少这条路线上的排放。",
+        "共乘公交必须提前两周预订。",
+        "这条路线只允许飞机通过。",
+        "排放量和天气没有关系。"
+      ]
+    },
+    {
+      "id": "b1-u2-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，找出旅行安排。",
+      "audio": "I will book a sleeper seat and pack a reusable bottle.",
+      "instruction": "注意 will 和 reusable bottle。",
+      "answer": "我会订卧铺座位并带一个可重复使用的水瓶。",
+      "translation": "我会订卧铺座位并带一个可重复使用的水瓶。",
+      "options": [
+        "我会订卧铺座位并带一个可重复使用的水瓶。",
+        "我会改订早班飞机并托运行李。",
+        "我会租车去机场并买瓶装水。",
+        "我还没有决定是否出发。"
+      ]
+    },
+    {
+      "id": "b1-u2-l1-q10",
+      "kind": "fill",
+      "prompt": "The railway is more _____ than flying for this trip.",
+      "audio": "The railway is more sustainable than flying for this trip.",
+      "instruction": "选择合适的形容词。",
+      "answer": "sustainable",
+      "translation": "这次旅行坐铁路比坐飞机更可持续。",
+      "options": [
+        "sustainable",
+        "sustain",
+        "sustainably",
+        "sustained"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u2-l1-dialogue",
+    "scene": "夜车还是航班",
+    "characters": [
+      {
+        "id": "nora",
+        "name": "Nora",
+        "role": "traveler"
+      },
+      {
+        "id": "felix",
+        "name": "Felix",
+        "role": "traveler"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "nora",
+        "text": "The flight is quicker, but the night train has a much smaller carbon cost.",
+        "translation": "飞机更快，但夜车的碳排放成本小得多。"
+      },
+      {
+        "speaker": "felix",
+        "text": "I am happy to take the railway if we can reserve seats together.",
+        "translation": "如果能订到相邻座位，我愿意坐铁路。"
+      },
+      {
+        "speaker": "nora",
+        "text": "I have found two seats, so I will book them now.",
+        "translation": "我找到两个座位，现在就预订。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Nora 找到了什么？",
+        "answer": "两个铁路座位",
+        "options": [
+          "两个铁路座位",
+          "更便宜的航班",
+          "酒店健身房"
+        ]
+      }
+    ]
+  }
+}

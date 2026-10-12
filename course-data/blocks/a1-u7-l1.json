@@ -1,0 +1,246 @@
+{
+  "id": "a1-u7-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "天气变化",
+  "subtitle": "描述天气并准备出门",
+  "theme": "weather",
+  "grammarFocus": "present-simple",
+  "grammarTags": [
+    "present-simple",
+    "because"
+  ],
+  "sourceStatus": "hand-authored",
+  "words": [
+    [
+      "forecast",
+      "天气预报"
+    ],
+    [
+      "cloudy",
+      "多云的"
+    ],
+    [
+      "umbrella",
+      "雨伞"
+    ]
+  ],
+  "dialogue": {
+    "id": "a1-u7-l1-dialogue",
+    "scene": "出门前看天气",
+    "characters": [
+      {
+        "id": "leo",
+        "name": "Leo"
+      },
+      {
+        "id": "ava",
+        "name": "Ava"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "leo",
+        "text": "What does the forecast say for this afternoon?",
+        "translation": "天气预报说今天下午会怎样？"
+      },
+      {
+        "speaker": "ava",
+        "text": "It says the sky will be cloudy, so take an umbrella.",
+        "translation": "预报说天空会多云，所以带把雨伞。"
+      },
+      {
+        "speaker": "leo",
+        "text": "Good idea. The wind is getting stronger outside.",
+        "translation": "好主意。外面的风越来越大了。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Why should Leo take an umbrella?",
+        "answer": "Because the weather may change",
+        "options": [
+          "Because the weather may change",
+          "Because the shop is closing",
+          "Because the bus is early"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "a1-u7-l1-q1",
+      "kind": "word",
+      "prompt": "forecast · 天气变化",
+      "audio": "forecast",
+      "instruction": "选择这个词的直译",
+      "answer": "天气预报",
+      "options": [
+        "天气预报",
+        "天气温度",
+        "雨伞",
+        "风向"
+      ],
+      "translation": "天气预报"
+    },
+    {
+      "id": "a1-u7-l1-q2",
+      "kind": "choice",
+      "prompt": "The forecast says it will be sunny this afternoon.",
+      "instruction": "选择这句天气表达的意思。",
+      "answer": "天气预报说今天下午会放晴。",
+      "options": [
+        "天气预报说今天下午会放晴。",
+        "天空今天早上很阴。",
+        "海边附近的天气变化很快。",
+        "天气预报预计六点后会下雨。"
+      ],
+      "audio": "The forecast says it will be sunny this afternoon.",
+      "translation": "天气预报说今天下午会放晴。"
+    },
+    {
+      "id": "a1-u7-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "天气预报预计六点后会下雨。",
+      "options": [
+        "天气预报预计六点后会下雨。",
+        "天空今天早上很阴。",
+        "海边附近的天气变化很快。",
+        "天气预报说今天下午会放晴。"
+      ],
+      "audio": "The forecast expects rain after six.",
+      "translation": "天气预报预计六点后会下雨。"
+    },
+    {
+      "id": "a1-u7-l1-q4",
+      "kind": "order",
+      "prompt": "海边的风越来越大。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The wind is getting stronger near the beach.",
+      "tokens": [
+        "The",
+        "wind",
+        "is",
+        "getting",
+        "stronger",
+        "near",
+        "the",
+        "beach."
+      ],
+      "audio": "The wind is getting stronger near the beach.",
+      "translation": "海边的风越来越大。"
+    },
+    {
+      "id": "a1-u7-l1-q5",
+      "kind": "fill",
+      "prompt": "It is _____ today, so bring a jacket.",
+      "instruction": "选择描述天气的英文词。",
+      "answer": "cloudy",
+      "options": [
+        "cloudy",
+        "sunny",
+        "quiet",
+        "opposite"
+      ],
+      "audio": "It is cloudy today, so bring a jacket.",
+      "translation": "今天多云，所以带件夹克。"
+    },
+    {
+      "id": "a1-u7-l1-q6",
+      "kind": "match",
+      "prompt": "把天气场景中的词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "forecast",
+          "天气预报"
+        ],
+        [
+          "cloudy",
+          "多云的"
+        ],
+        [
+          "umbrella",
+          "雨伞"
+        ],
+        [
+          "wind",
+          "风"
+        ],
+        [
+          "rain",
+          "雨"
+        ],
+        [
+          "jacket",
+          "夹克"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "天气预报、多云的、雨伞、风、雨、夹克"
+    },
+    {
+      "id": "a1-u7-l1-q7",
+      "kind": "word",
+      "prompt": "umbrella · 天气变化",
+      "audio": "umbrella",
+      "instruction": "选择这个词的直译",
+      "answer": "雨伞",
+      "options": [
+        "雨伞",
+        "外套",
+        "天气预报",
+        "雨鞋"
+      ],
+      "translation": "雨伞"
+    },
+    {
+      "id": "a1-u7-l1-q8",
+      "kind": "choice",
+      "prompt": "The weather changes quickly near the coast.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "海边附近的天气变化很快。",
+      "options": [
+        "海边附近的天气变化很快。",
+        "天气预报说今天下午会放晴。",
+        "天气预报预计六点后会下雨。",
+        "今天早上天空很阴。"
+      ],
+      "audio": "The weather changes quickly near the coast.",
+      "translation": "海边附近的天气变化很快。"
+    },
+    {
+      "id": "a1-u7-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "今天早上天空很阴。",
+      "options": [
+        "今天早上天空很阴。",
+        "天气预报说今天下午会放晴。",
+        "天气预报预计六点后会下雨。",
+        "海边附近的天气变化很快。"
+      ],
+      "audio": "The sky is dark this morning.",
+      "translation": "今天早上天空很阴。"
+    },
+    {
+      "id": "a1-u7-l1-q10",
+      "kind": "fill",
+      "prompt": "The umbrella _____ you from the rain.",
+      "instruction": "选择一般现在时的正确形式。",
+      "answer": "protects",
+      "options": [
+        "protects",
+        "protect",
+        "protecting",
+        "protected"
+      ],
+      "audio": "The umbrella protects you from the rain.",
+      "translation": "雨伞保护你不被雨淋。"
+    }
+  ]
+}

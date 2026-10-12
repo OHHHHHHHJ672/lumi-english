@@ -1,0 +1,566 @@
+{
+  "id": "a2-u54-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶家用电器",
+  "subtitle": "说明微波炉和冰柜",
+  "theme": "进阶家用电器",
+  "grammarFocus": "comparatives",
+  "grammarTags": [
+    "comparatives"
+  ],
+  "words": [
+    [
+      "microwave",
+      "微波炉"
+    ],
+    [
+      "freezer",
+      "冰柜"
+    ],
+    [
+      "appliance",
+      "电器"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "microwave · 进阶家用电器",
+      "audio": "microwave",
+      "instruction": "选择这个词的直译",
+      "answer": "微波炉",
+      "options": [
+        "微波炉",
+        "冰柜",
+        "电器",
+        "问题"
+      ],
+      "translation": "微波炉",
+      "id": "a2-u54-l1-q1",
+      "lessonId": "a2-u54-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The microwave is more useful than the old one.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "微波炉比旧的更有用。",
+      "options": [
+        "微波炉比旧的更有用。",
+        "冰柜比旧的更有用。",
+        "冰柜比旧的更有用。，在车站。",
+        "电器比旧的更有用。，截止日期前。"
+      ],
+      "audio": "The microwave is more useful than the old one.",
+      "translation": "微波炉比旧的更有用。",
+      "id": "a2-u54-l1-q2",
+      "lessonId": "a2-u54-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "冰柜比旧的更有用。",
+      "options": [
+        "微波炉比旧的更有用。",
+        "冰柜比旧的更有用。",
+        "冰柜比旧的更有用。，在车站。",
+        "电器比旧的更有用。，截止日期前。"
+      ],
+      "audio": "The freezer is more useful than the old one.",
+      "translation": "冰柜比旧的更有用。",
+      "id": "a2-u54-l1-q3",
+      "lessonId": "a2-u54-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "电器比旧的更有用。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The appliance is more useful than the old one.",
+      "tokens": [
+        "The",
+        "appliance",
+        "is",
+        "more",
+        "useful",
+        "than",
+        "the",
+        "old",
+        "one."
+      ],
+      "audio": "The appliance is more useful than the old one.",
+      "translation": "电器比旧的更有用。",
+      "id": "a2-u54-l1-q4",
+      "lessonId": "a2-u54-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ at the station.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "microwave",
+      "options": [
+        "microwave",
+        "freezer",
+        "appliance",
+        "message"
+      ],
+      "audio": "Please check the microwave at the station.",
+      "translation": "请在车站检查微波炉。",
+      "id": "a2-u54-l1-q5",
+      "lessonId": "a2-u54-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶家用电器」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "microwave、微波炉；freezer、冰柜；appliance、电器；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u54-l1-q6",
+      "lessonId": "a2-u54-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "freezer · 进阶家用电器",
+      "audio": "freezer",
+      "instruction": "选择这个词的直译",
+      "answer": "冰柜",
+      "options": [
+        "冰柜",
+        "微波炉",
+        "电器",
+        "安排"
+      ],
+      "translation": "冰柜",
+      "id": "a2-u54-l1-q7",
+      "lessonId": "a2-u54-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The freezer is more useful than the old one. at the station.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "冰柜比旧的更有用。，在车站。",
+      "options": [
+        "微波炉比旧的更有用。",
+        "冰柜比旧的更有用。",
+        "冰柜比旧的更有用。，在车站。",
+        "电器比旧的更有用。，截止日期前。"
+      ],
+      "audio": "The freezer is more useful than the old one. at the station.",
+      "translation": "冰柜比旧的更有用。，在车站。",
+      "id": "a2-u54-l1-q8",
+      "lessonId": "a2-u54-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "电器比旧的更有用。，截止日期前。",
+      "options": [
+        "微波炉比旧的更有用。",
+        "冰柜比旧的更有用。",
+        "冰柜比旧的更有用。，在车站。",
+        "电器比旧的更有用。，截止日期前。"
+      ],
+      "audio": "The appliance is more useful than the old one. before the deadline.",
+      "translation": "电器比旧的更有用。，截止日期前。",
+      "id": "a2-u54-l1-q9",
+      "lessonId": "a2-u54-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the freezer before the deadline.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the freezer before the deadline.",
+      "translation": "我们需要截止日期前检查冰柜。",
+      "id": "a2-u54-l1-q10",
+      "lessonId": "a2-u54-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "microwave",
+          "微波炉"
+        ],
+        [
+          "freezer",
+          "冰柜"
+        ],
+        [
+          "appliance",
+          "电器"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u54-l1-dialogue",
+    "scene": "进阶家用电器",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about microwave?",
+        "translation": "你能再告诉我一些关于微波炉的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use microwave when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到微波炉。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use microwave in a daily plan",
+        "options": [
+          "How to use microwave in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,367 @@
+{
+  "id": "b1-u25-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "演讲问答",
+  "subtitle": "回应澄清、追问和挑战",
+  "theme": "演讲问答",
+  "grammarFocus": "presentation-questions",
+  "grammarTags": [
+    "presentation-questions"
+  ],
+  "words": [
+    [
+      "clarify",
+      "澄清"
+    ],
+    [
+      "follow-up",
+      "追问"
+    ],
+    [
+      "challenge",
+      "挑战"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u25-l1-q1",
+      "kind": "word",
+      "prompt": "clarify · 演讲问答",
+      "answer": "clarify",
+      "translation": "澄清",
+      "instruction": "选择适合语境的表达。",
+      "audio": "clarify",
+      "lessonId": "b1-u25-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "presentation-questions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "澄清",
+        "追问",
+        "挑战",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u25-l1-q2",
+      "kind": "choice",
+      "prompt": "Your question helps me clarify the chart.",
+      "answer": "你的问题帮助我澄清图表。",
+      "translation": "你的问题帮助我澄清图表。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Your question helps me clarify the chart.",
+      "lessonId": "b1-u25-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "presentation-questions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "你的问题帮助我澄清图表。",
+        "这是一个合理的挑战；我来澄清地区差异。",
+        "一个有用的追问可以揭示一个假设。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u25-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "这是一个合理的挑战；我来澄清地区差异。",
+      "translation": "这是一个合理的挑战；我来澄清地区差异。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That is a fair challenge; I will clarify the regional difference.",
+      "lessonId": "b1-u25-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "presentation-questions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这是一个合理的挑战；我来澄清地区差异。",
+        "你的问题帮助我澄清图表。",
+        "一个有用的追问可以揭示一个假设。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u25-l1-q4",
+      "kind": "order",
+      "prompt": "一个有用的追问可以暴露出隐藏的假设。",
+      "answer": "A useful follow-up can reveal an assumption.",
+      "translation": "一个有用的追问可以暴露出隐藏的假设。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "A useful follow-up can reveal an assumption.",
+      "lessonId": "b1-u25-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "presentation-questions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "A",
+        "useful",
+        "follow-up",
+        "can",
+        "reveal",
+        "an",
+        "assumption."
+      ]
+    },
+    {
+      "id": "b1-u25-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the follow-up before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了追问。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the follow-up before the meeting.",
+      "lessonId": "b1-u25-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "presentation-questions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u25-l1-q6",
+      "kind": "match",
+      "prompt": "配对「演讲问答」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u25-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "presentation-questions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "clarify",
+          "澄清"
+        ],
+        [
+          "follow-up",
+          "追问"
+        ],
+        [
+          "challenge",
+          "挑战"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u25-l1-q7",
+      "kind": "word",
+      "prompt": "follow-up · 演讲问答",
+      "answer": "follow-up",
+      "translation": "追问",
+      "instruction": "选择适合语境的表达。",
+      "audio": "follow-up",
+      "lessonId": "b1-u25-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "presentation-questions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "追问",
+        "澄清",
+        "挑战",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u25-l1-q8",
+      "kind": "choice",
+      "prompt": "The follow-up makes the conclusion more honest.",
+      "answer": "这次追问让结论更诚实。",
+      "translation": "这次追问让结论更诚实。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The follow-up makes the conclusion more honest.",
+      "lessonId": "b1-u25-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "presentation-questions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这次追问让结论更诚实。",
+        "团队在会议前已经审阅了追问。",
+        "你的问题帮助我澄清图表。",
+        "一个有用的追问可以揭示一个假设。"
+      ]
+    },
+    {
+      "id": "b1-u25-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "她迎接这个挑战，而不是回避它。",
+      "translation": "她迎接这个挑战，而不是回避它。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "She welcomed the challenge instead of avoiding it.",
+      "lessonId": "b1-u25-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "presentation-questions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "她迎接这个挑战，而不是回避它。",
+        "你的问题帮助我澄清图表。",
+        "这是一个合理的挑战；我来澄清地区差异。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u25-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the challenge before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅挑战。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the challenge before Friday.",
+      "lessonId": "b1-u25-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "presentation-questions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u25-l1-dialogue",
+    "scene": "演讲问答",
+    "characters": [
+      {
+        "id": "maya",
+        "name": "Maya",
+        "role": "colleague"
+      },
+      {
+        "id": "ken",
+        "name": "Ken",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "maya",
+        "text": "Your chart shows growth, but what happened to the smaller towns?",
+        "translation": "你的图表显示增长，但较小的城镇发生了什么？"
+      },
+      {
+        "speaker": "ken",
+        "text": "That is a fair challenge; I will clarify the regional difference.",
+        "translation": "这是一个合理的挑战；我来澄清地区差异。"
+      },
+      {
+        "speaker": "maya",
+        "text": "The follow-up makes the conclusion more honest.",
+        "translation": "这个追问让结论更诚实。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Ken提出了什么建议？",
+        "answer": "That is a fair challenge; I will clarify the regional difference.",
+        "options": [
+          "That is a fair challenge; I will clarify the regional difference.",
+          "Your chart shows growth, but what happened to the smaller towns?",
+          "The follow-up makes the conclusion more honest."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,0 +1,367 @@
+{
+  "id": "b1-u13-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "学术学习",
+  "subtitle": "引用来源并安全改写",
+  "theme": "学术学习",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "citation",
+      "引用"
+    ],
+    [
+      "source",
+      "来源"
+    ],
+    [
+      "paraphrase",
+      "改写"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "citation · 学术学习",
+      "audio": "citation",
+      "instruction": "选择中文意思。",
+      "answer": "引用",
+      "translation": "引用",
+      "options": [
+        "引用",
+        "来源",
+        "改写",
+        "计划"
+      ],
+      "id": "b1-u13-l1-q1",
+      "lessonId": "b1-u13-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The source was cited in the first paragraph.",
+      "audio": "The source was cited in the first paragraph.",
+      "instruction": "选择这句话的意思。",
+      "answer": "来源在第一段中被引用了。",
+      "translation": "来源在第一段中被引用了。",
+      "options": [
+        "来源在第一段中被引用了。",
+        "导师仔细检查了引用。",
+        "我改写了这个观点，但没有改变它的意思。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u13-l1-q2",
+      "lessonId": "b1-u13-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The tutor checked the citation carefully.",
+      "instruction": "听完整句子。",
+      "answer": "导师仔细检查了引用。",
+      "translation": "导师仔细检查了引用。",
+      "options": [
+        "导师仔细检查了引用。",
+        "来源在第一段中被引用了。",
+        "我改写了这个观点，但没有改变它的意思。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u13-l1-q3",
+      "lessonId": "b1-u13-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我改写了这个观点，但没有改变它的意思。",
+      "audio": "I paraphrased the idea without changing its meaning.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "I paraphrased the idea without changing its meaning.",
+      "translation": "我改写了这个观点，但没有改变它的意思。",
+      "tokens": [
+        "I",
+        "paraphrased",
+        "the",
+        "idea",
+        "without",
+        "changing",
+        "its",
+        "meaning."
+      ],
+      "id": "b1-u13-l1-q4",
+      "lessonId": "b1-u13-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the source before the meeting.",
+      "audio": "The team has reviewed the source before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了来源。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u13-l1-q5",
+      "lessonId": "b1-u13-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「学术学习」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "citation",
+          "引用"
+        ],
+        [
+          "source",
+          "来源"
+        ],
+        [
+          "paraphrase",
+          "改写"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u13-l1-q6",
+      "lessonId": "b1-u13-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "source · 学术学习",
+      "audio": "source",
+      "instruction": "选择中文意思。",
+      "answer": "来源",
+      "translation": "来源",
+      "options": [
+        "来源",
+        "引用",
+        "改写",
+        "问题"
+      ],
+      "id": "b1-u13-l1-q7",
+      "lessonId": "b1-u13-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "A clear citation protects the writer from plagiarism.",
+      "audio": "A clear citation protects the writer from plagiarism.",
+      "instruction": "选择这句话的意思。",
+      "answer": "清楚的引用能保护作者免受抄袭指控。",
+      "translation": "清楚的引用能保护作者免受抄袭指控。",
+      "options": [
+        "清楚的引用能保护作者免受抄袭指控。",
+        "来源在第一段中被引用了。",
+        "导师仔细检查了引用。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u13-l1-q8",
+      "lessonId": "b1-u13-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The original source explains the method.",
+      "instruction": "听完整句子。",
+      "answer": "最初的来源解释了这个方法。",
+      "translation": "最初的来源解释了这个方法。",
+      "options": [
+        "最初的来源解释了这个方法。",
+        "来源在第一段中被引用了。",
+        "导师仔细检查了引用。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u13-l1-q9",
+      "lessonId": "b1-u13-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the paraphrase before Friday.",
+      "audio": "We should clarify the paraphrase before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清改写。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u13-l1-q10",
+      "lessonId": "b1-u13-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u13-l1-dialogue",
+    "scene": "学术学习",
+    "characters": [
+      {
+        "id": "ivy",
+        "name": "Ivy",
+        "role": "colleague"
+      },
+      {
+        "id": "chen",
+        "name": "Chen",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "ivy",
+        "text": "I have paraphrased the idea, but I am unsure where the citation belongs.",
+        "translation": "我已经改写了观点，但不确定引用应放在哪里。"
+      },
+      {
+        "speaker": "chen",
+        "text": "Put the citation after the sentence that uses the source.",
+        "translation": "把引用放在使用来源的句子后面。"
+      },
+      {
+        "speaker": "ivy",
+        "text": "I will check the final paragraph before submitting.",
+        "translation": "我会在提交前检查最后一段。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Chen提出了什么建议？",
+        "answer": "Put the citation after the sentence that uses the source.",
+        "options": [
+          "Put the citation after the sentence that uses the source.",
+          "I have paraphrased the idea, but I am unsure where the citation belongs.",
+          "I will check the final paragraph before submitting."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

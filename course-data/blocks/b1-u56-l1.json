@@ -1,0 +1,564 @@
+{
+  "id": "b1-u56-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "进阶法律先例",
+  "subtitle": "阅读法条和证词",
+  "theme": "进阶法律先例",
+  "grammarFocus": "relative-clauses",
+  "grammarTags": [
+    "relative-clauses"
+  ],
+  "words": [
+    [
+      "precedent",
+      "先例"
+    ],
+    [
+      "statute",
+      "法令"
+    ],
+    [
+      "testimony",
+      "证词"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "precedent · 进阶法律先例",
+      "audio": "precedent",
+      "instruction": "选择这个词的直译",
+      "answer": "先例",
+      "options": [
+        "先例",
+        "法令",
+        "证词",
+        "问题"
+      ],
+      "translation": "先例",
+      "id": "b1-u56-l1-q1",
+      "lessonId": "b1-u56-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The precedent that we discussed is ready.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们讨论过的先例已经准备好了。",
+      "options": [
+        "我们讨论过的先例已经准备好了。",
+        "我们讨论过的法令已经准备好了。",
+        "我们讨论过的法令已经准备好了。，本月。",
+        "我们讨论过的证词已经准备好了。，下班后。"
+      ],
+      "audio": "The precedent that we discussed is ready.",
+      "translation": "我们讨论过的先例已经准备好了。",
+      "id": "b1-u56-l1-q2",
+      "lessonId": "b1-u56-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们讨论过的法令已经准备好了。",
+      "options": [
+        "我们讨论过的先例已经准备好了。",
+        "我们讨论过的法令已经准备好了。",
+        "我们讨论过的法令已经准备好了。，本月。",
+        "我们讨论过的证词已经准备好了。，下班后。"
+      ],
+      "audio": "The statute that we discussed is ready.",
+      "translation": "我们讨论过的法令已经准备好了。",
+      "id": "b1-u56-l1-q3",
+      "lessonId": "b1-u56-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们讨论过的证词已经准备好了。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The testimony that we discussed is ready.",
+      "tokens": [
+        "The",
+        "testimony",
+        "that",
+        "we",
+        "discussed",
+        "is",
+        "ready."
+      ],
+      "audio": "The testimony that we discussed is ready.",
+      "translation": "我们讨论过的证词已经准备好了。",
+      "id": "b1-u56-l1-q4",
+      "lessonId": "b1-u56-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this month.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "precedent",
+      "options": [
+        "precedent",
+        "statute",
+        "testimony",
+        "message"
+      ],
+      "audio": "Please check the precedent this month.",
+      "translation": "请本月检查先例。",
+      "id": "b1-u56-l1-q5",
+      "lessonId": "b1-u56-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶法律先例」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "precedent、先例；statute、法令；testimony、证词；message、消息；schedule、日程；meeting、会议",
+      "id": "b1-u56-l1-q6",
+      "lessonId": "b1-u56-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "statute · 进阶法律先例",
+      "audio": "statute",
+      "instruction": "选择这个词的直译",
+      "answer": "法令",
+      "options": [
+        "法令",
+        "先例",
+        "证词",
+        "安排"
+      ],
+      "translation": "法令",
+      "id": "b1-u56-l1-q7",
+      "lessonId": "b1-u56-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The statute that we discussed is ready. this month.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们讨论过的法令已经准备好了。，本月。",
+      "options": [
+        "我们讨论过的先例已经准备好了。",
+        "我们讨论过的法令已经准备好了。",
+        "我们讨论过的法令已经准备好了。，本月。",
+        "我们讨论过的证词已经准备好了。，下班后。"
+      ],
+      "audio": "The statute that we discussed is ready. this month.",
+      "translation": "我们讨论过的法令已经准备好了。，本月。",
+      "id": "b1-u56-l1-q8",
+      "lessonId": "b1-u56-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们讨论过的证词已经准备好了。，下班后。",
+      "options": [
+        "我们讨论过的先例已经准备好了。",
+        "我们讨论过的法令已经准备好了。",
+        "我们讨论过的法令已经准备好了。，本月。",
+        "我们讨论过的证词已经准备好了。，下班后。"
+      ],
+      "audio": "The testimony that we discussed is ready. after work.",
+      "translation": "我们讨论过的证词已经准备好了。，下班后。",
+      "id": "b1-u56-l1-q9",
+      "lessonId": "b1-u56-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the statute after work.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the statute after work.",
+      "translation": "我们需要下班后检查法令。",
+      "id": "b1-u56-l1-q10",
+      "lessonId": "b1-u56-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "precedent",
+          "先例"
+        ],
+        [
+          "statute",
+          "法令"
+        ],
+        [
+          "testimony",
+          "证词"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u56-l1-dialogue",
+    "scene": "进阶法律先例",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about precedent?",
+        "translation": "你能再告诉我一些关于先例的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use precedent when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到先例。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use precedent in a daily plan",
+        "options": [
+          "How to use precedent in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

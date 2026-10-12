@@ -1,0 +1,563 @@
+{
+  "id": "b2-u72-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "进阶论文综合",
+  "subtitle": "组织综合、连贯和文献",
+  "theme": "进阶论文综合",
+  "grammarFocus": "discourse-markers",
+  "grammarTags": [
+    "discourse-markers"
+  ],
+  "words": [
+    [
+      "synthesis",
+      "综合"
+    ],
+    [
+      "coherence",
+      "连贯性"
+    ],
+    [
+      "literature",
+      "文献"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "synthesis · 进阶论文综合",
+      "audio": "synthesis",
+      "instruction": "选择这个词的直译",
+      "answer": "综合",
+      "options": [
+        "综合",
+        "连贯性",
+        "文献",
+        "问题"
+      ],
+      "translation": "综合",
+      "id": "b2-u72-l1-q1",
+      "lessonId": "b2-u72-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "discourse-markers"
+      ],
+      "glossary": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "However, the synthesis still needs review.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "不过，综合仍然需要审阅。",
+      "options": [
+        "不过，综合仍然需要审阅。",
+        "不过，连贯性仍然需要审阅。",
+        "不过，连贯性仍然需要审阅。，今天早上。",
+        "不过，文献仍然需要审阅。，预约前。"
+      ],
+      "audio": "However, the synthesis still needs review.",
+      "translation": "不过，综合仍然需要审阅。",
+      "id": "b2-u72-l1-q2",
+      "lessonId": "b2-u72-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "discourse-markers"
+      ],
+      "glossary": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "不过，连贯性仍然需要审阅。",
+      "options": [
+        "不过，综合仍然需要审阅。",
+        "不过，连贯性仍然需要审阅。",
+        "不过，连贯性仍然需要审阅。，今天早上。",
+        "不过，文献仍然需要审阅。，预约前。"
+      ],
+      "audio": "However, the coherence still needs review.",
+      "translation": "不过，连贯性仍然需要审阅。",
+      "id": "b2-u72-l1-q3",
+      "lessonId": "b2-u72-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "discourse-markers"
+      ],
+      "glossary": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "不过，文献仍然需要审阅。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "However, the literature still needs review.",
+      "tokens": [
+        "However,",
+        "the",
+        "literature",
+        "still",
+        "needs",
+        "review."
+      ],
+      "audio": "However, the literature still needs review.",
+      "translation": "不过，文献仍然需要审阅。",
+      "id": "b2-u72-l1-q4",
+      "lessonId": "b2-u72-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "discourse-markers"
+      ],
+      "glossary": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this morning.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "synthesis",
+      "options": [
+        "synthesis",
+        "coherence",
+        "literature",
+        "message"
+      ],
+      "audio": "Please check the synthesis this morning.",
+      "translation": "请今天早上检查综合。",
+      "id": "b2-u72-l1-q5",
+      "lessonId": "b2-u72-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "discourse-markers"
+      ],
+      "glossary": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶论文综合」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "synthesis、综合；coherence、连贯性；literature、文献；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u72-l1-q6",
+      "lessonId": "b2-u72-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "discourse-markers"
+      ],
+      "glossary": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "coherence · 进阶论文综合",
+      "audio": "coherence",
+      "instruction": "选择这个词的直译",
+      "answer": "连贯性",
+      "options": [
+        "连贯性",
+        "综合",
+        "文献",
+        "安排"
+      ],
+      "translation": "连贯性",
+      "id": "b2-u72-l1-q7",
+      "lessonId": "b2-u72-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "discourse-markers"
+      ],
+      "glossary": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "However, the coherence still needs review. this morning.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "不过，连贯性仍然需要审阅。，今天早上。",
+      "options": [
+        "不过，综合仍然需要审阅。",
+        "不过，连贯性仍然需要审阅。",
+        "不过，连贯性仍然需要审阅。，今天早上。",
+        "不过，文献仍然需要审阅。，预约前。"
+      ],
+      "audio": "However, the coherence still needs review. this morning.",
+      "translation": "不过，连贯性仍然需要审阅。，今天早上。",
+      "id": "b2-u72-l1-q8",
+      "lessonId": "b2-u72-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "discourse-markers"
+      ],
+      "glossary": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "不过，文献仍然需要审阅。，预约前。",
+      "options": [
+        "不过，综合仍然需要审阅。",
+        "不过，连贯性仍然需要审阅。",
+        "不过，连贯性仍然需要审阅。，今天早上。",
+        "不过，文献仍然需要审阅。，预约前。"
+      ],
+      "audio": "However, the literature still needs review. before the appointment.",
+      "translation": "不过，文献仍然需要审阅。，预约前。",
+      "id": "b2-u72-l1-q9",
+      "lessonId": "b2-u72-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "discourse-markers"
+      ],
+      "glossary": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the coherence before the appointment.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the coherence before the appointment.",
+      "translation": "我们需要预约前检查连贯性。",
+      "id": "b2-u72-l1-q10",
+      "lessonId": "b2-u72-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "discourse-markers"
+      ],
+      "glossary": [
+        [
+          "synthesis",
+          "综合"
+        ],
+        [
+          "coherence",
+          "连贯性"
+        ],
+        [
+          "literature",
+          "文献"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u72-l1-dialogue",
+    "scene": "进阶论文综合",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about synthesis?",
+        "translation": "你能再告诉我一些关于综合的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use synthesis when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到综合。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use synthesis in a daily plan",
+        "options": [
+          "How to use synthesis in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

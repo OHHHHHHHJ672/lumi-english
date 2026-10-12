@@ -1,0 +1,245 @@
+{
+  "id": "a2-u32-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "在线学习",
+  "subtitle": "参加课程、作业和截止日期",
+  "theme": "online-learning",
+  "grammarFocus": "online-learning",
+  "grammarTags": [
+    "online-learning"
+  ],
+  "words": [
+    [
+      "webinar",
+      "网络研讨会"
+    ],
+    [
+      "assignment",
+      "作业"
+    ],
+    [
+      "deadline",
+      "截止日期"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u32-l1-q1",
+      "kind": "word",
+      "prompt": "webinar · 在线学习",
+      "instruction": "选择这个词的直译。",
+      "answer": "网络研讨会",
+      "translation": "网络研讨会",
+      "options": [
+        "网络研讨会",
+        "作业",
+        "截止日期",
+        "录音"
+      ]
+    },
+    {
+      "id": "a2-u32-l1-q2",
+      "kind": "choice",
+      "prompt": "I joined the webinar from home.",
+      "instruction": "选择最符合语境的意思。",
+      "audio": "I joined the webinar from home.",
+      "answer": "我在家参加了网络研讨会。",
+      "translation": "我在家参加了网络研讨会。",
+      "options": [
+        "我在家参加了网络研讨会。",
+        "我在家完成了作业。",
+        "我在家修改了截止日期。",
+        "我从家里下载了录音。"
+      ]
+    },
+    {
+      "id": "a2-u32-l1-q3",
+      "kind": "listen",
+      "prompt": "听清作业何时截止。",
+      "instruction": "先听完整句子，再选择意思。",
+      "audio": "The assignment is due on Friday.",
+      "answer": "作业周五截止。",
+      "translation": "作业周五截止。",
+      "options": [
+        "作业周五截止。",
+        "网络研讨会周五开始。",
+        "作业周一截止。",
+        "老师周五上传了录音。"
+      ]
+    },
+    {
+      "id": "a2-u32-l1-q4",
+      "kind": "order",
+      "prompt": "老师把截止日期延长了两天。",
+      "instruction": "把词块组成英文句子。",
+      "audio": "The teacher extended the deadline by two days.",
+      "answer": "The teacher extended the deadline by two days.",
+      "translation": "老师把截止日期延长了两天。",
+      "tokens": [
+        "The",
+        "teacher",
+        "extended",
+        "the",
+        "deadline",
+        "by",
+        "two",
+        "days."
+      ]
+    },
+    {
+      "id": "a2-u32-l1-q5",
+      "kind": "fill",
+      "prompt": "Could you upload your _____ tonight?",
+      "instruction": "选择英文词完成句子。",
+      "audio": "Could you upload your assignment tonight?",
+      "answer": "assignment",
+      "translation": "你今晚能上传作业吗？",
+      "options": [
+        "assignment",
+        "webinar",
+        "deadline",
+        "recording"
+      ]
+    },
+    {
+      "id": "a2-u32-l1-q6",
+      "kind": "match",
+      "prompt": "配对在线学习词语。",
+      "instruction": "完成全部配对。",
+      "answer": "matched",
+      "translation": "网络研讨会、作业、截止日期、课程页面、录音、上传",
+      "pairs": [
+        [
+          "webinar",
+          "网络研讨会"
+        ],
+        [
+          "assignment",
+          "作业"
+        ],
+        [
+          "deadline",
+          "截止日期"
+        ],
+        [
+          "course page",
+          "课程页面"
+        ],
+        [
+          "recording",
+          "录音"
+        ],
+        [
+          "upload",
+          "上传"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u32-l1-q7",
+      "kind": "word",
+      "prompt": "assignment",
+      "instruction": "选择这个词的直译。",
+      "answer": "作业",
+      "translation": "作业",
+      "options": [
+        "作业",
+        "课程",
+        "截止日期",
+        "录音"
+      ]
+    },
+    {
+      "id": "a2-u32-l1-q8",
+      "kind": "choice",
+      "prompt": "The webinar recording is available online.",
+      "instruction": "选择最符合语境的意思。",
+      "audio": "The webinar recording is available online.",
+      "answer": "网络研讨会录音可以在线查看。",
+      "translation": "网络研讨会录音可以在线查看。",
+      "options": [
+        "网络研讨会录音可以在线查看。",
+        "网络研讨会作业需要在线提交。",
+        "在线课程周五才会开始。",
+        "老师会在线延长截止日期。"
+      ]
+    },
+    {
+      "id": "a2-u32-l1-q9",
+      "kind": "listen",
+      "prompt": "听清谁提前完成了什么。",
+      "instruction": "先听完整句子，再选择意思。",
+      "audio": "She finished the assignment early.",
+      "answer": "她提前完成了作业。",
+      "translation": "她提前完成了作业。",
+      "options": [
+        "她提前完成了作业。",
+        "她提前参加了研讨会。",
+        "她把作业截止日期延后了。",
+        "她早早上传了录音。"
+      ]
+    },
+    {
+      "id": "a2-u32-l1-q10",
+      "kind": "fill",
+      "prompt": "Please ask questions during the _____.",
+      "instruction": "选择正确的词完成句子。",
+      "audio": "Please ask questions during the webinar.",
+      "answer": "webinar",
+      "translation": "请在网络研讨会期间提问。",
+      "options": [
+        "webinar",
+        "assignment",
+        "deadline",
+        "recording"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u32-l1-dialogue",
+    "scene": "参加在线课程",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Did you watch today’s webinar?",
+        "translation": "你看了今天的网络研讨会吗？"
+      },
+      {
+        "speaker": "alex",
+        "text": "Yes, but I still need to finish the assignment.",
+        "translation": "看了，但我还需要完成作业。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "The deadline is Friday, so we have two evenings left.",
+        "translation": "截止日期是周五，所以我们还剩两个晚上。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What must Alex finish?",
+        "instruction": "根据对话选择正确内容。",
+        "answer": "The assignment",
+        "options": [
+          "The assignment",
+          "The webinar recording",
+          "The course page",
+          "The deadline"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

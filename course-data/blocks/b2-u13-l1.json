@@ -1,0 +1,368 @@
+{
+  "id": "b2-u13-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "医学研究",
+  "subtitle": "理解临床试验、安慰剂和诊断",
+  "theme": "医学研究",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "clinical",
+      "临床的"
+    ],
+    [
+      "placebo",
+      "安慰剂"
+    ],
+    [
+      "diagnosis",
+      "诊断"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u13-l1-q1",
+      "kind": "word",
+      "prompt": "clinical · 医学研究",
+      "answer": "clinical",
+      "translation": "临床的",
+      "instruction": "选择适合语境的表达。",
+      "audio": "clinical",
+      "lessonId": "b2-u13-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "临床的",
+        "安慰剂",
+        "诊断",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u13-l1-q2",
+      "kind": "choice",
+      "prompt": "The clinical trial recruited adults with the same symptom.",
+      "answer": "这项临床试验招募了有相同症状的成年人。",
+      "translation": "这项临床试验招募了有相同症状的成年人。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The clinical trial recruited adults with the same symptom.",
+      "lessonId": "b2-u13-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这项临床试验招募了有相同症状的成年人。",
+        "我们是在观察症状，并不是治疗检查没有显示的疾病。",
+        "对照组接受了安慰剂。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u13-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我们是在观察症状，并不是治疗检查没有显示的疾病。",
+      "translation": "我们是在观察症状，并不是治疗检查没有显示的疾病。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We are watching the symptom, not treating a disease that the test did not show.",
+      "lessonId": "b2-u13-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们是在观察症状，并不是治疗检查没有显示的疾病。",
+        "这项临床试验招募了有相同症状的成年人。",
+        "对照组接受了安慰剂。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u13-l1-q4",
+      "kind": "order",
+      "prompt": "临床试验期间，参与者一直受到监测。",
+      "answer": "The participants were monitored throughout the clinical trial.",
+      "translation": "临床试验期间，参与者一直受到监测。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "The participants were monitored throughout the clinical trial.",
+      "lessonId": "b2-u13-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "participants",
+        "were",
+        "monitored",
+        "throughout",
+        "the",
+        "clinical",
+        "trial."
+      ]
+    },
+    {
+      "id": "b2-u13-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the placebo before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅安慰剂。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the placebo before Friday.",
+      "lessonId": "b2-u13-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u13-l1-q6",
+      "kind": "match",
+      "prompt": "配对「医学研究」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u13-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "clinical",
+          "临床的"
+        ],
+        [
+          "placebo",
+          "安慰剂"
+        ],
+        [
+          "diagnosis",
+          "诊断"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u13-l1-q7",
+      "kind": "word",
+      "prompt": "placebo · 医学研究",
+      "answer": "placebo",
+      "translation": "安慰剂",
+      "instruction": "选择适合语境的表达。",
+      "audio": "placebo",
+      "lessonId": "b2-u13-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "安慰剂",
+        "临床的",
+        "诊断",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u13-l1-q8",
+      "kind": "choice",
+      "prompt": "That distinction helps. When should I contact you again?",
+      "answer": "这个区分很有帮助。我应该什么时候再联系你？",
+      "translation": "这个区分很有帮助。我应该什么时候再联系你？",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That distinction helps. When should I contact you again?",
+      "lessonId": "b2-u13-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这个区分很有帮助。我应该什么时候再联系你？",
+        "团队必须在周五前审阅安慰剂。",
+        "临床试验招募了有相同症状的成年人。",
+        "对照组接受了安慰剂。"
+      ]
+    },
+    {
+      "id": "b2-u13-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "这项检测不能替代医生的诊断。",
+      "translation": "这项检测不能替代医生的诊断。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The test does not replace a doctor’s diagnosis.",
+      "lessonId": "b2-u13-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这项检测不能替代医生的诊断。",
+        "这项临床试验招募了有相同症状的成年人。",
+        "我们是在观察症状，并不是治疗检查没有显示的疾病。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u13-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the diagnosis carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅诊断。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the diagnosis carefully.",
+      "lessonId": "b2-u13-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u13-l1-dialogue",
+    "scene": "医学研究",
+    "characters": [
+      {
+        "id": "pavel",
+        "name": "Pavel",
+        "role": "colleague"
+      },
+      {
+        "id": "dr singh",
+        "name": "Dr Singh",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "pavel",
+        "text": "The result is reassuring, but I still want to understand what we are monitoring.",
+        "translation": "结果令人放心，但我仍想了解我们要监测什么。"
+      },
+      {
+        "speaker": "dr singh",
+        "text": "We are watching the symptom, not treating a disease that the test did not show.",
+        "translation": "我们是在观察症状，并不是治疗检查没有显示的疾病。"
+      },
+      {
+        "speaker": "pavel",
+        "text": "That distinction helps. When should I contact you again?",
+        "translation": "这个区别很有帮助。我什么时候应该再联系你？"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Dr Singh提出了什么建议？",
+        "answer": "We are watching the symptom, not treating a disease that the test did not show.",
+        "options": [
+          "We are watching the symptom, not treating a disease that the test did not show.",
+          "The result is reassuring, but I still want to understand what we are monitoring.",
+          "That distinction helps. When should I contact you again?"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

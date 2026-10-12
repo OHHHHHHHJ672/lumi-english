@@ -1,0 +1,565 @@
+{
+  "id": "b1-u46-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "进阶有效反馈",
+  "subtitle": "用具体方法指导改进",
+  "theme": "进阶有效反馈",
+  "grammarFocus": "modals",
+  "grammarTags": [
+    "modals"
+  ],
+  "words": [
+    [
+      "coaching",
+      "辅导"
+    ],
+    [
+      "specificity",
+      "具体性"
+    ],
+    [
+      "improvement",
+      "改进"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "coaching · 进阶有效反馈",
+      "audio": "coaching",
+      "instruction": "选择这个词的直译",
+      "answer": "辅导",
+      "options": [
+        "辅导",
+        "具体性",
+        "改进",
+        "问题"
+      ],
+      "translation": "辅导",
+      "id": "b1-u46-l1-q1",
+      "lessonId": "b1-u46-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "modals"
+      ],
+      "glossary": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We should check the coaching before we decide.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "做决定前我们应该检查辅导。",
+      "options": [
+        "做决定前我们应该检查辅导。",
+        "做决定前我们应该检查具体性。",
+        "做决定前我们应该检查具体性。，午饭前。",
+        "做决定前我们应该检查改进。，周五。"
+      ],
+      "audio": "We should check the coaching before we decide.",
+      "translation": "做决定前我们应该检查辅导。",
+      "id": "b1-u46-l1-q2",
+      "lessonId": "b1-u46-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "modals"
+      ],
+      "glossary": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "做决定前我们应该检查具体性。",
+      "options": [
+        "做决定前我们应该检查辅导。",
+        "做决定前我们应该检查具体性。",
+        "做决定前我们应该检查具体性。，午饭前。",
+        "做决定前我们应该检查改进。，周五。"
+      ],
+      "audio": "We should check the specificity before we decide.",
+      "translation": "做决定前我们应该检查具体性。",
+      "id": "b1-u46-l1-q3",
+      "lessonId": "b1-u46-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "modals"
+      ],
+      "glossary": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "做决定前我们应该检查改进。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We should check the improvement before we decide.",
+      "tokens": [
+        "We",
+        "should",
+        "check",
+        "the",
+        "improvement",
+        "before",
+        "we",
+        "decide."
+      ],
+      "audio": "We should check the improvement before we decide.",
+      "translation": "做决定前我们应该检查改进。",
+      "id": "b1-u46-l1-q4",
+      "lessonId": "b1-u46-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "modals"
+      ],
+      "glossary": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ before lunch.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "coaching",
+      "options": [
+        "coaching",
+        "specificity",
+        "improvement",
+        "message"
+      ],
+      "audio": "Please check the coaching before lunch.",
+      "translation": "请午饭前检查辅导。",
+      "id": "b1-u46-l1-q5",
+      "lessonId": "b1-u46-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "modals"
+      ],
+      "glossary": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶有效反馈」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "coaching、辅导；specificity、具体性；improvement、改进；message、消息；schedule、日程；meeting、会议",
+      "id": "b1-u46-l1-q6",
+      "lessonId": "b1-u46-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "modals"
+      ],
+      "glossary": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "specificity · 进阶有效反馈",
+      "audio": "specificity",
+      "instruction": "选择这个词的直译",
+      "answer": "具体性",
+      "options": [
+        "具体性",
+        "辅导",
+        "改进",
+        "安排"
+      ],
+      "translation": "具体性",
+      "id": "b1-u46-l1-q7",
+      "lessonId": "b1-u46-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "modals"
+      ],
+      "glossary": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We should check the specificity before we decide. before lunch.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "做决定前我们应该检查具体性。，午饭前。",
+      "options": [
+        "做决定前我们应该检查辅导。",
+        "做决定前我们应该检查具体性。",
+        "做决定前我们应该检查具体性。，午饭前。",
+        "做决定前我们应该检查改进。，周五。"
+      ],
+      "audio": "We should check the specificity before we decide. before lunch.",
+      "translation": "做决定前我们应该检查具体性。，午饭前。",
+      "id": "b1-u46-l1-q8",
+      "lessonId": "b1-u46-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "modals"
+      ],
+      "glossary": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "做决定前我们应该检查改进。，周五。",
+      "options": [
+        "做决定前我们应该检查辅导。",
+        "做决定前我们应该检查具体性。",
+        "做决定前我们应该检查具体性。，午饭前。",
+        "做决定前我们应该检查改进。，周五。"
+      ],
+      "audio": "We should check the improvement before we decide. on Friday.",
+      "translation": "做决定前我们应该检查改进。，周五。",
+      "id": "b1-u46-l1-q9",
+      "lessonId": "b1-u46-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "modals"
+      ],
+      "glossary": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the specificity on Friday.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the specificity on Friday.",
+      "translation": "我们需要周五检查具体性。",
+      "id": "b1-u46-l1-q10",
+      "lessonId": "b1-u46-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "modals"
+      ],
+      "glossary": [
+        [
+          "coaching",
+          "辅导"
+        ],
+        [
+          "specificity",
+          "具体性"
+        ],
+        [
+          "improvement",
+          "改进"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u46-l1-dialogue",
+    "scene": "进阶有效反馈",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about coaching?",
+        "translation": "你能再告诉我一些关于辅导的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use coaching when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到辅导。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use coaching in a daily plan",
+        "options": [
+          "How to use coaching in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

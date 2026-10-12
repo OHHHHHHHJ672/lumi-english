@@ -1,0 +1,368 @@
+{
+  "id": "b1-u24-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "工作文化",
+  "subtitle": "讨论包容、反馈和归属感",
+  "theme": "工作文化",
+  "grammarFocus": "workplace-culture",
+  "grammarTags": [
+    "workplace-culture"
+  ],
+  "words": [
+    [
+      "inclusive",
+      "包容的"
+    ],
+    [
+      "feedback",
+      "反馈"
+    ],
+    [
+      "belonging",
+      "归属感"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "inclusive · 工作文化",
+      "audio": "inclusive",
+      "instruction": "选择中文意思。",
+      "answer": "包容的",
+      "translation": "包容的",
+      "options": [
+        "包容的",
+        "反馈",
+        "归属感",
+        "计划"
+      ],
+      "id": "b1-u24-l1-q1",
+      "lessonId": "b1-u24-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "workplace-culture"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "An inclusive meeting gives quiet colleagues room to speak.",
+      "audio": "An inclusive meeting gives quiet colleagues room to speak.",
+      "instruction": "选择这句话的意思。",
+      "answer": "包容的会议会给安静的同事留出发言空间。",
+      "translation": "包容的会议会给安静的同事留出发言空间。",
+      "options": [
+        "包容的会议会给安静的同事留出发言空间。",
+        "持续的反馈增强了她的归属感。",
+        "我们应该把远程同事也纳入同一场讨论。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u24-l1-q2",
+      "lessonId": "b1-u24-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "workplace-culture"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "Regular feedback has strengthened her sense of belonging.",
+      "instruction": "听完整句子。",
+      "answer": "持续的反馈增强了她的归属感。",
+      "translation": "持续的反馈增强了她的归属感。",
+      "options": [
+        "持续的反馈增强了她的归属感。",
+        "包容的会议会给安静的同事留出发言空间。",
+        "我们应该把远程同事也纳入同一场讨论。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u24-l1-q3",
+      "lessonId": "b1-u24-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "workplace-culture"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们应该把远程同事也纳入同一场讨论。",
+      "audio": "We should invite remote staff into the same conversation.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "We should invite remote staff into the same conversation.",
+      "translation": "我们应该把远程同事也纳入同一场讨论。",
+      "tokens": [
+        "We",
+        "should",
+        "invite",
+        "remote",
+        "staff",
+        "into",
+        "the",
+        "same",
+        "conversation."
+      ],
+      "id": "b1-u24-l1-q4",
+      "lessonId": "b1-u24-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "workplace-culture"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the feedback before the meeting.",
+      "audio": "The team has reviewed the feedback before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了反馈。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u24-l1-q5",
+      "lessonId": "b1-u24-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "workplace-culture"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「工作文化」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "inclusive",
+          "包容的"
+        ],
+        [
+          "feedback",
+          "反馈"
+        ],
+        [
+          "belonging",
+          "归属感"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u24-l1-q6",
+      "lessonId": "b1-u24-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "workplace-culture"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "feedback · 工作文化",
+      "audio": "feedback",
+      "instruction": "选择中文意思。",
+      "answer": "反馈",
+      "translation": "反馈",
+      "options": [
+        "反馈",
+        "包容的",
+        "归属感",
+        "问题"
+      ],
+      "id": "b1-u24-l1-q7",
+      "lessonId": "b1-u24-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "workplace-culture"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The manager asked for feedback after the team change.",
+      "audio": "The manager asked for feedback after the team change.",
+      "instruction": "选择这句话的意思。",
+      "answer": "团队调整之后，经理征求了反馈意见。",
+      "translation": "团队调整之后，经理征求了反馈意见。",
+      "options": [
+        "团队调整之后，经理征求了反馈意见。",
+        "包容的会议会给安静的同事留出发言空间。",
+        "持续的反馈增强了她的归属感。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u24-l1-q8",
+      "lessonId": "b1-u24-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "workplace-culture"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "A shared ritual can build belonging without forcing friendship.",
+      "instruction": "听完整句子。",
+      "answer": "共同的仪式可以在不强求友谊的情况下建立归属感。",
+      "translation": "共同的仪式可以在不强求友谊的情况下建立归属感。",
+      "options": [
+        "共同的仪式可以在不强求友谊的情况下建立归属感。",
+        "包容的会议会给安静的同事留出发言空间。",
+        "持续的反馈增强了她的归属感。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u24-l1-q9",
+      "lessonId": "b1-u24-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "workplace-culture"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the sense of belonging before Friday.",
+      "audio": "We should clarify the sense of belonging before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清归属感。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u24-l1-q10",
+      "lessonId": "b1-u24-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "workplace-culture"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u24-l1-dialogue",
+    "scene": "工作文化",
+    "characters": [
+      {
+        "id": "jules",
+        "name": "Jules",
+        "role": "colleague"
+      },
+      {
+        "id": "amira",
+        "name": "Amira",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "jules",
+        "text": "The remote team hears decisions after they are made.",
+        "translation": "远程团队总是在决定做出后才听到消息。"
+      },
+      {
+        "speaker": "amira",
+        "text": "We need an inclusive process that shares the draft before the meeting.",
+        "translation": "我们需要一个包容的流程，在会议前分享草案。"
+      },
+      {
+        "speaker": "jules",
+        "text": "That would make feedback part of the decision, not an afterthought.",
+        "translation": "这样反馈就会成为决定的一部分，而不是事后补救。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Amira提出了什么建议？",
+        "answer": "We need an inclusive process that shares the draft before the meeting.",
+        "options": [
+          "We need an inclusive process that shares the draft before the meeting.",
+          "The remote team hears decisions after they are made.",
+          "That would make feedback part of the decision, not an afterthought."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

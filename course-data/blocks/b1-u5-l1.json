@@ -1,0 +1,367 @@
+{
+  "id": "b1-u5-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "文化礼仪",
+  "subtitle": "在不同文化中保持尊重",
+  "theme": "文化礼仪",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "custom",
+      "习俗"
+    ],
+    [
+      "gesture",
+      "手势"
+    ],
+    [
+      "respectful",
+      "尊重的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u5-l1-q1",
+      "kind": "word",
+      "prompt": "custom · 文化礼仪",
+      "audio": "custom",
+      "instruction": "选择适合语境的表达。",
+      "answer": "custom",
+      "translation": "习俗",
+      "lessonId": "b1-u5-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "习俗",
+        "手势",
+        "尊重的",
+        "报告"
+      ]
+    },
+    {
+      "id": "b1-u5-l1-q2",
+      "kind": "choice",
+      "prompt": "Have you learned the local greeting custom?",
+      "audio": "Have you learned the local greeting custom?",
+      "instruction": "选择适合语境的表达。",
+      "answer": "你了解当地问候习俗了吗？",
+      "translation": "你了解当地问候习俗了吗？",
+      "lessonId": "b1-u5-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "你了解当地问候习俗了吗？",
+        "微微鞠躬在这里是尊重的手势。",
+        "我们在拍照前先询问过。",
+        "这句话没有说明原因。"
+      ]
+    },
+    {
+      "id": "b1-u5-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "A small bow is a respectful gesture here.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "微微鞠躬在这里是尊重的手势。",
+      "translation": "微微鞠躬在这里是尊重的手势。",
+      "lessonId": "b1-u5-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "微微鞠躬在这里是尊重的手势。",
+        "你了解当地问候习俗了吗？",
+        "我们在拍照前先询问过。",
+        "说话人没有做决定。"
+      ]
+    },
+    {
+      "id": "b1-u5-l1-q4",
+      "kind": "order",
+      "prompt": "我们在拍照前先询问过。",
+      "audio": "We have asked before taking a photo.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "We have asked before taking a photo.",
+      "translation": "我们在拍照前先询问过。",
+      "lessonId": "b1-u5-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "We",
+        "have",
+        "asked",
+        "before",
+        "taking",
+        "a",
+        "photo."
+      ]
+    },
+    {
+      "id": "b1-u5-l1-q5",
+      "kind": "fill",
+      "prompt": "We have _____ the gesture before Friday.",
+      "audio": "We have reviewed the gesture before Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "reviewed",
+      "translation": "reviewed",
+      "lessonId": "b1-u5-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u5-l1-q6",
+      "kind": "match",
+      "prompt": "配对「文化礼仪」中的重点词。",
+      "audio": "",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "matched",
+      "lessonId": "b1-u5-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "custom",
+          "习俗"
+        ],
+        [
+          "gesture",
+          "手势"
+        ],
+        [
+          "respectful",
+          "尊重的"
+        ],
+        [
+          "flight",
+          "航班"
+        ],
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u5-l1-q7",
+      "kind": "word",
+      "prompt": "gesture · 文化礼仪",
+      "audio": "gesture",
+      "instruction": "选择适合语境的表达。",
+      "answer": "gesture",
+      "translation": "手势",
+      "lessonId": "b1-u5-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "手势",
+        "习俗",
+        "尊重的",
+        "会议"
+      ]
+    },
+    {
+      "id": "b1-u5-l1-q8",
+      "kind": "choice",
+      "prompt": "I will wait for the host to start dinner.",
+      "audio": "I will wait for the host to start dinner.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我会等主人开始晚餐。",
+      "translation": "我会等主人开始晚餐。",
+      "lessonId": "b1-u5-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会等主人开始晚餐。",
+        "你了解当地问候习俗了吗？",
+        "微微鞠躬在这里是尊重的手势。",
+        "这句话谈的是天气。"
+      ]
+    },
+    {
+      "id": "b1-u5-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，判断下一步。",
+      "audio": "We have asked before taking a photo. During the review.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我们在拍照前先询问过。",
+      "translation": "我们在拍照前先询问过。（会议复盘时）",
+      "lessonId": "b1-u5-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们在拍照前先询问过。",
+        "你了解当地问候习俗了吗？",
+        "我会等主人开始晚餐。",
+        "说话人取消了安排。"
+      ]
+    },
+    {
+      "id": "b1-u5-l1-q10",
+      "kind": "fill",
+      "prompt": "The team must _____ the respectful today.",
+      "audio": "The team must clarify the respectful today.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "clarify",
+      "translation": "clarify",
+      "lessonId": "b1-u5-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u5-l1-dialogue",
+    "scene": "文化礼仪",
+    "characters": [
+      {
+        "id": "mei",
+        "name": "Mei",
+        "role": "colleague"
+      },
+      {
+        "id": "arun",
+        "name": "Arun",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "mei",
+        "text": "I have read about the meal, but I am unsure about this hand gesture.",
+        "translation": "我读过这顿饭的介绍，但不确定这个手势。"
+      },
+      {
+        "speaker": "arun",
+        "text": "It is a respectful way to thank the host after the first dish.",
+        "translation": "这是第一道菜后向主人道谢的尊重方式。"
+      },
+      {
+        "speaker": "mei",
+        "text": "Thanks. I will wait and follow the local custom.",
+        "translation": "谢谢。我会等待并遵守当地习俗。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Arun提出了什么建议？",
+        "answer": "It is a respectful way to thank the host after the first dish.",
+        "options": [
+          "It is a respectful way to thank the host after the first dish.",
+          "I have read about the meal, but I am unsure about this hand gesture.",
+          "Thanks. I will wait and follow the local custom."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

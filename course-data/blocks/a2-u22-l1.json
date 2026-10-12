@@ -1,0 +1,259 @@
+{
+  "id": "a2-u22-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "电影评论",
+  "subtitle": "描述电影情节、表演和感受",
+  "theme": "电影评论",
+  "grammarFocus": "film-review",
+  "grammarTags": [
+    "film-review"
+  ],
+  "words": [
+    [
+      "plot",
+      "情节"
+    ],
+    [
+      "actor",
+      "演员"
+    ],
+    [
+      "recommend",
+      "推荐"
+    ]
+  ],
+  "pairs": [
+    [
+      "plot",
+      "情节"
+    ],
+    [
+      "actor",
+      "演员"
+    ],
+    [
+      "recommend",
+      "推荐"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u22-l1-q1",
+      "kind": "word",
+      "prompt": "plot",
+      "answer": "情节",
+      "translation": "情节",
+      "options": [
+        "情节",
+        "演员",
+        "推荐",
+        "问题"
+      ]
+    },
+    {
+      "id": "a2-u22-l1-q2",
+      "kind": "choice",
+      "prompt": "The plot surprised me at the end.",
+      "audio": "The plot surprised me at the end.",
+      "answer": "情节在结尾让我很惊讶。",
+      "translation": "情节在结尾让我很惊讶。",
+      "options": [
+        "情节在结尾让我很惊讶。",
+        "导演根据真实故事设计了情节。",
+        "我们讨论了演员最精彩的一幕。",
+        "我朋友上周推荐了这部电影。"
+      ]
+    },
+    {
+      "id": "a2-u22-l1-q3",
+      "kind": "listen",
+      "prompt": "The main actor gave a strong performance.",
+      "audio": "The main actor gave a strong performance.",
+      "answer": "主演的表演很出色。",
+      "translation": "主演的表演很出色。",
+      "options": [
+        "主演的表演很出色。",
+        "我们讨论了演员最精彩的一幕。",
+        "我朋友上周推荐了这部电影。",
+        "你喜欢结尾吗？"
+      ]
+    },
+    {
+      "id": "a2-u22-l1-q4",
+      "kind": "order",
+      "prompt": "我推荐这部电影作为安静的夜晚消遣。",
+      "audio": "I recommend this film for a quiet evening.",
+      "answer": "I recommend this film for a quiet evening.",
+      "translation": "我推荐这部电影作为安静的夜晚消遣。",
+      "tokens": [
+        "I",
+        "recommend",
+        "this",
+        "film",
+        "for",
+        "a",
+        "quiet",
+        "evening."
+      ]
+    },
+    {
+      "id": "a2-u22-l1-q5",
+      "kind": "fill",
+      "prompt": "The director based the _____ on a true story.",
+      "answer": "plot",
+      "audio": "The director based the plot on a true story.",
+      "translation": "导演根据真实故事设计了情节。",
+      "options": [
+        "plot",
+        "actor",
+        "recommend",
+        "message"
+      ]
+    },
+    {
+      "id": "a2-u22-l1-q6",
+      "kind": "match",
+      "prompt": "把「电影评论」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "plot",
+          "情节"
+        ],
+        [
+          "actor",
+          "演员"
+        ],
+        [
+          "recommend",
+          "推荐"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u22-l1-q7",
+      "kind": "word",
+      "prompt": "actor",
+      "answer": "演员",
+      "translation": "演员",
+      "audio": "actor",
+      "options": [
+        "演员",
+        "情节",
+        "推荐",
+        "安排"
+      ]
+    },
+    {
+      "id": "a2-u22-l1-q8",
+      "kind": "choice",
+      "prompt": "We discussed the actor’s best scene.",
+      "audio": "We discussed the actor’s best scene.",
+      "answer": "我们讨论了演员最精彩的一幕。",
+      "translation": "我们讨论了演员最精彩的一幕。",
+      "options": [
+        "我们讨论了演员最精彩的一幕。",
+        "你喜欢结尾吗？",
+        "这部电影让我思考家庭。",
+        "我会把它推荐给大一点的孩子。"
+      ]
+    },
+    {
+      "id": "a2-u22-l1-q9",
+      "kind": "listen",
+      "prompt": "My friend recommended the film last week.",
+      "audio": "My friend recommended the film last week.",
+      "answer": "我朋友上周推荐了这部电影。",
+      "translation": "我朋友上周推荐了这部电影。",
+      "options": [
+        "我朋友上周推荐了这部电影。",
+        "你喜欢结尾吗？",
+        "这部电影让我思考家庭。",
+        "我会把它推荐给大一点的孩子。"
+      ]
+    },
+    {
+      "id": "a2-u22-l1-q10",
+      "kind": "fill",
+      "prompt": "The _____ talked about his family.",
+      "answer": "actor",
+      "audio": "The actor talked about his family.",
+      "translation": "这位演员谈到了他的家庭。",
+      "options": [
+        "actor",
+        "plot",
+        "recommend",
+        "plan"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u22-l1-dialogue",
+    "scene": "电影评论",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The plot surprised me at the end.",
+        "translation": "情节在结尾让我很惊讶。"
+      },
+      {
+        "speaker": "partner",
+        "text": "The main actor gave a strong performance.",
+        "translation": "主演的表演很出色。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I recommend this film for a quiet evening.",
+        "translation": "我推荐这部电影作为安静的夜晚消遣。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is this conversation mainly about?",
+        "answer": "情节在结尾让我很惊讶。",
+        "options": [
+          "情节在结尾让我很惊讶。",
+          "导演根据真实故事设计了情节。",
+          "你喜欢结尾吗？"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

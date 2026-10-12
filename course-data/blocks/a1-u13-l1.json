@@ -1,0 +1,17 @@
+{
+  "id":"a1-u13-l1","levelId":"a1","cefr":"A1","title":"健身习惯","subtitle":"表达运动频率和健康建议","theme":"exercise","grammarFocus":"present-simple","grammarTags":["present-simple","health-advice"],"sourceStatus":"hand-authored",
+  "words":[["exercise","锻炼"],["stretch","伸展"],["healthy","健康的"]],
+  "dialogue":{"id":"a1-u13-l1-dialogue","scene":"运动前热身","characters":[{"id":"mei","name":"Mei"},{"id":"coach","name":"Coach Lee"}],"turns":[{"speaker":"mei","text":"I exercise three times a week.","translation":"我每周锻炼三次。"},{"speaker":"coach","text":"Good. Please stretch your legs before you run.","translation":"很好。跑步前请伸展腿部。"},{"speaker":"mei","text":"I usually drink water after training.","translation":"我通常训练后喝水。"}],"tasks":[{"mode":"intent","prompt":"What should Mei do before running?","answer":"Stretch her legs","options":["Stretch her legs","Eat a large dessert","Check a train ticket"]}]},
+  "questions":[
+    {"id":"a1-u13-l1-q1","kind":"word","prompt":"exercise · 健身习惯","audio":"exercise","instruction":"选择这个词的直译","answer":"锻炼","options":["锻炼","休息","伸展","比赛"],"translation":"锻炼"},
+    {"id":"a1-u13-l1-q2","kind":"choice","prompt":"I exercise three times a week.","instruction":"选择这句频率表达的意思。","answer":"我每周锻炼三次。","options":["我每周锻炼三次。","跑步前请伸展腿部。","教练每天早上检查我们的姿势。","我们周六在公园慢跑。"],"audio":"I exercise three times a week.","translation":"我每周锻炼三次。"},
+    {"id":"a1-u13-l1-q3","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"先听完整句子，再选择意思。","answer":"跑步前请伸展腿部。","options":["跑步前请伸展腿部。","我每周锻炼三次。","教练每天早上检查我们的姿势。","我们周六在公园慢跑。"],"audio":"Please stretch your legs before you run.","translation":"跑步前请伸展腿部。"},
+    {"id":"a1-u13-l1-q4","kind":"order","prompt":"我通常训练后喝水。","instruction":"把词块组成英文句子。","answer":"I usually drink water after training.","tokens":["I","usually","drink","water","after","training."],"audio":"I usually drink water after training.","translation":"我通常训练后喝水。"},
+    {"id":"a1-u13-l1-q5","kind":"fill","prompt":"Walking every day is _____.","instruction":"选择表示健康的形容词。","answer":"healthy","options":["healthy","crowded","late","opposite"],"audio":"Walking every day is healthy.","translation":"每天走路是健康的。"},
+    {"id":"a1-u13-l1-q6","kind":"match","prompt":"把健身场景中的词语配对。","instruction":"完成全部配对后提交。","pairs":[["exercise","锻炼"],["stretch","伸展"],["healthy","健康的"],["legs","腿部"],["training","训练"],["water","水"]],"answer":"matched","translation":"锻炼、伸展、健康的、腿部、训练、水"},
+    {"id":"a1-u13-l1-q7","kind":"word","prompt":"stretch · 健身习惯","audio":"stretch","instruction":"选择这个词的直译","answer":"伸展","options":["伸展","跑步","呼吸","休息"],"translation":"伸展"},
+    {"id":"a1-u13-l1-q8","kind":"choice","prompt":"The coach checks our posture every morning.","instruction":"选择这句日常表达的意思。","answer":"教练每天早上检查我们的姿势。","options":["教练每天早上检查我们的姿势。","我每周锻炼三次。","跑步前请伸展腿部。","我们周六在公园慢跑。"],"audio":"The coach checks our posture every morning.","translation":"教练每天早上检查我们的姿势。"},
+    {"id":"a1-u13-l1-q9","kind":"listen","prompt":"听句子，选择你听到的意思。","instruction":"先听完整句子，再选择意思。","answer":"我们周六在公园慢跑。","options":["我们周六在公园慢跑。","我每周锻炼三次。","跑步前请伸展腿部。","教练每天早上检查我们的姿势。"],"audio":"We jog in the park on Saturdays.","translation":"我们周六在公园慢跑。"},
+    {"id":"a1-u13-l1-q10","kind":"fill","prompt":"She _____ water after exercise.","instruction":"选择一般现在时的正确形式。","answer":"drinks","options":["drinks","drink","drinking","drank"],"audio":"She drinks water after exercise.","translation":"她锻炼后喝水。"}
+  ]
+}

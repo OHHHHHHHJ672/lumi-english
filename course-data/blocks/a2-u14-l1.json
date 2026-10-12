@@ -1,0 +1,244 @@
+{
+  "id": "a2-u14-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "运动计划",
+  "subtitle": "描述正在训练的人和调整方案",
+  "theme": "training",
+  "grammarFocus": "present-continuous",
+  "grammarTags": [
+    "present-continuous"
+  ],
+  "words": [
+    [
+      "training",
+      "训练"
+    ],
+    [
+      "coach",
+      "教练"
+    ],
+    [
+      "injury",
+      "伤病"
+    ],
+    [
+      "stretch",
+      "拉伸"
+    ],
+    [
+      "warm-up",
+      "热身"
+    ],
+    [
+      "pace",
+      "速度"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u14-l1-q1",
+      "kind": "word",
+      "prompt": "warm-up",
+      "answer": "热身",
+      "translation": "热身",
+      "options": [
+        "热身",
+        "拉伸",
+        "冲刺",
+        "休息"
+      ]
+    },
+    {
+      "id": "a2-u14-l1-q2",
+      "kind": "choice",
+      "prompt": "Our coach is changing the plan because two players are injured.",
+      "audio": "Our coach is changing the plan because two players are injured.",
+      "answer": "两名队员受伤了，所以教练正在调整计划。",
+      "translation": "两名队员受伤了，所以教练正在调整计划。",
+      "options": [
+        "两名队员受伤了，所以教练正在调整计划。",
+        "两名队员缺席了，所以教练取消了比赛。",
+        "两名队员康复了，所以教练正在加大训练量。",
+        "教练受伤了，所以两名队员正在调整计划。"
+      ]
+    },
+    {
+      "id": "a2-u14-l1-q3",
+      "kind": "listen",
+      "prompt": "听清训练的频率。",
+      "audio": "I am training three times a week for the charity run.",
+      "answer": "我正为慈善跑每周训练三次。",
+      "translation": "我正为慈善跑每周训练三次。",
+      "options": [
+        "我正为慈善跑每周训练三次。",
+        "我正为慈善跑每天训练三次。",
+        "我将在慈善跑前三周开始训练。",
+        "我已经参加过三次慈善跑。"
+      ]
+    },
+    {
+      "id": "a2-u14-l1-q4",
+      "kind": "order",
+      "prompt": "他们正在赛跑前热身。",
+      "answer": "They are warming up before the race.",
+      "audio": "They are warming up before the race.",
+      "translation": "他们正在赛跑前热身。",
+      "tokens": [
+        "They",
+        "are",
+        "warming",
+        "up",
+        "before",
+        "the",
+        "race."
+      ]
+    },
+    {
+      "id": "a2-u14-l1-q5",
+      "kind": "fill",
+      "prompt": "We are _____ our legs before practice.",
+      "answer": "stretching",
+      "audio": "We are stretching our legs before practice.",
+      "translation": "我们正在练习前拉伸腿部。",
+      "options": [
+        "stretching",
+        "stretch",
+        "stretched",
+        "stretches"
+      ]
+    },
+    {
+      "id": "a2-u14-l1-q6",
+      "kind": "match",
+      "prompt": "把「运动计划」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "training",
+          "训练"
+        ],
+        [
+          "coach",
+          "教练"
+        ],
+        [
+          "injury",
+          "伤病"
+        ],
+        [
+          "stretch",
+          "拉伸"
+        ],
+        [
+          "warm-up",
+          "热身"
+        ],
+        [
+          "pace",
+          "速度"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u14-l1-q7",
+      "kind": "word",
+      "prompt": "injury",
+      "answer": "伤病",
+      "translation": "伤病",
+      "options": [
+        "伤病",
+        "疲劳",
+        "酸痛",
+        "压力"
+      ]
+    },
+    {
+      "id": "a2-u14-l1-q8",
+      "kind": "choice",
+      "prompt": "She is running at a slower pace while her knee gets better.",
+      "audio": "She is running at a slower pace while her knee gets better.",
+      "answer": "膝盖恢复期间，她正在以较慢的速度跑步。",
+      "translation": "膝盖恢复期间，她正在以较慢的速度跑步。",
+      "options": [
+        "膝盖恢复期间，她正在以较慢的速度跑步。",
+        "膝盖恢复后，她打算跑得更快。",
+        "膝盖受伤前，她总是跑得很慢。",
+        "她跑得越来越快，所以膝盖开始疼了。"
+      ]
+    },
+    {
+      "id": "a2-u14-l1-q9",
+      "kind": "listen",
+      "prompt": "听清教练正在做什么。",
+      "audio": "The coach is showing us how to lift the weights safely.",
+      "answer": "教练正在教我们如何安全地举重。",
+      "translation": "教练正在教我们如何安全地举重。",
+      "options": [
+        "教练正在教我们如何安全地举重。",
+        "教练正在检查我们举重的成绩。",
+        "教练要求我们增加举重的重量。",
+        "教练正在教我们如何放松肩膀。"
+      ]
+    },
+    {
+      "id": "a2-u14-l1-q10",
+      "kind": "fill",
+      "prompt": "Why _____ you stopping after every lap?",
+      "answer": "are",
+      "audio": "Why are you stopping after every lap?",
+      "translation": "你为什么每跑完一圈都停下来？",
+      "options": [
+        "are",
+        "is",
+        "do",
+        "does"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u14-l1-dialogue",
+    "scene": "跑步前调整训练",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "ben",
+        "name": "Ben"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "You are walking today. Is your ankle still sore?",
+        "translation": "你今天在走路。脚踝还疼吗？"
+      },
+      {
+        "speaker": "ben",
+        "text": "A little. The coach says I should skip the hills this week.",
+        "translation": "还有一点。教练说这周不应该跑山坡。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Then I will walk the flat route with you.",
+        "translation": "那我陪你走平坦的路线。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Why is Ben avoiding hills?",
+        "answer": "His ankle is still sore",
+        "options": [
+          "His ankle is still sore",
+          "He needs a longer route",
+          "The coach is closing the track",
+          "He is training for a hill race"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

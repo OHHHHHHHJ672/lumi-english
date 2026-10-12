@@ -1,0 +1,294 @@
+{
+  "id": "a1-u46-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶公园散步",
+  "subtitle": "描述散步路线和景物",
+  "theme": "park-walk",
+  "grammarFocus": "there-is",
+  "grammarTags": [
+    "there-is",
+    "places"
+  ],
+  "words": [
+    [
+      "fountain",
+      "喷泉"
+    ],
+    [
+      "path",
+      "小路"
+    ],
+    [
+      "pond",
+      "池塘"
+    ],
+    [
+      "bench",
+      "长椅"
+    ],
+    [
+      "duck",
+      "鸭子"
+    ],
+    [
+      "map",
+      "地图"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u46-l1-q1",
+      "kind": "word",
+      "prompt": "fountain · 公园散步",
+      "instruction": "选择意思。",
+      "answer": "喷泉",
+      "options": [
+        "喷泉",
+        "小路",
+        "池塘",
+        "长椅"
+      ],
+      "translation": "喷泉",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u46-l1-q2",
+      "kind": "choice",
+      "prompt": "There is a stone path around the pond.",
+      "instruction": "选择意思。",
+      "answer": "池塘周围有一条石头小路。",
+      "options": [
+        "池塘周围有一条石头小路。",
+        "喷泉旁有一张木头长椅。",
+        "地图上有一条河。",
+        "公园门口有三只鸭子。"
+      ],
+      "audio": "There is a stone path around the pond.",
+      "translation": "池塘周围有一条石头小路。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u46-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "喷泉旁边有两张长椅。",
+      "options": [
+        "喷泉旁边有两张长椅。",
+        "池塘旁边有两张地图。",
+        "小路上有两只鸭子。",
+        "公园门口有两座喷泉。"
+      ],
+      "audio": "There are two benches beside the fountain.",
+      "translation": "喷泉旁边有两张长椅。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u46-l1-q4",
+      "kind": "order",
+      "prompt": "池塘里有三只鸭子。",
+      "instruction": "组成英文句子。",
+      "answer": "There are three ducks in the pond.",
+      "audio": "There are three ducks in the pond.",
+      "translation": "池塘里有三只鸭子。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u46-l1-q5",
+      "kind": "fill",
+      "prompt": "There _____ a map near the entrance.",
+      "instruction": "选择正确形式。",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "audio": "There is a map near the entrance.",
+      "translation": "入口附近有一张地图。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u46-l1-q6",
+      "kind": "match",
+      "prompt": "配对公园散步词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "fountain",
+          "喷泉"
+        ],
+        [
+          "path",
+          "小路"
+        ],
+        [
+          "pond",
+          "池塘"
+        ],
+        [
+          "bench",
+          "长椅"
+        ],
+        [
+          "duck",
+          "鸭子"
+        ],
+        [
+          "map",
+          "地图"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "喷泉、小路、池塘、长椅、鸭子、地图",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u46-l1-q7",
+      "kind": "word",
+      "prompt": "pond · 公园散步",
+      "instruction": "选择意思。",
+      "answer": "池塘",
+      "options": [
+        "池塘",
+        "喷泉",
+        "鸭子",
+        "地图"
+      ],
+      "translation": "池塘",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u46-l1-q8",
+      "kind": "choice",
+      "prompt": "There is a quiet bench under the old tree.",
+      "instruction": "选择意思。",
+      "answer": "老树下有一张安静的长椅。",
+      "options": [
+        "老树下有一张安静的长椅。",
+        "池塘旁有一只安静的鸭子。",
+        "地图后面有一条旧小路。",
+        "喷泉下有一棵小树。"
+      ],
+      "audio": "There is a quiet bench under the old tree.",
+      "translation": "老树下有一张安静的长椅。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u46-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "入口左边有一个饮水处。",
+      "options": [
+        "入口左边有一个饮水处。",
+        "地图右边有一座喷泉。",
+        "池塘后面有一个长椅。",
+        "小路尽头有三只鸭子。"
+      ],
+      "audio": "There is a drinking fountain on the left of the entrance.",
+      "translation": "入口左边有一个饮水处。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u46-l1-q10",
+      "kind": "fill",
+      "prompt": "There _____ many people on the path today.",
+      "instruction": "选择正确形式。",
+      "answer": "are",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "audio": "There are many people on the path today.",
+      "translation": "今天小路上有很多人。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u46-l1-dialogue",
+    "scene": "公园散步",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "will",
+        "name": "Will"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Is there a map near the entrance?",
+        "translation": "入口附近有地图吗？"
+      },
+      {
+        "speaker": "will",
+        "text": "Yes, there is one beside the fountain.",
+        "translation": "有，在喷泉旁边。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Then we can follow the path to the pond.",
+        "translation": "那我们可以沿小路去池塘。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

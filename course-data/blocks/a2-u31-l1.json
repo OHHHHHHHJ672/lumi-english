@@ -1,0 +1,232 @@
+{
+  "id": "a2-u31-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "客服沟通",
+  "subtitle": "说明问题、退货和解决方案",
+  "theme": "customer-service",
+  "grammarFocus": "customer-service",
+  "grammarTags": [
+    "customer-service"
+  ],
+  "words": [
+    [
+      "complaint",
+      "投诉"
+    ],
+    [
+      "replacement",
+      "替换品"
+    ],
+    [
+      "refund",
+      "退款"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u31-l1-q1",
+      "kind": "word",
+      "prompt": "complaint",
+      "answer": "投诉",
+      "translation": "投诉",
+      "options": [
+        "投诉",
+        "替换品",
+        "退款",
+        "订单"
+      ]
+    },
+    {
+      "id": "a2-u31-l1-q2",
+      "kind": "choice",
+      "prompt": "I called customer service about a damaged parcel.",
+      "audio": "I called customer service about a damaged parcel.",
+      "answer": "我因包裹损坏致电客服。",
+      "translation": "我因包裹损坏致电客服。",
+      "options": [
+        "我因包裹损坏致电客服。",
+        "我因订单延误致电快递员。",
+        "我把包裹退回了商店。",
+        "我要求客服更换地址。"
+      ]
+    },
+    {
+      "id": "a2-u31-l1-q3",
+      "kind": "listen",
+      "prompt": "听清客服提供了什么。",
+      "audio": "They offered a replacement instead of a refund.",
+      "answer": "他们提供了替换品而不是退款。",
+      "translation": "他们提供了替换品而不是退款。",
+      "options": [
+        "他们提供了替换品而不是退款。",
+        "他们拒绝了替换品和退款。",
+        "他们提供了退款而不是替换品。",
+        "他们要求先支付新的订单。"
+      ]
+    },
+    {
+      "id": "a2-u31-l1-q4",
+      "kind": "order",
+      "prompt": "客服人员记录了投诉。",
+      "audio": "The complaint was recorded by an agent.",
+      "answer": "The complaint was recorded by an agent.",
+      "translation": "客服人员记录了投诉。",
+      "tokens": [
+        "The",
+        "complaint",
+        "was",
+        "recorded",
+        "by",
+        "an",
+        "agent."
+      ]
+    },
+    {
+      "id": "a2-u31-l1-q5",
+      "kind": "fill",
+      "prompt": "Could I request a _____ for this order?",
+      "answer": "refund",
+      "audio": "Could I request a refund for this order?",
+      "translation": "我可以为这笔订单申请退款吗？",
+      "options": [
+        "refund",
+        "replace",
+        "replacement",
+        "complaint"
+      ]
+    },
+    {
+      "id": "a2-u31-l1-q6",
+      "kind": "match",
+      "prompt": "配对客服沟通词语。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "complaint",
+          "投诉"
+        ],
+        [
+          "replacement",
+          "替换品"
+        ],
+        [
+          "refund",
+          "退款"
+        ],
+        [
+          "parcel",
+          "包裹"
+        ],
+        [
+          "agent",
+          "客服人员"
+        ],
+        [
+          "delay",
+          "延误"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u31-l1-q7",
+      "kind": "word",
+      "prompt": "replacement",
+      "answer": "替换品",
+      "translation": "替换品",
+      "options": [
+        "替换品",
+        "投诉",
+        "退款",
+        "运单"
+      ]
+    },
+    {
+      "id": "a2-u31-l1-q8",
+      "kind": "choice",
+      "prompt": "The replacement arrived this morning.",
+      "audio": "The replacement arrived this morning.",
+      "answer": "替换品今天早上到了。",
+      "translation": "替换品今天早上到了。",
+      "options": [
+        "替换品今天早上到了。",
+        "退款今天早上到账了。",
+        "包裹今天早上被退回了。",
+        "客服今天早上打来了电话。"
+      ]
+    },
+    {
+      "id": "a2-u31-l1-q9",
+      "kind": "listen",
+      "prompt": "听清客服要求如何描述。",
+      "audio": "Please describe the problem clearly.",
+      "answer": "请清楚描述问题。",
+      "translation": "请清楚描述问题。",
+      "options": [
+        "请清楚描述问题。",
+        "请清楚填写地址。",
+        "请把替换品寄回。",
+        "请在网上申请退款。"
+      ]
+    },
+    {
+      "id": "a2-u31-l1-q10",
+      "kind": "fill",
+      "prompt": "The agent _____ for the delay.",
+      "answer": "apologized",
+      "audio": "The agent apologized for the delay.",
+      "translation": "客服人员为延误道歉。",
+      "options": [
+        "apologized",
+        "apologize",
+        "apologizing",
+        "apologizes"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u31-l1-dialogue",
+    "scene": "损坏包裹的客服沟通",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The mug arrived broken, so I would like to report a problem.",
+        "translation": "杯子到货时碎了，所以我想报告问题。"
+      },
+      {
+        "speaker": "alex",
+        "text": "I am sorry. We can send a replacement or issue a refund.",
+        "translation": "很抱歉。我们可以寄替换品，或者办理退款。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "A replacement would be best, please.",
+        "translation": "请寄替换品就好。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What does Lumi choose?",
+        "answer": "A replacement",
+        "options": [
+          "A replacement",
+          "A larger parcel",
+          "A new delivery address",
+          "A complaint form"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

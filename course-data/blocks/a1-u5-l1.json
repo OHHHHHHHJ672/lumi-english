@@ -1,0 +1,243 @@
+{
+  "id": "a1-u5-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "城市方向",
+  "subtitle": "在城市里问路和辨认地点",
+  "theme": "directions",
+  "grammarFocus": "prepositions",
+  "grammarTags": [
+    "prepositions",
+    "imperatives"
+  ],
+  "sourceStatus": "hand-authored",
+  "words": [
+    [
+      "crosswalk",
+      "人行横道"
+    ],
+    [
+      "corner",
+      "拐角"
+    ],
+    [
+      "opposite",
+      "在对面"
+    ]
+  ],
+  "dialogue": {
+    "id": "a1-u5-l1-dialogue",
+    "scene": "街角问路",
+    "characters": [
+      {
+        "id": "leo",
+        "name": "Leo"
+      },
+      {
+        "id": "anna",
+        "name": "Anna"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "leo",
+        "text": "Excuse me, is the pharmacy across from the library?",
+        "translation": "请问，药店在图书馆对面吗？"
+      },
+      {
+        "speaker": "anna",
+        "text": "Yes. Turn right at the second traffic light.",
+        "translation": "是的，在第二个红绿灯处右转。"
+      },
+      {
+        "speaker": "leo",
+        "text": "Thank you. I will wait at the crosswalk.",
+        "translation": "谢谢。我会在人行横道处等。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Where should Leo turn right?",
+        "answer": "At the second traffic light",
+        "options": [
+          "At the second traffic light",
+          "At the first bus stop",
+          "At the library entrance"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "a1-u5-l1-q1",
+      "kind": "word",
+      "prompt": "crosswalk",
+      "instruction": "选择这个词的直译",
+      "answer": "人行横道",
+      "options": [
+        "人行横道",
+        "十字路口",
+        "公交车",
+        "药店"
+      ],
+      "translation": "人行横道"
+    },
+    {
+      "id": "a1-u5-l1-q2",
+      "kind": "choice",
+      "prompt": "Is the pharmacy across from the library?",
+      "instruction": "选择这句问路的意思。",
+      "answer": "药店在图书馆对面吗？",
+      "options": [
+        "药店在图书馆对面吗？",
+        "过第二个红绿灯后右转。",
+        "咖啡店在书店旁边。",
+        "沿着这条街走到公园。"
+      ],
+      "audio": "Is the pharmacy across from the library?",
+      "translation": "药店在图书馆对面吗？"
+    },
+    {
+      "id": "a1-u5-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "过第二个红绿灯后右转。",
+      "options": [
+        "过第二个红绿灯后右转。",
+        "药店在图书馆对面吗？",
+        "咖啡店在书店旁边。",
+        "沿着这条街走到公园。"
+      ],
+      "audio": "Turn right after the second traffic light.",
+      "translation": "过第二个红绿灯后右转。"
+    },
+    {
+      "id": "a1-u5-l1-q4",
+      "kind": "order",
+      "prompt": "公交车站就在拐角处。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The bus stop is around the corner.",
+      "tokens": [
+        "The",
+        "bus",
+        "stop",
+        "is",
+        "around",
+        "the",
+        "corner."
+      ],
+      "audio": "The bus stop is around the corner.",
+      "translation": "公交车站就在拐角处。"
+    },
+    {
+      "id": "a1-u5-l1-q5",
+      "kind": "fill",
+      "prompt": "Please wait at the pedestrian _____.",
+      "instruction": "选择适合过马路场景的词。",
+      "answer": "crosswalk",
+      "options": [
+        "crosswalk",
+        "corner",
+        "pharmacy",
+        "library"
+      ],
+      "audio": "Please wait at the pedestrian crosswalk.",
+      "translation": "请在人行横道处等候。"
+    },
+    {
+      "id": "a1-u5-l1-q6",
+      "kind": "match",
+      "prompt": "把城市方向词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "crosswalk",
+          "人行横道"
+        ],
+        [
+          "corner",
+          "拐角"
+        ],
+        [
+          "opposite",
+          "在对面"
+        ],
+        [
+          "pharmacy",
+          "药店"
+        ],
+        [
+          "library",
+          "图书馆"
+        ],
+        [
+          "traffic light",
+          "红绿灯"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "人行横道、拐角、在对面、药店、图书馆、红绿灯"
+    },
+    {
+      "id": "a1-u5-l1-q7",
+      "kind": "word",
+      "prompt": "opposite",
+      "instruction": "选择这个词的直译",
+      "answer": "在对面",
+      "options": [
+        "在对面",
+        "在里面",
+        "在后面",
+        "在附近"
+      ],
+      "translation": "在对面"
+    },
+    {
+      "id": "a1-u5-l1-q8",
+      "kind": "choice",
+      "prompt": "The café is next to the bookstore.",
+      "instruction": "咖啡店在哪里？",
+      "answer": "在书店旁边。",
+      "options": [
+        "在书店旁边。",
+        "药店在图书馆对面吗？",
+        "过第二个红绿灯后右转。",
+        "沿着这条街走到公园。"
+      ],
+      "audio": "The café is next to the bookstore.",
+      "translation": "咖啡店在书店旁边。"
+    },
+    {
+      "id": "a1-u5-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "沿着这条街走到公园。",
+      "options": [
+        "沿着这条街走到公园。",
+        "药店在图书馆对面吗？",
+        "过第二个红绿灯后右转。",
+        "咖啡店在书店旁边。"
+      ],
+      "audio": "Walk along this street to the park.",
+      "translation": "沿着这条街走到公园。"
+    },
+    {
+      "id": "a1-u5-l1-q10",
+      "kind": "fill",
+      "prompt": "The hotel is _____ the bank.",
+      "instruction": "选择表示位置的介词。",
+      "answer": "opposite",
+      "options": [
+        "opposite",
+        "borrow",
+        "repeat",
+        "quiet"
+      ],
+      "audio": "The hotel is opposite the bank.",
+      "translation": "酒店在银行对面。"
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "id": "b2-u42-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "进阶数字凭证",
+  "subtitle": "比较生物识别和凭证",
+  "theme": "进阶数字凭证",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "biometric",
+      "生物识别的"
+    ],
+    [
+      "credential",
+      "凭证"
+    ],
+    [
+      "encryption",
+      "加密"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "biometric · 进阶数字凭证",
+      "audio": "biometric",
+      "instruction": "选择这个词的直译",
+      "answer": "生物识别的",
+      "options": [
+        "生物识别的",
+        "凭证",
+        "加密",
+        "问题"
+      ],
+      "translation": "生物识别的",
+      "id": "b2-u42-l1-q1",
+      "lessonId": "b2-u42-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The biometric was reviewed before the meeting.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "生物识别的在会议前被审阅了。",
+      "options": [
+        "生物识别的在会议前被审阅了。",
+        "凭证在会议前被审阅了。",
+        "凭证在会议前被审阅了。，在车站。",
+        "加密在会议前被审阅了。，截止日期前。"
+      ],
+      "audio": "The biometric was reviewed before the meeting.",
+      "translation": "生物识别的在会议前被审阅了。",
+      "id": "b2-u42-l1-q2",
+      "lessonId": "b2-u42-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "凭证在会议前被审阅了。",
+      "options": [
+        "生物识别的在会议前被审阅了。",
+        "凭证在会议前被审阅了。",
+        "凭证在会议前被审阅了。，在车站。",
+        "加密在会议前被审阅了。，截止日期前。"
+      ],
+      "audio": "The credential was reviewed before the meeting.",
+      "translation": "凭证在会议前被审阅了。",
+      "id": "b2-u42-l1-q3",
+      "lessonId": "b2-u42-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "加密在会议前被审阅了。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The encryption was reviewed before the meeting.",
+      "tokens": [
+        "The",
+        "encryption",
+        "was",
+        "reviewed",
+        "before",
+        "the",
+        "meeting."
+      ],
+      "audio": "The encryption was reviewed before the meeting.",
+      "translation": "加密在会议前被审阅了。",
+      "id": "b2-u42-l1-q4",
+      "lessonId": "b2-u42-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ at the station.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "biometric",
+      "options": [
+        "biometric",
+        "credential",
+        "encryption",
+        "message"
+      ],
+      "audio": "Please check the biometric at the station.",
+      "translation": "请在车站检查生物识别的。",
+      "id": "b2-u42-l1-q5",
+      "lessonId": "b2-u42-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶数字凭证」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "biometric、生物识别的；credential、凭证；encryption、加密；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u42-l1-q6",
+      "lessonId": "b2-u42-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "credential · 进阶数字凭证",
+      "audio": "credential",
+      "instruction": "选择这个词的直译",
+      "answer": "凭证",
+      "options": [
+        "凭证",
+        "生物识别的",
+        "加密",
+        "安排"
+      ],
+      "translation": "凭证",
+      "id": "b2-u42-l1-q7",
+      "lessonId": "b2-u42-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The credential was reviewed before the meeting. at the station.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "凭证在会议前被审阅了。，在车站。",
+      "options": [
+        "生物识别的在会议前被审阅了。",
+        "凭证在会议前被审阅了。",
+        "凭证在会议前被审阅了。，在车站。",
+        "加密在会议前被审阅了。，截止日期前。"
+      ],
+      "audio": "The credential was reviewed before the meeting. at the station.",
+      "translation": "凭证在会议前被审阅了。，在车站。",
+      "id": "b2-u42-l1-q8",
+      "lessonId": "b2-u42-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "加密在会议前被审阅了。，截止日期前。",
+      "options": [
+        "生物识别的在会议前被审阅了。",
+        "凭证在会议前被审阅了。",
+        "凭证在会议前被审阅了。，在车站。",
+        "加密在会议前被审阅了。，截止日期前。"
+      ],
+      "audio": "The encryption was reviewed before the meeting. before the deadline.",
+      "translation": "加密在会议前被审阅了。，截止日期前。",
+      "id": "b2-u42-l1-q9",
+      "lessonId": "b2-u42-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the credential before the deadline.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the credential before the deadline.",
+      "translation": "我们需要截止日期前检查凭证。",
+      "id": "b2-u42-l1-q10",
+      "lessonId": "b2-u42-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "biometric",
+          "生物识别的"
+        ],
+        [
+          "credential",
+          "凭证"
+        ],
+        [
+          "encryption",
+          "加密"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u42-l1-dialogue",
+    "scene": "进阶数字凭证",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about biometric?",
+        "translation": "你能再告诉我一些关于生物识别的的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use biometric when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到生物识别的。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use biometric in a daily plan",
+        "options": [
+          "How to use biometric in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

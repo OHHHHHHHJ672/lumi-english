@@ -1,0 +1,368 @@
+{
+  "id": "b2-u7-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "研究论证",
+  "subtitle": "评估证据、局限和替代解释",
+  "theme": "研究论证",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "hypothesis",
+      "假设"
+    ],
+    [
+      "methodology",
+      "方法论"
+    ],
+    [
+      "correlation",
+      "相关性"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u7-l1-q1",
+      "kind": "word",
+      "prompt": "hypothesis · 研究论证",
+      "answer": "hypothesis",
+      "translation": "假设",
+      "instruction": "选择适合语境的表达。",
+      "audio": "hypothesis",
+      "lessonId": "b2-u7-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "假设",
+        "方法论",
+        "相关性",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u7-l1-q2",
+      "kind": "choice",
+      "prompt": "The hypothesis predicts that sleep affects memory.",
+      "answer": "这个假设预测睡眠会影响记忆。",
+      "translation": "这个假设预测睡眠会影响记忆。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The hypothesis predicts that sleep affects memory.",
+      "lessonId": "b2-u7-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这个假设预测睡眠会影响记忆。",
+        "那我们应该先解释方法论，再提出更强的说法。",
+        "我们的方法论控制了年龄和工作时长。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u7-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "那我们应该先解释方法论，再提出更强的说法。",
+      "translation": "那我们应该先解释方法论，再提出更强的说法。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Then we should explain the methodology before making a stronger claim.",
+      "lessonId": "b2-u7-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "那我们应该先解释方法论，再提出更强的说法。",
+        "这个假设预测睡眠会影响记忆。",
+        "我们的方法论控制了年龄和工作时长。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u7-l1-q4",
+      "kind": "order",
+      "prompt": "研究方法由两名独立研究人员审阅了。",
+      "answer": "The methodology was reviewed by two independent researchers.",
+      "translation": "研究方法由两名独立研究人员审阅了。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "The methodology was reviewed by two independent researchers.",
+      "lessonId": "b2-u7-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "methodology",
+        "was",
+        "reviewed",
+        "by",
+        "two",
+        "independent",
+        "researchers."
+      ]
+    },
+    {
+      "id": "b2-u7-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the methodology before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅方法论。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the methodology before Friday.",
+      "lessonId": "b2-u7-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u7-l1-q6",
+      "kind": "match",
+      "prompt": "配对「研究论证」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u7-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "hypothesis",
+          "假设"
+        ],
+        [
+          "methodology",
+          "方法论"
+        ],
+        [
+          "correlation",
+          "相关性"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u7-l1-q7",
+      "kind": "word",
+      "prompt": "methodology · 研究论证",
+      "answer": "methodology",
+      "translation": "方法论",
+      "instruction": "选择适合语境的表达。",
+      "audio": "methodology",
+      "lessonId": "b2-u7-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "方法论",
+        "假设",
+        "相关性",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u7-l1-q8",
+      "kind": "choice",
+      "prompt": "Agreed. I will add the limitation to the conclusion.",
+      "answer": "同意。我会把这一局限写进结论。",
+      "translation": "同意。我会把这一局限写进结论。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Agreed. I will add the limitation to the conclusion.",
+      "lessonId": "b2-u7-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "同意。我会把这一局限写进结论。",
+        "团队必须在周五前审阅方法论。",
+        "这个假设预测睡眠会影响记忆。",
+        "我们的方法论控制了年龄和工作时长。"
+      ]
+    },
+    {
+      "id": "b2-u7-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "相关性并不能证明直接的因果关系。",
+      "translation": "相关性并不能证明直接的因果关系。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The correlation is not proof of a direct cause.",
+      "lessonId": "b2-u7-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "相关性并不能证明直接的因果关系。",
+        "这个假设预测睡眠会影响记忆。",
+        "那我们应该先解释方法论，再提出更强的说法。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u7-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the correlation carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅相关性。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the correlation carefully.",
+      "lessonId": "b2-u7-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u7-l1-dialogue",
+    "scene": "研究论证",
+    "characters": [
+      {
+        "id": "iris",
+        "name": "Iris",
+        "role": "colleague"
+      },
+      {
+        "id": "ken",
+        "name": "Ken",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "iris",
+        "text": "The first results support our hypothesis, but the sample is small.",
+        "translation": "第一批结果支持我们的假设，但样本很小。"
+      },
+      {
+        "speaker": "ken",
+        "text": "Then we should explain the methodology before making a stronger claim.",
+        "translation": "那我们应该先解释方法论，再提出更强的说法。"
+      },
+      {
+        "speaker": "iris",
+        "text": "Agreed. I will add the limitation to the conclusion.",
+        "translation": "同意。我会把这个局限加到结论中。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Ken提出了什么建议？",
+        "answer": "Then we should explain the methodology before making a stronger claim.",
+        "options": [
+          "Then we should explain the methodology before making a stronger claim.",
+          "The first results support our hypothesis, but the sample is small.",
+          "Agreed. I will add the limitation to the conclusion."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

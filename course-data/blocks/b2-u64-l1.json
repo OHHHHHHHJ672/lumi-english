@@ -1,0 +1,567 @@
+{
+  "id": "b2-u64-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "进阶社会保障",
+  "subtitle": "讨论福利、包容和匮乏",
+  "theme": "进阶社会保障",
+  "grammarFocus": "conditionals",
+  "grammarTags": [
+    "conditionals"
+  ],
+  "words": [
+    [
+      "welfare",
+      "福利"
+    ],
+    [
+      "inclusion",
+      "包容"
+    ],
+    [
+      "deprivation",
+      "匮乏"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "welfare · 进阶社会保障",
+      "audio": "welfare",
+      "instruction": "选择这个词的直译",
+      "answer": "福利",
+      "options": [
+        "福利",
+        "包容",
+        "匮乏",
+        "问题"
+      ],
+      "translation": "福利",
+      "id": "b2-u64-l1-q1",
+      "lessonId": "b2-u64-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "If we check the welfare, we can avoid a delay.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "如果我们检查福利，就能避免延误。",
+      "options": [
+        "如果我们检查福利，就能避免延误。",
+        "如果我们检查包容，就能避免延误。",
+        "如果我们检查包容，就能避免延误。，这个周末。",
+        "如果我们检查匮乏，就能避免延误。，为我们的团队。"
+      ],
+      "audio": "If we check the welfare, we can avoid a delay.",
+      "translation": "如果我们检查福利，就能避免延误。",
+      "id": "b2-u64-l1-q2",
+      "lessonId": "b2-u64-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "如果我们检查包容，就能避免延误。",
+      "options": [
+        "如果我们检查福利，就能避免延误。",
+        "如果我们检查包容，就能避免延误。",
+        "如果我们检查包容，就能避免延误。，这个周末。",
+        "如果我们检查匮乏，就能避免延误。，为我们的团队。"
+      ],
+      "audio": "If we check the inclusion, we can avoid a delay.",
+      "translation": "如果我们检查包容，就能避免延误。",
+      "id": "b2-u64-l1-q3",
+      "lessonId": "b2-u64-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "如果我们检查匮乏，就能避免延误。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "If we check the deprivation, we can avoid a delay.",
+      "tokens": [
+        "If",
+        "we",
+        "check",
+        "the",
+        "deprivation,",
+        "we",
+        "can",
+        "avoid",
+        "a",
+        "delay."
+      ],
+      "audio": "If we check the deprivation, we can avoid a delay.",
+      "translation": "如果我们检查匮乏，就能避免延误。",
+      "id": "b2-u64-l1-q4",
+      "lessonId": "b2-u64-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this weekend.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "welfare",
+      "options": [
+        "welfare",
+        "inclusion",
+        "deprivation",
+        "message"
+      ],
+      "audio": "Please check the welfare this weekend.",
+      "translation": "请这个周末检查福利。",
+      "id": "b2-u64-l1-q5",
+      "lessonId": "b2-u64-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶社会保障」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "welfare、福利；inclusion、包容；deprivation、匮乏；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u64-l1-q6",
+      "lessonId": "b2-u64-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "inclusion · 进阶社会保障",
+      "audio": "inclusion",
+      "instruction": "选择这个词的直译",
+      "answer": "包容",
+      "options": [
+        "包容",
+        "福利",
+        "匮乏",
+        "安排"
+      ],
+      "translation": "包容",
+      "id": "b2-u64-l1-q7",
+      "lessonId": "b2-u64-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "If we check the inclusion, we can avoid a delay. this weekend.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "如果我们检查包容，就能避免延误。，这个周末。",
+      "options": [
+        "如果我们检查福利，就能避免延误。",
+        "如果我们检查包容，就能避免延误。",
+        "如果我们检查包容，就能避免延误。，这个周末。",
+        "如果我们检查匮乏，就能避免延误。，为我们的团队。"
+      ],
+      "audio": "If we check the inclusion, we can avoid a delay. this weekend.",
+      "translation": "如果我们检查包容，就能避免延误。，这个周末。",
+      "id": "b2-u64-l1-q8",
+      "lessonId": "b2-u64-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "如果我们检查匮乏，就能避免延误。，为我们的团队。",
+      "options": [
+        "如果我们检查福利，就能避免延误。",
+        "如果我们检查包容，就能避免延误。",
+        "如果我们检查包容，就能避免延误。，这个周末。",
+        "如果我们检查匮乏，就能避免延误。，为我们的团队。"
+      ],
+      "audio": "If we check the deprivation, we can avoid a delay. for our team.",
+      "translation": "如果我们检查匮乏，就能避免延误。，为我们的团队。",
+      "id": "b2-u64-l1-q9",
+      "lessonId": "b2-u64-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the inclusion for our team.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the inclusion for our team.",
+      "translation": "我们需要为我们的团队检查包容。",
+      "id": "b2-u64-l1-q10",
+      "lessonId": "b2-u64-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "welfare",
+          "福利"
+        ],
+        [
+          "inclusion",
+          "包容"
+        ],
+        [
+          "deprivation",
+          "匮乏"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u64-l1-dialogue",
+    "scene": "进阶社会保障",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about welfare?",
+        "translation": "你能再告诉我一些关于福利的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use welfare when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到福利。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use welfare in a daily plan",
+        "options": [
+          "How to use welfare in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

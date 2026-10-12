@@ -1,0 +1,233 @@
+{
+  "id": "a2-u25-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "节日筹备",
+  "subtitle": "安排聚会、礼物和装饰",
+  "theme": "celebrations",
+  "grammarFocus": "celebrations",
+  "grammarTags": [
+    "celebrations"
+  ],
+  "words": [
+    [
+      "decorate",
+      "装饰"
+    ],
+    [
+      "gift",
+      "礼物"
+    ],
+    [
+      "invite",
+      "邀请"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u25-l1-q1",
+      "kind": "word",
+      "prompt": "decorate",
+      "answer": "装饰",
+      "translation": "装饰",
+      "options": [
+        "装饰",
+        "礼物",
+        "邀请",
+        "庆祝"
+      ]
+    },
+    {
+      "id": "a2-u25-l1-q2",
+      "kind": "choice",
+      "prompt": "We decorated the room before the guests arrived.",
+      "audio": "We decorated the room before the guests arrived.",
+      "answer": "客人到达前我们装饰了房间。",
+      "translation": "客人到达前我们装饰了房间。",
+      "options": [
+        "客人到达前我们装饰了房间。",
+        "客人离开后我们收起了房间。",
+        "客人到达前我们买了礼物。",
+        "我们邀请客人下周到达。"
+      ]
+    },
+    {
+      "id": "a2-u25-l1-q3",
+      "kind": "listen",
+      "prompt": "听清谁收到了礼物。",
+      "audio": "I bought a gift for my cousin.",
+      "answer": "我给表亲买了礼物。",
+      "translation": "我给表亲买了礼物。",
+      "options": [
+        "我给表亲买了礼物。",
+        "我给邻居写了邀请。",
+        "我为客人装饰了房间。",
+        "我收到了表亲的礼物。"
+      ]
+    },
+    {
+      "id": "a2-u25-l1-q4",
+      "kind": "order",
+      "prompt": "我们邀请邻居参加节日。",
+      "audio": "We invited our neighbors to the festival.",
+      "answer": "We invited our neighbors to the festival.",
+      "translation": "我们邀请邻居参加节日。",
+      "tokens": [
+        "We",
+        "invited",
+        "our",
+        "neighbors",
+        "to",
+        "the",
+        "festival."
+      ]
+    },
+    {
+      "id": "a2-u25-l1-q5",
+      "kind": "fill",
+      "prompt": "Could you help me _____ the front door?",
+      "audio": "Could you help me decorate the front door?",
+      "answer": "decorate",
+      "translation": "你能帮我装饰前门吗？",
+      "options": [
+        "decorate",
+        "decorated",
+        "decorating",
+        "decorates"
+      ]
+    },
+    {
+      "id": "a2-u25-l1-q6",
+      "kind": "match",
+      "prompt": "配对节日筹备词语。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "decorate",
+          "装饰"
+        ],
+        [
+          "gift",
+          "礼物"
+        ],
+        [
+          "invite",
+          "邀请"
+        ],
+        [
+          "party",
+          "聚会"
+        ],
+        [
+          "candle",
+          "蜡烛"
+        ],
+        [
+          "guest",
+          "客人"
+        ]
+      ],
+      "translation": "装饰、礼物、邀请、聚会、蜡烛、客人"
+    },
+    {
+      "id": "a2-u25-l1-q7",
+      "kind": "word",
+      "prompt": "gift",
+      "answer": "礼物",
+      "translation": "礼物",
+      "options": [
+        "礼物",
+        "装饰",
+        "邀请",
+        "客人"
+      ]
+    },
+    {
+      "id": "a2-u25-l1-q8",
+      "kind": "choice",
+      "prompt": "She invited everyone by message.",
+      "audio": "She invited everyone by message.",
+      "answer": "她通过消息邀请了所有人。",
+      "translation": "她通过消息邀请了所有人。",
+      "options": [
+        "她通过消息邀请了所有人。",
+        "她给所有人买了礼物。",
+        "她在消息里取消了聚会。",
+        "她装饰了所有人的房间。"
+      ]
+    },
+    {
+      "id": "a2-u25-l1-q9",
+      "kind": "listen",
+      "prompt": "听清礼物何时包装。",
+      "audio": "We wrapped the gift after dinner.",
+      "answer": "我们晚饭后包装了礼物。",
+      "translation": "我们晚饭后包装了礼物。",
+      "options": [
+        "我们晚饭后包装了礼物。",
+        "我们晚饭前打开了礼物。",
+        "我们早餐后邀请了客人。",
+        "我们晚饭后装饰了门。"
+      ]
+    },
+    {
+      "id": "a2-u25-l1-q10",
+      "kind": "fill",
+      "prompt": "Please _____ a gift for the host.",
+      "audio": "Please bring a gift for the host.",
+      "answer": "bring",
+      "translation": "请给主人带一份礼物。",
+      "options": [
+        "bring",
+        "brought",
+        "bringing",
+        "brings"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u25-l1-dialogue",
+    "scene": "准备邻里节日聚会",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The guests arrive at six. Shall I decorate the table?",
+        "translation": "客人六点到。我来装饰桌子好吗？"
+      },
+      {
+        "speaker": "alex",
+        "text": "Yes, and I will wrap the gifts in the living room.",
+        "translation": "好，我会在客厅包装礼物。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Great. I will invite the neighbors after we finish.",
+        "translation": "太好了。我们完成后我会邀请邻居。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What will Alex do?",
+        "answer": "Wrap the gifts",
+        "options": [
+          "Wrap the gifts",
+          "Invite the neighbors",
+          "Decorate the table",
+          "Buy the food"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

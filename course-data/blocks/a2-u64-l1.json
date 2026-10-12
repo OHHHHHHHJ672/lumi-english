@@ -1,0 +1,566 @@
+{
+  "id": "a2-u64-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶职业机会",
+  "subtitle": "讨论晋升和实习",
+  "theme": "进阶职业机会",
+  "grammarFocus": "comparatives",
+  "grammarTags": [
+    "comparatives"
+  ],
+  "words": [
+    [
+      "promotion",
+      "晋升"
+    ],
+    [
+      "salary",
+      "薪资"
+    ],
+    [
+      "internship",
+      "实习"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "promotion · 进阶职业机会",
+      "audio": "promotion",
+      "instruction": "选择这个词的直译",
+      "answer": "晋升",
+      "options": [
+        "晋升",
+        "薪资",
+        "实习",
+        "问题"
+      ],
+      "translation": "晋升",
+      "id": "a2-u64-l1-q1",
+      "lessonId": "a2-u64-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The promotion is more useful than the old one.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "晋升比旧的更有用。",
+      "options": [
+        "晋升比旧的更有用。",
+        "薪资比旧的更有用。",
+        "薪资比旧的更有用。，这个周末。",
+        "实习比旧的更有用。，为我们的团队。"
+      ],
+      "audio": "The promotion is more useful than the old one.",
+      "translation": "晋升比旧的更有用。",
+      "id": "a2-u64-l1-q2",
+      "lessonId": "a2-u64-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "薪资比旧的更有用。",
+      "options": [
+        "晋升比旧的更有用。",
+        "薪资比旧的更有用。",
+        "薪资比旧的更有用。，这个周末。",
+        "实习比旧的更有用。，为我们的团队。"
+      ],
+      "audio": "The salary is more useful than the old one.",
+      "translation": "薪资比旧的更有用。",
+      "id": "a2-u64-l1-q3",
+      "lessonId": "a2-u64-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "实习比旧的更有用。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The internship is more useful than the old one.",
+      "tokens": [
+        "The",
+        "internship",
+        "is",
+        "more",
+        "useful",
+        "than",
+        "the",
+        "old",
+        "one."
+      ],
+      "audio": "The internship is more useful than the old one.",
+      "translation": "实习比旧的更有用。",
+      "id": "a2-u64-l1-q4",
+      "lessonId": "a2-u64-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this weekend.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "promotion",
+      "options": [
+        "promotion",
+        "salary",
+        "internship",
+        "message"
+      ],
+      "audio": "Please check the promotion this weekend.",
+      "translation": "请这个周末检查晋升。",
+      "id": "a2-u64-l1-q5",
+      "lessonId": "a2-u64-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶职业机会」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "promotion、晋升；salary、薪资；internship、实习；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u64-l1-q6",
+      "lessonId": "a2-u64-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "salary · 进阶职业机会",
+      "audio": "salary",
+      "instruction": "选择这个词的直译",
+      "answer": "薪资",
+      "options": [
+        "薪资",
+        "晋升",
+        "实习",
+        "安排"
+      ],
+      "translation": "薪资",
+      "id": "a2-u64-l1-q7",
+      "lessonId": "a2-u64-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The salary is more useful than the old one. this weekend.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "薪资比旧的更有用。，这个周末。",
+      "options": [
+        "晋升比旧的更有用。",
+        "薪资比旧的更有用。",
+        "薪资比旧的更有用。，这个周末。",
+        "实习比旧的更有用。，为我们的团队。"
+      ],
+      "audio": "The salary is more useful than the old one. this weekend.",
+      "translation": "薪资比旧的更有用。，这个周末。",
+      "id": "a2-u64-l1-q8",
+      "lessonId": "a2-u64-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "实习比旧的更有用。，为我们的团队。",
+      "options": [
+        "晋升比旧的更有用。",
+        "薪资比旧的更有用。",
+        "薪资比旧的更有用。，这个周末。",
+        "实习比旧的更有用。，为我们的团队。"
+      ],
+      "audio": "The internship is more useful than the old one. for our team.",
+      "translation": "实习比旧的更有用。，为我们的团队。",
+      "id": "a2-u64-l1-q9",
+      "lessonId": "a2-u64-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the salary for our team.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the salary for our team.",
+      "translation": "我们需要为我们的团队检查薪资。",
+      "id": "a2-u64-l1-q10",
+      "lessonId": "a2-u64-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "promotion",
+          "晋升"
+        ],
+        [
+          "salary",
+          "薪资"
+        ],
+        [
+          "internship",
+          "实习"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u64-l1-dialogue",
+    "scene": "进阶职业机会",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about promotion?",
+        "translation": "你能再告诉我一些关于晋升的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use promotion when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到晋升。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use promotion in a daily plan",
+        "options": [
+          "How to use promotion in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

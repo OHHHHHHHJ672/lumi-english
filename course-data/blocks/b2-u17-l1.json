@@ -1,0 +1,367 @@
+{
+  "id": "b2-u17-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "媒体叙事",
+  "subtitle": "分析叙事、框架和编辑议程",
+  "theme": "媒体叙事",
+  "grammarFocus": "nominalisation",
+  "grammarTags": [
+    "nominalisation"
+  ],
+  "words": [
+    [
+      "narrative",
+      "叙事"
+    ],
+    [
+      "framing",
+      "框架"
+    ],
+    [
+      "agenda",
+      "议程"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u17-l1-q1",
+      "kind": "word",
+      "prompt": "narrative · 媒体叙事",
+      "answer": "narrative",
+      "translation": "叙事",
+      "instruction": "选择适合语境的表达。",
+      "audio": "narrative",
+      "lessonId": "b2-u17-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "nominalisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "叙事",
+        "框架",
+        "议程",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u17-l1-q2",
+      "kind": "choice",
+      "prompt": "The article builds a narrative around one dramatic event.",
+      "answer": "这篇文章围绕一个戏剧性事件构建叙事。",
+      "translation": "这篇文章围绕一个戏剧性事件构建叙事。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The article builds a narrative around one dramatic event.",
+      "lessonId": "b2-u17-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "nominalisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这篇文章围绕一个戏剧性事件构建叙事。",
+        "这种框架为读者制造了戏剧性的叙事。",
+        "它的框架忽略了更广泛的背景。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u17-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "这种框架为读者制造了戏剧性的叙事。",
+      "translation": "这种框架为读者制造了戏剧性的叙事。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That framing creates a dramatic narrative for readers.",
+      "lessonId": "b2-u17-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "nominalisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这种框架为读者制造了戏剧性的叙事。",
+        "这篇文章围绕一个戏剧性事件构建叙事。",
+        "它的框架忽略了更广泛的背景。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u17-l1-q4",
+      "kind": "order",
+      "prompt": "它的框架忽略了更广泛的背景。",
+      "answer": "Its framing leaves out the wider context.",
+      "translation": "它的框架忽略了更广泛的背景。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "Its framing leaves out the wider context.",
+      "lessonId": "b2-u17-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "nominalisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "Its",
+        "framing",
+        "leaves",
+        "out",
+        "the",
+        "wider",
+        "context."
+      ]
+    },
+    {
+      "id": "b2-u17-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the framing before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅框架。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the framing before Friday.",
+      "lessonId": "b2-u17-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "nominalisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u17-l1-q6",
+      "kind": "match",
+      "prompt": "配对「媒体叙事」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u17-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "nominalisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "narrative",
+          "叙事"
+        ],
+        [
+          "framing",
+          "框架"
+        ],
+        [
+          "agenda",
+          "议程"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u17-l1-q7",
+      "kind": "word",
+      "prompt": "framing · 媒体叙事",
+      "answer": "framing",
+      "translation": "框架",
+      "instruction": "选择适合语境的表达。",
+      "audio": "framing",
+      "lessonId": "b2-u17-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "nominalisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "框架",
+        "叙事",
+        "议程",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u17-l1-q8",
+      "kind": "choice",
+      "prompt": "We should add the agreement before publishing.",
+      "answer": "我们应该在发布前补上这份协议。",
+      "translation": "我们应该在发布前补上这份协议。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should add the agreement before publishing.",
+      "lessonId": "b2-u17-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "nominalisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们应该在发布前补上这份协议。",
+        "团队必须在周五前审阅框架。",
+        "文章围绕一个戏剧性事件构建叙事。",
+        "它的框架省略了更广泛的语境。"
+      ]
+    },
+    {
+      "id": "b2-u17-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "编辑的意图并不总是显而易见。",
+      "translation": "编辑的意图并不总是显而易见。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The editor’s agenda is not always visible.",
+      "lessonId": "b2-u17-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "nominalisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "编辑的意图并不总是显而易见。",
+        "这篇文章围绕一个戏剧性事件构建叙事。",
+        "这种框架为读者制造了戏剧性的叙事。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u17-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the agenda carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅议程。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the agenda carefully.",
+      "lessonId": "b2-u17-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "nominalisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u17-l1-dialogue",
+    "scene": "媒体叙事",
+    "characters": [
+      {
+        "id": "mara",
+        "name": "Mara",
+        "role": "colleague"
+      },
+      {
+        "id": "iris",
+        "name": "Iris",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "mara",
+        "text": "The headline focuses on conflict but ignores the compromise.",
+        "translation": "标题聚焦冲突，却忽略了妥协。"
+      },
+      {
+        "speaker": "iris",
+        "text": "That framing creates a dramatic narrative for readers.",
+        "translation": "这种框架为读者制造了戏剧性的叙事。"
+      },
+      {
+        "speaker": "mara",
+        "text": "We should add the agreement before publishing.",
+        "translation": "我们应该在发布前加入协议内容。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Iris提出了什么建议？",
+        "answer": "That framing creates a dramatic narrative for readers.",
+        "options": [
+          "That framing creates a dramatic narrative for readers.",
+          "The headline focuses on conflict but ignores the compromise.",
+          "We should add the agreement before publishing."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

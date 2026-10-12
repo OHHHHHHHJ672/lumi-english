@@ -1,0 +1,243 @@
+{
+  "id": "a1-u10-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "公交出行",
+  "subtitle": "买票、问线路和换乘",
+  "theme": "bus-travel",
+  "grammarFocus": "can-requests",
+  "grammarTags": [
+    "can-requests",
+    "prepositions"
+  ],
+  "sourceStatus": "hand-authored",
+  "words": [
+    [
+      "route",
+      "路线"
+    ],
+    [
+      "fare",
+      "车费"
+    ],
+    [
+      "transfer",
+      "换乘"
+    ]
+  ],
+  "dialogue": {
+    "id": "a1-u10-l1-dialogue",
+    "scene": "公交站问路",
+    "characters": [
+      {
+        "id": "liam",
+        "name": "Liam"
+      },
+      {
+        "id": "driver",
+        "name": "Driver"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "liam",
+        "text": "Can this bus take me to the museum?",
+        "translation": "这辆公交车能带我去博物馆吗？"
+      },
+      {
+        "speaker": "driver",
+        "text": "Yes, but you need to transfer at Central Station.",
+        "translation": "可以，但你需要在中央车站换乘。"
+      },
+      {
+        "speaker": "liam",
+        "text": "How much is the fare?",
+        "translation": "车费是多少？"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Where should Liam transfer?",
+        "answer": "At Central Station",
+        "options": [
+          "At Central Station",
+          "At the museum entrance",
+          "At the airport hotel"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "a1-u10-l1-q1",
+      "kind": "word",
+      "prompt": "route · 公交出行",
+      "audio": "route",
+      "instruction": "选择这个词的直译",
+      "answer": "路线",
+      "options": [
+        "路线",
+        "车费",
+        "换乘",
+        "车站"
+      ],
+      "translation": "路线"
+    },
+    {
+      "id": "a1-u10-l1-q2",
+      "kind": "choice",
+      "prompt": "Can this bus take me to the museum?",
+      "instruction": "选择这句公交问句的意思。",
+      "answer": "这辆公交车能带我去博物馆吗？",
+      "options": [
+        "这辆公交车能带我去博物馆吗？",
+        "你需要在中央车站换乘。",
+        "公交车站在超市对面。",
+        "下一班公交车十分钟后到。"
+      ],
+      "audio": "Can this bus take me to the museum?",
+      "translation": "这辆公交车能带我去博物馆吗？"
+    },
+    {
+      "id": "a1-u10-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "你需要在中央车站换乘。",
+      "options": [
+        "你需要在中央车站换乘。",
+        "这辆公交车能带我去博物馆吗？",
+        "公交车站在超市对面。",
+        "下一班公交车十分钟后到。"
+      ],
+      "audio": "You need to transfer at Central Station.",
+      "translation": "你需要在中央车站换乘。"
+    },
+    {
+      "id": "a1-u10-l1-q4",
+      "kind": "order",
+      "prompt": "车费是多少？",
+      "instruction": "把词块组成英文句子。",
+      "answer": "How much is the fare?",
+      "tokens": [
+        "How",
+        "much",
+        "is",
+        "the",
+        "fare?"
+      ],
+      "audio": "How much is the fare?",
+      "translation": "车费是多少？"
+    },
+    {
+      "id": "a1-u10-l1-q5",
+      "kind": "fill",
+      "prompt": "Which _____ goes to the university?",
+      "instruction": "选择公交场景中的正确词。",
+      "answer": "route",
+      "options": [
+        "route",
+        "fare",
+        "transfer",
+        "museum"
+      ],
+      "audio": "Which route goes to the university?",
+      "translation": "哪条路线去大学？"
+    },
+    {
+      "id": "a1-u10-l1-q6",
+      "kind": "match",
+      "prompt": "把公交出行中的词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "fare",
+          "车费"
+        ],
+        [
+          "transfer",
+          "换乘"
+        ],
+        [
+          "bus",
+          "公交车"
+        ],
+        [
+          "station",
+          "车站"
+        ],
+        [
+          "ticket",
+          "车票"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "路线、车费、换乘、公交车、车站、车票"
+    },
+    {
+      "id": "a1-u10-l1-q7",
+      "kind": "word",
+      "prompt": "transfer · 公交出行",
+      "audio": "transfer",
+      "instruction": "选择这个词的直译",
+      "answer": "换乘",
+      "options": [
+        "换乘",
+        "出发",
+        "停车",
+        "到达"
+      ],
+      "translation": "换乘"
+    },
+    {
+      "id": "a1-u10-l1-q8",
+      "kind": "choice",
+      "prompt": "The bus stop is opposite the supermarket.",
+      "instruction": "选择这句位置表达的意思。",
+      "answer": "公交车站在超市对面。",
+      "options": [
+        "公交车站在超市对面。",
+        "这辆公交车能带我去博物馆吗？",
+        "你需要在中央车站换乘。",
+        "下一班公交车十分钟后到。"
+      ],
+      "audio": "The bus stop is opposite the supermarket.",
+      "translation": "公交车站在超市对面。"
+    },
+    {
+      "id": "a1-u10-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "下一班公交车十分钟后到。",
+      "options": [
+        "下一班公交车十分钟后到。",
+        "这辆公交车能带我去博物馆吗？",
+        "你需要在中央车站换乘。",
+        "公交车站在超市对面。"
+      ],
+      "audio": "The next bus arrives in ten minutes.",
+      "translation": "下一班公交车十分钟后到。"
+    },
+    {
+      "id": "a1-u10-l1-q10",
+      "kind": "fill",
+      "prompt": "The bus _____ at the main station.",
+      "instruction": "选择一般现在时的正确形式。",
+      "answer": "stops",
+      "options": [
+        "stops",
+        "stop",
+        "stopping",
+        "stopped"
+      ],
+      "audio": "The bus stops at the main station.",
+      "translation": "公交车在总站停靠。"
+    }
+  ]
+}

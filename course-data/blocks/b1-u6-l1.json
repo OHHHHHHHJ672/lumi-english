@@ -1,0 +1,366 @@
+{
+  "id": "b1-u6-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "媒体素养",
+  "subtitle": "区分事实、观点和可信来源",
+  "theme": "媒体素养",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "source",
+      "来源"
+    ],
+    [
+      "claim",
+      "说法"
+    ],
+    [
+      "bias",
+      "偏见"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u6-l1-q1",
+      "kind": "word",
+      "prompt": "source · 媒体素养",
+      "audio": "source",
+      "instruction": "选择适合语境的表达。",
+      "answer": "source",
+      "translation": "来源",
+      "lessonId": "b1-u6-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "来源",
+        "说法",
+        "偏见",
+        "报告"
+      ]
+    },
+    {
+      "id": "b1-u6-l1-q2",
+      "kind": "choice",
+      "prompt": "Has the editor checked the original source?",
+      "audio": "Has the editor checked the original source?",
+      "instruction": "选择适合语境的表达。",
+      "answer": "编辑核实过原始来源了吗？",
+      "translation": "编辑核实过原始来源了吗？",
+      "lessonId": "b1-u6-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "编辑核实过原始来源了吗？",
+        "这个标题可能带有偏见。",
+        "我们已经把事实和观点分开。",
+        "这句话没有说明原因。"
+      ]
+    },
+    {
+      "id": "b1-u6-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The headline may contain bias.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "这个标题可能带有偏见。",
+      "translation": "这个标题可能带有偏见。",
+      "lessonId": "b1-u6-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这个标题可能带有偏见。",
+        "编辑核实过原始来源了吗？",
+        "我们已经把事实和观点分开。",
+        "说话人没有做决定。"
+      ]
+    },
+    {
+      "id": "b1-u6-l1-q4",
+      "kind": "order",
+      "prompt": "我们已经把事实和观点分开。",
+      "audio": "We have separated facts from opinion.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "We have separated facts from opinion.",
+      "translation": "我们已经把事实和观点分开。",
+      "lessonId": "b1-u6-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "We",
+        "have",
+        "separated",
+        "facts",
+        "from",
+        "opinion."
+      ]
+    },
+    {
+      "id": "b1-u6-l1-q5",
+      "kind": "fill",
+      "prompt": "We have _____ the claim before Friday.",
+      "audio": "We have reviewed the claim before Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "reviewed",
+      "translation": "reviewed",
+      "lessonId": "b1-u6-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u6-l1-q6",
+      "kind": "match",
+      "prompt": "配对「媒体素养」中的重点词。",
+      "audio": "",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "matched",
+      "lessonId": "b1-u6-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "source",
+          "来源"
+        ],
+        [
+          "claim",
+          "说法"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "flight",
+          "航班"
+        ],
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u6-l1-q7",
+      "kind": "word",
+      "prompt": "claim · 媒体素养",
+      "audio": "claim",
+      "instruction": "选择适合语境的表达。",
+      "answer": "claim",
+      "translation": "说法",
+      "lessonId": "b1-u6-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "说法",
+        "来源",
+        "偏见",
+        "会议"
+      ]
+    },
+    {
+      "id": "b1-u6-l1-q8",
+      "kind": "choice",
+      "prompt": "I will compare the post with the official notice.",
+      "audio": "I will compare the post with the official notice.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我会把帖子和官方通知比较。",
+      "translation": "我会把帖子和官方通知比较。",
+      "lessonId": "b1-u6-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会把帖子和官方通知比较。",
+        "编辑核实过原始来源了吗？",
+        "这个标题可能带有偏见。",
+        "这句话谈的是天气。"
+      ]
+    },
+    {
+      "id": "b1-u6-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，判断下一步。",
+      "audio": "We have separated facts from opinion. During the review.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我们已经把事实和观点分开。",
+      "translation": "我们已经把事实和观点分开。（会议复盘时）",
+      "lessonId": "b1-u6-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们已经把事实和观点分开。",
+        "编辑核实过原始来源了吗？",
+        "我会把帖子和官方通知比较。",
+        "说话人取消了安排。"
+      ]
+    },
+    {
+      "id": "b1-u6-l1-q10",
+      "kind": "fill",
+      "prompt": "The team must _____ the bias today.",
+      "audio": "The team must clarify the bias today.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "clarify",
+      "translation": "clarify",
+      "lessonId": "b1-u6-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u6-l1-dialogue",
+    "scene": "媒体素养",
+    "characters": [
+      {
+        "id": "rosa",
+        "name": "Rosa",
+        "role": "colleague"
+      },
+      {
+        "id": "daniel",
+        "name": "Daniel",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "rosa",
+        "text": "This post says the bridge closed, but it does not name a source.",
+        "translation": "这篇帖子说桥关闭了，却没有写来源。"
+      },
+      {
+        "speaker": "daniel",
+        "text": "I have found the original notice; the claim is only partly true.",
+        "translation": "我找到了原始通知；这条说法只有部分属实。"
+      },
+      {
+        "speaker": "rosa",
+        "text": "Then we should explain the missing detail instead of repeating the headline.",
+        "translation": "那我们应该解释缺失的细节，而不是重复标题。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Daniel提出了什么建议？",
+        "answer": "I have found the original notice; the claim is only partly true.",
+        "options": [
+          "I have found the original notice; the claim is only partly true.",
+          "This post says the bridge closed, but it does not name a source.",
+          "Then we should explain the missing detail instead of repeating the headline."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

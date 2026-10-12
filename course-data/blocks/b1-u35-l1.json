@@ -1,0 +1,367 @@
+{
+  "id": "b1-u35-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "社区调查",
+  "subtitle": "收集居民意见和关注点",
+  "theme": "社区调查",
+  "grammarFocus": "community-surveys",
+  "grammarTags": [
+    "community-surveys"
+  ],
+  "words": [
+    [
+      "resident",
+      "居民"
+    ],
+    [
+      "respond",
+      "回应"
+    ],
+    [
+      "concern",
+      "关注点"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u35-l1-q1",
+      "kind": "word",
+      "prompt": "resident · 社区调查",
+      "answer": "resident",
+      "translation": "居民",
+      "instruction": "选择适合语境的表达。",
+      "audio": "resident",
+      "lessonId": "b1-u35-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "community-surveys"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "居民",
+        "回应",
+        "关注点",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u35-l1-q2",
+      "kind": "choice",
+      "prompt": "The survey asked each resident about evening noise.",
+      "answer": "这项调查询问了每位居民对夜间噪音的看法。",
+      "translation": "这项调查询问了每位居民对夜间噪音的看法。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The survey asked each resident about evening noise.",
+      "lessonId": "b1-u35-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "community-surveys"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这项调查询问了每位居民对夜间噪音的看法。",
+        "我们去街区现场邀请大家回应。",
+        "只有一半的家庭在线回应了。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u35-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我们去街区现场邀请大家回应。",
+      "translation": "我们去街区现场邀请大家回应。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Let us visit the block and invite people to respond in person.",
+      "lessonId": "b1-u35-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "community-surveys"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们去街区现场邀请大家回应。",
+        "这项调查询问了每位居民对夜间噪音的看法。",
+        "只有一半的家庭在线回应了。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u35-l1-q4",
+      "kind": "order",
+      "prompt": "只有一半的家庭在线回应了。",
+      "answer": "Only half of the households responded online.",
+      "translation": "只有一半的家庭在线回应了。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "Only half of the households responded online.",
+      "lessonId": "b1-u35-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "community-surveys"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "Only",
+        "half",
+        "of",
+        "the",
+        "households",
+        "responded",
+        "online."
+      ]
+    },
+    {
+      "id": "b1-u35-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the response before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了回应。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the response before the meeting.",
+      "lessonId": "b1-u35-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "community-surveys"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u35-l1-q6",
+      "kind": "match",
+      "prompt": "配对「社区调查」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u35-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "community-surveys"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "resident",
+          "居民"
+        ],
+        [
+          "respond",
+          "回应"
+        ],
+        [
+          "concern",
+          "关注点"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u35-l1-q7",
+      "kind": "word",
+      "prompt": "respond · 社区调查",
+      "answer": "respond",
+      "translation": "回应",
+      "instruction": "选择适合语境的表达。",
+      "audio": "respond",
+      "lessonId": "b1-u35-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "community-surveys"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "回应",
+        "居民",
+        "关注点",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u35-l1-q8",
+      "kind": "choice",
+      "prompt": "That may reveal concerns the online form missed.",
+      "answer": "这可能会揭示在线表格遗漏的顾虑。",
+      "translation": "这可能会揭示在线表格遗漏的顾虑。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That may reveal concerns the online form missed.",
+      "lessonId": "b1-u35-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "community-surveys"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这可能会揭示在线表格遗漏的顾虑。",
+        "团队在会议前已经审阅了回应。",
+        "调查询问每位居民对夜间噪音的看法。",
+        "只有一半家庭在线回应。"
+      ]
+    },
+    {
+      "id": "b1-u35-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "这份报告按街道对每一项投诉进行了归类。",
+      "translation": "这份报告按街道对每一项投诉进行了归类。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The report groups every concern by street.",
+      "lessonId": "b1-u35-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "community-surveys"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这份报告按街道对每一项投诉进行了归类。",
+        "这项调查询问了每位居民对夜间噪音的看法。",
+        "我们去街区现场邀请大家回应。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u35-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the concern before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅关注点。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the concern before Friday.",
+      "lessonId": "b1-u35-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "community-surveys"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u35-l1-dialogue",
+    "scene": "社区调查",
+    "characters": [
+      {
+        "id": "ari",
+        "name": "Ari",
+        "role": "colleague"
+      },
+      {
+        "id": "mei",
+        "name": "Mei",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "ari",
+        "text": "Many residents mentioned traffic, but the online response rate was low.",
+        "translation": "许多居民提到交通，但线上回应率很低。"
+      },
+      {
+        "speaker": "mei",
+        "text": "Let us visit the block and invite people to respond in person.",
+        "translation": "我们去街区现场邀请大家回应。"
+      },
+      {
+        "speaker": "ari",
+        "text": "That may reveal concerns the online form missed.",
+        "translation": "这样可能发现线上表格遗漏的关注点。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Mei提出了什么建议？",
+        "answer": "Let us visit the block and invite people to respond in person.",
+        "options": [
+          "Let us visit the block and invite people to respond in person.",
+          "Many residents mentioned traffic, but the online response rate was low.",
+          "That may reveal concerns the online form missed."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

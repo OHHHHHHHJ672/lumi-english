@@ -1,0 +1,368 @@
+{
+  "id": "b2-u18-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "学术发表",
+  "subtitle": "讨论手稿、修改和同行评审",
+  "theme": "学术发表",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "peer-review",
+      "同行评审"
+    ],
+    [
+      "revise",
+      "修改"
+    ],
+    [
+      "manuscript",
+      "手稿"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u18-l1-q1",
+      "kind": "word",
+      "prompt": "peer-review · 学术发表",
+      "answer": "peer-review",
+      "translation": "同行评审",
+      "instruction": "选择适合语境的表达。",
+      "audio": "peer-review",
+      "lessonId": "b2-u18-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "同行评审",
+        "修改",
+        "手稿",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u18-l1-q2",
+      "kind": "choice",
+      "prompt": "The manuscript is ready for peer-review.",
+      "answer": "手稿已经可以送同行评审了。",
+      "translation": "手稿已经可以送同行评审了。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The manuscript is ready for peer-review.",
+      "lessonId": "b2-u18-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "手稿已经可以送同行评审了。",
+        "我们会修改手稿并解释每处改动。",
+        "编辑要求作者修改一节。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u18-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我们会修改手稿并解释每处改动。",
+      "translation": "我们会修改手稿并解释每处改动。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We will revise the manuscript and explain each change.",
+      "lessonId": "b2-u18-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们会修改手稿并解释每处改动。",
+        "手稿已经可以送同行评审了。",
+        "编辑要求作者修改一节。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u18-l1-q4",
+      "kind": "order",
+      "prompt": "稿件在同行评审后被修改了。",
+      "answer": "The manuscript was revised after the peer review.",
+      "translation": "稿件在同行评审后被修改了。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "The manuscript was revised after the peer review.",
+      "lessonId": "b2-u18-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "manuscript",
+        "was",
+        "revised",
+        "after",
+        "the",
+        "peer",
+        "review."
+      ]
+    },
+    {
+      "id": "b2-u18-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the revised draft before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅修订稿。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the revised draft before Friday.",
+      "lessonId": "b2-u18-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u18-l1-q6",
+      "kind": "match",
+      "prompt": "配对「学术发表」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u18-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "peer-review",
+          "同行评审"
+        ],
+        [
+          "revise",
+          "修改"
+        ],
+        [
+          "manuscript",
+          "手稿"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u18-l1-q7",
+      "kind": "word",
+      "prompt": "revise · 学术发表",
+      "answer": "revise",
+      "translation": "修改",
+      "instruction": "选择适合语境的表达。",
+      "audio": "revise",
+      "lessonId": "b2-u18-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "修改",
+        "同行评审",
+        "手稿",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u18-l1-q8",
+      "kind": "choice",
+      "prompt": "Good. The response letter should follow the reviewer’s order.",
+      "answer": "好的。回复信应该按照审稿人的顺序来写。",
+      "translation": "好的。回复信应该按照审稿人的顺序来写。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Good. The response letter should follow the reviewer’s order.",
+      "lessonId": "b2-u18-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "好的。回复信应该按照审稿人的顺序来写。",
+        "团队必须在周五前审阅修改。",
+        "手稿已经准备好接受同行评审。",
+        "编辑要求作者修改一节。"
+      ]
+    },
+    {
+      "id": "b2-u18-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "清楚的摘要能帮助读者理解这项研究。",
+      "translation": "清楚的摘要能帮助读者理解这项研究。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "A clear abstract helps readers understand the study.",
+      "lessonId": "b2-u18-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "清楚的摘要能帮助读者理解这项研究。",
+        "手稿已经可以送同行评审了。",
+        "我们会修改手稿并解释每处改动。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u18-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the manuscript carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅手稿。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the manuscript carefully.",
+      "lessonId": "b2-u18-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u18-l1-dialogue",
+    "scene": "学术发表",
+    "characters": [
+      {
+        "id": "yuki",
+        "name": "Yuki",
+        "role": "colleague"
+      },
+      {
+        "id": "professor chen",
+        "name": "Professor Chen",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "yuki",
+        "text": "The reviewer accepted the result but asked for a clearer method section.",
+        "translation": "评审接受了结果，但要求更清楚的方法部分。"
+      },
+      {
+        "speaker": "professor chen",
+        "text": "We will revise the manuscript and explain each change.",
+        "translation": "我们会修改手稿并解释每处改动。"
+      },
+      {
+        "speaker": "yuki",
+        "text": "Good. The response letter should follow the reviewer’s order.",
+        "translation": "很好。回复信应该按照评审的顺序。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Professor Chen提出了什么建议？",
+        "answer": "We will revise the manuscript and explain each change.",
+        "options": [
+          "We will revise the manuscript and explain each change.",
+          "The reviewer accepted the result but asked for a clearer method section.",
+          "Good. The response letter should follow the reviewer’s order."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

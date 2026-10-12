@@ -1,0 +1,369 @@
+{
+  "id": "b2-u9-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "宏观经济",
+  "subtitle": "分析通胀、衰退和货币政策",
+  "theme": "宏观经济",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "inflation",
+      "通货膨胀"
+    ],
+    [
+      "recession",
+      "经济衰退"
+    ],
+    [
+      "monetary",
+      "货币的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u9-l1-q1",
+      "kind": "word",
+      "prompt": "inflation · 宏观经济",
+      "answer": "inflation",
+      "translation": "通货膨胀",
+      "instruction": "选择适合语境的表达。",
+      "audio": "inflation",
+      "lessonId": "b2-u9-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "通货膨胀",
+        "经济衰退",
+        "货币的",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u9-l1-q2",
+      "kind": "choice",
+      "prompt": "Inflation has reduced the value of the same salary.",
+      "answer": "通货膨胀降低了同样工资的价值。",
+      "translation": "通货膨胀降低了同样工资的价值。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Inflation has reduced the value of the same salary.",
+      "lessonId": "b2-u9-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "通货膨胀降低了同样工资的价值。",
+        "这就是为什么你的家庭感觉通货膨胀更高。",
+        "我会在续租前审查预算。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u9-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "这就是为什么你的家庭感觉通货膨胀更高。",
+      "translation": "这就是为什么你的家庭感觉通货膨胀更高。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That is why inflation feels higher for your household.",
+      "lessonId": "b2-u9-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这就是为什么你的家庭感觉通货膨胀更高。",
+        "通货膨胀降低了同样工资的价值。",
+        "经济衰退会让雇主推迟招聘。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u9-l1-q4",
+      "kind": "order",
+      "prompt": "通胀报告发布后，利率被调整了。",
+      "answer": "The interest rate was changed after the inflation report.",
+      "translation": "通胀报告发布后，利率被调整了。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "The interest rate was changed after the inflation report.",
+      "lessonId": "b2-u9-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "interest",
+        "rate",
+        "was",
+        "changed",
+        "after",
+        "the",
+        "inflation",
+        "report."
+      ]
+    },
+    {
+      "id": "b2-u9-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the recession before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅经济衰退。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the recession before Friday.",
+      "lessonId": "b2-u9-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u9-l1-q6",
+      "kind": "match",
+      "prompt": "配对「宏观经济」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u9-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "inflation",
+          "通货膨胀"
+        ],
+        [
+          "recession",
+          "经济衰退"
+        ],
+        [
+          "monetary",
+          "货币的"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u9-l1-q7",
+      "kind": "word",
+      "prompt": "recession · 宏观经济",
+      "answer": "recession",
+      "translation": "经济衰退",
+      "instruction": "选择适合语境的表达。",
+      "audio": "recession",
+      "lessonId": "b2-u9-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "经济衰退",
+        "通货膨胀",
+        "货币的",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u9-l1-q8",
+      "kind": "choice",
+      "prompt": "I will review the budget before renewing the lease.",
+      "answer": "我会在续租前审阅预算。",
+      "translation": "我会在续租前审阅预算。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will review the budget before renewing the lease.",
+      "lessonId": "b2-u9-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会在续租前审阅预算。",
+        "团队必须在周五前审阅经济衰退。",
+        "通货膨胀降低了同样工资的价值。",
+        "经济衰退可能让雇主推迟招聘。"
+      ]
+    },
+    {
+      "id": "b2-u9-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "货币政策会影响借贷成本。",
+      "translation": "货币政策会影响借贷成本。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Monetary policy affects borrowing costs.",
+      "lessonId": "b2-u9-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "货币政策会影响借贷成本。",
+        "通货膨胀降低了同样工资的价值。",
+        "这就是为什么你的家庭感觉通货膨胀更高。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u9-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the monetary policy carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅货币政策。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the monetary policy carefully.",
+      "lessonId": "b2-u9-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u9-l1-dialogue",
+    "scene": "宏观经济",
+    "characters": [
+      {
+        "id": "mara",
+        "name": "Mara",
+        "role": "colleague"
+      },
+      {
+        "id": "luis",
+        "name": "Luis",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "mara",
+        "text": "Food prices have risen, but my salary has stayed the same.",
+        "translation": "食品价格上涨了，但我的工资保持不变。"
+      },
+      {
+        "speaker": "luis",
+        "text": "That is why inflation feels higher for your household.",
+        "translation": "这就是为什么你的家庭感觉通货膨胀更高。"
+      },
+      {
+        "speaker": "mara",
+        "text": "I will review the budget before renewing the lease.",
+        "translation": "我会在续租前审查预算。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Luis提出了什么建议？",
+        "answer": "That is why inflation feels higher for your household.",
+        "options": [
+          "That is why inflation feels higher for your household.",
+          "Food prices have risen, but my salary has stayed the same.",
+          "I will review the budget before renewing the lease."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

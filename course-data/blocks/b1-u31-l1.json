@@ -1,0 +1,368 @@
+{
+  "id": "b1-u31-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "质量控制",
+  "subtitle": "检查缺陷、标准和设备",
+  "theme": "质量控制",
+  "grammarFocus": "quality-control",
+  "grammarTags": [
+    "quality-control"
+  ],
+  "words": [
+    [
+      "defect",
+      "缺陷"
+    ],
+    [
+      "inspect",
+      "检查"
+    ],
+    [
+      "standard",
+      "标准"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u31-l1-q1",
+      "kind": "word",
+      "prompt": "defect · 质量控制",
+      "answer": "defect",
+      "translation": "缺陷",
+      "instruction": "选择适合语境的表达。",
+      "audio": "defect",
+      "lessonId": "b1-u31-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quality-control"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "缺陷",
+        "检查",
+        "标准",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u31-l1-q2",
+      "kind": "choice",
+      "prompt": "The inspector found a small defect in the seal.",
+      "answer": "检查员在密封处发现了一个小缺陷。",
+      "translation": "检查员在密封处发现了一个小缺陷。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The inspector found a small defect in the seal.",
+      "lessonId": "b1-u31-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quality-control"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "检查员在密封处发现了一个小缺陷。",
+        "我们先检查整批产品，再放行。",
+        "我们按同一标准检查每一批产品。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u31-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我们先检查整批产品，再放行。",
+      "translation": "我们先检查整批产品，再放行。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Let us inspect the whole batch before we release it.",
+      "lessonId": "b1-u31-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quality-control"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们先检查整批产品，再放行。",
+        "检查员在密封处发现了一个小缺陷。",
+        "我们按同一标准检查每一批产品。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u31-l1-q4",
+      "kind": "order",
+      "prompt": "我们按同一标准检查每一批产品。",
+      "answer": "We inspect every batch against the same standard.",
+      "translation": "我们按同一标准检查每一批产品。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "We inspect every batch against the same standard.",
+      "lessonId": "b1-u31-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quality-control"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "We",
+        "inspect",
+        "every",
+        "batch",
+        "against",
+        "the",
+        "same",
+        "standard."
+      ]
+    },
+    {
+      "id": "b1-u31-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the defects before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了缺陷。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the defects before the meeting.",
+      "lessonId": "b1-u31-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quality-control"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u31-l1-q6",
+      "kind": "match",
+      "prompt": "配对「质量控制」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u31-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quality-control"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "defect",
+          "缺陷"
+        ],
+        [
+          "inspect",
+          "检查"
+        ],
+        [
+          "standard",
+          "标准"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u31-l1-q7",
+      "kind": "word",
+      "prompt": "inspect · 质量控制",
+      "answer": "inspect",
+      "translation": "检查",
+      "instruction": "选择适合语境的表达。",
+      "audio": "inspect",
+      "lessonId": "b1-u31-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quality-control"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "检查",
+        "缺陷",
+        "标准",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u31-l1-q8",
+      "kind": "choice",
+      "prompt": "I will compare the result with the written standard.",
+      "answer": "我会把结果与书面标准进行比较。",
+      "translation": "我会把结果与书面标准进行比较。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will compare the result with the written standard.",
+      "lessonId": "b1-u31-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quality-control"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会把结果与书面标准进行比较。",
+        "团队在会议前已经审阅了检查。",
+        "检查员发现密封件有小缺陷。",
+        "我们按照同一标准检查每一批产品。"
+      ]
+    },
+    {
+      "id": "b1-u31-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "团队在缺陷扩散前停下了生产线。",
+      "translation": "团队在缺陷扩散前停下了生产线。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team stopped the line before the defect spread.",
+      "lessonId": "b1-u31-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quality-control"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "团队在缺陷扩散前停下了生产线。",
+        "检查员在密封处发现了一个小缺陷。",
+        "我们先检查整批产品，再放行。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u31-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the standard before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅标准。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the standard before Friday.",
+      "lessonId": "b1-u31-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quality-control"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u31-l1-dialogue",
+    "scene": "质量控制",
+    "characters": [
+      {
+        "id": "bo",
+        "name": "Bo",
+        "role": "colleague"
+      },
+      {
+        "id": "lena",
+        "name": "Lena",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "bo",
+        "text": "The latest batch passed the first check, but one seal looks weak.",
+        "translation": "最新一批通过了首次检查，但有一个密封件看起来很脆弱。"
+      },
+      {
+        "speaker": "lena",
+        "text": "Let us inspect the whole batch before we release it.",
+        "translation": "我们先检查整批产品，再放行。"
+      },
+      {
+        "speaker": "bo",
+        "text": "I will compare the result with the written standard.",
+        "translation": "我会把结果和书面标准比较。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Lena提出了什么建议？",
+        "answer": "Let us inspect the whole batch before we release it.",
+        "options": [
+          "Let us inspect the whole batch before we release it.",
+          "The latest batch passed the first check, but one seal looks weak.",
+          "I will compare the result with the written standard."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

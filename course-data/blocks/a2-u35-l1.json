@@ -1,0 +1,245 @@
+{
+  "id": "a2-u35-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "工作截止",
+  "subtitle": "安排任务、估算时间和交付",
+  "theme": "work-deadlines",
+  "grammarFocus": "work-deadlines",
+  "grammarTags": [
+    "work-deadlines"
+  ],
+  "words": [
+    [
+      "milestone",
+      "里程碑"
+    ],
+    [
+      "estimate",
+      "估算"
+    ],
+    [
+      "submit",
+      "提交"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u35-l1-q1",
+      "kind": "word",
+      "prompt": "milestone",
+      "instruction": "选择这个词的直译。",
+      "answer": "里程碑",
+      "translation": "里程碑",
+      "options": [
+        "里程碑",
+        "估算",
+        "提交",
+        "草稿"
+      ]
+    },
+    {
+      "id": "a2-u35-l1-q2",
+      "kind": "choice",
+      "prompt": "We reached the first milestone on Monday.",
+      "instruction": "选择最符合语境的意思。",
+      "audio": "We reached the first milestone on Monday.",
+      "answer": "我们周一完成了第一个里程碑。",
+      "translation": "我们周一完成了第一个里程碑。",
+      "options": [
+        "我们周一完成了第一个里程碑。",
+        "我们周一估算了第一项任务。",
+        "我们周一提交了最终报告。",
+        "我们周一开始了新的项目。"
+      ]
+    },
+    {
+      "id": "a2-u35-l1-q3",
+      "kind": "listen",
+      "prompt": "听清要估算什么。",
+      "instruction": "先听完整句子，再选择意思。",
+      "audio": "Can you estimate the time for this task?",
+      "answer": "你能估算这项任务需要的时间吗？",
+      "translation": "你能估算这项任务需要的时间吗？",
+      "options": [
+        "你能估算这项任务需要的时间吗？",
+        "你能提交这项任务的报告吗？",
+        "你能确认项目的里程碑吗？",
+        "你能修改任务的截止日期吗？"
+      ]
+    },
+    {
+      "id": "a2-u35-l1-q4",
+      "kind": "order",
+      "prompt": "我会在截止日期前提交报告。",
+      "instruction": "把词块组成英文句子。",
+      "audio": "I will submit the report before the deadline.",
+      "answer": "I will submit the report before the deadline.",
+      "translation": "我会在截止日期前提交报告。",
+      "tokens": [
+        "I",
+        "will",
+        "submit",
+        "the",
+        "report",
+        "before",
+        "the",
+        "deadline."
+      ]
+    },
+    {
+      "id": "a2-u35-l1-q5",
+      "kind": "fill",
+      "prompt": "The team discussed the next _____.",
+      "instruction": "选择英文词完成句子。",
+      "audio": "The team discussed the next milestone.",
+      "answer": "milestone",
+      "translation": "团队讨论了下一个里程碑。",
+      "options": [
+        "milestone",
+        "estimate",
+        "submit",
+        "deadline"
+      ]
+    },
+    {
+      "id": "a2-u35-l1-q6",
+      "kind": "match",
+      "prompt": "配对工作截止词语。",
+      "instruction": "完成全部配对。",
+      "answer": "matched",
+      "translation": "里程碑、估算、提交、报告、截止日期、草稿",
+      "pairs": [
+        [
+          "milestone",
+          "里程碑"
+        ],
+        [
+          "estimate",
+          "估算"
+        ],
+        [
+          "submit",
+          "提交"
+        ],
+        [
+          "report",
+          "报告"
+        ],
+        [
+          "deadline",
+          "截止日期"
+        ],
+        [
+          "draft",
+          "草稿"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u35-l1-q7",
+      "kind": "word",
+      "prompt": "estimate · 工作截止",
+      "instruction": "选择这个词的直译。",
+      "answer": "估算",
+      "translation": "估算",
+      "options": [
+        "估算",
+        "里程碑",
+        "提交",
+        "报告"
+      ]
+    },
+    {
+      "id": "a2-u35-l1-q8",
+      "kind": "choice",
+      "prompt": "Her estimate included time for testing.",
+      "instruction": "选择最符合语境的意思。",
+      "audio": "Her estimate included time for testing.",
+      "answer": "她的估算包含测试时间。",
+      "translation": "她的估算包含测试时间。",
+      "options": [
+        "她的估算包含测试时间。",
+        "她的报告已经完成测试。",
+        "她把测试提交给了团队。",
+        "她的里程碑比预期更早。"
+      ]
+    },
+    {
+      "id": "a2-u35-l1-q9",
+      "kind": "listen",
+      "prompt": "听清表格何时提交。",
+      "instruction": "先听完整句子，再选择意思。",
+      "audio": "Please submit the form by five.",
+      "answer": "请在五点前提交表格。",
+      "translation": "请在五点前提交表格。",
+      "options": [
+        "请在五点前提交表格。",
+        "请在五点后修改表格。",
+        "请在四点前估算任务。",
+        "请在五点前完成里程碑。"
+      ]
+    },
+    {
+      "id": "a2-u35-l1-q10",
+      "kind": "fill",
+      "prompt": "We finished the draft _____ than expected.",
+      "instruction": "选择正确的词完成句子。",
+      "audio": "We finished the draft earlier than expected.",
+      "answer": "earlier",
+      "translation": "我们比预期更早完成了草稿。",
+      "options": [
+        "earlier",
+        "early",
+        "latest",
+        "late"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u35-l1-dialogue",
+    "scene": "准备项目交付",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The first milestone is complete. How much time do we need for testing?",
+        "translation": "第一个里程碑完成了。测试需要多少时间？"
+      },
+      {
+        "speaker": "alex",
+        "text": "I estimate three days, so we can submit the draft on Friday.",
+        "translation": "我估计需要三天，所以我们周五可以提交草稿。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That gives us one day before the deadline to review it.",
+        "translation": "这样截止日期前我们有一天可以审核。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "When can they submit the draft?",
+        "instruction": "根据对话选择时间。",
+        "answer": "On Friday",
+        "options": [
+          "On Friday",
+          "On Monday",
+          "After the deadline",
+          "In three weeks"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

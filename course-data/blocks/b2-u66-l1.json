@@ -1,0 +1,567 @@
+{
+  "id": "b2-u66-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "进阶气候反馈",
+  "subtitle": "分析反照率、反馈环和临界点",
+  "theme": "进阶气候反馈",
+  "grammarFocus": "conditionals",
+  "grammarTags": [
+    "conditionals"
+  ],
+  "words": [
+    [
+      "albedo",
+      "反照率"
+    ],
+    [
+      "feedback loop",
+      "反馈环"
+    ],
+    [
+      "tipping point",
+      "临界点"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "albedo · 进阶气候反馈",
+      "audio": "albedo",
+      "instruction": "选择这个词的直译",
+      "answer": "反照率",
+      "options": [
+        "反照率",
+        "反馈环",
+        "临界点",
+        "问题"
+      ],
+      "translation": "反照率",
+      "id": "b2-u66-l1-q1",
+      "lessonId": "b2-u66-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "If we check the albedo, we can avoid a delay.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "如果我们检查反照率，就能避免延误。",
+      "options": [
+        "如果我们检查反照率，就能避免延误。",
+        "如果我们检查反馈环，就能避免延误。",
+        "如果我们检查反馈环，就能避免延误。，在车站。",
+        "如果我们检查临界点，就能避免延误。，截止日期前。"
+      ],
+      "audio": "If we check the albedo, we can avoid a delay.",
+      "translation": "如果我们检查反照率，就能避免延误。",
+      "id": "b2-u66-l1-q2",
+      "lessonId": "b2-u66-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "如果我们检查反馈环，就能避免延误。",
+      "options": [
+        "如果我们检查反照率，就能避免延误。",
+        "如果我们检查反馈环，就能避免延误。",
+        "如果我们检查反馈环，就能避免延误。，在车站。",
+        "如果我们检查临界点，就能避免延误。，截止日期前。"
+      ],
+      "audio": "If we check the feedbackloop, we can avoid a delay.",
+      "translation": "如果我们检查反馈环，就能避免延误。",
+      "id": "b2-u66-l1-q3",
+      "lessonId": "b2-u66-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "如果我们检查临界点，就能避免延误。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "If we check the tippingpoint, we can avoid a delay.",
+      "tokens": [
+        "If",
+        "we",
+        "check",
+        "the",
+        "tippingpoint,",
+        "we",
+        "can",
+        "avoid",
+        "a",
+        "delay."
+      ],
+      "audio": "If we check the tippingpoint, we can avoid a delay.",
+      "translation": "如果我们检查临界点，就能避免延误。",
+      "id": "b2-u66-l1-q4",
+      "lessonId": "b2-u66-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ at the station.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "albedo",
+      "options": [
+        "albedo",
+        "feedbackloop",
+        "tippingpoint",
+        "message"
+      ],
+      "audio": "Please check the albedo at the station.",
+      "translation": "请在车站检查反照率。",
+      "id": "b2-u66-l1-q5",
+      "lessonId": "b2-u66-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶气候反馈」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "albedo、反照率；feedbackloop、反馈环；tippingpoint、临界点；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u66-l1-q6",
+      "lessonId": "b2-u66-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "feedbackloop · 进阶气候反馈",
+      "audio": "feedbackloop",
+      "instruction": "选择这个词的直译",
+      "answer": "反馈环",
+      "options": [
+        "反馈环",
+        "反照率",
+        "临界点",
+        "安排"
+      ],
+      "translation": "反馈环",
+      "id": "b2-u66-l1-q7",
+      "lessonId": "b2-u66-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "If we check the feedbackloop, we can avoid a delay. at the station.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "如果我们检查反馈环，就能避免延误。，在车站。",
+      "options": [
+        "如果我们检查反照率，就能避免延误。",
+        "如果我们检查反馈环，就能避免延误。",
+        "如果我们检查反馈环，就能避免延误。，在车站。",
+        "如果我们检查临界点，就能避免延误。，截止日期前。"
+      ],
+      "audio": "If we check the feedbackloop, we can avoid a delay. at the station.",
+      "translation": "如果我们检查反馈环，就能避免延误。，在车站。",
+      "id": "b2-u66-l1-q8",
+      "lessonId": "b2-u66-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "如果我们检查临界点，就能避免延误。，截止日期前。",
+      "options": [
+        "如果我们检查反照率，就能避免延误。",
+        "如果我们检查反馈环，就能避免延误。",
+        "如果我们检查反馈环，就能避免延误。，在车站。",
+        "如果我们检查临界点，就能避免延误。，截止日期前。"
+      ],
+      "audio": "If we check the tippingpoint, we can avoid a delay. before the deadline.",
+      "translation": "如果我们检查临界点，就能避免延误。，截止日期前。",
+      "id": "b2-u66-l1-q9",
+      "lessonId": "b2-u66-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the feedbackloop before the deadline.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the feedbackloop before the deadline.",
+      "translation": "我们需要截止日期前检查反馈环。",
+      "id": "b2-u66-l1-q10",
+      "lessonId": "b2-u66-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "albedo",
+          "反照率"
+        ],
+        [
+          "feedbackloop",
+          "反馈环"
+        ],
+        [
+          "tippingpoint",
+          "临界点"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u66-l1-dialogue",
+    "scene": "进阶气候反馈",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about albedo?",
+        "translation": "你能再告诉我一些关于反照率的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use albedo when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到反照率。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use albedo in a daily plan",
+        "options": [
+          "How to use albedo in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

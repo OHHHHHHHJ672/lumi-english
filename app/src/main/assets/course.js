@@ -1,4 +1,4 @@
-/* Beta course: 144 authored lessons. No level is cloned from another level. */
+/* Beta course: 288 authored lessons. No level is cloned from another level. */
 const seeds = [];
 function lesson(level,title,subtitle,words,choice,listen,order,fill,pairs,distractors,grammarTags){seeds.push({level,title,subtitle,words,choice,listen,order,fill,pairs,distractors,grammarTags});}
 
@@ -6,7 +6,7 @@ function lesson(level,title,subtitle,words,choice,listen,order,fill,pairs,distra
 lesson('a1','日程与习惯','说清楚一天如何开始',[['routine','日常安排'],['alarm','闹钟'],['quiet','安静的']],['I check my schedule before breakfast.','我在早餐前查看日程。'],['The alarm rings at half past six.','闹钟六点半响了。'],['I usually walk to work.','我通常步行去上班。'],['Please set an _____ for seven o’clock.','alarm','请把闹钟设在七点。'],[['routine','日常安排'],['weekday','工作日'],['relax','放松']],['周末计划','晚餐菜单','车站方向','房间钥匙']);
 lesson('a1','课堂时光','在教室里听懂简单指令',[['notebook','笔记本'],['borrow','借用'],['repeat','重复']],['Could you repeat the last sentence?','你能重复上一句话吗？'],['Please open your notebook to page ten.','请把笔记本翻到第十页。'],['The answer is on the board.','答案在黑板上。'],['May I _____ your pencil for a moment?','borrow','我可以借用一下你的铅笔吗？'],[['notebook','笔记本'],['classmate','同学'],['question','问题']],['机场柜台','天气预报','水果篮子','电影票']);
 lesson('a1','我的房间','描述熟悉的空间和物品',[['shelf','架子'],['carpet','地毯'],['drawer','抽屉']],['The blue lamp is beside the sofa.','蓝色的灯在沙发旁边。'],['There are two towels in the drawer.','抽屉里有两条毛巾。'],['My keys are under the small table.','我的钥匙在小桌子下面。'],['The books are on the top _____.','shelf','书在最上面的架子上。'],[['shelf','架子'],['corner','角落'],['blanket','毯子']],['课程安排','公交时刻','工作会议','购物折扣']);
-lesson('a1','厨房菜单','买菜、点餐和表达口味',[['ingredient','食材'],['spicy','辣的'],['recipe','食谱']],['I would like the vegetable soup, please.','我想要一份蔬菜汤。'],['This sauce is too spicy for me.','这份酱料对我来说太辣了。'],['We need fresh tomatoes for the recipe.','我们需要新鲜番茄来做这道菜。'],['Where can I find the olive _____?','oil','我在哪里能找到橄榄油？'],[['ingredient','食材'],['menu','菜单'],['order','点单']],['行李标签','房间号码','会议议程','银行账户']);
+lesson('a1','厨房菜单','买菜、点餐和表达口味',[['ingredient','食材'],['spicy','辣的'],['recipe','食谱']],['I would like the vegetable soup, please.','我想要一份蔬菜汤。'],['This sauce is too spicy for me.','这份酱料对我来说太辣了。'],['We need fresh tomatoes for the recipe.','我们需要新鲜番茄来做这道菜。'],['Could you pass me the olive _____, please?','oil','请把橄榄油递给我，好吗？'],[['ingredient','食材'],['menu','菜单'],['order','点单']],['行李标签','房间号码','会议议程','银行账户']);
 lesson('a1','城市方向','在城市里问路和辨认地点',[['crosswalk','人行横道'],['corner','拐角'],['opposite','在对面']],['Is the pharmacy across from the library?','药店在图书馆对面吗？'],['Turn right after the second traffic light.','过第二个红绿灯后右转。'],['The bus stop is around the corner.','公交车站就在拐角处。'],['Please wait at the pedestrian _____.','crosswalk','请在人行横道处等候。'],[['crosswalk','人行横道'],['intersection','十字路口'],['nearby','附近']],['早餐时间','电子邮件','衣服尺码','护照号码']);
 lesson('a1','家人和朋友','谈论关系、性格和周末',[['neighbor','邻居'],['generous','慷慨的'],['invite','邀请']],['My neighbor often shares vegetables from her garden.','我的邻居经常分享她花园里的蔬菜。'],['We invited our cousins for dinner.','我们邀请了表兄弟姐妹来吃晚饭。'],['My brother is learning to cook.','我哥哥正在学做饭。'],['Everyone says that Maya is very _____.','generous','大家都说玛雅非常慷慨。'],[['neighbor','邻居'],['cousin','表兄弟姐妹'],['friendly','友好的']],['地铁线路','考试成绩','咖啡口味','天气警报']);
 lesson('a1','天气变化','描述天气并准备出门',[['forecast','天气预报'],['cloudy','多云的'],['umbrella','雨伞']],['The forecast says it will be sunny this afternoon.','天气预报说今天下午会放晴。'],['Take an umbrella because rain is expected.','预计会下雨，所以带把雨伞。'],['The wind is getting stronger outside.','外面的风越来越大。'],['It is _____ today, so bring a jacket.','cloudy','今天多云，所以带件夹克。'],[['forecast','天气预报'],['storm','暴风雨'],['temperature','温度']],['房租合同','机场登机口','晚餐预约','图书馆卡']);
@@ -239,11 +239,21 @@ addFinalLessons('b2', [
   ['太空政策','讨论轨道、任务和国际合作',[['orbit','轨道'],['mission','任务'],['cooperate','合作']],['The mission will study the lunar surface.','这项任务将研究月球表面。'],['Several countries agreed to cooperate in orbit.','几个国家同意在轨道上合作。'],['Space policy affects scientific research.','太空政策影响科学研究。'],['The satellite entered a stable _____.','orbit','卫星进入稳定轨道。'],[['orbit','轨道'],['mission','任务'],['cooperate','合作']],['能源电网','移民融合','城市密度','网络安全']]
 ]);
 
+// The second authored pack is loaded both by Node tests and by the WebView.
+// Existing lesson IDs remain untouched; these seeds become units 37–72.
+const coursePack2 = typeof module !== 'undefined' && module.exports
+  ? require('./course-pack-2.js')
+  : (typeof window !== 'undefined' && Array.isArray(window.lumiCoursePack2) ? window.lumiCoursePack2 : []);
+seeds.push(...coursePack2);
+const authoredBlocks = typeof module !== 'undefined' && module.exports
+  ? require('../../../../course-data/authored-blocks.json')
+  : (typeof window !== 'undefined' ? (window.lumiAuthoredBlocks || {}) : {});
+
 const levels = [
-  {id:'a1',cefr:'A1',title:'启航基础',subtitle:'基础生存英语 · 从真实日常开始',color:'mint',art:'🌅',difficulty:1,questionCount:6,recommendedFor:['零基础','初中英语']},
-  {id:'a2',cefr:'A2',title:'日常交流',subtitle:'描述生活 · 讲述经历 · 处理实际问题',color:'purple',art:'🌿',difficulty:2,questionCount:6,recommendedFor:['初中英语','高中英语']},
-  {id:'b1',cefr:'B1',title:'独立沟通',subtitle:'旅行、学习和工作中的自然表达',color:'coral',art:'🧭',difficulty:3,questionCount:6,recommendedFor:['高中英语','大学英语']},
-  {id:'b2',cefr:'B2',title:'复杂表达',subtitle:'处理抽象话题 · 工作协作 · 表达观点',color:'purple',art:'✈️',difficulty:4,questionCount:6,recommendedFor:['大学英语四级','大学英语六级','雅思托福']}
+  {id:'a1',cefr:'A1',title:'启航基础',subtitle:'基础生存英语 · 从真实日常开始',color:'mint',art:'🌅',difficulty:1,questionCount:10,recommendedFor:['零基础','初中英语']},
+  {id:'a2',cefr:'A2',title:'日常交流',subtitle:'描述生活 · 讲述经历 · 处理实际问题',color:'purple',art:'🌿',difficulty:2,questionCount:10,recommendedFor:['初中英语','高中英语']},
+  {id:'b1',cefr:'B1',title:'独立沟通',subtitle:'旅行、学习和工作中的自然表达',color:'coral',art:'🧭',difficulty:3,questionCount:10,recommendedFor:['高中英语','大学英语']},
+  {id:'b2',cefr:'B2',title:'复杂表达',subtitle:'处理抽象话题 · 工作协作 · 表达观点',color:'purple',art:'✈️',difficulty:4,questionCount:10,recommendedFor:['大学英语四级','大学英语六级','雅思托福']}
 ];
 // Keep answer choices deterministic and unique.  Some authored seeds reuse a
 // word in the vocabulary and pair lists, so de-duplicate before taking the
@@ -259,7 +269,71 @@ const optionSet = (correct, extras = []) => {
   }
   return choices;
 };
+// Sentence choices should stay in the same situation and grammatical frame.
+// Using nearby authored translations keeps the options plausible instead of
+// exposing the answer through an unrelated topic label.
+const sentenceOptionSet = (correct, seed, extras = []) => optionSet(correct, [
+  ...(Array.isArray(seed.sentencePool) ? seed.sentencePool : []),
+  seed.choice && seed.choice[1],
+  seed.listen && seed.listen[1],
+  seed.order && seed.order[1],
+  ...extras,
+]);
 const fillFallbacks = ['schedule', 'meeting', 'station', 'weather', 'water', 'ticket', 'recipe', 'office', 'message', 'travel'];
+const pairFallbacks = {
+  a1: [['phone','手机'],['table','桌子'],['ticket','票'],['room','房间'],['school','学校'],['water','水'],['food','食物'],['friend','朋友'],['door','门'],['street','街道']],
+  a2: [['appointment','预约'],['receipt','收据'],['schedule','日程'],['customer','顾客'],['address','地址'],['service','服务'],['message','消息'],['change','变化'],['payment','付款'],['plan','计划']],
+  b1: [['proposal','提案'],['evidence','证据'],['deadline','截止日期'],['feedback','反馈'],['source','来源'],['priority','优先事项'],['outcome','结果'],['challenge','挑战'],['benefit','益处'],['approach','方法']],
+  b2: [['accountability','问责'],['regulation','监管'],['hypothesis','假设'],['framework','框架'],['allocation','分配'],['vulnerability','漏洞'],['inequality','不平等'],['interpretation','解释'],['intervention','干预'],['sustainability','可持续性']],
+};
+// Global Chinese-meaning distractor bank for word questions.
+// Replaces the old authored Chinese-phrase distractors (e.g. '周末计划')
+// which were semantically unrelated and trivially eliminable. Each entry
+// is a common word meaning that could plausibly be confused with the target.
+const wordMeaningBank = [
+  '时间','地点','人物','事情','问题','答案','方法','原因','结果','过程',
+  '开始','结束','继续','停止','改变','保持','增加','减少','提高','降低',
+  '重要','困难','容易','简单','复杂','清楚','模糊','正确','错误','真实',
+  '美丽','丑陋','高大','矮小','宽阔','狭窄','温暖','寒冷','干燥','潮湿',
+  '快乐','悲伤','愤怒','害怕','惊讶','平静','紧张','放松','疲惫','精力充沛',
+  '工作','学习','生活','旅行','运动','音乐','电影','书籍','游戏','食物',
+  '家庭','朋友','同事','邻居','老师','学生','医生','病人','顾客','服务员',
+  '早晨','中午','下午','晚上','夜晚','今天','明天','昨天','周末','工作日',
+  '春天','夏天','秋天','冬天','晴天','雨天','雪天','阴天','刮风','打雷',
+  '城市','乡村','学校','医院','商店','餐厅','公园','车站','机场','酒店',
+  '房间','厨房','卧室','浴室','客厅','花园','阳台','车库','地下室','阁楼',
+  '桌子','椅子','床','沙发','书架','柜子','灯','窗户','门','镜子',
+  '手机','电脑','电视','相机','耳机','键盘','鼠标','屏幕','充电器','数据线',
+  '衣服','鞋子','帽子','手套','围巾','包包','雨伞','眼镜','手表','戒指',
+  '苹果','香蕉','橙子','葡萄','西瓜','草莓','面包','米饭','面条','鸡蛋',
+  '牛奶','咖啡','茶','水','果汁','啤酒','葡萄酒','汤','沙拉','甜点',
+  '汽车','公交车','火车','地铁','飞机','自行车','摩托车','出租车','轮船','火箭',
+  '红色','蓝色','绿色','黄色','紫色','橙色','粉色','黑色','白色','灰色',
+  '大的','小的','长的','短的','高的','低的','厚的','薄的','重的','轻的',
+  '快的','慢的','早的','晚的','新的','旧的','好的','坏的','干净的','脏的',
+  '安静的','吵闹的','明亮的','黑暗的','安全的','危险的','有趣的','无聊的','有用的','无用的',
+  '相信','怀疑','希望','担心','同意','反对','决定','犹豫','记得','忘记',
+  '喜欢','讨厌','想要','需要','能够','应该','必须','可以','愿意','拒绝',
+  '说话','倾听','阅读','写作','思考','理解','解释','描述','讨论','争论',
+  '走路','跑步','跳跃','游泳','攀爬','跌倒','站立','坐下','转身','移动',
+  '打开','关闭','拿起','放下','推','拉','扔','接','寻找','找到',
+  '购买','出售','支付','收到','赠送','接受','拒绝','借用','归还','分享',
+  '帮助','支持','鼓励','安慰','保护','攻击','伤害','治疗','康复','预防',
+  '计划','准备','安排','组织','管理','执行','完成','失败','成功','尝试',
+  '研究','实验','分析','比较','总结','证明','发现','发明','创造','设计',
+];
+let _wmbShuffled = null;
+function wordMeaningDistractors(exclude, count) {
+  if (!_wmbShuffled) _wmbShuffled = [...wordMeaningBank].sort(() => Math.random() - 0.5);
+  const excluded = new Set(Array.isArray(exclude) ? exclude : [exclude]);
+  const result = [];
+  for (const item of _wmbShuffled) {
+    if (excluded.has(item)) continue;
+    result.push(item);
+    if (result.length >= count) break;
+  }
+  return result;
+}
 const grammarByLevel = {
   a1: ['present-simple', 'basic-prepositions'],
   a2: ['past-simple', 'future-plans'],
@@ -270,29 +344,849 @@ const skillByKind = {
   word: ['vocabulary', 'reading'], choice: ['reading', 'meaning'], listen: ['listening', 'meaning'],
   order: ['grammar', 'writing'], fill: ['grammar', 'vocabulary'], match: ['vocabulary', 'recall']
 };
+
+// Sentence exercises are built from everyday situations rather than lesson
+// descriptions. Each frame returns one complete English line and its Chinese
+// meaning. The vocabulary word is always used in a grammatical slot that
+// matches its role, so generated items remain useful outside the app.
+const verbVocabulary = new Set([
+  'answer','arrive','borrow','book','check','chop','collect','confirm','coordinate','cook','cross','deliver','download','dry','emphasize','enroll','explain','find','finish','hurry','invite','inspect','investigate','keep','learn','leave','listen','marinate','memorize','measure','observe','open','organize','polish','practice','recommend','reduce','refill','relax','remove','repeat','repair','respond','return','review','save','serve','share','show','simmer','sketch','speak','subscribe','tighten','transfer','use','walk','weigh','withdraw','work','write','adapt','align','analyze','argue','assess','audit','bargain','clarify','comply','delegate','disclose','facilitate','forecast','hedge','implement','improve','mitigate','negotiate','reconcile','restore','scrutinize','settle','synthesize','track','verify','visualize','propose','deploy','monitor','screen','triage','allocate','arbitrate','conserve','cooperate','evacuate','frame','interpret','minimize','restructure','surveil','tokenize','bake','boil','celebrate','commute','cut','garden','host','knit','paint','queue','register','reserve','sign','sweep','teach','tighten','train','upload','wrap','zoom'
+]);
+const adjectiveVocabulary = new Set([
+  'available','blue','bright','cloudy','clear','crowded','dirty','dizzy','flexible','friendly','fresh','generous','helpful','independent','loose','loud','memorable','nearby','noisy','opposite','punctual','quiet','reliable','ripe','round','safe','sensitive','slippery','small','spicy','stable','sustainable','tight','urgent','warm','windy','wrong','lost','medical','regulatory','literal','robust','invasive','bilateral','multilateral','normative','hereditary','differential','constitutional','fiscal','social','civil','quarterly','specific','concise','asynchronous','overbooked','revised','informed','structural','public','digital','monthly','seasonal','local','final','early','late','ready'
+]);
+const abstractAdjectives = new Set([
+  'regulatory','literal','robust','invasive','bilateral','multilateral','normative','hereditary','differential','constitutional','fiscal','social','civil','quarterly','specific','concise','asynchronous','overbooked','revised','informed','structural','public','digital','monthly','seasonal','local','final','independent','reliable','sustainable','urgent','flexible','stable','medical'
+]);
+const personNouns = new Set([
+  'colleague','neighbor','landlord','tenant','customer','agent','coach','teacher','classmate','librarian','doctor','nurse','dentist','vendor','cashier','courier','sender','conductor','guide','mentor','manager','resident','supplier','candidate','stakeholder','partner','leader','host','friend','cousin','volunteer','electrician','receptionist','official','researcher','inspector','director','chair','chairperson','advisor','doctor'
+]);
+const timeNouns = new Set(['shift','deadline','appointment','schedule','timetable','departure','arrival','checkout','reservation','meeting','timesheet','roster','slot','confirmation','consultation']);
+const intransitiveVerbs = new Set([
+  'arrive','commute','cross','hurry','listen','relax','return','walk','work','leave','speak','practice','learn','travel','celebrate','queue','register','train','zoom','cooperate','evacuate','improve','recover','respond','withdraw','adapt','align','argue','comply','negotiate','reconcile','settle','simmer','marinate','boil','bake','cook','dry','tighten','subscribe','enroll','enlist'
+]);
+function vocabularyRole(word) {
+  const value = String(word || '').toLowerCase();
+  if (verbVocabulary.has(value)) return 'verb';
+  if (adjectiveVocabulary.has(value)) return 'adjective';
+  return 'noun';
+}
+function adjectiveChinese(value) { return String(value || '').replace(/的$/, ''); }
+function interpolateFrame(template, word, chinese) {
+  return [template[0].replace(/\{\{w\}\}/g, word), template[1].replace(/\{\{c\}\}/g, chinese)];
+}
+const dialogueFrames = {
+  morning: {
+    noun: [
+      ['Did you see the {{w}} this morning?', '你今天早上看到{{c}}了吗？'],
+      ['Have you finished the {{w}} yet?', '你已经完成{{c}}了吗？'],
+      ['Where did I put the {{w}}?', '我把{{c}}放在哪里了？'],
+      ['I need the {{w}} before I leave.', '我离开前需要{{c}}。'],
+    ],
+    verb: [
+      ['Do we need to {{w}} now?', '我们现在需要{{c}}吗？'],
+      ['I will {{w}} after breakfast.', '我吃完早餐后会{{c}}。'],
+      ['Could you remind me to {{w}}?', '你能提醒我{{c}}吗？'],
+      ['Please help me {{w}} before work.', '上班前请帮我{{c}}。'],
+    ],
+    adjective: [
+      ['Does the morning feel {{w}} today?', '今天早晨感觉{{c}}吗？'],
+      ['The street is still {{w}}.', '街道仍然很{{c}}。'],
+      ['Is the weather {{w}} enough for a walk?', '天气够{{c}}，适合散步吗？'],
+      ['I hope the day stays {{w}}.', '我希望今天一直保持{{c}}。'],
+    ],
+  },
+  hotel: {
+    noun: [
+      ['Could I check the {{w}} before I go upstairs?', '我上楼前可以确认一下{{c}}吗？'],
+      ['What time is the {{w}}?', '{{c}}是几点？'],
+      ['Does the hotel have a {{w}}?', '酒店有{{c}}吗？'],
+      ['Could you send the {{w}} to my room?', '你能把{{c}}送到我的房间吗？'],
+    ],
+    verb: [
+      ['Could you {{w}} my room for tomorrow?', '你能为我{{c}}明天的房间吗？'],
+      ['When should I {{w}} at the front desk?', '我应该什么时候在前台{{c}}？'],
+      ['Can I {{w}} before breakfast?', '我可以在早餐前{{c}}吗？'],
+      ['Please tell me how to {{w}} online.', '请告诉我怎样在线{{c}}。'],
+    ],
+    adjective: [
+      ['Is the room {{w}} enough for two people?', '房间对两个人来说够{{c}}吗？'],
+      ['The lobby is very {{w}} tonight.', '大厅今晚非常{{c}}。'],
+      ['Could I have a more {{w}} room?', '我可以要一个更{{c}}的房间吗？'],
+      ['The bed feels {{w}} and clean.', '床感觉很{{c}}，也很干净。'],
+    ],
+  },
+  weather: {
+    noun: [
+      ['Did you hear the {{w}} last night?', '你昨晚听到{{c}}了吗？'],
+      ['The forecast mentioned {{w}} this morning.', '天气预报今天早上提到了{{c}}。'],
+      ['Can you see the {{w}} from the window?', '你能从窗户看到{{c}}吗？'],
+      ['We brought a coat because of the {{w}}.', '我们因为{{c}}带了外套。'],
+    ],
+    verb: [
+      ['Will it {{w}} again tonight?', '今晚还会{{c}}吗？'],
+      ['The gardener will {{w}} before noon.', '园丁会在中午前{{c}}。'],
+      ['Could you help me {{w}} these plants?', '你能帮我{{c}}这些植物吗？'],
+      ['We should {{w}} before the rain starts.', '下雨前我们应该{{c}}。'],
+    ],
+    adjective: [
+      ['It is very {{w}} outside today.', '今天外面非常{{c}}。'],
+      ['The beach looks {{w}} this morning.', '海滩今天早上看起来很{{c}}。'],
+      ['Is it too {{w}} for a picnic?', '天气是不是太{{c}}，不适合野餐？'],
+      ['The air feels {{w}} after the rain.', '下雨后空气感觉很{{c}}。'],
+    ],
+  },
+  food: {
+    noun: [
+      ['Could you check the {{w}} before we start cooking?', '开始做饭前请检查一下{{c}}，好吗？'],
+      ['Do we have enough {{w}} for dinner?', '晚饭的{{c}}够用吗？'],
+      ['Where did you put the {{w}}?', '你把{{c}}放在哪里了？'],
+      ['Could I order the {{w}}, please?', '我可以点{{c}}吗？'],
+    ],
+    verb: [
+      ['Could you show me how to {{w}} this?', '你能告诉我怎么{{c}}这个吗？'],
+      ['Please {{w}} the vegetables before dinner.', '晚饭前请{{c}}蔬菜。'],
+      ['When should we {{w}} the dish?', '我们应该什么时候{{c}}这道菜？'],
+      ['I can {{w}} the food while you set the table.', '你摆桌子时我可以{{c}}食物。'],
+    ],
+    adjective: [
+      ['Is the soup too {{w}}?', '汤是不是太{{c}}？'],
+      ['The sauce is not {{w}} enough for me.', '这个酱料对我来说不够{{c}}。'],
+      ['Could we make the dish less {{w}}?', '我们能让这道菜不要那么{{c}}吗？'],
+      ['This looks {{w}} and fresh.', '这个看起来很{{c}}，也很新鲜。'],
+    ],
+  },
+  travel: {
+    noun: [
+      ['Where can I find the {{w}}?', '我在哪里可以找到{{c}}？'],
+      ['Could you show me the {{w}} on this map?', '你能在地图上给我指出{{c}}吗？'],
+      ['Is the {{w}} included in the booking?', '预订里包含{{c}}吗？'],
+      ['I need the {{w}} before we leave.', '我们出发前需要{{c}}。'],
+    ],
+    verb: [
+      ['Could you help me {{w}} this booking?', '你能帮我{{c}}这个预订吗？'],
+      ['What should I do before I {{w}}?', '我在{{c}}之前应该做什么？'],
+      ['Can we {{w}} after the next stop?', '我们可以在下一站之后{{c}}吗？'],
+      ['Please remind me to {{w}} on time.', '请提醒我按时{{c}}。'],
+    ],
+    adjective: [
+      ['Is the route {{w}} enough for children?', '这条路线对孩子来说够{{c}}吗？'],
+      ['The station is very {{w}} today.', '车站今天非常{{c}}。'],
+      ['Could we choose a less {{w}} flight?', '我们能选一个不那么{{c}}的航班吗？'],
+      ['The hotel room is {{w}} and clean.', '酒店房间很{{c}}，也很干净。'],
+    ],
+  },
+  work: {
+    noun: [
+      ['Could you send me the {{w}} before the meeting?', '你能在会议前把{{c}}发给我吗？'],
+      ['Let us review the {{w}} together this afternoon.', '我们今天下午一起看看{{c}}吧。'],
+      ['Where should I save the {{w}}?', '我应该把{{c}}保存在哪里？'],
+      ['We need the {{w}} before we make a decision.', '我们做决定前需要{{c}}。'],
+    ],
+    verb: [
+      ['Could you {{w}} this before lunch?', '你能在午饭前{{c}}这个吗？'],
+      ['I will {{w}} after the call.', '通话后我会{{c}}。'],
+      ['How should we {{w}} this problem?', '我们应该怎样{{c}}这个问题？'],
+      ['Let us {{w}} before the meeting.', '我们开会前{{c}}吧。'],
+    ],
+    adjective: [
+      ['Does this plan sound {{w}} enough for the client?', '这个计划对客户来说听起来够{{c}}吗？'],
+      ['We need a more {{w}} solution.', '我们需要一个更{{c}}的方案。'],
+      ['The schedule is {{w}} this week.', '这周的日程很{{c}}。'],
+      ['Could you make the message less {{w}}?', '你能让这条消息不要那么{{c}}吗？'],
+    ],
+  },
+  health: {
+    noun: [
+      ['I need help with my {{w}}.', '我需要处理我的{{c}}。'],
+      ['I want to ask the doctor about my {{w}}.', '我想问医生我的{{c}}。'],
+      ['The nurse wrote down my {{w}}.', '护士记下了我的{{c}}。'],
+      ['How long should I watch this {{w}}?', '我应该观察这个{{c}}多久？'],
+    ],
+    verb: [
+      ['Should I {{w}} after lunch?', '我应该在午饭后{{c}}吗？'],
+      ['The doctor showed me how to {{w}} safely.', '医生教我如何安全地{{c}}。'],
+      ['I will {{w}} more slowly this week.', '这周我会更慢地{{c}}。'],
+      ['When can I {{w}} again?', '我什么时候可以再次{{c}}？'],
+    ],
+    adjective: [
+      ['I feel {{w}} today.', '我今天感觉{{c}}。'],
+      ['Is the pain still {{w}}?', '疼痛还{{c}}吗？'],
+      ['The doctor said the result looks {{w}}.', '医生说结果看起来{{c}}。'],
+      ['Please tell me if the medicine feels too {{w}}.', '如果药物感觉太{{c}}，请告诉我。'],
+    ],
+  },
+  shopping: {
+    noun: [
+      ['Do you have the {{w}} in stock?', '你们有现货的{{c}}吗？'],
+      ['Could I see the {{w}} in another color?', '我可以看看另一种颜色的{{c}}吗？'],
+      ['I need a receipt for this {{w}}.', '我需要这件{{c}}的收据。'],
+      ['Can I pay for the {{w}} by card?', '我可以用卡支付{{c}}吗？'],
+    ],
+    verb: [
+      ['Could you {{w}} this item for me?', '你能帮我{{c}}这件商品吗？'],
+      ['I would like to {{w}} this order.', '我想{{c}}这个订单。'],
+      ['Can I {{w}} it if the size is wrong?', '如果尺码不对，我可以{{c}}它吗？'],
+      ['Please let me know how to {{w}} it.', '请告诉我怎样{{c}}它。'],
+    ],
+    adjective: [
+      ['Is this shirt {{w}} enough for winter?', '这件衬衫冬天穿够{{c}}吗？'],
+      ['The box is too {{w}} to carry.', '这个盒子太{{c}}，拿不动。'],
+      ['I am looking for something more {{w}}.', '我在找更{{c}}的东西。'],
+      ['Does this color look {{w}} on me?', '这个颜色穿在我身上看起来{{c}}吗？'],
+    ],
+  },
+  home: {
+    noun: [
+      ['Could you put the {{w}} by the door?', '请把{{c}}放在门边，好吗？'],
+      ['Where did you leave the {{w}}?', '你把{{c}}放在哪里了？'],
+      ['We need a new {{w}} for the room.', '我们需要给房间买一个新的{{c}}。'],
+      ['The {{w}} is ready to use.', '{{c}}已经可以使用了。'],
+    ],
+    verb: [
+      ['Can you {{w}} the room before dinner?', '你能在晚饭前{{c}}房间吗？'],
+      ['I will {{w}} this after the children leave.', '孩子们离开后我会{{c}}这个。'],
+      ['Please remember to {{w}} it tonight.', '请记得今晚{{c}}它。'],
+      ['How often do we need to {{w}} this?', '我们需要多久{{c}}一次这个？'],
+    ],
+    adjective: [
+      ['The room feels too {{w}} today.', '这个房间今天感觉太{{c}}。'],
+      ['Is the floor {{w}} enough to walk on?', '这个地板走起来够{{c}}吗？'],
+      ['The new chair is really {{w}}.', '这把新椅子真的很{{c}}。'],
+      ['Could we make the room less {{w}}?', '我们能让房间不要那么{{c}}吗？'],
+    ],
+  },
+  school: {
+    noun: [
+      ['Could I borrow the {{w}}, please?', '我可以借用{{c}}吗？'],
+      ['Where should I put the {{w}}?', '我应该把{{c}}放在哪里？'],
+      ['The teacher asked us to bring the {{w}}.', '老师让我们带上{{c}}。'],
+      ['Do you have an extra {{w}}?', '你还有多余的{{c}}吗？'],
+    ],
+    verb: [
+      ['Could you {{w}} that sentence again?', '你能再{{c}}一遍那句话吗？'],
+      ['We will {{w}} this exercise together.', '我们一起{{c}}这道练习。'],
+      ['Please {{w}} the answer in your notebook.', '请在笔记本里{{c}}答案。'],
+      ['I need more time to {{w}} this.', '我需要更多时间来{{c}}这个。'],
+    ],
+    adjective: [
+      ['Is this example {{w}} enough?', '这个例子够{{c}}吗？'],
+      ['The classroom is too {{w}} to study.', '教室太{{c}}，不适合学习。'],
+      ['That was a very {{w}} explanation.', '那是一个非常{{c}}的解释。'],
+      ['Could you make the instructions less {{w}}?', '你能让说明不要那么{{c}}吗？'],
+    ],
+  },
+  social: {
+    noun: [
+      ['Are you bringing the {{w}} tonight?', '你今晚会带{{c}}吗？'],
+      ['Could you tell me about the {{w}}?', '你能告诉我关于{{c}}的事吗？'],
+      ['We need the {{w}} before our guests arrive.', '客人到达前我们需要{{c}}。'],
+      ['Who is in charge of the {{w}}?', '谁负责{{c}}？'],
+    ],
+    verb: [
+      ['Would you like to {{w}} with us?', '你想和我们一起{{c}}吗？'],
+      ['Can we {{w}} after dinner?', '我们晚饭后可以{{c}}吗？'],
+      ['I promised to {{w}} this weekend.', '我答应这个周末{{c}}。'],
+      ['Please call me before you {{w}}.', '你{{c}}之前请给我打电话。'],
+    ],
+    adjective: [
+      ['That sounds really {{w}}.', '听起来真的很{{c}}。'],
+      ['Was the party {{w}} for everyone?', '聚会对大家来说{{c}}吗？'],
+      ['I hope the timing is {{w}} for you.', '我希望这个时间对你来说{{c}}。'],
+      ['The host was very {{w}}.', '主人非常{{c}}。'],
+    ],
+  },
+  technology: {
+    noun: [
+      ['Where can I find the {{w}} setting?', '我在哪里可以找到{{c}}设置？'],
+      ['The app needs access to the {{w}}.', '这个应用需要访问{{c}}。'],
+      ['Could you check the {{w}} for me?', '你能帮我检查一下{{c}}吗？'],
+      ['I saved the file in the {{w}} folder.', '我把文件保存在{{c}}文件夹里。'],
+    ],
+    verb: [
+      ['Could you {{w}} the file again?', '你能再次{{c}}这个文件吗？'],
+      ['I will {{w}} the update tonight.', '我今晚会{{c}}这个更新。'],
+      ['Please show me how to {{w}} it.', '请告诉我怎样{{c}}它。'],
+      ['Can the app {{w}} this automatically?', '这个应用可以自动{{c}}这个吗？'],
+    ],
+    adjective: [
+      ['Is the connection {{w}} enough for a call?', '这个连接打电话够{{c}}吗？'],
+      ['The new interface looks {{w}}.', '新的界面看起来很{{c}}。'],
+      ['We need a more {{w}} setting.', '我们需要一个更{{c}}的设置。'],
+      ['The file is too {{w}} to send.', '这个文件太{{c}}，发不出去。'],
+    ],
+  },
+  professional: {
+    noun: [
+      ['Could you explain how the {{w}} affects this decision?', '你能解释一下{{c}}如何影响这个决定吗？'],
+      ['We need evidence before we discuss the {{w}}.', '我们讨论{{c}}之前需要证据。'],
+      ['The report gives a clear example of {{w}}.', '报告清楚地展示了{{c}}的例子。'],
+      ['Who is responsible for reviewing the {{w}}?', '谁负责审查{{c}}？'],
+    ],
+    verb: [
+      ['How should we {{w}} this problem?', '我们应该怎样{{c}}这个问题？'],
+      ['The team agreed to {{w}} the proposal.', '团队同意{{c}}这个提案。'],
+      ['Could you {{w}} the result before Friday?', '你能在周五前{{c}}这个结果吗？'],
+      ['We need to {{w}} before the policy changes.', '政策变化前我们需要{{c}}。'],
+    ],
+    adjective: [
+      ['Is this approach {{w}} enough for the project?', '这个方法对项目来说够{{c}}吗？'],
+      ['The evidence is still too {{w}} to support that claim.', '证据仍然太{{c}}，无法支持那个说法。'],
+      ['We need a more {{w}} explanation.', '我们需要一个更{{c}}的解释。'],
+      ['The final result looks {{w}} so far.', '目前最终结果看起来很{{c}}。'],
+    ],
+  },
+};
+const safeNounFrames = {
+  morning: [
+    ['Did you see the {{w}} this morning?', '你今天早上看到{{c}}了吗？'],
+    ['Have you finished the {{w}} yet?', '你已经完成{{c}}了吗？'],
+    ['Where did I put the {{w}}?', '我把{{c}}放在哪里了？'],
+    ['I need the {{w}} before I leave.', '我离开前需要{{c}}。'],
+  ],
+  hotel: [
+    ['Where is the {{w}}?', '{{c}}在哪里？'],
+    ['Could you check my {{w}}, please?', '请帮我检查一下我的{{c}}，好吗？'],
+    ['What time is the {{w}}?', '{{c}}是几点？'],
+    ['Do I need the {{w}} at the front desk?', '我在前台需要{{c}}吗？'],
+  ],
+  food: [
+    ['Could you check the {{w}} before we start?', '开始前请检查一下{{c}}，好吗？'],
+    ['Where did you put the {{w}}?', '你把{{c}}放在哪里了？'],
+    ['Do we need the {{w}} for dinner?', '晚饭需要{{c}}吗？'],
+    ['Could I order the {{w}}, please?', '我可以点{{c}}吗？'],
+  ],
+  health: [
+    ['Could you explain the {{w}} to me?', '你能给我解释一下{{c}}吗？'],
+    ['Should I mention the {{w}} to the doctor?', '我应该把{{c}}告诉医生吗？'],
+    ['How long will the {{w}} last?', '{{c}}会持续多久？'],
+    ['I need help with my {{w}}.', '我需要处理我的{{c}}。'],
+  ],
+  shopping: [
+    ['Could I see the {{w}}, please?', '我可以看看{{c}}吗？'],
+    ['Do you have the {{w}} in stock?', '你们有现货的{{c}}吗？'],
+    ['Can I return the {{w}}?', '我可以退{{c}}吗？'],
+    ['How much is the {{w}}?', '{{c}}多少钱？'],
+  ],
+  work: [
+    ['Could you send me the {{w}} before the meeting?', '你能在会议前把{{c}}发给我吗？'],
+    ['Where should I save the {{w}}?', '我应该把{{c}}保存在哪里？'],
+    ['Could you check the {{w}} before we decide?', '决定前你能检查一下{{c}}吗？'],
+    ['Who is reviewing the {{w}}?', '谁在审查{{c}}？'],
+  ],
+  technology: [
+    ['Where can I find the {{w}} setting?', '我在哪里可以找到{{c}}设置？'],
+    ['Can the app access the {{w}}?', '这个应用可以访问{{c}}吗？'],
+    ['Could you check the {{w}} for me?', '你能帮我检查一下{{c}}吗？'],
+    ['I need the {{w}} to finish this task.', '我需要{{c}}来完成这个任务。'],
+  ],
+  school: [
+    ['Could I borrow the {{w}}, please?', '我可以借用{{c}}吗？'],
+    ['Where is the {{w}}?', '{{c}}在哪里？'],
+    ['Please bring the {{w}} to class.', '请把{{c}}带到课堂上。'],
+    ['I forgot my {{w}} at home.', '我把我的{{c}}忘在家里了。'],
+  ],
+  social: [
+    ['Are you bringing the {{w}} tonight?', '你今晚会带{{c}}吗？'],
+    ['Who is handling the {{w}}?', '谁负责{{c}}？'],
+    ['Do we need the {{w}} for the party?', '聚会需要{{c}}吗？'],
+    ['Could you tell me about the {{w}}?', '你能告诉我关于{{c}}的事吗？'],
+  ],
+  professional: [
+    ['Could you explain the {{w}} in this report?', '你能解释一下报告中的{{c}}吗？'],
+    ['How does the {{w}} affect this decision?', '{{c}}如何影响这个决定？'],
+    ['Who is responsible for reviewing the {{w}}?', '谁负责审查{{c}}？'],
+    ['We need evidence before discussing the {{w}}.', '讨论{{c}}之前我们需要证据。'],
+  ],
+  travel: [
+    ['Where can I find the {{w}}?', '我在哪里可以找到{{c}}？'],
+    ['Do I need the {{w}} for this trip?', '这次旅行需要{{c}}吗？'],
+    ['Could you show me the {{w}}?', '你能给我看看{{c}}吗？'],
+    ['Is the {{w}} ready?', '{{c}}准备好了吗？'],
+  ],
+  weather: [
+    ['Did you hear the {{w}} last night?', '你昨晚听到{{c}}了吗？'],
+    ['Can you see the {{w}} from the window?', '你能从窗户看到{{c}}吗？'],
+    ['We brought a coat because of the {{w}}.', '我们因为{{c}}带了外套。'],
+    ['The forecast mentioned {{w}} this morning.', '天气预报今天早上提到了{{c}}。'],
+  ],
+};
+const specialWordFrames = {
+  routine: [['What is your morning {{w}}?', '你的早晨{{c}}是什么？'], ['I follow the same {{w}} on weekdays.', '我工作日遵循同样的{{c}}。'], ['My {{w}} changes when I travel.', '我旅行时{{c}}会改变。'], ['Could we compare our morning {{w}}?', '我们可以比较一下各自的早晨{{c}}吗？']],
+  sentence: [['Could you repeat that {{w}}, please?', '你能重复一下那句话吗？'], ['I wrote the last {{w}} in my notes.', '我把上一句话写在笔记里了。'], ['That {{w}} was hard to hear.', '那句话很难听清。'], ['Please read the {{w}} one more time.', '请再读一遍那句话。']],
+  borrow: [['Could I {{w}} your pen for a minute?', '我可以借用你的笔一分钟吗？'], ['May I {{w}} your charger until lunch?', '我可以借用你的充电器到午餐时间吗？'], ['I need to {{w}} a book from the library.', '我需要从图书馆借一本书。'], ['Who can I {{w}} a bike from?', '我可以向谁借自行车？']],
+  carbon: [['How much {{w}} does this trip produce?', '这次旅行会产生多少碳排放？'], ['We are tracking the {{w}} from our flights.', '我们正在记录航班产生的碳排放。'], ['Taking the train can reduce our {{w}}.', '坐火车可以减少我们的碳排放。'], ['The report compares the {{w}} of each route.', '报告比较了每条路线的碳排放。']],
+  leverage: [['What {{w}} do we have in this negotiation?', '我们在这次谈判中有什么筹码？'], ['The team used its {{w}} to secure a better deal.', '团队利用自己的筹码争取到了更好的交易。'], ['We need more {{w}} before making an offer.', '提出报价前我们需要更多筹码。'], ['Her experience gives her strong {{w}}.', '她的经验给了她很强的谈判筹码。']],
+  contingency: [['Do we have a {{w}} if the server fails?', '如果服务器出故障，我们有应急计划吗？'], ['Please review the {{w}} before the launch.', '请在上线前检查应急计划。'], ['The {{w}} covers a delay in delivery.', '应急计划涵盖了交付延迟。'], ['We should update our {{w}} every quarter.', '我们应该每季度更新应急计划。']],
+  vulnerability: [['The security team found a {{w}} in the app.', '安全团队发现应用中存在一个漏洞。'], ['We patched the {{w}} before releasing the update.', '我们在发布更新前修复了漏洞。'], ['Please report any {{w}} you notice.', '请报告你发现的任何漏洞。'], ['This scan helps us detect a {{w}} early.', '这次扫描帮助我们及早发现漏洞。']],
+  milestone: [['We reached an important {{w}} this week.', '我们本周达成了一个重要里程碑。'], ['The next {{w}} is the pilot launch.', '下一个里程碑是试点上线。'], ['Who owns the next project {{w}}?', '谁负责下一个项目里程碑？'], ['The team celebrated the {{w}} together.', '团队一起庆祝了这个里程碑。']],
+  ingredient: [
+    ['Do we have the {{w}} we need for dinner?', '晚饭需要的{{c}}都有吗？'],
+    ['Could you check the {{w}} before we start cooking?', '开始做饭前请检查一下{{c}}，好吗？'],
+    ['Where did you put the {{w}}?', '你把{{c}}放在哪里了？'],
+    ['This recipe needs one more {{w}}.', '这份食谱还需要一种{{c}}。'],
+  ],
+  recipe: [
+    ['Could you pass me the {{w}}, please?', '请把{{c}}递给我，好吗？'],
+    ['Could you check the {{w}} for this dish?', '你能检查一下这道菜的{{c}}吗？'],
+    ['Could you send me a simple {{w}}?', '你能把一份简单的{{c}}发给我吗？'],
+    ['Could we follow the {{w}} step by step?', '我们可以一步一步照着{{c}}做吗？'],
+  ],
+  pastry: [
+    ['Could I have a {{w}}, please?', '请给我一份{{c}}，好吗？'],
+    ['Which {{w}} is fresh today?', '今天哪种{{c}}是新鲜的？'],
+    ['I will bring a {{w}} for the meeting.', '我会带一份{{c}}去开会。'],
+    ['The {{w}} goes well with coffee.', '{{c}}和咖啡很搭。'],
+  ],
+  seasoning: [
+    ['Could you add a little {{w}} to the soup?', '你能在汤里加一点{{c}}吗？'],
+    ['The recipe needs more {{w}}.', '这份食谱还需要更多{{c}}。'],
+    ['Please pass me the {{w}}.', '请把{{c}}递给我。'],
+    ['Taste the soup before adding {{w}}.', '加{{c}}前先尝尝汤。'],
+  ],
+  simmer: [
+    ['Let the soup {{w}} for ten minutes.', '让汤{{c}}十分钟。'],
+    ['The recipe says to {{w}} the sauce.', '食谱说要让酱汁{{c}}。'],
+    ['How long should we {{w}} it?', '我们应该让它{{c}}多久？'],
+    ['Please {{w}} the soup on low heat.', '请用小火让汤{{c}}。'],
+  ],
+  marinate: [
+    ['How long should we {{w}} the chicken?', '我们应该把鸡肉{{c}}多久？'],
+    ['Please {{w}} the vegetables overnight.', '请把蔬菜{{c}}一晚。'],
+    ['I will {{w}} the tofu before dinner.', '晚饭前我会把豆腐{{c}}。'],
+    ['The chef showed us how to {{w}} the meat.', '厨师教我们怎样把肉{{c}}。'],
+  ],
+  sunrise: [
+    ['What time did the {{w}} appear this morning?', '今天早上{{c}}是几点出现的？'],
+    ['The {{w}} was beautiful today.', '今天的{{c}}很美。'],
+    ['We stopped to watch the {{w}}.', '我们停下来观看{{c}}。'],
+    ['Could you take a photo of the {{w}}?', '你能拍一张{{c}}的照片吗？'],
+  ],
+  hurry: [
+    ['Do we need to {{w}} now?', '我们现在需要快点吗？'],
+    ['Please do not {{w}}; we still have time.', '请不要急，我们还有时间。'],
+    ['Why are you in such a hurry?', '你为什么这么匆忙？'],
+    ['We should {{w}} or we will miss the bus.', '我们应该快点，否则会错过公交车。'],
+  ],
+  oven: [
+    ['Could you check the {{w}} before we bake?', '烘烤前请检查一下{{c}}，好吗？'],
+    ['The {{w}} is still hot.', '{{c}}还很热。'],
+    ['Please turn off the {{w}} after dinner.', '晚饭后请关掉{{c}}。'],
+    ['Is the {{w}} ready for the bread?', '{{c}}可以烤面包了吗？'],
+  ],
+  slice: [
+    ['Could I have a {{w}} of cake, please?', '请给我一{{c}}蛋糕，好吗？'],
+    ['Please put one {{w}} on each plate.', '请在每个盘子上放一{{c}}。'],
+    ['How thick should each {{w}} be?', '每一{{c}}应该切多厚？'],
+    ['I will cut another {{w}} for you.', '我再给你切一{{c}}。'],
+  ],
+  counter: [
+    ['Please order your drink at the {{w}}.', '请在{{c}}点饮料。'],
+    ['I will wait by the {{w}}.', '我会在{{c}}旁边等。'],
+    ['The cups are next to the {{w}}.', '杯子在{{c}}旁边。'],
+    ['Could you wipe the {{w}}?', '你能擦一下{{c}}吗？'],
+  ],
+  refill: [
+    ['Could I have a {{w}}, please?', '请给我续一杯，好吗？'],
+    ['Would you like a {{w}} for your coffee?', '你的咖啡需要续杯吗？'],
+    ['The waiter offered us a {{w}}.', '服务员问我们要不要续杯。'],
+    ['Please ask for a {{w}} when your cup is empty.', '杯子空了以后请要求续杯。'],
+  ],
+  reception: [
+    ['Where is the {{w}} desk?', '{{c}}在哪里？'],
+    ['Could you call the {{w}} for me?', '你能帮我联系{{c}}吗？'],
+    ['I left my key at the {{w}}.', '我把房卡落在{{c}}了。'],
+    ['The {{w}} is open all night.', '{{c}}整晚都有人。'],
+  ],
+  checkout: [
+    ['What time is {{w}}?', '{{c}}是几点？'],
+    ['Can I request a late {{w}}?', '我可以申请晚一点{{c}}吗？'],
+    ['We need to finish {{w}} before noon.', '我们需要在中午前完成{{c}}。'],
+    ['The hotel reminded us about {{w}}.', '酒店提醒了我们{{c}}的时间。'],
+  ],
+  vacancy: [
+    ['Do you have a {{w}} tonight?', '你们今晚有{{c}}吗？'],
+    ['Could you check for a {{w}}?', '你能帮我查一下有没有{{c}}吗？'],
+    ['The receptionist said there was no {{w}}.', '前台说没有{{c}}。'],
+    ['We found a {{w}} near the station.', '我们在车站附近找到了一间{{c}}。'],
+  ],
+  reservation: [
+    ['Could you confirm my {{w}}?', '你能确认一下我的{{c}}吗？'],
+    ['I made a {{w}} for two people.', '我预订了一个两人位。'],
+    ['What name is the {{w}} under?', '这个{{c}}登记的是谁的名字？'],
+    ['We need to change the time of our {{w}}.', '我们需要更改{{c}}的时间。'],
+  ],
+  appetizer: [
+    ['Could we order an {{w}} to share?', '我们可以点一份{{c}}一起吃吗？'],
+    ['Which {{w}} do you recommend?', '你推荐哪种{{c}}？'],
+    ['The {{w}} arrived before the main course.', '{{c}}在主菜前上来了。'],
+    ['Would you like an {{w}}?', '你想要一份{{c}}吗？'],
+  ],
+  cuisine: [
+    ['What kind of {{w}} would you like?', '你想吃哪种{{c}}？'],
+    ['This restaurant serves local {{w}}.', '这家餐厅提供当地{{c}}。'],
+    ['I would like to try the regional {{w}}.', '我想试试当地的{{c}}。'],
+    ['Which {{w}} is popular here?', '这里哪种{{c}}最受欢迎？'],
+  ],
+  dosage: [
+    ['How often should I take this {{w}}?', '这个{{c}}应该多久服用一次？'],
+    ['The label explains the correct {{w}}.', '标签说明了正确的{{c}}。'],
+    ['Please do not change the {{w}} yourself.', '请不要自行改变{{c}}。'],
+    ['I asked the doctor about my {{w}}.', '我问了医生关于{{c}}的问题。'],
+  ],
+  recovery: [
+    ['How is your {{w}} going?', '你的{{c}}进展怎么样？'],
+    ['Rest is important during {{w}}.', '{{c}}期间休息很重要。'],
+    ['The doctor said my {{w}} would take time.', '医生说我的{{c}}需要时间。'],
+    ['I am feeling stronger during my {{w}}.', '我的{{c}}期间我感觉更有力气了。'],
+  ],
+  allergy: [
+    ['Please tell the chef about my {{w}}.', '请告诉厨师我的{{c}}。'],
+    ['The form asks whether I have an {{w}}.', '表格询问我是否有{{c}}。'],
+    ['This dish is safe for people with an {{w}}.', '这道菜适合有{{c}}的人。'],
+    ['I carry medicine for my {{w}}.', '我带着治疗{{c}}的药。'],
+  ],
+  phishing: [
+    ['Could you check this email for {{w}}?', '你能检查一下这封邮件有没有{{c}}吗？'],
+    ['The training explains how to spot {{w}}.', '培训说明了如何识别{{c}}。'],
+    ['Never share your password because of {{w}}.', '不要因为{{c}}泄露密码。'],
+    ['The message looked like {{w}}.', '这条消息看起来像{{c}}。'],
+  ],
+  scam: [
+    ['Does this message look like a {{w}}?', '这条消息看起来像骗局吗？'],
+    ['Please report the {{w}} to customer service.', '请把这个{{c}}报告给客服。'],
+    ['My friend warned me about a {{w}}.', '朋友提醒我要小心一个{{c}}。'],
+    ['We checked the offer and found a {{w}}.', '我们检查了这个报价，发现这是一个{{c}}。'],
+  ],
+  username: [
+    ['What is your {{w}} for this account?', '这个账户的{{c}}是什么？'],
+    ['Please enter your {{w}} to continue.', '请输入你的{{c}}以继续。'],
+    ['I forgot my {{w}} again.', '我又忘记我的{{c}}了。'],
+    ['The app asked me to create a {{w}}.', '应用让我创建一个{{c}}。'],
+  ],
+};
+function scenarioFamily(seed) {
+  const topic = `${seed.title || ''} ${seed.subtitle || ''}`;
+  if (/晨间|早晨|起床|日出|天气声音|日程与习惯|闹钟|清单/.test(topic)) return 'morning';
+  if (/酒店|入住|退房|房卡|客房/.test(topic)) return 'hotel';
+  if (/天气|海边|花园|露营|天气声音|花朵|种子/.test(topic)) return 'weather';
+  if (/厨房|烹饪|餐厅|咖啡|食材|面包|菜市场|晚餐|午餐/.test(topic)) return 'food';
+  if (/旅行|车站|酒店|机场|公交|地铁|行程|出行|邮寄|公园|海边|露营/.test(topic)) return 'travel';
+  if (/办公室|工作|会议|团队|项目|邮件|工资|职业|招聘|财务|市场|招聘|报告|谈判|招聘|库存|供应|网络|软件|数据|产品|客户|项目|组织/.test(topic)) return 'work';
+  if (/医生|健康|诊所|药|运动|症状|筛查|流行病|临床|医疗/.test(topic)) return 'health';
+  if (/购物|商店|退换|银行|市场|收银|价格|消费|金融|保险|税|账单/.test(topic)) return 'shopping';
+  if (/学校|课堂|图书馆|课程|学习|教育|考试|研究|实验|论文|语料|哲学/.test(topic)) return 'school';
+  if (/手机|电脑|数字|在线|网络|数据|凭证|隐私|防御|AI|人工智能|模型|系统|遥测/.test(topic)) return 'technology';
+  if (/家|房|房间|卧室|浴室|清洁|园|宠物|安全|邻里/.test(topic)) return 'home';
+  if (/朋友|社交|聚会|生日|家庭|节日|文化|礼仪|社区|公民|社会|迁移/.test(topic)) return 'social';
+  if (/环境|气候|生态|流域|能源|太空|生物|自然/.test(topic)) return 'professional';
+  return seed.level === 'a1' || seed.level === 'a2' ? 'social' : 'professional';
+}
+function scenarioLine(family, word, chinese, variant) {
+  const usageChinese = {
+    hurry: '快点', slice: String(chinese || '').replace(/^一/, ''),
+    refill: '续杯', simmer: '炖煮', marinate: '腌制', explain: '解释',
+    recommend: '推荐', borrow: '借用', repeat: '重复', check: '检查',
+  }[word] || chinese;
+  if (specialWordFrames[word]) return interpolateFrame(specialWordFrames[word][variant % specialWordFrames[word].length], word, usageChinese);
+  const role = vocabularyRole(word);
+  // A generated sentence must remain usable even when the target word is an
+  // abstract noun or a verb with no obvious object. These compact frames are
+  // deliberately neutral; the authored seed sentence is preferred below when
+  // one is available, and these are used for natural paraphrases and pack 2.
+  const neutralFrames = {
+    noun: [
+      ['Could you tell me more about {{w}}?', '你能再告诉我一些关于{{c}}的事吗？'],
+      ['Where can I find {{w}}?', '我在哪里可以找到{{c}}？'],
+      ['I saw {{w}} in the message.', '我在消息里看到了{{c}}。'],
+      ['We need to discuss {{w}} today.', '我们今天需要讨论{{c}}。'],
+    ],
+    verb: intransitiveVerbs.has(String(word || '').toLowerCase()) ? [
+      ['When will you {{w}}?', '你什么时候会{{c}}？'],
+      ['I usually {{w}} before work.', '我通常在上班前{{c}}。'],
+      ['Please {{w}} carefully.', '请仔细地{{c}}。'],
+      ['We can {{w}} after lunch.', '我们可以午饭后{{c}}。'],
+    ] : [
+      ['Could you {{w}} this before lunch?', '你能在午饭前{{c}}这个吗？'],
+      ['I will {{w}} it after the meeting.', '我会在会议后{{c}}它。'],
+      ['Please {{w}} the file today.', '请今天{{c}}这个文件。'],
+      ['We need to {{w}} this together.', '我们需要一起{{c}}这个。'],
+    ],
+    adjective: abstractAdjectives.has(String(word || '').toLowerCase()) ? [
+      ['The report describes this as {{w}}.', '报告将其描述为{{c}}。'],
+      ['The policy is considered {{w}}.', '这项政策被认为是{{c}}的。'],
+      ['This approach seems {{w}}.', '这种方法看起来很{{c}}。'],
+      ['The final result is still {{w}}.', '最终结果仍然是{{c}}的。'],
+    ] : [
+      ['The room feels {{w}} today.', '今天这个房间感觉很{{c}}。'],
+      ['This option seems {{w}}.', '这个选项看起来很{{c}}。'],
+      ['The result looks {{w}}.', '结果看起来很{{c}}。'],
+      ['Is the setting too {{w}}?', '这个设置是不是太{{c}}了？'],
+    ],
+  };
+  const semanticFrames = personNouns.has(String(word || '').toLowerCase()) ? [
+    ['Could I speak to the {{w}}?', '我可以和{{c}}谈谈吗？'],
+    ['Who is the {{w}} for this task?', '谁是这件事的{{c}}？'],
+    ['I need to contact the {{w}}.', '我需要联系{{c}}。'],
+    ['The {{w}} is waiting outside.', '{{c}}正在外面等候。'],
+  ] : timeNouns.has(String(word || '').toLowerCase()) ? [
+    ['What time is the {{w}}?', '{{c}}是几点？'],
+    ['Has the {{w}} changed?', '{{c}}有变化吗？'],
+    ['I wrote the {{w}} in my calendar.', '我把{{c}}写进日历了。'],
+    ['Could you confirm the {{w}}?', '你能确认一下{{c}}吗？'],
+  ] : null;
+  const familyFrames = semanticFrames || (role === 'noun' && safeNounFrames[family]
+    ? safeNounFrames[family]
+    : (dialogueFrames[family] || dialogueFrames.professional)[role]);
+  // Social titles often contain objects that are not naturally "brought to a
+  // party" (crosswalk, routine, size). Use the neutral conversation frames
+  // for that family; the other scene frames are deliberately contextual.
+  const frames = family !== 'social' && familyFrames && familyFrames.length ? familyFrames : neutralFrames[role];
+  const frame = frames[variant % frames.length];
+  const visibleChinese = role === 'adjective' ? adjectiveChinese(usageChinese) : usageChinese;
+  return interpolateFrame(frame, word, visibleChinese);
+}
+function scenarioFor(seed, index) {
+  const words = (seed.words || []).slice(0, 3);
+  while (words.length < 3) words.push(words[words.length - 1] || ['thing', '东西']);
+  const family = scenarioFamily(seed);
+  const lines = words.map((pair, wordIndex) => scenarioLine(family, pair[0], pair[1], index + wordIndex));
+  const second = words.map((pair, wordIndex) => scenarioLine(family, pair[0], pair[1], index + wordIndex + 2));
+  const authoredPair = (value) => Array.isArray(value) && value.length >= 2 && String(value[0] || '').trim() && String(value[1] || '').trim() ? [String(value[0]), String(value[1])] : null;
+  const authoredFill = !seed.generatedPack && Array.isArray(seed.fill) && seed.fill.length >= 3 && String(seed.fill[0] || '').includes('_____') ? [String(seed.fill[0]), String(seed.fill[1] || ''), String(seed.fill[2] || '')] : null;
+  const authoredChoice = !seed.generatedPack && authoredPair(seed.choice);
+  const authoredListen = !seed.generatedPack && authoredPair(seed.listen);
+  const authoredOrder = !seed.generatedPack && authoredPair(seed.order);
+  const fillLine = (line, answer) => [line[0].replace(answer, '_____'), answer, line[1]];
+  return {
+    family,
+    scene: seed.title,
+    // Keep the carefully authored sentence wherever the seed provides one.
+    // Generated paraphrases fill the additional practice slots so the same
+    // target language is met in more than one everyday context.
+    choiceA: authoredChoice || lines[0],
+    listenA: authoredListen || lines[1],
+    fillA: authoredFill || fillLine(lines[2], words[2][0]),
+    choiceB: second[0],
+    listenB: second[1],
+    fillB: fillLine(second[2], words[2][0]),
+    order: authoredOrder || scenarioLine(family, words[0][0], words[0][1], index + 3),
+    sentencePool: [authoredChoice, authoredListen, authoredOrder, ...(authoredFill ? [[authoredFill[0], authoredFill[2]]] : []), ...lines, ...second]
+      .filter(Boolean).map((line) => line[1]),
+  };
+}
+const usedSentenceKeys = new Set();
+// Uniqueness candidates, deliberately disjoint from the suffixes used by
+// repairGrammarCoverage: a grammar frame is shared by up to 25 lessons
+// (conditionals), so its key space must be the union of both pools. The earlier
+// 8-entry pool was exhausted once stripping was introduced, which surfaced as
+// duplicate questions.
+const uniquenessTails = [
+  ['tomorrow morning', '明天早上'], ['this evening', '今晚'], ['after dinner', '晚饭后'], ['before the meeting', '会议前'],
+  ['after the meeting', '会议后'], ['on Monday', '周一'], ['on Tuesday', '周二'], ['on Wednesday', '周三'],
+  ['on Thursday', '周四'], ['on Saturday', '周六'], ['on Sunday', '周日'], ['next week', '下周'],
+  ['next month', '下个月'], ['last night', '昨晚'], ['in the morning', '早上'], ['in the afternoon', '下午'],
+  ['in the evening', '傍晚'], ['before dinner', '晚饭前'], ['before work', '上班前'], ['before class', '上课前'],
+  ['after class', '下课后'], ['at the weekend', '周末'], ['this weekend', '这个周末'], ['before the deadline', '截止日期前'],
+  ['during lunch', '午餐期间'], ['all week', '整周'], ['this year', '今年'], ['next year', '明年'],
+  ['at eight', '八点'], ['at nine', '九点'], ['this term', '本学期'], ['on a weekday', '工作日'],
+];
+const escapePattern = (value) => String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+function appendEnglishTail(text, tail, punctuation) {
+  const value = String(text || '').replace(/[?.！。]$/, '');
+  return `${value} ${tail}${punctuation}`;
+}
+function prependChineseTail(text, tail) {
+  return `${tail}${String(text || '').replace(/^[，,]/, '')}`;
+}
+// Exact inverses of the two helpers above, used only to remove the suffix that
+// repairGrammarCoverage itself appended. A generic "strip whatever looks like a
+// trailing time phrase" pass is not safe here: English puts the time at the end
+// while Chinese keeps it before the verb, so stripping both sides would drop the
+// English phrase and leave the Chinese one, desynchronising the pair.
+function dropEnglishTail(text, tail) {
+  const value = String(text || '');
+  const punctuation = /[.!?]$/.test(value) ? value.slice(-1) : '';
+  const stripped = value.replace(new RegExp(`\\s+${escapePattern(tail)}\\s*[.!?]?$`), '');
+  return stripped ? `${stripped}${punctuation}` : stripped;
+}
+function dropChineseTail(text, tail) {
+  const value = String(text || '');
+  return value.startsWith(tail) ? value.slice(tail.length) : value;
+}
+function ensureUniqueSentence(question, salt) {
+  if (!question || question.kind === 'word' || question.kind === 'match') return;
+  const repairTail = question.__repairTail || null;
+  if (repairTail) delete question.__repairTail;
+
+  const keyOf = (audio, translation) => `${String(audio).toLowerCase()}|${String(translation)}`;
+  const originalAudio = String(question.audio || question.prompt || '');
+  const originalPrompt = String(question.prompt || '');
+  const originalTranslation = String(question.translation || '');
+
+  // A grammar-repaired sentence already carries one time phrase. A retry must
+  // fall back to the version without it instead of appending on top, otherwise
+  // the retries stack: "... delivered this morning this week this weekend".
+  // Both halves of the pair are dropped together so English and Chinese stay in
+  // step, and every later attempt derives from these pristine values rather
+  // than from the previously retried sentence.
+  let audio = originalAudio;
+  let prompt = originalPrompt;
+  let translation = originalTranslation;
+  let key = keyOf(audio, translation);
+
+  if (repairTail && usedSentenceKeys.has(key)) {
+    audio = dropEnglishTail(originalAudio, repairTail[0]);
+    translation = dropChineseTail(originalTranslation, repairTail[1]);
+    prompt = question.kind === 'choice' ? audio : dropChineseTail(originalPrompt, repairTail[1]);
+    question.audio = audio;
+    question.prompt = prompt;
+    question.translation = translation;
+    if (question.kind === 'choice' || question.kind === 'listen') question.answer = translation;
+    key = keyOf(audio, translation);
+  }
+
+  let attempt = 0;
+  while (usedSentenceKeys.has(key) && attempt < uniquenessTails.length) {
+    const [enTail, cnTail] = uniquenessTails[(salt + attempt) % uniquenessTails.length];
+    const punctuation = /\?$/.test(audio) ? '?' : '.';
+    const oldAnswer = question.answer;
+    const nextAudio = appendEnglishTail(audio, enTail, punctuation);
+    const nextTranslation = prependChineseTail(translation, cnTail);
+    question.audio = nextAudio;
+    question.translation = nextTranslation;
+    if (question.kind === 'choice' || question.kind === 'listen') {
+      question.answer = nextTranslation;
+      question.options = (question.options || []).map((option) => option === oldAnswer ? nextTranslation : option);
+      // A choice prompt is the English sentence itself (see makeLesson), so it
+      // must track the audio. Leaving it untouched made the stem show one
+      // sentence while the feedback and speech played another.
+      if (question.kind === 'choice') question.prompt = nextAudio;
+    } else if (question.kind === 'order') {
+      question.answer = nextAudio;
+      question.tokens = nextAudio.split(' ');
+      question.prompt = nextTranslation;
+    } else if (question.kind === 'fill') {
+      question.prompt = appendEnglishTail(prompt, enTail, punctuation);
+    }
+    key = keyOf(question.audio, question.translation);
+    attempt += 1;
+  }
+  usedSentenceKeys.add(key);
+}
+function expandPairs(seed, index) {
+  const pairs = [];
+  const english = new Set();
+  const chinese = new Set();
+  const add = (pair) => {
+    if (!Array.isArray(pair) || pair.length < 2) return;
+    const en = String(pair[0] || '').trim();
+    const cn = String(pair[1] || '').trim();
+    if (!en || !cn || english.has(en) || chinese.has(cn)) return;
+    english.add(en); chinese.add(cn); pairs.push([en, cn]);
+  };
+  [...(seed.pairs || []), ...(seed.words || [])].forEach(add);
+  const bank = pairFallbacks[seed.level] || [];
+  for (let offset = 0; pairs.length < 6 && offset < bank.length * 2; offset += 1) add(bank[(index + offset) % bank.length]);
+  return pairs;
+}
+const grammarRepairFrames = {
+  'present-continuous': ['I am waiting for the bus right now.', '我现在正在等公交车。'], 'past-continuous': ['I was cooking when you called.', '你打电话时我正在做饭。'],
+  // Frames stay time-free: repairGrammarCoverage appends exactly one time phrase,
+  // so a frame that already carried one ("... this morning") produced sentences
+  // such as "The package was delivered this morning this week this weekend."
+  'going-to': ['We are going to meet.', '我们打算见面。'], 'present-perfect': ['I have sent the email already.', '我已经发过邮件了。'],
+  'past-perfect': ['She had left before I arrived.', '我到达之前她已经离开了。'], 'passive-voice': ['The package was delivered.', '包裹被送到了。'],
+  conditionals: ['If it rains, we will take the bus.', '如果下雨，我们就坐公交车。'], comparatives: ['This route is shorter than the other one.', '这条路线比另一条短。'],
+  'there-is-are': ['There is a pharmacy near the station.', '车站附近有一家药店。'], 'there-is': ['There is a quiet café around the corner.', '拐角处有一家安静的咖啡店。'],
+  'frequency-adverbs': ['I usually check my calendar.', '我通常查看日历。'], 'have-got': ['I have got an appointment at three.', '我三点有一个预约。'], 'past-simple': ['I checked the message.', '我查看了消息。'], 'relative-clauses': ['I met a manager who supports flexible work.', '我遇到了一位支持灵活工作的经理。'],
+  imperatives: ['Please turn off the oven before you leave.', '离开前请关掉烤箱。'],
+};
+function grammarRealized(tag, text) {
+  const value = String(text || '').toLowerCase();
+  const checks = {'present-continuous': /\b(am|is|are)\s+\w+ing\b/, 'past-continuous': /\b(was|were)\s+\w+ing\b/, 'going-to': /\b(am|is|are)\s+going\s+to\b/, 'present-perfect': /\b(have|has)\s+(?:already\s+|just\s+|never\s+|ever\s+)?\w+(ed|en|wn|gone|been)\b/, 'past-perfect': /\bhad\s+\w+(ed|en|wn|gone|been)\b/, 'passive-voice': /\b(am|is|are|was|were|be|been)\s+\w+(ed|en)\b/, 'past-simple': /\b\w+(ed)\b|\b(went|came|saw|sent|wrote|made|left|found|took)\b/, 'relative-clauses': /\b(who|which|that|whose|where|when)\b/, conditionals: /\bif\b/, comparatives: /\b\w+er\s+than\b|\bmore\s+\w+\s+than\b/, 'there-is-are': /\bthere\s+(is|are|was|were)\b/, 'there-is': /\bthere\s+(is|are)\b/, 'frequency-adverbs': /\b(always|usually|often|sometimes|never|rarely)\b/, 'have-got': /\b(have|has)\s+got\b/, imperatives: /^(please\s+)?(do not|don't|turn|open|close|take|bring|wait|stop|check|keep|put|give|pass|help|try|use)\b/};
+  return !checks[tag] || checks[tag].test(value);
+}
+function repairGrammarCoverage(questions, grammarTags, lessonIndex) {
+  // Every suffix is a plain time phrase. English places it at the end of the
+  // sentence, Chinese places it before the verb, so the Chinese side is
+  // prefixed rather than glued on with a space (the old concatenation emitted
+  // strings like "我今天早上查看了消息 本周。").
+  const suffixes = [
+    ['this morning', '今天早上'], ['before lunch', '午饭前'], ['during the meeting', '会议期间'], ['after work', '下班后'],
+    ['on Friday', '周五'], ['this week', '本周'], ['next Monday', '下周一'], ['at noon', '中午'],
+  ];
+  const targets = questions.filter((question) => question.kind === 'choice' || question.kind === 'listen');
+  let targetIndex = 0;
+  for (const tag of grammarTags || []) {
+    const frame = grammarRepairFrames[tag];
+    const target = targets[targetIndex++ % Math.max(1, targets.length)];
+    if (!frame || !target || grammarRealized(tag, target.audio)) continue;
+    const suffix = suffixes[(lessonIndex + targetIndex) % suffixes.length];
+    const punctuation = frame[0].endsWith('?') ? '?' : '.';
+    target.audio = `${frame[0].replace(/[?.]$/, '')} ${suffix[0]}${punctuation}`;
+    target.translation = `${suffix[1]}${frame[1].replace(/[。？?]$/, '')}${frame[1].endsWith('？') ? '？' : '。'}`;
+    target.answer = target.translation;
+    // Only a choice question uses the sentence as its stem. Overwriting a listen
+    // question's prompt printed the answer on screen and made the exercise a
+    // reading task, so it keeps its instruction text.
+    if (target.kind === 'choice') target.prompt = target.audio;
+    // Non-enumerable so it never reaches the catalog; ensureUniqueSentence
+    // consumes and deletes it.
+    Object.defineProperty(target, '__repairTail', {
+      value: suffix, enumerable: false, configurable: true, writable: true,
+    });
+  }
+}
 function makeLesson(seed,index){
   const spec=levels.find((level)=>level.id===seed.level), id=`${seed.level}-u${index+1}-l1`;
   const grammarTags = seed.grammarTags || grammarByLevel[seed.level] || ['general-english'];
-  const fillWords = [...new Set([...seed.words.map((word) => word[0]), ...seed.pairs.map((pair) => pair[0]), ...fillFallbacks])]
+  const pairs = expandPairs(seed, index);
+  const glossary = [...new Map([...seed.words, ...pairs].map((pair) => [pair[0], pair[1]])).entries()];
+  const scenario = scenarioFor(seed, index);
+  const fillWords = [...new Set([...seed.words.map((word) => word[0]), ...pairs.map((pair) => pair[0]), ...fillFallbacks])]
     .filter((word) => /^[A-Za-z][A-Za-z' -]*$/.test(word));
-  const fillOptions = optionSet(seed.fill[1], fillWords);
+  const fillOptions = optionSet(scenario.fillA[1], fillWords);
+  const secondWord = seed.words[1] || seed.words[0];
+  const thirdWord = seed.words[2] || seed.words[0];
+  const extraFillOptions = optionSet(scenario.fillB[1], [...fillWords, secondWord[0], thirdWord[0]]);
   const questions=[
-    {kind:'word',prompt:seed.words[0][0],promptCn:'选择这个词最合适的中文意思',answer:seed.words[0][1],options:optionSet(seed.words[0][1],[seed.words[1][1],seed.words[2][1],...seed.distractors]),audio:seed.words[0][0],translation:seed.words[0][1]},
-    {kind:'choice',prompt:seed.choice[0],promptCn:'选择这句话最自然的中文意思',answer:seed.choice[1],options:optionSet(seed.choice[1],seed.distractors),audio:seed.choice[0],translation:seed.choice[1]},
-    {kind:'listen',prompt:'听到的句子是什么意思？',promptCn:'播放英语后选择对应意思',answer:seed.listen[1],options:optionSet(seed.listen[1],seed.distractors),audio:seed.listen[0],translation:seed.listen[1]},
-    {kind:'order',prompt:seed.order[1],promptCn:'用词块拼出英文句子',answer:seed.order[0],tokens:seed.order[0].split(' '),audio:seed.order[0],translation:seed.order[1]},
-    {kind:'fill',prompt:seed.fill[0],promptCn:seed.fill[2],answer:seed.fill[1],options:fillOptions,audio:seed.fill[0].replace('_____ ',seed.fill[1]+' '),translation:seed.fill[2]},
-    {kind:'match',prompt:`找到「${seed.title}」每个词的中文搭档`,promptCn:'先点英文，再点对应的中文',pairs:seed.pairs,answer:'matched',translation:seed.pairs.map((pair)=>pair.join(' · ')).join(' / ')}
-  ].map((question,questionIndex)=>({...question,id:`${id}-q${questionIndex+1}`,lessonId:id,levelId:seed.level,cefr:spec.cefr,difficulty:spec.difficulty,grammarTags:[...grammarTags],skillTags:[...(skillByKind[question.kind] || ['general'])]}));
-  return {id,levelId:seed.level,cefr:spec.cefr,difficulty:spec.difficulty,title:seed.title,subtitle:seed.subtitle,theme:seed.title,grammarTags:[...grammarTags],skillTags:['vocabulary','grammar','listening','reading'],words:seed.words,questions};
+    {kind:'word',prompt:seed.words[0][0],instruction:'选择这个词最合适的中文意思',answer:seed.words[0][1],options:optionSet(seed.words[0][1],[seed.words[1][1],seed.words[2][1],...wordMeaningDistractors([seed.words[0][1],seed.words[1][1],seed.words[2][1]],3)]),audio:seed.words[0][0],translation:seed.words[0][1],glossary},
+    {kind:'choice',prompt:scenario.choiceA[0],instruction:'选择这句话在日常对话中的意思',answer:scenario.choiceA[1],options:sentenceOptionSet(scenario.choiceA[1],scenario,seed.distractors),audio:scenario.choiceA[0],translation:scenario.choiceA[1],glossary,scene:scenario.scene},
+    {kind:'listen',prompt:`${scenario.scene} · 听一听这句日常对话，选择正确意思`,instruction:'音频会自动播放一次，也可以重复播放',answer:scenario.listenA[1],options:sentenceOptionSet(scenario.listenA[1],scenario,seed.distractors),audio:scenario.listenA[0],translation:scenario.listenA[1],glossary,scene:scenario.scene},
+    {kind:'order',prompt:scenario.order[1],instruction:'用词块拼出这句日常表达',answer:scenario.order[0],tokens:scenario.order[0].split(' '),audio:scenario.order[0],translation:scenario.order[1],glossary,scene:scenario.scene},
+    {kind:'fill',prompt:scenario.fillA[0],instruction:'选择英文词块完成对话',answer:scenario.fillA[1],options:fillOptions,audio:scenario.fillA[0].replace(/_____/g,scenario.fillA[1]),translation:scenario.fillA[2],glossary,scene:scenario.scene},
+    {kind:'match',prompt:`配对「${seed.title}」场景里的重点词语`,instruction:'先点英文，再点对应的中文',pairs,answer:'matched',translation:pairs.map((pair)=>pair.join(' · ')).join(' / '),glossary,scene:scenario.scene},
+    {kind:'word',prompt:`${secondWord[0]} · ${seed.title}`,instruction:'选择这个词最合适的中文意思',answer:secondWord[1],options:optionSet(secondWord[1],[seed.words[0][1],thirdWord[1],...wordMeaningDistractors([secondWord[1],seed.words[0][1],thirdWord[1]],3)]),audio:secondWord[0],translation:secondWord[1],glossary},
+    {kind:'choice',prompt:scenario.choiceB[0],instruction:'选择这句话在日常对话中的意思',answer:scenario.choiceB[1],options:sentenceOptionSet(scenario.choiceB[1],scenario,seed.distractors),audio:scenario.choiceB[0],translation:scenario.choiceB[1],glossary,scene:scenario.scene},
+    {kind:'listen',prompt:`${scenario.scene} · 再听一遍这段日常对话，选择正确意思`,instruction:'音频会自动播放，也可以点击按钮重听',answer:scenario.listenB[1],options:sentenceOptionSet(scenario.listenB[1],scenario,seed.distractors),audio:scenario.listenB[0],translation:scenario.listenB[1],glossary,scene:scenario.scene},
+    {kind:'fill',prompt:scenario.fillB[0],instruction:'选择英文词块完成对话',answer:scenario.fillB[1],options:extraFillOptions,audio:scenario.fillB[0].replace(/_____/g,scenario.fillB[1]),translation:scenario.fillB[2],glossary,scene:scenario.scene}
+  ].map((question,questionIndex)=>({...question,promptCn:question.instruction,id:`${id}-q${questionIndex+1}`,lessonId:id,levelId:seed.level,cefr:spec.cefr,difficulty:spec.difficulty,grammarTags:[...grammarTags],skillTags:[...(skillByKind[question.kind] || ['general'])]}));
+  repairGrammarCoverage(questions, grammarTags, index);
+  questions.forEach((question, questionIndex) => ensureUniqueSentence(question, index * 10 + questionIndex));
+  const lessonTranslations = questions.filter((question) => question.kind === 'choice' || question.kind === 'listen').map((question) => question.translation);
+  questions.filter((question) => question.kind === 'choice' || question.kind === 'listen').forEach((question) => {
+    question.options = optionSet(question.translation, lessonTranslations.filter((translation) => translation !== question.translation));
+  });
+  seed.sentencePool = scenario.sentencePool;
+  const unitNumber = index + 1;
+  const sectionNumber = Math.floor(index / 12) + 1;
+  const authored = authoredBlocks[id];
+  if (authored && authored.sourceStatus === 'hand-authored' && Array.isArray(authored.questions) && authored.questions.length === 10) {
+    const authoredQuestions = authored.questions.map((question, questionIndex) => ({...question, id:`${id}-q${questionIndex + 1}`, lessonId:id, levelId:seed.level, cefr:spec.cefr, difficulty:spec.difficulty, grammarTags:[...(authored.grammarTags || grammarTags)], skillTags:[...(skillByKind[question.kind] || ['general'])]}));
+    return {id,levelId:seed.level,unitId:`${seed.level}-unit${unitNumber}`,sectionId:`${seed.level}-section${sectionNumber}`,unitNumber,sectionNumber,lessonNumber:1,lessonType:'lesson',cefr:spec.cefr,difficulty:spec.difficulty,title:authored.title || seed.title,subtitle:authored.subtitle || seed.subtitle,theme:authored.theme || seed.title,grammarTags:[...(authored.grammarTags || grammarTags)],skillTags:['vocabulary','grammar','listening','reading'],words:authored.words || seed.words,pairs:(authored.questions.find(question => question.kind === 'match') || {}).pairs || pairs,questions:authoredQuestions,dialogue:authored.dialogue || null,authored:authored.sourceStatus === 'hand-authored'};
+  }
+  return {id,levelId:seed.level,unitId:`${seed.level}-unit${unitNumber}`,sectionId:`${seed.level}-section${sectionNumber}`,unitNumber,sectionNumber,lessonNumber:1,lessonType:'lesson',cefr:spec.cefr,difficulty:spec.difficulty,title:seed.title,subtitle:seed.subtitle,theme:seed.title,grammarTags:[...grammarTags],skillTags:['vocabulary','grammar','listening','reading'],words:seed.words,pairs,questions};
 }
 const levelCurriculum=levels.map((spec)=>({
   ...spec,
-  units:seeds.filter((seed)=>seed.level===spec.id).map((seed,index)=>{const lesson=makeLesson(seed,index);return {id:`${spec.id}-unit${index+1}`,levelId:spec.id,cefr:spec.cefr,difficulty:spec.difficulty,title:`${spec.cefr} · ${seed.title}`,subtitle:seed.subtitle,color:spec.color,art:spec.art,lessons:[lesson]};})
+  units:seeds.filter((seed)=>seed.level===spec.id).map((seed,index)=>{const lesson=makeLesson(seed,index);const unitNumber=index+1;const sectionNumber=Math.floor(index/12)+1;return {id:`${spec.id}-unit${unitNumber}`,unitId:`${spec.id}-unit${unitNumber}`,sectionId:`${spec.id}-section${sectionNumber}`,unitNumber,sectionNumber,levelId:spec.id,cefr:spec.cefr,difficulty:spec.difficulty,title:`${spec.cefr} · ${seed.title}`,subtitle:seed.subtitle,color:spec.color,art:spec.art,lessons:[lesson],checkpoint:{id:`${spec.id}-section${sectionNumber}-checkpoint`,sectionId:`${spec.id}-section${sectionNumber}`,requiredUnitIds:[]}};})
 }));
 const curriculum=levelCurriculum.flatMap((level)=>level.units);
 const lessonList=curriculum.flatMap((unit)=>unit.lessons);
+const sections=levelCurriculum.flatMap((level)=>{const groups=[];level.units.forEach(unit=>{let section=groups.find(item=>item.id===unit.sectionId);if(!section){section={id:unit.sectionId,levelId:level.id,sectionNumber:unit.sectionNumber,title:`${level.cefr} · 第 ${unit.sectionNumber} 区`,units:[],checkpoint:null};groups.push(section);}section.units.push(unit);});groups.forEach(section=>{section.checkpoint={id:`${section.id}-checkpoint`,sectionId:section.id,requiredUnitIds:section.units.map(unit=>unit.id),type:'checkpoint'};section.units.forEach(unit=>{unit.checkpoint=section.checkpoint;});});return groups;});
+const checkpoints=sections.map(section=>section.checkpoint);
 const questionBank=Object.fromEntries(lessonList.flatMap((lesson)=>lesson.questions).map((question)=>[question.id,question]));
-const lumiCatalog={curriculum,lessonList,questionBank,levels,levelCurriculum};
+const lumiCatalog={curriculum,lessonList,questionBank,levels,levelCurriculum,sections,checkpoints};
 if(typeof window!=='undefined')window.lumiCatalog=lumiCatalog;
-if(typeof module!=='undefined')module.exports={curriculum,lessonList,questionBank,catalog:lumiCatalog};
+if(typeof module!=='undefined')module.exports={curriculum,lessonList,questionBank,catalog:lumiCatalog,levels,levelCurriculum,sections,checkpoints,scenarioFor};

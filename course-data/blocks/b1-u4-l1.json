@@ -1,0 +1,367 @@
+{
+  "id": "b1-u4-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "理性消费",
+  "subtitle": "权衡预算、风险和选择",
+  "theme": "理性消费",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "budget",
+      "预算"
+    ],
+    [
+      "installment",
+      "分期付款"
+    ],
+    [
+      "priority",
+      "优先事项"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u4-l1-q1",
+      "kind": "word",
+      "prompt": "budget · 理性消费",
+      "audio": "budget",
+      "instruction": "选择适合语境的表达。",
+      "answer": "budget",
+      "translation": "预算",
+      "lessonId": "b1-u4-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "预算",
+        "分期付款",
+        "优先事项",
+        "报告"
+      ]
+    },
+    {
+      "id": "b1-u4-l1-q2",
+      "kind": "choice",
+      "prompt": "Have you compared the laptop with your monthly budget?",
+      "audio": "Have you compared the laptop with your monthly budget?",
+      "instruction": "选择适合语境的表达。",
+      "answer": "你把笔记本电脑和每月预算比较过了吗？",
+      "translation": "你把笔记本电脑和每月预算比较过了吗？",
+      "lessonId": "b1-u4-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "你把笔记本电脑和每月预算比较过了吗？",
+        "分期方案增加了太多利息。",
+        "我们已经把安全列为第一优先事项。",
+        "这句话没有说明原因。"
+      ]
+    },
+    {
+      "id": "b1-u4-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The installment plan adds too much interest.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "分期方案增加了太多利息。",
+      "translation": "分期方案增加了太多利息。",
+      "lessonId": "b1-u4-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "分期方案增加了太多利息。",
+        "你把笔记本电脑和每月预算比较过了吗？",
+        "我们已经把安全列为第一优先事项。",
+        "说话人没有做决定。"
+      ]
+    },
+    {
+      "id": "b1-u4-l1-q4",
+      "kind": "order",
+      "prompt": "我们已经把安全列为第一优先事项。",
+      "audio": "We have made safety our first priority.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "We have made safety our first priority.",
+      "translation": "我们已经把安全列为第一优先事项。",
+      "lessonId": "b1-u4-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "We",
+        "have",
+        "made",
+        "safety",
+        "our",
+        "first",
+        "priority."
+      ]
+    },
+    {
+      "id": "b1-u4-l1-q5",
+      "kind": "fill",
+      "prompt": "We have _____ the installment before Friday.",
+      "audio": "We have reviewed the installment before Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "reviewed",
+      "translation": "reviewed",
+      "lessonId": "b1-u4-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u4-l1-q6",
+      "kind": "match",
+      "prompt": "配对「理性消费」中的重点词。",
+      "audio": "",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "matched",
+      "lessonId": "b1-u4-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "budget",
+          "预算"
+        ],
+        [
+          "installment",
+          "分期付款"
+        ],
+        [
+          "priority",
+          "优先事项"
+        ],
+        [
+          "flight",
+          "航班"
+        ],
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u4-l1-q7",
+      "kind": "word",
+      "prompt": "installment · 理性消费",
+      "audio": "installment",
+      "instruction": "选择适合语境的表达。",
+      "answer": "installment",
+      "translation": "分期付款",
+      "lessonId": "b1-u4-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "分期付款",
+        "预算",
+        "优先事项",
+        "会议"
+      ]
+    },
+    {
+      "id": "b1-u4-l1-q8",
+      "kind": "choice",
+      "prompt": "I will keep an emergency fund before buying it.",
+      "audio": "I will keep an emergency fund before buying it.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我会在购买前保留应急基金。",
+      "translation": "我会在购买前保留应急基金。",
+      "lessonId": "b1-u4-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会在购买前保留应急基金。",
+        "你把笔记本电脑和每月预算比较过了吗？",
+        "分期方案增加了太多利息。",
+        "这句话谈的是天气。"
+      ]
+    },
+    {
+      "id": "b1-u4-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，判断下一步。",
+      "audio": "We have made safety our first priority. During the review.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我们已经把安全列为第一优先事项。",
+      "translation": "我们已经把安全列为第一优先事项。（会议复盘时）",
+      "lessonId": "b1-u4-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们已经把安全列为第一优先事项。",
+        "你把笔记本电脑和每月预算比较过了吗？",
+        "我会在购买前保留应急基金。",
+        "说话人取消了安排。"
+      ]
+    },
+    {
+      "id": "b1-u4-l1-q10",
+      "kind": "fill",
+      "prompt": "The team must _____ the priority today.",
+      "audio": "The team must clarify the priority today.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "clarify",
+      "translation": "clarify",
+      "lessonId": "b1-u4-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u4-l1-dialogue",
+    "scene": "理性消费",
+    "characters": [
+      {
+        "id": "hana",
+        "name": "Hana",
+        "role": "colleague"
+      },
+      {
+        "id": "sam",
+        "name": "Sam",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "hana",
+        "text": "The lower price looks tempting, but the monthly installment is tight.",
+        "translation": "较低的价格很诱人，但每月分期很紧。"
+      },
+      {
+        "speaker": "sam",
+        "text": "Then let us keep our emergency fund as the first priority.",
+        "translation": "那我们先把应急基金作为第一优先事项。"
+      },
+      {
+        "speaker": "hana",
+        "text": "Agreed. I have found a reliable model within our budget.",
+        "translation": "同意。我找到了预算内的可靠型号。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Sam提出了什么建议？",
+        "answer": "Then let us keep our emergency fund as the first priority.",
+        "options": [
+          "Then let us keep our emergency fund as the first priority.",
+          "The lower price looks tempting, but the monthly installment is tight.",
+          "Agreed. I have found a reliable model within our budget."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

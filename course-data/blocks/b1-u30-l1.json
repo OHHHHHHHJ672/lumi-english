@@ -1,0 +1,367 @@
+{
+  "id": "b1-u30-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "数据可视化",
+  "subtitle": "阅读仪表盘、图表和洞察",
+  "theme": "数据可视化",
+  "grammarFocus": "data-visualisation",
+  "grammarTags": [
+    "data-visualisation"
+  ],
+  "words": [
+    [
+      "dashboard",
+      "仪表盘"
+    ],
+    [
+      "chart",
+      "图表"
+    ],
+    [
+      "insight",
+      "洞察"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u30-l1-q1",
+      "kind": "word",
+      "prompt": "dashboard · 数据可视化",
+      "answer": "dashboard",
+      "translation": "仪表盘",
+      "instruction": "选择适合语境的表达。",
+      "audio": "dashboard",
+      "lessonId": "b1-u30-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "data-visualisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "仪表盘",
+        "图表",
+        "洞察",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u30-l1-q2",
+      "kind": "choice",
+      "prompt": "The dashboard shows a sharp rise in weekend visits.",
+      "answer": "仪表盘显示周末访问量大幅上升。",
+      "translation": "仪表盘显示周末访问量大幅上升。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The dashboard shows a sharp rise in weekend visits.",
+      "lessonId": "b1-u30-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "data-visualisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "仪表盘显示周末访问量大幅上升。",
+        "我会加上调查说明，并把事实和洞察分开。",
+        "这张图表比较了成本与客户满意度。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u30-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我会加上调查说明，并把事实和洞察分开。",
+      "translation": "我会加上调查说明，并把事实和洞察分开。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will add a note about the survey and separate fact from insight.",
+      "lessonId": "b1-u30-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "data-visualisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会加上调查说明，并把事实和洞察分开。",
+        "仪表盘显示周末访问量大幅上升。",
+        "这张图表比较了成本与客户满意度。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u30-l1-q4",
+      "kind": "order",
+      "prompt": "这张图表比较了成本与客户满意度。",
+      "answer": "This chart compares cost with customer satisfaction.",
+      "translation": "这张图表比较了成本与客户满意度。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "This chart compares cost with customer satisfaction.",
+      "lessonId": "b1-u30-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "data-visualisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "This",
+        "chart",
+        "compares",
+        "cost",
+        "with",
+        "customer",
+        "satisfaction."
+      ]
+    },
+    {
+      "id": "b1-u30-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the chart before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了图表。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the chart before the meeting.",
+      "lessonId": "b1-u30-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "data-visualisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u30-l1-q6",
+      "kind": "match",
+      "prompt": "配对「数据可视化」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u30-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "data-visualisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "dashboard",
+          "仪表盘"
+        ],
+        [
+          "chart",
+          "图表"
+        ],
+        [
+          "insight",
+          "洞察"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u30-l1-q7",
+      "kind": "word",
+      "prompt": "chart · 数据可视化",
+      "answer": "chart",
+      "translation": "图表",
+      "instruction": "选择适合语境的表达。",
+      "audio": "chart",
+      "lessonId": "b1-u30-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "data-visualisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "图表",
+        "仪表盘",
+        "洞察",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u30-l1-q8",
+      "kind": "choice",
+      "prompt": "That makes the visual easier to discuss.",
+      "answer": "这让图表更容易讨论。",
+      "translation": "这让图表更容易讨论。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That makes the visual easier to discuss.",
+      "lessonId": "b1-u30-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "data-visualisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这让图表更容易讨论。",
+        "团队在会议前已经审阅了图表。",
+        "仪表盘显示周末访问量大幅上升。",
+        "这张图表比较成本和客户满意度。"
+      ]
+    },
+    {
+      "id": "b1-u30-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "分析师在月度数据中发现了一个洞见。",
+      "translation": "分析师在月度数据中发现了一个洞见。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The analyst found an insight in the monthly data.",
+      "lessonId": "b1-u30-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "data-visualisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "分析师在月度数据中发现了一个洞见。",
+        "仪表盘显示周末访问量大幅上升。",
+        "我会加上调查说明，并把事实和洞察分开。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u30-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the insight before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅洞察。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the insight before Friday.",
+      "lessonId": "b1-u30-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "data-visualisation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u30-l1-dialogue",
+    "scene": "数据可视化",
+    "characters": [
+      {
+        "id": "iris",
+        "name": "Iris",
+        "role": "colleague"
+      },
+      {
+        "id": "noah",
+        "name": "Noah",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "iris",
+        "text": "The dashboard shows more visits, but the chart does not explain why.",
+        "translation": "仪表盘显示访问量增加，但图表没有解释原因。"
+      },
+      {
+        "speaker": "noah",
+        "text": "I will add a note about the survey and separate fact from insight.",
+        "translation": "我会加上调查说明，并把事实和洞察分开。"
+      },
+      {
+        "speaker": "iris",
+        "text": "That makes the visual easier to discuss.",
+        "translation": "这样更容易讨论这张图。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Noah提出了什么建议？",
+        "answer": "I will add a note about the survey and separate fact from insight.",
+        "options": [
+          "I will add a note about the survey and separate fact from insight.",
+          "The dashboard shows more visits, but the chart does not explain why.",
+          "That makes the visual easier to discuss."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

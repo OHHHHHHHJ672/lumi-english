@@ -1,0 +1,371 @@
+{
+  "id": "b2-u10-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "气候适应",
+  "subtitle": "讨论韧性、适应和脆弱群体",
+  "theme": "气候适应",
+  "grammarFocus": "conditionals",
+  "grammarTags": [
+    "conditionals"
+  ],
+  "words": [
+    [
+      "resilience",
+      "韧性"
+    ],
+    [
+      "adaptation",
+      "适应"
+    ],
+    [
+      "vulnerable",
+      "脆弱的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u10-l1-q1",
+      "kind": "word",
+      "prompt": "resilience · 气候适应",
+      "answer": "resilience",
+      "translation": "韧性",
+      "instruction": "选择适合语境的表达。",
+      "audio": "resilience",
+      "lessonId": "b2-u10-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "conditionals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "韧性",
+        "适应",
+        "脆弱的",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u10-l1-q2",
+      "kind": "choice",
+      "prompt": "The town is building resilience before the next storm.",
+      "answer": "这个小镇正在下一场风暴到来前增强应对能力。",
+      "translation": "这个小镇正在下一场风暴到来前增强应对能力。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The town is building resilience before the next storm.",
+      "lessonId": "b2-u10-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "conditionals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这个小镇正在下一场风暴到来前增强应对能力。",
+        "可以，而且我们会在中途增加一个有遮阴的休息点。",
+        "气候适应包括遮阴和可靠的水源。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u10-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "可以，而且我们会在中途增加一个有遮阴的休息点。",
+      "translation": "可以，而且我们会在中途增加一个有遮阴的休息点。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Yes, and we will add a shaded rest stop halfway through.",
+      "lessonId": "b2-u10-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "conditionals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "可以，而且我们会在中途增加一个有遮阴的休息点。",
+        "这个小镇正在下一场风暴到来前增强应对能力。",
+        "气候适应包括遮阴和可靠的水源。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u10-l1-q4",
+      "kind": "order",
+      "prompt": "如果河水上涨，小镇会关闭低处的桥。",
+      "answer": "If the river rises, the town will close the low bridge.",
+      "translation": "如果河水上涨，小镇会关闭低处的桥。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "If the river rises, the town will close the low bridge.",
+      "lessonId": "b2-u10-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "conditionals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "If",
+        "the",
+        "river",
+        "rises,",
+        "the",
+        "town",
+        "will",
+        "close",
+        "the",
+        "low",
+        "bridge."
+      ]
+    },
+    {
+      "id": "b2-u10-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the adaptation before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅适应。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the adaptation before Friday.",
+      "lessonId": "b2-u10-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "conditionals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u10-l1-q6",
+      "kind": "match",
+      "prompt": "配对「气候适应」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u10-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "conditionals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "resilience",
+          "韧性"
+        ],
+        [
+          "adaptation",
+          "适应"
+        ],
+        [
+          "vulnerable",
+          "脆弱的"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u10-l1-q7",
+      "kind": "word",
+      "prompt": "adaptation · 气候适应",
+      "answer": "adaptation",
+      "translation": "适应",
+      "instruction": "选择适合语境的表达。",
+      "audio": "adaptation",
+      "lessonId": "b2-u10-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "conditionals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "适应",
+        "韧性",
+        "脆弱的",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u10-l1-q8",
+      "kind": "choice",
+      "prompt": "That makes the route safer for the whole group.",
+      "answer": "这让整条路线对全组人更安全。",
+      "translation": "这让整条路线对全组人更安全。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That makes the route safer for the whole group.",
+      "lessonId": "b2-u10-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "conditionals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这让整条路线对全组人更安全。",
+        "团队必须在周五前审阅适应。",
+        "小镇正在下一场风暴前增强韧性。",
+        "气候适应包括遮阴和可靠的水源。"
+      ]
+    },
+    {
+      "id": "b2-u10-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "弱势居民需要一条清晰的疏散路线。",
+      "translation": "弱势居民需要一条清晰的疏散路线。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Vulnerable residents need a clear evacuation route.",
+      "lessonId": "b2-u10-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "conditionals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "弱势居民需要一条清晰的疏散路线。",
+        "这个小镇正在下一场风暴到来前增强应对能力。",
+        "可以，而且我们会在中途增加一个有遮阴的休息点。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u10-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the vulnerable groups carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅弱势群体。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the vulnerable groups carefully.",
+      "lessonId": "b2-u10-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "conditionals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u10-l1-dialogue",
+    "scene": "气候适应",
+    "characters": [
+      {
+        "id": "bea",
+        "name": "Bea",
+        "role": "colleague"
+      },
+      {
+        "id": "omar",
+        "name": "Omar",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "bea",
+        "text": "The forecast is hotter than usual, so can we move the hike to early morning?",
+        "translation": "天气预报显示比往常热，所以我们可以把徒步改到清晨吗？"
+      },
+      {
+        "speaker": "omar",
+        "text": "Yes, and we will add a shaded rest stop halfway through.",
+        "translation": "可以，而且我们会在中途增加一个有遮阴的休息点。"
+      },
+      {
+        "speaker": "bea",
+        "text": "That makes the route safer for the whole group.",
+        "translation": "这样能让整组人走得更安全。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Omar提出了什么建议？",
+        "answer": "Yes, and we will add a shaded rest stop halfway through.",
+        "options": [
+          "Yes, and we will add a shaded rest stop halfway through.",
+          "The forecast is hotter than usual, so can we move the hike to early morning?",
+          "That makes the route safer for the whole group."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

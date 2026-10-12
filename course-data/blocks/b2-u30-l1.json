@@ -1,0 +1,565 @@
+{
+  "id": "b2-u30-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "财政政策",
+  "subtitle": "分析财政、补贴和赤字",
+  "theme": "财政政策",
+  "grammarFocus": "fiscal-policy",
+  "grammarTags": [
+    "fiscal-policy"
+  ],
+  "words": [
+    [
+      "fiscal",
+      "财政的"
+    ],
+    [
+      "subsidy",
+      "补贴"
+    ],
+    [
+      "deficit",
+      "赤字"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "fiscal · 财政政策",
+      "audio": "fiscal",
+      "instruction": "选择这个词的直译",
+      "answer": "财政的",
+      "options": [
+        "财政的",
+        "补贴",
+        "赤字",
+        "问题"
+      ],
+      "translation": "财政的",
+      "id": "b2-u30-l1-q1",
+      "lessonId": "b2-u30-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "fiscal-policy"
+      ],
+      "glossary": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to discuss the fiscal this weekend.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们这个周末需要讨论财政的。",
+      "options": [
+        "我们这个周末需要讨论财政的。",
+        "我们为我们的团队需要讨论补贴。",
+        "我们为我们的团队需要讨论补贴。，在车站。",
+        "我们午饭前需要讨论赤字。，截止日期前。"
+      ],
+      "audio": "We need to discuss the fiscal this weekend.",
+      "translation": "我们这个周末需要讨论财政的。",
+      "id": "b2-u30-l1-q2",
+      "lessonId": "b2-u30-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "fiscal-policy"
+      ],
+      "glossary": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们为我们的团队需要讨论补贴。",
+      "options": [
+        "我们这个周末需要讨论财政的。",
+        "我们为我们的团队需要讨论补贴。",
+        "我们为我们的团队需要讨论补贴。，在车站。",
+        "我们午饭前需要讨论赤字。，截止日期前。"
+      ],
+      "audio": "We need to discuss the subsidy for our team.",
+      "translation": "我们为我们的团队需要讨论补贴。",
+      "id": "b2-u30-l1-q3",
+      "lessonId": "b2-u30-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "fiscal-policy"
+      ],
+      "glossary": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们午饭前需要讨论赤字。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We need to discuss the deficit before lunch.",
+      "tokens": [
+        "We",
+        "need",
+        "to",
+        "discuss",
+        "the",
+        "deficit",
+        "before",
+        "lunch."
+      ],
+      "audio": "We need to discuss the deficit before lunch.",
+      "translation": "我们午饭前需要讨论赤字。",
+      "id": "b2-u30-l1-q4",
+      "lessonId": "b2-u30-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "fiscal-policy"
+      ],
+      "glossary": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ at the station.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "fiscal",
+      "options": [
+        "fiscal",
+        "subsidy",
+        "deficit",
+        "message"
+      ],
+      "audio": "Please check the fiscal at the station.",
+      "translation": "请在车站检查财政的。",
+      "id": "b2-u30-l1-q5",
+      "lessonId": "b2-u30-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "fiscal-policy"
+      ],
+      "glossary": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「财政政策」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "fiscal、财政的；subsidy、补贴；deficit、赤字；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u30-l1-q6",
+      "lessonId": "b2-u30-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "fiscal-policy"
+      ],
+      "glossary": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "subsidy · 财政政策",
+      "audio": "subsidy",
+      "instruction": "选择这个词的直译",
+      "answer": "补贴",
+      "options": [
+        "补贴",
+        "财政的",
+        "赤字",
+        "安排"
+      ],
+      "translation": "补贴",
+      "id": "b2-u30-l1-q7",
+      "lessonId": "b2-u30-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "fiscal-policy"
+      ],
+      "glossary": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to discuss the subsidy for our team. at the station.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们为我们的团队需要讨论补贴。，在车站。",
+      "options": [
+        "我们这个周末需要讨论财政的。",
+        "我们为我们的团队需要讨论补贴。",
+        "我们为我们的团队需要讨论补贴。，在车站。",
+        "我们午饭前需要讨论赤字。，截止日期前。"
+      ],
+      "audio": "We need to discuss the subsidy for our team. at the station.",
+      "translation": "我们为我们的团队需要讨论补贴。，在车站。",
+      "id": "b2-u30-l1-q8",
+      "lessonId": "b2-u30-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "fiscal-policy"
+      ],
+      "glossary": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们午饭前需要讨论赤字。，截止日期前。",
+      "options": [
+        "我们这个周末需要讨论财政的。",
+        "我们为我们的团队需要讨论补贴。",
+        "我们为我们的团队需要讨论补贴。，在车站。",
+        "我们午饭前需要讨论赤字。，截止日期前。"
+      ],
+      "audio": "We need to discuss the deficit before lunch. before the deadline.",
+      "translation": "我们午饭前需要讨论赤字。，截止日期前。",
+      "id": "b2-u30-l1-q9",
+      "lessonId": "b2-u30-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "fiscal-policy"
+      ],
+      "glossary": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the subsidy before the deadline.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the subsidy before the deadline.",
+      "translation": "我们需要截止日期前检查补贴。",
+      "id": "b2-u30-l1-q10",
+      "lessonId": "b2-u30-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "fiscal-policy"
+      ],
+      "glossary": [
+        [
+          "fiscal",
+          "财政的"
+        ],
+        [
+          "subsidy",
+          "补贴"
+        ],
+        [
+          "deficit",
+          "赤字"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u30-l1-dialogue",
+    "scene": "财政政策",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about fiscal?",
+        "translation": "你能再告诉我一些关于财政的的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use fiscal when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到财政的。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use fiscal in a daily plan",
+        "options": [
+          "How to use fiscal in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

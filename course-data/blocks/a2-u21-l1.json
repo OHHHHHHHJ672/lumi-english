@@ -1,0 +1,258 @@
+{
+  "id": "a2-u21-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "银行转账",
+  "subtitle": "办理转账、账户和收据",
+  "theme": "银行转账",
+  "grammarFocus": "banking",
+  "grammarTags": [
+    "banking"
+  ],
+  "words": [
+    [
+      "transfer",
+      "转账"
+    ],
+    [
+      "account",
+      "账户"
+    ],
+    [
+      "receipt",
+      "收据"
+    ]
+  ],
+  "pairs": [
+    [
+      "transfer",
+      "转账"
+    ],
+    [
+      "account",
+      "账户"
+    ],
+    [
+      "receipt",
+      "收据"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u21-l1-q1",
+      "kind": "word",
+      "prompt": "transfer",
+      "answer": "转账",
+      "translation": "转账",
+      "options": [
+        "转账",
+        "账户",
+        "收据",
+        "问题"
+      ]
+    },
+    {
+      "id": "a2-u21-l1-q2",
+      "kind": "choice",
+      "prompt": "I made the bank transfer this morning.",
+      "audio": "I made the bank transfer this morning.",
+      "answer": "我今天早上完成了银行转账。",
+      "translation": "我今天早上完成了银行转账。",
+      "options": [
+        "我今天早上完成了银行转账。",
+        "你能通过邮件确认转账吗？",
+        "我去年开了一个储蓄账户。",
+        "收据显示了服务费。"
+      ]
+    },
+    {
+      "id": "a2-u21-l1-q3",
+      "kind": "listen",
+      "prompt": "Please check the account number carefully.",
+      "audio": "Please check the account number carefully.",
+      "answer": "请仔细核对账户号码。",
+      "translation": "请仔细核对账户号码。",
+      "options": [
+        "请仔细核对账户号码。",
+        "我去年开了一个储蓄账户。",
+        "收据显示了服务费。",
+        "钱到账户了吗？"
+      ]
+    },
+    {
+      "id": "a2-u21-l1-q4",
+      "kind": "order",
+      "prompt": "收银员给我打印了收据。",
+      "audio": "The cashier printed a receipt for me.",
+      "answer": "The cashier printed a receipt for me.",
+      "translation": "收银员给我打印了收据。",
+      "tokens": [
+        "The",
+        "cashier",
+        "printed",
+        "a",
+        "receipt",
+        "for",
+        "me."
+      ]
+    },
+    {
+      "id": "a2-u21-l1-q5",
+      "kind": "fill",
+      "prompt": "Could you confirm the _____ by email?",
+      "answer": "transfer",
+      "audio": "Could you confirm the transfer by email?",
+      "translation": "你能通过邮件确认转账吗？",
+      "options": [
+        "transfer",
+        "account",
+        "receipt",
+        "message"
+      ]
+    },
+    {
+      "id": "a2-u21-l1-q6",
+      "kind": "match",
+      "prompt": "把「银行转账」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "transfer",
+          "转账"
+        ],
+        [
+          "account",
+          "账户"
+        ],
+        [
+          "receipt",
+          "收据"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u21-l1-q7",
+      "kind": "word",
+      "prompt": "account",
+      "answer": "账户",
+      "translation": "账户",
+      "audio": "account",
+      "options": [
+        "账户",
+        "转账",
+        "收据",
+        "安排"
+      ]
+    },
+    {
+      "id": "a2-u21-l1-q8",
+      "kind": "choice",
+      "prompt": "I opened a savings account last year.",
+      "audio": "I opened a savings account last year.",
+      "answer": "我去年开了一个储蓄账户。",
+      "translation": "我去年开了一个储蓄账户。",
+      "options": [
+        "我去年开了一个储蓄账户。",
+        "钱到账户了吗？",
+        "请保留收据以备记录。",
+        "银行因号码错误取消了转账。"
+      ]
+    },
+    {
+      "id": "a2-u21-l1-q9",
+      "kind": "listen",
+      "prompt": "The receipt shows the service fee.",
+      "audio": "The receipt shows the service fee.",
+      "answer": "收据显示了服务费。",
+      "translation": "收据显示了服务费。",
+      "options": [
+        "收据显示了服务费。",
+        "钱到账户了吗？",
+        "请保留收据以备记录。",
+        "银行因号码错误取消了转账。"
+      ]
+    },
+    {
+      "id": "a2-u21-l1-q10",
+      "kind": "fill",
+      "prompt": "Please keep the _____ for your records.",
+      "answer": "receipt",
+      "audio": "Please keep the receipt for your records.",
+      "translation": "请保留收据以备记录。",
+      "options": [
+        "account",
+        "transfer",
+        "receipt",
+        "plan"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u21-l1-dialogue",
+    "scene": "银行转账",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I made the bank transfer this morning.",
+        "translation": "我今天早上完成了银行转账。"
+      },
+      {
+        "speaker": "partner",
+        "text": "Please check the account number carefully.",
+        "translation": "请仔细核对账户号码。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "The cashier printed a receipt for me.",
+        "translation": "收银员给我打印了收据。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is this conversation mainly about?",
+        "answer": "我今天早上完成了银行转账。",
+        "options": [
+          "我今天早上完成了银行转账。",
+          "你能通过邮件确认转账吗？",
+          "钱到账户了吗？"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

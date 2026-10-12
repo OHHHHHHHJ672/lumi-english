@@ -1,0 +1,245 @@
+{
+  "id": "a1-u8-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "第一次旅行",
+  "subtitle": "处理机场、酒店和行李",
+  "theme": "first-trip",
+  "grammarFocus": "present-simple",
+  "grammarTags": [
+    "present-simple",
+    "travel-language"
+  ],
+  "sourceStatus": "hand-authored",
+  "words": [
+    [
+      "luggage",
+      "行李"
+    ],
+    [
+      "boarding",
+      "登机"
+    ],
+    [
+      "destination",
+      "目的地"
+    ]
+  ],
+  "dialogue": {
+    "id": "a1-u8-l1-dialogue",
+    "scene": "机场寻找行李",
+    "characters": [
+      {
+        "id": "leo",
+        "name": "Leo"
+      },
+      {
+        "id": "agent",
+        "name": "Kim"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "leo",
+        "text": "Where can I collect my luggage?",
+        "translation": "我在哪里可以取行李？"
+      },
+      {
+        "speaker": "agent",
+        "text": "The baggage claim is downstairs, next to the blue signs.",
+        "translation": "行李提取处在楼下，蓝色标志旁边。"
+      },
+      {
+        "speaker": "leo",
+        "text": "Thank you. My destination is Lisbon.",
+        "translation": "谢谢。我的目的地是里斯本。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Where is the baggage claim?",
+        "answer": "Downstairs, next to the blue signs",
+        "options": [
+          "Downstairs, next to the blue signs",
+          "Inside the hotel lobby",
+          "Beside the departure gate"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "a1-u8-l1-q1",
+      "kind": "word",
+      "prompt": "luggage · 第一次旅行",
+      "audio": "luggage",
+      "instruction": "选择这个词的直译",
+      "answer": "行李",
+      "options": [
+        "行李",
+        "登机口",
+        "护照",
+        "目的地"
+      ],
+      "translation": "行李"
+    },
+    {
+      "id": "a1-u8-l1-q2",
+      "kind": "choice",
+      "prompt": "Where can I collect my luggage?",
+      "instruction": "选择这句机场问句的意思。",
+      "answer": "我在哪里可以取行李？",
+      "options": [
+        "我在哪里可以取行李？",
+        "请在登机前准备好护照。",
+        "酒店靠近车站，机场巴士停在外面。",
+        "机场巴士每天早上在酒店停靠。"
+      ],
+      "audio": "Where can I collect my luggage?",
+      "translation": "我在哪里可以取行李？"
+    },
+    {
+      "id": "a1-u8-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "机场巴士每天早上在酒店停靠。",
+      "options": [
+        "机场巴士每天早上在酒店停靠。",
+        "请在登机前准备好护照。",
+        "酒店靠近车站，机场巴士停在外面。",
+        "我在哪里可以取行李？"
+      ],
+      "audio": "The airport bus stops at the hotel every morning.",
+      "translation": "机场巴士每天早上在酒店停靠。"
+    },
+    {
+      "id": "a1-u8-l1-q4",
+      "kind": "order",
+      "prompt": "我们预订了车站附近的一间房。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We booked a room near the station.",
+      "tokens": [
+        "We",
+        "booked",
+        "a",
+        "room",
+        "near",
+        "the",
+        "station."
+      ],
+      "audio": "We booked a room near the station.",
+      "translation": "我们预订了车站附近的一间房。"
+    },
+    {
+      "id": "a1-u8-l1-q5",
+      "kind": "fill",
+      "prompt": "Our final _____ is Lisbon.",
+      "instruction": "选择旅行计划中的英文词。",
+      "answer": "destination",
+      "options": [
+        "destination",
+        "luggage",
+        "boarding",
+        "station"
+      ],
+      "audio": "Our final destination is Lisbon.",
+      "translation": "我们的最终目的地是里斯本。"
+    },
+    {
+      "id": "a1-u8-l1-q6",
+      "kind": "match",
+      "prompt": "把旅行场景中的词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "luggage",
+          "行李"
+        ],
+        [
+          "boarding",
+          "登机"
+        ],
+        [
+          "destination",
+          "目的地"
+        ],
+        [
+          "gate",
+          "登机口"
+        ],
+        [
+          "station",
+          "车站"
+        ],
+        [
+          "room",
+          "房间"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "行李、登机、目的地、登机口、车站、房间"
+    },
+    {
+      "id": "a1-u8-l1-q7",
+      "kind": "word",
+      "prompt": "destination · 第一次旅行",
+      "audio": "destination",
+      "instruction": "选择这个词的直译",
+      "answer": "目的地",
+      "options": [
+        "目的地",
+        "行李",
+        "机场",
+        "护照"
+      ],
+      "translation": "目的地"
+    },
+    {
+      "id": "a1-u8-l1-q8",
+      "kind": "choice",
+      "prompt": "The hotel is near the station and the airport bus stops outside.",
+      "instruction": "选择这句旅行表达的意思。",
+      "answer": "酒店靠近车站，机场巴士停在外面。",
+      "options": [
+        "酒店靠近车站，机场巴士停在外面。",
+        "我在哪里可以取行李？",
+        "机场巴士每天早上在酒店停靠。",
+        "请在登机前准备好护照。"
+      ],
+      "audio": "The hotel is near the station and the airport bus stops outside.",
+      "translation": "酒店靠近车站，机场巴士停在外面。"
+    },
+    {
+      "id": "a1-u8-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "请在登机前准备好护照。",
+      "options": [
+        "请在登机前准备好护照。",
+        "我在哪里可以取行李？",
+        "酒店靠近车站，机场巴士停在外面。",
+        "机场巴士每天早上在酒店停靠。"
+      ],
+      "audio": "Please keep your passport ready before boarding.",
+      "translation": "请在登机前准备好护照。"
+    },
+    {
+      "id": "a1-u8-l1-q10",
+      "kind": "fill",
+      "prompt": "The luggage tag _____ our destination.",
+      "instruction": "选择一般现在时的正确形式。",
+      "answer": "shows",
+      "options": [
+        "shows",
+        "show",
+        "showing",
+        "showed"
+      ],
+      "audio": "The luggage tag shows our destination.",
+      "translation": "行李标签显示我们的目的地。"
+    }
+  ]
+}

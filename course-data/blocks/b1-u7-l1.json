@@ -1,0 +1,364 @@
+{
+  "id": "b1-u7-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "解决问题",
+  "subtitle": "说明原因、方案和下一步",
+  "theme": "解决问题",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "obstacle",
+      "障碍"
+    ],
+    [
+      "alternative",
+      "替代方案"
+    ],
+    [
+      "resolve",
+      "解决"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u7-l1-q1",
+      "kind": "word",
+      "prompt": "obstacle · 解决问题",
+      "audio": "obstacle",
+      "instruction": "选择适合语境的表达。",
+      "answer": "obstacle",
+      "translation": "障碍",
+      "lessonId": "b1-u7-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "障碍",
+        "替代方案",
+        "解决",
+        "报告"
+      ]
+    },
+    {
+      "id": "b1-u7-l1-q2",
+      "kind": "choice",
+      "prompt": "What obstacle has the team identified?",
+      "audio": "What obstacle has the team identified?",
+      "instruction": "选择适合语境的表达。",
+      "answer": "团队找到了什么障碍？",
+      "translation": "团队找到了什么障碍？",
+      "lessonId": "b1-u7-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "团队找到了什么障碍？",
+        "我们测试过替代链接。",
+        "它解决了今天的问题。",
+        "这句话没有说明原因。"
+      ]
+    },
+    {
+      "id": "b1-u7-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "We have tested an alternative link.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我们测试过替代链接。",
+      "translation": "我们测试过替代链接。",
+      "lessonId": "b1-u7-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们测试过替代链接。",
+        "团队找到了什么障碍？",
+        "它解决了今天的问题。",
+        "说话人没有做决定。"
+      ]
+    },
+    {
+      "id": "b1-u7-l1-q4",
+      "kind": "order",
+      "prompt": "它解决了今天的问题。",
+      "audio": "That resolves today’s problem.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "That resolves today’s problem.",
+      "translation": "它解决了今天的问题。",
+      "lessonId": "b1-u7-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "That",
+        "resolves",
+        "today’s",
+        "problem."
+      ]
+    },
+    {
+      "id": "b1-u7-l1-q5",
+      "kind": "fill",
+      "prompt": "We have _____ the alternative before Friday.",
+      "audio": "We have reviewed the alternative before Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "reviewed",
+      "translation": "reviewed",
+      "lessonId": "b1-u7-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u7-l1-q6",
+      "kind": "match",
+      "prompt": "配对「解决问题」中的重点词。",
+      "audio": "",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "matched",
+      "lessonId": "b1-u7-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "obstacle",
+          "障碍"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "resolve",
+          "解决"
+        ],
+        [
+          "flight",
+          "航班"
+        ],
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u7-l1-q7",
+      "kind": "word",
+      "prompt": "alternative · 解决问题",
+      "audio": "alternative",
+      "instruction": "选择适合语境的表达。",
+      "answer": "alternative",
+      "translation": "替代方案",
+      "lessonId": "b1-u7-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "替代方案",
+        "障碍",
+        "解决",
+        "会议"
+      ]
+    },
+    {
+      "id": "b1-u7-l1-q8",
+      "kind": "choice",
+      "prompt": "She has explained the next step clearly.",
+      "audio": "She has explained the next step clearly.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "她已经清楚解释了下一步。",
+      "translation": "她已经清楚解释了下一步。",
+      "lessonId": "b1-u7-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "她已经清楚解释了下一步。",
+        "团队找到了什么障碍？",
+        "我们测试过替代链接。",
+        "这句话谈的是天气。"
+      ]
+    },
+    {
+      "id": "b1-u7-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，判断下一步。",
+      "audio": "That resolves today’s problem. During the review.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "它解决了今天的问题。",
+      "translation": "它解决了今天的问题。（会议复盘时）",
+      "lessonId": "b1-u7-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "它解决了今天的问题。",
+        "团队找到了什么障碍？",
+        "她已经清楚解释了下一步。",
+        "说话人取消了安排。"
+      ]
+    },
+    {
+      "id": "b1-u7-l1-q10",
+      "kind": "fill",
+      "prompt": "The team must _____ the resolve today.",
+      "audio": "The team must clarify the resolve today.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "clarify",
+      "translation": "clarify",
+      "lessonId": "b1-u7-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u7-l1-dialogue",
+    "scene": "解决问题",
+    "characters": [
+      {
+        "id": "priya",
+        "name": "Priya",
+        "role": "colleague"
+      },
+      {
+        "id": "marco",
+        "name": "Marco",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "priya",
+        "text": "The upload still fails when the file is large.",
+        "translation": "文件太大时上传仍然失败。"
+      },
+      {
+        "speaker": "marco",
+        "text": "I have found an alternative: we can send a private link.",
+        "translation": "我找到了替代方案：我们可以发送私人链接。"
+      },
+      {
+        "speaker": "priya",
+        "text": "That resolves today’s obstacle without changing the deadline.",
+        "translation": "这样解决了今天的障碍，也不用改变截止日期。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Marco提出了什么建议？",
+        "answer": "I have found an alternative: we can send a private link.",
+        "options": [
+          "I have found an alternative: we can send a private link.",
+          "The upload still fails when the file is large.",
+          "That resolves today’s obstacle without changing the deadline."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

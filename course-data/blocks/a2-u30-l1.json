@@ -1,0 +1,230 @@
+{
+  "id": "a2-u30-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "看房",
+  "subtitle": "描述房间、租约和设施",
+  "theme": "housing",
+  "grammarFocus": "housing",
+  "grammarTags": [
+    "housing"
+  ],
+  "words": [
+    [
+      "neighborhood",
+      "社区"
+    ],
+    [
+      "lease",
+      "租约"
+    ],
+    [
+      "furnished",
+      "带家具的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u30-l1-q1",
+      "kind": "word",
+      "prompt": "neighborhood",
+      "answer": "社区",
+      "translation": "社区",
+      "options": [
+        "社区",
+        "租约",
+        "带家具的",
+        "房东"
+      ]
+    },
+    {
+      "id": "a2-u30-l1-q2",
+      "kind": "choice",
+      "prompt": "The neighborhood is quiet but close to the station.",
+      "audio": "The neighborhood is quiet but close to the station.",
+      "answer": "这个社区很安静，但离车站很近。",
+      "translation": "这个社区很安静，但离车站很近。",
+      "options": [
+        "这个社区很安静，但离车站很近。",
+        "这个社区很热闹，但离车站很远。",
+        "这套房子很安静，但没有车站。",
+        "车站很近，所以社区需要搬家。"
+      ]
+    },
+    {
+      "id": "a2-u30-l1-q3",
+      "kind": "listen",
+      "prompt": "听清租约何时到期。",
+      "audio": "The lease ends in September.",
+      "answer": "租约九月到期。",
+      "translation": "租约九月到期。",
+      "options": [
+        "租约九月到期。",
+        "租约九月开始。",
+        "租约下周需要签字。",
+        "九月房租会涨价。"
+      ]
+    },
+    {
+      "id": "a2-u30-l1-q4",
+      "kind": "order",
+      "prompt": "这套公寓配有全套家具。",
+      "audio": "The apartment is fully furnished.",
+      "answer": "The apartment is fully furnished.",
+      "translation": "这套公寓配有全套家具。",
+      "tokens": [
+        "The",
+        "apartment",
+        "is",
+        "fully",
+        "furnished."
+      ]
+    },
+    {
+      "id": "a2-u30-l1-q5",
+      "kind": "fill",
+      "prompt": "Could I read the _____ before signing?",
+      "answer": "lease",
+      "audio": "Could I read the lease before signing?",
+      "translation": "我签字前可以阅读租约吗？",
+      "options": [
+        "lease",
+        "neighborhood",
+        "furnished",
+        "rent"
+      ]
+    },
+    {
+      "id": "a2-u30-l1-q6",
+      "kind": "match",
+      "prompt": "配对看房词语。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "neighborhood",
+          "社区"
+        ],
+        [
+          "lease",
+          "租约"
+        ],
+        [
+          "furnished",
+          "带家具的"
+        ],
+        [
+          "apartment",
+          "公寓"
+        ],
+        [
+          "landlord",
+          "房东"
+        ],
+        [
+          "heating",
+          "供暖"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u30-l1-q7",
+      "kind": "word",
+      "prompt": "furnished",
+      "answer": "带家具的",
+      "translation": "带家具的",
+      "options": [
+        "带家具的",
+        "空的",
+        "安静的",
+        "昂贵的"
+      ]
+    },
+    {
+      "id": "a2-u30-l1-q8",
+      "kind": "choice",
+      "prompt": "The furnished room includes a desk.",
+      "audio": "The furnished room includes a desk.",
+      "answer": "带家具的房间包括书桌。",
+      "translation": "带家具的房间包括书桌。",
+      "options": [
+        "带家具的房间包括书桌。",
+        "空房间需要购买书桌。",
+        "房东把书桌搬出了房间。",
+        "房间包括租约但没有家具。"
+      ]
+    },
+    {
+      "id": "a2-u30-l1-q9",
+      "kind": "listen",
+      "prompt": "听清供暖是否包括在租金里。",
+      "audio": "Is heating included in the rent?",
+      "answer": "房租包括供暖吗？",
+      "translation": "房租包括供暖吗？",
+      "options": [
+        "房租包括供暖吗？",
+        "房租包括水和网络吗？",
+        "供暖会让房租上涨吗？",
+        "房东会在冬天安装供暖吗？"
+      ]
+    },
+    {
+      "id": "a2-u30-l1-q10",
+      "kind": "fill",
+      "prompt": "The landlord showed us the spare _____.",
+      "answer": "room",
+      "audio": "The landlord showed us the spare room.",
+      "translation": "房东给我们看了备用房间。",
+      "options": [
+        "room",
+        "lease",
+        "station",
+        "neighborhood"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u30-l1-dialogue",
+    "scene": "第一次看出租房",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The apartment is bright, but is heating included?",
+        "translation": "这套公寓很明亮，但包括供暖吗？"
+      },
+      {
+        "speaker": "alex",
+        "text": "Yes, and the lease is for one year.",
+        "translation": "包括，租约是一年。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "The neighborhood feels safe, so I would like to apply.",
+        "translation": "社区感觉很安全，所以我想申请。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "How long is the lease?",
+        "answer": "One year",
+        "options": [
+          "One year",
+          "Three months",
+          "Two years",
+          "One week"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

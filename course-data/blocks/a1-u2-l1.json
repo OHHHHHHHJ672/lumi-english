@@ -1,0 +1,241 @@
+{
+  "id": "a1-u2-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "课堂时光",
+  "subtitle": "在教室里听懂简单指令",
+  "theme": "classroom",
+  "grammarFocus": "can-requests",
+  "grammarTags": [
+    "can-requests",
+    "imperatives"
+  ],
+  "sourceStatus": "hand-authored",
+  "words": [
+    [
+      "notebook",
+      "笔记本"
+    ],
+    [
+      "borrow",
+      "借用"
+    ],
+    [
+      "repeat",
+      "重复"
+    ]
+  ],
+  "dialogue": {
+    "id": "a1-u2-l1-dialogue",
+    "scene": "课前借文具",
+    "characters": [
+      {
+        "id": "mia",
+        "name": "Mia"
+      },
+      {
+        "id": "noah",
+        "name": "Noah"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "mia",
+        "text": "Could I borrow your blue pen for a minute?",
+        "translation": "我可以借你的蓝色笔用一下吗？"
+      },
+      {
+        "speaker": "noah",
+        "text": "Sure. Please return it before the class ends.",
+        "translation": "当然。请在下课前还给我。"
+      },
+      {
+        "speaker": "mia",
+        "text": "Thanks. I will copy the homework into my notebook.",
+        "translation": "谢谢。我会把作业抄到笔记本上。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Why does Mia borrow the pen?",
+        "answer": "To copy the homework",
+        "options": [
+          "To copy the homework",
+          "To draw a map",
+          "To buy a notebook"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "a1-u2-l1-q1",
+      "kind": "word",
+      "prompt": "notebook",
+      "instruction": "选择这个词的直译",
+      "answer": "笔记本",
+      "options": [
+        "笔记本",
+        "黑板",
+        "书包",
+        "铅笔盒"
+      ],
+      "translation": "笔记本"
+    },
+    {
+      "id": "a1-u2-l1-q2",
+      "kind": "choice",
+      "prompt": "Could you repeat the last sentence, please?",
+      "instruction": "选择这句课堂请求的意思。",
+      "answer": "你能重复上一句话吗？",
+      "options": [
+        "你能重复上一句话吗？",
+        "请把笔记本打开到第十页。",
+        "在桌子下面。",
+        "老师可以再解释一次。"
+      ],
+      "audio": "Could you repeat the last sentence, please?",
+      "translation": "你能重复上一句话吗？"
+    },
+    {
+      "id": "a1-u2-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "请把笔记本打开到第十页。",
+      "options": [
+        "请把笔记本打开到第十页。",
+        "你能重复上一句话吗？",
+        "在桌子下面。",
+        "老师可以再解释一次。"
+      ],
+      "audio": "Please open your notebook to page ten.",
+      "translation": "请把笔记本打开到第十页。"
+    },
+    {
+      "id": "a1-u2-l1-q4",
+      "kind": "order",
+      "prompt": "你可以借我的铅笔。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "You can borrow my pencil.",
+      "tokens": [
+        "You",
+        "can",
+        "borrow",
+        "my",
+        "pencil."
+      ],
+      "audio": "You can borrow my pencil.",
+      "translation": "你可以借我的铅笔。"
+    },
+    {
+      "id": "a1-u2-l1-q5",
+      "kind": "fill",
+      "prompt": "May I _____ your ruler?",
+      "instruction": "选择合适的英文词完成请求。",
+      "answer": "borrow",
+      "options": [
+        "borrow",
+        "repeat",
+        "open",
+        "listen"
+      ],
+      "audio": "May I borrow your ruler?",
+      "translation": "我可以借你的尺子吗？"
+    },
+    {
+      "id": "a1-u2-l1-q6",
+      "kind": "match",
+      "prompt": "把课堂用品和动作配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "notebook",
+          "笔记本"
+        ],
+        [
+          "borrow",
+          "借用"
+        ],
+        [
+          "repeat",
+          "重复"
+        ],
+        [
+          "pencil",
+          "铅笔"
+        ],
+        [
+          "ruler",
+          "尺子"
+        ],
+        [
+          "board",
+          "黑板"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "笔记本、借用、重复、铅笔、尺子、黑板"
+    },
+    {
+      "id": "a1-u2-l1-q7",
+      "kind": "word",
+      "prompt": "repeat",
+      "instruction": "选择这个词的直译",
+      "answer": "重复",
+      "options": [
+        "重复",
+        "借出",
+        "打开",
+        "回答"
+      ],
+      "translation": "重复"
+    },
+    {
+      "id": "a1-u2-l1-q8",
+      "kind": "choice",
+      "prompt": "You can leave your bag under the desk.",
+      "instruction": "这句话允许学生把包放在哪里？",
+      "answer": "在桌子下面。",
+      "options": [
+        "在桌子下面。",
+        "你能重复上一句话吗？",
+        "请把笔记本打开到第十页。",
+        "老师可以再解释一次。"
+      ],
+      "audio": "You can leave your bag under the desk.",
+      "translation": "你可以把包放在桌子下面。"
+    },
+    {
+      "id": "a1-u2-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "老师可以再解释一次。",
+      "options": [
+        "老师可以再解释一次。",
+        "你能重复上一句话吗？",
+        "请把笔记本打开到第十页。",
+        "在桌子下面。"
+      ],
+      "audio": "The teacher can explain it again.",
+      "translation": "老师可以再解释一次。"
+    },
+    {
+      "id": "a1-u2-l1-q10",
+      "kind": "fill",
+      "prompt": "Please _____ the answer on the board.",
+      "instruction": "选择课堂指令中的正确动词。",
+      "answer": "write",
+      "options": [
+        "write",
+        "borrow",
+        "repeat",
+        "close"
+      ],
+      "audio": "Please write the answer on the board.",
+      "translation": "请把答案写在黑板上。"
+    }
+  ]
+}

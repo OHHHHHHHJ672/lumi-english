@@ -1,0 +1,331 @@
+{
+  "id": "a2-u3-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "购物退换",
+  "subtitle": "比较商品并解决售后问题",
+  "theme": "购物退换",
+  "grammarFocus": "comparatives",
+  "grammarTags": [
+    "comparatives"
+  ],
+  "words": [
+    [
+      "receipt",
+      "收据"
+    ],
+    [
+      "refund",
+      "退款"
+    ],
+    [
+      "discount",
+      "折扣"
+    ]
+  ],
+  "pairs": [
+    [
+      "receipt",
+      "收据"
+    ],
+    [
+      "refund",
+      "退款"
+    ],
+    [
+      "discount",
+      "折扣"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u3-l1-q1",
+      "kind": "word",
+      "prompt": "receipt · 购物退换",
+      "instruction": "选择这个词的直译",
+      "answer": "收据",
+      "options": [
+        "收据",
+        "退款",
+        "折扣",
+        "问题"
+      ],
+      "translation": "收据",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u3-l1-q2",
+      "kind": "choice",
+      "prompt": "I kept the receipt in my wallet.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我把收据放在钱包里。",
+      "translation": "我把收据放在钱包里。",
+      "audio": "I kept the receipt in my wallet.",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "choice"
+      ],
+      "options": [
+        "我把收据放在钱包里。",
+        "我可以把这件衬衫换大一码吗？",
+        "蓝色包比黑色包轻。",
+        "办理退款前请出示收据。"
+      ]
+    },
+    {
+      "id": "a2-u3-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "这件夹克打折后更便宜。",
+      "translation": "这件夹克打折后更便宜。",
+      "audio": "This jacket is cheaper with the discount.",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "listen"
+      ],
+      "options": [
+        "这件夹克打折后更便宜。",
+        "蓝色包比黑色包轻。",
+        "办理退款前请出示收据。",
+        "这个折扣周末结束。"
+      ]
+    },
+    {
+      "id": "a2-u3-l1-q4",
+      "kind": "order",
+      "prompt": "商店为有问题的商品提供退款。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The store offered a refund for the faulty item.",
+      "translation": "商店为有问题的商品提供退款。",
+      "audio": "The store offered a refund for the faulty item.",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "order"
+      ],
+      "tokens": [
+        "The",
+        "store",
+        "offered",
+        "a",
+        "refund",
+        "for",
+        "the",
+        "faulty",
+        "item."
+      ]
+    },
+    {
+      "id": "a2-u3-l1-q5",
+      "kind": "fill",
+      "prompt": "Please keep the _____ for the shirt.",
+      "instruction": "选择英文词完成句子。",
+      "answer": "receipt",
+      "options": [
+        "receipt",
+        "refund",
+        "discount",
+        "message"
+      ],
+      "audio": "Please keep the receipt for the shirt.",
+      "translation": "请保留这件衬衫的收据。",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a2-u3-l1-q6",
+      "kind": "match",
+      "prompt": "把「购物退换」的重点词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "receipt",
+          "收据"
+        ],
+        [
+          "refund",
+          "退款"
+        ],
+        [
+          "discount",
+          "折扣"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "receipt、收据；refund、退款；discount、折扣；message、消息；schedule、日程；meeting、会议",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a2-u3-l1-q7",
+      "kind": "word",
+      "prompt": "refund · 购物退换",
+      "instruction": "选择这个词的直译",
+      "answer": "退款",
+      "options": [
+        "退款",
+        "收据",
+        "折扣",
+        "安排"
+      ],
+      "translation": "退款",
+      "audio": "refund",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u3-l1-q8",
+      "kind": "choice",
+      "prompt": "This discount ends at the weekend during the afternoon.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "这个折扣周末结束。",
+      "options": [
+        "这个折扣周末结束。",
+        "我把收据放在钱包里。",
+        "这件夹克打折后更便宜。",
+        "商店为有问题的商品提供退款。"
+      ],
+      "audio": "This discount ends at the weekend during the afternoon.",
+      "translation": "这个折扣周末结束，在下午。",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "a2-u3-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "新型号比旧型号耐用。",
+      "options": [
+        "新型号比旧型号耐用。",
+        "我把收据放在钱包里。",
+        "这件夹克打折后更便宜。",
+        "商店为有问题的商品提供退款。"
+      ],
+      "audio": "The new model is more durable than the old one before dinner.",
+      "translation": "新型号比旧型号耐用，晚饭前。",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a2-u3-l1-q10",
+      "kind": "fill",
+      "prompt": "They gave me a _____ for the old model.",
+      "instruction": "选择正确的词完成句子。",
+      "answer": "refund",
+      "options": [
+        "refund",
+        "receipt",
+        "discount",
+        "plan"
+      ],
+      "audio": "They gave me a refund for the old model.",
+      "translation": "他们给我退了旧型号的钱。",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u3-l1-dialogue",
+    "scene": "购物退换",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I kept the receipt in my wallet.",
+        "translation": "我把收据放在钱包里。"
+      },
+      {
+        "speaker": "partner",
+        "text": "This jacket is cheaper with the discount.",
+        "translation": "这件夹克打折后更便宜。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "The store offered a refund for the faulty item.",
+        "translation": "商店为有问题的商品提供退款。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is the conversation mainly about?",
+        "answer": "我把收据放在钱包里。",
+        "options": [
+          "我把收据放在钱包里。",
+          "我可以把这件衬衫换大一码吗？",
+          "这个折扣周末结束。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

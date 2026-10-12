@@ -1,0 +1,294 @@
+{
+  "id": "a1-u44-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶火车站",
+  "subtitle": "描述站台上的实时情况",
+  "theme": "train-station-now",
+  "grammarFocus": "present-continuous",
+  "grammarTags": [
+    "present-continuous",
+    "travel-timetables"
+  ],
+  "words": [
+    [
+      "departure-board",
+      "出发牌"
+    ],
+    [
+      "delay",
+      "延误"
+    ],
+    [
+      "conductor",
+      "列车员"
+    ],
+    [
+      "carriage",
+      "车厢"
+    ],
+    [
+      "luggage",
+      "行李"
+    ],
+    [
+      "announce",
+      "宣布"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u44-l1-q1",
+      "kind": "word",
+      "prompt": "carriage · 火车站",
+      "instruction": "选择意思。",
+      "answer": "车厢",
+      "options": [
+        "车厢",
+        "延误",
+        "列车员",
+        "行李"
+      ],
+      "translation": "车厢",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u44-l1-q2",
+      "kind": "choice",
+      "prompt": "The conductor is checking tickets in the first carriage.",
+      "instruction": "选择意思。",
+      "answer": "列车员正在第一节车厢查票。",
+      "options": [
+        "列车员正在第一节车厢查票。",
+        "列车员正在出发牌旁广播。",
+        "乘客正在搬行李下车。",
+        "火车正在站台上延误。"
+      ],
+      "audio": "The conductor is checking tickets in the first carriage.",
+      "translation": "列车员正在第一节车厢查票。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u44-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "出发牌正在显示新的时间。",
+      "options": [
+        "出发牌正在显示新的时间。",
+        "列车员正在打开行李门。",
+        "车厢正在离开站台。",
+        "延误正在缩短五分钟。"
+      ],
+      "audio": "The departure board is showing a new time.",
+      "translation": "出发牌正在显示新的时间。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u44-l1-q4",
+      "kind": "order",
+      "prompt": "乘客正在搬运行李。",
+      "instruction": "组成英文句子。",
+      "answer": "The passengers are carrying luggage.",
+      "audio": "The passengers are carrying luggage.",
+      "translation": "乘客正在搬运行李。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u44-l1-q5",
+      "kind": "fill",
+      "prompt": "The train is _____ twenty minutes late.",
+      "instruction": "选择介词。",
+      "answer": "running",
+      "options": [
+        "running",
+        "runs",
+        "run",
+        "ran"
+      ],
+      "audio": "The train is running twenty minutes late.",
+      "translation": "火车晚点二十分钟。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u44-l1-q6",
+      "kind": "match",
+      "prompt": "配对火车站实时信息词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "departure-board",
+          "出发牌"
+        ],
+        [
+          "delay",
+          "延误"
+        ],
+        [
+          "conductor",
+          "列车员"
+        ],
+        [
+          "carriage",
+          "车厢"
+        ],
+        [
+          "luggage",
+          "行李"
+        ],
+        [
+          "announce",
+          "宣布"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "出发牌、延误、列车员、车厢、行李、宣布",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u44-l1-q7",
+      "kind": "word",
+      "prompt": "delay · 火车站",
+      "instruction": "选择意思。",
+      "answer": "延误",
+      "options": [
+        "延误",
+        "车厢",
+        "出发牌",
+        "行李"
+      ],
+      "translation": "延误",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u44-l1-q8",
+      "kind": "choice",
+      "prompt": "A staff member is announcing a platform change.",
+      "instruction": "选择意思。",
+      "answer": "一名工作人员正在宣布站台变更。",
+      "options": [
+        "一名工作人员正在宣布站台变更。",
+        "一名列车员正在检查车票。",
+        "一名乘客正在搬行李。",
+        "一名司机正在打开车厢。"
+      ],
+      "audio": "A staff member is announcing a platform change.",
+      "translation": "一名工作人员正在宣布站台变更。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u44-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "人们正在排队上车。",
+      "options": [
+        "人们正在排队上车。",
+        "人们正在站台买票。",
+        "人们正在打开出发牌。",
+        "人们正在整理车厢。"
+      ],
+      "audio": "People are lining up to board.",
+      "translation": "人们正在排队上车。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u44-l1-q10",
+      "kind": "fill",
+      "prompt": "The conductor is _____ an announcement.",
+      "instruction": "选择动词。",
+      "answer": "making",
+      "options": [
+        "making",
+        "make",
+        "made",
+        "makes"
+      ],
+      "audio": "The conductor is making an announcement.",
+      "translation": "列车员正在广播。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u44-l1-dialogue",
+    "scene": "站台等待列车",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "worker",
+        "name": "Worker"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Why are people waiting on platform six?",
+        "translation": "为什么人们在六号站台等候？"
+      },
+      {
+        "speaker": "worker",
+        "text": "The train is running late because of rain.",
+        "translation": "火车因下雨晚点了。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will listen for the next announcement.",
+        "translation": "我会留意下一次广播。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

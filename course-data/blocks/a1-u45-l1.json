@@ -1,0 +1,294 @@
+{
+  "id": "a1-u45-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶邮寄包裹",
+  "subtitle": "准备并寄出包裹",
+  "theme": "parcel-posting",
+  "grammarFocus": "imperatives",
+  "grammarTags": [
+    "imperatives",
+    "postal-services"
+  ],
+  "words": [
+    [
+      "parcel",
+      "包裹"
+    ],
+    [
+      "tape",
+      "胶带"
+    ],
+    [
+      "label",
+      "标签"
+    ],
+    [
+      "box",
+      "盒子"
+    ],
+    [
+      "sender",
+      "寄件人"
+    ],
+    [
+      "receiver",
+      "收件人"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u45-l1-q1",
+      "kind": "word",
+      "prompt": "label · 邮寄包裹",
+      "instruction": "选择意思。",
+      "answer": "标签",
+      "options": [
+        "标签",
+        "胶带",
+        "盒子",
+        "收件人"
+      ],
+      "translation": "标签",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u45-l1-q2",
+      "kind": "choice",
+      "prompt": "Please write the receiver's address on the label.",
+      "instruction": "选择意思。",
+      "answer": "请把收件人的地址写在标签上。",
+      "options": [
+        "请把收件人的地址写在标签上。",
+        "请把寄件人的姓名写在盒子里。",
+        "请用胶带封住包裹。",
+        "请把包裹放到柜台。"
+      ],
+      "audio": "Please write the receiver's address on the label.",
+      "translation": "请把收件人的地址写在标签上。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u45-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请用胶带封好盒子。",
+      "options": [
+        "请用胶带封好盒子。",
+        "请在标签上写邮编。",
+        "请称一下包裹重量。",
+        "请把收件人的地址读出来。"
+      ],
+      "audio": "Please seal the box with tape.",
+      "translation": "请用胶带封好盒子。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u45-l1-q4",
+      "kind": "order",
+      "prompt": "寄件人填写这张表。",
+      "instruction": "组成英文句子。",
+      "answer": "The sender fills in this form.",
+      "audio": "The sender fills in this form.",
+      "translation": "寄件人填写这张表。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u45-l1-q5",
+      "kind": "fill",
+      "prompt": "Put the toy in the _____ first.",
+      "instruction": "选择名词。",
+      "answer": "box",
+      "options": [
+        "box",
+        "label",
+        "tape",
+        "parcel"
+      ],
+      "audio": "Put the toy in the box first.",
+      "translation": "先把玩具放进盒子。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u45-l1-q6",
+      "kind": "match",
+      "prompt": "配对邮寄包裹词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "parcel",
+          "包裹"
+        ],
+        [
+          "tape",
+          "胶带"
+        ],
+        [
+          "label",
+          "标签"
+        ],
+        [
+          "box",
+          "盒子"
+        ],
+        [
+          "sender",
+          "寄件人"
+        ],
+        [
+          "receiver",
+          "收件人"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "包裹、胶带、标签、盒子、寄件人、收件人",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u45-l1-q7",
+      "kind": "word",
+      "prompt": "receiver · 邮寄包裹",
+      "instruction": "选择意思。",
+      "answer": "收件人",
+      "options": [
+        "收件人",
+        "寄件人",
+        "包裹",
+        "标签"
+      ],
+      "translation": "收件人",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u45-l1-q8",
+      "kind": "choice",
+      "prompt": "The parcel is ready to leave the post office.",
+      "instruction": "选择意思。",
+      "answer": "包裹已经准备好离开邮局。",
+      "options": [
+        "包裹已经准备好离开邮局。",
+        "包裹正在等待收件人签名。",
+        "包裹还没有贴上标签。",
+        "包裹需要换一个盒子。"
+      ],
+      "audio": "The parcel is ready to leave the post office.",
+      "translation": "包裹已经准备好离开邮局。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u45-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "寄件人忘记写回邮地址。",
+      "options": [
+        "寄件人忘记写回邮地址。",
+        "收件人忘记打开盒子。",
+        "邮局忘记称包裹。",
+        "标签忘记贴在胶带上。"
+      ],
+      "audio": "The sender forgot the return address.",
+      "translation": "寄件人忘记写回邮地址。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u45-l1-q10",
+      "kind": "fill",
+      "prompt": "Please _____ the label firmly.",
+      "instruction": "选择动词。",
+      "answer": "stick",
+      "options": [
+        "stick",
+        "send",
+        "weigh",
+        "open"
+      ],
+      "audio": "Please stick the label firmly.",
+      "translation": "请把标签牢牢贴好。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u45-l1-dialogue",
+    "scene": "邮局寄包裹",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "clerk",
+        "name": "Clerk"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Is this box strong enough for the parcel?",
+        "translation": "这个盒子够结实装包裹吗？"
+      },
+      {
+        "speaker": "clerk",
+        "text": "Yes. Please write the receiver's address here.",
+        "translation": "够。请把收件人地址写在这里。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will add the label before paying.",
+        "translation": "付款前我会贴好标签。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,0 +1,293 @@
+{
+  "id": "a1-u41-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶面包店",
+  "subtitle": "购买面包和甜点",
+  "theme": "bakery",
+  "grammarFocus": "countable-nouns",
+  "grammarTags": [
+    "countable-nouns"
+  ],
+  "words": [
+    [
+      "loaf",
+      "条（面包）"
+    ],
+    [
+      "roll",
+      "小面包"
+    ],
+    [
+      "pastry",
+      "糕点"
+    ],
+    [
+      "fresh",
+      "新鲜的"
+    ],
+    [
+      "oven",
+      "烤箱"
+    ],
+    [
+      "bag",
+      "袋子"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u41-l1-q1",
+      "kind": "word",
+      "prompt": "pastry · 面包店",
+      "instruction": "选择意思。",
+      "answer": "糕点",
+      "options": [
+        "糕点",
+        "面包条",
+        "小面包",
+        "烤箱"
+      ],
+      "translation": "糕点",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u41-l1-q2",
+      "kind": "choice",
+      "prompt": "Could I have two fresh rolls, please?",
+      "instruction": "选择意思。",
+      "answer": "请给我两个新鲜的小面包好吗？",
+      "options": [
+        "请给我两个新鲜的小面包好吗？",
+        "请给我两条刚出炉的面包。",
+        "请给我一个甜点和一杯茶。",
+        "请把两个袋子放在柜台。"
+      ],
+      "audio": "Could I have two fresh rolls, please?",
+      "translation": "请给我两个新鲜的小面包好吗？",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u41-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "那条面包刚从烤箱出来。",
+      "options": [
+        "那条面包刚从烤箱出来。",
+        "那些小面包已经卖完了。",
+        "糕点在柜台下面。",
+        "袋子在窗边。"
+      ],
+      "audio": "That loaf has just come out of the oven.",
+      "translation": "那条面包刚从烤箱出来。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u41-l1-q4",
+      "kind": "order",
+      "prompt": "我想要一个苹果派。",
+      "instruction": "组成英文句子。",
+      "answer": "I would like an apple pastry.",
+      "audio": "I would like an apple pastry.",
+      "translation": "我想要一个苹果派。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u41-l1-q5",
+      "kind": "fill",
+      "prompt": "The baker puts bread in the _____.",
+      "instruction": "选择名词。",
+      "answer": "oven",
+      "options": [
+        "oven",
+        "bag",
+        "roll",
+        "pastry"
+      ],
+      "audio": "The baker puts bread in the oven.",
+      "translation": "面包师把面包放进烤箱。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u41-l1-q6",
+      "kind": "match",
+      "prompt": "配对面包店词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "loaf",
+          "条（面包）"
+        ],
+        [
+          "roll",
+          "小面包"
+        ],
+        [
+          "pastry",
+          "糕点"
+        ],
+        [
+          "fresh",
+          "新鲜的"
+        ],
+        [
+          "oven",
+          "烤箱"
+        ],
+        [
+          "bag",
+          "袋子"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "面包条、小面包、糕点、新鲜的、烤箱、袋子",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u41-l1-q7",
+      "kind": "word",
+      "prompt": "loaf · 面包店",
+      "instruction": "选择意思。",
+      "answer": "条（面包）",
+      "options": [
+        "条（面包）",
+        "糕点",
+        "袋子",
+        "烤箱"
+      ],
+      "translation": "条（面包）",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u41-l1-q8",
+      "kind": "choice",
+      "prompt": "There are three chocolate pastries on the tray.",
+      "instruction": "选择意思。",
+      "answer": "托盘上有三个巧克力糕点。",
+      "options": [
+        "托盘上有三个巧克力糕点。",
+        "烤箱里有三条面包。",
+        "柜台上有三个纸袋。",
+        "架子上有三个小面包。"
+      ],
+      "audio": "There are three chocolate pastries on the tray.",
+      "translation": "托盘上有三个巧克力糕点。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u41-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请把面包装进纸袋。",
+      "options": [
+        "请把面包装进纸袋。",
+        "请把糕点放进烤箱。",
+        "请把小面包放上托盘。",
+        "请把袋子放在门边。"
+      ],
+      "audio": "Please put the bread in a paper bag.",
+      "translation": "请把面包装进纸袋。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u41-l1-q10",
+      "kind": "fill",
+      "prompt": "These rolls are still _____.",
+      "instruction": "选择形容词。",
+      "answer": "warm",
+      "options": [
+        "warm",
+        "fresh",
+        "sweet",
+        "round"
+      ],
+      "audio": "These rolls are still warm.",
+      "translation": "这些小面包还是热的。",
+      "grammarTags": [
+        "countable-nouns"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u41-l1-dialogue",
+    "scene": "面包店点单",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "baker",
+        "name": "Baker"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Which bread is fresh this morning?",
+        "translation": "今天早上哪些面包是新鲜的？"
+      },
+      {
+        "speaker": "baker",
+        "text": "The rolls have just come from the oven.",
+        "translation": "小面包刚从烤箱出来。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will take two rolls and one pastry.",
+        "translation": "我要两个小面包和一个糕点。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

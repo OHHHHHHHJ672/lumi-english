@@ -1,0 +1,233 @@
+{
+  "id": "a2-u27-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "家庭预算",
+  "subtitle": "计划账单、储蓄和消费",
+  "theme": "household-finance",
+  "grammarFocus": "household-finance",
+  "grammarTags": [
+    "household-finance"
+  ],
+  "words": [
+    [
+      "budget",
+      "预算"
+    ],
+    [
+      "bill",
+      "账单"
+    ],
+    [
+      "saving",
+      "储蓄"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u27-l1-q1",
+      "kind": "word",
+      "prompt": "budget",
+      "answer": "预算",
+      "translation": "预算",
+      "options": [
+        "预算",
+        "账单",
+        "储蓄",
+        "工资"
+      ]
+    },
+    {
+      "id": "a2-u27-l1-q2",
+      "kind": "choice",
+      "prompt": "We made a monthly budget together.",
+      "audio": "We made a monthly budget together.",
+      "answer": "我们一起制定了月度预算。",
+      "translation": "我们一起制定了月度预算。",
+      "options": [
+        "我们一起制定了月度预算。",
+        "我们一起支付了月度账单。",
+        "我们为旅行设定了储蓄目标。",
+        "我们昨天收到了工资。"
+      ]
+    },
+    {
+      "id": "a2-u27-l1-q3",
+      "kind": "listen",
+      "prompt": "听清哪种账单到了。",
+      "audio": "The electricity bill arrived yesterday.",
+      "answer": "电费账单昨天寄到了。",
+      "translation": "电费账单昨天寄到了。",
+      "options": [
+        "电费账单昨天寄到了。",
+        "水费账单今天已经付了。",
+        "电费预算昨天调整了。",
+        "储蓄账户昨天开通了。"
+      ]
+    },
+    {
+      "id": "a2-u27-l1-q4",
+      "kind": "order",
+      "prompt": "我们的储蓄目标是一次短途旅行。",
+      "audio": "Our saving goal is a short holiday.",
+      "answer": "Our saving goal is a short holiday.",
+      "translation": "我们的储蓄目标是一次短途旅行。",
+      "tokens": [
+        "Our",
+        "saving",
+        "goal",
+        "is",
+        "a",
+        "short",
+        "holiday."
+      ]
+    },
+    {
+      "id": "a2-u27-l1-q5",
+      "kind": "fill",
+      "prompt": "Can we lower the _____ for eating out?",
+      "audio": "Can we lower the budget for eating out?",
+      "answer": "budget",
+      "translation": "我们能降低外食预算吗？",
+      "options": [
+        "budget",
+        "bill",
+        "saving",
+        "salary"
+      ]
+    },
+    {
+      "id": "a2-u27-l1-q6",
+      "kind": "match",
+      "prompt": "配对家庭预算词语。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "budget",
+          "预算"
+        ],
+        [
+          "bill",
+          "账单"
+        ],
+        [
+          "saving",
+          "储蓄"
+        ],
+        [
+          "expense",
+          "支出"
+        ],
+        [
+          "income",
+          "收入"
+        ],
+        [
+          "rent",
+          "房租"
+        ]
+      ],
+      "translation": "预算、账单、储蓄、支出、收入、房租"
+    },
+    {
+      "id": "a2-u27-l1-q7",
+      "kind": "word",
+      "prompt": "bill",
+      "answer": "账单",
+      "translation": "账单",
+      "options": [
+        "账单",
+        "预算",
+        "折扣",
+        "储蓄"
+      ]
+    },
+    {
+      "id": "a2-u27-l1-q8",
+      "kind": "choice",
+      "prompt": "I paid the water bill online.",
+      "audio": "I paid the water bill online.",
+      "answer": "我在网上付了水费。",
+      "translation": "我在网上付了水费。",
+      "options": [
+        "我在网上付了水费。",
+        "我在网上制定了预算。",
+        "我在银行开了储蓄账户。",
+        "我在网上申请了工资。"
+      ]
+    },
+    {
+      "id": "a2-u27-l1-q9",
+      "kind": "listen",
+      "prompt": "听清储蓄目标何时完成。",
+      "audio": "We reached our saving goal in June.",
+      "answer": "我们六月达到了储蓄目标。",
+      "translation": "我们六月达到了储蓄目标。",
+      "options": [
+        "我们六月达到了储蓄目标。",
+        "我们六月开始支付账单。",
+        "我们七月降低了预算。",
+        "我们六月收到了工资。"
+      ]
+    },
+    {
+      "id": "a2-u27-l1-q10",
+      "kind": "fill",
+      "prompt": "The _____ was higher than last month.",
+      "audio": "The bill was higher than last month.",
+      "answer": "bill",
+      "translation": "账单比上个月高。",
+      "options": [
+        "bill",
+        "budget",
+        "saving",
+        "income"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u27-l1-dialogue",
+    "scene": "一起做家庭预算",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The electricity bill is higher this month.",
+        "translation": "这个月电费账单更高。"
+      },
+      {
+        "speaker": "alex",
+        "text": "Then let us lower our eating-out budget.",
+        "translation": "那我们降低外食预算吧。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Good. We can put the difference into our holiday savings.",
+        "translation": "好。我们可以把差额存进旅行储蓄。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What will they lower?",
+        "answer": "Their eating-out budget",
+        "options": [
+          "Their eating-out budget",
+          "Their electricity bill",
+          "Their holiday savings",
+          "Their rent"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

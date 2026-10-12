@@ -1,0 +1,566 @@
+{
+  "id": "b1-u43-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "进阶季度财务",
+  "subtitle": "说明利润、负债和季度",
+  "theme": "进阶季度财务",
+  "grammarFocus": "comparatives",
+  "grammarTags": [
+    "comparatives"
+  ],
+  "words": [
+    [
+      "margin",
+      "利润率"
+    ],
+    [
+      "liability",
+      "负债"
+    ],
+    [
+      "quarterly",
+      "季度的"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "margin · 进阶季度财务",
+      "audio": "margin",
+      "instruction": "选择这个词的直译",
+      "answer": "利润率",
+      "options": [
+        "利润率",
+        "负债",
+        "季度的",
+        "问题"
+      ],
+      "translation": "利润率",
+      "id": "b1-u43-l1-q1",
+      "lessonId": "b1-u43-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The margin is more useful than the old one.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "利润率比旧的更有用。",
+      "options": [
+        "利润率比旧的更有用。",
+        "负债比旧的更有用。",
+        "负债比旧的更有用。，为我们的团队。",
+        "季度的比旧的更有用。，午饭前。"
+      ],
+      "audio": "The margin is more useful than the old one.",
+      "translation": "利润率比旧的更有用。",
+      "id": "b1-u43-l1-q2",
+      "lessonId": "b1-u43-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "负债比旧的更有用。",
+      "options": [
+        "利润率比旧的更有用。",
+        "负债比旧的更有用。",
+        "负债比旧的更有用。，为我们的团队。",
+        "季度的比旧的更有用。，午饭前。"
+      ],
+      "audio": "The liability is more useful than the old one.",
+      "translation": "负债比旧的更有用。",
+      "id": "b1-u43-l1-q3",
+      "lessonId": "b1-u43-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "季度的比旧的更有用。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The quarterly is more useful than the old one.",
+      "tokens": [
+        "The",
+        "quarterly",
+        "is",
+        "more",
+        "useful",
+        "than",
+        "the",
+        "old",
+        "one."
+      ],
+      "audio": "The quarterly is more useful than the old one.",
+      "translation": "季度的比旧的更有用。",
+      "id": "b1-u43-l1-q4",
+      "lessonId": "b1-u43-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ for our team.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "margin",
+      "options": [
+        "margin",
+        "liability",
+        "quarterly",
+        "message"
+      ],
+      "audio": "Please check the margin for our team.",
+      "translation": "请为我们的团队检查利润率。",
+      "id": "b1-u43-l1-q5",
+      "lessonId": "b1-u43-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶季度财务」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "margin、利润率；liability、负债；quarterly、季度的；message、消息；schedule、日程；meeting、会议",
+      "id": "b1-u43-l1-q6",
+      "lessonId": "b1-u43-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "liability · 进阶季度财务",
+      "audio": "liability",
+      "instruction": "选择这个词的直译",
+      "answer": "负债",
+      "options": [
+        "负债",
+        "利润率",
+        "季度的",
+        "安排"
+      ],
+      "translation": "负债",
+      "id": "b1-u43-l1-q7",
+      "lessonId": "b1-u43-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The liability is more useful than the old one. for our team.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "负债比旧的更有用。，为我们的团队。",
+      "options": [
+        "利润率比旧的更有用。",
+        "负债比旧的更有用。",
+        "负债比旧的更有用。，为我们的团队。",
+        "季度的比旧的更有用。，午饭前。"
+      ],
+      "audio": "The liability is more useful than the old one. for our team.",
+      "translation": "负债比旧的更有用。，为我们的团队。",
+      "id": "b1-u43-l1-q8",
+      "lessonId": "b1-u43-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "季度的比旧的更有用。，午饭前。",
+      "options": [
+        "利润率比旧的更有用。",
+        "负债比旧的更有用。",
+        "负债比旧的更有用。，为我们的团队。",
+        "季度的比旧的更有用。，午饭前。"
+      ],
+      "audio": "The quarterly is more useful than the old one. before lunch.",
+      "translation": "季度的比旧的更有用。，午饭前。",
+      "id": "b1-u43-l1-q9",
+      "lessonId": "b1-u43-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the liability before lunch.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the liability before lunch.",
+      "translation": "我们需要午饭前检查负债。",
+      "id": "b1-u43-l1-q10",
+      "lessonId": "b1-u43-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "glossary": [
+        [
+          "margin",
+          "利润率"
+        ],
+        [
+          "liability",
+          "负债"
+        ],
+        [
+          "quarterly",
+          "季度的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u43-l1-dialogue",
+    "scene": "进阶季度财务",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about margin?",
+        "translation": "你能再告诉我一些关于利润率的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use margin when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到利润率。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use margin in a daily plan",
+        "options": [
+          "How to use margin in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,293 @@
+{
+  "id": "a1-u37-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶晨间清单",
+  "subtitle": "说清早晨要做的事",
+  "theme": "morning-checklist",
+  "grammarFocus": "present-simple",
+  "grammarTags": [
+    "present-simple"
+  ],
+  "words": [
+    [
+      "sunrise",
+      "日出"
+    ],
+    [
+      "checklist",
+      "清单"
+    ],
+    [
+      "hurry",
+      "匆忙"
+    ],
+    [
+      "brush",
+      "刷"
+    ],
+    [
+      "pack",
+      "收拾"
+    ],
+    [
+      "alarm",
+      "闹钟"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u37-l1-q1",
+      "kind": "word",
+      "prompt": "checklist · 晨间清单",
+      "instruction": "选择意思。",
+      "answer": "清单",
+      "options": [
+        "清单",
+        "日出",
+        "匆忙",
+        "闹钟"
+      ],
+      "translation": "清单",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u37-l1-q2",
+      "kind": "choice",
+      "prompt": "I brush my teeth before I pack my bag.",
+      "instruction": "选择意思。",
+      "answer": "我在收拾书包前刷牙。",
+      "options": [
+        "我在收拾书包前刷牙。",
+        "我在日出前跑步。",
+        "我在上班前吃午饭。",
+        "我在晚上关掉闹钟。"
+      ],
+      "audio": "I brush my teeth before I pack my bag.",
+      "translation": "我在收拾书包前刷牙。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u37-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "闹钟每天六点响。",
+      "options": [
+        "闹钟每天六点响。",
+        "清单每天六点更新。",
+        "太阳每天六点落下。",
+        "他每天六点出发。"
+      ],
+      "audio": "The alarm rings at six every morning.",
+      "translation": "闹钟每天六点响。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u37-l1-q4",
+      "kind": "order",
+      "prompt": "我通常在八点前离开家。",
+      "instruction": "组成英文句子。",
+      "answer": "I usually leave home before eight.",
+      "audio": "I usually leave home before eight.",
+      "translation": "我通常在八点前离开家。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u37-l1-q5",
+      "kind": "fill",
+      "prompt": "We _____ the morning checklist together.",
+      "instruction": "选择正确形式。",
+      "answer": "read",
+      "options": [
+        "read",
+        "reads",
+        "reading",
+        "readed"
+      ],
+      "audio": "We read the morning checklist together.",
+      "translation": "我们一起阅读晨间清单。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u37-l1-q6",
+      "kind": "match",
+      "prompt": "配对晨间清单词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "sunrise",
+          "日出"
+        ],
+        [
+          "checklist",
+          "清单"
+        ],
+        [
+          "hurry",
+          "匆忙"
+        ],
+        [
+          "brush",
+          "刷"
+        ],
+        [
+          "pack",
+          "收拾"
+        ],
+        [
+          "alarm",
+          "闹钟"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "日出、清单、匆忙、刷、收拾、闹钟",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u37-l1-q7",
+      "kind": "word",
+      "prompt": "hurry · 晨间清单",
+      "instruction": "选择意思。",
+      "answer": "匆忙",
+      "options": [
+        "匆忙",
+        "日出",
+        "收拾",
+        "清单"
+      ],
+      "translation": "匆忙",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u37-l1-q8",
+      "kind": "choice",
+      "prompt": "My sister checks the bus time before breakfast.",
+      "instruction": "选择意思。",
+      "answer": "我姐姐早餐前查看公交时间。",
+      "options": [
+        "我姐姐早餐前查看公交时间。",
+        "我姐姐晚饭前打包午餐。",
+        "我姐姐每天六点刷牙。",
+        "我姐姐在日出时关闹钟。"
+      ],
+      "audio": "My sister checks the bus time before breakfast.",
+      "translation": "我姐姐早餐前查看公交时间。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u37-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "他匆忙地穿上外套。",
+      "options": [
+        "他匆忙地穿上外套。",
+        "他仔细地读清单。",
+        "他安静地刷牙。",
+        "他慢慢地收拾书包。"
+      ],
+      "audio": "He puts on his coat in a hurry.",
+      "translation": "他匆忙地穿上外套。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u37-l1-q10",
+      "kind": "fill",
+      "prompt": "The sun _____ above the hills.",
+      "instruction": "选择正确动词。",
+      "answer": "rises",
+      "options": [
+        "rises",
+        "rise",
+        "rising",
+        "rose"
+      ],
+      "audio": "The sun rises above the hills.",
+      "translation": "太阳从山丘上升起。",
+      "grammarTags": [
+        "present-simple"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u37-l1-dialogue",
+    "scene": "早晨出门",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Did you check the morning list?",
+        "translation": "你看过晨间清单了吗？"
+      },
+      {
+        "speaker": "alex",
+        "text": "Yes. I brushed my teeth and packed my bag.",
+        "translation": "看过了。我刷了牙，也收拾好了书包。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Great, the bus leaves in ten minutes.",
+        "translation": "很好，公交车十分钟后出发。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,0 +1,367 @@
+{
+  "id": "b1-u17-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "环境行动",
+  "subtitle": "讨论节水、排放和可重复使用品",
+  "theme": "环境行动",
+  "grammarFocus": "modal-verbs",
+  "grammarTags": [
+    "modal-verbs"
+  ],
+  "words": [
+    [
+      "conserve",
+      "节约"
+    ],
+    [
+      "emission",
+      "排放"
+    ],
+    [
+      "reusable",
+      "可重复使用的"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "conserve · 环境行动",
+      "audio": "conserve",
+      "instruction": "选择中文意思。",
+      "answer": "节约",
+      "translation": "节约",
+      "options": [
+        "节约",
+        "排放",
+        "可重复使用的",
+        "计划"
+      ],
+      "id": "b1-u17-l1-q1",
+      "lessonId": "b1-u17-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We can conserve water by fixing the leaking tap.",
+      "audio": "We can conserve water by fixing the leaking tap.",
+      "instruction": "选择这句话的意思。",
+      "answer": "修好漏水的水龙头就能节约用水。",
+      "translation": "修好漏水的水龙头就能节约用水。",
+      "options": [
+        "修好漏水的水龙头就能节约用水。",
+        "工厂应当申报每一次重大排放。",
+        "这家咖啡馆必须提供可重复使用的杯子选项。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u17-l1-q2",
+      "lessonId": "b1-u17-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "Factories should report every major emission.",
+      "instruction": "听完整句子。",
+      "answer": "工厂应当申报每一次重大排放。",
+      "translation": "工厂应当申报每一次重大排放。",
+      "options": [
+        "工厂应当申报每一次重大排放。",
+        "修好漏水的水龙头就能节约用水。",
+        "这家咖啡馆必须提供可重复使用的杯子选项。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u17-l1-q3",
+      "lessonId": "b1-u17-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "这家咖啡馆必须提供可重复使用的杯子选项。",
+      "audio": "The café must offer a reusable cup option.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "The café must offer a reusable cup option.",
+      "translation": "这家咖啡馆必须提供可重复使用的杯子选项。",
+      "tokens": [
+        "The",
+        "café",
+        "must",
+        "offer",
+        "a",
+        "reusable",
+        "cup",
+        "option."
+      ],
+      "id": "b1-u17-l1-q4",
+      "lessonId": "b1-u17-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the emission before the meeting.",
+      "audio": "The team has reviewed the emission before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了排放。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u17-l1-q5",
+      "lessonId": "b1-u17-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「环境行动」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "conserve",
+          "节约"
+        ],
+        [
+          "emission",
+          "排放"
+        ],
+        [
+          "reusable",
+          "可重复使用的"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u17-l1-q6",
+      "lessonId": "b1-u17-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "emission · 环境行动",
+      "audio": "emission",
+      "instruction": "选择中文意思。",
+      "answer": "排放",
+      "translation": "排放",
+      "options": [
+        "排放",
+        "节约",
+        "可重复使用的",
+        "问题"
+      ],
+      "id": "b1-u17-l1-q7",
+      "lessonId": "b1-u17-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "You may lower emissions by sharing a ride.",
+      "audio": "You may lower emissions by sharing a ride.",
+      "instruction": "选择这句话的意思。",
+      "answer": "拼车可以降低排放。",
+      "translation": "拼车可以降低排放。",
+      "options": [
+        "拼车可以降低排放。",
+        "修好漏水的水龙头就能节约用水。",
+        "工厂应当申报每一次重大排放。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u17-l1-q8",
+      "lessonId": "b1-u17-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The school could collect rainwater for the garden.",
+      "instruction": "听完整句子。",
+      "answer": "学校可以收集雨水来浇灌花园。",
+      "translation": "学校可以收集雨水来浇灌花园。",
+      "options": [
+        "学校可以收集雨水来浇灌花园。",
+        "修好漏水的水龙头就能节约用水。",
+        "工厂应当申报每一次重大排放。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u17-l1-q9",
+      "lessonId": "b1-u17-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the emissions before Friday.",
+      "audio": "We should clarify the emissions before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清排放。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u17-l1-q10",
+      "lessonId": "b1-u17-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u17-l1-dialogue",
+    "scene": "环境行动",
+    "characters": [
+      {
+        "id": "ella",
+        "name": "Ella",
+        "role": "colleague"
+      },
+      {
+        "id": "victor",
+        "name": "Victor",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "ella",
+        "text": "The community wants a simple way to conserve water this summer.",
+        "translation": "社区想在今年夏天找到简单的节水方法。"
+      },
+      {
+        "speaker": "victor",
+        "text": "We could repair public taps and share weekly usage figures.",
+        "translation": "我们可以维修公共水龙头，并每周分享用水数据。"
+      },
+      {
+        "speaker": "ella",
+        "text": "That plan also helps us explain the reduction in emissions.",
+        "translation": "这个计划也能帮助我们解释排放减少。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Victor提出了什么建议？",
+        "answer": "We could repair public taps and share weekly usage figures.",
+        "options": [
+          "We could repair public taps and share weekly usage figures.",
+          "The community wants a simple way to conserve water this summer.",
+          "That plan also helps us explain the reduction in emissions."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

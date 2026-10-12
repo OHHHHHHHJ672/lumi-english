@@ -1,0 +1,368 @@
+{
+  "id": "b1-u36-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "翻译细微差别",
+  "subtitle": "理解直译、语境和对应表达",
+  "theme": "翻译细微差别",
+  "grammarFocus": "translation",
+  "grammarTags": [
+    "translation"
+  ],
+  "words": [
+    [
+      "literal",
+      "字面上的"
+    ],
+    [
+      "context",
+      "语境"
+    ],
+    [
+      "equivalent",
+      "对应的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u36-l1-q1",
+      "kind": "word",
+      "prompt": "literal · 翻译细微差别",
+      "answer": "literal",
+      "translation": "字面上的",
+      "instruction": "选择适合语境的表达。",
+      "audio": "literal",
+      "lessonId": "b1-u36-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "translation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "字面上的",
+        "语境",
+        "对应的",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u36-l1-q2",
+      "kind": "choice",
+      "prompt": "A literal translation can sound strange without context.",
+      "answer": "没有语境时，字面翻译可能听起来很奇怪。",
+      "translation": "没有语境时，字面翻译可能听起来很奇怪。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "A literal translation can sound strange without context.",
+      "lessonId": "b1-u36-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "translation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "没有语境时，字面翻译可能听起来很奇怪。",
+        "语境表明，用更温和的对应表达会更自然。",
+        "译者核对了中文里是否有对应的表达。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u36-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "语境表明，用更温和的对应表达会更自然。",
+      "translation": "语境表明，用更温和的对应表达会更自然。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The context suggests a warmer equivalent would be more natural.",
+      "lessonId": "b1-u36-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "translation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "语境表明，用更温和的对应表达会更自然。",
+        "没有语境时，字面翻译可能听起来很奇怪。",
+        "译者核对了中文里是否有对应的表达。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u36-l1-q4",
+      "kind": "order",
+      "prompt": "译者核对了中文里是否有对应的表达。",
+      "answer": "The translator checked for an equivalent in Chinese.",
+      "translation": "译者核对了中文里是否有对应的表达。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "The translator checked for an equivalent in Chinese.",
+      "lessonId": "b1-u36-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "translation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "translator",
+        "checked",
+        "for",
+        "an",
+        "equivalent",
+        "in",
+        "Chinese."
+      ]
+    },
+    {
+      "id": "b1-u36-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the context before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了语境。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the context before the meeting.",
+      "lessonId": "b1-u36-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "translation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u36-l1-q6",
+      "kind": "match",
+      "prompt": "配对「翻译细微差别」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u36-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "translation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "literal",
+          "字面上的"
+        ],
+        [
+          "context",
+          "语境"
+        ],
+        [
+          "equivalent",
+          "对应的"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u36-l1-q7",
+      "kind": "word",
+      "prompt": "context · 翻译细微差别",
+      "answer": "context",
+      "translation": "语境",
+      "instruction": "选择适合语境的表达。",
+      "audio": "context",
+      "lessonId": "b1-u36-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "translation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "语境",
+        "字面上的",
+        "对应的",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u36-l1-q8",
+      "kind": "choice",
+      "prompt": "I will revise the greeting and keep the request clear.",
+      "answer": "我会修改问候语并保持请求清晰。",
+      "translation": "我会修改问候语并保持请求清晰。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will revise the greeting and keep the request clear.",
+      "lessonId": "b1-u36-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "translation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会修改问候语并保持请求清晰。",
+        "团队在会议前已经审阅了语境。",
+        "没有语境，字面翻译可能听起来奇怪。",
+        "译者核对了中文中的对应表达。"
+      ]
+    },
+    {
+      "id": "b1-u36-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我们利用上下文来选择语气。",
+      "translation": "我们利用上下文来选择语气。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We used the surrounding context to choose the tone.",
+      "lessonId": "b1-u36-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "translation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们利用上下文来选择语气。",
+        "没有语境时，字面翻译可能听起来很奇怪。",
+        "语境表明，用更温和的对应表达会更自然。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u36-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the equivalent wording before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅对应的措辞。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the equivalent wording before Friday.",
+      "lessonId": "b1-u36-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "translation"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u36-l1-dialogue",
+    "scene": "翻译细微差别",
+    "characters": [
+      {
+        "id": "chen",
+        "name": "Chen",
+        "role": "colleague"
+      },
+      {
+        "id": "aya",
+        "name": "Aya",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "chen",
+        "text": "The literal version is accurate, but it sounds cold in this email.",
+        "translation": "字面版本是准确的，但在这封邮件里听起来很冷。"
+      },
+      {
+        "speaker": "aya",
+        "text": "The context suggests a warmer equivalent would be more natural.",
+        "translation": "语境表明，用更温和的对应表达会更自然。"
+      },
+      {
+        "speaker": "chen",
+        "text": "I will revise the greeting and keep the request clear.",
+        "translation": "我会修改问候语，同时保持请求清楚。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Aya提出了什么建议？",
+        "answer": "The context suggests a warmer equivalent would be more natural.",
+        "options": [
+          "The context suggests a warmer equivalent would be more natural.",
+          "The literal version is accurate, but it sounds cold in this email.",
+          "I will revise the greeting and keep the request clear."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

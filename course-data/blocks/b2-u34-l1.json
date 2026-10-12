@@ -1,0 +1,566 @@
+{
+  "id": "b2-u34-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "行为经济",
+  "subtitle": "讨论激励、偏见和决策",
+  "theme": "行为经济",
+  "grammarFocus": "behavioural-economics",
+  "grammarTags": [
+    "behavioural-economics"
+  ],
+  "words": [
+    [
+      "incentive",
+      "激励"
+    ],
+    [
+      "bias",
+      "偏见"
+    ],
+    [
+      "decision",
+      "决策"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "incentive · 行为经济",
+      "audio": "incentive",
+      "instruction": "选择这个词的直译",
+      "answer": "激励",
+      "options": [
+        "激励",
+        "偏见",
+        "决策",
+        "问题"
+      ],
+      "translation": "激励",
+      "id": "b2-u34-l1-q1",
+      "lessonId": "b2-u34-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "behavioural-economics"
+      ],
+      "glossary": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to discuss the incentive this month.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们本月需要讨论激励。",
+      "options": [
+        "我们本月需要讨论激励。",
+        "我们下班后需要讨论偏见。",
+        "我们下班后需要讨论偏见。，午饭前。",
+        "我们会议期间需要讨论决策。，周五。"
+      ],
+      "audio": "We need to discuss the incentive this month.",
+      "translation": "我们本月需要讨论激励。",
+      "id": "b2-u34-l1-q2",
+      "lessonId": "b2-u34-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "behavioural-economics"
+      ],
+      "glossary": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们下班后需要讨论偏见。",
+      "options": [
+        "我们本月需要讨论激励。",
+        "我们下班后需要讨论偏见。",
+        "我们下班后需要讨论偏见。，午饭前。",
+        "我们会议期间需要讨论决策。，周五。"
+      ],
+      "audio": "We need to discuss the bias after work.",
+      "translation": "我们下班后需要讨论偏见。",
+      "id": "b2-u34-l1-q3",
+      "lessonId": "b2-u34-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "behavioural-economics"
+      ],
+      "glossary": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们会议期间需要讨论决策。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We need to discuss the decision during the meeting.",
+      "tokens": [
+        "We",
+        "need",
+        "to",
+        "discuss",
+        "the",
+        "decision",
+        "during",
+        "the",
+        "meeting."
+      ],
+      "audio": "We need to discuss the decision during the meeting.",
+      "translation": "我们会议期间需要讨论决策。",
+      "id": "b2-u34-l1-q4",
+      "lessonId": "b2-u34-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "behavioural-economics"
+      ],
+      "glossary": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ before lunch.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "incentive",
+      "options": [
+        "incentive",
+        "bias",
+        "decision",
+        "message"
+      ],
+      "audio": "Please check the incentive before lunch.",
+      "translation": "请午饭前检查激励。",
+      "id": "b2-u34-l1-q5",
+      "lessonId": "b2-u34-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "behavioural-economics"
+      ],
+      "glossary": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「行为经济」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "incentive、激励；bias、偏见；decision、决策；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u34-l1-q6",
+      "lessonId": "b2-u34-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "behavioural-economics"
+      ],
+      "glossary": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "bias · 行为经济",
+      "audio": "bias",
+      "instruction": "选择这个词的直译",
+      "answer": "偏见",
+      "options": [
+        "偏见",
+        "激励",
+        "决策",
+        "安排"
+      ],
+      "translation": "偏见",
+      "id": "b2-u34-l1-q7",
+      "lessonId": "b2-u34-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "behavioural-economics"
+      ],
+      "glossary": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to discuss the bias after work. before lunch.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们下班后需要讨论偏见。，午饭前。",
+      "options": [
+        "我们本月需要讨论激励。",
+        "我们下班后需要讨论偏见。",
+        "我们下班后需要讨论偏见。，午饭前。",
+        "我们会议期间需要讨论决策。，周五。"
+      ],
+      "audio": "We need to discuss the bias after work. before lunch.",
+      "translation": "我们下班后需要讨论偏见。，午饭前。",
+      "id": "b2-u34-l1-q8",
+      "lessonId": "b2-u34-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "behavioural-economics"
+      ],
+      "glossary": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们会议期间需要讨论决策。，周五。",
+      "options": [
+        "我们本月需要讨论激励。",
+        "我们下班后需要讨论偏见。",
+        "我们下班后需要讨论偏见。，午饭前。",
+        "我们会议期间需要讨论决策。，周五。"
+      ],
+      "audio": "We need to discuss the decision during the meeting. on Friday.",
+      "translation": "我们会议期间需要讨论决策。，周五。",
+      "id": "b2-u34-l1-q9",
+      "lessonId": "b2-u34-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "behavioural-economics"
+      ],
+      "glossary": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the bias on Friday.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the bias on Friday.",
+      "translation": "我们需要周五检查偏见。",
+      "id": "b2-u34-l1-q10",
+      "lessonId": "b2-u34-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "behavioural-economics"
+      ],
+      "glossary": [
+        [
+          "incentive",
+          "激励"
+        ],
+        [
+          "bias",
+          "偏见"
+        ],
+        [
+          "decision",
+          "决策"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u34-l1-dialogue",
+    "scene": "行为经济",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about incentive?",
+        "translation": "你能再告诉我一些关于激励的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use incentive when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到激励。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use incentive in a daily plan",
+        "options": [
+          "How to use incentive in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,258 @@
+{
+  "id": "a2-u18-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "睡眠健康",
+  "subtitle": "描述睡眠、压力和休息",
+  "theme": "睡眠健康",
+  "grammarFocus": "present-simple",
+  "grammarTags": [
+    "present-simple"
+  ],
+  "words": [
+    [
+      "routine",
+      "作息"
+    ],
+    [
+      "stress",
+      "压力"
+    ],
+    [
+      "rest",
+      "休息"
+    ]
+  ],
+  "pairs": [
+    [
+      "routine",
+      "作息"
+    ],
+    [
+      "stress",
+      "压力"
+    ],
+    [
+      "rest",
+      "休息"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u18-l1-q1",
+      "kind": "word",
+      "prompt": "routine",
+      "answer": "作息",
+      "translation": "作息",
+      "options": [
+        "作息",
+        "压力",
+        "休息",
+        "问题"
+      ]
+    },
+    {
+      "id": "a2-u18-l1-q2",
+      "kind": "choice",
+      "prompt": "A regular sleep routine improves my mood.",
+      "audio": "A regular sleep routine improves my mood.",
+      "answer": "规律作息能改善我的心情。",
+      "translation": "规律作息能改善我的心情。",
+      "options": [
+        "规律作息能改善我的心情。",
+        "我的作息十点开始。",
+        "短暂散步能减轻我的压力。",
+        "我午饭后休息十分钟。"
+      ]
+    },
+    {
+      "id": "a2-u18-l1-q3",
+      "kind": "listen",
+      "prompt": "Too much stress can affect your health.",
+      "audio": "Too much stress can affect your health.",
+      "answer": "压力过大会影响健康。",
+      "translation": "压力过大会影响健康。",
+      "options": [
+        "压力过大会影响健康。",
+        "短暂散步能减轻我的压力。",
+        "我午饭后休息十分钟。",
+        "压力会让你难以入睡吗？"
+      ]
+    },
+    {
+      "id": "a2-u18-l1-q4",
+      "kind": "order",
+      "prompt": "长途旅行前尽量休息。",
+      "audio": "Try to rest before the long journey.",
+      "answer": "Try to rest before the long journey.",
+      "translation": "长途旅行前尽量休息。",
+      "tokens": [
+        "Try",
+        "to",
+        "rest",
+        "before",
+        "the",
+        "long",
+        "journey."
+      ]
+    },
+    {
+      "id": "a2-u18-l1-q5",
+      "kind": "fill",
+      "prompt": "My sleep _____ starts at ten.",
+      "answer": "routine",
+      "audio": "My sleep routine starts at ten.",
+      "translation": "我的作息十点开始。",
+      "options": [
+        "routine",
+        "stress",
+        "rest",
+        "message"
+      ]
+    },
+    {
+      "id": "a2-u18-l1-q6",
+      "kind": "match",
+      "prompt": "把「睡眠健康」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "routine",
+          "作息"
+        ],
+        [
+          "stress",
+          "压力"
+        ],
+        [
+          "rest",
+          "休息"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u18-l1-q7",
+      "kind": "word",
+      "prompt": "stress",
+      "answer": "压力",
+      "translation": "压力",
+      "audio": "stress",
+      "options": [
+        "压力",
+        "作息",
+        "休息",
+        "安排"
+      ]
+    },
+    {
+      "id": "a2-u18-l1-q8",
+      "kind": "choice",
+      "prompt": "A short walk reduces my stress.",
+      "audio": "A short walk reduces my stress.",
+      "answer": "短暂散步能减轻我的压力。",
+      "translation": "短暂散步能减轻我的压力。",
+      "options": [
+        "短暂散步能减轻我的压力。",
+        "压力会让你难以入睡吗？",
+        "她工作日保持规律作息。",
+        "如果你感到累，请休息一下。"
+      ]
+    },
+    {
+      "id": "a2-u18-l1-q9",
+      "kind": "listen",
+      "prompt": "I rest for ten minutes after lunch.",
+      "audio": "I rest for ten minutes after lunch.",
+      "answer": "我午饭后休息十分钟。",
+      "translation": "我午饭后休息十分钟。",
+      "options": [
+        "我午饭后休息十分钟。",
+        "压力会让你难以入睡吗？",
+        "她工作日保持规律作息。",
+        "如果你感到累，请休息一下。"
+      ]
+    },
+    {
+      "id": "a2-u18-l1-q10",
+      "kind": "fill",
+      "prompt": "She keeps a regular _____ on weekdays.",
+      "answer": "routine",
+      "audio": "She keeps a regular routine on weekdays.",
+      "translation": "她工作日保持规律作息。",
+      "options": [
+        "stress",
+        "routine",
+        "rest",
+        "plan"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u18-l1-dialogue",
+    "scene": "睡眠健康",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "A regular sleep routine improves my mood.",
+        "translation": "规律作息能改善我的心情。"
+      },
+      {
+        "speaker": "partner",
+        "text": "Too much stress can affect your health.",
+        "translation": "压力过大会影响健康。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Try to rest before the long journey.",
+        "translation": "长途旅行前尽量休息。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is this conversation mainly about?",
+        "answer": "规律作息能改善我的心情。",
+        "options": [
+          "规律作息能改善我的心情。",
+          "我的作息十点开始。",
+          "压力会让你难以入睡吗？"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

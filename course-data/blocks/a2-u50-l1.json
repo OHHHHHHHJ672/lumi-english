@@ -1,0 +1,563 @@
+{
+  "id": "a2-u50-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶垃圾分类",
+  "subtitle": "解释包装和填埋场",
+  "theme": "进阶垃圾分类",
+  "grammarFocus": "should",
+  "grammarTags": [
+    "should"
+  ],
+  "words": [
+    [
+      "recycling",
+      "回收"
+    ],
+    [
+      "landfill",
+      "填埋场"
+    ],
+    [
+      "packaging",
+      "包装"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "recycling · 进阶垃圾分类",
+      "audio": "recycling",
+      "instruction": "选择这个词的直译",
+      "answer": "回收",
+      "options": [
+        "回收",
+        "填埋场",
+        "包装",
+        "问题"
+      ],
+      "translation": "回收",
+      "id": "a2-u50-l1-q1",
+      "lessonId": "a2-u50-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "You should review the recycling tonight.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "你今晚应该复习回收。",
+      "options": [
+        "你今晚应该复习回收。",
+        "你今晚应该复习填埋场。",
+        "你今晚应该复习填埋场。，会议期间。",
+        "你今晚应该复习包装。，晚饭后。"
+      ],
+      "audio": "You should review the recycling tonight.",
+      "translation": "你今晚应该复习回收。",
+      "id": "a2-u50-l1-q2",
+      "lessonId": "a2-u50-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "你今晚应该复习填埋场。",
+      "options": [
+        "你今晚应该复习回收。",
+        "你今晚应该复习填埋场。",
+        "你今晚应该复习填埋场。，会议期间。",
+        "你今晚应该复习包装。，晚饭后。"
+      ],
+      "audio": "You should review the landfill tonight.",
+      "translation": "你今晚应该复习填埋场。",
+      "id": "a2-u50-l1-q3",
+      "lessonId": "a2-u50-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "你今晚应该复习包装。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "You should review the packaging tonight.",
+      "tokens": [
+        "You",
+        "should",
+        "review",
+        "the",
+        "packaging",
+        "tonight."
+      ],
+      "audio": "You should review the packaging tonight.",
+      "translation": "你今晚应该复习包装。",
+      "id": "a2-u50-l1-q4",
+      "lessonId": "a2-u50-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ during the meeting.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "recycling",
+      "options": [
+        "recycling",
+        "landfill",
+        "packaging",
+        "message"
+      ],
+      "audio": "Please check the recycling during the meeting.",
+      "translation": "请会议期间检查回收。",
+      "id": "a2-u50-l1-q5",
+      "lessonId": "a2-u50-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶垃圾分类」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "recycling、回收；landfill、填埋场；packaging、包装；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u50-l1-q6",
+      "lessonId": "a2-u50-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "landfill · 进阶垃圾分类",
+      "audio": "landfill",
+      "instruction": "选择这个词的直译",
+      "answer": "填埋场",
+      "options": [
+        "填埋场",
+        "回收",
+        "包装",
+        "安排"
+      ],
+      "translation": "填埋场",
+      "id": "a2-u50-l1-q7",
+      "lessonId": "a2-u50-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "You should review the landfill tonight. during the meeting.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "你今晚应该复习填埋场。，会议期间。",
+      "options": [
+        "你今晚应该复习回收。",
+        "你今晚应该复习填埋场。",
+        "你今晚应该复习填埋场。，会议期间。",
+        "你今晚应该复习包装。，晚饭后。"
+      ],
+      "audio": "You should review the landfill tonight. during the meeting.",
+      "translation": "你今晚应该复习填埋场。，会议期间。",
+      "id": "a2-u50-l1-q8",
+      "lessonId": "a2-u50-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "你今晚应该复习包装。，晚饭后。",
+      "options": [
+        "你今晚应该复习回收。",
+        "你今晚应该复习填埋场。",
+        "你今晚应该复习填埋场。，会议期间。",
+        "你今晚应该复习包装。，晚饭后。"
+      ],
+      "audio": "You should review the packaging tonight. after dinner.",
+      "translation": "你今晚应该复习包装。，晚饭后。",
+      "id": "a2-u50-l1-q9",
+      "lessonId": "a2-u50-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the landfill after dinner.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the landfill after dinner.",
+      "translation": "我们需要晚饭后检查填埋场。",
+      "id": "a2-u50-l1-q10",
+      "lessonId": "a2-u50-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "recycling",
+          "回收"
+        ],
+        [
+          "landfill",
+          "填埋场"
+        ],
+        [
+          "packaging",
+          "包装"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u50-l1-dialogue",
+    "scene": "进阶垃圾分类",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about recycling?",
+        "translation": "你能再告诉我一些关于回收的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use recycling when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到回收。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use recycling in a daily plan",
+        "options": [
+          "How to use recycling in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

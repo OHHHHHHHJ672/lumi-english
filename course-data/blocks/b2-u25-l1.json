@@ -1,0 +1,565 @@
+{
+  "id": "b2-u25-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "移民政策",
+  "subtitle": "讨论庇护、融合和流离失所",
+  "theme": "移民政策",
+  "grammarFocus": "migration-policy",
+  "grammarTags": [
+    "migration-policy"
+  ],
+  "words": [
+    [
+      "asylum",
+      "庇护"
+    ],
+    [
+      "integration",
+      "融合"
+    ],
+    [
+      "displacement",
+      "流离失所"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "asylum · 移民政策",
+      "audio": "asylum",
+      "instruction": "选择这个词的直译",
+      "answer": "庇护",
+      "options": [
+        "庇护",
+        "融合",
+        "流离失所",
+        "问题"
+      ],
+      "translation": "庇护",
+      "id": "b2-u25-l1-q1",
+      "lessonId": "b2-u25-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "migration-policy"
+      ],
+      "glossary": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to discuss the asylum after work.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们下班后需要讨论庇护。",
+      "options": [
+        "我们下班后需要讨论庇护。",
+        "我们会议期间需要讨论融合。",
+        "我们会议期间需要讨论融合。，周五。",
+        "我们晚饭后需要讨论流离失所。，这个周末。"
+      ],
+      "audio": "We need to discuss the asylum after work.",
+      "translation": "我们下班后需要讨论庇护。",
+      "id": "b2-u25-l1-q2",
+      "lessonId": "b2-u25-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "migration-policy"
+      ],
+      "glossary": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们会议期间需要讨论融合。",
+      "options": [
+        "我们下班后需要讨论庇护。",
+        "我们会议期间需要讨论融合。",
+        "我们会议期间需要讨论融合。，周五。",
+        "我们晚饭后需要讨论流离失所。，这个周末。"
+      ],
+      "audio": "We need to discuss the integration during the meeting.",
+      "translation": "我们会议期间需要讨论融合。",
+      "id": "b2-u25-l1-q3",
+      "lessonId": "b2-u25-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "migration-policy"
+      ],
+      "glossary": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们晚饭后需要讨论流离失所。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We need to discuss the displacement after dinner.",
+      "tokens": [
+        "We",
+        "need",
+        "to",
+        "discuss",
+        "the",
+        "displacement",
+        "after",
+        "dinner."
+      ],
+      "audio": "We need to discuss the displacement after dinner.",
+      "translation": "我们晚饭后需要讨论流离失所。",
+      "id": "b2-u25-l1-q4",
+      "lessonId": "b2-u25-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "migration-policy"
+      ],
+      "glossary": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ on Friday.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "asylum",
+      "options": [
+        "asylum",
+        "integration",
+        "displacement",
+        "message"
+      ],
+      "audio": "Please check the asylum on Friday.",
+      "translation": "请周五检查庇护。",
+      "id": "b2-u25-l1-q5",
+      "lessonId": "b2-u25-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "migration-policy"
+      ],
+      "glossary": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「移民政策」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "asylum、庇护；integration、融合；displacement、流离失所；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u25-l1-q6",
+      "lessonId": "b2-u25-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "migration-policy"
+      ],
+      "glossary": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "integration · 移民政策",
+      "audio": "integration",
+      "instruction": "选择这个词的直译",
+      "answer": "融合",
+      "options": [
+        "融合",
+        "庇护",
+        "流离失所",
+        "安排"
+      ],
+      "translation": "融合",
+      "id": "b2-u25-l1-q7",
+      "lessonId": "b2-u25-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "migration-policy"
+      ],
+      "glossary": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We need to discuss the integration during the meeting. on Friday.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们会议期间需要讨论融合。，周五。",
+      "options": [
+        "我们下班后需要讨论庇护。",
+        "我们会议期间需要讨论融合。",
+        "我们会议期间需要讨论融合。，周五。",
+        "我们晚饭后需要讨论流离失所。，这个周末。"
+      ],
+      "audio": "We need to discuss the integration during the meeting. on Friday.",
+      "translation": "我们会议期间需要讨论融合。，周五。",
+      "id": "b2-u25-l1-q8",
+      "lessonId": "b2-u25-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "migration-policy"
+      ],
+      "glossary": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们晚饭后需要讨论流离失所。，这个周末。",
+      "options": [
+        "我们下班后需要讨论庇护。",
+        "我们会议期间需要讨论融合。",
+        "我们会议期间需要讨论融合。，周五。",
+        "我们晚饭后需要讨论流离失所。，这个周末。"
+      ],
+      "audio": "We need to discuss the displacement after dinner. this weekend.",
+      "translation": "我们晚饭后需要讨论流离失所。，这个周末。",
+      "id": "b2-u25-l1-q9",
+      "lessonId": "b2-u25-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "migration-policy"
+      ],
+      "glossary": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the integration this weekend.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the integration this weekend.",
+      "translation": "我们需要这个周末检查融合。",
+      "id": "b2-u25-l1-q10",
+      "lessonId": "b2-u25-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "migration-policy"
+      ],
+      "glossary": [
+        [
+          "asylum",
+          "庇护"
+        ],
+        [
+          "integration",
+          "融合"
+        ],
+        [
+          "displacement",
+          "流离失所"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u25-l1-dialogue",
+    "scene": "移民政策",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about asylum?",
+        "translation": "你能再告诉我一些关于庇护的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use asylum when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到庇护。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use asylum in a daily plan",
+        "options": [
+          "How to use asylum in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,367 @@
+{
+  "id": "b1-u19-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "数据分析",
+  "subtitle": "描述样本、平均值和趋势",
+  "theme": "数据分析",
+  "grammarFocus": "quantifiers",
+  "grammarTags": [
+    "quantifiers"
+  ],
+  "words": [
+    [
+      "sample",
+      "样本"
+    ],
+    [
+      "average",
+      "平均值"
+    ],
+    [
+      "trend",
+      "趋势"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "sample · 数据分析",
+      "audio": "sample",
+      "instruction": "选择中文意思。",
+      "answer": "样本",
+      "translation": "样本",
+      "options": [
+        "样本",
+        "平均值",
+        "趋势",
+        "计划"
+      ],
+      "id": "b1-u19-l1-q1",
+      "lessonId": "b1-u19-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quantifiers"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The sample includes responses from four neighborhoods.",
+      "audio": "The sample includes responses from four neighborhoods.",
+      "instruction": "选择这句话的意思。",
+      "answer": "样本包含了来自四个社区的回应。",
+      "translation": "样本包含了来自四个社区的回应。",
+      "options": [
+        "样本包含了来自四个社区的回应。",
+        "从五月以来，平均值略有上升。",
+        "我们在周末使用量上发现了一个趋势。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u19-l1-q2",
+      "lessonId": "b1-u19-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quantifiers"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The average has risen slightly since May.",
+      "instruction": "听完整句子。",
+      "answer": "从五月以来，平均值略有上升。",
+      "translation": "从五月以来，平均值略有上升。",
+      "options": [
+        "从五月以来，平均值略有上升。",
+        "样本包含了来自四个社区的回应。",
+        "我们在周末使用量上发现了一个趋势。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u19-l1-q3",
+      "lessonId": "b1-u19-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quantifiers"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们在周末使用量上发现了一个趋势。",
+      "audio": "We have spotted a trend in weekend use.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "We have spotted a trend in weekend use.",
+      "translation": "我们在周末使用量上发现了一个趋势。",
+      "tokens": [
+        "We",
+        "have",
+        "spotted",
+        "a",
+        "trend",
+        "in",
+        "weekend",
+        "use."
+      ],
+      "id": "b1-u19-l1-q4",
+      "lessonId": "b1-u19-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quantifiers"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the average before the meeting.",
+      "audio": "The team has reviewed the average before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了平均值。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u19-l1-q5",
+      "lessonId": "b1-u19-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quantifiers"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「数据分析」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "sample",
+          "样本"
+        ],
+        [
+          "average",
+          "平均值"
+        ],
+        [
+          "trend",
+          "趋势"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u19-l1-q6",
+      "lessonId": "b1-u19-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quantifiers"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "average · 数据分析",
+      "audio": "average",
+      "instruction": "选择中文意思。",
+      "answer": "平均值",
+      "translation": "平均值",
+      "options": [
+        "平均值",
+        "样本",
+        "趋势",
+        "问题"
+      ],
+      "id": "b1-u19-l1-q7",
+      "lessonId": "b1-u19-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quantifiers"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "Only a few responses mention the broken screen.",
+      "audio": "Only a few responses mention the broken screen.",
+      "instruction": "选择这句话的意思。",
+      "answer": "只有少数回应提到了损坏的屏幕。",
+      "translation": "只有少数回应提到了损坏的屏幕。",
+      "options": [
+        "只有少数回应提到了损坏的屏幕。",
+        "样本包含了来自四个社区的回应。",
+        "从五月以来，平均值略有上升。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u19-l1-q8",
+      "lessonId": "b1-u19-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quantifiers"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "Most participants chose the shorter route.",
+      "instruction": "听完整句子。",
+      "answer": "大多数参与者选择了较短的路线。",
+      "translation": "大多数参与者选择了较短的路线。",
+      "options": [
+        "大多数参与者选择了较短的路线。",
+        "样本包含了来自四个社区的回应。",
+        "从五月以来，平均值略有上升。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u19-l1-q9",
+      "lessonId": "b1-u19-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quantifiers"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the trend before Friday.",
+      "audio": "We should clarify the trend before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清趋势。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u19-l1-q10",
+      "lessonId": "b1-u19-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "quantifiers"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u19-l1-dialogue",
+    "scene": "数据分析",
+    "characters": [
+      {
+        "id": "yuki",
+        "name": "Yuki",
+        "role": "colleague"
+      },
+      {
+        "id": "omar",
+        "name": "Omar",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "yuki",
+        "text": "The average is higher this month, but the sample is smaller.",
+        "translation": "本月平均值更高，但样本更小。"
+      },
+      {
+        "speaker": "omar",
+        "text": "Then we should describe the trend carefully instead of making a broad claim.",
+        "translation": "那我们应该谨慎描述趋势，而不是提出宽泛说法。"
+      },
+      {
+        "speaker": "yuki",
+        "text": "I will add the sample size to the chart.",
+        "translation": "我会把样本量加到图表里。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Omar提出了什么建议？",
+        "answer": "Then we should describe the trend carefully instead of making a broad claim.",
+        "options": [
+          "Then we should describe the trend carefully instead of making a broad claim.",
+          "The average is higher this month, but the sample is smaller.",
+          "I will add the sample size to the chart."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

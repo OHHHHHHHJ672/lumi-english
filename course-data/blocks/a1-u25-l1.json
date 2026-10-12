@@ -1,1 +1,197 @@
-{"id":"a1-u25-l1","levelId":"a1","cefr":"A1","title":"宠物照顾","subtitle":"说明宠物日常需要","theme":"pet-care","grammarFocus":"pets","grammarTags":["pets"],"words":[["pet","宠物"],["feed","喂食"],["leash","牵引绳"],["bowl","碗"],["walk","散步"],["vet","兽医"]],"questions":[{"id":"a1-u25-l1-q1","kind":"word","prompt":"leash · 宠物照顾","instruction":"选择意思。","answer":"牵引绳","options":["牵引绳","碗","兽医","散步"],"translation":"牵引绳"},{"id":"a1-u25-l1-q2","kind":"choice","prompt":"I feed my cat before work every morning.","instruction":"选择意思。","answer":"我每天早上上班前喂猫。","audio":"I feed my cat before work every morning.","translation":"我每天早上上班前喂猫。"},{"id":"a1-u25-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"狗的碗里没有水了。","audio":"The dog's bowl has no water left.","translation":"狗的碗里没有水了。"},{"id":"a1-u25-l1-q4","kind":"order","prompt":"我们晚饭后带狗散步。","instruction":"组成英文句子。","answer":"We walk the dog after dinner.","audio":"We walk the dog after dinner.","translation":"我们晚饭后带狗散步。"},{"id":"a1-u25-l1-q5","kind":"fill","prompt":"Put the _____ on the dog before we leave.","instruction":"选择词语。","answer":"leash","audio":"Put the leash on the dog before we leave.","translation":"出门前给狗系上牵引绳。"},{"id":"a1-u25-l1-q6","kind":"match","prompt":"配对宠物照顾词语。","instruction":"完成配对。","pairs":[["pet","宠物"],["feed","喂食"],["leash","牵引绳"],["bowl","碗"],["walk","散步"],["vet","兽医"]],"answer":"matched","translation":"宠物、喂食、牵引绳、碗、散步、兽医"},{"id":"a1-u25-l1-q7","kind":"word","prompt":"vet · 宠物照顾","instruction":"选择意思。","answer":"兽医","options":["兽医","宠物","牵引绳","喂食"],"translation":"兽医"},{"id":"a1-u25-l1-q8","kind":"choice","prompt":"Our rabbit needs fresh food and a clean cage.","instruction":"选择意思。","answer":"我们的兔子需要新鲜食物和干净的笼子。","audio":"Our rabbit needs fresh food and a clean cage.","translation":"我们的兔子需要新鲜食物和干净的笼子。"},{"id":"a1-u25-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"兽医下午三点有空。","audio":"The vet is free at three this afternoon.","translation":"兽医下午三点有空。"},{"id":"a1-u25-l1-q10","kind":"fill","prompt":"Who will _____ the fish while I am away?","instruction":"选择动词。","answer":"feed","audio":"Who will feed the fish while I am away?","translation":"我不在时谁来喂鱼？"}],"dialogue":{"id":"a1-u25-l1-dialogue","scene":"请朋友照看宠物","characters":[{"id":"lumi","name":"Lumi"},{"id":"maya","name":"Maya"}],"turns":[{"speaker":"lumi","text":"Could you feed my cat this weekend?","translation":"你这个周末能喂我的猫吗？"},{"speaker":"maya","text":"Yes. Where is the food?","translation":"可以。猫粮在哪里？"},{"speaker":"lumi","text":"It is beside the blue bowl.","translation":"它在蓝色的碗旁边。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u25-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "宠物照顾",
+  "subtitle": "说明宠物日常需要",
+  "theme": "pet-care",
+  "grammarFocus": "pets",
+  "grammarTags": [
+    "pets"
+  ],
+  "words": [
+    [
+      "pet",
+      "宠物"
+    ],
+    [
+      "feed",
+      "喂食"
+    ],
+    [
+      "leash",
+      "牵引绳"
+    ],
+    [
+      "bowl",
+      "碗"
+    ],
+    [
+      "walk",
+      "散步"
+    ],
+    [
+      "vet",
+      "兽医"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u25-l1-q1",
+      "kind": "word",
+      "prompt": "leash · 宠物照顾",
+      "instruction": "选择意思。",
+      "answer": "牵引绳",
+      "options": [
+        "牵引绳",
+        "碗",
+        "兽医",
+        "散步"
+      ],
+      "translation": "牵引绳"
+    },
+    {
+      "id": "a1-u25-l1-q2",
+      "kind": "choice",
+      "prompt": "I feed my cat before work every morning.",
+      "instruction": "选择意思。",
+      "answer": "我每天早上上班前喂猫。",
+      "audio": "I feed my cat before work every morning.",
+      "translation": "我每天早上上班前喂猫。"
+    },
+    {
+      "id": "a1-u25-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "狗的碗里没有水了。",
+      "audio": "The dog's bowl has no water left.",
+      "translation": "狗的碗里没有水了。"
+    },
+    {
+      "id": "a1-u25-l1-q4",
+      "kind": "order",
+      "prompt": "我们晚饭后带狗散步。",
+      "instruction": "组成英文句子。",
+      "answer": "We walk the dog after dinner.",
+      "audio": "We walk the dog after dinner.",
+      "translation": "我们晚饭后带狗散步。"
+    },
+    {
+      "id": "a1-u25-l1-q5",
+      "kind": "fill",
+      "prompt": "Put the _____ on the dog before we leave.",
+      "instruction": "选择词语。",
+      "answer": "leash",
+      "audio": "Put the leash on the dog before we leave.",
+      "translation": "出门前给狗系上牵引绳。"
+    },
+    {
+      "id": "a1-u25-l1-q6",
+      "kind": "match",
+      "prompt": "配对宠物照顾词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "pet",
+          "宠物"
+        ],
+        [
+          "feed",
+          "喂食"
+        ],
+        [
+          "leash",
+          "牵引绳"
+        ],
+        [
+          "bowl",
+          "碗"
+        ],
+        [
+          "walk",
+          "散步"
+        ],
+        [
+          "vet",
+          "兽医"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "宠物、喂食、牵引绳、碗、散步、兽医"
+    },
+    {
+      "id": "a1-u25-l1-q7",
+      "kind": "word",
+      "prompt": "vet · 宠物照顾",
+      "instruction": "选择意思。",
+      "answer": "兽医",
+      "options": [
+        "兽医",
+        "宠物",
+        "牵引绳",
+        "喂食"
+      ],
+      "translation": "兽医"
+    },
+    {
+      "id": "a1-u25-l1-q8",
+      "kind": "choice",
+      "prompt": "Our rabbit needs fresh food and a clean cage.",
+      "instruction": "选择意思。",
+      "answer": "我们的兔子需要新鲜食物和干净的笼子。",
+      "audio": "Our rabbit needs fresh food and a clean cage.",
+      "translation": "我们的兔子需要新鲜食物和干净的笼子。"
+    },
+    {
+      "id": "a1-u25-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "兽医下午三点有空。",
+      "audio": "The vet is free at three this afternoon.",
+      "translation": "兽医下午三点有空。"
+    },
+    {
+      "id": "a1-u25-l1-q10",
+      "kind": "fill",
+      "prompt": "Who will _____ the fish while I am away?",
+      "instruction": "选择动词。",
+      "answer": "feed",
+      "audio": "Who will feed the fish while I am away?",
+      "translation": "我不在时谁来喂鱼？"
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u25-l1-dialogue",
+    "scene": "请朋友照看宠物",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "maya",
+        "name": "Maya"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you feed my cat this weekend?",
+        "translation": "你这个周末能喂我的猫吗？"
+      },
+      {
+        "speaker": "maya",
+        "text": "Yes. Where is the food?",
+        "translation": "可以。猫粮在哪里？"
+      },
+      {
+        "speaker": "lumi",
+        "text": "It is beside the blue bowl.",
+        "translation": "它在蓝色的碗旁边。"
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,258 @@
+{
+  "id": "a2-u19-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "新闻阅读",
+  "subtitle": "阅读标题、文章和来源",
+  "theme": "新闻阅读",
+  "grammarFocus": "past-simple",
+  "grammarTags": [
+    "past-simple"
+  ],
+  "words": [
+    [
+      "headline",
+      "标题"
+    ],
+    [
+      "article",
+      "文章"
+    ],
+    [
+      "source",
+      "来源"
+    ]
+  ],
+  "pairs": [
+    [
+      "headline",
+      "标题"
+    ],
+    [
+      "article",
+      "文章"
+    ],
+    [
+      "source",
+      "来源"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u19-l1-q1",
+      "kind": "word",
+      "prompt": "headline",
+      "answer": "标题",
+      "translation": "标题",
+      "options": [
+        "标题",
+        "文章",
+        "来源",
+        "问题"
+      ]
+    },
+    {
+      "id": "a2-u19-l1-q2",
+      "kind": "choice",
+      "prompt": "I read the article before sharing it.",
+      "audio": "I read the article before sharing it.",
+      "answer": "我分享前读了这篇文章。",
+      "translation": "我分享前读了这篇文章。",
+      "options": [
+        "我分享前读了这篇文章。",
+        "这个来源昨天发布了采访。",
+        "她通过图书馆检索找到了文章。",
+        "编辑今天早上改了标题。"
+      ]
+    },
+    {
+      "id": "a2-u19-l1-q3",
+      "kind": "listen",
+      "prompt": "The headline did not tell the whole story.",
+      "audio": "The headline did not tell the whole story.",
+      "answer": "标题没有讲完整个故事。",
+      "translation": "标题没有讲完整个故事。",
+      "options": [
+        "标题没有讲完整个故事。",
+        "她通过图书馆检索找到了文章。",
+        "编辑今天早上改了标题。",
+        "你核查那张照片的来源了吗？"
+      ]
+    },
+    {
+      "id": "a2-u19-l1-q4",
+      "kind": "order",
+      "prompt": "相信说法前先核查来源。",
+      "audio": "Check the source before trusting the claim.",
+      "answer": "Check the source before trusting the claim.",
+      "translation": "相信说法前先核查来源。",
+      "tokens": [
+        "Check",
+        "the",
+        "source",
+        "before",
+        "trusting",
+        "the",
+        "claim."
+      ]
+    },
+    {
+      "id": "a2-u19-l1-q5",
+      "kind": "fill",
+      "prompt": "The _____ published the interview yesterday.",
+      "answer": "source",
+      "audio": "The source published the interview yesterday.",
+      "translation": "这个来源昨天发布了采访。",
+      "options": [
+        "headline",
+        "article",
+        "source",
+        "message"
+      ]
+    },
+    {
+      "id": "a2-u19-l1-q6",
+      "kind": "match",
+      "prompt": "把「新闻阅读」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "headline",
+          "标题"
+        ],
+        [
+          "article",
+          "文章"
+        ],
+        [
+          "source",
+          "来源"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u19-l1-q7",
+      "kind": "word",
+      "prompt": "article",
+      "answer": "文章",
+      "translation": "文章",
+      "audio": "article",
+      "options": [
+        "文章",
+        "标题",
+        "来源",
+        "安排"
+      ]
+    },
+    {
+      "id": "a2-u19-l1-q8",
+      "kind": "choice",
+      "prompt": "She found the article through a library search.",
+      "audio": "She found the article through a library search.",
+      "answer": "她通过图书馆检索找到了文章。",
+      "translation": "她通过图书馆检索找到了文章。",
+      "options": [
+        "她通过图书馆检索找到了文章。",
+        "你核查那张照片的来源了吗？",
+        "我们在课堂上讨论了那篇文章。",
+        "标题吸引了很多读者。"
+      ]
+    },
+    {
+      "id": "a2-u19-l1-q9",
+      "kind": "listen",
+      "prompt": "The editor changed the headline this morning.",
+      "audio": "The editor changed the headline this morning.",
+      "answer": "编辑今天早上改了标题。",
+      "translation": "编辑今天早上改了标题。",
+      "options": [
+        "编辑今天早上改了标题。",
+        "你核查那张照片的来源了吗？",
+        "我们在课堂上讨论了那篇文章。",
+        "标题吸引了很多读者。"
+      ]
+    },
+    {
+      "id": "a2-u19-l1-q10",
+      "kind": "fill",
+      "prompt": "We discussed the _____ in class.",
+      "answer": "article",
+      "audio": "We discussed the article in class.",
+      "translation": "我们在课堂上讨论了那篇文章。",
+      "options": [
+        "article",
+        "headline",
+        "source",
+        "plan"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u19-l1-dialogue",
+    "scene": "新闻阅读",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I read the article before sharing it.",
+        "translation": "我分享前读了这篇文章。"
+      },
+      {
+        "speaker": "partner",
+        "text": "The headline did not tell the whole story.",
+        "translation": "标题没有讲完整个故事。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Check the source before trusting the claim.",
+        "translation": "相信说法前先核查来源。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is this conversation mainly about?",
+        "answer": "我分享前读了这篇文章。",
+        "options": [
+          "我分享前读了这篇文章。",
+          "这个来源昨天发布了采访。",
+          "你核查那张照片的来源了吗？"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

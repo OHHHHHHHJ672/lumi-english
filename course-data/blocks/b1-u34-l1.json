@@ -1,0 +1,368 @@
+{
+  "id": "b1-u34-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "预算预测",
+  "subtitle": "分析预测、收入和成本",
+  "theme": "预算预测",
+  "grammarFocus": "budget-forecasting",
+  "grammarTags": [
+    "budget-forecasting"
+  ],
+  "words": [
+    [
+      "forecast",
+      "预测"
+    ],
+    [
+      "revenue",
+      "收入"
+    ],
+    [
+      "cost",
+      "成本"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u34-l1-q1",
+      "kind": "word",
+      "prompt": "forecast · 预算预测",
+      "answer": "forecast",
+      "translation": "预测",
+      "instruction": "选择适合语境的表达。",
+      "audio": "forecast",
+      "lessonId": "b1-u34-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "budget-forecasting"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "预测",
+        "收入",
+        "成本",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u34-l1-q2",
+      "kind": "choice",
+      "prompt": "The forecast predicts a small rise in revenue.",
+      "answer": "预测显示收入会小幅上升。",
+      "translation": "预测显示收入会小幅上升。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The forecast predicts a small rise in revenue.",
+      "lessonId": "b1-u34-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "budget-forecasting"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "预测显示收入会小幅上升。",
+        "那我们应该推迟招聘，并保留一小笔成本缓冲。",
+        "我们应该把一次性成本和月度成本分开。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u34-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "那我们应该推迟招聘，并保留一小笔成本缓冲。",
+      "translation": "那我们应该推迟招聘，并保留一小笔成本缓冲。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Then we should delay hiring and keep a small cost buffer.",
+      "lessonId": "b1-u34-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "budget-forecasting"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "那我们应该推迟招聘，并保留一小笔成本缓冲。",
+        "预测显示收入会小幅上升。",
+        "我们应该把一次性成本和月度成本分开。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u34-l1-q4",
+      "kind": "order",
+      "prompt": "我们应该把一次性成本与月度成本分开。",
+      "answer": "We should separate one-time cost from monthly cost.",
+      "translation": "我们应该把一次性成本与月度成本分开。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "We should separate one-time cost from monthly cost.",
+      "lessonId": "b1-u34-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "budget-forecasting"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "We",
+        "should",
+        "separate",
+        "one-time",
+        "cost",
+        "from",
+        "monthly",
+        "cost."
+      ]
+    },
+    {
+      "id": "b1-u34-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the revenue before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了收入。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the revenue before the meeting.",
+      "lessonId": "b1-u34-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "budget-forecasting"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u34-l1-q6",
+      "kind": "match",
+      "prompt": "配对「预算预测」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u34-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "budget-forecasting"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "forecast",
+          "预测"
+        ],
+        [
+          "revenue",
+          "收入"
+        ],
+        [
+          "cost",
+          "成本"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u34-l1-q7",
+      "kind": "word",
+      "prompt": "revenue · 预算预测",
+      "answer": "revenue",
+      "translation": "收入",
+      "instruction": "选择适合语境的表达。",
+      "audio": "revenue",
+      "lessonId": "b1-u34-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "budget-forecasting"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "收入",
+        "预测",
+        "成本",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u34-l1-q8",
+      "kind": "choice",
+      "prompt": "I will explain that trade-off in the finance note.",
+      "answer": "我会在财务说明中解释那个取舍。",
+      "translation": "我会在财务说明中解释那个取舍。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will explain that trade-off in the finance note.",
+      "lessonId": "b1-u34-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "budget-forecasting"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会在财务说明中解释那个取舍。",
+        "团队在会议前已经审阅了收入。",
+        "预测显示收入小幅上升。",
+        "我们应该把一次性成本和月度成本分开。"
+      ]
+    },
+    {
+      "id": "b1-u34-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "价格变动后，财务团队修订了预测。",
+      "translation": "价格变动后，财务团队修订了预测。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The finance team revised the forecast after prices changed.",
+      "lessonId": "b1-u34-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "budget-forecasting"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "价格变动后，财务团队修订了预测。",
+        "预测显示收入会小幅上升。",
+        "那我们应该推迟招聘，并保留一小笔成本缓冲。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u34-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the cost before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅成本。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the cost before Friday.",
+      "lessonId": "b1-u34-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "budget-forecasting"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u34-l1-dialogue",
+    "scene": "预算预测",
+    "characters": [
+      {
+        "id": "faye",
+        "name": "Faye",
+        "role": "colleague"
+      },
+      {
+        "id": "rob",
+        "name": "Rob",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "faye",
+        "text": "The new forecast shows lower revenue if the campaign starts late.",
+        "translation": "新的预测显示，如果活动晚开始，收入会更低。"
+      },
+      {
+        "speaker": "rob",
+        "text": "Then we should delay hiring and keep a small cost buffer.",
+        "translation": "那我们应该推迟招聘，并保留一小笔成本缓冲。"
+      },
+      {
+        "speaker": "faye",
+        "text": "I will explain that trade-off in the finance note.",
+        "translation": "我会在财务说明中解释这个权衡。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Rob提出了什么建议？",
+        "answer": "Then we should delay hiring and keep a small cost buffer.",
+        "options": [
+          "Then we should delay hiring and keep a small cost buffer.",
+          "The new forecast shows lower revenue if the campaign starts late.",
+          "I will explain that trade-off in the finance note."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

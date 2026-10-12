@@ -1,0 +1,564 @@
+{
+  "id": "b1-u52-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "进阶循环经济",
+  "subtitle": "讨论生命周期和废物",
+  "theme": "进阶循环经济",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "circularity",
+      "循环性"
+    ],
+    [
+      "lifecycle",
+      "生命周期"
+    ],
+    [
+      "waste",
+      "废物"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "circularity · 进阶循环经济",
+      "audio": "circularity",
+      "instruction": "选择这个词的直译",
+      "answer": "循环性",
+      "options": [
+        "循环性",
+        "生命周期",
+        "废物",
+        "问题"
+      ],
+      "translation": "循环性",
+      "id": "b1-u52-l1-q1",
+      "lessonId": "b1-u52-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The circularity was reviewed before the meeting.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "循环性在会议前被审阅了。",
+      "options": [
+        "循环性在会议前被审阅了。",
+        "生命周期在会议前被审阅了。",
+        "生命周期在会议前被审阅了。，这个周末。",
+        "废物在会议前被审阅了。，为我们的团队。"
+      ],
+      "audio": "The circularity was reviewed before the meeting.",
+      "translation": "循环性在会议前被审阅了。",
+      "id": "b1-u52-l1-q2",
+      "lessonId": "b1-u52-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "生命周期在会议前被审阅了。",
+      "options": [
+        "循环性在会议前被审阅了。",
+        "生命周期在会议前被审阅了。",
+        "生命周期在会议前被审阅了。，这个周末。",
+        "废物在会议前被审阅了。，为我们的团队。"
+      ],
+      "audio": "The lifecycle was reviewed before the meeting.",
+      "translation": "生命周期在会议前被审阅了。",
+      "id": "b1-u52-l1-q3",
+      "lessonId": "b1-u52-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "废物在会议前被审阅了。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The waste was reviewed before the meeting.",
+      "tokens": [
+        "The",
+        "waste",
+        "was",
+        "reviewed",
+        "before",
+        "the",
+        "meeting."
+      ],
+      "audio": "The waste was reviewed before the meeting.",
+      "translation": "废物在会议前被审阅了。",
+      "id": "b1-u52-l1-q4",
+      "lessonId": "b1-u52-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this weekend.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "circularity",
+      "options": [
+        "circularity",
+        "lifecycle",
+        "waste",
+        "message"
+      ],
+      "audio": "Please check the circularity this weekend.",
+      "translation": "请这个周末检查循环性。",
+      "id": "b1-u52-l1-q5",
+      "lessonId": "b1-u52-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶循环经济」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "circularity、循环性；lifecycle、生命周期；waste、废物；message、消息；schedule、日程；meeting、会议",
+      "id": "b1-u52-l1-q6",
+      "lessonId": "b1-u52-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "lifecycle · 进阶循环经济",
+      "audio": "lifecycle",
+      "instruction": "选择这个词的直译",
+      "answer": "生命周期",
+      "options": [
+        "生命周期",
+        "循环性",
+        "废物",
+        "安排"
+      ],
+      "translation": "生命周期",
+      "id": "b1-u52-l1-q7",
+      "lessonId": "b1-u52-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The lifecycle was reviewed before the meeting. this weekend.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "生命周期在会议前被审阅了。，这个周末。",
+      "options": [
+        "循环性在会议前被审阅了。",
+        "生命周期在会议前被审阅了。",
+        "生命周期在会议前被审阅了。，这个周末。",
+        "废物在会议前被审阅了。，为我们的团队。"
+      ],
+      "audio": "The lifecycle was reviewed before the meeting. this weekend.",
+      "translation": "生命周期在会议前被审阅了。，这个周末。",
+      "id": "b1-u52-l1-q8",
+      "lessonId": "b1-u52-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "废物在会议前被审阅了。，为我们的团队。",
+      "options": [
+        "循环性在会议前被审阅了。",
+        "生命周期在会议前被审阅了。",
+        "生命周期在会议前被审阅了。，这个周末。",
+        "废物在会议前被审阅了。，为我们的团队。"
+      ],
+      "audio": "The waste was reviewed before the meeting. for our team.",
+      "translation": "废物在会议前被审阅了。，为我们的团队。",
+      "id": "b1-u52-l1-q9",
+      "lessonId": "b1-u52-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the lifecycle for our team.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the lifecycle for our team.",
+      "translation": "我们需要为我们的团队检查生命周期。",
+      "id": "b1-u52-l1-q10",
+      "lessonId": "b1-u52-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "circularity",
+          "循环性"
+        ],
+        [
+          "lifecycle",
+          "生命周期"
+        ],
+        [
+          "waste",
+          "废物"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u52-l1-dialogue",
+    "scene": "进阶循环经济",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about circularity?",
+        "translation": "你能再告诉我一些关于循环性的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use circularity when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到循环性。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use circularity in a daily plan",
+        "options": [
+          "How to use circularity in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

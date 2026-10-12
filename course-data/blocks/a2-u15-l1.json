@@ -1,0 +1,246 @@
+{
+  "id": "a2-u15-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "维修预约",
+  "subtitle": "约时间、说明故障与保修",
+  "theme": "repairs",
+  "grammarFocus": "will-future",
+  "grammarTags": [
+    "will-future"
+  ],
+  "words": [
+    [
+      "technician",
+      "技术员"
+    ],
+    [
+      "replace",
+      "更换"
+    ],
+    [
+      "warranty",
+      "保修"
+    ],
+    [
+      "screen",
+      "屏幕"
+    ],
+    [
+      "fault",
+      "故障"
+    ],
+    [
+      "part",
+      "零件"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u15-l1-q1",
+      "kind": "word",
+      "prompt": "warranty",
+      "answer": "保修",
+      "translation": "保修",
+      "options": [
+        "保修",
+        "保险",
+        "退款",
+        "折扣"
+      ]
+    },
+    {
+      "id": "a2-u15-l1-q2",
+      "kind": "choice",
+      "prompt": "A technician will call before coming to your house.",
+      "audio": "A technician will call before coming to your house.",
+      "answer": "技术员来你家之前会先打电话。",
+      "translation": "技术员来你家之前会先打电话。",
+      "options": [
+        "技术员来你家之前会先打电话。",
+        "技术员到你家以后才会打电话。",
+        "你必须先打电话，技术员才会出发。",
+        "技术员会电话指导，不会来你家。"
+      ]
+    },
+    {
+      "id": "a2-u15-l1-q3",
+      "kind": "listen",
+      "prompt": "听清维修的安排。",
+      "audio": "We will replace the screen, but it will take two days.",
+      "answer": "我们会更换屏幕，但需要两天。",
+      "translation": "我们会更换屏幕，但需要两天。",
+      "options": [
+        "我们会更换屏幕，但需要两天。",
+        "我们会更换屏幕，但需要两周。",
+        "我们会维修屏幕，并在今天归还。",
+        "我们会更换电池，但需要两天。"
+      ]
+    },
+    {
+      "id": "a2-u15-l1-q4",
+      "kind": "order",
+      "prompt": "商店会免费更换坏掉的零件。",
+      "answer": "The shop will replace the broken part for free.",
+      "audio": "The shop will replace the broken part for free.",
+      "translation": "商店会免费更换坏掉的零件。",
+      "tokens": [
+        "The",
+        "shop",
+        "will",
+        "replace",
+        "the",
+        "broken",
+        "part",
+        "for",
+        "free."
+      ]
+    },
+    {
+      "id": "a2-u15-l1-q5",
+      "kind": "fill",
+      "prompt": "We will _____ your printer tomorrow.",
+      "answer": "repair",
+      "audio": "We will repair your printer tomorrow.",
+      "translation": "我们明天会维修你的打印机。",
+      "options": [
+        "repair",
+        "repaired",
+        "repairing",
+        "repairs"
+      ]
+    },
+    {
+      "id": "a2-u15-l1-q6",
+      "kind": "match",
+      "prompt": "把「维修预约」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "technician",
+          "技术员"
+        ],
+        [
+          "replace",
+          "更换"
+        ],
+        [
+          "warranty",
+          "保修"
+        ],
+        [
+          "screen",
+          "屏幕"
+        ],
+        [
+          "fault",
+          "故障"
+        ],
+        [
+          "part",
+          "零件"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u15-l1-q7",
+      "kind": "word",
+      "prompt": "replace",
+      "answer": "更换",
+      "translation": "更换",
+      "options": [
+        "更换",
+        "维修",
+        "检查",
+        "安装"
+      ]
+    },
+    {
+      "id": "a2-u15-l1-q8",
+      "kind": "choice",
+      "prompt": "The warranty covers the repair, so you will not need to pay.",
+      "audio": "The warranty covers the repair, so you will not need to pay.",
+      "answer": "保修涵盖这次维修，所以你不需要付款。",
+      "translation": "保修涵盖这次维修，所以你不需要付款。",
+      "options": [
+        "保修涵盖这次维修，所以你不需要付款。",
+        "保修只涵盖零件，所以你要付人工费。",
+        "保修已经过期，所以你需要付款。",
+        "你需要先付款，然后申请保修退款。"
+      ]
+    },
+    {
+      "id": "a2-u15-l1-q9",
+      "kind": "listen",
+      "prompt": "听清技术员会带什么。",
+      "audio": "I will bring a new part, but please keep the old one.",
+      "answer": "我会带一个新零件，但请保留旧零件。",
+      "translation": "我会带一个新零件，但请保留旧零件。",
+      "options": [
+        "我会带一个新零件，但请保留旧零件。",
+        "我会带走旧零件，下次带来新零件。",
+        "请准备一个新零件，我会安装它。",
+        "我会检查旧零件，不需要新零件。"
+      ]
+    },
+    {
+      "id": "a2-u15-l1-q10",
+      "kind": "fill",
+      "prompt": "_____ the technician arrive before noon?",
+      "answer": "Will",
+      "audio": "Will the technician arrive before noon?",
+      "translation": "技术员中午前会到吗？",
+      "options": [
+        "Will",
+        "Does",
+        "Is",
+        "Has"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u15-l1-dialogue",
+    "scene": "预约洗衣机维修",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "pat",
+        "name": "Pat"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "My washing machine stops before the clothes are dry.",
+        "translation": "我的洗衣机在衣服干之前就停了。"
+      },
+      {
+        "speaker": "pat",
+        "text": "We can send someone on Tuesday between nine and eleven.",
+        "translation": "我们可以周二九点到十一点派人过去。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Tuesday works. I will leave the machine empty for the visit.",
+        "translation": "周二可以。我会让洗衣机保持空着，方便检查。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What does Lumi agree to do?",
+        "answer": "Leave the machine empty for Tuesday",
+        "options": [
+          "Leave the machine empty for Tuesday",
+          "Bring the machine to the shop",
+          "Buy a new machine on Tuesday",
+          "Fill the machine before the visit"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,329 @@
+{
+  "id": "a2-u8-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "回顾经历",
+  "subtitle": "讲述过去的活动和收获",
+  "theme": "回顾经历",
+  "grammarFocus": "past-simple",
+  "grammarTags": [
+    "past-simple"
+  ],
+  "words": [
+    [
+      "experience",
+      "经历"
+    ],
+    [
+      "museum",
+      "博物馆"
+    ],
+    [
+      "recommend",
+      "推荐"
+    ]
+  ],
+  "pairs": [
+    [
+      "experience",
+      "经历"
+    ],
+    [
+      "museum",
+      "博物馆"
+    ],
+    [
+      "recommend",
+      "推荐"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u8-l1-q1",
+      "kind": "word",
+      "prompt": "experience · 回顾经历",
+      "instruction": "选择这个词的直译",
+      "answer": "经历",
+      "options": [
+        "经历",
+        "博物馆",
+        "推荐",
+        "问题"
+      ],
+      "translation": "经历",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u8-l1-q2",
+      "kind": "choice",
+      "prompt": "We visited a small museum last weekend.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我们上周末参观了一家小博物馆。",
+      "translation": "我们上周末参观了一家小博物馆。",
+      "audio": "We visited a small museum last weekend.",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "choice"
+      ],
+      "options": [
+        "我们上周末参观了一家小博物馆。",
+        "导游推荐了一家安静的餐厅。",
+        "你以前参观过那家博物馆吗？",
+        "这次经历改变了我的旅行方式。"
+      ]
+    },
+    {
+      "id": "a2-u8-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我非常推荐徒步游览。",
+      "translation": "我非常推荐徒步游览。",
+      "audio": "I highly recommend the walking tour.",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "listen"
+      ],
+      "options": [
+        "我非常推荐徒步游览。",
+        "你以前参观过那家博物馆吗？",
+        "这次经历改变了我的旅行方式。",
+        "我们在博物馆入口附近拍了照。"
+      ]
+    },
+    {
+      "id": "a2-u8-l1-q4",
+      "kind": "order",
+      "prompt": "她从这次经历中学到了很多。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "She learned a lot from the experience.",
+      "translation": "她从这次经历中学到了很多。",
+      "audio": "She learned a lot from the experience.",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "order"
+      ],
+      "tokens": [
+        "She",
+        "learned",
+        "a",
+        "lot",
+        "from",
+        "the",
+        "experience."
+      ]
+    },
+    {
+      "id": "a2-u8-l1-q5",
+      "kind": "fill",
+      "prompt": "The guide shared a useful _____.",
+      "instruction": "选择英文词完成句子。",
+      "answer": "experience",
+      "options": [
+        "experience",
+        "museum",
+        "recommend",
+        "message"
+      ],
+      "audio": "The guide shared a useful experience.",
+      "translation": "导游分享了一次有用的经历。",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a2-u8-l1-q6",
+      "kind": "match",
+      "prompt": "把「回顾经历」的重点词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "experience",
+          "经历"
+        ],
+        [
+          "museum",
+          "博物馆"
+        ],
+        [
+          "recommend",
+          "推荐"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "experience、经历；museum、博物馆；recommend、推荐；message、消息；schedule、日程；meeting、会议",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a2-u8-l1-q7",
+      "kind": "word",
+      "prompt": "museum · 回顾经历",
+      "instruction": "选择这个词的直译",
+      "answer": "博物馆",
+      "options": [
+        "博物馆",
+        "经历",
+        "推荐",
+        "安排"
+      ],
+      "translation": "博物馆",
+      "audio": "museum",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u8-l1-q8",
+      "kind": "choice",
+      "prompt": "We took photos near the museum entrance during the afternoon.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我们在博物馆入口附近拍了照。",
+      "options": [
+        "我们在博物馆入口附近拍了照。",
+        "我们上周末参观了一家小博物馆。",
+        "我非常推荐徒步游览。",
+        "她从这次经历中学到了很多。"
+      ],
+      "audio": "We took photos near the museum entrance during the afternoon.",
+      "translation": "我们在博物馆入口附近拍了照，在下午。",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "a2-u8-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "他建议在线订票。",
+      "options": [
+        "他建议在线订票。",
+        "我们上周末参观了一家小博物馆。",
+        "我非常推荐徒步游览。",
+        "她从这次经历中学到了很多。"
+      ],
+      "audio": "He recommended booking tickets online before dinner.",
+      "translation": "他建议在线订票，晚饭前。",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a2-u8-l1-q10",
+      "kind": "fill",
+      "prompt": "He recommended the _____ to us.",
+      "instruction": "选择正确的词完成句子。",
+      "answer": "museum",
+      "options": [
+        "museum",
+        "experience",
+        "recommend",
+        "plan"
+      ],
+      "audio": "He recommended the museum to us.",
+      "translation": "他向我们推荐了博物馆。",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u8-l1-dialogue",
+    "scene": "回顾经历",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "We visited a small museum last weekend.",
+        "translation": "我们上周末参观了一家小博物馆。"
+      },
+      {
+        "speaker": "partner",
+        "text": "I highly recommend the walking tour.",
+        "translation": "我非常推荐徒步游览。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "She learned a lot from the experience.",
+        "translation": "她从这次经历中学到了很多。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is the conversation mainly about?",
+        "answer": "我们上周末参观了一家小博物馆。",
+        "options": [
+          "我们上周末参观了一家小博物馆。",
+          "导游推荐了一家安静的餐厅。",
+          "我们在博物馆入口附近拍了照。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

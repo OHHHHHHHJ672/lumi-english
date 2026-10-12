@@ -1,0 +1,243 @@
+{
+  "id": "a1-u3-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "我的房间",
+  "subtitle": "描述熟悉的空间和物品",
+  "theme": "bedroom",
+  "grammarFocus": "there-is-are",
+  "grammarTags": [
+    "there-is-are",
+    "prepositions"
+  ],
+  "sourceStatus": "hand-authored",
+  "words": [
+    [
+      "shelf",
+      "架子"
+    ],
+    [
+      "carpet",
+      "地毯"
+    ],
+    [
+      "drawer",
+      "抽屉"
+    ]
+  ],
+  "dialogue": {
+    "id": "a1-u3-l1-dialogue",
+    "scene": "寻找房间里的钥匙",
+    "characters": [
+      {
+        "id": "ava",
+        "name": "Ava"
+      },
+      {
+        "id": "liam",
+        "name": "Liam"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "ava",
+        "text": "Is there a spare key in the top drawer?",
+        "translation": "最上面的抽屉里有备用钥匙吗？"
+      },
+      {
+        "speaker": "liam",
+        "text": "Yes, there is one beside the small lamp.",
+        "translation": "有一把，在小灯旁边。"
+      },
+      {
+        "speaker": "ava",
+        "text": "Great. I will put it on the shelf afterward.",
+        "translation": "太好了。我之后会把它放到架子上。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Where is the spare key?",
+        "answer": "Beside the small lamp",
+        "options": [
+          "Beside the small lamp",
+          "Under the carpet",
+          "Inside the wardrobe"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "a1-u3-l1-q1",
+      "kind": "word",
+      "prompt": "shelf",
+      "instruction": "选择这个词的直译",
+      "answer": "架子",
+      "options": [
+        "架子",
+        "抽屉",
+        "地毯",
+        "窗帘"
+      ],
+      "translation": "架子"
+    },
+    {
+      "id": "a1-u3-l1-q2",
+      "kind": "choice",
+      "prompt": "The blue lamp is beside the sofa.",
+      "instruction": "选择这句话描述的位置。",
+      "answer": "蓝色的灯在沙发旁边。",
+      "options": [
+        "蓝色的灯在沙发旁边。",
+        "抽屉里有两条毛巾。",
+        "地毯在床的右边。",
+        "有三个盒子。"
+      ],
+      "audio": "The blue lamp is beside the sofa.",
+      "translation": "蓝色的灯在沙发旁边。"
+    },
+    {
+      "id": "a1-u3-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "抽屉里有两条毛巾。",
+      "options": [
+        "抽屉里有两条毛巾。",
+        "蓝色的灯在沙发旁边。",
+        "地毯在床的右边。",
+        "有三个盒子。"
+      ],
+      "audio": "There are two towels in the drawer.",
+      "translation": "抽屉里有两条毛巾。"
+    },
+    {
+      "id": "a1-u3-l1-q4",
+      "kind": "order",
+      "prompt": "我的钥匙在小桌子下面。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "My keys are under the small table.",
+      "tokens": [
+        "My",
+        "keys",
+        "are",
+        "under",
+        "the",
+        "small",
+        "table."
+      ],
+      "audio": "My keys are under the small table.",
+      "translation": "我的钥匙在小桌子下面。"
+    },
+    {
+      "id": "a1-u3-l1-q5",
+      "kind": "fill",
+      "prompt": "There _____ a book on the shelf.",
+      "instruction": "选择 there is/are 的正确形式。",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "audio": "There is a book on the shelf.",
+      "translation": "架子上有一本书。"
+    },
+    {
+      "id": "a1-u3-l1-q6",
+      "kind": "match",
+      "prompt": "把房间物品和中文配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "shelf",
+          "架子"
+        ],
+        [
+          "carpet",
+          "地毯"
+        ],
+        [
+          "drawer",
+          "抽屉"
+        ],
+        [
+          "lamp",
+          "灯"
+        ],
+        [
+          "sofa",
+          "沙发"
+        ],
+        [
+          "towel",
+          "毛巾"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "架子、地毯、抽屉、灯、沙发、毛巾"
+    },
+    {
+      "id": "a1-u3-l1-q7",
+      "kind": "word",
+      "prompt": "drawer",
+      "instruction": "选择这个词的直译",
+      "answer": "抽屉",
+      "options": [
+        "抽屉",
+        "架子",
+        "地毯",
+        "枕头"
+      ],
+      "translation": "抽屉"
+    },
+    {
+      "id": "a1-u3-l1-q8",
+      "kind": "choice",
+      "prompt": "There are three boxes next to the door.",
+      "instruction": "门旁边有什么？",
+      "answer": "有三个盒子。",
+      "options": [
+        "有三个盒子。",
+        "蓝色的灯在沙发旁边。",
+        "抽屉里有两条毛巾。",
+        "地毯在床的右边。"
+      ],
+      "audio": "There are three boxes next to the door.",
+      "translation": "门旁边有三个盒子。"
+    },
+    {
+      "id": "a1-u3-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "地毯在床的右边。",
+      "options": [
+        "地毯在床的右边。",
+        "蓝色的灯在沙发旁边。",
+        "抽屉里有两条毛巾。",
+        "有三个盒子。"
+      ],
+      "audio": "The carpet is to the right of the bed.",
+      "translation": "地毯在床的右边。"
+    },
+    {
+      "id": "a1-u3-l1-q10",
+      "kind": "fill",
+      "prompt": "There _____ two pillows on the bed.",
+      "instruction": "选择 there is/are 的正确形式。",
+      "answer": "are",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "audio": "There are two pillows on the bed.",
+      "translation": "床上有两个枕头。"
+    }
+  ]
+}

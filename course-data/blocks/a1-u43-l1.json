@@ -1,0 +1,294 @@
+{
+  "id": "a1-u43-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶公交出行",
+  "subtitle": "看站牌和询问路线",
+  "theme": "bus-travel",
+  "grammarFocus": "imperatives",
+  "grammarTags": [
+    "imperatives",
+    "travel-timetables"
+  ],
+  "words": [
+    [
+      "route",
+      "路线"
+    ],
+    [
+      "stop",
+      "站"
+    ],
+    [
+      "driver",
+      "司机"
+    ],
+    [
+      "fare",
+      "车费"
+    ],
+    [
+      "bus-pass",
+      "公交卡"
+    ],
+    [
+      "depart",
+      "出发"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u43-l1-q1",
+      "kind": "word",
+      "prompt": "bus-route · 公交出行",
+      "instruction": "选择意思。",
+      "answer": "路线",
+      "options": [
+        "路线",
+        "车费",
+        "司机",
+        "公交卡"
+      ],
+      "translation": "路线",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u43-l1-q2",
+      "kind": "choice",
+      "prompt": "Which bus route stops near the museum?",
+      "instruction": "选择意思。",
+      "answer": "哪条公交路线在博物馆附近停？",
+      "options": [
+        "哪条公交路线在博物馆附近停？",
+        "哪位司机去机场？",
+        "车费在哪里支付？",
+        "公交卡什么时候到期？"
+      ],
+      "audio": "Which bus route stops near the museum?",
+      "translation": "哪条公交路线在博物馆附近停？",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u43-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请在下一站下车。",
+      "options": [
+        "请在下一站下车。",
+        "请在终点站换车。",
+        "请把公交卡给司机。",
+        "请问车费是多少。"
+      ],
+      "audio": "Please get off at the next stop.",
+      "translation": "请在下一站下车。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u43-l1-q4",
+      "kind": "order",
+      "prompt": "请告诉司机我要去图书馆。",
+      "instruction": "组成英文句子。",
+      "answer": "Please tell the driver I need the library.",
+      "audio": "Please tell the driver I need the library.",
+      "translation": "请告诉司机我要去图书馆。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u43-l1-q5",
+      "kind": "fill",
+      "prompt": "The bus _____ at six thirty.",
+      "instruction": "选择动词。",
+      "answer": "departs",
+      "options": [
+        "departs",
+        "depart",
+        "departing",
+        "departed"
+      ],
+      "audio": "The bus departs at six thirty.",
+      "translation": "公交车六点半出发。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u43-l1-q6",
+      "kind": "match",
+      "prompt": "配对公交出行词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "stop",
+          "站"
+        ],
+        [
+          "driver",
+          "司机"
+        ],
+        [
+          "fare",
+          "车费"
+        ],
+        [
+          "bus-pass",
+          "公交卡"
+        ],
+        [
+          "depart",
+          "出发"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "路线、站、司机、车费、公交卡、出发",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u43-l1-q7",
+      "kind": "word",
+      "prompt": "fare · 公交出行",
+      "instruction": "选择意思。",
+      "answer": "车费",
+      "options": [
+        "车费",
+        "路线",
+        "站",
+        "司机"
+      ],
+      "translation": "车费",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u43-l1-q8",
+      "kind": "choice",
+      "prompt": "The driver said the bus pass was not valid today.",
+      "instruction": "选择意思。",
+      "answer": "司机说公交卡今天无效。",
+      "options": [
+        "司机说公交卡今天无效。",
+        "司机说下一站是博物馆。",
+        "司机说车费已经支付。",
+        "司机说路线改到机场。"
+      ],
+      "audio": "The driver said the bus pass was not valid today.",
+      "translation": "司机说公交卡今天无效。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u43-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "公交车在市场前停。",
+      "options": [
+        "公交车在市场前停。",
+        "公交车从机场出发。",
+        "司机在下一站下车。",
+        "车费在图书馆支付。"
+      ],
+      "audio": "The bus stops in front of the market.",
+      "translation": "公交车在市场前停。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u43-l1-q10",
+      "kind": "fill",
+      "prompt": "Please show your _____ to the driver.",
+      "instruction": "选择名词。",
+      "answer": "bus-pass",
+      "options": [
+        "bus-pass",
+        "route",
+        "fare",
+        "stop"
+      ],
+      "audio": "Please show your bus pass to the driver.",
+      "translation": "请向司机出示公交卡。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u43-l1-dialogue",
+    "scene": "询问公交路线",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "driver",
+        "name": "Driver"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Does this bus stop near the library?",
+        "translation": "这辆公交在图书馆附近停吗？"
+      },
+      {
+        "speaker": "driver",
+        "text": "Yes, get off at the fourth stop.",
+        "translation": "是的，在第四站下车。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thank you. I will watch the stops.",
+        "translation": "谢谢。我会留意站点。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

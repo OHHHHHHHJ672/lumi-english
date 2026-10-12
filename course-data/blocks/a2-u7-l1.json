@@ -1,0 +1,330 @@
+{
+  "id": "a2-u7-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "数字习惯",
+  "subtitle": "讨论手机、网络和个人设置",
+  "theme": "数字习惯",
+  "grammarFocus": "imperatives",
+  "grammarTags": [
+    "imperatives"
+  ],
+  "words": [
+    [
+      "password",
+      "密码"
+    ],
+    [
+      "notification",
+      "通知"
+    ],
+    [
+      "download",
+      "下载"
+    ]
+  ],
+  "pairs": [
+    [
+      "password",
+      "密码"
+    ],
+    [
+      "notification",
+      "通知"
+    ],
+    [
+      "download",
+      "下载"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u7-l1-q1",
+      "kind": "word",
+      "prompt": "password · 数字习惯",
+      "instruction": "选择这个词的直译",
+      "answer": "密码",
+      "options": [
+        "密码",
+        "通知",
+        "下载",
+        "问题"
+      ],
+      "translation": "密码",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u7-l1-q2",
+      "kind": "choice",
+      "prompt": "I changed my password after a strange message.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "收到奇怪消息后我改了密码。",
+      "translation": "收到奇怪消息后我改了密码。",
+      "audio": "I changed my password after a strange message.",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "choice"
+      ],
+      "options": [
+        "收到奇怪消息后我改了密码。",
+        "请创建一个强密码。",
+        "应用在午夜发了一条通知。",
+        "我下载了地图供离线使用。"
+      ]
+    },
+    {
+      "id": "a2-u7-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "学习时请关闭通知。",
+      "translation": "学习时请关闭通知。",
+      "audio": "Turn off notifications while you study.",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listen"
+      ],
+      "options": [
+        "学习时请关闭通知。",
+        "应用在午夜发了一条通知。",
+        "我下载了地图供离线使用。",
+        "不要通过短信分享密码。"
+      ]
+    },
+    {
+      "id": "a2-u7-l1-q4",
+      "kind": "order",
+      "prompt": "你可以在飞行前下载课程。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "You can download the lessons before your flight.",
+      "translation": "你可以在飞行前下载课程。",
+      "audio": "You can download the lessons before your flight.",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "order"
+      ],
+      "tokens": [
+        "You",
+        "can",
+        "download",
+        "the",
+        "lessons",
+        "before",
+        "your",
+        "flight."
+      ]
+    },
+    {
+      "id": "a2-u7-l1-q5",
+      "kind": "fill",
+      "prompt": "Please create a strong _____.",
+      "instruction": "选择英文词完成句子。",
+      "answer": "password",
+      "options": [
+        "password",
+        "notification",
+        "download",
+        "message"
+      ],
+      "audio": "Please create a strong password.",
+      "translation": "请创建一个强密码。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a2-u7-l1-q6",
+      "kind": "match",
+      "prompt": "把「数字习惯」的重点词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "password",
+          "密码"
+        ],
+        [
+          "notification",
+          "通知"
+        ],
+        [
+          "download",
+          "下载"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "password、密码；notification、通知；download、下载；message、消息；schedule、日程；meeting、会议",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a2-u7-l1-q7",
+      "kind": "word",
+      "prompt": "notification · 数字习惯",
+      "instruction": "选择这个词的直译",
+      "answer": "通知",
+      "options": [
+        "通知",
+        "密码",
+        "下载",
+        "安排"
+      ],
+      "translation": "通知",
+      "audio": "notification",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u7-l1-q8",
+      "kind": "choice",
+      "prompt": "Never share your password by text message during the afternoon.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "不要通过短信分享密码。",
+      "options": [
+        "不要通过短信分享密码。",
+        "收到奇怪消息后我改了密码。",
+        "学习时请关闭通知。",
+        "你可以在飞行前下载课程。"
+      ],
+      "audio": "Never share your password by text message during the afternoon.",
+      "translation": "不要通过短信分享密码，在下午。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "a2-u7-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "今天检查通知设置。",
+      "options": [
+        "今天检查通知设置。",
+        "收到奇怪消息后我改了密码。",
+        "学习时请关闭通知。",
+        "你可以在飞行前下载课程。"
+      ],
+      "audio": "Check the notification settings today before dinner.",
+      "translation": "今天检查通知设置，晚饭前。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a2-u7-l1-q10",
+      "kind": "fill",
+      "prompt": "Check the _____ settings today.",
+      "instruction": "选择正确的词完成句子。",
+      "answer": "notification",
+      "options": [
+        "notification",
+        "password",
+        "download",
+        "plan"
+      ],
+      "audio": "Check the notification settings today.",
+      "translation": "今天检查通知设置。",
+      "grammarTags": [
+        "imperatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u7-l1-dialogue",
+    "scene": "数字习惯",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I changed my password after a strange message.",
+        "translation": "收到奇怪消息后我改了密码。"
+      },
+      {
+        "speaker": "partner",
+        "text": "Turn off notifications while you study.",
+        "translation": "学习时请关闭通知。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "You can download the lessons before your flight.",
+        "translation": "你可以在飞行前下载课程。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is the conversation mainly about?",
+        "answer": "收到奇怪消息后我改了密码。",
+        "options": [
+          "收到奇怪消息后我改了密码。",
+          "请创建一个强密码。",
+          "不要通过短信分享密码。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

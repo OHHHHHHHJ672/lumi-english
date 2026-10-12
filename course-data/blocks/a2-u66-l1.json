@@ -1,0 +1,563 @@
+{
+  "id": "a2-u66-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶基础实验",
+  "subtitle": "观察混合物和反应",
+  "theme": "进阶基础实验",
+  "grammarFocus": "past-simple",
+  "grammarTags": [
+    "past-simple"
+  ],
+  "words": [
+    [
+      "mixture",
+      "混合物"
+    ],
+    [
+      "observe",
+      "观察"
+    ],
+    [
+      "reaction",
+      "反应"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "mixture · 进阶基础实验",
+      "audio": "mixture",
+      "instruction": "选择这个词的直译",
+      "answer": "混合物",
+      "options": [
+        "混合物",
+        "观察",
+        "反应",
+        "问题"
+      ],
+      "translation": "混合物",
+      "id": "a2-u66-l1-q1",
+      "lessonId": "a2-u66-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We discussed the mixture this weekend.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们这个周末讨论了混合物。",
+      "options": [
+        "我们这个周末讨论了混合物。",
+        "我们为我们的团队讨论了观察。",
+        "我们为我们的团队讨论了观察。，在车站。",
+        "我们午饭前讨论了反应。，截止日期前。"
+      ],
+      "audio": "We discussed the mixture this weekend.",
+      "translation": "我们这个周末讨论了混合物。",
+      "id": "a2-u66-l1-q2",
+      "lessonId": "a2-u66-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们为我们的团队讨论了观察。",
+      "options": [
+        "我们这个周末讨论了混合物。",
+        "我们为我们的团队讨论了观察。",
+        "我们为我们的团队讨论了观察。，在车站。",
+        "我们午饭前讨论了反应。，截止日期前。"
+      ],
+      "audio": "We discussed the observe for our team.",
+      "translation": "我们为我们的团队讨论了观察。",
+      "id": "a2-u66-l1-q3",
+      "lessonId": "a2-u66-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们午饭前讨论了反应。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We discussed the reaction before lunch.",
+      "tokens": [
+        "We",
+        "discussed",
+        "the",
+        "reaction",
+        "before",
+        "lunch."
+      ],
+      "audio": "We discussed the reaction before lunch.",
+      "translation": "我们午饭前讨论了反应。",
+      "id": "a2-u66-l1-q4",
+      "lessonId": "a2-u66-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ at the station.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "mixture",
+      "options": [
+        "mixture",
+        "observe",
+        "reaction",
+        "message"
+      ],
+      "audio": "Please check the mixture at the station.",
+      "translation": "请在车站检查混合物。",
+      "id": "a2-u66-l1-q5",
+      "lessonId": "a2-u66-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶基础实验」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "mixture、混合物；observe、观察；reaction、反应；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u66-l1-q6",
+      "lessonId": "a2-u66-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "observe · 进阶基础实验",
+      "audio": "observe",
+      "instruction": "选择这个词的直译",
+      "answer": "观察",
+      "options": [
+        "观察",
+        "混合物",
+        "反应",
+        "安排"
+      ],
+      "translation": "观察",
+      "id": "a2-u66-l1-q7",
+      "lessonId": "a2-u66-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We discussed the observe for our team. at the station.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们为我们的团队讨论了观察。，在车站。",
+      "options": [
+        "我们这个周末讨论了混合物。",
+        "我们为我们的团队讨论了观察。",
+        "我们为我们的团队讨论了观察。，在车站。",
+        "我们午饭前讨论了反应。，截止日期前。"
+      ],
+      "audio": "We discussed the observe for our team. at the station.",
+      "translation": "我们为我们的团队讨论了观察。，在车站。",
+      "id": "a2-u66-l1-q8",
+      "lessonId": "a2-u66-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们午饭前讨论了反应。，截止日期前。",
+      "options": [
+        "我们这个周末讨论了混合物。",
+        "我们为我们的团队讨论了观察。",
+        "我们为我们的团队讨论了观察。，在车站。",
+        "我们午饭前讨论了反应。，截止日期前。"
+      ],
+      "audio": "We discussed the reaction before lunch. before the deadline.",
+      "translation": "我们午饭前讨论了反应。，截止日期前。",
+      "id": "a2-u66-l1-q9",
+      "lessonId": "a2-u66-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the observe before the deadline.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the observe before the deadline.",
+      "translation": "我们需要截止日期前检查观察。",
+      "id": "a2-u66-l1-q10",
+      "lessonId": "a2-u66-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "past-simple"
+      ],
+      "glossary": [
+        [
+          "mixture",
+          "混合物"
+        ],
+        [
+          "observe",
+          "观察"
+        ],
+        [
+          "reaction",
+          "反应"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u66-l1-dialogue",
+    "scene": "进阶基础实验",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about mixture?",
+        "translation": "你能再告诉我一些关于混合物的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use mixture when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到混合物。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use mixture in a daily plan",
+        "options": [
+          "How to use mixture in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

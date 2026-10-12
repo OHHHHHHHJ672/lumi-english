@@ -1,0 +1,231 @@
+{
+  "id": "a2-u28-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "预约改期",
+  "subtitle": "改时间、确认和等待",
+  "theme": "appointments",
+  "grammarFocus": "appointments",
+  "grammarTags": [
+    "appointments"
+  ],
+  "words": [
+    [
+      "reschedule",
+      "改期"
+    ],
+    [
+      "slot",
+      "时段"
+    ],
+    [
+      "confirm",
+      "确认"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u28-l1-q1",
+      "kind": "word",
+      "prompt": "reschedule",
+      "answer": "改期",
+      "translation": "改期",
+      "options": [
+        "改期",
+        "时段",
+        "确认",
+        "取消"
+      ]
+    },
+    {
+      "id": "a2-u28-l1-q2",
+      "kind": "choice",
+      "prompt": "Could we reschedule the appointment to Friday?",
+      "audio": "Could we reschedule the appointment to Friday?",
+      "answer": "我们可以把预约改到周五吗？",
+      "translation": "我们可以把预约改到周五吗？",
+      "options": [
+        "我们可以把预约改到周五吗？",
+        "我们可以把预约取消到周五吗？",
+        "我们周五可以确认账单吗？",
+        "我们能在周五看到医生吗？"
+      ]
+    },
+    {
+      "id": "a2-u28-l1-q3",
+      "kind": "listen",
+      "prompt": "听清还剩什么时段。",
+      "audio": "The clinic has one morning slot left.",
+      "answer": "诊所只剩一个上午时段。",
+      "translation": "诊所只剩一个上午时段。",
+      "options": [
+        "诊所只剩一个上午时段。",
+        "诊所只剩一个下午时段。",
+        "医院取消了上午预约。",
+        "医生上午已经离开诊所。"
+      ]
+    },
+    {
+      "id": "a2-u28-l1-q4",
+      "kind": "order",
+      "prompt": "请通过邮件确认预约。",
+      "audio": "Please confirm your appointment by email.",
+      "answer": "Please confirm your appointment by email.",
+      "translation": "请通过邮件确认预约。",
+      "tokens": [
+        "Please",
+        "confirm",
+        "your",
+        "appointment",
+        "by",
+        "email."
+      ]
+    },
+    {
+      "id": "a2-u28-l1-q5",
+      "kind": "fill",
+      "prompt": "I need to _____ my dentist visit.",
+      "answer": "reschedule",
+      "audio": "I need to reschedule my dentist visit.",
+      "translation": "我需要改期牙医预约。",
+      "options": [
+        "reschedule",
+        "rescheduled",
+        "rescheduling",
+        "reschedules"
+      ]
+    },
+    {
+      "id": "a2-u28-l1-q6",
+      "kind": "match",
+      "prompt": "配对预约词语。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "reschedule",
+          "改期"
+        ],
+        [
+          "slot",
+          "时段"
+        ],
+        [
+          "confirm",
+          "确认"
+        ],
+        [
+          "clinic",
+          "诊所"
+        ],
+        [
+          "calendar",
+          "日历"
+        ],
+        [
+          "receptionist",
+          "前台"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u28-l1-q7",
+      "kind": "word",
+      "prompt": "slot",
+      "answer": "时段",
+      "translation": "时段",
+      "options": [
+        "时段",
+        "预约",
+        "确认",
+        "大厅"
+      ]
+    },
+    {
+      "id": "a2-u28-l1-q8",
+      "kind": "choice",
+      "prompt": "The earliest slot is at nine thirty.",
+      "audio": "The earliest slot is at nine thirty.",
+      "answer": "最早的时段是九点半。",
+      "translation": "最早的时段是九点半。",
+      "options": [
+        "最早的时段是九点半。",
+        "最晚的时段是九点半。",
+        "最早的时段是八点半。",
+        "预约被改到了九点半。"
+      ]
+    },
+    {
+      "id": "a2-u28-l1-q9",
+      "kind": "listen",
+      "prompt": "听清谁确认了日期。",
+      "audio": "She confirmed the date with the receptionist.",
+      "answer": "她和前台确认了日期。",
+      "translation": "她和前台确认了日期。",
+      "options": [
+        "她和前台确认了日期。",
+        "她和医生改了日期。",
+        "她和前台取消了预约。",
+        "她向医生询问了时段。"
+      ]
+    },
+    {
+      "id": "a2-u28-l1-q10",
+      "kind": "fill",
+      "prompt": "The doctor is running ten minutes _____.",
+      "answer": "late",
+      "audio": "The doctor is running ten minutes late.",
+      "translation": "医生晚到了十分钟。",
+      "options": [
+        "late",
+        "early",
+        "later",
+        "latest"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u28-l1-dialogue",
+    "scene": "改期看牙预约",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I cannot come on Thursday. Could I reschedule my appointment?",
+        "translation": "我周四来不了。我可以改期预约吗？"
+      },
+      {
+        "speaker": "alex",
+        "text": "Friday morning is available at ten.",
+        "translation": "周五上午十点有空。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That works. I will confirm it by email.",
+        "translation": "可以。我会通过邮件确认。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "When is the new appointment?",
+        "answer": "Friday morning at ten",
+        "options": [
+          "Friday morning at ten",
+          "Thursday afternoon at two",
+          "Monday morning at nine",
+          "Saturday evening at six"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

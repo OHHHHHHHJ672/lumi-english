@@ -1,0 +1,565 @@
+{
+  "id": "a2-u62-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶社区服务",
+  "subtitle": "联系电工和五金店",
+  "theme": "进阶社区服务",
+  "grammarFocus": "future-plans",
+  "grammarTags": [
+    "future-plans"
+  ],
+  "words": [
+    [
+      "electrician",
+      "电工"
+    ],
+    [
+      "hardware",
+      "五金用品"
+    ],
+    [
+      "delivery",
+      "配送"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "electrician · 进阶社区服务",
+      "audio": "electrician",
+      "instruction": "选择这个词的直译",
+      "answer": "电工",
+      "options": [
+        "电工",
+        "五金用品",
+        "配送",
+        "问题"
+      ],
+      "translation": "电工",
+      "id": "a2-u62-l1-q1",
+      "lessonId": "a2-u62-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "glossary": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We are going to discuss the electrician tomorrow.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们打算明天讨论电工。",
+      "options": [
+        "我们打算明天讨论电工。",
+        "我们打算明天讨论五金用品。",
+        "我们打算明天讨论五金用品。，会议期间。",
+        "我们打算明天讨论配送。，晚饭后。"
+      ],
+      "audio": "We are going to discuss the electrician tomorrow.",
+      "translation": "我们打算明天讨论电工。",
+      "id": "a2-u62-l1-q2",
+      "lessonId": "a2-u62-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "glossary": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们打算明天讨论五金用品。",
+      "options": [
+        "我们打算明天讨论电工。",
+        "我们打算明天讨论五金用品。",
+        "我们打算明天讨论五金用品。，会议期间。",
+        "我们打算明天讨论配送。，晚饭后。"
+      ],
+      "audio": "We are going to discuss the hardware tomorrow.",
+      "translation": "我们打算明天讨论五金用品。",
+      "id": "a2-u62-l1-q3",
+      "lessonId": "a2-u62-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "glossary": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们打算明天讨论配送。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "We are going to discuss the delivery tomorrow.",
+      "tokens": [
+        "We",
+        "are",
+        "going",
+        "to",
+        "discuss",
+        "the",
+        "delivery",
+        "tomorrow."
+      ],
+      "audio": "We are going to discuss the delivery tomorrow.",
+      "translation": "我们打算明天讨论配送。",
+      "id": "a2-u62-l1-q4",
+      "lessonId": "a2-u62-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "glossary": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ during the meeting.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "electrician",
+      "options": [
+        "electrician",
+        "hardware",
+        "delivery",
+        "message"
+      ],
+      "audio": "Please check the electrician during the meeting.",
+      "translation": "请会议期间检查电工。",
+      "id": "a2-u62-l1-q5",
+      "lessonId": "a2-u62-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "glossary": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶社区服务」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "electrician、电工；hardware、五金用品；delivery、配送；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u62-l1-q6",
+      "lessonId": "a2-u62-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "glossary": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "hardware · 进阶社区服务",
+      "audio": "hardware",
+      "instruction": "选择这个词的直译",
+      "answer": "五金用品",
+      "options": [
+        "五金用品",
+        "电工",
+        "配送",
+        "安排"
+      ],
+      "translation": "五金用品",
+      "id": "a2-u62-l1-q7",
+      "lessonId": "a2-u62-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "glossary": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We are going to discuss the hardware tomorrow. during the meeting.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们打算明天讨论五金用品。，会议期间。",
+      "options": [
+        "我们打算明天讨论电工。",
+        "我们打算明天讨论五金用品。",
+        "我们打算明天讨论五金用品。，会议期间。",
+        "我们打算明天讨论配送。，晚饭后。"
+      ],
+      "audio": "We are going to discuss the hardware tomorrow. during the meeting.",
+      "translation": "我们打算明天讨论五金用品。，会议期间。",
+      "id": "a2-u62-l1-q8",
+      "lessonId": "a2-u62-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "glossary": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们打算明天讨论配送。，晚饭后。",
+      "options": [
+        "我们打算明天讨论电工。",
+        "我们打算明天讨论五金用品。",
+        "我们打算明天讨论五金用品。，会议期间。",
+        "我们打算明天讨论配送。，晚饭后。"
+      ],
+      "audio": "We are going to discuss the delivery tomorrow. after dinner.",
+      "translation": "我们打算明天讨论配送。，晚饭后。",
+      "id": "a2-u62-l1-q9",
+      "lessonId": "a2-u62-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "glossary": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the hardware after dinner.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the hardware after dinner.",
+      "translation": "我们需要晚饭后检查五金用品。",
+      "id": "a2-u62-l1-q10",
+      "lessonId": "a2-u62-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "glossary": [
+        [
+          "electrician",
+          "电工"
+        ],
+        [
+          "hardware",
+          "五金用品"
+        ],
+        [
+          "delivery",
+          "配送"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u62-l1-dialogue",
+    "scene": "进阶社区服务",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about electrician?",
+        "translation": "你能再告诉我一些关于电工的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use electrician when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到电工。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use electrician in a daily plan",
+        "options": [
+          "How to use electrician in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

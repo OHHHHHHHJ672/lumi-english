@@ -1,0 +1,368 @@
+{
+  "id": "b2-u16-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "公共卫生",
+  "subtitle": "分析疫情、疫苗和预防",
+  "theme": "公共卫生",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "outbreak",
+      "疫情暴发"
+    ],
+    [
+      "vaccination",
+      "疫苗接种"
+    ],
+    [
+      "prevention",
+      "预防"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u16-l1-q1",
+      "kind": "word",
+      "prompt": "outbreak · 公共卫生",
+      "answer": "outbreak",
+      "translation": "疫情暴发",
+      "instruction": "选择适合语境的表达。",
+      "audio": "outbreak",
+      "lessonId": "b2-u16-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "疫情暴发",
+        "疫苗接种",
+        "预防",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u16-l1-q2",
+      "kind": "choice",
+      "prompt": "The clinic reported an outbreak near the school.",
+      "answer": "诊所报告学校附近出现疫情暴发。",
+      "translation": "诊所报告学校附近出现疫情暴发。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The clinic reported an outbreak near the school.",
+      "lessonId": "b2-u16-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "诊所报告学校附近出现疫情暴发。",
+        "我们会加强预防措施，并公布疫苗接种时间。",
+        "这些信息会帮助家庭制定冷静的计划。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u16-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我们会加强预防措施，并公布疫苗接种时间。",
+      "translation": "我们会加强预防措施，并公布疫苗接种时间。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We will increase prevention measures and share the vaccination hours.",
+      "lessonId": "b2-u16-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们会加强预防措施，并公布疫苗接种时间。",
+        "诊所报告学校附近出现疫情暴发。",
+        "疫苗接种仍是一项重要的预防措施。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u16-l1-q4",
+      "kind": "order",
+      "prompt": "诊所已经公布了疫苗接种时间表。",
+      "answer": "The clinic has already published the vaccination schedule.",
+      "translation": "诊所已经公布了疫苗接种时间表。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "The clinic has already published the vaccination schedule.",
+      "lessonId": "b2-u16-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "clinic",
+        "has",
+        "already",
+        "published",
+        "the",
+        "vaccination",
+        "schedule."
+      ]
+    },
+    {
+      "id": "b2-u16-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the vaccination before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅疫苗接种。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the vaccination before Friday.",
+      "lessonId": "b2-u16-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u16-l1-q6",
+      "kind": "match",
+      "prompt": "配对「公共卫生」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u16-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "outbreak",
+          "疫情暴发"
+        ],
+        [
+          "vaccination",
+          "疫苗接种"
+        ],
+        [
+          "prevention",
+          "预防"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u16-l1-q7",
+      "kind": "word",
+      "prompt": "vaccination · 公共卫生",
+      "answer": "vaccination",
+      "translation": "疫苗接种",
+      "instruction": "选择适合语境的表达。",
+      "audio": "vaccination",
+      "lessonId": "b2-u16-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "疫苗接种",
+        "疫情暴发",
+        "预防",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u16-l1-q8",
+      "kind": "choice",
+      "prompt": "That information will help families make a calm plan.",
+      "answer": "这些信息会帮助家庭制定冷静的计划。",
+      "translation": "这些信息会帮助家庭制定冷静的计划。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That information will help families make a calm plan.",
+      "lessonId": "b2-u16-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这些信息会帮助家庭制定冷静的计划。",
+        "团队必须在周五前审阅疫苗接种。",
+        "诊所报告学校附近出现疫情暴发。",
+        "疫苗接种仍然是重要的预防措施。"
+      ]
+    },
+    {
+      "id": "b2-u16-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "这份通知说明了什么时候应当留在家中。",
+      "translation": "这份通知说明了什么时候应当留在家中。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The notice explains when to stay home.",
+      "lessonId": "b2-u16-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这份通知说明了什么时候应当留在家中。",
+        "诊所报告学校附近出现疫情暴发。",
+        "我们会加强预防措施，并公布疫苗接种时间。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u16-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the prevention carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅预防。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the prevention carefully.",
+      "lessonId": "b2-u16-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u16-l1-dialogue",
+    "scene": "公共卫生",
+    "characters": [
+      {
+        "id": "mina",
+        "name": "Mina",
+        "role": "colleague"
+      },
+      {
+        "id": "dr chen",
+        "name": "Dr Chen",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "mina",
+        "text": "The school has reported several cases since Monday.",
+        "translation": "学校从周一以来报告了几例。"
+      },
+      {
+        "speaker": "dr chen",
+        "text": "We will increase prevention measures and share the vaccination hours.",
+        "translation": "我们会加强预防措施，并公布疫苗接种时间。"
+      },
+      {
+        "speaker": "mina",
+        "text": "That information will help families make a calm plan.",
+        "translation": "这些信息会帮助家庭冷静地制定计划。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Dr Chen提出了什么建议？",
+        "answer": "We will increase prevention measures and share the vaccination hours.",
+        "options": [
+          "We will increase prevention measures and share the vaccination hours.",
+          "The school has reported several cases since Monday.",
+          "That information will help families make a calm plan."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,0 +1,368 @@
+{
+  "id": "b2-u12-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "法律合同",
+  "subtitle": "理解管辖权、责任和合规",
+  "theme": "法律合同",
+  "grammarFocus": "legal-modals",
+  "grammarTags": [
+    "legal-modals"
+  ],
+  "words": [
+    [
+      "jurisdiction",
+      "管辖权"
+    ],
+    [
+      "liable",
+      "负有责任的"
+    ],
+    [
+      "comply",
+      "遵守"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u12-l1-q1",
+      "kind": "word",
+      "prompt": "jurisdiction · 法律合同",
+      "answer": "jurisdiction",
+      "translation": "管辖权",
+      "instruction": "选择适合语境的表达。",
+      "audio": "jurisdiction",
+      "lessonId": "b2-u12-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "legal-modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "管辖权",
+        "负有责任的",
+        "遵守",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u12-l1-q2",
+      "kind": "choice",
+      "prompt": "The contract names the court’s jurisdiction.",
+      "answer": "合同写明了管辖法院。",
+      "translation": "合同写明了管辖法院。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The contract names the court’s jurisdiction.",
+      "lessonId": "b2-u12-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "legal-modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "合同写明了管辖法院。",
+        "合同指定了供应商所在地的法院。",
+        "供应商可能要为损坏的设备负责。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u12-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "合同指定了供应商所在地的法院。",
+      "translation": "合同指定了供应商所在地的法院。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The contract names the court where the supplier is based.",
+      "lessonId": "b2-u12-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "legal-modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "合同指定了供应商所在地的法院。",
+        "合同写明了管辖法院。",
+        "供应商可能要为损坏的设备负责。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u12-l1-q4",
+      "kind": "order",
+      "prompt": "供应商可能要为损坏的设备承担责任。",
+      "answer": "The supplier may be liable for damaged equipment.",
+      "translation": "供应商可能要为损坏的设备承担责任。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "The supplier may be liable for damaged equipment.",
+      "lessonId": "b2-u12-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "legal-modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "supplier",
+        "may",
+        "be",
+        "liable",
+        "for",
+        "damaged",
+        "equipment."
+      ]
+    },
+    {
+      "id": "b2-u12-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the liability report before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅责任报告。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the liability report before Friday.",
+      "lessonId": "b2-u12-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "legal-modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u12-l1-q6",
+      "kind": "match",
+      "prompt": "配对「法律合同」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u12-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "legal-modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "jurisdiction",
+          "管辖权"
+        ],
+        [
+          "liable",
+          "负有责任的"
+        ],
+        [
+          "comply",
+          "遵守"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u12-l1-q7",
+      "kind": "word",
+      "prompt": "liable · 法律合同",
+      "answer": "liable",
+      "translation": "负有责任的",
+      "instruction": "选择适合语境的表达。",
+      "audio": "liable",
+      "lessonId": "b2-u12-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "legal-modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "负有责任的",
+        "管辖权",
+        "遵守",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u12-l1-q8",
+      "kind": "choice",
+      "prompt": "Then we know where to file a claim if the delay continues.",
+      "answer": "这样我们就知道如果延误持续该向哪里提出索赔。",
+      "translation": "这样我们就知道如果延误持续该向哪里提出索赔。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Then we know where to file a claim if the delay continues.",
+      "lessonId": "b2-u12-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "legal-modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这样我们就知道如果延误持续该向哪里提出索赔。",
+        "团队必须在周五前审阅负有责任的。",
+        "合同写明了法院的管辖权。",
+        "供应商可能要为损坏的设备负责。"
+      ]
+    },
+    {
+      "id": "b2-u12-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "双方都必须遵守安全条款。",
+      "translation": "双方都必须遵守安全条款。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Both parties must comply with the safety clause.",
+      "lessonId": "b2-u12-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "legal-modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "双方都必须遵守安全条款。",
+        "合同写明了管辖法院。",
+        "合同指定了供应商所在地的法院。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u12-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the compliance records carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅合规记录。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the compliance records carefully.",
+      "lessonId": "b2-u12-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "legal-modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u12-l1-dialogue",
+    "scene": "法律合同",
+    "characters": [
+      {
+        "id": "yara",
+        "name": "Yara",
+        "role": "colleague"
+      },
+      {
+        "id": "felix",
+        "name": "Felix",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "yara",
+        "text": "The delivery clause is clear, but which court has jurisdiction?",
+        "translation": "交付条款很清楚，但哪家法院有管辖权？"
+      },
+      {
+        "speaker": "felix",
+        "text": "The contract names the court where the supplier is based.",
+        "translation": "合同指定了供应商所在地的法院。"
+      },
+      {
+        "speaker": "yara",
+        "text": "Then we know where to file a claim if the delay continues.",
+        "translation": "这样如果延误继续，我们就知道在哪里提出索赔。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Felix提出了什么建议？",
+        "answer": "The contract names the court where the supplier is based.",
+        "options": [
+          "The contract names the court where the supplier is based.",
+          "The delivery clause is clear, but which court has jurisdiction?",
+          "Then we know where to file a claim if the delay continues."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

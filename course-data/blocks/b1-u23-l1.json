@@ -1,0 +1,366 @@
+{
+  "id": "b1-u23-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "用户研究",
+  "subtitle": "通过调查获得洞察",
+  "theme": "用户研究",
+  "grammarFocus": "user-research",
+  "grammarTags": [
+    "user-research"
+  ],
+  "words": [
+    [
+      "survey",
+      "调查"
+    ],
+    [
+      "respondent",
+      "受访者"
+    ],
+    [
+      "insight",
+      "洞察"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "survey · 用户研究",
+      "audio": "survey",
+      "instruction": "选择中文意思。",
+      "answer": "调查",
+      "translation": "调查",
+      "options": [
+        "调查",
+        "受访者",
+        "洞察",
+        "计划"
+      ],
+      "id": "b1-u23-l1-q1",
+      "lessonId": "b1-u23-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "user-research"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The survey reached commuters at three stations.",
+      "audio": "The survey reached commuters at three stations.",
+      "instruction": "选择这句话的意思。",
+      "answer": "这项调查在三个车站接触到了通勤者。",
+      "translation": "这项调查在三个车站接触到了通勤者。",
+      "options": [
+        "这项调查在三个车站接触到了通勤者。",
+        "每位受访者都可以跳过敏感问题。",
+        "这些访谈给了我们一个有用的发现。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u23-l1-q2",
+      "lessonId": "b1-u23-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "user-research"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "Each respondent could skip a sensitive question.",
+      "instruction": "听完整句子。",
+      "answer": "每位受访者都可以跳过敏感问题。",
+      "translation": "每位受访者都可以跳过敏感问题。",
+      "options": [
+        "每位受访者都可以跳过敏感问题。",
+        "这项调查在三个车站接触到了通勤者。",
+        "这些访谈给了我们一个有用的发现。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u23-l1-q3",
+      "lessonId": "b1-u23-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "user-research"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "这些访谈给了我们一个有用的发现。",
+      "audio": "The interviews gave us one useful insight.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "The interviews gave us one useful insight.",
+      "translation": "这些访谈给了我们一个有用的发现。",
+      "tokens": [
+        "The",
+        "interviews",
+        "gave",
+        "us",
+        "one",
+        "useful",
+        "insight."
+      ],
+      "id": "b1-u23-l1-q4",
+      "lessonId": "b1-u23-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "user-research"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the respondent before the meeting.",
+      "audio": "The team has reviewed the respondent before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了受访者。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u23-l1-q5",
+      "lessonId": "b1-u23-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "user-research"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「用户研究」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "survey",
+          "调查"
+        ],
+        [
+          "respondent",
+          "受访者"
+        ],
+        [
+          "insight",
+          "洞察"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u23-l1-q6",
+      "lessonId": "b1-u23-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "user-research"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "respondent · 用户研究",
+      "audio": "respondent",
+      "instruction": "选择中文意思。",
+      "answer": "受访者",
+      "translation": "受访者",
+      "options": [
+        "受访者",
+        "调查",
+        "洞察",
+        "问题"
+      ],
+      "id": "b1-u23-l1-q7",
+      "lessonId": "b1-u23-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "user-research"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We should not treat one respondent as the whole audience.",
+      "audio": "We should not treat one respondent as the whole audience.",
+      "instruction": "选择这句话的意思。",
+      "answer": "我们不该把一位受访者当成全部受众。",
+      "translation": "我们不该把一位受访者当成全部受众。",
+      "options": [
+        "我们不该把一位受访者当成全部受众。",
+        "这项调查在三个车站接触到了通勤者。",
+        "每位受访者都可以跳过敏感问题。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u23-l1-q8",
+      "lessonId": "b1-u23-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "user-research"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The research team grouped answers by age.",
+      "instruction": "听完整句子。",
+      "answer": "研究团队按年龄对回答进行了分组。",
+      "translation": "研究团队按年龄对回答进行了分组。",
+      "options": [
+        "研究团队按年龄对回答进行了分组。",
+        "这项调查在三个车站接触到了通勤者。",
+        "每位受访者都可以跳过敏感问题。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u23-l1-q9",
+      "lessonId": "b1-u23-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "user-research"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the insight before Friday.",
+      "audio": "We should clarify the insight before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清洞察。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u23-l1-q10",
+      "lessonId": "b1-u23-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "user-research"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u23-l1-dialogue",
+    "scene": "用户研究",
+    "characters": [
+      {
+        "id": "nia",
+        "name": "Nia",
+        "role": "colleague"
+      },
+      {
+        "id": "tom",
+        "name": "Tom",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "nia",
+        "text": "Several respondents misunderstood the final survey question.",
+        "translation": "几位受访者误解了调查的最后一个问题。"
+      },
+      {
+        "speaker": "tom",
+        "text": "Let us rewrite it and run a smaller pilot before collecting more data.",
+        "translation": "我们重写问题后，先做一个小规模试点。"
+      },
+      {
+        "speaker": "nia",
+        "text": "That should give us a cleaner insight.",
+        "translation": "这样能让我们的洞察更清晰。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Tom提出了什么建议？",
+        "answer": "Let us rewrite it and run a smaller pilot before collecting more data.",
+        "options": [
+          "Let us rewrite it and run a smaller pilot before collecting more data.",
+          "Several respondents misunderstood the final survey question.",
+          "That should give us a cleaner insight."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,0 +1,368 @@
+{
+  "id": "b2-u15-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "供应链",
+  "subtitle": "分析采购、物流和短缺",
+  "theme": "供应链",
+  "grammarFocus": "modal-verbs",
+  "grammarTags": [
+    "modal-verbs"
+  ],
+  "words": [
+    [
+      "procurement",
+      "采购"
+    ],
+    [
+      "logistics",
+      "物流"
+    ],
+    [
+      "shortage",
+      "短缺"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u15-l1-q1",
+      "kind": "word",
+      "prompt": "procurement · 供应链",
+      "answer": "procurement",
+      "translation": "采购",
+      "instruction": "选择适合语境的表达。",
+      "audio": "procurement",
+      "lessonId": "b2-u15-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "采购",
+        "物流",
+        "短缺",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u15-l1-q2",
+      "kind": "choice",
+      "prompt": "The procurement team chose a local supplier.",
+      "answer": "采购团队选择了一家本地供应商。",
+      "translation": "采购团队选择了一家本地供应商。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The procurement team chose a local supplier.",
+      "lessonId": "b2-u15-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "采购团队选择了一家本地供应商。",
+        "我们应该请采购部门寻找第二家供应商。",
+        "更好的物流把配送时间缩短了两天。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u15-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我们应该请采购部门寻找第二家供应商。",
+      "translation": "我们应该请采购部门寻找第二家供应商。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should ask procurement for a second supplier.",
+      "lessonId": "b2-u15-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们应该请采购部门寻找第二家供应商。",
+        "采购团队选择了一家本地供应商。",
+        "更好的物流把配送时间缩短了两天。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u15-l1-q4",
+      "kind": "order",
+      "prompt": "更好的物流把配送时间缩短了两天。",
+      "answer": "Better logistics reduced delivery time by two days.",
+      "translation": "更好的物流把配送时间缩短了两天。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "Better logistics reduced delivery time by two days.",
+      "lessonId": "b2-u15-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "Better",
+        "logistics",
+        "reduced",
+        "delivery",
+        "time",
+        "by",
+        "two",
+        "days."
+      ]
+    },
+    {
+      "id": "b2-u15-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the logistics before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅物流。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the logistics before Friday.",
+      "lessonId": "b2-u15-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u15-l1-q6",
+      "kind": "match",
+      "prompt": "配对「供应链」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u15-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "procurement",
+          "采购"
+        ],
+        [
+          "logistics",
+          "物流"
+        ],
+        [
+          "shortage",
+          "短缺"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u15-l1-q7",
+      "kind": "word",
+      "prompt": "logistics · 供应链",
+      "answer": "logistics",
+      "translation": "物流",
+      "instruction": "选择适合语境的表达。",
+      "audio": "logistics",
+      "lessonId": "b2-u15-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "物流",
+        "采购",
+        "短缺",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u15-l1-q8",
+      "kind": "choice",
+      "prompt": "That could protect the next order from the same shortage.",
+      "answer": "这可能保护下一批订单免受同样的短缺影响。",
+      "translation": "这可能保护下一批订单免受同样的短缺影响。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That could protect the next order from the same shortage.",
+      "lessonId": "b2-u15-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这可能保护下一批订单免受同样的短缺影响。",
+        "团队必须在周五前审阅物流。",
+        "采购团队选择了本地供应商。",
+        "更好的物流让交付时间减少了两天。"
+      ]
+    },
+    {
+      "id": "b2-u15-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "零件短缺导致生产停摆。",
+      "translation": "零件短缺导致生产停摆。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "A shortage of parts stopped production.",
+      "lessonId": "b2-u15-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "零件短缺导致生产停摆。",
+        "采购团队选择了一家本地供应商。",
+        "我们应该请采购部门寻找第二家供应商。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u15-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the shortage carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅短缺。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the shortage carefully.",
+      "lessonId": "b2-u15-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "modal-verbs"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u15-l1-dialogue",
+    "scene": "供应链",
+    "characters": [
+      {
+        "id": "lea",
+        "name": "Lea",
+        "role": "colleague"
+      },
+      {
+        "id": "tom",
+        "name": "Tom",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lea",
+        "text": "The shipment is late because one component is in short supply.",
+        "translation": "货物晚到了，因为一种零件供应不足。"
+      },
+      {
+        "speaker": "tom",
+        "text": "We should ask procurement for a second supplier.",
+        "translation": "我们应该请采购部门寻找第二家供应商。"
+      },
+      {
+        "speaker": "lea",
+        "text": "That could protect the next order from the same shortage.",
+        "translation": "这样可以让下一批订单避免同样的短缺。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Tom提出了什么建议？",
+        "answer": "We should ask procurement for a second supplier.",
+        "options": [
+          "We should ask procurement for a second supplier.",
+          "The shipment is late because one component is in short supply.",
+          "That could protect the next order from the same shortage."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

@@ -1,0 +1,563 @@
+{
+  "id": "a2-u59-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶网络钓鱼",
+  "subtitle": "识别用户名和骗局",
+  "theme": "进阶网络钓鱼",
+  "grammarFocus": "should",
+  "grammarTags": [
+    "should"
+  ],
+  "words": [
+    [
+      "username",
+      "用户名"
+    ],
+    [
+      "phishing",
+      "网络钓鱼"
+    ],
+    [
+      "scam",
+      "骗局"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "username · 进阶网络钓鱼",
+      "audio": "username",
+      "instruction": "选择这个词的直译",
+      "answer": "用户名",
+      "options": [
+        "用户名",
+        "网络钓鱼",
+        "骗局",
+        "问题"
+      ],
+      "translation": "用户名",
+      "id": "a2-u59-l1-q1",
+      "lessonId": "a2-u59-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "You should review the username tonight.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "你今晚应该复习用户名。",
+      "options": [
+        "你今晚应该复习用户名。",
+        "你今晚应该复习网络钓鱼。",
+        "你今晚应该复习网络钓鱼。，下班后。",
+        "你今晚应该复习骗局。，会议期间。"
+      ],
+      "audio": "You should review the username tonight.",
+      "translation": "你今晚应该复习用户名。",
+      "id": "a2-u59-l1-q2",
+      "lessonId": "a2-u59-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "你今晚应该复习网络钓鱼。",
+      "options": [
+        "你今晚应该复习用户名。",
+        "你今晚应该复习网络钓鱼。",
+        "你今晚应该复习网络钓鱼。，下班后。",
+        "你今晚应该复习骗局。，会议期间。"
+      ],
+      "audio": "You should review the phishing tonight.",
+      "translation": "你今晚应该复习网络钓鱼。",
+      "id": "a2-u59-l1-q3",
+      "lessonId": "a2-u59-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "你今晚应该复习骗局。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "You should review the scam tonight.",
+      "tokens": [
+        "You",
+        "should",
+        "review",
+        "the",
+        "scam",
+        "tonight."
+      ],
+      "audio": "You should review the scam tonight.",
+      "translation": "你今晚应该复习骗局。",
+      "id": "a2-u59-l1-q4",
+      "lessonId": "a2-u59-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ after work.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "username",
+      "options": [
+        "username",
+        "phishing",
+        "scam",
+        "message"
+      ],
+      "audio": "Please check the username after work.",
+      "translation": "请下班后检查用户名。",
+      "id": "a2-u59-l1-q5",
+      "lessonId": "a2-u59-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶网络钓鱼」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "username、用户名；phishing、网络钓鱼；scam、骗局；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u59-l1-q6",
+      "lessonId": "a2-u59-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "phishing · 进阶网络钓鱼",
+      "audio": "phishing",
+      "instruction": "选择这个词的直译",
+      "answer": "网络钓鱼",
+      "options": [
+        "网络钓鱼",
+        "用户名",
+        "骗局",
+        "安排"
+      ],
+      "translation": "网络钓鱼",
+      "id": "a2-u59-l1-q7",
+      "lessonId": "a2-u59-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "You should review the phishing tonight. after work.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "你今晚应该复习网络钓鱼。，下班后。",
+      "options": [
+        "你今晚应该复习用户名。",
+        "你今晚应该复习网络钓鱼。",
+        "你今晚应该复习网络钓鱼。，下班后。",
+        "你今晚应该复习骗局。，会议期间。"
+      ],
+      "audio": "You should review the phishing tonight. after work.",
+      "translation": "你今晚应该复习网络钓鱼。，下班后。",
+      "id": "a2-u59-l1-q8",
+      "lessonId": "a2-u59-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "你今晚应该复习骗局。，会议期间。",
+      "options": [
+        "你今晚应该复习用户名。",
+        "你今晚应该复习网络钓鱼。",
+        "你今晚应该复习网络钓鱼。，下班后。",
+        "你今晚应该复习骗局。，会议期间。"
+      ],
+      "audio": "You should review the scam tonight. during the meeting.",
+      "translation": "你今晚应该复习骗局。，会议期间。",
+      "id": "a2-u59-l1-q9",
+      "lessonId": "a2-u59-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the phishing during the meeting.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the phishing during the meeting.",
+      "translation": "我们需要会议期间检查网络钓鱼。",
+      "id": "a2-u59-l1-q10",
+      "lessonId": "a2-u59-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "should"
+      ],
+      "glossary": [
+        [
+          "username",
+          "用户名"
+        ],
+        [
+          "phishing",
+          "网络钓鱼"
+        ],
+        [
+          "scam",
+          "骗局"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u59-l1-dialogue",
+    "scene": "进阶网络钓鱼",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about username?",
+        "translation": "你能再告诉我一些关于用户名的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use username when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到用户名。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use username in a daily plan",
+        "options": [
+          "How to use username in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,243 @@
+{
+  "id": "a2-u34-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "公共活动",
+  "subtitle": "报名、参加和遵守安排",
+  "theme": "public-events",
+  "grammarFocus": "public-events",
+  "grammarTags": [
+    "public-events"
+  ],
+  "words": [
+    [
+      "venue",
+      "场地"
+    ],
+    [
+      "register",
+      "报名"
+    ],
+    [
+      "schedule",
+      "日程"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u34-l1-q1",
+      "kind": "word",
+      "prompt": "venue · 公共活动",
+      "instruction": "选择这个词的直译。",
+      "answer": "场地",
+      "translation": "场地",
+      "options": [
+        "场地",
+        "报名",
+        "日程",
+        "观众"
+      ]
+    },
+    {
+      "id": "a2-u34-l1-q2",
+      "kind": "choice",
+      "prompt": "The event venue is beside the public library.",
+      "instruction": "选择最符合语境的意思。",
+      "audio": "The event venue is beside the public library.",
+      "answer": "活动场地在公共图书馆旁边。",
+      "translation": "活动场地在公共图书馆旁边。",
+      "options": [
+        "活动场地在公共图书馆旁边。",
+        "公共图书馆为活动提供了场地。",
+        "活动日程在图书馆旁边公布。",
+        "观众在图书馆报名参加活动。"
+      ]
+    },
+    {
+      "id": "a2-u34-l1-q3",
+      "kind": "listen",
+      "prompt": "听清报名的时间。",
+      "instruction": "先听完整句子，再选择意思。",
+      "audio": "You must register before the workshop.",
+      "answer": "你必须在工作坊前报名。",
+      "translation": "你必须在工作坊前报名。",
+      "options": [
+        "你必须在工作坊前报名。",
+        "你可以在工作坊后报名。",
+        "工作坊会替你完成报名。",
+        "你必须在图书馆前等待。"
+      ]
+    },
+    {
+      "id": "a2-u34-l1-q4",
+      "kind": "order",
+      "prompt": "日程因为下雨改变了。",
+      "instruction": "把词块组成英文句子。",
+      "audio": "The schedule changed because of rain.",
+      "answer": "The schedule changed because of rain.",
+      "translation": "日程因为下雨改变了。",
+      "tokens": [
+        "The",
+        "schedule",
+        "changed",
+        "because",
+        "of",
+        "rain."
+      ]
+    },
+    {
+      "id": "a2-u34-l1-q5",
+      "kind": "fill",
+      "prompt": "Can I _____ for the afternoon session?",
+      "instruction": "选择英文词完成句子。",
+      "audio": "Can I register for the afternoon session?",
+      "answer": "register",
+      "translation": "我可以报名下午场吗？",
+      "options": [
+        "register",
+        "registered",
+        "registering",
+        "registers"
+      ]
+    },
+    {
+      "id": "a2-u34-l1-q6",
+      "kind": "match",
+      "prompt": "配对公共活动词语。",
+      "instruction": "完成全部配对。",
+      "answer": "matched",
+      "translation": "场地、报名、日程、工作坊、讲座、观众",
+      "pairs": [
+        [
+          "venue",
+          "场地"
+        ],
+        [
+          "register",
+          "报名"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "workshop",
+          "工作坊"
+        ],
+        [
+          "talk",
+          "讲座"
+        ],
+        [
+          "audience",
+          "观众"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u34-l1-q7",
+      "kind": "word",
+      "prompt": "schedule",
+      "instruction": "选择这个词的直译。",
+      "answer": "日程",
+      "translation": "日程",
+      "options": [
+        "日程",
+        "场地",
+        "报名",
+        "入口"
+      ]
+    },
+    {
+      "id": "a2-u34-l1-q8",
+      "kind": "choice",
+      "prompt": "The venue has room for two hundred people.",
+      "instruction": "选择最符合语境的意思。",
+      "audio": "The venue has room for two hundred people.",
+      "answer": "这个场地能容纳两百人。",
+      "translation": "这个场地能容纳两百人。",
+      "options": [
+        "这个场地能容纳两百人。",
+        "这个日程安排了两百场活动。",
+        "两百人需要在场地报名。",
+        "这个场地距离两百米。"
+      ]
+    },
+    {
+      "id": "a2-u34-l1-q9",
+      "kind": "listen",
+      "prompt": "听清应查看什么。",
+      "instruction": "先听完整句子，再选择意思。",
+      "audio": "Please check the event schedule online.",
+      "answer": "请在线查看活动日程。",
+      "translation": "请在线查看活动日程。",
+      "options": [
+        "请在线查看活动日程。",
+        "请在线预订活动场地。",
+        "请在活动前完成报名。",
+        "请在线阅读讲座内容。"
+      ]
+    },
+    {
+      "id": "a2-u34-l1-q10",
+      "kind": "fill",
+      "prompt": "We arrived _____ for the public talk.",
+      "instruction": "选择正确的词完成句子。",
+      "audio": "We arrived early for the public talk.",
+      "answer": "early",
+      "translation": "我们提前到达公共讲座。",
+      "options": [
+        "early",
+        "earlier",
+        "latest",
+        "late"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u34-l1-dialogue",
+    "scene": "参加社区讲座",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Have you registered for the community talk?",
+        "translation": "你报名社区讲座了吗？"
+      },
+      {
+        "speaker": "alex",
+        "text": "Yes. The venue is in the library meeting room.",
+        "translation": "报了。场地在图书馆会议室。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Great. Let us check the schedule before we go.",
+        "translation": "太好了。我们出发前看看日程吧。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Where is the venue?",
+        "instruction": "根据对话选择地点。",
+        "answer": "In the library meeting room",
+        "options": [
+          "In the library meeting room",
+          "Beside the train station",
+          "At the public park",
+          "Inside the workshop hall"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

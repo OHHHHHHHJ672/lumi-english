@@ -1,0 +1,328 @@
+{
+  "id": "a2-u9-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "学习计划",
+  "subtitle": "安排复习、考试和专注时间",
+  "theme": "学习计划",
+  "grammarFocus": "present-continuous",
+  "grammarTags": [
+    "present-continuous"
+  ],
+  "words": [
+    [
+      "revise",
+      "复习"
+    ],
+    [
+      "concentrate",
+      "集中注意力"
+    ],
+    [
+      "semester",
+      "学期"
+    ]
+  ],
+  "pairs": [
+    [
+      "revise",
+      "复习"
+    ],
+    [
+      "concentrate",
+      "集中注意力"
+    ],
+    [
+      "semester",
+      "学期"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u9-l1-q1",
+      "kind": "word",
+      "prompt": "revise · 学习计划",
+      "instruction": "选择这个词的直译",
+      "answer": "复习",
+      "options": [
+        "复习",
+        "集中注意力",
+        "学期",
+        "问题"
+      ],
+      "translation": "复习",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u9-l1-q2",
+      "kind": "choice",
+      "prompt": "I am revising for my final exam.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我正在为期末考试复习。",
+      "translation": "我正在为期末考试复习。",
+      "audio": "I am revising for my final exam.",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "choice"
+      ],
+      "options": [
+        "我正在为期末考试复习。",
+        "新学期下周开始。",
+        "你今晚复习吗？",
+        "她正在专心写论文。"
+      ]
+    },
+    {
+      "id": "a2-u9-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "图书馆一直开放到午夜。",
+      "translation": "图书馆一直开放到午夜。",
+      "audio": "The library stays open until midnight.",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "listen"
+      ],
+      "options": [
+        "图书馆一直开放到午夜。",
+        "你今晚复习吗？",
+        "她正在专心写论文。",
+        "我们的学期六月结束。"
+      ]
+    },
+    {
+      "id": "a2-u9-l1-q4",
+      "kind": "order",
+      "prompt": "有这些噪音我无法集中注意力。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "I cannot concentrate with this noise.",
+      "translation": "有这些噪音我无法集中注意力。",
+      "audio": "I cannot concentrate with this noise.",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "order"
+      ],
+      "tokens": [
+        "I",
+        "cannot",
+        "concentrate",
+        "with",
+        "this",
+        "noise."
+      ]
+    },
+    {
+      "id": "a2-u9-l1-q5",
+      "kind": "fill",
+      "prompt": "The new _____ starts next week.",
+      "instruction": "选择英文词完成句子。",
+      "answer": "semester",
+      "options": [
+        "revise",
+        "concentrate",
+        "semester",
+        "message"
+      ],
+      "audio": "The new semester starts next week.",
+      "translation": "新学期下周开始。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a2-u9-l1-q6",
+      "kind": "match",
+      "prompt": "把「学习计划」的重点词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "revise",
+          "复习"
+        ],
+        [
+          "concentrate",
+          "集中注意力"
+        ],
+        [
+          "semester",
+          "学期"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "revise、复习；concentrate、集中注意力；semester、学期；message、消息；schedule、日程；meeting、会议",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a2-u9-l1-q7",
+      "kind": "word",
+      "prompt": "concentrate · 学习计划",
+      "instruction": "选择这个词的直译",
+      "answer": "集中注意力",
+      "options": [
+        "集中注意力",
+        "复习",
+        "学期",
+        "安排"
+      ],
+      "translation": "集中注意力",
+      "audio": "concentrate",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u9-l1-q8",
+      "kind": "choice",
+      "prompt": "Our semester ends in June during the afternoon.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我们的学期六月结束。",
+      "options": [
+        "我们的学期六月结束。",
+        "我正在为期末考试复习。",
+        "图书馆一直开放到午夜。",
+        "有这些噪音我无法集中注意力。"
+      ],
+      "audio": "Our semester ends in June during the afternoon.",
+      "translation": "我们的学期六月结束，在下午。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "a2-u9-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我昨天制定了学习计划。",
+      "options": [
+        "我昨天制定了学习计划。",
+        "我正在为期末考试复习。",
+        "图书馆一直开放到午夜。",
+        "有这些噪音我无法集中注意力。"
+      ],
+      "audio": "I made a study plan yesterday before dinner.",
+      "translation": "我昨天制定了学习计划，晚饭前。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a2-u9-l1-q10",
+      "kind": "fill",
+      "prompt": "I made a study _____ yesterday.",
+      "instruction": "选择正确的词完成句子。",
+      "answer": "plan",
+      "options": [
+        "concentrate",
+        "revise",
+        "semester",
+        "plan"
+      ],
+      "audio": "I made a study plan yesterday.",
+      "translation": "我昨天制定了学习计划。",
+      "grammarTags": [
+        "present-continuous"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u9-l1-dialogue",
+    "scene": "学习计划",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I am revising for my final exam.",
+        "translation": "我正在为期末考试复习。"
+      },
+      {
+        "speaker": "partner",
+        "text": "The library stays open until midnight.",
+        "translation": "图书馆一直开放到午夜。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I cannot concentrate with this noise.",
+        "translation": "有这些噪音我无法集中注意力。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is the conversation mainly about?",
+        "answer": "我正在为期末考试复习。",
+        "options": [
+          "我正在为期末考试复习。",
+          "新学期下周开始。",
+          "我们的学期六月结束。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

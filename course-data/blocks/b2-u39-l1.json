@@ -1,0 +1,564 @@
+{
+  "id": "b2-u39-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "进阶基因测序",
+  "subtitle": "理解生物标志物和遗传",
+  "theme": "进阶基因测序",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "sequencing",
+      "测序"
+    ],
+    [
+      "biomarker",
+      "生物标志物"
+    ],
+    [
+      "hereditary",
+      "遗传的"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "sequencing · 进阶基因测序",
+      "audio": "sequencing",
+      "instruction": "选择这个词的直译",
+      "answer": "测序",
+      "options": [
+        "测序",
+        "生物标志物",
+        "遗传的",
+        "问题"
+      ],
+      "translation": "测序",
+      "id": "b2-u39-l1-q1",
+      "lessonId": "b2-u39-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The sequencing was reviewed before the meeting.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "测序在会议前被审阅了。",
+      "options": [
+        "测序在会议前被审阅了。",
+        "生物标志物在会议前被审阅了。",
+        "生物标志物在会议前被审阅了。，预约前。",
+        "这个选项为我们的团队很遗传的。，在车站。"
+      ],
+      "audio": "The sequencing was reviewed before the meeting.",
+      "translation": "测序在会议前被审阅了。",
+      "id": "b2-u39-l1-q2",
+      "lessonId": "b2-u39-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "生物标志物在会议前被审阅了。",
+      "options": [
+        "测序在会议前被审阅了。",
+        "生物标志物在会议前被审阅了。",
+        "生物标志物在会议前被审阅了。，预约前。",
+        "这个选项为我们的团队很遗传的。，在车站。"
+      ],
+      "audio": "The biomarker was reviewed before the meeting.",
+      "translation": "生物标志物在会议前被审阅了。",
+      "id": "b2-u39-l1-q3",
+      "lessonId": "b2-u39-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "这个选项为我们的团队很遗传的。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The option is hereditary for our team.",
+      "tokens": [
+        "The",
+        "option",
+        "is",
+        "hereditary",
+        "for",
+        "our",
+        "team."
+      ],
+      "audio": "The option is hereditary for our team.",
+      "translation": "这个选项为我们的团队很遗传的。",
+      "id": "b2-u39-l1-q4",
+      "lessonId": "b2-u39-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ before the appointment.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "sequencing",
+      "options": [
+        "sequencing",
+        "biomarker",
+        "hereditary",
+        "message"
+      ],
+      "audio": "Please check the sequencing before the appointment.",
+      "translation": "请预约前检查测序。",
+      "id": "b2-u39-l1-q5",
+      "lessonId": "b2-u39-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶基因测序」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "sequencing、测序；biomarker、生物标志物；hereditary、遗传的；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u39-l1-q6",
+      "lessonId": "b2-u39-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "biomarker · 进阶基因测序",
+      "audio": "biomarker",
+      "instruction": "选择这个词的直译",
+      "answer": "生物标志物",
+      "options": [
+        "生物标志物",
+        "测序",
+        "遗传的",
+        "安排"
+      ],
+      "translation": "生物标志物",
+      "id": "b2-u39-l1-q7",
+      "lessonId": "b2-u39-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The biomarker was reviewed before the meeting. before the appointment.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "生物标志物在会议前被审阅了。，预约前。",
+      "options": [
+        "测序在会议前被审阅了。",
+        "生物标志物在会议前被审阅了。",
+        "生物标志物在会议前被审阅了。，预约前。",
+        "这个选项为我们的团队很遗传的。，在车站。"
+      ],
+      "audio": "The biomarker was reviewed before the meeting. before the appointment.",
+      "translation": "生物标志物在会议前被审阅了。，预约前。",
+      "id": "b2-u39-l1-q8",
+      "lessonId": "b2-u39-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "这个选项为我们的团队很遗传的。，在车站。",
+      "options": [
+        "测序在会议前被审阅了。",
+        "生物标志物在会议前被审阅了。",
+        "生物标志物在会议前被审阅了。，预约前。",
+        "这个选项为我们的团队很遗传的。，在车站。"
+      ],
+      "audio": "The option is hereditary for our team. at the station.",
+      "translation": "这个选项为我们的团队很遗传的。，在车站。",
+      "id": "b2-u39-l1-q9",
+      "lessonId": "b2-u39-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the biomarker at the station.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the biomarker at the station.",
+      "translation": "我们需要在车站检查生物标志物。",
+      "id": "b2-u39-l1-q10",
+      "lessonId": "b2-u39-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "sequencing",
+          "测序"
+        ],
+        [
+          "biomarker",
+          "生物标志物"
+        ],
+        [
+          "hereditary",
+          "遗传的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u39-l1-dialogue",
+    "scene": "进阶基因测序",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about sequencing?",
+        "translation": "你能再告诉我一些关于测序的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use sequencing when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到测序。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use sequencing in a daily plan",
+        "options": [
+          "How to use sequencing in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

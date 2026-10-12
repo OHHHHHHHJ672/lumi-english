@@ -1,0 +1,294 @@
+{
+  "id": "a1-u48-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶酒店入住",
+  "subtitle": "询问房间和入住时间",
+  "theme": "hotel-check-in-advanced",
+  "grammarFocus": "be-questions",
+  "grammarTags": [
+    "be-questions",
+    "hotel-language"
+  ],
+  "words": [
+    [
+      "reception",
+      "前台"
+    ],
+    [
+      "checkout",
+      "退房"
+    ],
+    [
+      "vacancy",
+      "空房"
+    ],
+    [
+      "lobby",
+      "大厅"
+    ],
+    [
+      "guest",
+      "客人"
+    ],
+    [
+      "key-card",
+      "房卡"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u48-l1-q1",
+      "kind": "word",
+      "prompt": "vacancy · 酒店入住",
+      "instruction": "选择意思。",
+      "answer": "空房",
+      "options": [
+        "空房",
+        "前台",
+        "大厅",
+        "房卡"
+      ],
+      "translation": "空房",
+      "grammarTags": [
+        "be-questions"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u48-l1-q2",
+      "kind": "choice",
+      "prompt": "Is there a vacancy for tonight?",
+      "instruction": "选择意思。",
+      "answer": "今晚有空房吗？",
+      "options": [
+        "今晚有空房吗？",
+        "今晚前台几点关门？",
+        "今晚可以办理退房吗？",
+        "今晚大厅会有客人吗？"
+      ],
+      "audio": "Is there a vacancy for tonight?",
+      "translation": "今晚有空房吗？",
+      "grammarTags": [
+        "be-questions"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u48-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "前台在大厅的右边。",
+      "options": [
+        "前台在大厅的右边。",
+        "房卡在房间的桌上。",
+        "退房时间在上午十一点。",
+        "空房在电梯旁边。"
+      ],
+      "audio": "The reception desk is on the right of the lobby.",
+      "translation": "前台在大厅的右边。",
+      "grammarTags": [
+        "be-questions"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u48-l1-q4",
+      "kind": "order",
+      "prompt": "退房时间是上午十一点。",
+      "instruction": "组成英文句子。",
+      "answer": "Checkout is at eleven in the morning.",
+      "audio": "Checkout is at eleven in the morning.",
+      "translation": "退房时间是上午十一点。",
+      "grammarTags": [
+        "be-questions"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u48-l1-q5",
+      "kind": "fill",
+      "prompt": "Where _____ the guest lounge?",
+      "instruction": "选择正确形式。",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "audio": "Where is the guest lounge?",
+      "translation": "客人休息室在哪里？",
+      "grammarTags": [
+        "be-questions"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u48-l1-q6",
+      "kind": "match",
+      "prompt": "配对酒店入住词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "reception",
+          "前台"
+        ],
+        [
+          "checkout",
+          "退房"
+        ],
+        [
+          "vacancy",
+          "空房"
+        ],
+        [
+          "lobby",
+          "大厅"
+        ],
+        [
+          "guest",
+          "客人"
+        ],
+        [
+          "key-card",
+          "房卡"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "前台、退房、空房、大厅、客人、房卡",
+      "grammarTags": [
+        "be-questions"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u48-l1-q7",
+      "kind": "word",
+      "prompt": "key-card · 酒店入住",
+      "instruction": "选择意思。",
+      "answer": "房卡",
+      "options": [
+        "房卡",
+        "空房",
+        "客人",
+        "退房"
+      ],
+      "translation": "房卡",
+      "grammarTags": [
+        "be-questions"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u48-l1-q8",
+      "kind": "choice",
+      "prompt": "Are the guests waiting in the lobby?",
+      "instruction": "选择意思。",
+      "answer": "客人在大厅等候吗？",
+      "options": [
+        "客人在大厅等候吗？",
+        "客人已经退房了吗？",
+        "房卡在前台吗？",
+        "大厅今晚有空房吗？"
+      ],
+      "audio": "Are the guests waiting in the lobby?",
+      "translation": "客人在大厅等候吗？",
+      "grammarTags": [
+        "be-questions"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u48-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "您的房卡在信封里。",
+      "options": [
+        "您的房卡在信封里。",
+        "您的退房时间在信封里。",
+        "您的房间在大厅里。",
+        "您的空房在前台旁。"
+      ],
+      "audio": "Your key-card is in the envelope.",
+      "translation": "您的房卡在信封里。",
+      "grammarTags": [
+        "be-questions"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u48-l1-q10",
+      "kind": "fill",
+      "prompt": "The guests _____ ready to leave.",
+      "instruction": "选择正确形式。",
+      "answer": "are",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "audio": "The guests are ready to leave.",
+      "translation": "客人准备离开了。",
+      "grammarTags": [
+        "be-questions"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u48-l1-dialogue",
+    "scene": "酒店前台入住",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "receptionist",
+        "name": "Receptionist"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Is there a vacancy for two nights?",
+        "translation": "有两晚的空房吗？"
+      },
+      {
+        "speaker": "receptionist",
+        "text": "Yes. Your room is ready, and the key-card is here.",
+        "translation": "有。您的房间准备好了，房卡在这里。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thank you. What time is checkout?",
+        "translation": "谢谢。几点退房？"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

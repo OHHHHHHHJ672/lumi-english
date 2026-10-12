@@ -1,0 +1,243 @@
+{
+  "id": "a1-u11-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "生日聚会",
+  "subtitle": "邀请朋友并描述庆祝活动",
+  "theme": "birthday-party",
+  "grammarFocus": "present-continuous",
+  "grammarTags": [
+    "present-continuous",
+    "invitations"
+  ],
+  "sourceStatus": "hand-authored",
+  "words": [
+    [
+      "celebrate",
+      "庆祝"
+    ],
+    [
+      "candle",
+      "蜡烛"
+    ],
+    [
+      "invitation",
+      "邀请函"
+    ]
+  ],
+  "dialogue": {
+    "id": "a1-u11-l1-dialogue",
+    "scene": "准备生日聚会",
+    "characters": [
+      {
+        "id": "june",
+        "name": "June"
+      },
+      {
+        "id": "kai",
+        "name": "Kai"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "june",
+        "text": "What are you doing in the kitchen?",
+        "translation": "你在厨房做什么？"
+      },
+      {
+        "speaker": "kai",
+        "text": "I am putting candles on the birthday cake.",
+        "translation": "我正在生日蛋糕上放蜡烛。"
+      },
+      {
+        "speaker": "june",
+        "text": "Great. The guests are arriving soon.",
+        "translation": "太好了。客人很快就到了。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is Kai doing?",
+        "answer": "Putting candles on the cake",
+        "options": [
+          "Putting candles on the cake",
+          "Writing a bus route",
+          "Washing a hotel key"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "a1-u11-l1-q1",
+      "kind": "word",
+      "prompt": "celebrate · 生日聚会",
+      "audio": "celebrate",
+      "instruction": "选择这个词的直译",
+      "answer": "庆祝",
+      "options": [
+        "庆祝",
+        "邀请",
+        "等待",
+        "准备"
+      ],
+      "translation": "庆祝"
+    },
+    {
+      "id": "a1-u11-l1-q2",
+      "kind": "choice",
+      "prompt": "We are celebrating my sister's birthday tonight.",
+      "instruction": "选择这句现在进行时表达的意思。",
+      "answer": "我们今晚正在庆祝我姐姐的生日。",
+      "options": [
+        "我们今晚正在庆祝我姐姐的生日。",
+        "我正在写生日邀请函。",
+        "我的朋友们正在带饮料来聚会。",
+        "我们正在装饰客厅。"
+      ],
+      "audio": "We are celebrating my sister's birthday tonight.",
+      "translation": "我们今晚正在庆祝我姐姐的生日。"
+    },
+    {
+      "id": "a1-u11-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我正在写生日邀请函。",
+      "options": [
+        "我正在写生日邀请函。",
+        "我们今晚正在庆祝我姐姐的生日。",
+        "我的朋友们正在带饮料来聚会。",
+        "我们正在装饰客厅。"
+      ],
+      "audio": "I am writing the birthday invitations.",
+      "translation": "我正在写生日邀请函。"
+    },
+    {
+      "id": "a1-u11-l1-q4",
+      "kind": "order",
+      "prompt": "客人很快就到了。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The guests are arriving soon.",
+      "tokens": [
+        "The",
+        "guests",
+        "are",
+        "arriving",
+        "soon."
+      ],
+      "audio": "The guests are arriving soon.",
+      "translation": "客人很快就到了。"
+    },
+    {
+      "id": "a1-u11-l1-q5",
+      "kind": "fill",
+      "prompt": "She is putting a _____ on the cake.",
+      "instruction": "选择生日聚会中的正确词。",
+      "answer": "candle",
+      "options": [
+        "candle",
+        "invitation",
+        "route",
+        "fare"
+      ],
+      "audio": "She is putting a candle on the cake.",
+      "translation": "她正在蛋糕上放一支蜡烛。"
+    },
+    {
+      "id": "a1-u11-l1-q6",
+      "kind": "match",
+      "prompt": "把生日聚会中的词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "celebrate",
+          "庆祝"
+        ],
+        [
+          "candle",
+          "蜡烛"
+        ],
+        [
+          "invitation",
+          "邀请函"
+        ],
+        [
+          "cake",
+          "蛋糕"
+        ],
+        [
+          "guest",
+          "客人"
+        ],
+        [
+          "party",
+          "聚会"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "庆祝、蜡烛、邀请函、蛋糕、客人、聚会"
+    },
+    {
+      "id": "a1-u11-l1-q7",
+      "kind": "word",
+      "prompt": "invitation · 生日聚会",
+      "audio": "invitation",
+      "instruction": "选择这个词的直译",
+      "answer": "邀请函",
+      "options": [
+        "邀请函",
+        "礼物",
+        "蛋糕",
+        "聚会"
+      ],
+      "translation": "邀请函"
+    },
+    {
+      "id": "a1-u11-l1-q8",
+      "kind": "choice",
+      "prompt": "My friends are bringing drinks to the party.",
+      "instruction": "选择这句现在进行时表达的意思。",
+      "answer": "我的朋友们正在带饮料来聚会。",
+      "options": [
+        "我的朋友们正在带饮料来聚会。",
+        "我们今晚正在庆祝我姐姐的生日。",
+        "我正在写生日邀请函。",
+        "我们正在装饰客厅。"
+      ],
+      "audio": "My friends are bringing drinks to the party.",
+      "translation": "我的朋友们正在带饮料来聚会。"
+    },
+    {
+      "id": "a1-u11-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们正在装饰客厅。",
+      "options": [
+        "我们正在装饰客厅。",
+        "我们今晚正在庆祝我姐姐的生日。",
+        "我正在写生日邀请函。",
+        "我的朋友们正在带饮料来聚会。"
+      ],
+      "audio": "We are decorating the living room.",
+      "translation": "我们正在装饰客厅。"
+    },
+    {
+      "id": "a1-u11-l1-q10",
+      "kind": "fill",
+      "prompt": "The children are _____ a birthday song.",
+      "instruction": "选择现在进行时的正确形式。",
+      "answer": "singing",
+      "options": [
+        "singing",
+        "sing",
+        "sang",
+        "sings"
+      ],
+      "audio": "The children are singing a birthday song.",
+      "translation": "孩子们正在唱生日歌。"
+    }
+  ]
+}

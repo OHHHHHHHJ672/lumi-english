@@ -1,0 +1,244 @@
+{
+  "id": "a2-u13-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "烹饪步骤",
+  "subtitle": "把准备、加热和上菜说清楚",
+  "theme": "cooking",
+  "grammarFocus": "imperatives",
+  "grammarTags": [
+    "imperatives"
+  ],
+  "words": [
+    [
+      "chop",
+      "切碎"
+    ],
+    [
+      "boil",
+      "煮沸"
+    ],
+    [
+      "serve",
+      "上菜"
+    ],
+    [
+      "pan",
+      "平底锅"
+    ],
+    [
+      "lid",
+      "锅盖"
+    ],
+    [
+      "stir",
+      "搅拌"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u13-l1-q1",
+      "kind": "word",
+      "prompt": "stir",
+      "answer": "搅拌",
+      "translation": "搅拌",
+      "options": [
+        "搅拌",
+        "切碎",
+        "煮沸",
+        "过滤"
+      ]
+    },
+    {
+      "id": "a2-u13-l1-q2",
+      "kind": "choice",
+      "prompt": "Chop the onions before heating the pan.",
+      "audio": "Chop the onions before heating the pan.",
+      "answer": "加热锅之前把洋葱切碎。",
+      "translation": "加热锅之前把洋葱切碎。",
+      "options": [
+        "加热锅之前把洋葱切碎。",
+        "加热锅之后把洋葱切碎。",
+        "切碎洋葱之前把锅洗净。",
+        "加热洋葱之前把锅盖上。"
+      ]
+    },
+    {
+      "id": "a2-u13-l1-q3",
+      "kind": "listen",
+      "prompt": "听完整句子，留意时间。",
+      "audio": "Boil the noodles for six minutes, then drain them.",
+      "answer": "把面条煮六分钟，然后沥干。",
+      "translation": "把面条煮六分钟，然后沥干。",
+      "options": [
+        "把面条煮六分钟，然后沥干。",
+        "把面条煮十分钟，然后沥干。",
+        "把面条浸泡六分钟，然后煮。",
+        "把面条沥干，再煮六分钟。"
+      ]
+    },
+    {
+      "id": "a2-u13-l1-q4",
+      "kind": "order",
+      "prompt": "趁汤热的时候上桌。",
+      "answer": "Serve the soup while it is hot.",
+      "audio": "Serve the soup while it is hot.",
+      "translation": "趁汤热的时候上桌。",
+      "tokens": [
+        "Serve",
+        "the",
+        "soup",
+        "while",
+        "it",
+        "is",
+        "hot."
+      ]
+    },
+    {
+      "id": "a2-u13-l1-q5",
+      "kind": "fill",
+      "prompt": "Please _____ the carrots into small pieces.",
+      "answer": "chop",
+      "audio": "Please chop the carrots into small pieces.",
+      "translation": "请把胡萝卜切成小块。",
+      "options": [
+        "chop",
+        "chopped",
+        "chopping",
+        "chops"
+      ]
+    },
+    {
+      "id": "a2-u13-l1-q6",
+      "kind": "match",
+      "prompt": "把「烹饪步骤」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "chop",
+          "切碎"
+        ],
+        [
+          "boil",
+          "煮沸"
+        ],
+        [
+          "serve",
+          "上菜"
+        ],
+        [
+          "pan",
+          "平底锅"
+        ],
+        [
+          "lid",
+          "锅盖"
+        ],
+        [
+          "stir",
+          "搅拌"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u13-l1-q7",
+      "kind": "word",
+      "prompt": "lid",
+      "answer": "锅盖",
+      "translation": "锅盖",
+      "options": [
+        "锅盖",
+        "锅柄",
+        "锅底",
+        "锅边"
+      ]
+    },
+    {
+      "id": "a2-u13-l1-q8",
+      "kind": "choice",
+      "prompt": "Keep stirring so the sauce does not burn.",
+      "audio": "Keep stirring so the sauce does not burn.",
+      "answer": "不停搅拌，以免酱汁烧焦。",
+      "translation": "不停搅拌，以免酱汁烧焦。",
+      "options": [
+        "不停搅拌，以免酱汁烧焦。",
+        "停止搅拌，让酱汁变稠。",
+        "盖上锅盖，以免酱汁变冷。",
+        "调高火力，让酱汁煮沸。"
+      ]
+    },
+    {
+      "id": "a2-u13-l1-q9",
+      "kind": "listen",
+      "prompt": "听清厨师要求的顺序。",
+      "audio": "Take the pan off the heat before adding the milk.",
+      "answer": "加牛奶之前先把锅移离火源。",
+      "translation": "加牛奶之前先把锅移离火源。",
+      "options": [
+        "加牛奶之前先把锅移离火源。",
+        "加牛奶之后再把锅移离火源。",
+        "加牛奶之前先调高火力。",
+        "牛奶煮沸之后再把锅移离火源。"
+      ]
+    },
+    {
+      "id": "a2-u13-l1-q10",
+      "kind": "fill",
+      "prompt": "Do not _____ the lid until the rice is ready.",
+      "answer": "serve",
+      "audio": "Do not lift the lid until the rice is ready.",
+      "translation": "米饭做好前不要掀开锅盖。",
+      "options": [
+        "serve",
+        "chop",
+        "boil",
+        "stir"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u13-l1-dialogue",
+    "scene": "一起准备晚餐",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "alex",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The pasta is nearly ready. Shall I drain it now?",
+        "translation": "意面快好了。我现在把水沥掉吗？"
+      },
+      {
+        "speaker": "alex",
+        "text": "Wait one more minute, and keep some of the cooking water.",
+        "translation": "再等一分钟，并留一些煮面水。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "All right. I will use a little of that water in the sauce.",
+        "translation": "好的。我会往酱汁里加一点煮面水。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What should Lumi do before draining the pasta?",
+        "answer": "Wait another minute",
+        "options": [
+          "Wait another minute",
+          "Add another cup of water",
+          "Turn up the heat",
+          "Put the lid back on"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

@@ -1,0 +1,367 @@
+{
+  "id": "b1-u20-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "跨文化沟通",
+  "subtitle": "理解语气、习俗和手势",
+  "theme": "跨文化沟通",
+  "grammarFocus": "modals",
+  "grammarTags": [
+    "modals"
+  ],
+  "words": [
+    [
+      "nuance",
+      "细微差别"
+    ],
+    [
+      "custom",
+      "习俗"
+    ],
+    [
+      "interpret",
+      "解释"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "nuance · 跨文化沟通",
+      "audio": "nuance",
+      "instruction": "选择中文意思。",
+      "answer": "细微差别",
+      "translation": "细微差别",
+      "options": [
+        "细微差别",
+        "习俗",
+        "解释",
+        "计划"
+      ],
+      "id": "b1-u20-l1-q1",
+      "lessonId": "b1-u20-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "A speaker may need to explain a cultural nuance.",
+      "audio": "A speaker may need to explain a cultural nuance.",
+      "instruction": "选择这句话的意思。",
+      "answer": "说话者可能需要解释一个文化上的细微差别。",
+      "translation": "说话者可能需要解释一个文化上的细微差别。",
+      "options": [
+        "说话者可能需要解释一个文化上的细微差别。",
+        "你不该把沉默理解为同意。",
+        "我们可以礼貌地询问当地的习俗。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u20-l1-q2",
+      "lessonId": "b1-u20-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "You should not interpret silence as agreement.",
+      "instruction": "听完整句子。",
+      "answer": "你不该把沉默理解为同意。",
+      "translation": "你不该把沉默理解为同意。",
+      "options": [
+        "你不该把沉默理解为同意。",
+        "说话者可能需要解释一个文化上的细微差别。",
+        "我们可以礼貌地询问当地的习俗。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u20-l1-q3",
+      "lessonId": "b1-u20-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们可以礼貌地询问当地的习俗。",
+      "audio": "We can ask about the local custom politely.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "We can ask about the local custom politely.",
+      "translation": "我们可以礼貌地询问当地的习俗。",
+      "tokens": [
+        "We",
+        "can",
+        "ask",
+        "about",
+        "the",
+        "local",
+        "custom",
+        "politely."
+      ],
+      "id": "b1-u20-l1-q4",
+      "lessonId": "b1-u20-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the custom before the meeting.",
+      "audio": "The team has reviewed the custom before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了习俗。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u20-l1-q5",
+      "lessonId": "b1-u20-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「跨文化沟通」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "nuance",
+          "细微差别"
+        ],
+        [
+          "custom",
+          "习俗"
+        ],
+        [
+          "interpret",
+          "解释"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u20-l1-q6",
+      "lessonId": "b1-u20-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "custom · 跨文化沟通",
+      "audio": "custom",
+      "instruction": "选择中文意思。",
+      "answer": "习俗",
+      "translation": "习俗",
+      "options": [
+        "习俗",
+        "细微差别",
+        "解释",
+        "问题"
+      ],
+      "id": "b1-u20-l1-q7",
+      "lessonId": "b1-u20-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The same phrase might sound warmer in another language.",
+      "audio": "The same phrase might sound warmer in another language.",
+      "instruction": "选择这句话的意思。",
+      "answer": "同一句话用另一种语言说，可能听起来更亲切。",
+      "translation": "同一句话用另一种语言说，可能听起来更亲切。",
+      "options": [
+        "同一句话用另一种语言说，可能听起来更亲切。",
+        "说话者可能需要解释一个文化上的细微差别。",
+        "你不该把沉默理解为同意。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u20-l1-q8",
+      "lessonId": "b1-u20-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "Visitors should watch the host before copying a gesture.",
+      "instruction": "听完整句子。",
+      "answer": "访客应当先观察主人，再模仿某个手势。",
+      "translation": "访客应当先观察主人，再模仿某个手势。",
+      "options": [
+        "访客应当先观察主人，再模仿某个手势。",
+        "说话者可能需要解释一个文化上的细微差别。",
+        "你不该把沉默理解为同意。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u20-l1-q9",
+      "lessonId": "b1-u20-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the nuance before Friday.",
+      "audio": "We should clarify the nuance before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清细微差别。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u20-l1-q10",
+      "lessonId": "b1-u20-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "modals"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u20-l1-dialogue",
+    "scene": "跨文化沟通",
+    "characters": [
+      {
+        "id": "mina",
+        "name": "Mina",
+        "role": "colleague"
+      },
+      {
+        "id": "ravi",
+        "name": "Ravi",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "mina",
+        "text": "The client was quiet after my suggestion, and I worried I had offended him.",
+        "translation": "客户听到我的建议后很安静，我担心冒犯了他。"
+      },
+      {
+        "speaker": "ravi",
+        "text": "Silence can have several meanings; we should ask rather than interpret it.",
+        "translation": "沉默可能有几种含义；我们应该询问，而不是自行解释。"
+      },
+      {
+        "speaker": "mina",
+        "text": "I will send a polite follow-up with the context.",
+        "translation": "我会结合语境发送一封礼貌的跟进邮件。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Ravi提出了什么建议？",
+        "answer": "Silence can have several meanings; we should ask rather than interpret it.",
+        "options": [
+          "Silence can have several meanings; we should ask rather than interpret it.",
+          "The client was quiet after my suggestion, and I worried I had offended him.",
+          "I will send a polite follow-up with the context."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

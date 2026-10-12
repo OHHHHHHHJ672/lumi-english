@@ -1,1 +1,198 @@
-{"id":"a1-u29-l1","levelId":"a1","cefr":"A1","title":"邮局寄件","subtitle":"寄出信件和小包裹","theme":"postal-services","grammarFocus":"postal-services","grammarTags":["postal-services","can-requests"],"words":[["stamp","邮票"],["envelope","信封"],["parcel","包裹"],["address","地址"],["postcard","明信片"],["weigh","称重"]],"questions":[{"id":"a1-u29-l1-q1","kind":"word","prompt":"envelope · 邮局寄件","instruction":"选择意思。","answer":"信封","options":["信封","邮票","包裹","地址"],"translation":"信封"},{"id":"a1-u29-l1-q2","kind":"choice","prompt":"I need a stamp for this postcard.","instruction":"选择意思。","answer":"我需要一张邮票寄这张明信片。","audio":"I need a stamp for this postcard.","translation":"我需要一张邮票寄这张明信片。"},{"id":"a1-u29-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"请把地址写在信封正面。","audio":"Please write the address on the front of the envelope.","translation":"请把地址写在信封正面。"},{"id":"a1-u29-l1-q4","kind":"order","prompt":"我想寄一个小包裹。","instruction":"组成英文句子。","answer":"I would like to send a small parcel.","audio":"I would like to send a small parcel.","translation":"我想寄一个小包裹。"},{"id":"a1-u29-l1-q5","kind":"fill","prompt":"Can you _____ this parcel, please?","instruction":"选择动词。","answer":"weigh","audio":"Can you weigh this parcel, please?","translation":"请问你能称一下这个包裹吗？"},{"id":"a1-u29-l1-q6","kind":"match","prompt":"配对邮局寄件词语。","instruction":"完成配对。","pairs":[["stamp","邮票"],["envelope","信封"],["parcel","包裹"],["address","地址"],["postcard","明信片"],["weigh","称重"]],"answer":"matched","translation":"邮票、信封、包裹、地址、明信片、称重"},{"id":"a1-u29-l1-q7","kind":"word","prompt":"parcel · 邮局寄件","instruction":"选择意思。","answer":"包裹","options":["包裹","信封","明信片","邮票"],"translation":"包裹"},{"id":"a1-u29-l1-q8","kind":"choice","prompt":"The parcel will arrive in three days.","instruction":"选择意思。","answer":"包裹将在三天内到达。","audio":"The parcel will arrive in three days.","translation":"包裹将在三天内到达。"},{"id":"a1-u29-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"邮局在街道的尽头。","audio":"The post office is at the end of the street.","translation":"邮局在街道的尽头。"},{"id":"a1-u29-l1-q10","kind":"fill","prompt":"Please put the letter in the _____.","instruction":"选择名词。","answer":"envelope","audio":"Please put the letter in the envelope.","translation":"请把信放进信封。"}],"dialogue":{"id":"a1-u29-l1-dialogue","scene":"寄明信片","characters":[{"id":"lumi","name":"Lumi"},{"id":"clerk","name":"Clerk"}],"turns":[{"speaker":"lumi","text":"How much is a stamp for this postcard?","translation":"这张明信片的邮票多少钱？"},{"speaker":"clerk","text":"It costs one dollar.","translation":"一美元。"},{"speaker":"lumi","text":"Please send it to this address.","translation":"请把它寄到这个地址。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u29-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "邮局寄件",
+  "subtitle": "寄出信件和小包裹",
+  "theme": "postal-services",
+  "grammarFocus": "postal-services",
+  "grammarTags": [
+    "postal-services",
+    "can-requests"
+  ],
+  "words": [
+    [
+      "stamp",
+      "邮票"
+    ],
+    [
+      "envelope",
+      "信封"
+    ],
+    [
+      "parcel",
+      "包裹"
+    ],
+    [
+      "address",
+      "地址"
+    ],
+    [
+      "postcard",
+      "明信片"
+    ],
+    [
+      "weigh",
+      "称重"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u29-l1-q1",
+      "kind": "word",
+      "prompt": "envelope · 邮局寄件",
+      "instruction": "选择意思。",
+      "answer": "信封",
+      "options": [
+        "信封",
+        "邮票",
+        "包裹",
+        "地址"
+      ],
+      "translation": "信封"
+    },
+    {
+      "id": "a1-u29-l1-q2",
+      "kind": "choice",
+      "prompt": "I need a stamp for this postcard.",
+      "instruction": "选择意思。",
+      "answer": "我需要一张邮票寄这张明信片。",
+      "audio": "I need a stamp for this postcard.",
+      "translation": "我需要一张邮票寄这张明信片。"
+    },
+    {
+      "id": "a1-u29-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "请把地址写在信封正面。",
+      "audio": "Please write the address on the front of the envelope.",
+      "translation": "请把地址写在信封正面。"
+    },
+    {
+      "id": "a1-u29-l1-q4",
+      "kind": "order",
+      "prompt": "我想寄一个小包裹。",
+      "instruction": "组成英文句子。",
+      "answer": "I would like to send a small parcel.",
+      "audio": "I would like to send a small parcel.",
+      "translation": "我想寄一个小包裹。"
+    },
+    {
+      "id": "a1-u29-l1-q5",
+      "kind": "fill",
+      "prompt": "Can you _____ this parcel, please?",
+      "instruction": "选择动词。",
+      "answer": "weigh",
+      "audio": "Can you weigh this parcel, please?",
+      "translation": "请问你能称一下这个包裹吗？"
+    },
+    {
+      "id": "a1-u29-l1-q6",
+      "kind": "match",
+      "prompt": "配对邮局寄件词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "stamp",
+          "邮票"
+        ],
+        [
+          "envelope",
+          "信封"
+        ],
+        [
+          "parcel",
+          "包裹"
+        ],
+        [
+          "address",
+          "地址"
+        ],
+        [
+          "postcard",
+          "明信片"
+        ],
+        [
+          "weigh",
+          "称重"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "邮票、信封、包裹、地址、明信片、称重"
+    },
+    {
+      "id": "a1-u29-l1-q7",
+      "kind": "word",
+      "prompt": "parcel · 邮局寄件",
+      "instruction": "选择意思。",
+      "answer": "包裹",
+      "options": [
+        "包裹",
+        "信封",
+        "明信片",
+        "邮票"
+      ],
+      "translation": "包裹"
+    },
+    {
+      "id": "a1-u29-l1-q8",
+      "kind": "choice",
+      "prompt": "The parcel will arrive in three days.",
+      "instruction": "选择意思。",
+      "answer": "包裹将在三天内到达。",
+      "audio": "The parcel will arrive in three days.",
+      "translation": "包裹将在三天内到达。"
+    },
+    {
+      "id": "a1-u29-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "邮局在街道的尽头。",
+      "audio": "The post office is at the end of the street.",
+      "translation": "邮局在街道的尽头。"
+    },
+    {
+      "id": "a1-u29-l1-q10",
+      "kind": "fill",
+      "prompt": "Please put the letter in the _____.",
+      "instruction": "选择名词。",
+      "answer": "envelope",
+      "audio": "Please put the letter in the envelope.",
+      "translation": "请把信放进信封。"
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u29-l1-dialogue",
+    "scene": "寄明信片",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "clerk",
+        "name": "Clerk"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "How much is a stamp for this postcard?",
+        "translation": "这张明信片的邮票多少钱？"
+      },
+      {
+        "speaker": "clerk",
+        "text": "It costs one dollar.",
+        "translation": "一美元。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Please send it to this address.",
+        "translation": "请把它寄到这个地址。"
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

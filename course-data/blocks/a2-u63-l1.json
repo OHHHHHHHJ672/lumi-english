@@ -1,0 +1,567 @@
+{
+  "id": "a2-u63-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "进阶行程变更",
+  "subtitle": "处理超售和代金券",
+  "theme": "进阶行程变更",
+  "grammarFocus": "conditionals",
+  "grammarTags": [
+    "conditionals"
+  ],
+  "words": [
+    [
+      "overbooked",
+      "超售的"
+    ],
+    [
+      "voucher",
+      "代金券"
+    ],
+    [
+      "alternative",
+      "替代方案"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "overbooked · 进阶行程变更",
+      "audio": "overbooked",
+      "instruction": "选择这个词的直译",
+      "answer": "超售的",
+      "options": [
+        "超售的",
+        "代金券",
+        "替代方案",
+        "问题"
+      ],
+      "translation": "超售的",
+      "id": "a2-u63-l1-q1",
+      "lessonId": "a2-u63-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "If we check the overbooked, we can avoid a delay.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "如果我们检查超售的，就能避免延误。",
+      "options": [
+        "如果我们检查超售的，就能避免延误。",
+        "如果我们检查代金券，就能避免延误。",
+        "如果我们检查代金券，就能避免延误。，预约前。",
+        "如果我们检查替代方案，就能避免延误。，在车站。"
+      ],
+      "audio": "If we check the overbooked, we can avoid a delay.",
+      "translation": "如果我们检查超售的，就能避免延误。",
+      "id": "a2-u63-l1-q2",
+      "lessonId": "a2-u63-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "如果我们检查代金券，就能避免延误。",
+      "options": [
+        "如果我们检查超售的，就能避免延误。",
+        "如果我们检查代金券，就能避免延误。",
+        "如果我们检查代金券，就能避免延误。，预约前。",
+        "如果我们检查替代方案，就能避免延误。，在车站。"
+      ],
+      "audio": "If we check the voucher, we can avoid a delay.",
+      "translation": "如果我们检查代金券，就能避免延误。",
+      "id": "a2-u63-l1-q3",
+      "lessonId": "a2-u63-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "如果我们检查替代方案，就能避免延误。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "If we check the alternative, we can avoid a delay.",
+      "tokens": [
+        "If",
+        "we",
+        "check",
+        "the",
+        "alternative,",
+        "we",
+        "can",
+        "avoid",
+        "a",
+        "delay."
+      ],
+      "audio": "If we check the alternative, we can avoid a delay.",
+      "translation": "如果我们检查替代方案，就能避免延误。",
+      "id": "a2-u63-l1-q4",
+      "lessonId": "a2-u63-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ before the appointment.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "overbooked",
+      "options": [
+        "overbooked",
+        "voucher",
+        "alternative",
+        "message"
+      ],
+      "audio": "Please check the overbooked before the appointment.",
+      "translation": "请预约前检查超售的。",
+      "id": "a2-u63-l1-q5",
+      "lessonId": "a2-u63-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶行程变更」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "overbooked、超售的；voucher、代金券；alternative、替代方案；message、消息；schedule、日程；meeting、会议",
+      "id": "a2-u63-l1-q6",
+      "lessonId": "a2-u63-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "voucher · 进阶行程变更",
+      "audio": "voucher",
+      "instruction": "选择这个词的直译",
+      "answer": "代金券",
+      "options": [
+        "代金券",
+        "超售的",
+        "替代方案",
+        "安排"
+      ],
+      "translation": "代金券",
+      "id": "a2-u63-l1-q7",
+      "lessonId": "a2-u63-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "If we check the voucher, we can avoid a delay. before the appointment.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "如果我们检查代金券，就能避免延误。，预约前。",
+      "options": [
+        "如果我们检查超售的，就能避免延误。",
+        "如果我们检查代金券，就能避免延误。",
+        "如果我们检查代金券，就能避免延误。，预约前。",
+        "如果我们检查替代方案，就能避免延误。，在车站。"
+      ],
+      "audio": "If we check the voucher, we can avoid a delay. before the appointment.",
+      "translation": "如果我们检查代金券，就能避免延误。，预约前。",
+      "id": "a2-u63-l1-q8",
+      "lessonId": "a2-u63-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "如果我们检查替代方案，就能避免延误。，在车站。",
+      "options": [
+        "如果我们检查超售的，就能避免延误。",
+        "如果我们检查代金券，就能避免延误。",
+        "如果我们检查代金券，就能避免延误。，预约前。",
+        "如果我们检查替代方案，就能避免延误。，在车站。"
+      ],
+      "audio": "If we check the alternative, we can avoid a delay. at the station.",
+      "translation": "如果我们检查替代方案，就能避免延误。，在车站。",
+      "id": "a2-u63-l1-q9",
+      "lessonId": "a2-u63-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the voucher at the station.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the voucher at the station.",
+      "translation": "我们需要在车站检查代金券。",
+      "id": "a2-u63-l1-q10",
+      "lessonId": "a2-u63-l1",
+      "levelId": "a2",
+      "cefr": "A2",
+      "grammarTags": [
+        "conditionals"
+      ],
+      "glossary": [
+        [
+          "overbooked",
+          "超售的"
+        ],
+        [
+          "voucher",
+          "代金券"
+        ],
+        [
+          "alternative",
+          "替代方案"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u63-l1-dialogue",
+    "scene": "进阶行程变更",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about overbooked?",
+        "translation": "你能再告诉我一些关于超售的的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use overbooked when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到超售的。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use overbooked in a daily plan",
+        "options": [
+          "How to use overbooked in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

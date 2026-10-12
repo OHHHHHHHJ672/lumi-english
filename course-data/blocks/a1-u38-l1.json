@@ -1,0 +1,293 @@
+{
+  "id": "a1-u38-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶教室工具",
+  "subtitle": "借用和使用课堂工具",
+  "theme": "classroom-tools",
+  "grammarFocus": "can-requests",
+  "grammarTags": [
+    "can-requests"
+  ],
+  "words": [
+    [
+      "marker",
+      "记号笔"
+    ],
+    [
+      "glue",
+      "胶水"
+    ],
+    [
+      "scissors",
+      "剪刀"
+    ],
+    [
+      "poster",
+      "海报"
+    ],
+    [
+      "project",
+      "项目"
+    ],
+    [
+      "borrow",
+      "借用"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u38-l1-q1",
+      "kind": "word",
+      "prompt": "marker · 教室工具",
+      "instruction": "选择意思。",
+      "answer": "记号笔",
+      "options": [
+        "记号笔",
+        "胶水",
+        "剪刀",
+        "海报"
+      ],
+      "translation": "记号笔",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u38-l1-q2",
+      "kind": "choice",
+      "prompt": "Can I borrow your scissors for the poster?",
+      "instruction": "选择意思。",
+      "answer": "我可以借你的剪刀做海报吗？",
+      "options": [
+        "我可以借你的剪刀做海报吗？",
+        "我可以用你的胶水写字吗？",
+        "我可以把项目带回家吗？",
+        "我可以把记号笔放进盒子吗？"
+      ],
+      "audio": "Can I borrow your scissors for the poster?",
+      "translation": "我可以借你的剪刀做海报吗？",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u38-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "胶水在老师的桌上。",
+      "options": [
+        "胶水在老师的桌上。",
+        "剪刀在海报后面。",
+        "项目在书包里。",
+        "记号笔在窗台上。"
+      ],
+      "audio": "The glue is on the teacher's desk.",
+      "translation": "胶水在老师的桌上。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u38-l1-q4",
+      "kind": "order",
+      "prompt": "请把海报贴在墙上。",
+      "instruction": "组成英文句子。",
+      "answer": "Please put the poster on the wall.",
+      "audio": "Please put the poster on the wall.",
+      "translation": "请把海报贴在墙上。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u38-l1-q5",
+      "kind": "fill",
+      "prompt": "We use _____ to join the paper.",
+      "instruction": "选择课堂工具。",
+      "answer": "glue",
+      "options": [
+        "glue",
+        "marker",
+        "scissors",
+        "poster"
+      ],
+      "audio": "We use glue to join the paper.",
+      "translation": "我们用胶水把纸粘在一起。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u38-l1-q6",
+      "kind": "match",
+      "prompt": "配对教室工具词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "marker",
+          "记号笔"
+        ],
+        [
+          "glue",
+          "胶水"
+        ],
+        [
+          "scissors",
+          "剪刀"
+        ],
+        [
+          "poster",
+          "海报"
+        ],
+        [
+          "project",
+          "项目"
+        ],
+        [
+          "borrow",
+          "借用"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "记号笔、胶水、剪刀、海报、项目、借用",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u38-l1-q7",
+      "kind": "word",
+      "prompt": "poster · 教室工具",
+      "instruction": "选择意思。",
+      "answer": "海报",
+      "options": [
+        "海报",
+        "项目",
+        "胶水",
+        "借用"
+      ],
+      "translation": "海报",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u38-l1-q8",
+      "kind": "choice",
+      "prompt": "Could you pass me the black marker, please?",
+      "instruction": "选择意思。",
+      "answer": "请把黑色记号笔递给我好吗？",
+      "options": [
+        "请把黑色记号笔递给我好吗？",
+        "请把剪刀放回抽屉好吗？",
+        "请把海报拿到走廊好吗？",
+        "请把项目写在纸上好吗？"
+      ],
+      "audio": "Could you pass me the black marker, please?",
+      "translation": "请把黑色记号笔递给我好吗？",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u38-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "我们的项目周五到期。",
+      "options": [
+        "我们的项目周五到期。",
+        "我们的海报周五展示。",
+        "我们的胶水周五用完。",
+        "我们的剪刀周五归还。"
+      ],
+      "audio": "Our project is due on Friday.",
+      "translation": "我们的项目周五到期。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u38-l1-q10",
+      "kind": "fill",
+      "prompt": "Please _____ the scissors after use.",
+      "instruction": "选择正确动词。",
+      "answer": "return",
+      "options": [
+        "return",
+        "borrow",
+        "cut",
+        "draw"
+      ],
+      "audio": "Please return the scissors after use.",
+      "translation": "用完后请归还剪刀。",
+      "grammarTags": [
+        "can-requests"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u38-l1-dialogue",
+    "scene": "制作课堂海报",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "zoe",
+        "name": "Zoe"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Can I borrow the red marker?",
+        "translation": "我可以借红色记号笔吗？"
+      },
+      {
+        "speaker": "zoe",
+        "text": "Sure. It is beside the glue.",
+        "translation": "当然。它在胶水旁边。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thanks. I will finish the title.",
+        "translation": "谢谢。我会完成标题。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

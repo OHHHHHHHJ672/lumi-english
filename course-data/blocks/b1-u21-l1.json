@@ -1,0 +1,367 @@
+{
+  "id": "b1-u21-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "项目指标",
+  "subtitle": "比较指标、目标和结果",
+  "theme": "项目指标",
+  "grammarFocus": "project-metrics",
+  "grammarTags": [
+    "project-metrics"
+  ],
+  "words": [
+    [
+      "metric",
+      "指标"
+    ],
+    [
+      "target",
+      "目标"
+    ],
+    [
+      "outcome",
+      "结果"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "metric · 项目指标",
+      "audio": "metric",
+      "instruction": "选择中文意思。",
+      "answer": "指标",
+      "translation": "指标",
+      "options": [
+        "指标",
+        "目标",
+        "结果",
+        "计划"
+      ],
+      "id": "b1-u21-l1-q1",
+      "lessonId": "b1-u21-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "project-metrics"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The dashboard tracks one metric for response time.",
+      "audio": "The dashboard tracks one metric for response time.",
+      "instruction": "选择这句话的意思。",
+      "answer": "仪表盘追踪响应时间这一项指标。",
+      "translation": "仪表盘追踪响应时间这一项指标。",
+      "options": [
+        "仪表盘追踪响应时间这一项指标。",
+        "我们的目标是当天回应百分之九十的请求。",
+        "最终结果比试点所显示的要好。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u21-l1-q2",
+      "lessonId": "b1-u21-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "project-metrics"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "Our target is to answer ninety percent of requests today.",
+      "instruction": "听完整句子。",
+      "answer": "我们的目标是当天回应百分之九十的请求。",
+      "translation": "我们的目标是当天回应百分之九十的请求。",
+      "options": [
+        "我们的目标是当天回应百分之九十的请求。",
+        "仪表盘追踪响应时间这一项指标。",
+        "最终结果比试点所显示的要好。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u21-l1-q3",
+      "lessonId": "b1-u21-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "project-metrics"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "最终结果比试点所显示的要好。",
+      "audio": "The outcome was better than the pilot suggested.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "The outcome was better than the pilot suggested.",
+      "translation": "最终结果比试点所显示的要好。",
+      "tokens": [
+        "The",
+        "outcome",
+        "was",
+        "better",
+        "than",
+        "the",
+        "pilot",
+        "suggested."
+      ],
+      "id": "b1-u21-l1-q4",
+      "lessonId": "b1-u21-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "project-metrics"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "The team has _____ the target before the meeting.",
+      "audio": "The team has reviewed the target before the meeting.",
+      "instruction": "选择正确词语。",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了目标。",
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ],
+      "id": "b1-u21-l1-q5",
+      "lessonId": "b1-u21-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "project-metrics"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "配对「项目指标」重点词。",
+      "instruction": "完成六组配对。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "pairs": [
+        [
+          "metric",
+          "指标"
+        ],
+        [
+          "target",
+          "目标"
+        ],
+        [
+          "outcome",
+          "结果"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ],
+      "id": "b1-u21-l1-q6",
+      "lessonId": "b1-u21-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "project-metrics"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "target · 项目指标",
+      "audio": "target",
+      "instruction": "选择中文意思。",
+      "answer": "目标",
+      "translation": "目标",
+      "options": [
+        "目标",
+        "指标",
+        "结果",
+        "问题"
+      ],
+      "id": "b1-u21-l1-q7",
+      "lessonId": "b1-u21-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "project-metrics"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "We should compare the metric with last month’s baseline.",
+      "audio": "We should compare the metric with last month’s baseline.",
+      "instruction": "选择这句话的意思。",
+      "answer": "我们应该把这个指标与上个月的基线作比较。",
+      "translation": "我们应该把这个指标与上个月的基线作比较。",
+      "options": [
+        "我们应该把这个指标与上个月的基线作比较。",
+        "仪表盘追踪响应时间这一项指标。",
+        "我们的目标是当天回应百分之九十的请求。",
+        "说话人还没有回答。"
+      ],
+      "id": "b1-u21-l1-q8",
+      "lessonId": "b1-u21-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "project-metrics"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The team changed the target after the survey.",
+      "instruction": "听完整句子。",
+      "answer": "调查之后，团队调整了目标。",
+      "translation": "调查之后，团队调整了目标。",
+      "options": [
+        "调查之后，团队调整了目标。",
+        "仪表盘追踪响应时间这一项指标。",
+        "我们的目标是当天回应百分之九十的请求。",
+        "这句话谈的是天气。"
+      ],
+      "id": "b1-u21-l1-q9",
+      "lessonId": "b1-u21-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "project-metrics"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We should _____ the outcome before Friday.",
+      "audio": "We should clarify the outcome before Friday.",
+      "instruction": "根据语境选择动词。",
+      "answer": "clarify",
+      "translation": "我们应该在周五前澄清结果。",
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ],
+      "id": "b1-u21-l1-q10",
+      "lessonId": "b1-u21-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "project-metrics"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u21-l1-dialogue",
+    "scene": "项目指标",
+    "characters": [
+      {
+        "id": "chen",
+        "name": "Chen",
+        "role": "colleague"
+      },
+      {
+        "id": "priya",
+        "name": "Priya",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "chen",
+        "text": "The response metric improved, but the customer outcome did not.",
+        "translation": "响应指标提高了，但客户结果没有改善。"
+      },
+      {
+        "speaker": "priya",
+        "text": "Then we need a second metric that shows whether the answer solved the problem.",
+        "translation": "那我们需要第二个指标来显示回答是否解决问题。"
+      },
+      {
+        "speaker": "chen",
+        "text": "I will add it before the review.",
+        "translation": "我会在评审前加上它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Priya提出了什么建议？",
+        "answer": "Then we need a second metric that shows whether the answer solved the problem.",
+        "options": [
+          "Then we need a second metric that shows whether the answer solved the problem.",
+          "The response metric improved, but the customer outcome did not.",
+          "I will add it before the review."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

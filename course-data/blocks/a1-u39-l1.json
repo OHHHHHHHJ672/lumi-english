@@ -1,0 +1,294 @@
+{
+  "id": "a1-u39-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "进阶邻里消息",
+  "subtitle": "描述社区中的地点",
+  "theme": "neighborhood-news",
+  "grammarFocus": "there-is",
+  "grammarTags": [
+    "there-is",
+    "places"
+  ],
+  "words": [
+    [
+      "notice",
+      "通知"
+    ],
+    [
+      "corner",
+      "拐角"
+    ],
+    [
+      "neighbor",
+      "邻居"
+    ],
+    [
+      "garden",
+      "花园"
+    ],
+    [
+      "gate",
+      "大门"
+    ],
+    [
+      "street",
+      "街道"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u39-l1-q1",
+      "kind": "word",
+      "prompt": "notice · 邻里消息",
+      "instruction": "选择意思。",
+      "answer": "通知",
+      "options": [
+        "通知",
+        "拐角",
+        "邻居",
+        "花园"
+      ],
+      "translation": "通知",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u39-l1-q2",
+      "kind": "choice",
+      "prompt": "There is a new notice beside the community gate.",
+      "instruction": "选择意思。",
+      "answer": "社区大门旁有一张新通知。",
+      "options": [
+        "社区大门旁有一张新通知。",
+        "街道拐角有一座新花园。",
+        "邻居门前有一张旧桌子。",
+        "社区中心后面有一辆新自行车。"
+      ],
+      "audio": "There is a new notice beside the community gate.",
+      "translation": "社区大门旁有一张新通知。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u39-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "街道拐角有一个小花园。",
+      "options": [
+        "街道拐角有一个小花园。",
+        "大门旁有一个新邻居。",
+        "通知后面有一条小路。",
+        "花园里有一辆自行车。"
+      ],
+      "audio": "There is a small garden around the street corner.",
+      "translation": "街道拐角有一个小花园。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u39-l1-q4",
+      "kind": "order",
+      "prompt": "我们街上有三棵树。",
+      "instruction": "组成英文句子。",
+      "answer": "There are three trees on our street.",
+      "audio": "There are three trees on our street.",
+      "translation": "我们街上有三棵树。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "word-order"
+      ]
+    },
+    {
+      "id": "a1-u39-l1-q5",
+      "kind": "fill",
+      "prompt": "There _____ a bench near the gate.",
+      "instruction": "选择正确形式。",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "audio": "There is a bench near the gate.",
+      "translation": "大门附近有一张长椅。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a1-u39-l1-q6",
+      "kind": "match",
+      "prompt": "配对邻里消息词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "notice",
+          "通知"
+        ],
+        [
+          "corner",
+          "拐角"
+        ],
+        [
+          "neighbor",
+          "邻居"
+        ],
+        [
+          "garden",
+          "花园"
+        ],
+        [
+          "gate",
+          "大门"
+        ],
+        [
+          "street",
+          "街道"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "通知、拐角、邻居、花园、大门、街道",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a1-u39-l1-q7",
+      "kind": "word",
+      "prompt": "neighbor · 邻里消息",
+      "instruction": "选择意思。",
+      "answer": "邻居",
+      "options": [
+        "邻居",
+        "通知",
+        "花园",
+        "街道"
+      ],
+      "translation": "邻居",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u39-l1-q8",
+      "kind": "choice",
+      "prompt": "There are two new lights on our street.",
+      "instruction": "选择意思。",
+      "answer": "我们街上有两盏新路灯。",
+      "options": [
+        "我们街上有两盏新路灯。",
+        "我们花园里有两张新长椅。",
+        "我们大门旁有两个新通知。",
+        "我们拐角处有两个新门。"
+      ],
+      "audio": "There are two new lights on our street.",
+      "translation": "我们街上有两盏新路灯。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u39-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "邻居家门口有一个包裹。",
+      "options": [
+        "邻居家门口有一个包裹。",
+        "花园门口有一张通知。",
+        "街道角落有一个邮箱。",
+        "社区中心里有一个柜台。"
+      ],
+      "audio": "There is a parcel outside the neighbor's house.",
+      "translation": "邻居家门口有一个包裹。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "listening"
+      ]
+    },
+    {
+      "id": "a1-u39-l1-q10",
+      "kind": "fill",
+      "prompt": "There _____ many flowers in the garden.",
+      "instruction": "选择正确形式。",
+      "answer": "are",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "audio": "There are many flowers in the garden.",
+      "translation": "花园里有很多花。",
+      "grammarTags": [
+        "there-is"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u39-l1-dialogue",
+    "scene": "阅读社区通知",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "neighbor",
+        "name": "Neighbor"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Is there a notice about the garden?",
+        "translation": "有关于花园的通知吗？"
+      },
+      {
+        "speaker": "neighbor",
+        "text": "Yes, it is beside the community gate.",
+        "translation": "有，在社区大门旁边。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I will read it before my walk.",
+        "translation": "我散步前会读一下。"
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

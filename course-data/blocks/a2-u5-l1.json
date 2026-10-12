@@ -1,0 +1,328 @@
+{
+  "id": "a2-u5-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "租房生活",
+  "subtitle": "描述房屋问题并联系房东",
+  "theme": "租房生活",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "landlord",
+      "房东"
+    ],
+    [
+      "leak",
+      "漏水"
+    ],
+    [
+      "rent",
+      "租金"
+    ]
+  ],
+  "pairs": [
+    [
+      "landlord",
+      "房东"
+    ],
+    [
+      "leak",
+      "漏水"
+    ],
+    [
+      "rent",
+      "租金"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u5-l1-q1",
+      "kind": "word",
+      "prompt": "landlord · 租房生活",
+      "instruction": "选择这个词的直译",
+      "answer": "房东",
+      "options": [
+        "房东",
+        "漏水",
+        "租金",
+        "问题"
+      ],
+      "translation": "房东",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u5-l1-q2",
+      "kind": "choice",
+      "prompt": "The kitchen tap has been leaking since yesterday.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "厨房水龙头从昨天起一直漏水。",
+      "translation": "厨房水龙头从昨天起一直漏水。",
+      "audio": "The kitchen tap has been leaking since yesterday.",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "choice"
+      ],
+      "options": [
+        "厨房水龙头从昨天起一直漏水。",
+        "我今天早上报告了漏水。",
+        "你付这个月的租金了吗？",
+        "房东已经修好了窗户。"
+      ]
+    },
+    {
+      "id": "a2-u5-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "房东答应派水管工来。",
+      "translation": "房东答应派水管工来。",
+      "audio": "Our landlord promised to send a plumber.",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "listen"
+      ],
+      "options": [
+        "房东答应派水管工来。",
+        "你付这个月的租金了吗？",
+        "房东已经修好了窗户。",
+        "小漏水损坏了橱柜。"
+      ]
+    },
+    {
+      "id": "a2-u5-l1-q4",
+      "kind": "order",
+      "prompt": "租金包含水费和网络。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The rent includes water and internet.",
+      "translation": "租金包含水费和网络。",
+      "audio": "The rent includes water and internet.",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "order"
+      ],
+      "tokens": [
+        "The",
+        "rent",
+        "includes",
+        "water",
+        "and",
+        "internet."
+      ]
+    },
+    {
+      "id": "a2-u5-l1-q5",
+      "kind": "fill",
+      "prompt": "I reported the _____ this morning.",
+      "instruction": "选择英文词完成句子。",
+      "answer": "leak",
+      "options": [
+        "landlord",
+        "leak",
+        "rent",
+        "message"
+      ],
+      "audio": "I reported the leak this morning.",
+      "translation": "我今天早上报告了漏水。",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a2-u5-l1-q6",
+      "kind": "match",
+      "prompt": "把「租房生活」的重点词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "landlord",
+          "房东"
+        ],
+        [
+          "leak",
+          "漏水"
+        ],
+        [
+          "rent",
+          "租金"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "landlord、房东；leak、漏水；rent、租金；message、消息；schedule、日程；meeting、会议",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a2-u5-l1-q7",
+      "kind": "word",
+      "prompt": "leak · 租房生活",
+      "instruction": "选择这个词的直译",
+      "answer": "漏水",
+      "options": [
+        "漏水",
+        "房东",
+        "租金",
+        "安排"
+      ],
+      "translation": "漏水",
+      "audio": "leak",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u5-l1-q8",
+      "kind": "choice",
+      "prompt": "A small leak damaged the cupboard during the afternoon.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "小漏水损坏了橱柜。",
+      "options": [
+        "小漏水损坏了橱柜。",
+        "厨房水龙头从昨天起一直漏水。",
+        "房东答应派水管工来。",
+        "租金包含水费和网络。"
+      ],
+      "audio": "A small leak damaged the cupboard during the afternoon.",
+      "translation": "小漏水损坏了橱柜，在下午。",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "a2-u5-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我们的租金一月份涨了。",
+      "options": [
+        "我们的租金一月份涨了。",
+        "厨房水龙头从昨天起一直漏水。",
+        "房东答应派水管工来。",
+        "租金包含水费和网络。"
+      ],
+      "audio": "Our rent went up in January before dinner.",
+      "translation": "我们的租金一月份涨了，晚饭前。",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a2-u5-l1-q10",
+      "kind": "fill",
+      "prompt": "Our _____ went up in January.",
+      "instruction": "选择正确的词完成句子。",
+      "answer": "rent",
+      "options": [
+        "leak",
+        "landlord",
+        "rent",
+        "plan"
+      ],
+      "audio": "Our rent went up in January.",
+      "translation": "我们的租金一月份涨了。",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u5-l1-dialogue",
+    "scene": "租房生活",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "The kitchen tap has been leaking since yesterday.",
+        "translation": "厨房水龙头从昨天起一直漏水。"
+      },
+      {
+        "speaker": "partner",
+        "text": "Our landlord promised to send a plumber.",
+        "translation": "房东答应派水管工来。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "The rent includes water and internet.",
+        "translation": "租金包含水费和网络。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is the conversation mainly about?",
+        "answer": "厨房水龙头从昨天起一直漏水。",
+        "options": [
+          "厨房水龙头从昨天起一直漏水。",
+          "我今天早上报告了漏水。",
+          "小漏水损坏了橱柜。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

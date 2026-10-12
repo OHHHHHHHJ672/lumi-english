@@ -1,0 +1,245 @@
+{
+  "id": "a1-u9-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "服装尺码",
+  "subtitle": "比较衣物并说明是否合身",
+  "theme": "clothes-shopping",
+  "grammarFocus": "present-simple",
+  "grammarTags": [
+    "present-simple",
+    "adjectives"
+  ],
+  "sourceStatus": "hand-authored",
+  "words": [
+    [
+      "size",
+      "尺码"
+    ],
+    [
+      "fit",
+      "合身"
+    ],
+    [
+      "tight",
+      "紧的"
+    ]
+  ],
+  "dialogue": {
+    "id": "a1-u9-l1-dialogue",
+    "scene": "商店试穿外套",
+    "characters": [
+      {
+        "id": "yuki",
+        "name": "Yuki"
+      },
+      {
+        "id": "clerk",
+        "name": "Omar"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "yuki",
+        "text": "Can I try this jacket on?",
+        "translation": "我可以试穿这件夹克吗？"
+      },
+      {
+        "speaker": "clerk",
+        "text": "Of course. The fitting room is over there.",
+        "translation": "当然。试衣间在那边。"
+      },
+      {
+        "speaker": "yuki",
+        "text": "Thanks. The sleeves are a little long.",
+        "translation": "谢谢。袖子有一点长。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What problem does Yuki notice?",
+        "answer": "The sleeves are a little long",
+        "options": [
+          "The sleeves are a little long",
+          "The jacket has no buttons",
+          "The shoes are too small"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "a1-u9-l1-q1",
+      "kind": "word",
+      "prompt": "size · 服装尺码",
+      "audio": "size",
+      "instruction": "选择这个词的直译",
+      "answer": "尺码",
+      "options": [
+        "尺码",
+        "袖子",
+        "颜色",
+        "价格"
+      ],
+      "translation": "尺码"
+    },
+    {
+      "id": "a1-u9-l1-q2",
+      "kind": "choice",
+      "prompt": "Can I try this jacket on?",
+      "instruction": "选择这句购物请求的意思。",
+      "answer": "我可以试穿这件夹克吗？",
+      "options": [
+        "我可以试穿这件夹克吗？",
+        "袖子有一点长。",
+        "这条裙子比蓝色的那条更适合我。",
+        "这双鞋对我来说太小了。"
+      ],
+      "audio": "Can I try this jacket on?",
+      "translation": "我可以试穿这件夹克吗？"
+    },
+    {
+      "id": "a1-u9-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "袖子有一点长。",
+      "options": [
+        "袖子有一点长。",
+        "我可以试穿这件夹克吗？",
+        "这条裙子比蓝色的那条更适合我。",
+        "这双鞋对我来说太小了。"
+      ],
+      "audio": "The sleeves are a little long.",
+      "translation": "袖子有一点长。"
+    },
+    {
+      "id": "a1-u9-l1-q4",
+      "kind": "order",
+      "prompt": "这件衬衫对我来说太紧了。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "This shirt is too tight for me.",
+      "tokens": [
+        "This",
+        "shirt",
+        "is",
+        "too",
+        "tight",
+        "for",
+        "me."
+      ],
+      "audio": "This shirt is too tight for me.",
+      "translation": "这件衬衫对我来说太紧了。"
+    },
+    {
+      "id": "a1-u9-l1-q5",
+      "kind": "fill",
+      "prompt": "Do you have this in a larger _____?",
+      "instruction": "选择服装购物中的正确词。",
+      "answer": "size",
+      "options": [
+        "size",
+        "fit",
+        "tight",
+        "sleeve"
+      ],
+      "audio": "Do you have this in a larger size?",
+      "translation": "这件有大一点的尺码吗？"
+    },
+    {
+      "id": "a1-u9-l1-q6",
+      "kind": "match",
+      "prompt": "把服装购物中的词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "size",
+          "尺码"
+        ],
+        [
+          "fit",
+          "合身"
+        ],
+        [
+          "tight",
+          "紧的"
+        ],
+        [
+          "jacket",
+          "夹克"
+        ],
+        [
+          "sleeve",
+          "袖子"
+        ],
+        [
+          "fitting room",
+          "试衣间"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "尺码、合身、紧的、夹克、袖子、试衣间"
+    },
+    {
+      "id": "a1-u9-l1-q7",
+      "kind": "word",
+      "prompt": "tight · 服装尺码",
+      "audio": "tight",
+      "instruction": "选择这个词的直译",
+      "answer": "紧的",
+      "options": [
+        "紧的",
+        "宽松的",
+        "长的",
+        "便宜的"
+      ],
+      "translation": "紧的"
+    },
+    {
+      "id": "a1-u9-l1-q8",
+      "kind": "choice",
+      "prompt": "This dress fits me better than the blue one.",
+      "instruction": "选择这句比较表达的意思。",
+      "answer": "这条裙子比蓝色的那条更适合我。",
+      "options": [
+        "这条裙子比蓝色的那条更适合我。",
+        "我可以试穿这件夹克吗？",
+        "袖子有一点长。",
+        "这双鞋对我来说太小了。"
+      ],
+      "audio": "This dress fits me better than the blue one.",
+      "translation": "这条裙子比蓝色的那条更适合我。"
+    },
+    {
+      "id": "a1-u9-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "这双鞋对我来说太小了。",
+      "options": [
+        "这双鞋对我来说太小了。",
+        "我可以试穿这件夹克吗？",
+        "袖子有一点长。",
+        "这条裙子比蓝色的那条更适合我。"
+      ],
+      "audio": "These shoes are too small for me.",
+      "translation": "这双鞋对我来说太小了。"
+    },
+    {
+      "id": "a1-u9-l1-q10",
+      "kind": "fill",
+      "prompt": "The jacket _____ me well.",
+      "instruction": "选择一般现在时的正确形式。",
+      "answer": "fits",
+      "options": [
+        "fits",
+        "fit",
+        "fitting",
+        "fitted"
+      ],
+      "audio": "The jacket fits me well.",
+      "translation": "这件夹克很适合我。"
+    }
+  ]
+}

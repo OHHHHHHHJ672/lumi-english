@@ -1,0 +1,363 @@
+{
+  "id": "a1-u1-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "日程与习惯",
+  "subtitle": "说清楚一天如何开始",
+  "theme": "morning-routine",
+  "grammarFocus": "present-simple",
+  "grammarTags": [
+    "present-simple",
+    "basic-prepositions"
+  ],
+  "words": [
+    [
+      "routine",
+      "日常安排"
+    ],
+    [
+      "alarm",
+      "闹钟"
+    ],
+    [
+      "quiet",
+      "安静的"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u1-l1-q1",
+      "kind": "word",
+      "prompt": "routine",
+      "instruction": "选择这个词的直译",
+      "answer": "日常安排",
+      "options": [
+        "日常安排",
+        "早餐",
+        "车站",
+        "天气"
+      ],
+      "translation": "日常安排",
+      "lessonId": "a1-u1-l1",
+      "levelId": "a1",
+      "cefr": "A1",
+      "difficulty": 1,
+      "grammarTags": [
+        "present-simple",
+        "basic-prepositions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u1-l1-q2",
+      "kind": "choice",
+      "prompt": "I check my schedule before breakfast.",
+      "instruction": "你在早餐前做什么？",
+      "answer": "我在早餐前查看日程。",
+      "options": [
+        "我在早餐前查看日程。",
+        "闹钟六点半响了。",
+        "大家醒来之前厨房很安静。",
+        "我工作日通常七点离开家。"
+      ],
+      "audio": "I check my schedule before breakfast.",
+      "translation": "我在早餐前查看日程。",
+      "lessonId": "a1-u1-l1",
+      "levelId": "a1",
+      "cefr": "A1",
+      "difficulty": 1,
+      "grammarTags": [
+        "present-simple",
+        "basic-prepositions"
+      ],
+      "skillTags": [
+        "reading",
+        "meaning"
+      ]
+    },
+    {
+      "id": "a1-u1-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "闹钟六点半响了。",
+      "options": [
+        "闹钟六点半响了。",
+        "我在早餐前查看日程。",
+        "大家醒来之前厨房很安静。",
+        "我工作日通常七点离开家。"
+      ],
+      "audio": "The alarm rings at half past six.",
+      "translation": "闹钟六点半响了。",
+      "lessonId": "a1-u1-l1",
+      "levelId": "a1",
+      "cefr": "A1",
+      "difficulty": 1,
+      "grammarTags": [
+        "present-simple",
+        "basic-prepositions"
+      ],
+      "skillTags": [
+        "listening",
+        "meaning"
+      ]
+    },
+    {
+      "id": "a1-u1-l1-q4",
+      "kind": "order",
+      "prompt": "我通常在早餐前查看日程。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "I usually check my schedule before breakfast.",
+      "tokens": [
+        "I",
+        "usually",
+        "check",
+        "my",
+        "schedule",
+        "before",
+        "breakfast."
+      ],
+      "audio": "I usually check my schedule before breakfast.",
+      "translation": "我通常在早餐前查看日程。",
+      "lessonId": "a1-u1-l1",
+      "levelId": "a1",
+      "cefr": "A1",
+      "difficulty": 1,
+      "grammarTags": [
+        "present-simple",
+        "basic-prepositions"
+      ],
+      "skillTags": [
+        "grammar",
+        "writing"
+      ]
+    },
+    {
+      "id": "a1-u1-l1-q5",
+      "kind": "fill",
+      "prompt": "I set my _____ for six thirty.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "alarm",
+      "options": [
+        "alarm",
+        "routine",
+        "quiet",
+        "breakfast"
+      ],
+      "audio": "I set my alarm for six thirty.",
+      "translation": "我把闹钟设在六点半。",
+      "lessonId": "a1-u1-l1",
+      "levelId": "a1",
+      "cefr": "A1",
+      "difficulty": 1,
+      "grammarTags": [
+        "present-simple",
+        "basic-prepositions"
+      ],
+      "skillTags": [
+        "grammar",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a1-u1-l1-q6",
+      "kind": "match",
+      "prompt": "把早晨场景中的英文和中文配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "routine",
+          "日常安排"
+        ],
+        [
+          "alarm",
+          "闹钟"
+        ],
+        [
+          "quiet",
+          "安静的"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "breakfast",
+          "早餐"
+        ],
+        [
+          "weekday",
+          "工作日"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "日常安排、闹钟、安静的、日程、早餐、工作日",
+      "lessonId": "a1-u1-l1",
+      "levelId": "a1",
+      "cefr": "A1",
+      "difficulty": 1,
+      "grammarTags": [
+        "present-simple",
+        "basic-prepositions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "recall"
+      ]
+    },
+    {
+      "id": "a1-u1-l1-q7",
+      "kind": "word",
+      "prompt": "alarm",
+      "instruction": "选择这个词的直译",
+      "answer": "闹钟",
+      "options": [
+        "闹钟",
+        "日历",
+        "钥匙",
+        "午餐"
+      ],
+      "translation": "闹钟",
+      "lessonId": "a1-u1-l1",
+      "levelId": "a1",
+      "cefr": "A1",
+      "difficulty": 1,
+      "grammarTags": [
+        "present-simple",
+        "basic-prepositions"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "reading"
+      ]
+    },
+    {
+      "id": "a1-u1-l1-q8",
+      "kind": "choice",
+      "prompt": "The kitchen is quiet before everyone wakes up.",
+      "instruction": "这句话描述什么时候的厨房？",
+      "answer": "大家醒来之前厨房很安静。",
+      "options": [
+        "大家醒来之前厨房很安静。",
+        "我在早餐前查看日程。",
+        "闹钟六点半响了。",
+        "我工作日通常七点离开家。"
+      ],
+      "audio": "The kitchen is quiet before everyone wakes up.",
+      "translation": "大家醒来之前厨房很安静。",
+      "lessonId": "a1-u1-l1",
+      "levelId": "a1",
+      "cefr": "A1",
+      "difficulty": 1,
+      "grammarTags": [
+        "present-simple",
+        "basic-prepositions"
+      ],
+      "skillTags": [
+        "reading",
+        "meaning"
+      ]
+    },
+    {
+      "id": "a1-u1-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我工作日通常七点离开家。",
+      "options": [
+        "我工作日通常七点离开家。",
+        "我在早餐前查看日程。",
+        "闹钟六点半响了。",
+        "大家醒来之前厨房很安静。"
+      ],
+      "audio": "I usually leave home at seven on weekdays.",
+      "translation": "我工作日通常七点离开家。",
+      "lessonId": "a1-u1-l1",
+      "levelId": "a1",
+      "cefr": "A1",
+      "difficulty": 1,
+      "grammarTags": [
+        "present-simple",
+        "basic-prepositions"
+      ],
+      "skillTags": [
+        "listening",
+        "meaning"
+      ]
+    },
+    {
+      "id": "a1-u1-l1-q10",
+      "kind": "fill",
+      "prompt": "She _____ her alarm before bed.",
+      "instruction": "选择一般现在时的正确形式。",
+      "answer": "sets",
+      "options": [
+        "sets",
+        "set",
+        "setting",
+        "setted"
+      ],
+      "audio": "She sets her alarm before bed.",
+      "translation": "她睡前设置闹钟。",
+      "lessonId": "a1-u1-l1",
+      "levelId": "a1",
+      "cefr": "A1",
+      "difficulty": 1,
+      "grammarTags": [
+        "present-simple",
+        "basic-prepositions"
+      ],
+      "skillTags": [
+        "grammar",
+        "vocabulary"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u1-l1-dialogue",
+    "scene": "早餐前的厨房",
+    "characters": [
+      {
+        "id": "mia",
+        "name": "Mia"
+      },
+      {
+        "id": "leo",
+        "name": "Leo"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "mia",
+        "text": "What time do you set your alarm on weekdays?",
+        "translation": "你工作日几点设置闹钟？"
+      },
+      {
+        "speaker": "leo",
+        "text": "I set it for six thirty because I walk to work.",
+        "translation": "我把闹钟设在六点半，因为我要步行上班。"
+      },
+      {
+        "speaker": "mia",
+        "text": "That sounds early, but the quiet street is nice.",
+        "translation": "听起来很早，但安静的街道很舒服。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Why does Leo set his alarm early?",
+        "answer": "He walks to work",
+        "options": [
+          "He walks to work",
+          "He catches a train at noon",
+          "He cooks dinner at six"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

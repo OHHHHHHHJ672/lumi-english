@@ -1,0 +1,368 @@
+{
+  "id": "b2-u11-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "网络安全",
+  "subtitle": "保护账户、加密信息和验证身份",
+  "theme": "网络安全",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "encrypt",
+      "加密"
+    ],
+    [
+      "breach",
+      "漏洞事件"
+    ],
+    [
+      "authenticate",
+      "验证身份"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b2-u11-l1-q1",
+      "kind": "word",
+      "prompt": "encrypt · 网络安全",
+      "answer": "encrypt",
+      "translation": "加密",
+      "instruction": "选择适合语境的表达。",
+      "audio": "encrypt",
+      "lessonId": "b2-u11-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "加密",
+        "漏洞事件",
+        "验证身份",
+        "计划"
+      ]
+    },
+    {
+      "id": "b2-u11-l1-q2",
+      "kind": "choice",
+      "prompt": "The service encrypts messages before storing them.",
+      "answer": "该服务在存储消息之前会先对其加密。",
+      "translation": "该服务在存储消息之前会先对其加密。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The service encrypts messages before storing them.",
+      "lessonId": "b2-u11-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "该服务在存储消息之前会先对其加密。",
+        "不要输入；改用官方应用验证身份。",
+        "一次安全漏洞暴露了老客户的地址。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u11-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "不要输入；改用官方应用验证身份。",
+      "translation": "不要输入；改用官方应用验证身份。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Do not enter it; authenticate through the official app instead.",
+      "lessonId": "b2-u11-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "不要输入；改用官方应用验证身份。",
+        "该服务在存储消息之前会先对其加密。",
+        "一次安全漏洞暴露了老客户的地址。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u11-l1-q4",
+      "kind": "order",
+      "prompt": "受影响的账户在泄露事件后被保护起来。",
+      "answer": "The affected accounts were secured after the breach.",
+      "translation": "受影响的账户在泄露事件后被保护起来。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "The affected accounts were secured after the breach.",
+      "lessonId": "b2-u11-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "affected",
+        "accounts",
+        "were",
+        "secured",
+        "after",
+        "the",
+        "breach."
+      ]
+    },
+    {
+      "id": "b2-u11-l1-q5",
+      "kind": "fill",
+      "prompt": "The team must _____ the breach before Friday.",
+      "answer": "review",
+      "translation": "团队必须在周五前审阅漏洞事件。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team must review the breach before Friday.",
+      "lessonId": "b2-u11-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    },
+    {
+      "id": "b2-u11-l1-q6",
+      "kind": "match",
+      "prompt": "配对「网络安全」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b2-u11-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "encrypt",
+          "加密"
+        ],
+        [
+          "breach",
+          "漏洞事件"
+        ],
+        [
+          "authenticate",
+          "验证身份"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "plan",
+          "计划"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b2-u11-l1-q7",
+      "kind": "word",
+      "prompt": "breach · 网络安全",
+      "answer": "breach",
+      "translation": "漏洞事件",
+      "instruction": "选择适合语境的表达。",
+      "audio": "breach",
+      "lessonId": "b2-u11-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "漏洞事件",
+        "加密",
+        "验证身份",
+        "问题"
+      ]
+    },
+    {
+      "id": "b2-u11-l1-q8",
+      "kind": "choice",
+      "prompt": "I will report the message and reset my password.",
+      "answer": "我会举报这条消息并重置密码。",
+      "translation": "我会举报这条消息并重置密码。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "I will report the message and reset my password.",
+      "lessonId": "b2-u11-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我会举报这条消息并重置密码。",
+        "团队必须在周五前审阅漏洞事件。",
+        "服务会在存储前加密消息。",
+        "一次漏洞事件暴露了旧客户地址。"
+      ]
+    },
+    {
+      "id": "b2-u11-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "用户必须先验证身份再修改密码。",
+      "translation": "用户必须先验证身份再修改密码。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "Users must authenticate before changing a password.",
+      "lessonId": "b2-u11-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "用户必须先验证身份再修改密码。",
+        "该服务在存储消息之前会先对其加密。",
+        "不要输入；改用官方应用验证身份。",
+        "说话人还没有决定。"
+      ]
+    },
+    {
+      "id": "b2-u11-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the authentication log carefully.",
+      "answer": "review",
+      "translation": "我们应该仔细审阅身份验证日志。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the authentication log carefully.",
+      "lessonId": "b2-u11-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "difficulty": 4,
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u11-l1-dialogue",
+    "scene": "网络安全",
+    "characters": [
+      {
+        "id": "zoe",
+        "name": "Zoe",
+        "role": "colleague"
+      },
+      {
+        "id": "adam",
+        "name": "Adam",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "zoe",
+        "text": "The login page asks for a code I did not request.",
+        "translation": "登录页面要一个我没有请求的验证码。"
+      },
+      {
+        "speaker": "adam",
+        "text": "Do not enter it; authenticate through the official app instead.",
+        "translation": "不要输入；改用官方应用验证身份。"
+      },
+      {
+        "speaker": "zoe",
+        "text": "I will report the message and reset my password.",
+        "translation": "我会举报这条消息并重置密码。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Adam提出了什么建议？",
+        "answer": "Do not enter it; authenticate through the official app instead.",
+        "options": [
+          "Do not enter it; authenticate through the official app instead.",
+          "The login page asks for a code I did not request.",
+          "I will report the message and reset my password."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

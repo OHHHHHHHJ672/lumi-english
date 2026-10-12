@@ -1,0 +1,243 @@
+{
+  "id": "b1-u3-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "学习目标",
+  "subtitle": "讨论方法、反馈和长期计划",
+  "theme": "study-goals",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "sourceStatus": "pending-manual-rewrite",
+  "words": [
+    [
+      "strategy",
+      "策略"
+    ],
+    [
+      "feedback",
+      "反馈"
+    ],
+    [
+      "progress",
+      "进步"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u3-l1-q1",
+      "kind": "word",
+      "prompt": "strategy · 学习目标",
+      "audio": "strategy",
+      "instruction": "选择这个词的中文意思。",
+      "answer": "策略",
+      "translation": "策略",
+      "options": [
+        "策略",
+        "反馈",
+        "进步",
+        "成绩"
+      ]
+    },
+    {
+      "id": "b1-u3-l1-q2",
+      "kind": "choice",
+      "prompt": "I have changed my study strategy after the tutor's advice.",
+      "audio": "I have changed my study strategy after the tutor's advice.",
+      "instruction": "选择这句话的意思。",
+      "answer": "我听了导师的建议后改变了学习策略。",
+      "translation": "我听了导师的建议后改变了学习策略。",
+      "options": [
+        "我听了导师的建议后改变了学习策略。",
+        "我取消了下一次课程。",
+        "我从来没有练习过口语。",
+        "导师替我完成了考试。"
+      ]
+    },
+    {
+      "id": "b1-u3-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，判断学习者有什么变化。",
+      "audio": "The tutor has noticed steady progress.",
+      "instruction": "听完整句子再选择。",
+      "answer": "导师注意到了稳定的进步。",
+      "translation": "导师注意到了稳定的进步。",
+      "options": [
+        "导师注意到了稳定的进步。",
+        "导师建议停止所有练习。",
+        "学习者还没有开始学习。",
+        "学习者丢失了学习计划。"
+      ]
+    },
+    {
+      "id": "b1-u3-l1-q4",
+      "kind": "order",
+      "prompt": "你已经记录每项口语任务了吗？",
+      "audio": "Have you recorded each speaking task?",
+      "instruction": "排列词块组成问句。",
+      "answer": "Have you recorded each speaking task?",
+      "translation": "你已经记录每项口语任务了吗？",
+      "tokens": [
+        "Have",
+        "you",
+        "recorded",
+        "each speaking task?"
+      ]
+    },
+    {
+      "id": "b1-u3-l1-q5",
+      "kind": "fill",
+      "prompt": "We have _____ the plan into three small goals.",
+      "audio": "We have divided the plan into three small goals.",
+      "instruction": "选择正确的过去分词。",
+      "answer": "divided",
+      "translation": "我们已经把计划分成三个小目标。",
+      "options": [
+        "divided",
+        "divide",
+        "dividing",
+        "divides"
+      ]
+    },
+    {
+      "id": "b1-u3-l1-q6",
+      "kind": "match",
+      "prompt": "配对学习目标中的重点词。",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "策略；反馈；进步；目标；练习；记录",
+      "pairs": [
+        [
+          "strategy",
+          "策略"
+        ],
+        [
+          "feedback",
+          "反馈"
+        ],
+        [
+          "progress",
+          "进步"
+        ],
+        [
+          "goal",
+          "目标"
+        ],
+        [
+          "practice",
+          "练习"
+        ],
+        [
+          "record",
+          "记录"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u3-l1-q7",
+      "kind": "word",
+      "prompt": "feedback · 学习交流",
+      "audio": "feedback",
+      "instruction": "选择这个词的中文意思。",
+      "answer": "反馈",
+      "translation": "反馈",
+      "options": [
+        "反馈",
+        "策略",
+        "考试",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u3-l1-q8",
+      "kind": "choice",
+      "prompt": "The weekly notes show clear progress.",
+      "audio": "The weekly notes show clear progress.",
+      "instruction": "选择这句话的意思。",
+      "answer": "每周笔记显示出清晰的进步。",
+      "translation": "每周笔记显示出清晰的进步。",
+      "options": [
+        "每周笔记显示出清晰的进步。",
+        "每周笔记要求更多学费。",
+        "学习者已经停止写笔记。",
+        "这份反馈来自火车站。"
+      ]
+    },
+    {
+      "id": "b1-u3-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，找出学习者会做的事。",
+      "audio": "I will record one answer each night.",
+      "instruction": "注意 will 和 one answer。",
+      "answer": "我会每天晚上录一个回答。",
+      "translation": "我会每天晚上录一个回答。",
+      "options": [
+        "我会每天晚上录一个回答。",
+        "我会每周取消一次练习。",
+        "我今晚只读一页。",
+        "我会请同学替我回答。"
+      ]
+    },
+    {
+      "id": "b1-u3-l1-q10",
+      "kind": "fill",
+      "prompt": "Her weekly notes show steady _____.",
+      "audio": "Her weekly notes show steady progress.",
+      "instruction": "根据语境选择名词。",
+      "answer": "progress",
+      "translation": "她的每周笔记显示出稳定的进步。",
+      "options": [
+        "progress",
+        "progressed",
+        "progressing",
+        "progresses"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u3-l1-dialogue",
+    "scene": "把反馈变成计划",
+    "characters": [
+      {
+        "id": "leo",
+        "name": "Leo",
+        "role": "student"
+      },
+      {
+        "id": "grace",
+        "name": "Grace",
+        "role": "tutor"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "leo",
+        "text": "I have practiced every day, but my speaking still feels slow.",
+        "translation": "我每天都练习，但口语仍然觉得慢。"
+      },
+      {
+        "speaker": "grace",
+        "text": "Your feedback shows clear progress; try recording one answer each night.",
+        "translation": "你的反馈显示出明显进步；试试每天晚上录一个回答。"
+      },
+      {
+        "speaker": "leo",
+        "text": "That strategy is small enough to keep, even during exams.",
+        "translation": "这个策略很小，即使考试期间也能坚持。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Grace 建议 Leo 每晚做什么？",
+        "answer": "录一个回答",
+        "options": [
+          "录一个回答",
+          "背完整本教材",
+          "取消所有练习"
+        ]
+      }
+    ]
+  }
+}

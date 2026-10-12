@@ -1,0 +1,330 @@
+{
+  "id": "a2-u4-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "社交安排",
+  "subtitle": "邀请朋友、改约和表达意愿",
+  "theme": "社交安排",
+  "grammarFocus": "future-plans",
+  "grammarTags": [
+    "future-plans"
+  ],
+  "words": [
+    [
+      "available",
+      "有空的"
+    ],
+    [
+      "cancel",
+      "取消"
+    ],
+    [
+      "suggestion",
+      "建议"
+    ]
+  ],
+  "pairs": [
+    [
+      "available",
+      "有空的"
+    ],
+    [
+      "cancel",
+      "取消"
+    ],
+    [
+      "suggestion",
+      "建议"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u4-l1-q1",
+      "kind": "word",
+      "prompt": "available · 社交安排",
+      "instruction": "选择这个词的直译",
+      "answer": "有空的",
+      "options": [
+        "有空的",
+        "取消",
+        "建议",
+        "问题"
+      ],
+      "translation": "有空的",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u4-l1-q2",
+      "kind": "choice",
+      "prompt": "Are you available for dinner on Friday?",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "你周五有空吃晚饭吗？",
+      "translation": "你周五有空吃晚饭吗？",
+      "audio": "Are you available for dinner on Friday?",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "skillTags": [
+        "choice"
+      ],
+      "options": [
+        "你周五有空吃晚饭吗？",
+        "我们七点在车站外见。",
+        "你能推荐一个安静些的地方吗？",
+        "米娅因为孩子生病取消了。"
+      ]
+    },
+    {
+      "id": "a2-u4-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "如果下雨，我打算取消野餐。",
+      "translation": "如果下雨，我打算取消野餐。",
+      "audio": "I am going to cancel the picnic if it rains.",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "skillTags": [
+        "listen"
+      ],
+      "options": [
+        "如果下雨，我打算取消野餐。",
+        "你能推荐一个安静些的地方吗？",
+        "米娅因为孩子生病取消了。",
+        "我明天下班后有空。"
+      ]
+    },
+    {
+      "id": "a2-u4-l1-q4",
+      "kind": "order",
+      "prompt": "谢谢你推荐那家新咖啡馆。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "Thanks for your suggestion about the new cafe.",
+      "translation": "谢谢你推荐那家新咖啡馆。",
+      "audio": "Thanks for your suggestion about the new cafe.",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "skillTags": [
+        "order"
+      ],
+      "tokens": [
+        "Thanks",
+        "for",
+        "your",
+        "suggestion",
+        "about",
+        "the",
+        "new",
+        "cafe."
+      ]
+    },
+    {
+      "id": "a2-u4-l1-q5",
+      "kind": "fill",
+      "prompt": "Are you _____ before seven?",
+      "instruction": "选择英文词完成句子。",
+      "answer": "available",
+      "options": [
+        "available",
+        "cancel",
+        "suggestion",
+        "message"
+      ],
+      "audio": "Are you available before seven?",
+      "translation": "你七点前有空吗？",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a2-u4-l1-q6",
+      "kind": "match",
+      "prompt": "把「社交安排」的重点词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "available",
+          "有空的"
+        ],
+        [
+          "cancel",
+          "取消"
+        ],
+        [
+          "suggestion",
+          "建议"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "available、有空的；cancel、取消；suggestion、建议；message、消息；schedule、日程；meeting、会议",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a2-u4-l1-q7",
+      "kind": "word",
+      "prompt": "cancel · 社交安排",
+      "instruction": "选择这个词的直译",
+      "answer": "取消",
+      "options": [
+        "取消",
+        "有空的",
+        "建议",
+        "安排"
+      ],
+      "translation": "取消",
+      "audio": "cancel",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u4-l1-q8",
+      "kind": "choice",
+      "prompt": "I am available after work tomorrow during the afternoon.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我明天下班后有空。",
+      "options": [
+        "我明天下班后有空。",
+        "你周五有空吃晚饭吗？",
+        "如果下雨，我打算取消野餐。",
+        "谢谢你推荐那家新咖啡馆。"
+      ],
+      "audio": "I am available after work tomorrow during the afternoon.",
+      "translation": "我明天下班后有空，在下午。",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "skillTags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "a2-u4-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我们今晚确认计划吧。",
+      "options": [
+        "我们今晚确认计划吧。",
+        "你周五有空吃晚饭吗？",
+        "如果下雨，我打算取消野餐。",
+        "谢谢你推荐那家新咖啡馆。"
+      ],
+      "audio": "Let us confirm the plan tonight before dinner.",
+      "translation": "我们今晚确认计划吧，晚饭前。",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "skillTags": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a2-u4-l1-q10",
+      "kind": "fill",
+      "prompt": "Let us confirm the _____ tonight.",
+      "instruction": "选择正确的词完成句子。",
+      "answer": "plan",
+      "options": [
+        "cancel",
+        "available",
+        "suggestion",
+        "plan"
+      ],
+      "audio": "Let us confirm the plan tonight.",
+      "translation": "我们今晚确认计划吧。",
+      "grammarTags": [
+        "future-plans"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u4-l1-dialogue",
+    "scene": "社交安排",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Are you available for dinner on Friday?",
+        "translation": "你周五有空吃晚饭吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "I am going to cancel the picnic if it rains.",
+        "translation": "如果下雨，我打算取消野餐。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thanks for your suggestion about the new cafe.",
+        "translation": "谢谢你推荐那家新咖啡馆。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is the conversation mainly about?",
+        "answer": "你周五有空吃晚饭吗？",
+        "options": [
+          "你周五有空吃晚饭吗？",
+          "我们七点在车站外见。",
+          "我明天下班后有空。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

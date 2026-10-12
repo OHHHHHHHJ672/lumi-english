@@ -1,0 +1,329 @@
+{
+  "id": "a2-u2-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "看医生",
+  "subtitle": "描述症状并理解建议",
+  "theme": "看医生",
+  "grammarFocus": "present-perfect",
+  "grammarTags": [
+    "present-perfect"
+  ],
+  "words": [
+    [
+      "appointment",
+      "预约"
+    ],
+    [
+      "symptom",
+      "症状"
+    ],
+    [
+      "prescription",
+      "处方"
+    ]
+  ],
+  "pairs": [
+    [
+      "appointment",
+      "预约"
+    ],
+    [
+      "symptom",
+      "症状"
+    ],
+    [
+      "prescription",
+      "处方"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u2-l1-q1",
+      "kind": "word",
+      "prompt": "appointment · 看医生",
+      "instruction": "选择这个词的直译",
+      "answer": "预约",
+      "options": [
+        "预约",
+        "症状",
+        "处方",
+        "问题"
+      ],
+      "translation": "预约",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u2-l1-q2",
+      "kind": "choice",
+      "prompt": "I have had a sore throat since Monday.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我从周一开始喉咙痛。",
+      "translation": "我从周一开始喉咙痛。",
+      "audio": "I have had a sore throat since Monday.",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "choice"
+      ],
+      "options": [
+        "我从周一开始喉咙痛。",
+        "你把处方拿到药房了吗？",
+        "我开始休息后咳嗽好些了。",
+        "护士清楚地解释了每个症状。"
+      ]
+    },
+    {
+      "id": "a2-u2-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "医生已经检查过我的症状两次。",
+      "translation": "医生已经检查过我的症状两次。",
+      "audio": "The doctor has checked my symptoms twice.",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "listen"
+      ],
+      "options": [
+        "医生已经检查过我的症状两次。",
+        "我开始休息后咳嗽好些了。",
+        "护士清楚地解释了每个症状。",
+        "我今年没有错过预约。"
+      ]
+    },
+    {
+      "id": "a2-u2-l1-q4",
+      "kind": "order",
+      "prompt": "我预约了周四早上。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "I made an appointment for Thursday morning.",
+      "translation": "我预约了周四早上。",
+      "audio": "I made an appointment for Thursday morning.",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "order"
+      ],
+      "tokens": [
+        "I",
+        "made",
+        "an",
+        "appointment",
+        "for",
+        "Thursday",
+        "morning."
+      ]
+    },
+    {
+      "id": "a2-u2-l1-q5",
+      "kind": "fill",
+      "prompt": "Have you taken the _____ to the pharmacy?",
+      "instruction": "选择英文词完成句子。",
+      "answer": "prescription",
+      "options": [
+        "appointment",
+        "symptom",
+        "prescription",
+        "message"
+      ],
+      "audio": "Have you taken the prescription to the pharmacy?",
+      "translation": "你把处方拿到药房了吗？",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a2-u2-l1-q6",
+      "kind": "match",
+      "prompt": "把「看医生」的重点词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "appointment",
+          "预约"
+        ],
+        [
+          "symptom",
+          "症状"
+        ],
+        [
+          "prescription",
+          "处方"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "appointment、预约；symptom、症状；prescription、处方；message、消息；schedule、日程；meeting、会议",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a2-u2-l1-q7",
+      "kind": "word",
+      "prompt": "symptom · 看医生",
+      "instruction": "选择这个词的直译",
+      "answer": "症状",
+      "options": [
+        "症状",
+        "预约",
+        "处方",
+        "安排"
+      ],
+      "translation": "症状",
+      "audio": "symptom",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u2-l1-q8",
+      "kind": "choice",
+      "prompt": "I have not missed an appointment this year during the afternoon.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我今年没有错过预约。",
+      "options": [
+        "我今年没有错过预约。",
+        "我从周一开始喉咙痛。",
+        "医生已经检查过我的症状两次。",
+        "我预约了周四早上。"
+      ],
+      "audio": "I have not missed an appointment this year during the afternoon.",
+      "translation": "我今年没有错过预约，在下午。",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "a2-u2-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "医生昨天改了处方。",
+      "options": [
+        "医生昨天改了处方。",
+        "我从周一开始喉咙痛。",
+        "医生已经检查过我的症状两次。",
+        "我预约了周四早上。"
+      ],
+      "audio": "The doctor changed the prescription yesterday before dinner.",
+      "translation": "医生昨天改了处方，晚饭前。",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a2-u2-l1-q10",
+      "kind": "fill",
+      "prompt": "The doctor changed the _____ yesterday.",
+      "instruction": "选择正确的词完成句子。",
+      "answer": "prescription",
+      "options": [
+        "symptom",
+        "appointment",
+        "prescription",
+        "plan"
+      ],
+      "audio": "The doctor changed the prescription yesterday.",
+      "translation": "医生昨天改了处方。",
+      "grammarTags": [
+        "present-perfect"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u2-l1-dialogue",
+    "scene": "看医生",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "I have had a sore throat since Monday.",
+        "translation": "我从周一开始喉咙痛。"
+      },
+      {
+        "speaker": "partner",
+        "text": "The doctor has checked my symptoms twice.",
+        "translation": "医生已经检查过我的症状两次。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I made an appointment for Thursday morning.",
+        "translation": "我预约了周四早上。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is the conversation mainly about?",
+        "answer": "我从周一开始喉咙痛。",
+        "options": [
+          "我从周一开始喉咙痛。",
+          "你把处方拿到药房了吗？",
+          "我今年没有错过预约。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

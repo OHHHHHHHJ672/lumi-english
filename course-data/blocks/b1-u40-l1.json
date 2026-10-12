@@ -1,0 +1,564 @@
+{
+  "id": "b1-u40-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "进阶人才招聘",
+  "subtitle": "筛选候选人并安排入职",
+  "theme": "进阶人才招聘",
+  "grammarFocus": "relative-clauses",
+  "grammarTags": [
+    "relative-clauses"
+  ],
+  "words": [
+    [
+      "candidate",
+      "候选人"
+    ],
+    [
+      "shortlist",
+      "候选名单"
+    ],
+    [
+      "onboarding",
+      "入职培训"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "candidate · 进阶人才招聘",
+      "audio": "candidate",
+      "instruction": "选择这个词的直译",
+      "answer": "候选人",
+      "options": [
+        "候选人",
+        "候选名单",
+        "入职培训",
+        "问题"
+      ],
+      "translation": "候选人",
+      "id": "b1-u40-l1-q1",
+      "lessonId": "b1-u40-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The candidate that we discussed is ready.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "我们讨论过的候选人已经准备好了。",
+      "options": [
+        "我们讨论过的候选人已经准备好了。",
+        "我们讨论过的候选名单已经准备好了。",
+        "我们讨论过的候选名单已经准备好了。，这个周末。",
+        "我们讨论过的入职培训已经准备好了。，为我们的团队。"
+      ],
+      "audio": "The candidate that we discussed is ready.",
+      "translation": "我们讨论过的候选人已经准备好了。",
+      "id": "b1-u40-l1-q2",
+      "lessonId": "b1-u40-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们讨论过的候选名单已经准备好了。",
+      "options": [
+        "我们讨论过的候选人已经准备好了。",
+        "我们讨论过的候选名单已经准备好了。",
+        "我们讨论过的候选名单已经准备好了。，这个周末。",
+        "我们讨论过的入职培训已经准备好了。，为我们的团队。"
+      ],
+      "audio": "The shortlist that we discussed is ready.",
+      "translation": "我们讨论过的候选名单已经准备好了。",
+      "id": "b1-u40-l1-q3",
+      "lessonId": "b1-u40-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "我们讨论过的入职培训已经准备好了。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The onboarding that we discussed is ready.",
+      "tokens": [
+        "The",
+        "onboarding",
+        "that",
+        "we",
+        "discussed",
+        "is",
+        "ready."
+      ],
+      "audio": "The onboarding that we discussed is ready.",
+      "translation": "我们讨论过的入职培训已经准备好了。",
+      "id": "b1-u40-l1-q4",
+      "lessonId": "b1-u40-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ this weekend.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "candidate",
+      "options": [
+        "candidate",
+        "shortlist",
+        "onboarding",
+        "message"
+      ],
+      "audio": "Please check the candidate this weekend.",
+      "translation": "请这个周末检查候选人。",
+      "id": "b1-u40-l1-q5",
+      "lessonId": "b1-u40-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶人才招聘」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "candidate、候选人；shortlist、候选名单；onboarding、入职培训；message、消息；schedule、日程；meeting、会议",
+      "id": "b1-u40-l1-q6",
+      "lessonId": "b1-u40-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "shortlist · 进阶人才招聘",
+      "audio": "shortlist",
+      "instruction": "选择这个词的直译",
+      "answer": "候选名单",
+      "options": [
+        "候选名单",
+        "候选人",
+        "入职培训",
+        "安排"
+      ],
+      "translation": "候选名单",
+      "id": "b1-u40-l1-q7",
+      "lessonId": "b1-u40-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The shortlist that we discussed is ready. this weekend.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "我们讨论过的候选名单已经准备好了。，这个周末。",
+      "options": [
+        "我们讨论过的候选人已经准备好了。",
+        "我们讨论过的候选名单已经准备好了。",
+        "我们讨论过的候选名单已经准备好了。，这个周末。",
+        "我们讨论过的入职培训已经准备好了。，为我们的团队。"
+      ],
+      "audio": "The shortlist that we discussed is ready. this weekend.",
+      "translation": "我们讨论过的候选名单已经准备好了。，这个周末。",
+      "id": "b1-u40-l1-q8",
+      "lessonId": "b1-u40-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "我们讨论过的入职培训已经准备好了。，为我们的团队。",
+      "options": [
+        "我们讨论过的候选人已经准备好了。",
+        "我们讨论过的候选名单已经准备好了。",
+        "我们讨论过的候选名单已经准备好了。，这个周末。",
+        "我们讨论过的入职培训已经准备好了。，为我们的团队。"
+      ],
+      "audio": "The onboarding that we discussed is ready. for our team.",
+      "translation": "我们讨论过的入职培训已经准备好了。，为我们的团队。",
+      "id": "b1-u40-l1-q9",
+      "lessonId": "b1-u40-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the shortlist for our team.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the shortlist for our team.",
+      "translation": "我们需要为我们的团队检查候选名单。",
+      "id": "b1-u40-l1-q10",
+      "lessonId": "b1-u40-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "grammarTags": [
+        "relative-clauses"
+      ],
+      "glossary": [
+        [
+          "candidate",
+          "候选人"
+        ],
+        [
+          "shortlist",
+          "候选名单"
+        ],
+        [
+          "onboarding",
+          "入职培训"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u40-l1-dialogue",
+    "scene": "进阶人才招聘",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about candidate?",
+        "translation": "你能再告诉我一些关于候选人的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use candidate when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到候选人。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use candidate in a daily plan",
+        "options": [
+          "How to use candidate in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

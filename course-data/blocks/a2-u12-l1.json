@@ -1,0 +1,327 @@
+{
+  "id": "a2-u12-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "理财储蓄",
+  "subtitle": "讨论储蓄、支出和消费能力",
+  "theme": "理财储蓄",
+  "grammarFocus": "comparatives",
+  "grammarTags": [
+    "comparatives"
+  ],
+  "words": [
+    [
+      "save",
+      "储蓄"
+    ],
+    [
+      "expense",
+      "支出"
+    ],
+    [
+      "afford",
+      "负担得起"
+    ]
+  ],
+  "pairs": [
+    [
+      "save",
+      "储蓄"
+    ],
+    [
+      "expense",
+      "支出"
+    ],
+    [
+      "afford",
+      "负担得起"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u12-l1-q1",
+      "kind": "word",
+      "prompt": "save · 理财储蓄",
+      "instruction": "选择这个词的直译",
+      "answer": "储蓄",
+      "options": [
+        "储蓄",
+        "支出",
+        "负担得起",
+        "问题"
+      ],
+      "translation": "储蓄",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u12-l1-q2",
+      "kind": "choice",
+      "prompt": "We are saving for a new apartment.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我们正在为新公寓存钱。",
+      "translation": "我们正在为新公寓存钱。",
+      "audio": "We are saving for a new apartment.",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "choice"
+      ],
+      "options": [
+        "我们正在为新公寓存钱。",
+        "这个计划比另一个便宜。",
+        "我在笔记本里记录每一笔支出。",
+        "她存够了短途旅行的钱。"
+      ]
+    },
+    {
+      "id": "a2-u12-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "房租是我们每月最大的支出。",
+      "translation": "房租是我们每月最大的支出。",
+      "audio": "Rent is our largest monthly expense.",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "listen"
+      ],
+      "options": [
+        "房租是我们每月最大的支出。",
+        "我在笔记本里记录每一笔支出。",
+        "她存够了短途旅行的钱。",
+        "我们还负担不起更大的车。"
+      ]
+    },
+    {
+      "id": "a2-u12-l1-q4",
+      "kind": "order",
+      "prompt": "我们负担得起这门课程吗？",
+      "instruction": "把词块组成英文句子。",
+      "answer": "Can we afford this course?",
+      "translation": "我们负担得起这门课程吗？",
+      "audio": "Can we afford this course?",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "order"
+      ],
+      "tokens": [
+        "Can",
+        "we",
+        "afford",
+        "this",
+        "course?"
+      ]
+    },
+    {
+      "id": "a2-u12-l1-q5",
+      "kind": "fill",
+      "prompt": "We try to _____ money every month.",
+      "instruction": "选择英文词完成句子。",
+      "answer": "save",
+      "options": [
+        "save",
+        "expense",
+        "afford",
+        "message"
+      ],
+      "audio": "We try to save money every month.",
+      "translation": "我们每个月都努力存钱。",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a2-u12-l1-q6",
+      "kind": "match",
+      "prompt": "把「理财储蓄」的重点词语配对。",
+      "instruction": "完成全部配对。",
+      "pairs": [
+        [
+          "save",
+          "储蓄"
+        ],
+        [
+          "expense",
+          "支出"
+        ],
+        [
+          "afford",
+          "负担得起"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "save、储蓄；expense、支出；afford、负担得起；message、消息；schedule、日程；meeting、会议",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "matching"
+      ]
+    },
+    {
+      "id": "a2-u12-l1-q7",
+      "kind": "word",
+      "prompt": "expense · 理财储蓄",
+      "instruction": "选择这个词的直译",
+      "answer": "支出",
+      "options": [
+        "支出",
+        "储蓄",
+        "负担得起",
+        "安排"
+      ],
+      "translation": "支出",
+      "audio": "expense",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "a2-u12-l1-q8",
+      "kind": "choice",
+      "prompt": "We cannot afford a bigger car yet during the afternoon.",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "我们还负担不起更大的车。",
+      "options": [
+        "我们还负担不起更大的车。",
+        "我们正在为新公寓存钱。",
+        "房租是我们每月最大的支出。",
+        "我们负担得起这门课程吗？"
+      ],
+      "audio": "We cannot afford a bigger car yet during the afternoon.",
+      "translation": "我们还负担不起更大的车，在下午。",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "choice"
+      ]
+    },
+    {
+      "id": "a2-u12-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "选择最符合语境的意思。",
+      "answer": "这个月电费更高。",
+      "options": [
+        "这个月电费更高。",
+        "我们正在为新公寓存钱。",
+        "房租是我们每月最大的支出。",
+        "我们负担得起这门课程吗？"
+      ],
+      "audio": "The electricity bill was higher this month before dinner.",
+      "translation": "这个月电费更高，晚饭前。",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a2-u12-l1-q10",
+      "kind": "fill",
+      "prompt": "The electricity _____ was higher this month.",
+      "instruction": "选择正确的词完成句子。",
+      "answer": "expense",
+      "options": [
+        "expense",
+        "save",
+        "afford",
+        "plan"
+      ],
+      "audio": "The electricity expense was higher this month.",
+      "translation": "这个月的电费支出更高。",
+      "grammarTags": [
+        "comparatives"
+      ],
+      "skillTags": [
+        "grammar"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u12-l1-dialogue",
+    "scene": "理财储蓄",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "We are saving for a new apartment.",
+        "translation": "我们正在为新公寓存钱。"
+      },
+      {
+        "speaker": "partner",
+        "text": "Rent is our largest monthly expense.",
+        "translation": "房租是我们每月最大的支出。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Can we afford this course?",
+        "translation": "我们负担得起这门课程吗？"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is the conversation mainly about?",
+        "answer": "我们正在为新公寓存钱。",
+        "options": [
+          "我们正在为新公寓存钱。",
+          "这个计划比另一个便宜。",
+          "我们还负担不起更大的车。"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}

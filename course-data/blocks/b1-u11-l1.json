@@ -1,0 +1,366 @@
+{
+  "id": "b1-u11-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "项目时间",
+  "subtitle": "估算工作、延迟和优先级",
+  "theme": "项目时间",
+  "grammarFocus": "future-forms",
+  "grammarTags": [
+    "future-forms"
+  ],
+  "words": [
+    [
+      "estimate",
+      "估算"
+    ],
+    [
+      "delay",
+      "延迟"
+    ],
+    [
+      "priority",
+      "优先事项"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u11-l1-q1",
+      "kind": "word",
+      "prompt": "estimate · 项目时间",
+      "audio": "estimate",
+      "instruction": "选择适合语境的表达。",
+      "answer": "estimate",
+      "translation": "估算",
+      "lessonId": "b1-u11-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "future-forms"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "估算",
+        "延迟",
+        "优先事项",
+        "报告"
+      ]
+    },
+    {
+      "id": "b1-u11-l1-q2",
+      "kind": "choice",
+      "prompt": "When will the engineer estimate the repair?",
+      "audio": "When will the engineer estimate the repair?",
+      "instruction": "选择适合语境的表达。",
+      "answer": "工程师什么时候估算维修？",
+      "translation": "工程师什么时候估算维修？",
+      "lessonId": "b1-u11-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "future-forms"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "工程师什么时候估算维修？",
+        "延迟可能把评审推到周五。",
+        "我们会保障测试优先事项。",
+        "这句话没有说明原因。"
+      ]
+    },
+    {
+      "id": "b1-u11-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "audio": "The delay may push the review to Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "延迟可能把评审推到周五。",
+      "translation": "延迟可能把评审推到周五。",
+      "lessonId": "b1-u11-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "future-forms"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "延迟可能把评审推到周五。",
+        "工程师什么时候估算维修？",
+        "我们会保障测试优先事项。",
+        "说话人没有做决定。"
+      ]
+    },
+    {
+      "id": "b1-u11-l1-q4",
+      "kind": "order",
+      "prompt": "我们会保障测试优先事项。",
+      "audio": "We will protect the testing priority.",
+      "instruction": "把词块组成完整句子。",
+      "answer": "We will protect the testing priority.",
+      "translation": "我们会保障测试优先事项。",
+      "lessonId": "b1-u11-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "future-forms"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "We",
+        "will",
+        "protect",
+        "the",
+        "testing",
+        "priority."
+      ]
+    },
+    {
+      "id": "b1-u11-l1-q5",
+      "kind": "fill",
+      "prompt": "We have _____ the delay before Friday.",
+      "audio": "We have reviewed the delay before Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "reviewed",
+      "translation": "reviewed",
+      "lessonId": "b1-u11-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "future-forms"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u11-l1-q6",
+      "kind": "match",
+      "prompt": "配对「项目时间」中的重点词。",
+      "audio": "",
+      "instruction": "完成六组配对后提交。",
+      "answer": "matched",
+      "translation": "matched",
+      "lessonId": "b1-u11-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "future-forms"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "estimate",
+          "估算"
+        ],
+        [
+          "delay",
+          "延迟"
+        ],
+        [
+          "priority",
+          "优先事项"
+        ],
+        [
+          "flight",
+          "航班"
+        ],
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u11-l1-q7",
+      "kind": "word",
+      "prompt": "delay · 项目时间",
+      "audio": "delay",
+      "instruction": "选择适合语境的表达。",
+      "answer": "delay",
+      "translation": "延迟",
+      "lessonId": "b1-u11-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "future-forms"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "延迟",
+        "估算",
+        "优先事项",
+        "会议"
+      ]
+    },
+    {
+      "id": "b1-u11-l1-q8",
+      "kind": "choice",
+      "prompt": "They are going to add a time buffer.",
+      "audio": "They are going to add a time buffer.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "他们打算增加时间缓冲。",
+      "translation": "他们打算增加时间缓冲。",
+      "lessonId": "b1-u11-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "future-forms"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "他们打算增加时间缓冲。",
+        "工程师什么时候估算维修？",
+        "延迟可能把评审推到周五。",
+        "这句话谈的是天气。"
+      ]
+    },
+    {
+      "id": "b1-u11-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，判断下一步。",
+      "audio": "We will protect the testing priority. During the review.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "我们会保障测试优先事项。",
+      "translation": "我们会保障测试优先事项。（会议复盘时）",
+      "lessonId": "b1-u11-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "future-forms"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们会保障测试优先事项。",
+        "工程师什么时候估算维修？",
+        "他们打算增加时间缓冲。",
+        "说话人取消了安排。"
+      ]
+    },
+    {
+      "id": "b1-u11-l1-q10",
+      "kind": "fill",
+      "prompt": "We need to _____ the testing priority before Friday.",
+      "audio": "We need to clarify the testing priority before Friday.",
+      "instruction": "选择适合语境的表达。",
+      "answer": "clarify",
+      "translation": "我们需要在周五前澄清测试优先事项。",
+      "lessonId": "b1-u11-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "future-forms"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "clarify",
+        "clarified",
+        "clarifying",
+        "clarifies"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u11-l1-dialogue",
+    "scene": "项目时间",
+    "characters": [
+      {
+        "id": "nina",
+        "name": "Nina",
+        "role": "colleague"
+      },
+      {
+        "id": "owen",
+        "name": "Owen",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "nina",
+        "text": "The test may take two days longer than our first estimate.",
+        "translation": "测试可能比最初估算多花两天。"
+      },
+      {
+        "speaker": "owen",
+        "text": "Then I will move the launch review and protect the safety checks.",
+        "translation": "那我会调整发布评审，并保障安全检查。"
+      },
+      {
+        "speaker": "nina",
+        "text": "That delay is manageable if we explain it today.",
+        "translation": "如果今天解释清楚，这个延迟是可以处理的。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Owen提出了什么建议？",
+        "answer": "Then I will move the launch review and protect the safety checks.",
+        "options": [
+          "Then I will move the launch review and protect the safety checks.",
+          "The test may take two days longer than our first estimate.",
+          "That delay is manageable if we explain it today."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

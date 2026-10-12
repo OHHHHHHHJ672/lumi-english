@@ -1,1 +1,198 @@
-{"id":"a1-u31-l1","levelId":"a1","cefr":"A1","title":"火车站","subtitle":"看懂站台和出发时间","theme":"train-timetables","grammarFocus":"travel-timetables","grammarTags":["travel-timetables","questions"],"words":[["platform","站台"],["ticket","车票"],["departure","出发"],["arrival","到达"],["return","往返"],["station","车站"]],"questions":[{"id":"a1-u31-l1-q1","kind":"word","prompt":"platform · 火车站","instruction":"选择意思。","answer":"站台","options":["站台","车票","到达","车站"],"translation":"站台"},{"id":"a1-u31-l1-q2","kind":"choice","prompt":"What time does the train to Bristol depart?","instruction":"选择意思。","answer":"去布里斯托尔的火车几点出发？","audio":"What time does the train to Bristol depart?","translation":"去布里斯托尔的火车几点出发？"},{"id":"a1-u31-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"火车从五号站台到达。","audio":"The train arrives at platform five.","translation":"火车从五号站台到达。"},{"id":"a1-u31-l1-q4","kind":"order","prompt":"我需要一张往返车票。","instruction":"组成英文句子。","answer":"I need a return ticket.","audio":"I need a return ticket.","translation":"我需要一张往返车票。"},{"id":"a1-u31-l1-q5","kind":"fill","prompt":"The train leaves at nine in the _____.","instruction":"选择时间。","answer":"morning","audio":"The train leaves at nine in the morning.","translation":"火车早上九点出发。"},{"id":"a1-u31-l1-q6","kind":"match","prompt":"配对火车站词语。","instruction":"完成配对。","pairs":[["platform","站台"],["ticket","车票"],["departure","出发"],["arrival","到达"],["return","往返"],["station","车站"]],"answer":"matched","translation":"站台、车票、出发、到达、往返、车站"},{"id":"a1-u31-l1-q7","kind":"word","prompt":"departure · 火车站","instruction":"选择意思。","answer":"出发","options":["出发","到达","站台","车票"],"translation":"出发"},{"id":"a1-u31-l1-q8","kind":"choice","prompt":"The ticket machine is beside the station entrance.","instruction":"选择意思。","answer":"售票机在车站入口旁边。","audio":"The ticket machine is beside the station entrance.","translation":"售票机在车站入口旁边。"},{"id":"a1-u31-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"这趟列车晚点十分钟。","audio":"This train is ten minutes late.","translation":"这趟列车晚点十分钟。"},{"id":"a1-u31-l1-q10","kind":"fill","prompt":"Which _____ does the train use?","instruction":"选择名词。","answer":"platform","audio":"Which platform does the train use?","translation":"这趟火车使用哪个站台？"}],"dialogue":{"id":"a1-u31-l1-dialogue","scene":"询问站台","characters":[{"id":"lumi","name":"Lumi"},{"id":"agent","name":"Agent"}],"turns":[{"speaker":"lumi","text":"Which platform is the train to York?","translation":"去约克的火车在哪个站台？"},{"speaker":"agent","text":"It leaves from platform four at ten twenty.","translation":"它十点二十从四号站台出发。"},{"speaker":"lumi","text":"Thank you. I have my ticket ready.","translation":"谢谢。我已经准备好车票了。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u31-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "火车站",
+  "subtitle": "看懂站台和出发时间",
+  "theme": "train-timetables",
+  "grammarFocus": "travel-timetables",
+  "grammarTags": [
+    "travel-timetables",
+    "questions"
+  ],
+  "words": [
+    [
+      "platform",
+      "站台"
+    ],
+    [
+      "ticket",
+      "车票"
+    ],
+    [
+      "departure",
+      "出发"
+    ],
+    [
+      "arrival",
+      "到达"
+    ],
+    [
+      "return",
+      "往返"
+    ],
+    [
+      "station",
+      "车站"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u31-l1-q1",
+      "kind": "word",
+      "prompt": "platform · 火车站",
+      "instruction": "选择意思。",
+      "answer": "站台",
+      "options": [
+        "站台",
+        "车票",
+        "到达",
+        "车站"
+      ],
+      "translation": "站台"
+    },
+    {
+      "id": "a1-u31-l1-q2",
+      "kind": "choice",
+      "prompt": "What time does the train to Bristol depart?",
+      "instruction": "选择意思。",
+      "answer": "去布里斯托尔的火车几点出发？",
+      "audio": "What time does the train to Bristol depart?",
+      "translation": "去布里斯托尔的火车几点出发？"
+    },
+    {
+      "id": "a1-u31-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "火车从五号站台到达。",
+      "audio": "The train arrives at platform five.",
+      "translation": "火车从五号站台到达。"
+    },
+    {
+      "id": "a1-u31-l1-q4",
+      "kind": "order",
+      "prompt": "我需要一张往返车票。",
+      "instruction": "组成英文句子。",
+      "answer": "I need a return ticket.",
+      "audio": "I need a return ticket.",
+      "translation": "我需要一张往返车票。"
+    },
+    {
+      "id": "a1-u31-l1-q5",
+      "kind": "fill",
+      "prompt": "The train leaves at nine in the _____.",
+      "instruction": "选择时间。",
+      "answer": "morning",
+      "audio": "The train leaves at nine in the morning.",
+      "translation": "火车早上九点出发。"
+    },
+    {
+      "id": "a1-u31-l1-q6",
+      "kind": "match",
+      "prompt": "配对火车站词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "platform",
+          "站台"
+        ],
+        [
+          "ticket",
+          "车票"
+        ],
+        [
+          "departure",
+          "出发"
+        ],
+        [
+          "arrival",
+          "到达"
+        ],
+        [
+          "return",
+          "往返"
+        ],
+        [
+          "station",
+          "车站"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "站台、车票、出发、到达、往返、车站"
+    },
+    {
+      "id": "a1-u31-l1-q7",
+      "kind": "word",
+      "prompt": "departure · 火车站",
+      "instruction": "选择意思。",
+      "answer": "出发",
+      "options": [
+        "出发",
+        "到达",
+        "站台",
+        "车票"
+      ],
+      "translation": "出发"
+    },
+    {
+      "id": "a1-u31-l1-q8",
+      "kind": "choice",
+      "prompt": "The ticket machine is beside the station entrance.",
+      "instruction": "选择意思。",
+      "answer": "售票机在车站入口旁边。",
+      "audio": "The ticket machine is beside the station entrance.",
+      "translation": "售票机在车站入口旁边。"
+    },
+    {
+      "id": "a1-u31-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "这趟列车晚点十分钟。",
+      "audio": "This train is ten minutes late.",
+      "translation": "这趟列车晚点十分钟。"
+    },
+    {
+      "id": "a1-u31-l1-q10",
+      "kind": "fill",
+      "prompt": "Which _____ does the train use?",
+      "instruction": "选择名词。",
+      "answer": "platform",
+      "audio": "Which platform does the train use?",
+      "translation": "这趟火车使用哪个站台？"
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u31-l1-dialogue",
+    "scene": "询问站台",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "agent",
+        "name": "Agent"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Which platform is the train to York?",
+        "translation": "去约克的火车在哪个站台？"
+      },
+      {
+        "speaker": "agent",
+        "text": "It leaves from platform four at ten twenty.",
+        "translation": "它十点二十从四号站台出发。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "Thank you. I have my ticket ready.",
+        "translation": "谢谢。我已经准备好车票了。"
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

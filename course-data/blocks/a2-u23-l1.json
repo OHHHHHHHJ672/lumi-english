@@ -1,0 +1,257 @@
+{
+  "id": "a2-u23-l1",
+  "levelId": "a2",
+  "cefr": "A2",
+  "title": "出行应用",
+  "subtitle": "用地图、路线和比较级规划出行",
+  "theme": "出行应用",
+  "grammarFocus": "comparatives",
+  "grammarTags": [
+    "comparatives"
+  ],
+  "words": [
+    [
+      "route",
+      "路线"
+    ],
+    [
+      "traffic",
+      "交通"
+    ],
+    [
+      "nearby",
+      "附近的"
+    ]
+  ],
+  "pairs": [
+    [
+      "route",
+      "路线"
+    ],
+    [
+      "traffic",
+      "交通"
+    ],
+    [
+      "nearby",
+      "附近的"
+    ],
+    [
+      "message",
+      "消息"
+    ],
+    [
+      "schedule",
+      "日程"
+    ],
+    [
+      "meeting",
+      "会议"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a2-u23-l1-q1",
+      "kind": "word",
+      "prompt": "route",
+      "answer": "路线",
+      "translation": "路线",
+      "options": [
+        "路线",
+        "交通",
+        "附近的",
+        "问题"
+      ]
+    },
+    {
+      "id": "a2-u23-l1-q2",
+      "kind": "choice",
+      "prompt": "This route is faster than the highway.",
+      "audio": "This route is faster than the highway.",
+      "answer": "这条路线比高速公路快。",
+      "translation": "这条路线比高速公路快。",
+      "options": [
+        "这条路线比高速公路快。",
+        "今天坐火车比打车便宜。",
+        "我选了回家最安全的路线。",
+        "地图推荐了一条更长的路线。"
+      ]
+    },
+    {
+      "id": "a2-u23-l1-q3",
+      "kind": "listen",
+      "prompt": "The app shows heavy traffic downtown.",
+      "audio": "The app shows heavy traffic downtown.",
+      "answer": "应用显示市中心交通拥堵。",
+      "translation": "应用显示市中心交通拥堵。",
+      "options": [
+        "应用显示市中心交通拥堵。",
+        "我选了回家最安全的路线。",
+        "地图推荐了一条更长的路线。",
+        "你能找到更安静的路线吗？"
+      ]
+    },
+    {
+      "id": "a2-u23-l1-q4",
+      "kind": "order",
+      "prompt": "附近有一个公交车站。",
+      "audio": "There is a nearby bus stop.",
+      "answer": "There is a nearby bus stop.",
+      "translation": "附近有一个公交车站。",
+      "tokens": [
+        "There",
+        "is",
+        "a",
+        "nearby",
+        "bus",
+        "stop."
+      ]
+    },
+    {
+      "id": "a2-u23-l1-q5",
+      "kind": "fill",
+      "prompt": "We should check the bus _____ today.",
+      "answer": "route",
+      "audio": "We should check the bus route today.",
+      "translation": "我们今天应该查一下公交路线。",
+      "options": [
+        "route",
+        "traffic",
+        "nearby",
+        "message"
+      ]
+    },
+    {
+      "id": "a2-u23-l1-q6",
+      "kind": "match",
+      "prompt": "把「出行应用」的重点词语配对。",
+      "answer": "matched",
+      "pairs": [
+        [
+          "route",
+          "路线"
+        ],
+        [
+          "traffic",
+          "交通"
+        ],
+        [
+          "nearby",
+          "附近的"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "id": "a2-u23-l1-q7",
+      "kind": "word",
+      "prompt": "traffic",
+      "answer": "交通",
+      "translation": "交通",
+      "audio": "traffic",
+      "options": [
+        "交通",
+        "路线",
+        "附近的",
+        "安排"
+      ]
+    },
+    {
+      "id": "a2-u23-l1-q8",
+      "kind": "choice",
+      "prompt": "I chose the safest route home.",
+      "audio": "I chose the safest route home.",
+      "answer": "我选了回家最安全的路线。",
+      "translation": "我选了回家最安全的路线。",
+      "options": [
+        "我选了回家最安全的路线。",
+        "你能找到更安静的路线吗？",
+        "交通比昨天更糟。",
+        "附近的车站更容易到达。"
+      ]
+    },
+    {
+      "id": "a2-u23-l1-q9",
+      "kind": "listen",
+      "prompt": "The map suggested a longer route.",
+      "audio": "The map suggested a longer route.",
+      "answer": "地图推荐了一条更长的路线。",
+      "translation": "地图推荐了一条更长的路线。",
+      "options": [
+        "地图推荐了一条更长的路线。",
+        "你能找到更安静的路线吗？",
+        "交通比昨天更糟。",
+        "附近的车站更容易到达。"
+      ]
+    },
+    {
+      "id": "a2-u23-l1-q10",
+      "kind": "fill",
+      "prompt": "_____ was worse than yesterday.",
+      "answer": "traffic",
+      "audio": "Traffic was worse than yesterday.",
+      "translation": "交通比昨天更糟。",
+      "options": [
+        "traffic",
+        "route",
+        "nearby",
+        "plan"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "a2-u23-l1-dialogue",
+    "scene": "出行应用",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "This route is faster than the highway.",
+        "translation": "这条路线比高速公路快。"
+      },
+      {
+        "speaker": "partner",
+        "text": "The app shows heavy traffic downtown.",
+        "translation": "应用显示市中心交通拥堵。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "There is a nearby bus stop.",
+        "translation": "附近有一个公交车站。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What is this conversation mainly about?",
+        "answer": "这条路线比高速公路快。",
+        "options": [
+          "这条路线比高速公路快。",
+          "今天坐火车比打车便宜。",
+          "你能找到更安静的路线吗？"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

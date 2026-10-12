@@ -1,1 +1,197 @@
-{"id":"a1-u26-l1","levelId":"a1","cefr":"A1","title":"学校科目","subtitle":"谈论课程和喜欢的科目","theme":"school-subjects","grammarFocus":"school-subjects","grammarTags":["school-subjects"],"words":[["science","科学"],["history","历史"],["art","美术"],["math","数学"],["music","音乐"],["geography","地理"]],"questions":[{"id":"a1-u26-l1-q1","kind":"word","prompt":"geography · 学校科目","instruction":"选择意思。","answer":"地理","options":["地理","历史","数学","科学"],"translation":"地理"},{"id":"a1-u26-l1-q2","kind":"choice","prompt":"My favorite subject is science because experiments are exciting.","instruction":"选择意思。","answer":"我最喜欢科学，因为实验很有趣。","audio":"My favorite subject is science because experiments are exciting.","translation":"我最喜欢科学，因为实验很有趣。"},{"id":"a1-u26-l1-q3","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"她星期二上历史课。","audio":"She has history class on Tuesday.","translation":"她星期二上历史课。"},{"id":"a1-u26-l1-q4","kind":"order","prompt":"数学课在第二节。","instruction":"组成英文句子。","answer":"Math is the second lesson.","audio":"Math is the second lesson.","translation":"数学课在第二节。"},{"id":"a1-u26-l1-q5","kind":"fill","prompt":"We paint pictures in _____ class.","instruction":"选择科目。","answer":"art","audio":"We paint pictures in art class.","translation":"我们在美术课上画画。"},{"id":"a1-u26-l1-q6","kind":"match","prompt":"配对学校科目词语。","instruction":"完成配对。","pairs":[["science","科学"],["history","历史"],["art","美术"],["math","数学"],["music","音乐"],["geography","地理"]],"answer":"matched","translation":"科学、历史、美术、数学、音乐、地理"},{"id":"a1-u26-l1-q7","kind":"word","prompt":"history · 学校科目","instruction":"选择意思。","answer":"历史","options":["历史","地理","音乐","美术"],"translation":"历史"},{"id":"a1-u26-l1-q8","kind":"choice","prompt":"Our geography teacher shows us maps of different countries.","instruction":"选择意思。","answer":"我们的地理老师给我们看不同国家的地图。","audio":"Our geography teacher shows us maps of different countries.","translation":"我们的地理老师给我们看不同国家的地图。"},{"id":"a1-u26-l1-q9","kind":"listen","prompt":"听句子，选择意思。","instruction":"听完整句子。","answer":"音乐课需要一支新笛子。","audio":"Music class needs a new recorder.","translation":"音乐课需要一支新笛子。"},{"id":"a1-u26-l1-q10","kind":"fill","prompt":"I have a _____ test tomorrow.","instruction":"选择科目。","answer":"history","audio":"I have a history test tomorrow.","translation":"我明天有历史考试。"}],"dialogue":{"id":"a1-u26-l1-dialogue","scene":"讨论课程","characters":[{"id":"lumi","name":"Lumi"},{"id":"leo","name":"Leo"}],"turns":[{"speaker":"lumi","text":"Which subject do you like best?","translation":"你最喜欢哪门课？"},{"speaker":"leo","text":"I like art because I enjoy drawing.","translation":"我喜欢美术，因为我喜欢画画。"},{"speaker":"lumi","text":"I prefer science and music.","translation":"我更喜欢科学和音乐。"}]},"sourceStatus":"hand-authored"}
+{
+  "id": "a1-u26-l1",
+  "levelId": "a1",
+  "cefr": "A1",
+  "title": "学校科目",
+  "subtitle": "谈论课程和喜欢的科目",
+  "theme": "school-subjects",
+  "grammarFocus": "school-subjects",
+  "grammarTags": [
+    "school-subjects"
+  ],
+  "words": [
+    [
+      "science",
+      "科学"
+    ],
+    [
+      "history",
+      "历史"
+    ],
+    [
+      "art",
+      "美术"
+    ],
+    [
+      "math",
+      "数学"
+    ],
+    [
+      "music",
+      "音乐"
+    ],
+    [
+      "geography",
+      "地理"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "a1-u26-l1-q1",
+      "kind": "word",
+      "prompt": "geography · 学校科目",
+      "instruction": "选择意思。",
+      "answer": "地理",
+      "options": [
+        "地理",
+        "历史",
+        "数学",
+        "科学"
+      ],
+      "translation": "地理"
+    },
+    {
+      "id": "a1-u26-l1-q2",
+      "kind": "choice",
+      "prompt": "My favorite subject is science because experiments are exciting.",
+      "instruction": "选择意思。",
+      "answer": "我最喜欢科学，因为实验很有趣。",
+      "audio": "My favorite subject is science because experiments are exciting.",
+      "translation": "我最喜欢科学，因为实验很有趣。"
+    },
+    {
+      "id": "a1-u26-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "她星期二上历史课。",
+      "audio": "She has history class on Tuesday.",
+      "translation": "她星期二上历史课。"
+    },
+    {
+      "id": "a1-u26-l1-q4",
+      "kind": "order",
+      "prompt": "数学课在第二节。",
+      "instruction": "组成英文句子。",
+      "answer": "Math is the second lesson.",
+      "audio": "Math is the second lesson.",
+      "translation": "数学课在第二节。"
+    },
+    {
+      "id": "a1-u26-l1-q5",
+      "kind": "fill",
+      "prompt": "We paint pictures in _____ class.",
+      "instruction": "选择科目。",
+      "answer": "art",
+      "audio": "We paint pictures in art class.",
+      "translation": "我们在美术课上画画。"
+    },
+    {
+      "id": "a1-u26-l1-q6",
+      "kind": "match",
+      "prompt": "配对学校科目词语。",
+      "instruction": "完成配对。",
+      "pairs": [
+        [
+          "science",
+          "科学"
+        ],
+        [
+          "history",
+          "历史"
+        ],
+        [
+          "art",
+          "美术"
+        ],
+        [
+          "math",
+          "数学"
+        ],
+        [
+          "music",
+          "音乐"
+        ],
+        [
+          "geography",
+          "地理"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "科学、历史、美术、数学、音乐、地理"
+    },
+    {
+      "id": "a1-u26-l1-q7",
+      "kind": "word",
+      "prompt": "history · 学校科目",
+      "instruction": "选择意思。",
+      "answer": "历史",
+      "options": [
+        "历史",
+        "地理",
+        "音乐",
+        "美术"
+      ],
+      "translation": "历史"
+    },
+    {
+      "id": "a1-u26-l1-q8",
+      "kind": "choice",
+      "prompt": "Our geography teacher shows us maps of different countries.",
+      "instruction": "选择意思。",
+      "answer": "我们的地理老师给我们看不同国家的地图。",
+      "audio": "Our geography teacher shows us maps of different countries.",
+      "translation": "我们的地理老师给我们看不同国家的地图。"
+    },
+    {
+      "id": "a1-u26-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择意思。",
+      "instruction": "听完整句子。",
+      "answer": "音乐课需要一支新笛子。",
+      "audio": "Music class needs a new recorder.",
+      "translation": "音乐课需要一支新笛子。"
+    },
+    {
+      "id": "a1-u26-l1-q10",
+      "kind": "fill",
+      "prompt": "I have a _____ test tomorrow.",
+      "instruction": "选择科目。",
+      "answer": "history",
+      "audio": "I have a history test tomorrow.",
+      "translation": "我明天有历史考试。"
+    }
+  ],
+  "dialogue": {
+    "id": "a1-u26-l1-dialogue",
+    "scene": "讨论课程",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "leo",
+        "name": "Leo"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Which subject do you like best?",
+        "translation": "你最喜欢哪门课？"
+      },
+      {
+        "speaker": "leo",
+        "text": "I like art because I enjoy drawing.",
+        "translation": "我喜欢美术，因为我喜欢画画。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "I prefer science and music.",
+        "translation": "我更喜欢科学和音乐。"
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

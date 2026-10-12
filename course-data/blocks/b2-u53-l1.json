@@ -1,0 +1,564 @@
+{
+  "id": "b2-u53-l1",
+  "levelId": "b2",
+  "cefr": "B2",
+  "title": "进阶储能系统",
+  "subtitle": "解释间歇性和容量",
+  "theme": "进阶储能系统",
+  "grammarFocus": "passive-voice",
+  "grammarTags": [
+    "passive-voice"
+  ],
+  "words": [
+    [
+      "storage",
+      "储能"
+    ],
+    [
+      "intermittency",
+      "间歇性"
+    ],
+    [
+      "capacity",
+      "容量"
+    ]
+  ],
+  "questions": [
+    {
+      "kind": "word",
+      "prompt": "storage · 进阶储能系统",
+      "audio": "storage",
+      "instruction": "选择这个词的直译",
+      "answer": "储能",
+      "options": [
+        "储能",
+        "间歇性",
+        "容量",
+        "问题"
+      ],
+      "translation": "储能",
+      "id": "b2-u53-l1-q1",
+      "lessonId": "b2-u53-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The storage was reviewed before the meeting.",
+      "instruction": "选择这句日常表达的意思。",
+      "answer": "储能在会议前被审阅了。",
+      "options": [
+        "储能在会议前被审阅了。",
+        "间歇性在会议前被审阅了。",
+        "间歇性在会议前被审阅了。，晚饭后。",
+        "容量在会议前被审阅了。，本月。"
+      ],
+      "audio": "The storage was reviewed before the meeting.",
+      "translation": "储能在会议前被审阅了。",
+      "id": "b2-u53-l1-q2",
+      "lessonId": "b2-u53-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "间歇性在会议前被审阅了。",
+      "options": [
+        "储能在会议前被审阅了。",
+        "间歇性在会议前被审阅了。",
+        "间歇性在会议前被审阅了。，晚饭后。",
+        "容量在会议前被审阅了。，本月。"
+      ],
+      "audio": "The intermittency was reviewed before the meeting.",
+      "translation": "间歇性在会议前被审阅了。",
+      "id": "b2-u53-l1-q3",
+      "lessonId": "b2-u53-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "order",
+      "prompt": "容量在会议前被审阅了。",
+      "instruction": "把词块组成英文句子。",
+      "answer": "The capacity was reviewed before the meeting.",
+      "tokens": [
+        "The",
+        "capacity",
+        "was",
+        "reviewed",
+        "before",
+        "the",
+        "meeting."
+      ],
+      "audio": "The capacity was reviewed before the meeting.",
+      "translation": "容量在会议前被审阅了。",
+      "id": "b2-u53-l1-q4",
+      "lessonId": "b2-u53-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "Please check the _____ after dinner.",
+      "instruction": "选择合适的英文词完成句子。",
+      "answer": "storage",
+      "options": [
+        "storage",
+        "intermittency",
+        "capacity",
+        "message"
+      ],
+      "audio": "Please check the storage after dinner.",
+      "translation": "请晚饭后检查储能。",
+      "id": "b2-u53-l1-q5",
+      "lessonId": "b2-u53-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "match",
+      "prompt": "把「进阶储能系统」的重点词语配对。",
+      "instruction": "完成全部配对后提交。",
+      "pairs": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ],
+      "answer": "matched",
+      "translation": "storage、储能；intermittency、间歇性；capacity、容量；message、消息；schedule、日程；meeting、会议",
+      "id": "b2-u53-l1-q6",
+      "lessonId": "b2-u53-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "word",
+      "prompt": "intermittency · 进阶储能系统",
+      "audio": "intermittency",
+      "instruction": "选择这个词的直译",
+      "answer": "间歇性",
+      "options": [
+        "间歇性",
+        "储能",
+        "容量",
+        "安排"
+      ],
+      "translation": "间歇性",
+      "id": "b2-u53-l1-q7",
+      "lessonId": "b2-u53-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "choice",
+      "prompt": "The intermittency was reviewed before the meeting. after dinner.",
+      "instruction": "结合场景选择最准确的意思。",
+      "answer": "间歇性在会议前被审阅了。，晚饭后。",
+      "options": [
+        "储能在会议前被审阅了。",
+        "间歇性在会议前被审阅了。",
+        "间歇性在会议前被审阅了。，晚饭后。",
+        "容量在会议前被审阅了。，本月。"
+      ],
+      "audio": "The intermittency was reviewed before the meeting. after dinner.",
+      "translation": "间歇性在会议前被审阅了。，晚饭后。",
+      "id": "b2-u53-l1-q8",
+      "lessonId": "b2-u53-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "listen",
+      "prompt": "听句子，选择你听到的意思。",
+      "instruction": "先听完整句子，再选择意思。",
+      "answer": "容量在会议前被审阅了。，本月。",
+      "options": [
+        "储能在会议前被审阅了。",
+        "间歇性在会议前被审阅了。",
+        "间歇性在会议前被审阅了。，晚饭后。",
+        "容量在会议前被审阅了。，本月。"
+      ],
+      "audio": "The capacity was reviewed before the meeting. this month.",
+      "translation": "容量在会议前被审阅了。，本月。",
+      "id": "b2-u53-l1-q9",
+      "lessonId": "b2-u53-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    },
+    {
+      "kind": "fill",
+      "prompt": "We need to _____ the intermittency this month.",
+      "instruction": "选择正确的动词完成句子。",
+      "answer": "check",
+      "options": [
+        "check",
+        "checked",
+        "checking",
+        "checks"
+      ],
+      "audio": "We need to check the intermittency this month.",
+      "translation": "我们需要本月检查间歇性。",
+      "id": "b2-u53-l1-q10",
+      "lessonId": "b2-u53-l1",
+      "levelId": "b2",
+      "cefr": "B2",
+      "grammarTags": [
+        "passive-voice"
+      ],
+      "glossary": [
+        [
+          "storage",
+          "储能"
+        ],
+        [
+          "intermittency",
+          "间歇性"
+        ],
+        [
+          "capacity",
+          "容量"
+        ],
+        [
+          "message",
+          "消息"
+        ],
+        [
+          "schedule",
+          "日程"
+        ],
+        [
+          "meeting",
+          "会议"
+        ]
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b2-u53-l1-dialogue",
+    "scene": "进阶储能系统",
+    "characters": [
+      {
+        "id": "lumi",
+        "name": "Lumi"
+      },
+      {
+        "id": "partner",
+        "name": "Alex"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "lumi",
+        "text": "Could you tell me more about storage?",
+        "translation": "你能再告诉我一些关于储能的事吗？"
+      },
+      {
+        "speaker": "partner",
+        "text": "Sure. We use storage when we make a daily plan.",
+        "translation": "当然。我们制定日常计划时会用到储能。"
+      },
+      {
+        "speaker": "lumi",
+        "text": "That makes sense. I will remember it today.",
+        "translation": "有道理。今天我会记住它。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "What are they discussing?",
+        "answer": "How to use storage in a daily plan",
+        "options": [
+          "How to use storage in a daily plan",
+          "How to change a train ticket",
+          "How to order a dessert"
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "pending-manual-rewrite"
+}

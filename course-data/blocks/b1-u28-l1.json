@@ -1,0 +1,368 @@
+{
+  "id": "b1-u28-l1",
+  "levelId": "b1",
+  "cefr": "B1",
+  "title": "公益项目",
+  "subtitle": "说明资助、影响和合作伙伴",
+  "theme": "公益项目",
+  "grammarFocus": "nonprofit-projects",
+  "grammarTags": [
+    "nonprofit-projects"
+  ],
+  "words": [
+    [
+      "grant",
+      "资助"
+    ],
+    [
+      "impact",
+      "影响"
+    ],
+    [
+      "partner",
+      "合作伙伴"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "b1-u28-l1-q1",
+      "kind": "word",
+      "prompt": "grant · 公益项目",
+      "answer": "grant",
+      "translation": "资助",
+      "instruction": "选择适合语境的表达。",
+      "audio": "grant",
+      "lessonId": "b1-u28-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "nonprofit-projects"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "资助",
+        "影响",
+        "合作伙伴",
+        "计划"
+      ]
+    },
+    {
+      "id": "b1-u28-l1-q2",
+      "kind": "choice",
+      "prompt": "The nonprofit received a grant for youth training.",
+      "answer": "这家非营利机构获得了用于青年培训的拨款。",
+      "translation": "这家非营利机构获得了用于青年培训的拨款。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The nonprofit received a grant for youth training.",
+      "lessonId": "b1-u28-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "nonprofit-projects"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这家非营利机构获得了用于青年培训的拨款。",
+        "在承诺更大的安排前，我们应该找一个本地合作伙伴。",
+        "报告衡量了该项目对出勤率的影响。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u28-l1-q3",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "在承诺更大的安排前，我们应该找一个本地合作伙伴。",
+      "translation": "在承诺更大的安排前，我们应该找一个本地合作伙伴。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should find a local partner before promising a larger schedule.",
+      "lessonId": "b1-u28-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "nonprofit-projects"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "在承诺更大的安排前，我们应该找一个本地合作伙伴。",
+        "这家非营利机构获得了用于青年培训的拨款。",
+        "报告衡量了该项目对出勤率的影响。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u28-l1-q4",
+      "kind": "order",
+      "prompt": "报告衡量了该项目对出勤率的影响。",
+      "answer": "The report measures the project’s impact on attendance.",
+      "translation": "报告衡量了该项目对出勤率的影响。",
+      "instruction": "把词块组成完整句子。",
+      "audio": "The report measures the project’s impact on attendance.",
+      "lessonId": "b1-u28-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "nonprofit-projects"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "tokens": [
+        "The",
+        "report",
+        "measures",
+        "the",
+        "project’s",
+        "impact",
+        "on",
+        "attendance."
+      ]
+    },
+    {
+      "id": "b1-u28-l1-q5",
+      "kind": "fill",
+      "prompt": "The team has _____ the impact before the meeting.",
+      "answer": "reviewed",
+      "translation": "团队在会议前已经审阅了影响。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "The team has reviewed the impact before the meeting.",
+      "lessonId": "b1-u28-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "nonprofit-projects"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "reviewed",
+        "review",
+        "reviewing",
+        "reviews"
+      ]
+    },
+    {
+      "id": "b1-u28-l1-q6",
+      "kind": "match",
+      "prompt": "配对「公益项目」重点词。",
+      "answer": "matched",
+      "translation": "完成全部词语配对。",
+      "instruction": "完成六组配对。",
+      "audio": "",
+      "lessonId": "b1-u28-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "nonprofit-projects"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "pairs": [
+        [
+          "grant",
+          "资助"
+        ],
+        [
+          "impact",
+          "影响"
+        ],
+        [
+          "partner",
+          "合作伙伴"
+        ],
+        [
+          "team",
+          "团队"
+        ],
+        [
+          "meeting",
+          "会议"
+        ],
+        [
+          "review",
+          "审阅"
+        ]
+      ]
+    },
+    {
+      "id": "b1-u28-l1-q7",
+      "kind": "word",
+      "prompt": "impact · 公益项目",
+      "answer": "impact",
+      "translation": "影响",
+      "instruction": "选择适合语境的表达。",
+      "audio": "impact",
+      "lessonId": "b1-u28-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "nonprofit-projects"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "影响",
+        "资助",
+        "合作伙伴",
+        "问题"
+      ]
+    },
+    {
+      "id": "b1-u28-l1-q8",
+      "kind": "choice",
+      "prompt": "That protects the project’s impact while we seek funding.",
+      "answer": "这能在我们寻求资金的同时保护项目的影响。",
+      "translation": "这能在我们寻求资金的同时保护项目的影响。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "That protects the project’s impact while we seek funding.",
+      "lessonId": "b1-u28-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "nonprofit-projects"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "这能在我们寻求资金的同时保护项目的影响。",
+        "团队在会议前已经审阅了影响。",
+        "非营利组织获得了青年培训资助。",
+        "报告衡量项目对出席率的影响。"
+      ]
+    },
+    {
+      "id": "b1-u28-l1-q9",
+      "kind": "listen",
+      "prompt": "听句子，选择准确意思。",
+      "answer": "我们邀请了一位本地合作伙伴共同举办工作坊。",
+      "translation": "我们邀请了一位本地合作伙伴共同举办工作坊。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We have invited a local partner to share the workshop.",
+      "lessonId": "b1-u28-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "nonprofit-projects"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "我们邀请了一位本地合作伙伴共同举办工作坊。",
+        "这家非营利机构获得了用于青年培训的拨款。",
+        "在承诺更大的安排前，我们应该找一个本地合作伙伴。",
+        "说话人还没有回答。"
+      ]
+    },
+    {
+      "id": "b1-u28-l1-q10",
+      "kind": "fill",
+      "prompt": "We should _____ the partner before Friday.",
+      "answer": "review",
+      "translation": "我们应该在周五前审阅合作伙伴。",
+      "instruction": "选择适合语境的表达。",
+      "audio": "We should review the partner before Friday.",
+      "lessonId": "b1-u28-l1",
+      "levelId": "b1",
+      "cefr": "B1",
+      "difficulty": 3,
+      "grammarTags": [
+        "nonprofit-projects"
+      ],
+      "skillTags": [
+        "vocabulary",
+        "grammar",
+        "listening"
+      ],
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ]
+    }
+  ],
+  "dialogue": {
+    "id": "b1-u28-l1-dialogue",
+    "scene": "公益项目",
+    "characters": [
+      {
+        "id": "mia",
+        "name": "Mia",
+        "role": "colleague"
+      },
+      {
+        "id": "jon",
+        "name": "Jon",
+        "role": "colleague"
+      }
+    ],
+    "turns": [
+      {
+        "speaker": "mia",
+        "text": "The grant will cover the first workshop, but not the next six months.",
+        "translation": "这笔资助能覆盖第一次工作坊，但不能覆盖接下来六个月。"
+      },
+      {
+        "speaker": "jon",
+        "text": "We should find a local partner before promising a larger schedule.",
+        "translation": "在承诺更大的安排前，我们应该找一个本地合作伙伴。"
+      },
+      {
+        "speaker": "mia",
+        "text": "That protects the project’s impact while we seek funding.",
+        "translation": "这样在寻找资金时也能保护项目影响。"
+      }
+    ],
+    "tasks": [
+      {
+        "mode": "intent",
+        "prompt": "Jon提出了什么建议？",
+        "answer": "We should find a local partner before promising a larger schedule.",
+        "options": [
+          "We should find a local partner before promising a larger schedule.",
+          "The grant will cover the first workshop, but not the next six months.",
+          "That protects the project’s impact while we seek funding."
+        ]
+      }
+    ]
+  },
+  "sourceStatus": "hand-authored"
+}
