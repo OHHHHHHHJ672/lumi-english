@@ -1,46 +1,126 @@
-# Lumi English Beta 1.4
+# Lumi English
 
-Lumi English 是一个原创的离线英语学习游戏 Android Beta，面向中文用户。它用路线图、关卡、XP、Lumi 积分、连续学习和奖励动效，把英语练习做成每天可以完成的一小段冒险。
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/OHHHHHHHJ672/lumi-english?include_prereleases&label=release)](https://github.com/OHHHHHHHJ672/lumi-english/releases)
+[![Platform](https://img.shields.io/badge/platform-Android%208.0%2B-green.svg)](https://github.com/OHHHHHHHJ672/lumi-english/releases)
+[![Content](https://img.shields.io/badge/course-288%20lessons-orange.svg)](docs/USAGE.md)
 
-## Beta 内容
+一个原创的、完全离线的英语学习游戏 Android 应用，面向中文母语的学习者。用路线图、关卡、XP、积分、连胜和奖励动效，把英语练习拆成每天可以完成的一小段冒险。
 
-- 4 个 CEFR 阶段：A1 基础生存、A2 日常交流、B1 独立沟通、B2 工作与旅行
-- 288 个独立关卡、2,880 道练习（四个 CEFR 等级各 72 关，每关 10 题）；覆盖日常、学习、工作、研究、科技、公共议题等场景
-- 新增课程包包含 432 个新增目标词条、144 个新增主题和每关四种扩展题；题目键在全库范围内去重
-- 单词释义、中文翻译、听力选择、拼句、填空、词语配对；每道配对题至少 6 对
-- 启动规划：学习目的、英语背景、目标等级、分级测试、每日学习分钟数、提醒时间、桌面伙伴样式
-- 每日 XP 目标会随学习时间变化；支持连续天数、Lumi 积分、错题复习和本地词典
-- 答错题目会回到当前关卡队列；课程完成后才算通关，重复练习不会重复发放题目 XP
-- 题目前只显示作答指令；英文词可单独点击查看释义，完整翻译只在提交反馈后显示
-- 听力题进入后自动播放一次，仍可手动重播和慢速播放；积分可消耗 3 点隐藏一个错误选项
-- 题型顺序在每次开课时随机；课程和题目带有 CEFR、语法和技能标签
-- Android 系统 TextToSpeech 英语朗读，普通/慢速按钮和音效动效
-- 本地桌面小组件：显示今日 XP、目标进度和连续学习天数；支持本地每日通知提醒
-- Beta 1.3 新增间隔复习：每个题目记录掌握度、答题次数、遗忘次数和下次复习时间；复习小屋会显示到期内容
-- Beta 1.3 新增每日三项挑战、成就徽章和积分商店；积分只兑换提示、外观、连胜保护和复习加成，不限制学习次数
-- Beta 1.3 新增看中文打英文和听写训练，听写进入后自动播放一次，也可以重复播放
-- Beta 1.4 增加明亮主题导航优化、单元/区段/Checkpoint 元数据、单元挑战状态、语法覆盖修复和更自然的日常场景句
-- 不需要账号、不接云端、不上传学习记录
+> An original, fully offline English-learning game for Android, aimed at
+> Chinese-speaking learners. No account, no cloud, no analytics — everything
+> runs on your device and nothing is uploaded.
 
-## 安装
+---
 
-在 Android 手机上允许安装来自此来源的应用，然后打开 Beta APK。首次启动会引导你选择英语背景、目标和学习节奏，并从适合的题目开始测试。
+## 下载
 
-如果朗读没有声音：进入应用「我的 → 检查英语语音」或「系统语音设置」，选择系统文字转语音引擎并安装英语语音包。部分手机的英语语音包需要联网下载。
+从 **[Releases](https://github.com/OHHHHHHHJ672/lumi-english/releases)** 下载最新 APK，传到手机上安装即可。
 
-桌面小组件添加方式：长按手机桌面 → 小组件 → Lumi English → 拖到桌面。打开应用并完成一关后，小组件会自动同步今日进度。
+首次安装需要在系统设置里允许「安装未知应用」。APK 由本地密钥签名，升级时请使用同一个 Release 的覆盖安装，跨作者签名不同的包无法直接覆盖。
+
+## 这是什么
+
+| | |
+|---|---|
+| **课程** | 4 个 CEFR 阶段（A1 / A2 / B1 / B2），各 72 关，共 **288 关** |
+| **题量** | 每关 12 题，共 **3,456 道练习**（核心题库 2,880 道 + 每关 2 道对白题） |
+| **题型** | 单词释义、中文翻译、听力选择、拼句、填空、词语配对、情景对白 |
+| **复习** | 间隔复习（SRS）记录每题掌握度、答题次数、遗忘次数和下次复习时间 |
+| **激励** | 每日 XP 目标、连续天数、连击、成就徽章、积分商店 |
+| **隐私** | 不需要账号、不接云端、不上传任何学习记录 |
+
+完整功能说明见 **[docs/USAGE.md](docs/USAGE.md)**。
+
+## 安装与首次启动
+
+1. 从 Releases 下载 APK 并在手机上安装。
+2. 首次启动是六步引导：学习目的 → 英语背景 → 目标等级 → 每日节奏 → 提醒时间 → 等级测试。想快点可以直接点「稍后再测，直接开始」，会按你的英语背景推荐起始难度。
+3. 引导结束后进入「学习舱」，从第一个关卡开始。
+
+### 没有朗读声音？
+
+朗读由 **Android 系统 TTS** 提供，本应用不内置语音包。请到「我的 → 检查英语语音」或系统「文字转语音（TTS）设置」里，选择一个 TTS 引擎并安装英语语音数据。部分手机的英语语音包需要联网下载。
+
+### 桌面小组件
+
+长按手机桌面 → 小组件 → Lumi English → 拖到桌面。完成一关后会自动同步今日进度。
+
+## 玩法要点
+
+- 题目开始时**只显示作答指令**，不给完整翻译。句子里的英文单词可以单独点开看释义，完整翻译要提交答案后才出现。
+- **答错的题会回到当前关卡队列**，必须做完一轮才算通关；重复练习不会重复发放题目 XP。
+- 听力题进入后自动播放一次，可以重播，也可以切慢速。
+- 积分可以花 3 点隐藏一个错误选项，也可以在商店里换提示、外观、**连胜保护**和复习加成。积分不限制学习次数。
+- 复习小屋会优先推送到期的旧题和你的错题。
+
+## 已知限制
+
+这是 Beta，**还有不少问题**，欢迎提 Issue：
+
+- **内容质量参差**：部分题目由生成器产出，措辞和干扰项的自然度不如人工编写的题目。改进建议和 PR 都欢迎。
+- **进度只存在本机**：没有账号也没有云同步，清除应用数据或换手机会丢失进度。
+- **TTS 依赖系统**：朗读效果取决于手机上安装的引擎和语音包，不同设备差异较大。
+- **同步/提醒依赖本地**：每日提醒和小组件都是本机实现，受系统后台限制影响。
+
+## 从源码构建
+
+用 Android Studio 直接打开本目录即可，这是一个标准 Gradle 工程。
+
+没有 Android Studio 时可以用 PowerShell 脚本：
+
+```powershell
+.\build-apk.ps1
+```
+
+脚本需要 Android SDK（API 35）和 Java 17，通过 `ANDROID_SDK_ROOT` 和 `JAVA_HOME` 指向对应安装目录，或直接传参数。构建产物在 `build/Lumi-English-1.4.apk`，会用 `signing/` 下的本地密钥签名。
+
+> `signing/` 和 `build/` 已在 `.gitignore` 中，签名密钥**不会**进入仓库。首次构建时脚本会自动生成一套新的本地密钥。
+
+## 校验与测试
+
+```bash
+# 运行测试
+node --test tests/*.test.js
+
+# 校验核心题库（2,880 道）：CEFR 分层、题型覆盖、中英文混排、题目去重
+node tools/validate-course.js
+
+# 校验人工编写课程块的结构与答案一致性
+node tools/validate-authored-blocks.js
+```
+
+三者都是提交前的门禁，当前全部通过。
 
 ## 源码结构
 
-- `app/src/main/assets/course.js`：课程构建器、题型生成器和旧版 144 个关卡
-- `app/src/main/assets/course-pack-2.js`：新增 144 个按 CEFR 分层的主题课程包（第 37–72 关）
-- `app/src/main/assets/model.js`：本地进度、SRS 掌握度、每日任务、成就、积分商店和奖励规则
-- `app/src/main/assets/practice.js`：按当前等级抽取输出训练题、英文输入规范化和拼写反馈
-- `app/src/main/assets/app.js`：路线图、关卡和基础界面
-- `app/src/main/assets/interaction.js`：交互、复习、输出训练、词典、动效和启动规划
-- `app/src/main/java/.../MainActivity.java`：Android WebView 容器、系统 TTS 和提醒桥接
-- `app/src/main/java/.../LumiWidgetProvider.java`：桌面小组件
+```
+app/src/main/assets/
+  course.js            课程构建器、题型生成器、核心 144 关
+  course-pack-2.js     按 CEFR 分层的主题课程包（第 37–72 关）
+  authored-course.js   人工编写的课程块
+  model.js             本地进度、SRS 掌握度、每日任务、成就、商店
+  practice.js          输出训练题抽取、英文输入规范化、拼写反馈
+  app.js               路线图、关卡列表和基础界面
+  interaction.js       交互、复习、输出训练、词典、动效、启动规划
+app/src/main/java/
+  MainActivity.java        WebView 容器、系统 TTS、提醒桥接
+  LumiWidgetProvider.java  桌面小组件
+tools/                 内容审计、修复脚本和提交前校验器
+docs/                  使用说明与设计文档
+tests/                 Node 测试
+```
 
-Android Studio 可以直接打开本目录的 Gradle 工程。若构建环境没有 Android Studio，也可以使用 `build-apk.ps1`；脚本使用 Android API 35 和 Java 17，并输出 `build/Lumi-English-1.3.apk`。PowerShell 构建完成后会生成本地签名 APK；请把 `ANDROID_SDK_ROOT` 和 `JAVA_HOME` 指向对应安装目录，或直接传入脚本参数。
+界面是 HTML/CSS/JS，跑在 WebView 里；模型层（进度、SRS、成就）是纯 JS，可以在 Node 里直接测试，不依赖 Android 环境。
 
-此版本的内容、角色和视觉均为独立设计，没有使用第三方学习软件的商标、素材或题库。
+## 参与贡献
+
+提 Issue 报告 bug 或内容问题都可以，附上**关卡编号和题目**会更容易定位。改代码请先跑一遍上面三个校验命令。
+
+课程内容的改动请保持现有结构：每关 12 题、六种基础题型各至少一题、题目需要带 `grammarTags` 和 `skillTags`。
+
+## 许可
+
+[Apache-2.0](LICENSE)
+
+本项目的内容、角色和视觉均为独立设计，未使用任何第三方学习软件的商标、素材或题库。朗读由系统 TTS 运行时生成，不随应用分发任何语音文件。详见 [NOTICE](NOTICE)。

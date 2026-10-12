@@ -1,0 +1,14 @@
+Lumi English
+Copyright 2026 Lumi English contributors
+
+This product is an original, independently created work.
+
+All course content, question banks, character art, mascots, visual design and
+sound effects in this repository were created for this project. No third-party
+language-learning application's trademarked assets, artwork, question bank or
+curriculum has been reproduced or derived from.
+
+Text-to-speech audio is produced at runtime by the Android system
+TextToSpeech engine. No speech audio files are bundled with this application;
+voices, pronunciation and available languages depend on the TTS engine and
+voice data installed on the user's device.

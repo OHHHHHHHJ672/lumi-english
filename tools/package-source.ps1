@@ -1,6 +1,6 @@
 param(
-  [string]$Project = "C:\Users\Administrator\Desktop\lumi-english-beta",
-  [string]$Output = "C:\Users\Administrator\Desktop\lumi-english-beta-source-2026-10-08.zip"
+  [string]$Project = (Split-Path -Parent $PSScriptRoot),
+  [string]$Output = (Join-Path ([IO.Path]::GetTempPath()) 'lumi-source.zip')
 )
 $ErrorActionPreference = 'Stop'
 if (Test-Path -LiteralPath $Output) { Remove-Item -LiteralPath $Output -Force }
