@@ -6,7 +6,25 @@ if ($null -ne (Get-Variable PSNativeCommandUseErrorActionPreference -ErrorAction
 $project = $PSScriptRoot
 $build = Join-Path $project 'build'
 if (!$AndroidSdk) {
-  $sdkCandidates = @($env:ANDROID_HOME, "$env:LOCALAPPDATA\Android\Sdk", "$env:USERPROFILE\AppData\Local\Android\Sdk", 'C:\Android\Sdk') | Where-Object { $_ -and (Test-Path $_) }
+  # Pick the first candidate that actually contains the pieces this script
+  # needs. The old check was a bare Test-Path on the directory, so it missed
+  # real installs whose folder is named differently (C:\android-sdk on this
+  # machine, not C:\Android\Sdk) and happily returned an SDK that was missing
+  # build-tools, which then failed much later with a confusing aapt2 error.
+  function Test-AndroidSdk([string]$root) {
+    if (!$root) { return $false }
+    return (Test-Path (Join-Path $root 'build-tools\35.0.0\aapt2.exe')) -and (Test-Path (Join-Path $root 'platforms\android-35\android.jar'))
+  }
+  $sdkCandidates = @(
+    $env:ANDROID_SDK_ROOT,
+    $env:ANDROID_HOME,
+    "$env:LOCALAPPDATA\Android\Sdk",
+    "$env:LOCALAPPDATA\Android\sdk",
+    "$env:USERPROFILE\AppData\Local\Android\Sdk",
+    'C:\Android\Sdk',
+    'C:\android-sdk',
+    (Join-Path $project 'build\android-sdk')
+  ) | Where-Object { Test-AndroidSdk $_ }
   $AndroidSdk = $sdkCandidates | Select-Object -First 1
 }
 if (!$JavaDir) {
