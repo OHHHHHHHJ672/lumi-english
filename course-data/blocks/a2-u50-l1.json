@@ -425,15 +425,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "你今晚应该复习包装。，晚饭后。",
+      "answer": "你今晚应该复习包装。",
       "options": [
         "你今晚应该复习回收。",
         "你今晚应该复习填埋场。",
         "你今晚应该复习填埋场。，会议期间。",
-        "你今晚应该复习包装。，晚饭后。"
+        "你今晚应该复习包装。"
       ],
       "audio": "You should review the packaging tonight. after dinner.",
-      "translation": "你今晚应该复习包装。，晚饭后。",
+      "translation": "你今晚应该复习包装。",
       "id": "a2-u50-l1-q9",
       "lessonId": "a2-u50-l1",
       "levelId": "a2",

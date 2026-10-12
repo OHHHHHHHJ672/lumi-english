@@ -426,15 +426,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "知情同意在会议前被审阅了。，本月。",
+      "answer": "知情同意在会议前被审阅了。",
       "options": [
         "临床的在会议前被审阅了。",
         "试验在会议前被审阅了。",
         "试验在会议前被审阅了。，晚饭后。",
-        "知情同意在会议前被审阅了。，本月。"
+        "知情同意在会议前被审阅了。"
       ],
       "audio": "The informedconsent was reviewed before the meeting. this month.",
-      "translation": "知情同意在会议前被审阅了。，本月。",
+      "translation": "知情同意在会议前被审阅了。",
       "id": "b2-u65-l1-q9",
       "lessonId": "b2-u65-l1",
       "levelId": "b2",

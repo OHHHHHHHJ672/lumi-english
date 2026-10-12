@@ -428,15 +428,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "禁运比旧的更有用。，晚饭后。",
+      "answer": "禁运比旧的更有用。",
       "options": [
         "关税比旧的更有用。",
         "配额比旧的更有用。",
         "配额比旧的更有用。，会议期间。",
-        "禁运比旧的更有用。，晚饭后。"
+        "禁运比旧的更有用。"
       ],
       "audio": "The embargo is more useful than the old one. after dinner.",
-      "translation": "禁运比旧的更有用。，晚饭后。",
+      "translation": "禁运比旧的更有用。",
       "id": "b2-u62-l1-q9",
       "lessonId": "b2-u62-l1",
       "levelId": "b2",

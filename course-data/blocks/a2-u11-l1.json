@@ -221,7 +221,7 @@
     {
       "id": "a2-u11-l1-q8",
       "kind": "choice",
-      "prompt": "She volunteers every Saturday during the afternoon.",
+      "prompt": "She volunteers every Saturday.",
       "instruction": "选择最符合语境的意思。",
       "answer": "她每周六做志愿服务。",
       "options": [
@@ -230,8 +230,8 @@
         "收容所需要保暖毯。",
         "你愿意捐款吗？"
       ],
-      "audio": "She volunteers every Saturday during the afternoon.",
-      "translation": "她每周六做志愿服务，在下午。",
+      "audio": "She volunteers every Saturday.",
+      "translation": "她每周六做志愿服务。",
       "grammarTags": [
         "past-simple"
       ],
@@ -244,15 +244,15 @@
       "kind": "listen",
       "prompt": "听句子，选择意思。",
       "instruction": "选择最符合语境的意思。",
-      "answer": "这笔捐款帮助了许多家庭。",
+      "answer": "志愿者们在河边种了树。",
       "options": [
-        "这笔捐款帮助了许多家庭。",
+        "志愿者们在河边种了树。",
         "我们小组在食物银行做了志愿服务。",
         "收容所需要保暖毯。",
         "你愿意捐款吗？"
       ],
-      "audio": "The donation helped many families before dinner.",
-      "translation": "这笔捐款帮助了许多家庭，晚饭前。",
+      "audio": "The volunteers planted trees near the river.",
+      "translation": "志愿者们在河边种了树。",
       "grammarTags": [
         "past-simple"
       ],

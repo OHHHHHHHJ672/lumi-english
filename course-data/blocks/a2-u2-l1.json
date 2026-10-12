@@ -221,7 +221,7 @@
     {
       "id": "a2-u2-l1-q8",
       "kind": "choice",
-      "prompt": "I have not missed an appointment this year during the afternoon.",
+      "prompt": "I have not missed an appointment this year.",
       "instruction": "选择最符合语境的意思。",
       "answer": "我今年没有错过预约。",
       "options": [
@@ -230,8 +230,8 @@
         "医生已经检查过我的症状两次。",
         "我预约了周四早上。"
       ],
-      "audio": "I have not missed an appointment this year during the afternoon.",
-      "translation": "我今年没有错过预约，在下午。",
+      "audio": "I have not missed an appointment this year.",
+      "translation": "我今年没有错过预约。",
       "grammarTags": [
         "present-perfect"
       ],
@@ -244,15 +244,15 @@
       "kind": "listen",
       "prompt": "听句子，选择意思。",
       "instruction": "选择最符合语境的意思。",
-      "answer": "医生昨天改了处方。",
+      "answer": "医生给我开了新的处方。",
       "options": [
-        "医生昨天改了处方。",
+        "医生给我开了新的处方。",
         "我从周一开始喉咙痛。",
         "医生已经检查过我的症状两次。",
         "我预约了周四早上。"
       ],
-      "audio": "The doctor changed the prescription yesterday before dinner.",
-      "translation": "医生昨天改了处方，晚饭前。",
+      "audio": "The doctor has given me a new prescription.",
+      "translation": "医生给我开了新的处方。",
       "grammarTags": [
         "present-perfect"
       ],

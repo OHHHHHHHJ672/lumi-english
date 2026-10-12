@@ -221,17 +221,17 @@
     {
       "id": "a2-u1-l1-q8",
       "kind": "choice",
-      "prompt": "The team finished the report before the deadline during the afternoon.",
+      "prompt": "The team finished the report before the deadline.",
       "instruction": "选择最符合语境的意思。",
-      "answer": "团队在下午的截止日期前完成了报告。",
+      "answer": "团队在截止日期前完成了报告。",
       "options": [
-        "团队在下午的截止日期前完成了报告。",
+        "团队在截止日期前完成了报告。",
         "和同事沟通后，我调整了截止日期。",
         "我的同事昨天顶了晚班。",
         "我们在会议前查看了日程。"
       ],
-      "audio": "The team finished the report before the deadline during the afternoon.",
-      "translation": "团队在下午的截止日期前完成了报告。",
+      "audio": "The team finished the report before the deadline.",
+      "translation": "团队在截止日期前完成了报告。",
       "grammarTags": [
         "past-simple"
       ],
@@ -244,15 +244,15 @@
       "kind": "listen",
       "prompt": "听句子，选择意思。",
       "instruction": "选择最符合语境的意思。",
-      "answer": "她和朋友调了班。",
+      "answer": "我给整个团队发了消息。",
       "options": [
-        "她和朋友调了班。",
+        "我给整个团队发了消息。",
         "和同事沟通后，我调整了截止日期。",
         "我的同事昨天顶了晚班。",
         "我们在会议前查看了日程。"
       ],
-      "audio": "She swapped her shift with a friend before dinner.",
-      "translation": "她和朋友调了班，晚饭前。",
+      "audio": "I sent a message to the whole team.",
+      "translation": "我给整个团队发了消息。",
       "grammarTags": [
         "past-simple"
       ],

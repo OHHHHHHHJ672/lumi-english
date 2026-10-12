@@ -81,6 +81,34 @@ for (const lesson of catalog.lessonList.filter((lesson) => lesson.levelId !== 'a
   assert(!a1Opening.test(lesson.questions[1].prompt), `${lesson.id} must not open with an A1 greeting`);
 }
 
+// Content-drift regression. All three shapes below shipped in authored content
+// and were repaired together, so each is pinned here: validate-authored-blocks
+// only inspects the hand-authored blocks, while this runs against every
+// question the app actually loads.
+//
+// 1. A `listen` prompt is a fixed placeholder and the graded option is the
+//    Chinese rendering of whatever was played, so answer === translation. The
+//    gap showed up both ways: an answer that dropped part of the sentence
+//    (a1-u15-l1-q3 lost "before bed") and twelve translations that carried a
+//    generated time marker the answer correctly omitted.
+// 2. Time adjuncts were injected at one fixed slot per A2 lesson, so the whole
+//    question bank is scanned rather than just `listen`.
+// 3. A `choice` answer answers its instruction rather than translating the
+//    prompt ("门旁边有什么？" -> "有三个盒子。"), which is the only legitimate
+//    reason to differ from the translation -- and every real case is phrased as
+//    an actual question.
+for (const lesson of catalog.lessonList) {
+  for (const question of lesson.questions) {
+    if (question.kind === 'listen') {
+      assert.strictEqual(question.answer, question.translation, `${question.id} listen answer must match its translation`);
+    }
+    assert(!/，(?:在下午|晚饭前|晚饭后|下午|晚上|早上|本月|上周|下周|今天|明天|昨天|周末|本周)。?$/.test(question.translation || ''), `${question.id} translation carries a generated time adjunct`);
+    if (question.kind === 'choice' && question.answer !== question.translation) {
+      assert(/？\s*$/.test(String(question.instruction || '')), `${question.id} choice answer drifted from translation without a question-form instruction`);
+    }
+  }
+}
+
 for (const level of catalog.levels) {
   assert(level.cefr && level.difficulty && Array.isArray(level.recommendedFor), `${level.id} beta metadata missing`);
 }

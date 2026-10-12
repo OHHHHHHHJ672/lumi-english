@@ -426,15 +426,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "我们讨论过的可执行性已经准备好了。，晚饭后。",
+      "answer": "我们讨论过的可执行性已经准备好了。",
       "options": [
         "我们讨论过的赔偿保证已经准备好了。",
         "我们讨论过的仲裁已经准备好了。",
         "我们讨论过的仲裁已经准备好了。，会议期间。",
-        "我们讨论过的可执行性已经准备好了。，晚饭后。"
+        "我们讨论过的可执行性已经准备好了。"
       ],
       "audio": "The enforceability that we discussed is ready. after dinner.",
-      "translation": "我们讨论过的可执行性已经准备好了。，晚饭后。",
+      "translation": "我们讨论过的可执行性已经准备好了。",
       "id": "b2-u50-l1-q9",
       "lessonId": "b2-u50-l1",
       "levelId": "b2",

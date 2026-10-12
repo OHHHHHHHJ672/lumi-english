@@ -428,15 +428,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "我们在车站需要讨论困境。，晚饭后。",
+      "answer": "我们在车站需要讨论困境。",
       "options": [
         "我们今天早上需要讨论自主权。",
         "我们预约前需要讨论尊严。",
         "我们预约前需要讨论尊严。，会议期间。",
-        "我们在车站需要讨论困境。，晚饭后。"
+        "我们在车站需要讨论困境。"
       ],
       "audio": "We need to discuss the dilemma at the station. after dinner.",
-      "translation": "我们在车站需要讨论困境。，晚饭后。",
+      "translation": "我们在车站需要讨论困境。",
       "id": "b2-u26-l1-q9",
       "lessonId": "b2-u26-l1",
       "levelId": "b2",

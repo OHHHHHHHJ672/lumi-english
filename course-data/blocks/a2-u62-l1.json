@@ -427,15 +427,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "我们打算明天讨论配送。，晚饭后。",
+      "answer": "我们打算明天讨论配送。",
       "options": [
         "我们打算明天讨论电工。",
         "我们打算明天讨论五金用品。",
         "我们打算明天讨论五金用品。，会议期间。",
-        "我们打算明天讨论配送。，晚饭后。"
+        "我们打算明天讨论配送。"
       ],
       "audio": "We are going to discuss the delivery tomorrow. after dinner.",
-      "translation": "我们打算明天讨论配送。，晚饭后。",
+      "translation": "我们打算明天讨论配送。",
       "id": "a2-u62-l1-q9",
       "lessonId": "a2-u62-l1",
       "levelId": "a2",

@@ -425,15 +425,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "不过，核心要点仍然需要审阅。，本月。",
+      "answer": "不过，核心要点仍然需要审阅。",
       "options": [
         "不过，叙事线仍然需要审阅。",
         "不过，视觉材料仍然需要审阅。",
         "不过，视觉材料仍然需要审阅。，晚饭后。",
-        "不过，核心要点仍然需要审阅。，本月。"
+        "不过，核心要点仍然需要审阅。"
       ],
       "audio": "However, the takeaway still needs review. this month.",
-      "translation": "不过，核心要点仍然需要审阅。，本月。",
+      "translation": "不过，核心要点仍然需要审阅。",
       "id": "b1-u41-l1-q9",
       "lessonId": "b1-u41-l1",
       "levelId": "b1",

@@ -222,7 +222,7 @@
     {
       "id": "a2-u7-l1-q8",
       "kind": "choice",
-      "prompt": "Never share your password by text message during the afternoon.",
+      "prompt": "Never share your password by text message.",
       "instruction": "选择最符合语境的意思。",
       "answer": "不要通过短信分享密码。",
       "options": [
@@ -231,8 +231,8 @@
         "学习时请关闭通知。",
         "你可以在飞行前下载课程。"
       ],
-      "audio": "Never share your password by text message during the afternoon.",
-      "translation": "不要通过短信分享密码，在下午。",
+      "audio": "Never share your password by text message.",
+      "translation": "不要通过短信分享密码。",
       "grammarTags": [
         "imperatives"
       ],
@@ -245,15 +245,15 @@
       "kind": "listen",
       "prompt": "听句子，选择意思。",
       "instruction": "选择最符合语境的意思。",
-      "answer": "今天检查通知设置。",
+      "answer": "不要从陌生网站下载文件。",
       "options": [
-        "今天检查通知设置。",
+        "不要从陌生网站下载文件。",
         "收到奇怪消息后我改了密码。",
         "学习时请关闭通知。",
         "你可以在飞行前下载课程。"
       ],
-      "audio": "Check the notification settings today before dinner.",
-      "translation": "今天检查通知设置，晚饭前。",
+      "audio": "Do not download files from unknown sites.",
+      "translation": "不要从陌生网站下载文件。",
       "grammarTags": [
         "imperatives"
       ],

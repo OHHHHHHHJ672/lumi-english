@@ -223,7 +223,7 @@
     {
       "id": "a2-u3-l1-q8",
       "kind": "choice",
-      "prompt": "This discount ends at the weekend during the afternoon.",
+      "prompt": "This discount ends at the weekend.",
       "instruction": "选择最符合语境的意思。",
       "answer": "这个折扣周末结束。",
       "options": [
@@ -232,8 +232,8 @@
         "这件夹克打折后更便宜。",
         "商店为有问题的商品提供退款。"
       ],
-      "audio": "This discount ends at the weekend during the afternoon.",
-      "translation": "这个折扣周末结束，在下午。",
+      "audio": "This discount ends at the weekend.",
+      "translation": "这个折扣周末结束。",
       "grammarTags": [
         "comparatives"
       ],
@@ -253,8 +253,8 @@
         "这件夹克打折后更便宜。",
         "商店为有问题的商品提供退款。"
       ],
-      "audio": "The new model is more durable than the old one before dinner.",
-      "translation": "新型号比旧型号耐用，晚饭前。",
+      "audio": "The new model is more durable than the old one.",
+      "translation": "新型号比旧型号耐用。",
       "grammarTags": [
         "comparatives"
       ],

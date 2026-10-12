@@ -425,15 +425,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "我们已经审阅过回滚了。，本月。",
+      "answer": "我们已经审阅过回滚了。",
       "options": [
         "我们已经审阅过代码仓库了。",
         "我们已经审阅过版本管理了。",
         "我们已经审阅过版本管理了。，晚饭后。",
-        "我们已经审阅过回滚了。，本月。"
+        "我们已经审阅过回滚了。"
       ],
       "audio": "We have already reviewed the rollback. this month.",
-      "translation": "我们已经审阅过回滚了。，本月。",
+      "translation": "我们已经审阅过回滚了。",
       "id": "b1-u53-l1-q9",
       "lessonId": "b1-u53-l1",
       "levelId": "b1",

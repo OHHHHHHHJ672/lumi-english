@@ -222,7 +222,7 @@
     {
       "id": "a2-u4-l1-q8",
       "kind": "choice",
-      "prompt": "I am available after work tomorrow during the afternoon.",
+      "prompt": "I am available after work tomorrow.",
       "instruction": "选择最符合语境的意思。",
       "answer": "我明天下班后有空。",
       "options": [
@@ -231,8 +231,8 @@
         "如果下雨，我打算取消野餐。",
         "谢谢你推荐那家新咖啡馆。"
       ],
-      "audio": "I am available after work tomorrow during the afternoon.",
-      "translation": "我明天下班后有空，在下午。",
+      "audio": "I am available after work tomorrow.",
+      "translation": "我明天下班后有空。",
       "grammarTags": [
         "future-plans"
       ],
@@ -245,15 +245,15 @@
       "kind": "listen",
       "prompt": "听句子，选择意思。",
       "instruction": "选择最符合语境的意思。",
-      "answer": "我们今晚确认计划吧。",
+      "answer": "我们打算在图书馆外碰面。",
       "options": [
-        "我们今晚确认计划吧。",
+        "我们打算在图书馆外碰面。",
         "你周五有空吃晚饭吗？",
         "如果下雨，我打算取消野餐。",
         "谢谢你推荐那家新咖啡馆。"
       ],
-      "audio": "Let us confirm the plan tonight before dinner.",
-      "translation": "我们今晚确认计划吧，晚饭前。",
+      "audio": "We are going to meet outside the library.",
+      "translation": "我们打算在图书馆外碰面。",
       "grammarTags": [
         "future-plans"
       ],

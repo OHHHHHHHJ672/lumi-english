@@ -83,11 +83,11 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子。",
-      "answer": "请把垃圾拿出去。",
+      "answer": "请在睡觉前把垃圾拿出去。",
       "options": [
         "晚饭后请洗餐具。",
         "请把地板扫干净。",
-        "请把垃圾拿出去。",
+        "请在睡觉前把垃圾拿出去。",
         "请整理你的房间。"
       ],
       "audio": "Please take the bin outside before bed.",

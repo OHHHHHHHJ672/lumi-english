@@ -428,15 +428,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "电话响时我们正在讨论骑车人。，本月。",
+      "answer": "电话响时我们正在讨论骑车人。",
       "options": [
         "电话响时我们正在讨论绕路。",
         "电话响时我们正在讨论交通堵塞。",
         "电话响时我们正在讨论交通堵塞。，晚饭后。",
-        "电话响时我们正在讨论骑车人。，本月。"
+        "电话响时我们正在讨论骑车人。"
       ],
       "audio": "We were discussing the cyclist when the phone rang. this month.",
-      "translation": "电话响时我们正在讨论骑车人。，本月。",
+      "translation": "电话响时我们正在讨论骑车人。",
       "id": "a2-u53-l1-q9",
       "lessonId": "a2-u53-l1",
       "levelId": "a2",

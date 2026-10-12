@@ -429,15 +429,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "如果我们检查减缓，就能避免延误。，晚饭后。",
+      "answer": "如果我们检查减缓，就能避免延误。",
       "options": [
         "如果我们检查碳定价，就能避免延误。",
         "如果我们检查净零，就能避免延误。",
         "如果我们检查净零，就能避免延误。，会议期间。",
-        "如果我们检查减缓，就能避免延误。，晚饭后。"
+        "如果我们检查减缓，就能避免延误。"
       ],
       "audio": "If we check the mitigation, we can avoid a delay. after dinner.",
-      "translation": "如果我们检查减缓，就能避免延误。，晚饭后。",
+      "translation": "如果我们检查减缓，就能避免延误。",
       "id": "b2-u38-l1-q9",
       "lessonId": "b2-u38-l1",
       "levelId": "b2",

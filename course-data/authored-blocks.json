@@ -1662,11 +1662,11 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子。",
-        "answer": "请把垃圾拿出去。",
+        "answer": "请在睡觉前把垃圾拿出去。",
         "options": [
           "晚饭后请洗餐具。",
           "请把地板扫干净。",
-          "请把垃圾拿出去。",
+          "请在睡觉前把垃圾拿出去。",
           "请整理你的房间。"
         ],
         "audio": "Please take the bin outside before bed.",
@@ -20274,17 +20274,17 @@
       {
         "id": "a2-u1-l1-q8",
         "kind": "choice",
-        "prompt": "The team finished the report before the deadline during the afternoon.",
+        "prompt": "The team finished the report before the deadline.",
         "instruction": "选择最符合语境的意思。",
-        "answer": "团队在下午的截止日期前完成了报告。",
+        "answer": "团队在截止日期前完成了报告。",
         "options": [
-          "团队在下午的截止日期前完成了报告。",
+          "团队在截止日期前完成了报告。",
           "和同事沟通后，我调整了截止日期。",
           "我的同事昨天顶了晚班。",
           "我们在会议前查看了日程。"
         ],
-        "audio": "The team finished the report before the deadline during the afternoon.",
-        "translation": "团队在下午的截止日期前完成了报告。",
+        "audio": "The team finished the report before the deadline.",
+        "translation": "团队在截止日期前完成了报告。",
         "grammarTags": [
           "past-simple"
         ],
@@ -20297,15 +20297,15 @@
         "kind": "listen",
         "prompt": "听句子，选择意思。",
         "instruction": "选择最符合语境的意思。",
-        "answer": "她和朋友调了班。",
+        "answer": "我给整个团队发了消息。",
         "options": [
-          "她和朋友调了班。",
+          "我给整个团队发了消息。",
           "和同事沟通后，我调整了截止日期。",
           "我的同事昨天顶了晚班。",
           "我们在会议前查看了日程。"
         ],
-        "audio": "She swapped her shift with a friend before dinner.",
-        "translation": "她和朋友调了班，晚饭前。",
+        "audio": "I sent a message to the whole team.",
+        "translation": "我给整个团队发了消息。",
         "grammarTags": [
           "past-simple"
         ],
@@ -20626,15 +20626,15 @@
         "kind": "listen",
         "prompt": "听句子，选择意思。",
         "instruction": "选择最符合语境的意思。",
-        "answer": "发送前请附上文件。",
+        "answer": "我还没有看经理发来的消息。",
         "options": [
-          "发送前请附上文件。",
+          "我还没有看经理发来的消息。",
           "我已经附上更新后的文件。",
           "请在回复中附上发票。",
           "你能把这条消息转发给蒂娜吗？"
         ],
-        "audio": "Please attach the file before sending before dinner.",
-        "translation": "发送前请附上文件，晚饭前。",
+        "audio": "I have not read the message from the manager.",
+        "translation": "我还没有看经理发来的消息。",
         "grammarTags": [
           "present-perfect"
         ],
@@ -20932,7 +20932,7 @@
       {
         "id": "a2-u11-l1-q8",
         "kind": "choice",
-        "prompt": "She volunteers every Saturday during the afternoon.",
+        "prompt": "She volunteers every Saturday.",
         "instruction": "选择最符合语境的意思。",
         "answer": "她每周六做志愿服务。",
         "options": [
@@ -20941,8 +20941,8 @@
           "收容所需要保暖毯。",
           "你愿意捐款吗？"
         ],
-        "audio": "She volunteers every Saturday during the afternoon.",
-        "translation": "她每周六做志愿服务，在下午。",
+        "audio": "She volunteers every Saturday.",
+        "translation": "她每周六做志愿服务。",
         "grammarTags": [
           "past-simple"
         ],
@@ -20955,15 +20955,15 @@
         "kind": "listen",
         "prompt": "听句子，选择意思。",
         "instruction": "选择最符合语境的意思。",
-        "answer": "这笔捐款帮助了许多家庭。",
+        "answer": "志愿者们在河边种了树。",
         "options": [
-          "这笔捐款帮助了许多家庭。",
+          "志愿者们在河边种了树。",
           "我们小组在食物银行做了志愿服务。",
           "收容所需要保暖毯。",
           "你愿意捐款吗？"
         ],
-        "audio": "The donation helped many families before dinner.",
-        "translation": "这笔捐款帮助了许多家庭，晚饭前。",
+        "audio": "The volunteers planted trees near the river.",
+        "translation": "志愿者们在河边种了树。",
         "grammarTags": [
           "past-simple"
         ],
@@ -21259,7 +21259,7 @@
       {
         "id": "a2-u12-l1-q8",
         "kind": "choice",
-        "prompt": "We cannot afford a bigger car yet during the afternoon.",
+        "prompt": "We cannot afford a bigger car yet.",
         "instruction": "选择最符合语境的意思。",
         "answer": "我们还负担不起更大的车。",
         "options": [
@@ -21268,8 +21268,8 @@
           "房租是我们每月最大的支出。",
           "我们负担得起这门课程吗？"
         ],
-        "audio": "We cannot afford a bigger car yet during the afternoon.",
-        "translation": "我们还负担不起更大的车，在下午。",
+        "audio": "We cannot afford a bigger car yet.",
+        "translation": "我们还负担不起更大的车。",
         "grammarTags": [
           "comparatives"
         ],
@@ -21289,8 +21289,8 @@
           "房租是我们每月最大的支出。",
           "我们负担得起这门课程吗？"
         ],
-        "audio": "The electricity bill was higher this month before dinner.",
-        "translation": "这个月电费更高，晚饭前。",
+        "audio": "The electricity bill was higher this month.",
+        "translation": "这个月电费更高。",
         "grammarTags": [
           "comparatives"
         ],
@@ -23352,7 +23352,7 @@
       {
         "id": "a2-u2-l1-q8",
         "kind": "choice",
-        "prompt": "I have not missed an appointment this year during the afternoon.",
+        "prompt": "I have not missed an appointment this year.",
         "instruction": "选择最符合语境的意思。",
         "answer": "我今年没有错过预约。",
         "options": [
@@ -23361,8 +23361,8 @@
           "医生已经检查过我的症状两次。",
           "我预约了周四早上。"
         ],
-        "audio": "I have not missed an appointment this year during the afternoon.",
-        "translation": "我今年没有错过预约，在下午。",
+        "audio": "I have not missed an appointment this year.",
+        "translation": "我今年没有错过预约。",
         "grammarTags": [
           "present-perfect"
         ],
@@ -23375,15 +23375,15 @@
         "kind": "listen",
         "prompt": "听句子，选择意思。",
         "instruction": "选择最符合语境的意思。",
-        "answer": "医生昨天改了处方。",
+        "answer": "医生给我开了新的处方。",
         "options": [
-          "医生昨天改了处方。",
+          "医生给我开了新的处方。",
           "我从周一开始喉咙痛。",
           "医生已经检查过我的症状两次。",
           "我预约了周四早上。"
         ],
-        "audio": "The doctor changed the prescription yesterday before dinner.",
-        "translation": "医生昨天改了处方，晚饭前。",
+        "audio": "The doctor has given me a new prescription.",
+        "translation": "医生给我开了新的处方。",
         "grammarTags": [
           "present-perfect"
         ],
@@ -26131,7 +26131,7 @@
       {
         "id": "a2-u3-l1-q8",
         "kind": "choice",
-        "prompt": "This discount ends at the weekend during the afternoon.",
+        "prompt": "This discount ends at the weekend.",
         "instruction": "选择最符合语境的意思。",
         "answer": "这个折扣周末结束。",
         "options": [
@@ -26140,8 +26140,8 @@
           "这件夹克打折后更便宜。",
           "商店为有问题的商品提供退款。"
         ],
-        "audio": "This discount ends at the weekend during the afternoon.",
-        "translation": "这个折扣周末结束，在下午。",
+        "audio": "This discount ends at the weekend.",
+        "translation": "这个折扣周末结束。",
         "grammarTags": [
           "comparatives"
         ],
@@ -26161,8 +26161,8 @@
           "这件夹克打折后更便宜。",
           "商店为有问题的商品提供退款。"
         ],
-        "audio": "The new model is more durable than the old one before dinner.",
-        "translation": "新型号比旧型号耐用，晚饭前。",
+        "audio": "The new model is more durable than the old one.",
+        "translation": "新型号比旧型号耐用。",
         "grammarTags": [
           "comparatives"
         ],
@@ -28876,7 +28876,7 @@
       {
         "id": "a2-u4-l1-q8",
         "kind": "choice",
-        "prompt": "I am available after work tomorrow during the afternoon.",
+        "prompt": "I am available after work tomorrow.",
         "instruction": "选择最符合语境的意思。",
         "answer": "我明天下班后有空。",
         "options": [
@@ -28885,8 +28885,8 @@
           "如果下雨，我打算取消野餐。",
           "谢谢你推荐那家新咖啡馆。"
         ],
-        "audio": "I am available after work tomorrow during the afternoon.",
-        "translation": "我明天下班后有空，在下午。",
+        "audio": "I am available after work tomorrow.",
+        "translation": "我明天下班后有空。",
         "grammarTags": [
           "future-plans"
         ],
@@ -28899,15 +28899,15 @@
         "kind": "listen",
         "prompt": "听句子，选择意思。",
         "instruction": "选择最符合语境的意思。",
-        "answer": "我们今晚确认计划吧。",
+        "answer": "我们打算在图书馆外碰面。",
         "options": [
-          "我们今晚确认计划吧。",
+          "我们打算在图书馆外碰面。",
           "你周五有空吃晚饭吗？",
           "如果下雨，我打算取消野餐。",
           "谢谢你推荐那家新咖啡馆。"
         ],
-        "audio": "Let us confirm the plan tonight before dinner.",
-        "translation": "我们今晚确认计划吧，晚饭前。",
+        "audio": "We are going to meet outside the library.",
+        "translation": "我们打算在图书馆外碰面。",
         "grammarTags": [
           "future-plans"
         ],
@@ -31959,7 +31959,7 @@
       {
         "id": "a2-u5-l1-q8",
         "kind": "choice",
-        "prompt": "A small leak damaged the cupboard during the afternoon.",
+        "prompt": "A small leak damaged the cupboard.",
         "instruction": "选择最符合语境的意思。",
         "answer": "小漏水损坏了橱柜。",
         "options": [
@@ -31968,8 +31968,8 @@
           "房东答应派水管工来。",
           "租金包含水费和网络。"
         ],
-        "audio": "A small leak damaged the cupboard during the afternoon.",
-        "translation": "小漏水损坏了橱柜，在下午。",
+        "audio": "A small leak damaged the cupboard.",
+        "translation": "小漏水损坏了橱柜。",
         "grammarTags": [
           "present-perfect"
         ],
@@ -31982,15 +31982,15 @@
         "kind": "listen",
         "prompt": "听句子，选择意思。",
         "instruction": "选择最符合语境的意思。",
-        "answer": "我们的租金一月份涨了。",
+        "answer": "我已经把漏水的事告诉了房东。",
         "options": [
-          "我们的租金一月份涨了。",
+          "我已经把漏水的事告诉了房东。",
           "厨房水龙头从昨天起一直漏水。",
           "房东答应派水管工来。",
           "租金包含水费和网络。"
         ],
-        "audio": "Our rent went up in January before dinner.",
-        "translation": "我们的租金一月份涨了，晚饭前。",
+        "audio": "I have told the landlord about the leak.",
+        "translation": "我已经把漏水的事告诉了房东。",
         "grammarTags": [
           "present-perfect"
         ],
@@ -32492,15 +32492,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "你今晚应该复习包装。，晚饭后。",
+        "answer": "你今晚应该复习包装。",
         "options": [
           "你今晚应该复习回收。",
           "你今晚应该复习填埋场。",
           "你今晚应该复习填埋场。，会议期间。",
-          "你今晚应该复习包装。，晚饭后。"
+          "你今晚应该复习包装。"
         ],
         "audio": "You should review the packaging tonight. after dinner.",
-        "translation": "你今晚应该复习包装。，晚饭后。",
+        "translation": "你今晚应该复习包装。",
         "id": "a2-u50-l1-q9",
         "lessonId": "a2-u50-l1",
         "levelId": "a2",
@@ -34187,15 +34187,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "电话响时我们正在讨论骑车人。，本月。",
+        "answer": "电话响时我们正在讨论骑车人。",
         "options": [
           "电话响时我们正在讨论绕路。",
           "电话响时我们正在讨论交通堵塞。",
           "电话响时我们正在讨论交通堵塞。，晚饭后。",
-          "电话响时我们正在讨论骑车人。，本月。"
+          "电话响时我们正在讨论骑车人。"
         ],
         "audio": "We were discussing the cyclist when the phone rang. this month.",
-        "translation": "电话响时我们正在讨论骑车人。，本月。",
+        "translation": "电话响时我们正在讨论骑车人。",
         "id": "a2-u53-l1-q9",
         "lessonId": "a2-u53-l1",
         "levelId": "a2",
@@ -37930,7 +37930,7 @@
       {
         "id": "a2-u6-l1-q8",
         "kind": "choice",
-        "prompt": "Please keep your luggage with you during the afternoon.",
+        "prompt": "Please keep your luggage with you.",
         "instruction": "选择最符合语境的意思。",
         "answer": "请随身保管行李。",
         "options": [
@@ -37939,8 +37939,8 @@
           "我们在四号站台等了一个小时。",
           "我把行李落在机场巴士上了。"
         ],
-        "audio": "Please keep your luggage with you during the afternoon.",
-        "translation": "请随身保管行李，在下午。",
+        "audio": "Please keep your luggage with you.",
+        "translation": "请随身保管行李。",
         "grammarTags": [
           "past-simple"
         ],
@@ -37960,8 +37960,8 @@
           "我们在四号站台等了一个小时。",
           "我把行李落在机场巴士上了。"
         ],
-        "audio": "We checked the timetable before leaving before dinner.",
-        "translation": "我们出发前查了时刻表，晚饭前。",
+        "audio": "We checked the timetable before leaving.",
+        "translation": "我们出发前查了时刻表。",
         "grammarTags": [
           "past-simple"
         ],
@@ -39595,15 +39595,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "我们打算明天讨论配送。，晚饭后。",
+        "answer": "我们打算明天讨论配送。",
         "options": [
           "我们打算明天讨论电工。",
           "我们打算明天讨论五金用品。",
           "我们打算明天讨论五金用品。，会议期间。",
-          "我们打算明天讨论配送。，晚饭后。"
+          "我们打算明天讨论配送。"
         ],
         "audio": "We are going to discuss the delivery tomorrow. after dinner.",
-        "translation": "我们打算明天讨论配送。，晚饭后。",
+        "translation": "我们打算明天讨论配送。",
         "id": "a2-u62-l1-q9",
         "lessonId": "a2-u62-l1",
         "levelId": "a2",
@@ -41293,15 +41293,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "我们打算明天讨论演讲者。，本月。",
+        "answer": "我们打算明天讨论演讲者。",
         "options": [
           "我们打算明天讨论场地。",
           "我们打算明天讨论报名。",
           "我们打算明天讨论报名。，晚饭后。",
-          "我们打算明天讨论演讲者。，本月。"
+          "我们打算明天讨论演讲者。"
         ],
         "audio": "We are going to discuss the speaker tomorrow. this month.",
-        "translation": "我们打算明天讨论演讲者。，本月。",
+        "translation": "我们打算明天讨论演讲者。",
         "id": "a2-u65-l1-q9",
         "lessonId": "a2-u65-l1",
         "levelId": "a2",
@@ -43908,7 +43908,7 @@
       {
         "id": "a2-u7-l1-q8",
         "kind": "choice",
-        "prompt": "Never share your password by text message during the afternoon.",
+        "prompt": "Never share your password by text message.",
         "instruction": "选择最符合语境的意思。",
         "answer": "不要通过短信分享密码。",
         "options": [
@@ -43917,8 +43917,8 @@
           "学习时请关闭通知。",
           "你可以在飞行前下载课程。"
         ],
-        "audio": "Never share your password by text message during the afternoon.",
-        "translation": "不要通过短信分享密码，在下午。",
+        "audio": "Never share your password by text message.",
+        "translation": "不要通过短信分享密码。",
         "grammarTags": [
           "imperatives"
         ],
@@ -43931,15 +43931,15 @@
         "kind": "listen",
         "prompt": "听句子，选择意思。",
         "instruction": "选择最符合语境的意思。",
-        "answer": "今天检查通知设置。",
+        "answer": "不要从陌生网站下载文件。",
         "options": [
-          "今天检查通知设置。",
+          "不要从陌生网站下载文件。",
           "收到奇怪消息后我改了密码。",
           "学习时请关闭通知。",
           "你可以在飞行前下载课程。"
         ],
-        "audio": "Check the notification settings today before dinner.",
-        "translation": "今天检查通知设置，晚饭前。",
+        "audio": "Do not download files from unknown sites.",
+        "translation": "不要从陌生网站下载文件。",
         "grammarTags": [
           "imperatives"
         ],
@@ -45930,7 +45930,7 @@
       {
         "id": "a2-u8-l1-q8",
         "kind": "choice",
-        "prompt": "We took photos near the museum entrance during the afternoon.",
+        "prompt": "We took photos near the museum entrance.",
         "instruction": "选择最符合语境的意思。",
         "answer": "我们在博物馆入口附近拍了照。",
         "options": [
@@ -45939,8 +45939,8 @@
           "我非常推荐徒步游览。",
           "她从这次经历中学到了很多。"
         ],
-        "audio": "We took photos near the museum entrance during the afternoon.",
-        "translation": "我们在博物馆入口附近拍了照，在下午。",
+        "audio": "We took photos near the museum entrance.",
+        "translation": "我们在博物馆入口附近拍了照。",
         "grammarTags": [
           "past-simple"
         ],
@@ -45960,8 +45960,8 @@
           "我非常推荐徒步游览。",
           "她从这次经历中学到了很多。"
         ],
-        "audio": "He recommended booking tickets online before dinner.",
-        "translation": "他建议在线订票，晚饭前。",
+        "audio": "He recommended booking tickets online.",
+        "translation": "他建议在线订票。",
         "grammarTags": [
           "past-simple"
         ],
@@ -46258,7 +46258,7 @@
       {
         "id": "a2-u9-l1-q8",
         "kind": "choice",
-        "prompt": "Our semester ends in June during the afternoon.",
+        "prompt": "Our semester ends in June.",
         "instruction": "选择最符合语境的意思。",
         "answer": "我们的学期六月结束。",
         "options": [
@@ -46267,8 +46267,8 @@
           "图书馆一直开放到午夜。",
           "有这些噪音我无法集中注意力。"
         ],
-        "audio": "Our semester ends in June during the afternoon.",
-        "translation": "我们的学期六月结束，在下午。",
+        "audio": "Our semester ends in June.",
+        "translation": "我们的学期六月结束。",
         "grammarTags": [
           "present-continuous"
         ],
@@ -46281,15 +46281,15 @@
         "kind": "listen",
         "prompt": "听句子，选择意思。",
         "instruction": "选择最符合语境的意思。",
-        "answer": "我昨天制定了学习计划。",
+        "answer": "学生们现在正在图书馆学习。",
         "options": [
-          "我昨天制定了学习计划。",
+          "学生们现在正在图书馆学习。",
           "我正在为期末考试复习。",
           "图书馆一直开放到午夜。",
           "有这些噪音我无法集中注意力。"
         ],
-        "audio": "I made a study plan yesterday before dinner.",
-        "translation": "我昨天制定了学习计划，晚饭前。",
+        "audio": "The students are studying in the library now.",
+        "translation": "学生们现在正在图书馆学习。",
         "grammarTags": [
           "present-continuous"
         ],
@@ -58008,15 +58008,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "如果我们检查和解，就能避免延误。，晚饭后。",
+        "answer": "如果我们检查和解，就能避免延误。",
         "options": [
           "如果我们检查讨价还价，就能避免延误。",
           "如果我们检查条款，就能避免延误。",
           "如果我们检查条款，就能避免延误。，会议期间。",
-          "如果我们检查和解，就能避免延误。，晚饭后。"
+          "如果我们检查和解，就能避免延误。"
         ],
         "audio": "If we check the settlement, we can avoid a delay. after dinner.",
-        "translation": "如果我们检查和解，就能避免延误。，晚饭后。",
+        "translation": "如果我们检查和解，就能避免延误。",
         "id": "b1-u38-l1-q9",
         "lessonId": "b1-u38-l1",
         "levelId": "b1",
@@ -60066,15 +60066,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "不过，核心要点仍然需要审阅。，本月。",
+        "answer": "不过，核心要点仍然需要审阅。",
         "options": [
           "不过，叙事线仍然需要审阅。",
           "不过，视觉材料仍然需要审阅。",
           "不过，视觉材料仍然需要审阅。，晚饭后。",
-          "不过，核心要点仍然需要审阅。，本月。"
+          "不过，核心要点仍然需要审阅。"
         ],
         "audio": "However, the takeaway still needs review. this month.",
-        "translation": "不过，核心要点仍然需要审阅。，本月。",
+        "translation": "不过，核心要点仍然需要审阅。",
         "id": "b1-u41-l1-q9",
         "lessonId": "b1-u41-l1",
         "levelId": "b1",
@@ -65520,15 +65520,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "事实核查在会议前被审阅了。，晚饭后。",
+        "answer": "事实核查在会议前被审阅了。",
         "options": [
           "错误信息在会议前被审阅了。",
           "社论在会议前被审阅了。",
           "社论在会议前被审阅了。，会议期间。",
-          "事实核查在会议前被审阅了。，晚饭后。"
+          "事实核查在会议前被审阅了。"
         ],
         "audio": "The factcheck was reviewed before the meeting. after dinner.",
-        "translation": "事实核查在会议前被审阅了。，晚饭后。",
+        "translation": "事实核查在会议前被审阅了。",
         "id": "b1-u50-l1-q9",
         "lessonId": "b1-u50-l1",
         "levelId": "b1",
@@ -67210,15 +67210,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "我们已经审阅过回滚了。，本月。",
+        "answer": "我们已经审阅过回滚了。",
         "options": [
           "我们已经审阅过代码仓库了。",
           "我们已经审阅过版本管理了。",
           "我们已经审阅过版本管理了。，晚饭后。",
-          "我们已经审阅过回滚了。，本月。"
+          "我们已经审阅过回滚了。"
         ],
         "audio": "We have already reviewed the rollback. this month.",
-        "translation": "我们已经审阅过回滚了。，本月。",
+        "translation": "我们已经审阅过回滚了。",
         "id": "b1-u53-l1-q9",
         "lessonId": "b1-u53-l1",
         "levelId": "b1",
@@ -72659,15 +72659,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "我们已经审阅过货运了。，晚饭后。",
+        "answer": "我们已经审阅过货运了。",
         "options": [
           "我们已经审阅过库存了。",
           "我们已经审阅过供应商了。",
           "我们已经审阅过供应商了。，会议期间。",
-          "我们已经审阅过货运了。，晚饭后。"
+          "我们已经审阅过货运了。"
         ],
         "audio": "We have already reviewed the shipment. after dinner.",
-        "translation": "我们已经审阅过货运了。，晚饭后。",
+        "translation": "我们已经审阅过货运了。",
         "id": "b1-u62-l1-q9",
         "lessonId": "b1-u62-l1",
         "levelId": "b1",
@@ -74357,15 +74357,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "预测比旧的更有用。，本月。",
+        "answer": "预测比旧的更有用。",
         "options": [
           "货币比旧的更有用。",
           "通货紧缩比旧的更有用。",
           "通货紧缩比旧的更有用。，晚饭后。",
-          "预测比旧的更有用。，本月。"
+          "预测比旧的更有用。"
         ],
         "audio": "The forecasting is more useful than the old one. this month.",
-        "translation": "预测比旧的更有用。，本月。",
+        "translation": "预测比旧的更有用。",
         "id": "b1-u65-l1-q9",
         "lessonId": "b1-u65-l1",
         "levelId": "b1",
@@ -87748,15 +87748,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "我们在车站需要讨论困境。，晚饭后。",
+        "answer": "我们在车站需要讨论困境。",
         "options": [
           "我们今天早上需要讨论自主权。",
           "我们预约前需要讨论尊严。",
           "我们预约前需要讨论尊严。，会议期间。",
-          "我们在车站需要讨论困境。，晚饭后。"
+          "我们在车站需要讨论困境。"
         ],
         "audio": "We need to discuss the dilemma at the station. after dinner.",
-        "translation": "我们在车站需要讨论困境。，晚饭后。",
+        "translation": "我们在车站需要讨论困境。",
         "id": "b2-u26-l1-q9",
         "lessonId": "b2-u26-l1",
         "levelId": "b2",
@@ -89441,15 +89441,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "这个选项截止日期前很监管的。，本月。",
+        "answer": "这个选项截止日期前很监管的。",
         "options": [
           "我们预约前需要讨论治理。",
           "我们在车站需要deploy这个计划。",
           "我们在车站需要deploy这个计划。，晚饭后。",
-          "这个选项截止日期前很监管的。，本月。"
+          "这个选项截止日期前很监管的。"
         ],
         "audio": "The option is regulatory before the deadline. this month.",
-        "translation": "这个选项截止日期前很监管的。，本月。",
+        "translation": "这个选项截止日期前很监管的。",
         "id": "b2-u29-l1-q9",
         "lessonId": "b2-u29-l1",
         "levelId": "b2",
@@ -94775,15 +94775,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "如果我们检查减缓，就能避免延误。，晚饭后。",
+        "answer": "如果我们检查减缓，就能避免延误。",
         "options": [
           "如果我们检查碳定价，就能避免延误。",
           "如果我们检查净零，就能避免延误。",
           "如果我们检查净零，就能避免延误。，会议期间。",
-          "如果我们检查减缓，就能避免延误。，晚饭后。"
+          "如果我们检查减缓，就能避免延误。"
         ],
         "audio": "If we check the mitigation, we can avoid a delay. after dinner.",
-        "translation": "如果我们检查减缓，就能避免延误。，晚饭后。",
+        "translation": "如果我们检查减缓，就能避免延误。",
         "id": "b2-u38-l1-q9",
         "lessonId": "b2-u38-l1",
         "levelId": "b2",
@@ -96714,15 +96714,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "再分配比旧的更有用。，本月。",
+        "answer": "再分配比旧的更有用。",
         "options": [
           "流动性比旧的更有用。",
           "紧缩比旧的更有用。",
           "紧缩比旧的更有用。，晚饭后。",
-          "再分配比旧的更有用。，本月。"
+          "再分配比旧的更有用。"
         ],
         "audio": "The redistribution is more useful than the old one. this month.",
-        "translation": "再分配比旧的更有用。，本月。",
+        "translation": "再分配比旧的更有用。",
         "id": "b2-u41-l1-q9",
         "lessonId": "b2-u41-l1",
         "levelId": "b2",
@@ -102041,15 +102041,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "我们讨论过的可执行性已经准备好了。，晚饭后。",
+        "answer": "我们讨论过的可执行性已经准备好了。",
         "options": [
           "我们讨论过的赔偿保证已经准备好了。",
           "我们讨论过的仲裁已经准备好了。",
           "我们讨论过的仲裁已经准备好了。，会议期间。",
-          "我们讨论过的可执行性已经准备好了。，晚饭后。"
+          "我们讨论过的可执行性已经准备好了。"
         ],
         "audio": "The enforceability that we discussed is ready. after dinner.",
-        "translation": "我们讨论过的可执行性已经准备好了。，晚饭后。",
+        "translation": "我们讨论过的可执行性已经准备好了。",
         "id": "b2-u50-l1-q9",
         "lessonId": "b2-u50-l1",
         "levelId": "b2",
@@ -103736,15 +103736,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "容量在会议前被审阅了。，本月。",
+        "answer": "容量在会议前被审阅了。",
         "options": [
           "储能在会议前被审阅了。",
           "间歇性在会议前被审阅了。",
           "间歇性在会议前被审阅了。，晚饭后。",
-          "容量在会议前被审阅了。，本月。"
+          "容量在会议前被审阅了。"
         ],
         "audio": "The capacity was reviewed before the meeting. this month.",
-        "translation": "容量在会议前被审阅了。，本月。",
+        "translation": "容量在会议前被审阅了。",
         "id": "b2-u53-l1-q9",
         "lessonId": "b2-u53-l1",
         "levelId": "b2",
@@ -109064,15 +109064,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "禁运比旧的更有用。，晚饭后。",
+        "answer": "禁运比旧的更有用。",
         "options": [
           "关税比旧的更有用。",
           "配额比旧的更有用。",
           "配额比旧的更有用。，会议期间。",
-          "禁运比旧的更有用。，晚饭后。"
+          "禁运比旧的更有用。"
         ],
         "audio": "The embargo is more useful than the old one. after dinner.",
-        "translation": "禁运比旧的更有用。，晚饭后。",
+        "translation": "禁运比旧的更有用。",
         "id": "b2-u62-l1-q9",
         "lessonId": "b2-u62-l1",
         "levelId": "b2",
@@ -110760,15 +110760,15 @@
         "kind": "listen",
         "prompt": "听句子，选择你听到的意思。",
         "instruction": "先听完整句子，再选择意思。",
-        "answer": "知情同意在会议前被审阅了。，本月。",
+        "answer": "知情同意在会议前被审阅了。",
         "options": [
           "临床的在会议前被审阅了。",
           "试验在会议前被审阅了。",
           "试验在会议前被审阅了。，晚饭后。",
-          "知情同意在会议前被审阅了。，本月。"
+          "知情同意在会议前被审阅了。"
         ],
         "audio": "The informedconsent was reviewed before the meeting. this month.",
-        "translation": "知情同意在会议前被审阅了。，本月。",
+        "translation": "知情同意在会议前被审阅了。",
         "id": "b2-u65-l1-q9",
         "lessonId": "b2-u65-l1",
         "levelId": "b2",

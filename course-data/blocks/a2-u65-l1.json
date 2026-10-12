@@ -427,15 +427,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "我们打算明天讨论演讲者。，本月。",
+      "answer": "我们打算明天讨论演讲者。",
       "options": [
         "我们打算明天讨论场地。",
         "我们打算明天讨论报名。",
         "我们打算明天讨论报名。，晚饭后。",
-        "我们打算明天讨论演讲者。，本月。"
+        "我们打算明天讨论演讲者。"
       ],
       "audio": "We are going to discuss the speaker tomorrow. this month.",
-      "translation": "我们打算明天讨论演讲者。，本月。",
+      "translation": "我们打算明天讨论演讲者。",
       "id": "a2-u65-l1-q9",
       "lessonId": "a2-u65-l1",
       "levelId": "a2",

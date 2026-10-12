@@ -221,7 +221,7 @@
     {
       "id": "a2-u8-l1-q8",
       "kind": "choice",
-      "prompt": "We took photos near the museum entrance during the afternoon.",
+      "prompt": "We took photos near the museum entrance.",
       "instruction": "选择最符合语境的意思。",
       "answer": "我们在博物馆入口附近拍了照。",
       "options": [
@@ -230,8 +230,8 @@
         "我非常推荐徒步游览。",
         "她从这次经历中学到了很多。"
       ],
-      "audio": "We took photos near the museum entrance during the afternoon.",
-      "translation": "我们在博物馆入口附近拍了照，在下午。",
+      "audio": "We took photos near the museum entrance.",
+      "translation": "我们在博物馆入口附近拍了照。",
       "grammarTags": [
         "past-simple"
       ],
@@ -251,8 +251,8 @@
         "我非常推荐徒步游览。",
         "她从这次经历中学到了很多。"
       ],
-      "audio": "He recommended booking tickets online before dinner.",
-      "translation": "他建议在线订票，晚饭前。",
+      "audio": "He recommended booking tickets online.",
+      "translation": "他建议在线订票。",
       "grammarTags": [
         "past-simple"
       ],

@@ -220,7 +220,7 @@
     {
       "id": "a2-u5-l1-q8",
       "kind": "choice",
-      "prompt": "A small leak damaged the cupboard during the afternoon.",
+      "prompt": "A small leak damaged the cupboard.",
       "instruction": "选择最符合语境的意思。",
       "answer": "小漏水损坏了橱柜。",
       "options": [
@@ -229,8 +229,8 @@
         "房东答应派水管工来。",
         "租金包含水费和网络。"
       ],
-      "audio": "A small leak damaged the cupboard during the afternoon.",
-      "translation": "小漏水损坏了橱柜，在下午。",
+      "audio": "A small leak damaged the cupboard.",
+      "translation": "小漏水损坏了橱柜。",
       "grammarTags": [
         "present-perfect"
       ],
@@ -243,15 +243,15 @@
       "kind": "listen",
       "prompt": "听句子，选择意思。",
       "instruction": "选择最符合语境的意思。",
-      "answer": "我们的租金一月份涨了。",
+      "answer": "我已经把漏水的事告诉了房东。",
       "options": [
-        "我们的租金一月份涨了。",
+        "我已经把漏水的事告诉了房东。",
         "厨房水龙头从昨天起一直漏水。",
         "房东答应派水管工来。",
         "租金包含水费和网络。"
       ],
-      "audio": "Our rent went up in January before dinner.",
-      "translation": "我们的租金一月份涨了，晚饭前。",
+      "audio": "I have told the landlord about the leak.",
+      "translation": "我已经把漏水的事告诉了房东。",
       "grammarTags": [
         "present-perfect"
       ],

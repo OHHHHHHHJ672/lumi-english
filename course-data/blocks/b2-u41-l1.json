@@ -428,15 +428,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "再分配比旧的更有用。，本月。",
+      "answer": "再分配比旧的更有用。",
       "options": [
         "流动性比旧的更有用。",
         "紧缩比旧的更有用。",
         "紧缩比旧的更有用。，晚饭后。",
-        "再分配比旧的更有用。，本月。"
+        "再分配比旧的更有用。"
       ],
       "audio": "The redistribution is more useful than the old one. this month.",
-      "translation": "再分配比旧的更有用。，本月。",
+      "translation": "再分配比旧的更有用。",
       "id": "b2-u41-l1-q9",
       "lessonId": "b2-u41-l1",
       "levelId": "b2",

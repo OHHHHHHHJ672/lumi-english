@@ -425,15 +425,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "我们已经审阅过货运了。，晚饭后。",
+      "answer": "我们已经审阅过货运了。",
       "options": [
         "我们已经审阅过库存了。",
         "我们已经审阅过供应商了。",
         "我们已经审阅过供应商了。，会议期间。",
-        "我们已经审阅过货运了。，晚饭后。"
+        "我们已经审阅过货运了。"
       ],
       "audio": "We have already reviewed the shipment. after dinner.",
-      "translation": "我们已经审阅过货运了。，晚饭后。",
+      "translation": "我们已经审阅过货运了。",
       "id": "b1-u62-l1-q9",
       "lessonId": "b1-u62-l1",
       "levelId": "b1",

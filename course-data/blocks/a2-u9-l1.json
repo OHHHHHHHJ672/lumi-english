@@ -220,7 +220,7 @@
     {
       "id": "a2-u9-l1-q8",
       "kind": "choice",
-      "prompt": "Our semester ends in June during the afternoon.",
+      "prompt": "Our semester ends in June.",
       "instruction": "选择最符合语境的意思。",
       "answer": "我们的学期六月结束。",
       "options": [
@@ -229,8 +229,8 @@
         "图书馆一直开放到午夜。",
         "有这些噪音我无法集中注意力。"
       ],
-      "audio": "Our semester ends in June during the afternoon.",
-      "translation": "我们的学期六月结束，在下午。",
+      "audio": "Our semester ends in June.",
+      "translation": "我们的学期六月结束。",
       "grammarTags": [
         "present-continuous"
       ],
@@ -243,15 +243,15 @@
       "kind": "listen",
       "prompt": "听句子，选择意思。",
       "instruction": "选择最符合语境的意思。",
-      "answer": "我昨天制定了学习计划。",
+      "answer": "学生们现在正在图书馆学习。",
       "options": [
-        "我昨天制定了学习计划。",
+        "学生们现在正在图书馆学习。",
         "我正在为期末考试复习。",
         "图书馆一直开放到午夜。",
         "有这些噪音我无法集中注意力。"
       ],
-      "audio": "I made a study plan yesterday before dinner.",
-      "translation": "我昨天制定了学习计划，晚饭前。",
+      "audio": "The students are studying in the library now.",
+      "translation": "学生们现在正在图书馆学习。",
       "grammarTags": [
         "present-continuous"
       ],

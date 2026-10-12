@@ -426,15 +426,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "容量在会议前被审阅了。，本月。",
+      "answer": "容量在会议前被审阅了。",
       "options": [
         "储能在会议前被审阅了。",
         "间歇性在会议前被审阅了。",
         "间歇性在会议前被审阅了。，晚饭后。",
-        "容量在会议前被审阅了。，本月。"
+        "容量在会议前被审阅了。"
       ],
       "audio": "The capacity was reviewed before the meeting. this month.",
-      "translation": "容量在会议前被审阅了。，本月。",
+      "translation": "容量在会议前被审阅了。",
       "id": "b2-u53-l1-q9",
       "lessonId": "b2-u53-l1",
       "levelId": "b2",

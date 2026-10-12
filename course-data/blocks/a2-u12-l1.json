@@ -219,7 +219,7 @@
     {
       "id": "a2-u12-l1-q8",
       "kind": "choice",
-      "prompt": "We cannot afford a bigger car yet during the afternoon.",
+      "prompt": "We cannot afford a bigger car yet.",
       "instruction": "选择最符合语境的意思。",
       "answer": "我们还负担不起更大的车。",
       "options": [
@@ -228,8 +228,8 @@
         "房租是我们每月最大的支出。",
         "我们负担得起这门课程吗？"
       ],
-      "audio": "We cannot afford a bigger car yet during the afternoon.",
-      "translation": "我们还负担不起更大的车，在下午。",
+      "audio": "We cannot afford a bigger car yet.",
+      "translation": "我们还负担不起更大的车。",
       "grammarTags": [
         "comparatives"
       ],
@@ -249,8 +249,8 @@
         "房租是我们每月最大的支出。",
         "我们负担得起这门课程吗？"
       ],
-      "audio": "The electricity bill was higher this month before dinner.",
-      "translation": "这个月电费更高，晚饭前。",
+      "audio": "The electricity bill was higher this month.",
+      "translation": "这个月电费更高。",
       "grammarTags": [
         "comparatives"
       ],

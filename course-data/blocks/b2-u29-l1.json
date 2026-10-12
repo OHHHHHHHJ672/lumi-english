@@ -426,15 +426,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "这个选项截止日期前很监管的。，本月。",
+      "answer": "这个选项截止日期前很监管的。",
       "options": [
         "我们预约前需要讨论治理。",
         "我们在车站需要deploy这个计划。",
         "我们在车站需要deploy这个计划。，晚饭后。",
-        "这个选项截止日期前很监管的。，本月。"
+        "这个选项截止日期前很监管的。"
       ],
       "audio": "The option is regulatory before the deadline. this month.",
-      "translation": "这个选项截止日期前很监管的。，本月。",
+      "translation": "这个选项截止日期前很监管的。",
       "id": "b2-u29-l1-q9",
       "lessonId": "b2-u29-l1",
       "levelId": "b2",

@@ -244,15 +244,15 @@
       "kind": "listen",
       "prompt": "听句子，选择意思。",
       "instruction": "选择最符合语境的意思。",
-      "answer": "发送前请附上文件。",
+      "answer": "我还没有看经理发来的消息。",
       "options": [
-        "发送前请附上文件。",
+        "我还没有看经理发来的消息。",
         "我已经附上更新后的文件。",
         "请在回复中附上发票。",
         "你能把这条消息转发给蒂娜吗？"
       ],
-      "audio": "Please attach the file before sending before dinner.",
-      "translation": "发送前请附上文件，晚饭前。",
+      "audio": "I have not read the message from the manager.",
+      "translation": "我还没有看经理发来的消息。",
       "grammarTags": [
         "present-perfect"
       ],

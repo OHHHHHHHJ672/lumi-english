@@ -222,7 +222,7 @@
     {
       "id": "a2-u6-l1-q8",
       "kind": "choice",
-      "prompt": "Please keep your luggage with you during the afternoon.",
+      "prompt": "Please keep your luggage with you.",
       "instruction": "选择最符合语境的意思。",
       "answer": "请随身保管行李。",
       "options": [
@@ -231,8 +231,8 @@
         "我们在四号站台等了一个小时。",
         "我把行李落在机场巴士上了。"
       ],
-      "audio": "Please keep your luggage with you during the afternoon.",
-      "translation": "请随身保管行李，在下午。",
+      "audio": "Please keep your luggage with you.",
+      "translation": "请随身保管行李。",
       "grammarTags": [
         "past-simple"
       ],
@@ -252,8 +252,8 @@
         "我们在四号站台等了一个小时。",
         "我把行李落在机场巴士上了。"
       ],
-      "audio": "We checked the timetable before leaving before dinner.",
-      "translation": "我们出发前查了时刻表，晚饭前。",
+      "audio": "We checked the timetable before leaving.",
+      "translation": "我们出发前查了时刻表。",
       "grammarTags": [
         "past-simple"
       ],

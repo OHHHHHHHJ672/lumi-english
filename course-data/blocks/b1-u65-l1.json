@@ -428,15 +428,15 @@
       "kind": "listen",
       "prompt": "听句子，选择你听到的意思。",
       "instruction": "先听完整句子，再选择意思。",
-      "answer": "预测比旧的更有用。，本月。",
+      "answer": "预测比旧的更有用。",
       "options": [
         "货币比旧的更有用。",
         "通货紧缩比旧的更有用。",
         "通货紧缩比旧的更有用。，晚饭后。",
-        "预测比旧的更有用。，本月。"
+        "预测比旧的更有用。"
       ],
       "audio": "The forecasting is more useful than the old one. this month.",
-      "translation": "预测比旧的更有用。，本月。",
+      "translation": "预测比旧的更有用。",
       "id": "b1-u65-l1-q9",
       "lessonId": "b1-u65-l1",
       "levelId": "b1",
