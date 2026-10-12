@@ -10,9 +10,14 @@
   let pausedQueue = null;
   let speechEnabled = true;
   let soundEnabled = true;
+  // Kept flat in the assets root on purpose. aapt2 link -A on Windows writes
+  // nested asset paths into the APK with a literal backslash (the entries came
+  // out as assets/audio\click.ogg), so a WebView asking for audio/click.ogg
+  // always missed and the fallback was dead code. Top-level entries are not
+  // affected, so these live at the root instead of in a subfolder.
   const sounds = {
-    click: 'audio/click.ogg', correct: 'audio/correct.ogg', wrong: 'audio/wrong.ogg',
-    combo: 'audio/combo.ogg', complete: 'audio/complete.ogg', reward: 'audio/reward.ogg'
+    click: 'sfx-click.ogg', correct: 'sfx-correct.ogg', wrong: 'sfx-wrong.ogg',
+    combo: 'sfx-combo.ogg', complete: 'sfx-complete.ogg', reward: 'sfx-reward.ogg'
   };
   const audioCache = {};
   let nextId = 1;
