@@ -22,7 +22,15 @@ function nextLesson(){return catalog.lessonList.find(l=>!state.completed.include
 function currentQ(){return catalog.questionBank[state.session.qids[state.session.index]];}
 function isUnlocked(id){const lesson=lessonById(id);if(!lesson)return false;if(state.completed.includes(id)||(state.skippedLessons||[]).includes(id))return true;const i=catalog.lessonList.findIndex(l=>l.id===id);if(i<=0)return true;const previous=catalog.lessonList[i-1];if(previous&&previous.levelId!==lesson.levelId){return (state.currentLevel||'a1')===lesson.levelId||LumiModel.checkpointPassed&&LumiModel.checkpointPassed(state,`${previous.sectionId||previous.levelId}-checkpoint`); }return state.completed.includes(previous.id)||(state.skippedLessons||[]).includes(previous.id);}
 function go(screen){if(typeof clearAutoAdvance==='function')clearAutoAdvance();if(state.session&&!state.session.finished&&screen!=='lesson'){openModal('要离开这一关吗？','本关进度会保留在本机，但还没有结算奖励。你可以稍后从路线图重新开始。','继续学习','离开',()=>{state.session=null;activeLesson=null;document.body.classList.remove('playing');state.screen=screen;save();render();});return;}state.screen=screen;save();render();}
-function render(){updateTop();document.querySelectorAll('.nav-item').forEach(n=>{const active=n.dataset.screen===state.screen;n.classList.toggle('active',active);n.setAttribute('aria-current',active?'page':'false');});const controller=window.LumiInteractionController;if(controller){if(state.screen==='lesson'&&controller.renderLesson)return controller.renderLesson();if(state.screen==='practice'&&controller.renderPractice)return controller.renderPractice();if(state.screen==='profile'&&controller.renderProfile)return controller.renderProfile();if(state.screen!=='lesson'&&state.screen!=='practice'&&state.screen!=='profile'&&controller.renderHome)return controller.renderHome();}if(state.screen==='lesson')renderLesson();else if(state.screen==='practice')renderPractice();else if(state.screen==='profile')renderProfile();else renderHome();}
+// The daily roll-over used to live only inside start/answer/finish/claim, so an
+// app left open across midnight kept rendering yesterday's totals: the goal card
+// showed the old XP, and the claim button could advertise a reward that claim()
+// then refused -- claim() rolls the day over before it checks the amount. Every
+// screen goes through render(), so this is the one place that has to apply it.
+// The write happens only when the date actually moved, so re-rendering a screen
+// does not add a localStorage hit each time.
+function rollOverDay(){const before=state.daily&&state.daily.date;LumiModel.refreshDaily(state);if(before!==state.daily.date)save();}
+function render(){rollOverDay();updateTop();document.querySelectorAll('.nav-item').forEach(n=>{const active=n.dataset.screen===state.screen;n.classList.toggle('active',active);n.setAttribute('aria-current',active?'page':'false');});const controller=window.LumiInteractionController;if(controller){if(state.screen==='lesson'&&controller.renderLesson)return controller.renderLesson();if(state.screen==='practice'&&controller.renderPractice)return controller.renderPractice();if(state.screen==='profile'&&controller.renderProfile)return controller.renderProfile();if(state.screen!=='lesson'&&state.screen!=='practice'&&state.screen!=='profile'&&controller.renderHome)return controller.renderHome();}if(state.screen==='lesson')renderLesson();else if(state.screen==='practice')renderPractice();else if(state.screen==='profile')renderProfile();else renderHome();}
 function startLesson(id,review=false){const l=lessonById(id);if(!l)return;if(!review&&!state.completed.includes(id)&&!isUnlocked(id)){toast('完成前一关，就能解锁这里啦');return;}const due=review&&LumiModel.dueReviews?LumiModel.dueReviews(state,Date.now(),6):[];let qids=review?[...new Set([...state.mistakes,...due])].slice(0,6):l.questions.map(q=>q.id);if(review&&!qids.length){toast('现在没有错题，先完成一关吧');return;}if(!LumiModel.start(state,id,qids,review)){toast('这组题目暂时不可用，请稍后再试');return;}activeLesson=l;activeReview=review;matchPick={left:null,right:null};state.screen='lesson';document.body.classList.add('playing');save();render();}
 function roadmapHtml(){
  const specs=catalog.levels&&catalog.levels.length?catalog.levels:[];
@@ -121,5 +129,9 @@ render();
   function tryBgm(){ if(state.bgm && typeof LumiAudio!=='undefined' && !LumiAudio.isBgmOn()){ LumiAudio.startBgm(); } document.removeEventListener('pointerdown',tryBgm); document.removeEventListener('keydown',tryBgm); }
   document.addEventListener('pointerdown',tryBgm); document.addEventListener('keydown',tryBgm);
 })();
+
+// Node only: the test loads app.js against a stub DOM to prove render() rolls
+// the calendar day over. The WebView has no `module`, so this never ships.
+if (typeof module !== 'undefined') module.exports = { render, get state(){ return state; } };
 
 
