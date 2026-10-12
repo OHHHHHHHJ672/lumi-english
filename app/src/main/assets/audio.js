@@ -10,21 +10,6 @@
   let pausedQueue = null;
   let speechEnabled = true;
   let soundEnabled = true;
-  // Local TTS audio manifest: text -> file id (loaded via tts-manifest.js script tag)
-  let ttsManifest = null;
-  function loadTtsManifest() {
-    if (ttsManifest) return;
-    const data = win.TTS_MANIFEST;
-    if (Array.isArray(data)) {
-      ttsManifest = new Map();
-      data.forEach(item => { if (item && item.text && item.id) ttsManifest.set(String(item.text).toLowerCase().trim(), item.id); });
-    }
-  }
-  function localTtsId(text) {
-    if (!ttsManifest) loadTtsManifest();
-    if (!ttsManifest) return null;
-    return ttsManifest.get(String(text).toLowerCase().trim()) || null;
-  }
   const sounds = {
     click: 'audio/click.ogg', correct: 'audio/correct.ogg', wrong: 'audio/wrong.ogg',
     combo: 'audio/combo.ogg', complete: 'audio/complete.ogg', reward: 'audio/reward.ogg'
@@ -63,24 +48,6 @@
     active = item;
     if (queue.onLine) queue.onLine(queue.index);
     const rate = Math.max(.5, Math.min(1.2, Number(queue.rate) || .9));
-    // Try local pre-generated TTS audio first
-    const localId = localTtsId(text);
-    if (localId && win && typeof win.Audio === 'function') {
-      try {
-        const a = new win.Audio(`audio/tts/${localId}.mp3`);
-        a.playbackRate = rate;
-        a.preload = 'auto';
-        a.onended = () => { if (active && active.id === id) finishCurrent({status:'completed'}); };
-        a.onerror = () => {
-          // Local file failed, fall back to TTS
-          if (active && active.id === id) { speakViaTts(text, rate, id, item); }
-        };
-        active.audioEl = a;
-        const p = a.play();
-        if (p && p.catch) p.catch(() => { if (active && active.id === id) speakViaTts(text, rate, id, item); });
-        return;
-      } catch (_) { /* fall through to TTS */ }
-    }
     speakViaTts(text, rate, id, item);
   }
   function speakViaTts(text, rate, id, item) {
@@ -112,7 +79,6 @@
   function speak(text, rate) { return playTurns([{text:String(text == null ? '' : text), speaker:'default'}], {rate:rate == null ? .9 : rate}); }
   function stop() {
     token += 1; paused = false; pausedQueue = null;
-    if (active && active.audioEl) { try { active.audioEl.pause(); active.audioEl.currentTime = 0; } catch (_) {} }
     const n = native(); if (n && typeof n.stopSpeech === 'function') { try { n.stopSpeech(); } catch (_) {} }
     if (browserSpeech()) { try { win.speechSynthesis.cancel(); } catch (_) {} }
     if (active) finishCurrent({status:'cancelled'});
@@ -121,14 +87,12 @@
   function pause() {
     if (paused) return;
     paused = true;
-    if (active && active.audioEl) { try { active.audioEl.pause(); } catch (_) {} return; }
-    if (browserSpeech() && win.speechSynthesis.pause) win.speechSynthesis.pause();
-    else if (active && native() && typeof native().stopSpeech === 'function') { pausedQueue = active.queue; try { native().stopSpeech(); } catch (_) {} active = null; }
+    if (browserSpeech() && win.speechSynthesis.pause) { win.speechSynthesis.pause(); return; }
+    if (active && native() && typeof native().stopSpeech === 'function') { pausedQueue = active.queue; try { native().stopSpeech(); } catch (_) {} active = null; }
   }
   function resume() {
     paused = false;
-    if (active && active.audioEl) { try { active.audioEl.play(); } catch (_) {} return; }
-    if (browserSpeech() && win.speechSynthesis.resume) win.speechSynthesis.resume();
+    if (browserSpeech() && win.speechSynthesis.resume) { win.speechSynthesis.resume(); return; }
     if (pausedQueue) { const q = pausedQueue; pausedQueue = null; speakNext(q); }
   }
   function sfx(name) {
@@ -158,8 +122,6 @@
   const api = { speak, playTurns, stop, pause, resume, sfx, setPreferences, isPaused:() => paused, nativeEvent, startBgm, stopBgm, isBgmOn };
   if (win && win.document && win.document.addEventListener) {
     win.document.addEventListener('visibilitychange', () => { if (win.document.hidden) stop(); });
-    if (win.document.readyState === 'complete' || win.document.readyState === 'interactive') { loadTtsManifest(); }
-    else { win.document.addEventListener('DOMContentLoaded', loadTtsManifest); }
   }
   return api;
 });
