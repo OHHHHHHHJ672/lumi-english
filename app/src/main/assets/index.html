@@ -82,7 +82,7 @@
     .icon-btn { width: 38px; height: 38px; border-radius: 13px; background: rgba(255,255,255,.82); color: var(--muted); font-size: 20px; display: grid; place-items: center; }
     .lesson-progress { flex: 1; height: 10px; border-radius: 99px; background: #e4e2f2; overflow: hidden; }
     .lesson-progress > div { height: 100%; background: linear-gradient(90deg, var(--mint), #90e9d1); border-radius: inherit; transition: width .35s ease; }
-    .energy-mini { font-size: 12px; font-weight: 900; color: #ed8066; white-space: nowrap; }
+    .points-mini { font-size: 12px; font-weight: 900; color: var(--purple); white-space: nowrap; }
     .question-card { padding: 21px 17px; background: white; border-radius: 26px; box-shadow: var(--shadow); margin-bottom: 16px; }
     .question-tag { display: inline-flex; align-items: center; gap: 6px; color: var(--purple); background: var(--lavender); padding: 6px 9px; border-radius: 9px; font-size: 11px; font-weight: 900; }
     .question-card h2 { margin: 17px 0 7px; font-size: 25px; line-height: 1.25; letter-spacing: -.5px; }
@@ -144,26 +144,24 @@
     .empty-state { padding: 40px 18px; text-align: center; color: var(--muted); }
     @media (min-width: 540px) { .app-shell { box-shadow: 0 0 44px rgba(39,43,98,.1); } }
   </style>
-<link rel="stylesheet" href="polish.css"></head>
+<link rel="stylesheet" href="polish.css"><link rel="stylesheet" href="daylight.css"><link rel="stylesheet" href="mascot.css"><link rel="stylesheet" href="ui-polish.css"><link rel="stylesheet" href="duo-reference.css"></head>
 <body>
 <div class="app-shell">
   <header class="topbar">
     <div class="brand">
-      <div class="brand-mark"><svg viewBox="0 0 48 48" fill="none"><path d="M24 8c-10 0-16 7-16 18s7 17 16 17 16-6 16-17S34 8 24 8Z" fill="#FFD36E"/><path d="m9 15-7-4 4 9M39 15l7-4-4 9" stroke="#52D7B4" stroke-width="4" stroke-linecap="round"/><circle cx="18" cy="24" r="3" fill="#20294B"/><circle cx="30" cy="24" r="3" fill="#20294B"/><path d="M19 31c3 3 7 3 10 0" stroke="#FF8E74" stroke-width="3" stroke-linecap="round"/></svg></div>
+      <div class="brand-mark"><svg viewBox="0 0 48 48" fill="none"><path d="M10 18 Q9 7 18 5 Q23 12 25 18 Z" fill="#f59e4f"/><path d="M13 16 Q13 9 18 8 Q21 12 22 16 Z" fill="#ffb3b3"/><path d="M38 18 Q39 7 30 5 Q25 12 23 18 Z" fill="#f59e4f"/><path d="M35 16 Q35 9 30 8 Q27 12 26 16 Z" fill="#ffb3b3"/><ellipse cx="24" cy="27" rx="17" ry="16" fill="#ffb870"/><ellipse cx="18" cy="25" rx="3.5" ry="4" fill="#2d3748"/><circle cx="17" cy="23.5" r="1.2" fill="white"/><ellipse cx="30" cy="25" rx="3.5" ry="4" fill="#2d3748"/><circle cx="29" cy="23.5" r="1.2" fill="white"/><path d="M22 30 Q24 28.5 26 30 Q24 32.5 22 30 Z" fill="#ff8fa3"/><path d="M24 31.5 L24 34 M24 34 Q21.5 36 20 34.5 M24 34 Q26.5 36 28 34.5" stroke="#c97b5a" stroke-width="1.2" stroke-linecap="round"/><path d="M10 28 L4 26 M10 31 L4 31 M38 28 L44 26 M38 31 L44 31" stroke="#c97b5a" stroke-width="1" stroke-linecap="round" opacity=".6"/><ellipse cx="13" cy="31" rx="2.5" ry="1.8" fill="rgba(255,143,163,.35)"/><ellipse cx="35" cy="31" rx="2.5" ry="1.8" fill="rgba(255,143,163,.35)"/></svg></div>
       <div><small>LUMI ENGLISH</small><span>英语冒险岛</span></div>
     </div>
-    <div class="stats"><div class="stat-pill"><span>🔥</span><b id="top-streak">3</b></div><div class="stat-pill"><span>⚡</span><b id="top-energy">20</b></div><div class="stat-pill"><span>✦</span><b id="top-gems">120</b></div></div>
+    <div class="stats"><div class="stat-pill"><svg viewBox="0 0 24 24" fill="none" stroke="#ff6b6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M12 2c1 3 4 4.5 4 8a4 4 0 0 1-8 0c0-1.5.5-2.5 1-3.5C10 8 11 7 12 2Z"/><path d="M10 14a2 2 0 0 0 2 2"/></svg><b id="top-streak">0</b></div><div class="stat-pill" title="Lumi 积分"><svg viewBox="0 0 24 24" fill="none" stroke="#6b62df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Z"/></svg><b id="top-points">0</b></div><div class="stat-pill" title="累计 XP"><svg viewBox="0 0 24 24" fill="none" stroke="#f3bf56" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.5 6.8 19.1l1-5.8L3.5 9.2l5.9-.9L12 3Z"/></svg><b id="top-xp">0</b></div></div>
   </header>
   <main id="main"></main>
-  <nav class="bottom-nav">
-    <button class="nav-item active" data-screen="home" onclick="go('home')"><span>⌂</span>学习</button>
-    <button class="nav-item" data-screen="practice" onclick="go('practice')"><span>◈</span>复习</button>
-    <button class="nav-item" data-screen="profile" onclick="go('profile')"><span>◎</span>我的</button>
+  <nav class="bottom-nav" aria-label="主导航">
+    <button type="button" class="nav-item active" data-screen="home" aria-current="page" onclick="go('home')"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m4 10 8-6 8 6v9a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1v-9Z"/></svg></span><span class="nav-label">学习舱</span></button>
+    <button type="button" class="nav-item" data-screen="practice" aria-current="false" onclick="go('practice')"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4H20v14H6.5A2.5 2.5 0 0 0 4 20.5v-14Z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20"/></svg></span><span class="nav-label">复习舱</span></button>
+    <button type="button" class="nav-item" data-screen="profile" aria-current="false" onclick="go('profile')"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c.7-3.5 3-5.5 7-5.5s6.3 2 7 5.5"/></svg></span><span class="nav-label">个人舱</span></button>
   </nav>
 </div>
 <div id="toast-wrap" class="toast-wrap"></div>
-<script src="course.js"></script><script src="model.js"></script><script src="app.js"></script><script src="interaction.js"></script>
+<script src="course-pack-2.js"></script><script src="authored-course.js"></script><script src="course.js"></script><script src="dialogue-data.js"></script><script src="grammar-guide.js"></script><script src="model.js"></script><script src="practice.js"></script><script src="audio/tts-manifest.js"></script><script src="audio.js"></script><script src="sound-synth.js"></script><script src="mascot.js"></script><script src="icons.js"></script><script src="app.js"></script><script src="interaction.js"></script>
 </body>
 </html>
-
-
