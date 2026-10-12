@@ -92,7 +92,7 @@ public class MainActivity extends Activity {
     }
     private void speakNow(PendingSpeech p) {
         if (!ready || tts == null) { pendingSpeech.add(p); return; }
-        if (voiceSecondary != null && p.speaker != null && (p.speaker.toLowerCase(Locale.US).contains("b") || p.speaker.toLowerCase(Locale.US).contains("alt") || p.speaker.toLowerCase(Locale.US).contains("female"))) tts.setVoice(voiceSecondary); else if (voicePrimary != null) tts.setVoice(voicePrimary);
+        if (voiceSecondary != null && "secondary".equals(p.speaker)) tts.setVoice(voiceSecondary); else if (voicePrimary != null) tts.setVoice(voicePrimary);
         tts.setSpeechRate(Math.max(.5f, Math.min(1.2f, p.rate)));
         int mode = ttsSpeaking ? TextToSpeech.QUEUE_ADD : TextToSpeech.QUEUE_FLUSH;
         if (tts.speak(p.text, mode, null, p.id) == TextToSpeech.ERROR) emitSpeech(p.id, "error", "TTS unavailable");

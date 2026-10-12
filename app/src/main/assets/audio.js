@@ -48,12 +48,12 @@
     active = item;
     if (queue.onLine) queue.onLine(queue.index);
     const rate = Math.max(.5, Math.min(1.2, Number(queue.rate) || .9));
-    speakViaTts(text, rate, id, item);
+    speakViaTts(text, rate, id, item, queue.voiceSlot ? queue.voiceSlot(turn.speaker) : 'primary');
   }
-  function speakViaTts(text, rate, id, item) {
+  function speakViaTts(text, rate, id, item, slot) {
     const n = native();
     if (n && typeof n.speakUtterance === 'function') {
-      try { n.speakUtterance(text, rate, 'default', id); } catch (e) { finishCurrent({status:'error', error:String(e.message || e)}); }
+      try { n.speakUtterance(text, rate, slot || 'primary', id); } catch (e) { finishCurrent({status:'error', error:String(e.message || e)}); }
       return;
     }
     if (browserSpeech()) {
@@ -66,10 +66,21 @@
     }
     finishCurrent({status:'error', error:'Speech unavailable'});
   }
+  // A two-character scene needs two distinct voices, otherwise both roles read
+  // as one person. Map each speaker in a playTurns() call to a stable slot by
+  // order of appearance: first speaker primary, second secondary, and so on.
+  function voiceSlotFor(turns) {
+    const slots = new Map();
+    turns.forEach(t => {
+      const name = String(t && t.speaker == null ? '' : t.speaker).toLowerCase().trim();
+      if (name && !slots.has(name)) slots.set(name, slots.size % 2 ? 'secondary' : 'primary');
+    });
+    return name => slots.get(String(name == null ? '' : name).toLowerCase().trim()) || 'primary';
+  }
   function playTurns(turns, options) {
     options = options || {};
     const list = Array.isArray(turns) ? turns.slice() : [];
-    const queue = { turns:list, index:0, rate:options.rate == null ? .9 : options.rate, onLine:options.onLine, onEnd:options.onEnd, onError:options.onError, token:++token, resolve:null };
+    const queue = { turns:list, index:0, rate:options.rate == null ? .9 : options.rate, onLine:options.onLine, onEnd:options.onEnd, onError:options.onError, token:++token, voiceSlot:voiceSlotFor(list), resolve:null };
     const promise = new Promise(resolve => { queue.resolve = resolve; });
     if (!list.length) { queue.resolve({status:'completed'}); if (queue.onEnd) queue.onEnd(); return promise; }
     if (paused) return promise;
