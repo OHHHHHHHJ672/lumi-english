@@ -34,6 +34,17 @@ function escapeInlineArgument(value) {
   return escapeGlossaryHtml(escaped);
 }
 
+// data-* attributes are HTML-decoded by the browser and then read straight off
+// `element.dataset` -- they never pass through the JavaScript parser, so the
+// backslash escapeInlineArgument puts in front of an apostrophe would survive
+// into the value and make it compare unequal to the authored string.
+// chooseAnswer's `button.dataset.option === value` and checkOrder's
+// `s.order.map(x => x.token).join(' ') === q.answer` both depend on the value
+// coming back byte-identical, which is why a single escaper cannot serve both
+// call sites: the inline handler needs `'` -> `\'` -> `&#39;`, the attribute
+// needs only `&#39;`.
+const escapeAttrValue = escapeGlossaryHtml;
+
 const commonTranslations = {
   the: '这/该', a: '一个', an: '一个', says: '说', it: '它', will: '将', be: '是', this: '这', that: '那',
   in: '在', on: '在……上', to: '到/向', of: '的', for: '为了', and: '和', or: '或者', but: '但是',
@@ -323,23 +334,23 @@ function pendingSectionCheckpoints(view, cat) {
   function betaAnswerHtml(q) {
     const view = betaView();
     if (state.session.inputMode) return `<div class="input-practice-card"><input id="free-answer" class="free-answer" autocomplete="off" autocapitalize="none" placeholder="${state.session.inputMode === 'dictation' ? '输入听到的英文' : '输入英文翻译'}" onkeydown="if(event.key==='Enter')checkFreeAnswer()"><button class="secondary-btn check-answer" onclick="checkFreeAnswer()">检查答案</button></div>`;
-    if (q.kind === 'order') { view.tokens = view.tokens || betaShuffle(q.tokens); const chosen = state.session.order || []; return `<div class="token-answer" id="token-answer">${chosen.length ? chosen.map((x) => `<button class="token" onclick="removeToken(${x.i})">${betaText(x.token)}</button>`).join('') : '<span class="summary">点击下方单词组成句子</span>'}</div><div class="token-bank" id="token-bank">${view.tokens.map((t, i) => `<button class="token ${chosen.some((x) => x.i === i) ? 'used' : ''}" id="token-${i}" data-token="${betaEscape(t)}" onclick="pickToken(${i})">${betaText(t)}</button>`).join('')}</div><button class="secondary-btn check-answer" onclick="checkOrder()">检查答案</button>`; }
+    if (q.kind === 'order') { view.tokens = view.tokens || betaShuffle(q.tokens); const chosen = state.session.order || []; return `<div class="token-answer" id="token-answer">${chosen.length ? chosen.map((x) => `<button class="token" onclick="removeToken(${x.i})">${betaText(x.token)}</button>`).join('') : '<span class="summary">点击下方单词组成句子</span>'}</div><div class="token-bank" id="token-bank">${view.tokens.map((t, i) => `<button class="token ${chosen.some((x) => x.i === i) ? 'used' : ''}" id="token-${i}" data-token="${escapeAttrValue(t)}" onclick="pickToken(${i})">${betaText(t)}</button>`).join('')}</div><button class="secondary-btn check-answer" onclick="checkOrder()">检查答案</button>`; }
     if (q.kind === 'match') { view.matched = view.matched || []; view.right = view.right || betaShuffle(q.pairs.map((p, i) => i)); const pairButton = (side, i, text) => `<button class="pair ${view.matched.includes(i) ? 'matched' : ''}" ${view.matched.includes(i) ? 'disabled' : ''} id="pair-${side}-${i}" onclick="pickPair('${side}',${i})">${betaText(text)}${view.matched.includes(i) ? ' ✓' : ''}</button>`; return `<div class="pair-grid"><div class="pair-col">${q.pairs.map((p, i) => pairButton('left', i, p[0])).join('')}</div><div class="pair-col">${view.right.map((i) => pairButton('right', i, q.pairs[i][1])).join('')}</div></div><p class="match-hint">配对全部完成后提交，点错只会提示。</p>`; }
     if (q.kind === 'dialogue') {
       view.options = view.options || betaShuffle(q.options || []);
       if (q.mode === 'sequence') {
         view.sequence = Array.isArray(view.sequence) ? view.sequence : [];
-        return `<div class="dialogue-answer"><p class="answer-label">按对话发生顺序点击句子</p><div class="answer-grid dialogue-sequence">${view.options.map((o, i) => { const original = (q.options || []).indexOf(o); const index = original < 0 ? i : original; const selectedAt = view.sequence.indexOf(index); return `<button class="answer-btn ${selectedAt >= 0 ? 'selected' : ''}" data-option="${betaEscape(o)}" onclick="pickDialogueTurn(${index})"><span class="answer-number">${selectedAt >= 0 ? selectedAt + 1 : String.fromCharCode(65 + i)}</span>${betaText(o)}</button>`; }).join('')}</div><button id="check-choice" class="secondary-btn check-answer" ${view.sequence.length === (q.turns || []).length ? '' : 'disabled'} onclick="checkDialogueSequence()">检查答案</button></div>`;
+        return `<div class="dialogue-answer"><p class="answer-label">按对话发生顺序点击句子</p><div class="answer-grid dialogue-sequence">${view.options.map((o, i) => { const original = (q.options || []).indexOf(o); const index = original < 0 ? i : original; const selectedAt = view.sequence.indexOf(index); return `<button class="answer-btn ${selectedAt >= 0 ? 'selected' : ''}" data-option="${escapeAttrValue(o)}" onclick="pickDialogueTurn(${index})"><span class="answer-number">${selectedAt >= 0 ? selectedAt + 1 : String.fromCharCode(65 + i)}</span>${betaText(o)}</button>`; }).join('')}</div><button id="check-choice" class="secondary-btn check-answer" ${view.sequence.length === (q.turns || []).length ? '' : 'disabled'} onclick="checkDialogueSequence()">检查答案</button></div>`;
       }
       const options = view.options;
       const selected = state.session.choice;
       const label = q.mode === 'sequence' ? '选择下一步顺序' : '选择最自然的回答';
-      return `<div class="dialogue-answer"><p class="answer-label">${label}</p><div class="answer-grid">${options.map((o, i) => `<button class="answer-btn ${selected === o ? 'selected' : ''}" data-option="${betaEscape(o)}" onclick="chooseAnswer(this,'${betaEscape(o)}')"><span class="answer-number">${String.fromCharCode(65 + i)}</span>${betaText(o)}</button>`).join('')}</div><button id="check-choice" class="secondary-btn check-answer" ${selected ? '' : 'disabled'} onclick="checkSelectedAnswer()">检查答案</button></div>`;
+      return `<div class="dialogue-answer"><p class="answer-label">${label}</p><div class="answer-grid">${options.map((o, i) => `<button class="answer-btn ${selected === o ? 'selected' : ''}" data-option="${escapeAttrValue(o)}" onclick="chooseAnswer(this,'${betaEscape(o)}')"><span class="answer-number">${String.fromCharCode(65 + i)}</span>${betaText(o)}</button>`).join('')}</div><button id="check-choice" class="secondary-btn check-answer" ${selected ? '' : 'disabled'} onclick="checkSelectedAnswer()">检查答案</button></div>`;
     }
     view.options = view.options || betaShuffle(q.options || []);
     const visibleOptions = view.hintHidden ? view.options.filter((option) => option !== view.hintHidden) : view.options;
     const hint = view.hintUsed ? '<span class="hint-used">已使用提示</span>' : '<button type="button" class="hint-btn" onclick="usePointHint()">💡 提示 · 3 积分</button>';
-    return `${hint}<div class="answer-grid">${visibleOptions.map((o, i) => `<button class="answer-btn ${state.session.choice === o ? 'selected' : ''}" data-option="${betaEscape(o)}" onclick="chooseAnswer(this,'${betaEscape(o)}')"><span class="answer-number">${String.fromCharCode(65 + i)}</span>${betaText(o)}</button>`).join('')}</div><button id="check-choice" class="secondary-btn check-answer" ${state.session.choice ? '' : 'disabled'} onclick="checkSelectedAnswer()">检查答案</button>`;
+    return `${hint}<div class="answer-grid">${visibleOptions.map((o, i) => `<button class="answer-btn ${state.session.choice === o ? 'selected' : ''}" data-option="${escapeAttrValue(o)}" onclick="chooseAnswer(this,'${betaEscape(o)}')"><span class="answer-number">${String.fromCharCode(65 + i)}</span>${betaText(o)}</button>`).join('')}</div><button id="check-choice" class="secondary-btn check-answer" ${state.session.choice ? '' : 'disabled'} onclick="checkSelectedAnswer()">检查答案</button>`;
   }
   answerHtml = betaAnswerHtml;
   const dialogueSpeechText = (q) => {
@@ -722,6 +733,9 @@ function pendingSectionCheckpoints(view, cat) {
 
 if (typeof module !== 'undefined') module.exports = {
   feedbackDetails: betaFeedbackDetails,
+  escapeInlineArgument,
+  escapeAttrValue,
+  escapeGlossaryHtml,
   renderGlossaryText,
   questionPromptHtml,
   shouldAutoPlayQuestion,

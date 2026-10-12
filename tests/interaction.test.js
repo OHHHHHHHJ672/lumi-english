@@ -184,3 +184,67 @@ test('区域挑战在该区课程全部完成后发放，且不重复发放', ()
   // 第一区在上面已经发放过了，所以剩下的正好是 23 个。
   assert.equal(pendingSectionCheckpoints(state, catalog).length, 23, '其余 23 个区挑战应待发');
 });
+
+// 两条解码链
+// ----------
+// 浏览器先把属性值做 HTML 解实体，之后才分叉：
+//   data-*        -> 直接进 element.dataset，不再有 JS 解析这一步；
+//   onclick="...'...'" -> 先解实体，再由 JS 引擎在两层单引号之间解析。
+// 所以同一条字符串不能共用一个转义器：data-* 只需要 &#39;，onclick 还需要
+// 反斜杠把引号吃掉。给 data-* 用 inline 转义器，dataset 里就会留下反斜杠，
+// 判分时 dataset.token 拼回的句子再也等不于 q.answer。
+const htmlDecode = (value) => String(value == null ? '' : value)
+  .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+  .replace(/&quot;/g, '"')
+  .replace(/&lt;/g, '<')
+  .replace(/&gt;/g, '>')
+  .replace(/&amp;/g, '&');
+
+const ESCAPES = require('../app/src/main/assets/interaction.js');
+const COURSE = require('../app/src/main/assets/course.js').catalog;
+const ROUND_TRIP_SAMPLES = ["doctor's", "hadn't fixed the fault", "won't be made", "the teachers' room", 'say "hi" & leave', 'back\\slash'];
+
+test('data-* 属性解实体后必须逐字节还原', () => {
+  for (const value of ROUND_TRIP_SAMPLES) {
+    assert.equal(htmlDecode(ESCAPES.escapeAttrValue(value)), value, `${JSON.stringify(value)} 必须能从 dataset 还原`);
+  }
+});
+
+test('onclick 处理器解实体再过 JS 解析后必须逐字节还原', () => {
+  for (const value of ROUND_TRIP_SAMPLES) {
+    const decoded = htmlDecode(ESCAPES.escapeInlineArgument(value));
+    // 这正是 onclick="fn('…')" 的求值：单引号在被转义的值外面。
+    assert.equal(new Function(`const fn = (v) => v; return fn('${decoded}');`)(), value, `${JSON.stringify(value)} 必须能被内联处理器原样传出`);
+  }
+});
+
+test('含撇号的选项与词块走 data-* 后仍能通过判分', () => {
+  const questions = Object.values(COURSE.questionBank);
+  const affected = questions.filter((question) =>
+    (Array.isArray(question.options) && question.options.some((option) => String(option).includes("'")))
+    || (Array.isArray(question.tokens) && question.tokens.some((token) => String(token).includes("'"))));
+
+  // 课程目前带三道；数量掉到 0 时这条断言就不再有证明力，所以连下限一起写死。
+  assert.equal(affected.length, 3, `应有 3 道含撇号的题，实际 ${affected.length}`);
+
+  for (const question of affected) {
+    for (const value of [...(question.options || []), ...(question.tokens || [])]) {
+      if (!String(value).includes("'")) continue;
+      assert.equal(htmlDecode(ESCAPES.escapeAttrValue(String(value))), String(value), `${question.id}: data-* 必须还原`);
+      assert.notEqual(htmlDecode(ESCAPES.escapeInlineArgument(String(value))), String(value), `${question.id}: 内联转义器会污染 data-*，不可复用`);
+    }
+
+    // checkOrder 把 dataset.token 用空格拼回去和 q.answer 比，
+    // checkSelectedAnswer 把 dataset.option 和 q.answer 比。
+    // 这两处等式才是判分真正的不变量。
+    if (question.kind === 'order' && Array.isArray(question.tokens)) {
+      const rebuilt = question.tokens.map((token) => htmlDecode(ESCAPES.escapeAttrValue(token))).join(' ');
+      assert.equal(rebuilt, question.answer, `${question.id}: 词块还原后必须等于标准答案`);
+    }
+    if (Array.isArray(question.options)) {
+      const correct = question.options.find((option) => option === question.answer);
+      assert.ok(correct, `${question.id}: 标准答案必须在选项里`);
+      assert.equal(htmlDecode(ESCAPES.escapeAttrValue(correct)), correct, `${question.id}: 正确项的高亮匹配必须成立`);
+    }
+  }
+});
