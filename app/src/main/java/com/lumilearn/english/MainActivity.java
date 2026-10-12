@@ -153,7 +153,11 @@ public class MainActivity extends Activity {
         }
         @JavascriptInterface public void exitApp() { runOnUiThread(() -> finish()); }
     }
-    @Override public void onBackPressed() { web.evaluateJavascript("window.onAndroidBack && window.onAndroidBack()", null); }
+    @Override public void onBackPressed() {
+    web.evaluateJavascript("(function(){ try { return window.onAndroidBack ? !!window.onAndroidBack() : false; } catch (e) { return false; } })()", handled -> {
+      if (!"true".equals(handled)) super.onBackPressed();
+    });
+  }
     @Override protected void onStop() { if (tts != null) tts.stop(); ttsSpeaking = false; super.onStop(); }
     @Override protected void onRestart() { super.onRestart(); if (tts != null) tts.shutdown(); ready = false; initialized = false; initTts(); }
     @Override protected void onDestroy() { if (tts != null) { tts.stop(); tts.shutdown(); } if (web != null) { web.removeJavascriptInterface("LumiAndroid"); web.destroy(); } super.onDestroy(); }

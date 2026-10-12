@@ -370,6 +370,10 @@ const LumiModel = (() => {
       s.inventory = s.inventory.filter(item => item !== id); s.reviewBoostRemaining = 10;
     } else if (id === 'map-night') s.equippedTheme = s.equippedTheme === 'night' ? 'sunrise' : 'night';
     else if (id === 'mascot-spark') s.equippedMascot = !s.equippedMascot;
+    // 连胜保护是被动道具：buyItem() 购买时就已 armed，refreshStreak() 在漏学
+    // 当天自动抵扣，本来就没有"使用"这个动作。原先它落到 else return false，
+    // 商店里 240 积分买的道具点下去会弹「这个物品当前无法使用」，看起来是坏的。
+    else if (id === 'streak-shield') { /* already armed */ }
     else return false;
     return true;
   }

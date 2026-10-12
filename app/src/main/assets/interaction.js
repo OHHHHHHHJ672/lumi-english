@@ -255,9 +255,31 @@ function hintOptions(options, answer) {
 
   updateTop = function () { const streak = $('top-streak'); const points = $('top-points'); const xp = $('top-xp'); if (streak) streak.textContent = state.streak || 0; if (points) points.textContent = state.points ?? state.coins ?? 0; if (xp) xp.textContent = state.xp || 0; };
   go = function (screen) {
-    if (state.screen === 'lesson' && state.session && !state.session.finished && screen !== 'lesson') { openModal('暂时离开？', '本关进度会保留在本机，回来可以继续，不会丢失积分和学习记录。', '保存并离开', '继续学习', () => { state.screen = screen; save(); document.body.classList.remove('playing'); render(); }); return; }
+    // The app.js version of go() cleared the auto-advance timer; this override
+    // dropped that call. Without it, answering correctly and then leaving within
+    // 1.5s leaves the timer armed, so the app flips back into the lesson at the
+    // next question, re-adds body.playing and hides the bottom nav.
+    clearAutoAdvance();
+    if (state.screen === 'lesson' && state.session && !state.session.finished && screen !== 'lesson') { openModal('暂时离开？', '本关进度会保留在本机，回来可以继续，不会丢失积分和学习记录。', '保存并离开', '继续学习', () => { clearAutoAdvance(); state.screen = screen; save(); document.body.classList.remove('playing'); render(); }); return; }
     state.screen = screen; save(); render(); window.scrollTo(0, 0);
   };
+  // Wired up from MainActivity.onBackPressed(). That override short-circuits on
+  // "window.onAndroidBack && window.onAndroidBack()" and never calls super, so
+  // before this the hardware back key was a total no-op: no navigation, no
+  // dialog dismissal, and no way to leave the app. Returns true when the app
+  // consumed the key, false to let the activity finish.
+  // Guarded because interaction.js is required by tests/interaction.test.js
+  // without a window global.
+  if (typeof window !== 'undefined') {
+    window.onAndroidBack = function () {
+      // Android dismisses an open dialog before touching the screen behind it.
+      const back = document.querySelector('.modal-backdrop');
+      if (back) { back.remove(); return true; }
+      // go() raises the "暂时离开？" modal itself when a live run would be lost.
+      if (state.screen !== 'home') { go('home'); return true; }
+      return false; // already at the root screen
+    };
+  }
   startLesson = function (id, review) {
     const startBetaLesson = (lessonId, isReview) => {
       state = LumiModel.normalize(state);
@@ -577,12 +599,12 @@ function hintOptions(options, answer) {
   renderProfile = function () {
     betaReadyProfile(); const profile = document.querySelector('.profile-card'); if (!profile) return;
     const shop = document.createElement('section'); shop.className = 'collection-card'; const items = LumiModel.shopItems ? LumiModel.shopItems() : []; const achievements = LumiModel.achievements ? LumiModel.achievements() : [];
-    shop.innerHTML = `<div class="section-head"><h2>积分商店</h2><span>${state.points || 0} ✦</span></div><div class="shop-grid">${items.map(item => { const owned = state.inventory.includes(item.id); return `<button class="shop-item ${owned ? 'owned' : ''}" onclick="${owned ? `useShopItem('${item.id}')` : `buyShopItem('${item.id}')`}"><b class="shop-icon">${(typeof LumiIcon !== 'undefined') ? LumiIcon.html(item.icon, 24) : item.icon}</b><strong>${item.title}</strong><small>${owned ? (item.id === 'review-boost' && state.reviewBoostRemaining ? '进行中 · '+state.reviewBoostRemaining+' 题' : '点击使用') : item.cost + ' 积分'}</small></button>`; }).join('')}</div><div class="section-head" style="margin-top:20px"><h2>成就徽章</h2><span>${state.achievements.length} / ${achievements.length}</span></div><div class="achievement-grid">${achievements.map(item => `<div class="achievement-badge ${state.achievements.includes(item.id) ? 'unlocked' : ''}"><b class="achievement-icon">${(typeof LumiIcon !== 'undefined') ? LumiIcon.html(item.icon, 22) : item.icon}</b><span>${item.title}</span><small>+${item.reward} 积分</small></div>`).join('')}</div>`;
+    shop.innerHTML = `<div class="section-head"><h2>积分商店</h2><span>${state.points || 0} ✦</span></div><div class="shop-grid">${items.map(item => { const owned = state.inventory.includes(item.id); return `<button class="shop-item ${owned ? 'owned' : ''}" onclick="${owned ? `useShopItem('${item.id}')` : `buyShopItem('${item.id}')`}"><b class="shop-icon">${(typeof LumiIcon !== 'undefined') ? LumiIcon.html(item.icon, 24) : item.icon}</b><strong>${item.title}</strong><small>${owned ? (item.id === 'review-boost' && state.reviewBoostRemaining ? '进行中 · '+state.reviewBoostRemaining+' 题' : item.id === 'streak-shield' ? '生效中 · '+(state.streakShields || 0)+' 个' : '点击使用') : item.cost + ' 积分'}</small></button>`; }).join('')}</div><div class="section-head" style="margin-top:20px"><h2>成就徽章</h2><span>${state.achievements.length} / ${achievements.length}</span></div><div class="achievement-grid">${achievements.map(item => `<div class="achievement-badge ${state.achievements.includes(item.id) ? 'unlocked' : ''}"><b class="achievement-icon">${(typeof LumiIcon !== 'undefined') ? LumiIcon.html(item.icon, 22) : item.icon}</b><span>${item.title}</span><small>+${item.reward} 积分</small></div>`).join('')}</div>`;
     profile.after(shop);
   };
   claimTask = function (id) { if (LumiModel.claimTask && LumiModel.claimTask(state, id)) { save(); burst(); toast('挑战完成：积分已到账'); render(); } else toast('完成进度后即可领取这项奖励'); };
   buyShopItem = function (id) { if (LumiModel.buyItem && LumiModel.buyItem(state, id)) { save(); burst(); toast('已兑换，收藏加入你的背包'); render(); } else toast('积分不足或已经拥有这个物品'); };
-  useShopItem = function (id) { if (LumiModel.useItem && LumiModel.useItem(state, id)) { save(); toast(id === 'review-boost' ? '复习加成已开启，接下来 10 道复习题获得更多 XP' : '外观已切换'); render(); } else toast('这个物品当前无法使用'); };
+  useShopItem = function (id) { if (LumiModel.useItem && LumiModel.useItem(state, id)) { save(); toast(id === 'review-boost' ? '复习加成已开启，接下来 10 道复习题获得更多 XP' : id === 'streak-shield' ? '连胜保护已就绪，共有 ' + (state.streakShields || 0) + ' 个，漏学当天会自动抵扣' : '外观已切换'); render(); } else toast('这个物品当前无法使用'); };
   claimDaily = function () { const goal = betaGoal(); if (LumiModel.claim(state)) { save(); burst(); toast('今日目标达成：+15 Lumi 积分'); render(); } else toast(state.daily.claimed ? '今天的奖励已经领取' : `完成 ${goal} XP 后可领取 15 Lumi 积分`); };
   speak = function (text) { speakWithLumiAudio(text, .9); };
   speakSlow = function (text) { speakWithLumiAudio(text, slowSpeechRate()); };
