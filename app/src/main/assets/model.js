@@ -379,7 +379,7 @@ const LumiModel = (() => {
   }
 
 
-  return { day, goalXp, fresh, normalize, start, answer, finish, claim, points: awardPoints, spendPoints, refreshDaily, useItem, recordReview, dueReviews, tasks, claimTask, shopItems, buyItem, recordCheckpoint, checkpointPassed, skipLessons, achievements: () => ACHIEVEMENTS.map(item => ({ id: item.id, title: item.title, icon: item.icon, reward: item.reward })), CAP, INTERVAL };
+  return { day, goalXp, fresh, normalize, start, answer, finish, claim, points: awardPoints, spendPoints, refreshDaily, useItem, recordReview, dueReviews, tasks, claimTask, shopItems, buyItem, recordCheckpoint, checkpointPassed, skipLessons, evaluateAchievements, achievements: () => ACHIEVEMENTS.map(item => ({ id: item.id, title: item.title, icon: item.icon, reward: item.reward })), CAP, INTERVAL };
 })();
 
 if (typeof module !== 'undefined') module.exports = LumiModel;

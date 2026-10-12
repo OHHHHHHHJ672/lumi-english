@@ -186,6 +186,22 @@ function hintOptions(options, answer) {
   return { hidden, options: hidden === null ? list : list.filter((option) => option !== hidden) };
 }
 
+// The catalog ships 24 section checkpoints, each carrying its requiredUnitIds,
+// and the roadmap renders a card for every one of them. But recordCheckpoint()
+// had no call site anywhere, so each card sat on "完成本区课程后解锁" forever and
+// its 20-point reward was unreachable. A checkpoint is awarded the moment every
+// lesson in its section is complete, which is what the card's own copy promises.
+// Pure over its two arguments so it can be regression-tested without driving the
+// UI; the side-effecting wrapper lives inside the controller.
+function pendingSectionCheckpoints(view, cat) {
+  const done = (view && view.completed) || [];
+  return (cat.checkpoints || []).filter((cp) => {
+    if (LumiModel.checkpointPassed(view, cp.id)) return false;
+    const lessons = cat.lessonList.filter((lesson) => lesson.sectionId === cp.sectionId);
+    return lessons.length > 0 && lessons.every((lesson) => done.includes(lesson.id));
+  });
+}
+
 (function () {
   // Keep this file loadable in Node so the feedback formatter can be regression-tested.
   if (typeof document === 'undefined') return;
@@ -532,7 +548,26 @@ function hintOptions(options, answer) {
   removeToken = function (index) { const s = state.session; if (!s || s.checked) return; const at = (s.order || []).findIndex((x) => x.i === index); if (at < 0) return; s.order.splice(at, 1); $(`token-${index}`).classList.remove('used'); $('token-answer').innerHTML = s.order.length ? s.order.map((x) => `<button class="token" onclick="removeToken(${x.i})">${x.token}</button>`).join('') : '<span class="summary">点击下方单词组成句子</span>'; save(); };
   checkOrder = function () { const s = state.session; if (!s || s.checked) return; const q = betaCurrent(); if (!(s.order || []).length) return toast('先把单词排好，再检查答案'); betaSubmit(s.order.map((x) => x.token).join(' ') === q.answer, q); };
   pickPair = function (side, index) { const s = state.session; if (!s || s.checked) return; const view = betaView(); if ((view.matched || []).includes(index)) return; matchPick[side] = index; document.querySelectorAll('.pair').forEach((b) => b.classList.remove('picked')); $(`pair-${side}-${index}`).classList.add('picked'); if (matchPick.left === null || matchPick.right === null) return; const left = $(`pair-left-${matchPick.left}`); const right = $(`pair-right-${matchPick.right}`); const question = betaCurrent(); if (matchPick.left === matchPick.right) { view.matched = view.matched || []; view.matched.push(index); left.classList.remove('picked'); right.classList.remove('picked'); left.classList.add('matched'); right.classList.add('matched'); left.disabled = true; right.disabled = true; betaTone(true); if (question && allPairsMatched(view.matched, question.pairs.length)) betaSubmit(true, question); } else { view.hadMistake = true; left.classList.add('miss'); right.classList.add('miss'); toast('还不是一对，再试一次'); setTimeout(() => { left.classList.remove('picked', 'miss'); right.classList.remove('picked', 'miss'); }, 420); } matchPick = { left: null, right: null }; save(); };
-  nextQuestion = function () { clearAutoAdvance(); const s = state.session; if (!s || !s.checked) return; if (s.index >= s.qids.length - 1) { if (s.inputMode) state.practiceSeen = [...new Set([...(state.practiceSeen || []), ...s.qids])].slice(-24); const reward = LumiModel.finish(state); save(); renderResult(reward); return; } s.index += 1; s.checked = false; s.lastCorrect = null; s.choice = null; s.renderedQuestionId = null; s.autoPlayedQuestionId = null; s.autoPlayScheduledQuestionId = null; s.order = []; s.view = {}; matchPick = { left: null, right: null }; save(); renderLesson(); window.scrollTo(0, 0); };
+  function refreshSectionCheckpoints(announce) {
+    const pending = pendingSectionCheckpoints(state, catalog);
+    pending.forEach((cp) => {
+      // 100 means "every required lesson is complete". There is no graded test to
+      // sit, so this is a completion ratio rather than a score the learner earned.
+      LumiModel.recordCheckpoint(state, cp.id, 100, true);
+    });
+    // finish() already ran evaluateAchievements, so the points just awarded here
+    // would otherwise be invisible to the points-500 badge until the next lesson.
+    if (LumiModel.evaluateAchievements) LumiModel.evaluateAchievements(state);
+    if (announce && pending.length) {
+      const titles = pending.map((cp) => {
+        const section = (catalog.sections || []).find((item) => item.id === cp.sectionId);
+        return section ? section.title : cp.sectionId;
+      });
+      toast(titles.join('、') + ' 挑战完成 · +20 ✦');
+    }
+    return pending;
+  }
+  nextQuestion = function () { clearAutoAdvance(); const s = state.session; if (!s || !s.checked) return; if (s.index >= s.qids.length - 1) { if (s.inputMode) state.practiceSeen = [...new Set([...(state.practiceSeen || []), ...s.qids])].slice(-24); const reward = LumiModel.finish(state); refreshSectionCheckpoints(true); save(); renderResult(reward); return; } s.index += 1; s.checked = false; s.lastCorrect = null; s.choice = null; s.renderedQuestionId = null; s.autoPlayedQuestionId = null; s.autoPlayScheduledQuestionId = null; s.order = []; s.view = {}; matchPick = { left: null, right: null }; save(); renderLesson(); window.scrollTo(0, 0); };
   startInputPractice = function (mode) {
     const ids = typeof LumiPractice !== 'undefined' ? LumiPractice.select(state, catalog, mode) : catalog.lessonList.flatMap(lesson => lesson.questions).filter(q => q.audio).slice(0, 6).map(q => q.id);
     if (!ids.length || !LumiModel.start(state, `practice-${mode}-${Date.now()}`, ids, true)) return toast('暂时没有可练习的内容');
@@ -677,6 +712,10 @@ function hintOptions(options, answer) {
   const previousRender = render;
   render = function () { syncAudioPreferences(); if (!state.onboarded) { renderOnboarding(); return; } previousRender(); };
   attachAllLessonDialogues();
+  // Retroactively award any section a returning learner had already finished,
+  // so the roadmap does not keep showing "完成本区课程后解锁" on cards they have
+  // effectively earned. Silent: this runs on every cold start.
+  refreshSectionCheckpoints(false);
   window.LumiInteractionController = { renderLesson, renderHome, renderPractice, renderProfile, startLesson, isUnlocked };
   render();
 })();
@@ -693,4 +732,5 @@ if (typeof module !== 'undefined') module.exports = {
   slowSpeechRate,
   renderDialogueBubbles,
   dialogueQuestionPrompt,
+  pendingSectionCheckpoints,
 };

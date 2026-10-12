@@ -12,6 +12,7 @@ const {
   slowSpeechRate,
   renderDialogueBubbles,
   dialogueQuestionPrompt,
+  pendingSectionCheckpoints,
 } = require('../app/src/main/assets/interaction.js');
 
 test('对话题渲染角色气泡并隐藏整段中文翻译', () => {
@@ -151,4 +152,35 @@ test('复习页使用内置 SVG 图标，避免系统 emoji 缺字显示方框',
   const html = reviewIconSvg();
   assert.match(html, /<svg/);
   assert.doesNotMatch(html, /🧭/);
+});
+
+test('区域挑战在该区课程全部完成后发放，且不重复发放', () => {
+  // pendingSectionCheckpoints resolves the checkpoint against LumiModel, which
+  // browser builds provide as a global; Node tests have to wire it up.
+  global.LumiModel = require('../app/src/main/assets/model.js');
+  const { catalog } = require('../app/src/main/assets/course.js');
+  const checkpoint = catalog.checkpoints[0];
+  const sectionLessons = catalog.lessonList.filter((lesson) => lesson.sectionId === checkpoint.sectionId);
+  assert.equal(sectionLessons.length, 12, '一个区应包含 12 关');
+  assert.equal(checkpoint.id, checkpoint.sectionId + '-checkpoint', '解锁逻辑依赖这一命名约定');
+
+  const state = global.LumiModel.fresh();
+  assert.deepEqual(pendingSectionCheckpoints(state, catalog), [], '没有任何进度时不应发奖');
+
+  state.completed = sectionLessons.slice(0, 11).map((lesson) => lesson.id);
+  assert.deepEqual(pendingSectionCheckpoints(state, catalog), [], '还差一关时不发奖');
+
+  state.completed = sectionLessons.map((lesson) => lesson.id);
+  const pending = pendingSectionCheckpoints(state, catalog);
+  assert.deepEqual(pending.map((cp) => cp.id), [checkpoint.id], '整区完成时应精确发一个');
+
+  const before = state.points || 0;
+  pending.forEach((cp) => global.LumiModel.recordCheckpoint(state, cp.id, 100, true));
+  assert.equal(global.LumiModel.checkpointPassed(state, checkpoint.id), true, '记录后应可被解锁逻辑读到');
+  assert.equal(state.points, before + 20, '每个区域挑战奖励 20 积分');
+  assert.deepEqual(pendingSectionCheckpoints(state, catalog), [], '已发放的不应再次进入待发列表');
+
+  state.completed = catalog.lessonList.map((lesson) => lesson.id);
+  // 第一区在上面已经发放过了，所以剩下的正好是 23 个。
+  assert.equal(pendingSectionCheckpoints(state, catalog).length, 23, '其余 23 个区挑战应待发');
 });
