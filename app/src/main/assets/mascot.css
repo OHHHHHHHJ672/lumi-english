@@ -51,7 +51,14 @@
 .onboarding-mascot .lumi-mascot svg { width: 100%; height: 100%; }
 
 /* ===== Context: Lesson (top-right corner) ===== */
-.lesson-mascot { position: absolute; right: 10px; top: 10px; width: 50px; height: 50px; z-index: 2; pointer-events: none; opacity: .95; }
+/* Absolutely positioned to .question-card, which is now its parent. Anchoring it
+   to .lesson-shell instead put it inside the sticky .lesson-top bar: top:10px
+   landed within the bar's 61px, and z-index 2 loses to the bar's 5, so the
+   mascot was drawn but never seen. .question-card sits directly below the bar,
+   so a small positive top keeps it clear of the header whatever that bar's
+   height becomes. The card's right 92px is kept clear of .q-count/.question-tag
+   by the rules further down this file. */
+.lesson-mascot { position: absolute; right: 8px; top: 6px; width: 50px; height: 50px; z-index: 2; pointer-events: none; opacity: .95; }
 .lesson-mascot .lumi-mascot { width: 100%; height: 100%; }
 .lesson-mascot .lumi-mascot svg { width: 100%; height: 100%; filter: drop-shadow(0 3px 4px rgba(45,48,104,.12)); }
 /* Move q-count away from mascot: inline with question tag on the left */
