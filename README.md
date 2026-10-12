@@ -1,18 +1,25 @@
-# Lumi English Beta
+# Lumi English Beta 1.4
 
-Lumi English 是一个原创的离线英语学习游戏 Android MVP，面向中文用户。它用路线图、关卡、XP、能量、连续学习和奖励动效，把英语练习做成每天可以完成的一小段冒险。
+Lumi English 是一个原创的离线英语学习游戏 Android Beta，面向中文用户。它用路线图、关卡、XP、Lumi 积分、连续学习和奖励动效，把英语练习做成每天可以完成的一小段冒险。
 
 ## Beta 内容
 
 - 4 个 CEFR 阶段：A1 基础生存、A2 日常交流、B1 独立沟通、B2 工作与旅行
-- 144 个独立关卡、864 道练习（四个 CEFR 等级各 36 关）；覆盖日常、学习、工作、研究、科技、公共议题等场景
-- 单词释义、中文翻译、听力选择、拼句、填空、词语配对
+- 288 个独立关卡、2,880 道练习（四个 CEFR 等级各 72 关，每关 10 题）；覆盖日常、学习、工作、研究、科技、公共议题等场景
+- 新增课程包包含 432 个新增目标词条、144 个新增主题和每关四种扩展题；题目键在全库范围内去重
+- 单词释义、中文翻译、听力选择、拼句、填空、词语配对；每道配对题至少 6 对
 - 启动规划：学习目的、英语背景、目标等级、分级测试、每日学习分钟数、提醒时间、桌面伙伴样式
-- 每日 XP 目标会随学习时间变化；支持连续天数、能量、宝石、错题复习和本地词典
+- 每日 XP 目标会随学习时间变化；支持连续天数、Lumi 积分、错题复习和本地词典
 - 答错题目会回到当前关卡队列；课程完成后才算通关，重复练习不会重复发放题目 XP
+- 题目前只显示作答指令；英文词可单独点击查看释义，完整翻译只在提交反馈后显示
+- 听力题进入后自动播放一次，仍可手动重播和慢速播放；积分可消耗 3 点隐藏一个错误选项
 - 题型顺序在每次开课时随机；课程和题目带有 CEFR、语法和技能标签
 - Android 系统 TextToSpeech 英语朗读，普通/慢速按钮和音效动效
 - 本地桌面小组件：显示今日 XP、目标进度和连续学习天数；支持本地每日通知提醒
+- Beta 1.3 新增间隔复习：每个题目记录掌握度、答题次数、遗忘次数和下次复习时间；复习小屋会显示到期内容
+- Beta 1.3 新增每日三项挑战、成就徽章和积分商店；积分只兑换提示、外观、连胜保护和复习加成，不限制学习次数
+- Beta 1.3 新增看中文打英文和听写训练，听写进入后自动播放一次，也可以重复播放
+- Beta 1.4 增加明亮主题导航优化、单元/区段/Checkpoint 元数据、单元挑战状态、语法覆盖修复和更自然的日常场景句
 - 不需要账号、不接云端、不上传学习记录
 
 ## 安装
@@ -25,13 +32,15 @@ Lumi English 是一个原创的离线英语学习游戏 Android MVP，面向中�
 
 ## 源码结构
 
-- `app/src/main/assets/course.js`：四个 CEFR 阶段的 144 个 Beta 关卡和题目数据
-- `app/src/main/assets/model.js`：本地进度、能量、连续天数和奖励规则
+- `app/src/main/assets/course.js`：课程构建器、题型生成器和旧版 144 个关卡
+- `app/src/main/assets/course-pack-2.js`：新增 144 个按 CEFR 分层的主题课程包（第 37–72 关）
+- `app/src/main/assets/model.js`：本地进度、SRS 掌握度、每日任务、成就、积分商店和奖励规则
+- `app/src/main/assets/practice.js`：按当前等级抽取输出训练题、英文输入规范化和拼写反馈
 - `app/src/main/assets/app.js`：路线图、关卡和基础界面
-- `app/src/main/assets/interaction.js`：交互、复习、词典、动效和启动规划
+- `app/src/main/assets/interaction.js`：交互、复习、输出训练、词典、动效和启动规划
 - `app/src/main/java/.../MainActivity.java`：Android WebView 容器、系统 TTS 和提醒桥接
 - `app/src/main/java/.../LumiWidgetProvider.java`：桌面小组件
 
-Android Studio 可以直接打开本目录的 Gradle 工程。若构建环境没有 Android Studio，也可以使用 `build-apk.ps1`；脚本使用 Android API 35 和 Java 17，并输出 `build/Lumi-English-1.1.apk`。
+Android Studio 可以直接打开本目录的 Gradle 工程。若构建环境没有 Android Studio，也可以使用 `build-apk.ps1`；脚本使用 Android API 35 和 Java 17，并输出 `build/Lumi-English-1.3.apk`。PowerShell 构建完成后会生成本地签名 APK；请把 `ANDROID_SDK_ROOT` 和 `JAVA_HOME` 指向对应安装目录，或直接传入脚本参数。
 
 此版本的内容、角色和视觉均为独立设计，没有使用第三方学习软件的商标、素材或题库。

@@ -1,8 +1,19 @@
 param([string]$AndroidSdk = $env:ANDROID_SDK_ROOT, [string]$JavaDir = $env:JAVA_HOME)
 $ErrorActionPreference = 'Stop'
-if (!$AndroidSdk -or !$JavaDir) { throw 'Pass -AndroidSdk and -JavaDir, or set ANDROID_SDK_ROOT and JAVA_HOME.' }
+if ($null -ne (Get-Variable PSNativeCommandUseErrorActionPreference -ErrorAction SilentlyContinue)) {
+    $PSNativeCommandUseErrorActionPreference = $false
+}
 $project = $PSScriptRoot
 $build = Join-Path $project 'build'
+if (!$AndroidSdk) {
+  $sdkCandidates = @($env:ANDROID_HOME, "$env:LOCALAPPDATA\Android\Sdk", "$env:USERPROFILE\AppData\Local\Android\Sdk", 'C:\Android\Sdk') | Where-Object { $_ -and (Test-Path $_) }
+  $AndroidSdk = $sdkCandidates | Select-Object -First 1
+}
+if (!$JavaDir) {
+  $javaCandidates = @($env:JDK_HOME, "$env:JAVA_HOME", 'C:\Program Files\Java\jdk-17', 'C:\Program Files\Eclipse Adoptium\jdk-17*') | ForEach-Object { Get-Item $_ -ErrorAction SilentlyContinue } | Where-Object { Test-Path (Join-Path $_.FullName 'bin\javac.exe') }
+  $JavaDir = ($javaCandidates | Select-Object -First 1).FullName
+}
+if (!$AndroidSdk -or !$JavaDir) { throw 'Android toolchain not found. Set ANDROID_SDK_ROOT and JAVA_HOME, or install Android SDK API 35/build-tools 35.0.0 and JDK 17.' }
 $bt = Join-Path $AndroidSdk 'build-tools\35.0.0'
 $androidJar = Join-Path $AndroidSdk 'platforms\android-35\android.jar'
 function Check-Exit { if ($LASTEXITCODE -ne 0) { throw "Build tool failed with code $LASTEXITCODE" } }
@@ -15,7 +26,7 @@ $manifest = $manifest.Replace('<manifest xmlns:android=', '<manifest package="co
 & "$bt\aapt2.exe" compile --dir "$project\app\src\main\res" -o "$build\resources"
 Check-Exit
 $resources = Get-ChildItem "$build\resources" -Filter '*.flat' | ForEach-Object { $_.FullName }
-& "$bt\aapt2.exe" link -o "$build\unsigned.apk" -I $androidJar --manifest "$build\AndroidManifest.xml" -A "$project\app\src\main\assets" --min-sdk-version 26 --target-sdk-version 35 --version-code 2 --version-name '1.1.0' --java "$build\generated" $resources
+& "$bt\aapt2.exe" link -o "$build\unsigned.apk" -I $androidJar --manifest "$build\AndroidManifest.xml" -A "$project\app\src\main\assets" --min-sdk-version 26 --target-sdk-version 35 --version-code 5 --version-name '1.4.0' --java "$build\generated" $resources
 Check-Exit
 $javaSources = Get-ChildItem "$project\app\src\main\java" -Filter '*.java' -Recurse | ForEach-Object { $_.FullName }
 $generatedSources = Get-ChildItem "$build\generated" -Filter '*.java' -Recurse | ForEach-Object { $_.FullName }
@@ -35,15 +46,17 @@ $keyFile = "$project\signing\lumi-release.jks"
 if (!(Test-Path $keyFile)) {
     New-Item -ItemType Directory -Force -Path "$project\signing" | Out-Null
     $bytes = New-Object byte[] 32
-    [System.Security.Cryptography.RandomNumberGenerator]::Fill($bytes)
+    $rng = [System.Security.Cryptography.RandomNumberGenerator]::Create()
+    try { $rng.GetBytes($bytes) } finally { $rng.Dispose() }
     $secret = [Convert]::ToBase64String($bytes)
     Set-Content -LiteralPath $secretFile -Value $secret -Encoding ascii -NoNewline
-    & "$JavaDir\bin\keytool.exe" -genkeypair -keystore $keyFile -storepass:file $secretFile -keypass:file $secretFile -alias lumi -keyalg RSA -keysize 2048 -validity 10000 -dname 'CN=Lumi English, O=Independent Learning, C=CN' -storetype JKS 2> "$build\key-generation.log"
-    Check-Exit
+    $keyArgs = @('-genkeypair', '-keystore', $keyFile, '-storepass:file', $secretFile, '-keypass:file', $secretFile, '-alias', 'lumi', '-keyalg', 'RSA', '-keysize', '2048', '-validity', '10000', '-dname', '"CN=Lumi English, O=Independent Learning, C=CN"', '-storetype', 'JKS')
+    $keyProcess = Start-Process -FilePath "$JavaDir\bin\keytool.exe" -ArgumentList $keyArgs -NoNewWindow -Wait -PassThru -RedirectStandardOutput "$build\key-generation.out" -RedirectStandardError "$build\key-generation.log"
+    if ($keyProcess.ExitCode -ne 0) { throw "keytool failed with code $($keyProcess.ExitCode)" }
 }
-& "$bt\apksigner.bat" sign --ks $keyFile --ks-key-alias lumi --ks-pass "file:$secretFile" --out "$build\Lumi-English-1.1.apk" "$build\aligned.apk"
+& "$bt\apksigner.bat" sign --ks $keyFile --ks-key-alias lumi --ks-pass "file:$secretFile" --out "$build\Lumi-English-1.4.apk" "$build\aligned.apk"
 Check-Exit
-& "$bt\apksigner.bat" verify --verbose "$build\Lumi-English-1.1.apk"
+& "$bt\apksigner.bat" verify --verbose "$build\Lumi-English-1.4.apk"
 Check-Exit
-Write-Output "APK: $build\Lumi-English-1.1.apk"
+Write-Output "APK: $build\Lumi-English-1.4.apk"
 
