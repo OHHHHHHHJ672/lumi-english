@@ -9,8 +9,8 @@ main { padding-bottom: calc(var(--nav-height) + 18px + var(--safe-bottom)); }
 .lesson-shell { padding-bottom: calc(124px + var(--safe-bottom)); }
 .lesson-footer { padding-bottom: calc(10px + var(--safe-bottom)); }
 .route-checkpoint { margin: 8px 0 0 52px; padding: 8px 10px; display: inline-flex; align-items: center; gap: 6px; border-radius: 12px; background: #fff6dc; color: #9a6a16; font-size: 11px; box-shadow: 0 4px 12px rgba(154,106,22,.09); }
-.route-checkpoint span { color: #e6a62f; font-size: 15px; }
-.route-checkpoint small { color: #a88750; }
+.route-checkpoint span { color: #8a6917; font-size: 15px; }
+.route-checkpoint small { color: #8a6917; }
 .route-checkpoint.passed { background: #e4faf3; color: #218f78; }
 .route-checkpoint.passed small { color: #4c9e8d; }
 @media (max-width: 370px) { :root { --nav-height: 68px; } .nav-item { min-height: 51px; font-size: 10px; } .nav-icon { width: 23px !important; height: 21px !important; } .nav-icon svg { width: 18px !important; height: 18px !important; } }

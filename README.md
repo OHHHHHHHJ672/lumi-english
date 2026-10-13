@@ -32,6 +32,14 @@
 
 完整功能说明见 **[docs/USAGE.md](docs/USAGE.md)**。
 
+## 界面预览
+
+| 学习舱 | 复习舱 | 个人舱 |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/cabin-home.png" width="228" alt="学习舱：今日任务卡、三项挑战、学习目标与路线图"> | <img src="docs/screenshots/cabin-practice.png" width="228" alt="复习舱：错题回顾与快速练习入口"> | <img src="docs/screenshots/cabin-profile.png" width="228" alt="个人舱：等级卡、积分商店与成就徽章"> |
+
+界面配色遵循 WCAG AA 正文对比度（≥ 4.5:1），深色 hero 与浅色内容区交替，路线图上的完成、当前与锁定状态各自保持独立配色。
+
 ## 安装与首次启动
 
 1. 从 Releases 下载 APK 并在手机上安装。
