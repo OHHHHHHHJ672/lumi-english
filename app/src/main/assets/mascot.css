@@ -250,7 +250,7 @@ body { background: var(--lumi-bg); color: var(--lumi-ink); }
 .feedback.good { background: linear-gradient(135deg, rgba(82,215,180,.15), rgba(82,215,180,.05)) !important; border: 2px solid rgba(82,215,180,.4) !important; }
 .feedback.bad { background: linear-gradient(135deg, rgba(255,142,116,.15), rgba(255,142,116,.05)) !important; border: 2px solid rgba(255,142,116,.4) !important; }
 .feedback .feedback-mark { width: 36px !important; height: 36px !important; border-radius: 50% !important; display: grid !important; place-items: center !important; font-size: 20px !important; font-weight: 900 !important; flex-shrink: 0 !important; }
-.feedback.good .feedback-mark { background: #39b995; color: white; }
+.feedback.good .feedback-mark { background: #12705c; color: white; }
 .feedback.bad .feedback-mark { background: #a8412a; color: white; }
 .feedback-body strong { font-size: 15px !important; font-weight: 800 !important; }
 .feedback-body small { font-size: 12px !important; line-height: 1.5 !important; }
